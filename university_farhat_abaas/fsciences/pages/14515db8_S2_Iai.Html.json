@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_INFORMATIQUE/S2-IAI.html",
+      "title": "S2 Iai.Html",
+      "id": "14515db8",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:07",
+      "hash": "43a5a1c68353d71b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Introduction à l'intelligence artificielle\nSemestre :\n2  |\nUE :\nUEM21  |\nCrédits :\n2  |\nCoefficient :\n1\nObjectifs de l'enseignement\nCe module a pour vocation de démystifier l'IA, stimuler la curiosité et initier à son utilisation concrète et propre dans un cadre académique. Il vise à offrir une découverte accessible, concrète et stimulante de l'IA, en combinant des apports théoriques et des activités pratiques orientées vers les usages académiques.\nÀ la fin du cours, l'étudiant sera capable de :\nComprendre les principes fondamentaux de l'intelligence artificielle\nIdentifier les domaines d'application de l'IA dans la vie courante et dans les études universitaires\nDiscuter les enjeux éthiques, sociaux et économiques de l'IA\nUtiliser quelques outils pratiques d'IA pour améliorer les activités scientifiques\nConnaissances préalables recommandées\nAucune.\nContenu de la matière\nChapitre 1 : Définitions de l'IA\nDéfinition simple et historique\nDifférences entre IA faible, forte, symbolique et connexionniste\nExemples concrets d'IA dans le quotidien\nDomaines de l'IA :\nApprentissage automatique, traitement du langage naturel, vision par ordinateur, robots\nApplications : médecine, transport, éducation, industrie\nChapitre 2 : Avantages et risques de l'IA\nAvantages de l'IA\nRisques de l'IA\nChapitre 3 : IA pour la recherche documentaire\nPrésentation d'outils comme Elicit, Scopus AI, Web of Science Research Assistant\nRédaction de requêtes intelligentes\nRésumé automatique d'articles scientifiques\nÉvaluation critique de sources proposées par IA\nChapitre 4 : IA pour la gestion du temps et des tâches\nOrganisation personnelle (Notion AI, Google Calendar avec IA)\nGénération de to-do lists, création de plans de cours ou de révision\nChapitre 5 : IA pour la rédaction scientifique\nAide à la structuration de devoirs, projets\nReformulation, amélioration de style\nAttention au plagiat et à l'originalité\nTraduction et rédaction multilingue\nChapitre 6 : IA et créativité académique\nGénération d'idées de projets\nBrainstorming assisté par IA\nCréation de présentations ou posters scientifiques\nMode d'évaluation\nExamen (60%), Contrôle continu (40%)\nBibliographie\nCours en ligne :\nElements of AI (Université d'Helsinki) – Introduction accessible à l'IA.\nObjectif IA (OpenClassrooms) – Cours pour tous sur les enjeux de l'IA.\nGuides pratiques :\nBibliothèque de l'Université Laval – Utilisation des outils d'IA en recherche documentaire.\nPolytechnique Montréal – Outils d'IA générative en milieu universitaire."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

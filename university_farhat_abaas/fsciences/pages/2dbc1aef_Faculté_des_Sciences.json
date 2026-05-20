@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/8938",
+      "title": "Faculté des Sciences",
+      "id": "2dbc1aef",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:28:59",
+      "hash": "1f2956e70cba6fcc",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nCALENDRIER DES ECHÉANCES PÉDAGOGIQUES S2\nMise à jour"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Calendrier Pedago S2",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6435/Calendrier_Pedago_S2.pdf",
+        "local_file": "pdfs/2dbc1aef_Calendrier_Pedago_S2.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-AC.html",
+      "title": "Cs Ac.Html",
+      "id": "05f26136",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:32",
+      "hash": "8085d99e4b28f639",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nThis course is intended for students pursuing a career in fields related to cyber-security. Since cryptography is present in everyday life (using smartphones, sending messages, paying with a credit card, ....), this course will cover classical cryptography algorithms, Symmetric and asymmetric cryptography, hash functions, digital signatures and other fundamental cryptographic protocols.\nContenu de la matière\nIntroduction and terminology\nMathematical background\na. GCD, Modulo, Modular inverse,\nCryptographic protocols\nSymmetric cryptography:\nCesar, Vigenere, Substitution, Hill, Affine, ...\nPublic-key cryptography: RSA, Elgamal, ...\nHybrid cryptography\nHash functions:\nMD4, MD5, SHA-1, ...\nCryptanalyse: Brute force attack, Frequency analysis\nKey exchange Algorithms a. Diffie-Hellman\nb. Shamir’s Three-pass protocol\nDigital signature\nBlockChain and cryptography\nMode d’évaluation : Contrôle continu, examen\nRéférences\n”Handbook of applied cryptography”. Menezes Alfred J., Paul C. Van Oorschot and Scott A. Vanstone. CRC press, 2018.\n”Applied cryptography: protocols, algorithms, and source code in C”. Schneier Bruce. 1996."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

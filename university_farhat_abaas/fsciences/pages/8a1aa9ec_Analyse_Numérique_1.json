@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S4-ANNUM.html",
+      "title": "Analyse Numérique 1",
+      "id": "8a1aa9ec",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:22",
+      "hash": "58485a532adceeb3",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Analyse Numérique 1\nSemestre :\n4  |\nUE :\nMéthodologie  |\nCrédits :\n3  |\nCoefficient :\n2\nObjectifs de l'enseignement\nCet enseignement sert de boîte à outils numériques qui permettra au futur physicien expérimentateur et numéricien d'aborder toutes les problématiques réelles dont la solution est analytiquement inaccessible.\nConnaissances préalables recommandées\nNotions d'Analyse Mathématique et de Calcul Approché enseignées en première et deuxième année Licence respectivement.\nContenu de la matière\nI. Le calcul numérique et analyse d'erreur\nModélisation et sources d'erreur.\nEstimation de l'erreur de calcul - Représentation des nombres - Erreurs absolue et relative - Les chiffres significatifs et l'arrondi - Les chiffres significatifs exacts - Propagation des erreurs lors des opérations arithmétiques.\nCodage des nombres sur ordinateur - Erreur de représentation (arrondi) - Quelques valeurs particulières.\nArithmétique numérique - Les opérations élémentaires sur machine - Propriétés des opérations sur les flottants - Conséquences des erreurs et de leur propagation - Quelques solutions.\nÉvaluer la qualité d'un calcul numérique - Conditionnement d'une fonction - Stabilité d'un calcul numérique.\nConvergence d'un processus itératif.\nII. Résolution de f(x) = 0\nPosition du problème\nEstimation de la solution approchée\nRésolution par les méthodes itératives - Convergence d'une méthode itérative - Vitesse de convergence d'une méthode itérative\nRésolution par la méthode de la bissection - Théorème des valeurs intermédiaires - Principe de la méthode - Convergence de la méthode\nMéthode du point fixe - Théorème du point fixe - Principe de la méthode - Convergence de la méthode.\nRésolution par la méthode de Newton – Le développement en série de Taylor - Principe de la méthode - Convergence de la méthode.\nRésolution par la méthode de la sécante - Principe de la méthode - Convergence.\nIII. Interpolation et approximation polynômiales\nPosition du problème de l'interpolation\nInterpolation de Lagrange - Le polynôme d'interpolation dans la base de Lagrange - L'erreur d'interpolation\nInterpolation de Newton - Le polynôme d'interpolation dans la base de Newton\nCas particulier de points équidistants - Différences Finies progressives : Grégory-Newton progressive - Différences Finies régressives : Grégory-Newton régressive - Différences Finies Centrées : Gauss\nPolynômes orthogonaux – Legendre - Laguerre - Hermite – Tchebychev\nApproximation au sens des moindres carrés.\nMode d'évaluation\nContrôle continu : 50%\nExamen : 50%\nRéférences bibliographiques\nA. Gourdin et al,\nMéthodes numériques appliquées\n, Lavoisier, 1989.\nA. Ralston et al,\nA first course in numerical analysis\n, Grenoble, 1991.\nM. Sibony et J. Mardon,\nAnalyse numérique I : systèmes linéaires et non linéaires\n, Hermann, 1982.\nM. Sibony,\nAnalyse numérique III : Itérations et approximations\n, Hermann, 1988.\nP. Lascaux et R. Theodor,\nAnalyse numérique matricielle appliquée à l'art de l'ingénieur : Méthodes directes\n, Tome 1 et 2, Masson, 1994."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

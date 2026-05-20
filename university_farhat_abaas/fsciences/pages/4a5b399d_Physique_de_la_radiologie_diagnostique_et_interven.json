@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S2-PRDI2.html",
+      "title": "Physique de la radiologie diagnostique et interventionnelle II",
+      "id": "4a5b399d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:48",
+      "hash": "d363c5730d209133",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nFondamentale (UEF 2)  |\nCrédits :\n6  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs pédagogiques\nMaîtrise des principes physiques de production d'images médicales (imagerie à rayons X, IRM et échographie).\nAcquisition des outils nécessaires au contrôle qualité en imagerie médicale.\nCe cours permettra à l'étudiant de maîtriser les principes physiques de la tomodensitométrie et de la tomographie par résonance magnétique nucléaire ainsi que les principes de fonctionnement des machines utilisées et les rôles de leurs différentes parties.\nMaîtrise des principes physiques et des méthodes de production d'images en échographie.\nContrôle qualité en imagerie médicale.\nContenu de l'unité\n1- IRM\nPhysique de l'IRM\nFormation d'images IRM\nRésonance magnétique nucléaire (RMN) et IRM\nMagnétisme, spins et génération de signaux RMN ; relaxation de l'écho de spin T1 et T2\nSpectroscopie RMN\nImagerie et reconstruction IRM\nTransfert de magnétisation\nMatériel IRM\nFormalisme de l'espace k, transformée de Fourier rapide (FFT) et formation d'images (IRM) ; échos de gradient\nImagerie rapide (imagerie écho-planaire (EPI), remplissage de l'espace k, imagerie parallèle)\nInstrumentation IRM\nMéthodes IRM\nContraste et qualité d'image IRM\nSécurité\n2- La qualité de diagnostique en radiologie\nApplications cliniques et artefacts\nImagerie bimodale et multimodale\nPrincipes de gestion de la qualité en radiologie\nTravaux pratiques\nPhysique de la radiologie interventionnelle et diagnostique\nDépendance de la sortie du tube à rayons X par rapport à la HVL, à la tension du tube, au courant du tube, au temps d'exposition, à la filtration du faisceau et à la distance\nÉvaluation de la qualité de l'image (contraste, résolution, fonction de transfert de modulation)\nRéférences bibliographiques\nINTERNATIONAL ATOMIC ENERGY AGENCY, Diagnostic Radiology Physics: A Handbook for Teachers and Students, IAEA, Vienna (2014).\nBUSHBERG, J.T., SEIBERT, J. A., LEIDHOLDT Jr, E.M. and BOONE, J. M., The Essential Physics of Medical Imaging, Wolters Kluwer, Philadelphia (2021).\nDENDY, P.P., HEATON, B., Physics for Diagnostic Radiology, CRC Press, USA (2011).\nSAMEI, E., PECK, D., Hendee's Physics of Medical Imaging, Wiley-Liss, New York (2019).\nSPRAWLS, P., Physical Principles of Medical Imaging, Medical Physics Pub Corp, Madison (1993).\nINTERNATIONAL ATOMIC ENERGY AGENCY, Radiation Protection and Safety in Medical Uses of Ionizing Radiation: Specific Safety Guide No. SSG46, IAEA, Vienna (2018)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

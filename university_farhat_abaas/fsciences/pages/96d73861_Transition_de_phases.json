@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S2-TP.html",
+      "title": "Transition de phases",
+      "id": "96d73861",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:04",
+      "hash": "1a301d80def8b26c",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Transition de phases\nSemestre 2 – UE Découverte\nMode d'évaluation :\nContinu 100%\nObjectifs de l’enseignement\nÀ la fin du cours, l’étudiant sera capable de :\nComprendre les principes physiques fondamentaux des transitions de phases dans les matériaux énergétiques.\nAnalyser les phénomènes thermodynamiques et cinétiques associés aux changements d’état.\nAppliquer ces connaissances aux systèmes liés aux énergies renouvelables (stockage thermique, matériaux à changement de phase, etc.).\nConnaissances préalables recommandées\nUne bonne maîtrise des bases de la thermodynamique, notamment les concepts de premier et second\nprincipes, entropie, enthalpie et équilibre des phases. Des notions en physique statistique et en chimie\nphysique des matériaux sont également utiles pour aborder les mécanismes et modèles de transitions de\nphase.\nContenu de la matière :\n1. Introduction aux transitions de phases (2 semaines)\nDéfinitions et classification des transitions de phases (premier ordre, second ordre).\nConcepts thermodynamiques fondamentaux : énergie libre de Gibbs, enthalpie, entropie.\nDiagrammes de phases : lecture et interprétation.\nCritères d’équilibre et conditions de coexistence des phases.\n2. Thermodynamique des transitions de phases (3 semaines)\nRelations fondamentales et équations d’état.\nPotentiels thermodynamiques et variables d’état.\nModèles de transition : coexistence, métastabilité, surchauffe et surfusion.\nPhénomènes associés : chaleur latente, hystérésis, nucléation et croissance.\n3. Cinétique des transitions de phases (2 semaines)\nMécanismes cinétiques : nucléation homogène et hétérogène.\nThéories de la cinétique de transformation (classique, approches modernes).\nInfluence de la taille, de la surface, des défauts.\nTechniques expérimentales d’étude cinétique (DSC, calorimétrie, microscopie).\n4. Matériaux à changement de phase (PCM) et applications énergétiques (3 semaines)\nPrincipe des matériaux à changement de phase pour le stockage d’énergie thermique.\nClasses de matériaux PCM : organiques, inorganiques, hybrides.\nPropriétés thermophysiques importantes (capacité, enthalpie, conductivité thermique).\nMéthodes d’intégration des PCM dans les systèmes solaires, climatisation, bâtiment, etc.\nModélisation du stockage thermique à base de PCM.\n5. Transitions de phase dans les matériaux énergétiques avancés (3 semaines)\nTransitions dans les matériaux pour batteries, supercondensateurs et piles à combustible.\nTransitions magnétiques et ferroélectriques pour le stockage d’énergie.\nMatériaux à changement d’état pour la conversion thermique (thermoélectriques…).\n6. Modélisation numérique et simulations (2 semaines)\nApproches de modélisation thermodynamique et cinétique.\nMéthodes numériques : éléments finis, réseaux de neurones, simulations Monte-Carlo.\nÉtude de cas : modélisation d’un système intégrant PCM.\nRéférences\n[1] P. G. de Gennes, F. Brochard-Wyart, D. Quéré; Capillarity and Wetting Phenomena: Drops, Bubbles,\nPearls, Waves, Springer, 2004.\n[2] M. D. Neto, A. Cunha, L. F. Cabeza; Phase Change Materials — Thermal Energy Storage for\nSustainable Energy Consumption, Elsevier, 2015.\n[3] J. S. Langer; Lectures in the Theory of Pattern Formation and Phase Transitions, Elsevier, 1987.\n[4] D. R. Gaskell; Introduction to the Thermodynamics of Materials, 5th Edition, Taylor & Francis, 2003."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

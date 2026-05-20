@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/MCE.html",
+      "title": "Guide pédagogique",
+      "id": "e4644e96",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:29",
+      "hash": "2865c5048db4d648",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Aperçu sur ce master :\nL’objectif principal de cette spécialité consiste à\ngarantir une acquisition des bases de connaissances et de compétences dans le\ndomaine de la chimie de l’environnement. Au final les étudiants seront capables\n:\n-D’assurer le dimensionnement, le suivi analytique et\nla conduite des ouvrages conventionnels de traitements des effluents ou de\ndépollution des sols.\n-D’analyser les risques industriels de\nl’entreprise et d’émettre les prescriptions et recommandations nécessaires\nen matière de prévention des risques.\n-D’assurer au niveau d’une entreprise ou d’une\ncollectivité la gestion des déchets.\nResponsable :  Dr S. ISSADI           issaadi-s@univ-setif.dz"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/e4644e96_table_1_SEMESTRE_1.json",
+        "rows": 13
+      },
+      {
+        "file": "tables/e4644e96_table_2_SEMESTRE_2.json",
+        "rows": 12
+      },
+      {
+        "file": "tables/e4644e96_table_3_SEMESTRE_3.json",
+        "rows": 13
+      },
+      {
+        "file": "tables/e4644e96_table_4_SEMESTRE_4.json",
+        "rows": 3
+      }
+    ]
+  }
+}

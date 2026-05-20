@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S3-CSC.html",
+      "title": "Cryptography and Computer Security",
+      "id": "82d2ad2b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:54",
+      "hash": "59af0d84460d68d1",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nCryptography and Computer Security  |\nSemester:\n3  |\nType:\nUEF32\nVHS:\n84h  |\nWeekly hours:\n6h  |\nLectures:\n3h  |\nTD:\n1h30  |\nTP:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nIntroduce students to the fundamental principles of computer security and cryptography\nMaster data protection techniques (encryption, authentication, firewalls, IDS/IPS, etc.)\nRaise awareness of threats, attacks and best practices for securing systems and networks\nRecommended Prerequisites\nNotions of computer networks and computer systems\nCourse Content (Lectures: 21h)\nChapter 1: Computer Security Fundamentals\nDefinitions and challenges of computer security\nChapter 2: Introduction to Cryptography\nCryptography objectives\nSymmetric/asymmetric cryptography\nCryptographic hash functions\nElectronic signature: general principles\nBasic concepts in key management\nStandards overview (AES, RSA, SHA, etc.)\nChapter 3: Advanced Encryption Methods\nOne-way functions\nRSA method and integer factorization\nDiscrete logarithm and ElGamal cryptosystem\nKnapsack problem\nError-correcting codes and McEliece cryptosystem\nElliptic curves and ECC cryptosystems\nSecret sharing (Shamir, etc.)\nImage encryption\nCopyright protection\nNew trends in cryptography\nIntroduction to cryptanalysis\nChapter 4: Authentication and Integrity\nAuthentication protocol principles\nAuthentication techniques\nDigital signature and certificates\nPublic key signatures\nFile security: integrity, access, confidentiality\nExamples and algorithms (HMAC, RSA-Sign, etc.)\nChapter 5: Virology and Software Security\nIntroduction to computer virology\nReplication and propagation techniques\nMalware typologies (viruses, worms, Trojans, ransomware...)\nProtection and prevention methods\nAntivirus products: typologies and functionalities\nIntroduction to malware analysis\nChapter 6: Network Security and Firewalls\nFirewall technologies\nFirewall placement and role in a network\nSecurity policy and rule configuration\nIntroduction to IDS/IPS\nPractical firewall configuration example\nChapter 7: Network Security Infrastructure and Policies\nNetwork security infrastructure: firewalls, WAF, proxy, NAC, servers, IDPS, DMZ, VPN\nNetwork security policies: Zero Trust, SIEM, IDS/IPS, access security, vulnerability management, audit, compliance, user awareness\nAssessment\nExam: 60%\nContinuous assessment: 40%\nBibliographic References\nLaurent Bloch, Christophe Wolfhugel, \"Sécurité Informatique: Principes et Méthode\", Eyrolles 2007.\nHans Delfs, Helmut Knebl, \"Introduction to Cryptography: Principles and Applications\", 2nd Edition, Springer 2007.\nStallings, W., Cryptography and Network Security: Principles and Practice, 7th ed. Pearson (2016).\nA. Menezes, P. van Oorschot, and S. Vanstone, Handbook of Applied Cryptography, CRC Press (1996).\nIreland & Rosen, A Classical Introduction to Modern Number Theory, Springer.\nKoblitz, A Course in Number Theory and Cryptography, Springer, 1994.\nBlake, Seroussi et Smart, Elliptic Curves in Cryptography, Springer.\nTakanori Isobe, Santanu Sarkar, Progress in Cryptology, Springer International Publishing, 2022.\nW. Stallings. \"Computer Security: Principles and Practice\". Prentice Hall. 2011.\nDidier Müller. Les Codes secrets décryptés. City Editions, 2007.\nRenaud Dumont: Cryptographie et Sécurité informatique. Université de Liège 2010.\nTouradj Ebrahimi, Franck Leprévost, Bertrand Warusfel, Cryptographie et sécurité des systèmes et réseaux, Hermès - Lavoisier 2006.\nM. T. Goodrich, R. Tamassia. \"Introduction to Computer Security\". Pearson, 2010.\nG. Avoine, P. Junod, P. Oechslin. \"Sécurité Informatique\". Vuibert. 2010."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

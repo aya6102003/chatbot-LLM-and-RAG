@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/DSAI.html",
+      "title": "Dsai.Html",
+      "id": "149f6f19",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:35",
+      "hash": "fcb4d0c58a094039",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nData Science and Artificial Intelligence (DSAI) — Semester 5, Unit UFC5, Credits: 5, Coeff: 3\nPrerequisite Knowledge\nProgramming in Python, basic statistics.\nCourse Objectives\nStudents should master the complete process of data science, from data collection to advanced data analysis. They will learn to apply machine learning and deep learning techniques in practical projects while considering the ethical aspects related to the use of AI.\nCourse Content\nChapter 1:\nIntroduction to Data Science: Definition, process.\nChapter 2:\nData Cleaning and Preparation: Handling missing data, normalization.\nChapter 3:\nData Exploration and Statistics: Exploratory analysis, correlation vs. causation.\nChapter 4:\nAdvanced Machine Learning: Complex predictive models, validation.\nChapter 5:\nDeep Learning Techniques: Concepts and applications.\nChapter 6:\nAI and Ethics in Data Science: Ethical issues, regulatory frameworks.\nChapter 7:\nData Science Project: Implementing a project, communicating results.\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\nReference books on data science, documentation for AI frameworks such as TensorFlow and PyTorch, online case studies."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

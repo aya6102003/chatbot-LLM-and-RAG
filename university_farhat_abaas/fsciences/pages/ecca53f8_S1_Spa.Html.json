@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S1-SPA.html",
+      "title": "S1 Spa.Html",
+      "id": "ecca53f8",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:46",
+      "hash": "b7853a8f0ef7eef5",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Advanced Statistics and Probability\nSemester:\n1  |\nType:\nUEF12  |\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLecture:\n1h30  |\nTutorial:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nUnderstand the probabilistic foundations for data analysis\nMaster statistical modelling tools\nKnow how to apply hypothesis tests and construct confidence intervals\nBe able to model uncertainty and interpret statistical results\nCourse Content (21h)\nChapter 1 – Foundations of Probability\nProbability spaces\nDiscrete random variables\nContinuous random variables\nRandom vectors and independence\nChapter 2 – Convergence and Limit Theorems\nCharacteristic functions\nLaw of large numbers\nCentral limit theorem\nChapter 3 – Inferential Statistics\nEstimators and properties\nConfidence intervals\nStatistical hypothesis testing\nChapter 4 – Simulation and Applications\nSimulation of random variables\nResampling methods (bootstrap)\nMonte Carlo method\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — tests, personal work\nBibliography\nLecoutre B., Tassi Ph. (1987).\nStatistique non paramétrique et robustesse\n. Paris: Economica.\nTassi Ph. (1989).\nMéthodes statistiques\n. Paris: Economica.\nTassi Ph., Legait S. (1990).\nThéorie des probabilités en vue des applications statistiques\n. Paris: Ed. Technip.\nSaporta, G.\nProbabilités, Analyse des données et Statistique\n. Technip, 2ème édition.\nJean-Pierre Lecoutre.\nStatistique et probabilités\n. Editions Dunod, 2012.\nYadolah Dodge, Valentin Rousson.\nAnalyse de régression appliquée\n. Editions Dunod."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

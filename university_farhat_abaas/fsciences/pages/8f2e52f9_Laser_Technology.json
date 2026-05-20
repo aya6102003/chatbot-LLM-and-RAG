@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S2-TECH.html",
+      "title": "Laser Technology",
+      "id": "8f2e52f9",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:00",
+      "hash": "51dc7fded1180598",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nMéthodologie (UEM 2)  |\nCrédits :\n2  |\nCoefficient :\n1\nMode d'évaluation :\nExamen : 100%\nObjectifs de l'enseignement\nCe module est une description des différents types de lasers et des techniques de pompage et détection appropriées pour chaque laser. C'est aussi une revue détaillée des différents composants qui interviennent soit dans la réalisation des milieux lasers, soit dans la détection des signaux qu'ils délivrent, soit dans les méthodes d'excitation ou les méthodes de modulation.\nContenu de la matière\nChapitre 1 :\nRappels des propriétés des lasers\nChapitre 2 : Les différents types de lasers\nLes lasers à gaz (techniques du vide)\nLes lasers à vapeurs métalliques\nLes lasers solides\nLes lasers à colorants\nLes lasers à semi-conducteurs\nLes lasers à électrons libres\nLes micros lasers\nLes nano lasers\nChapitre 3 : Les méthodes de pompage des différents types de laser\nTechniques de pompage (optique, électrique), efficacité\nEtude comparative de techniques de pompage\nChapitre 4 :\nLes détecteurs\nChapitre 5 :\nLes différents dispositifs de modulation\nChapitre 6 :\nLes différentes méthodes de détection\nChapitre 7 :\nFabrication des diodes lasers\nChapitre 8 :\nSécurité laser et normes\nRéférences bibliographiques\nN. Karlov, Leçons d'électronique quantique, Edition MIR (Moscou)\nD. Dabgoisse, Lasers, DUNOD, 2ième Edition (2004)\nA. Yariv, Quantum electronics, Edition Wiley, 2ième Edition, 1995\nW. Koechner, Solid States laser engineering, Springer Verlag, 4ième Edition, 1999\nC. Rullière, Femtosecond Laser pulse, Springer Verlag, 1998\nTechniques du vide, Revue techniques de l'ingénieur\nA. K. Levine and De Maria, Laser, Vol 3, Edition Marcel Dekker INC, 1971"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

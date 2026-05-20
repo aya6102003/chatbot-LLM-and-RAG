@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S3-ESTG.html",
+      "title": "Énergie solaire thermique et géothermie",
+      "id": "8f0cc019",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:04",
+      "hash": "5cbbda04f2180289",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Énergie solaire thermique et géothermie\nSemestre 3 – UE Fondamentale\nMode d'évaluation :\nContinu 33% / 67%\nObjectifs de l’enseignement :\nCe module vise à former les apprenants aux technologies solaires thermiques (basse et haute température)\net à la géothermie, en couvrant leurs principes physiques, leur modélisation, leur dimensionnement et leurs\napplications industrielles et énergétiques. Il intègre également les enjeux économiques et\nenvironnementaux pour préparer à concevoir, optimiser et intégrer ces solutions dans les réseaux\nénergétiques de demain\nConnaissances préalables recommandées :\nNotions fondamentales en thermodynamique (premier et deuxième principe, enthalpie, entropie)\nBases en transfert de chaleur (conduction, convection, rayonnement)\nContenu de la matière :\n1. Énergie solaire thermique à basse température (2 semaines)\nIntroduction générale\nLes différents capteurs solaires à basse température\nCapteurs sans vitrage - Capteurs avec vitrage (capteurs sous vide)\nApplications du solaire thermique basse température\nFroid solaire - Chauffage solaire - Cuisson solaire - Séchage solaire\n2. Modélisation et dimensionnement d’un capteur plan (3 semaines)\nÉléments fondamentaux d’un capteur solaire plan\nBilan thermique et modélisation d’un capteur solaire\nDimensionnement d’un capteur solaire plan\n3. Énergie solaire thermique à concentration (haute température) (3 semaines)\nIntroduction aux centrales CSP (Concentrated Solar Power)\nPrincipes et composants des centrales CSP\nCapteurs paraboliques cylindriques - Centrales à tour - Centrales à capteurs linéaires\nDifférentes filières de production thermodynamique\nApplications à haute température : production d’électricité, dessalement de l'eau, applications industrielles à haute température.\nComparaison des technologies de concentration solaire : avantages, inconvénients et performances\n4. Énergie géothermique (3 semaines)\nIntroduction à l’énergie géothermique\nTypologie des ressources géothermiques : Haute énergie - Moyenne énergie -Basse énergie\nTechniques d'exploitation : Forages géothermiques - Échangeurs thermiques -Pompes à chaleur géothermiques\nApplications : Production d’électricité - Chauffage urbain, serres agricoles -\nAspects environnementaux et économiques\n5. Systèmes Géothermiques et Applications Industrielles (3 semaines)\nSystèmes géothermiques à basse température : pompes à chaleur géothermiques, chauffage et climatisation.\nSystèmes géothermiques à haute température : production d’électricité, applications industrielles.\nIntégration de la géothermie dans des processus industriels.\nRéférences :\n[1] Garg, H.P., & Prakash, J. Solar Energy: Fundamentals and Applications. Tata McGraw-Hill, 1985.\n[2] Tiwari, G.N. Solar Energy: Fundamentals, Design, Modeling and Applications. Narosa Publishing\nHouse, 2002.\n[3] Lovegrove, Keith, & Stein, Wes. Concentrating Solar Power Technology: Principles, Developments\nand Applications. Woodhead Publishing, 2012.\n[4] Larmine, J., & Dicks, A. Fuel Cell Systems Explained. Wiley, 2003. (plus pertinent si tu abordes\nbrièvement le stockage hybride, sinon à retirer)\n[5] Rybach, Ladislaus, & Muffler, Patrick. Geothermal Systems: Principles and Case Histories. Wiley,\n1981."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/IQ/18.html",
+      "title": "18.Html",
+      "id": "5fb84ce1",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:36",
+      "hash": "07ede94fd3bcd1f9",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI.   Quantum Mechanics Fundamentals\nII.  Quantum Circuits, Quantum Information Processing (QIP), Quantum Algorithms\nIII. Quantum Error-Correction Codes (QECCs)\nIV. Quantum Information Theory\nV.  Quantum Key distribution (QKD)\nVI. Physical Realization of QIP, Encoders and Decoders\nVII.    Fault-Tolerant QECC and Fault-tolerant QIP"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

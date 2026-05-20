@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/IQ/15.html",
+      "title": "15.Html",
+      "id": "8be05a72",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:35",
+      "hash": "783d032a2016d1e1",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI.    The spin of quantum particles and emergence of spintronics.\nII.  Quantum mechanical description of spin-1/2.\nIII.  Bloch sphere concept.\nIV. Various spin-orbit couplings in solids.\nV.  Spin relaxation and spin transport in solids.\nVI. Spin transfer torques and spin injection.\nVII.     Basics of quantum computing with spins.\nVIII.    Non-Hermitian system in spintronics."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

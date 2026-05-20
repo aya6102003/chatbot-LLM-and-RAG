@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-EHSD.html",
+      "title": "Cs Ehsd.Html",
+      "id": "7093338c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:55:00",
+      "hash": "98b79ba2ea7d4eea",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nThis course will teach students the principles of hacking and how to become an ethical hacker. The lesson focuses on the attack system's code of conduct and ethics. The criminal hacker's thinking and evolution are also covered in the course. Students also receive a basic grasp and education on the factors of compromising computer systems in order to protect them from criminals. Only ethical hacking is taught in the course, which provides a clear distinction between illegal and ethical hacking.\nContenu de la matière\nChapter 1: Introduction and Ethics\n• Ethical Hacking\n• Ethics\n• Engagements and Reports\nChapter 2: Reconnaissance\n• OSINT\n• Passive vs Active recon • Common tools for recon\nChapter 3: Google Hacking and Doxing\n• Google Hacking\n• Doxing Introduction\nChapter 4: Social Engineering\n• Human Tendencies\n• Social Engineering\n• Social Engineering Toolkit\nChapter 5: Scanning\n• Scanning Process • Ping sweep\n• Port Scans\n• Nmap\nChapter 6: Exploitation\n• Understanding exploitation • Buffer overflows\n• Exploitation Frameworks\nLabs: Kaly Linux\nMode d’évaluation : Contrôle continu, examen Références\n• The Basics of Hacking and Penetration Testing: Ethical Hacking and Penetration Testing Made Easy 2nd Edition\n• Penetration Testing: A Hands-On Introduction to Hacking"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

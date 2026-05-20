@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L3/S5-LOS.html",
+      "title": "Logiciels libres et open source",
+      "id": "9e325b77",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:26",
+      "hash": "5fb2c9f7c54ec7bb",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Logiciels libres et open source\nSemestre :\n5  |\nUnité d'enseignement :\nDécouverte\nObjectifs de l'enseignement\nCe cours a pour objectif de doter les étudiants de compétences numériques avancées à travers la maîtrise des outils libres et open source, aujourd'hui indispensables dans les environnements professionnels et académiques. Il s'articule autour d'une approche pratique visant à former les futurs chercheurs et professionnels à l'utilisation efficace de ces solutions pour résoudre des problématiques complexes.\nConnaissances préalables recommandées\nUne maîtrise des outils informatiques de base (suites bureautiques, logiciels de gestion de projet et plateformes collaboratives) est recommandée pour suivre ce cours dans les meilleures conditions.\nContenu de la matière\nIntroduction aux Logiciels Libres\nDéfinitions clés : libre, open source, propriétaire\nHistorique (Stallman, GNU, Linux)\nLes 4 libertés fondamentales\nPanorama des Licences\nPrincipales familles (GPL, MIT, Apache)\nCas pratiques : choisir une licence pour son projet\nOutils Open Source Essentiels\nComparatif : alternatives libres aux logiciels propriétaires\nDécouverte de Linux (Ubuntu) et des suites bureautiques libres\nContribution aux Projets Libres\nFonctionnement des communautés open source\nPremiers pas sur GitHub/GitLab\nEnjeux Contemporains\nSécurité et vie privée\nLogiciels libres en entreprise\nTendances futures (IA open source, cloud)\nMode d'évaluation\nExamen : 100%\nRéférences bibliographiques\nWilliams, Sam. Free as in Freedom: Richard Stallman's Crusade for Free Software. O'Reilly, 2002.\nStallman, Richard. Richard Stallman et la révolution du logiciel libre. Eyrolles, 2010.\nMouël, Françoise. L'économie du logiciel libre. CNRS Éditions, 2021.\nAPRIL. Guide du logiciel libre en entreprise. 2022, april.org.\nOpen Source Initiative. The OSI Licenses Overview. 2023, opensource.org/licenses."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

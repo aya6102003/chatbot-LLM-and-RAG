@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING2EME/ANAL3.html",
+      "title": "Anal3.Html",
+      "id": "e6521c9e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:57",
+      "hash": "fce59f770746d86e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI- Les Int�grales Param�tr�es\nInt�grales au sens de Riemann d�pendant d\u0019un param�tre.\nInt�grales g�n�ralis�es d�pendant d\u0019un param�tre.\nII- La Transform�e de Laplace\nD�finitions, propri�t�s de la T.L.\nLa T.L inverse et propri�t�s.\nApplication des T.L � la r�solution des �quations diff�rentielles.\nIII- La Transform�e de Fourier\nUn peu d\u0019analyse complexe .\nD�finitions, propri�t�s de la T.F.\nTh�or�me de r�ciprocit� de Fourier.\nProduit de convolution\nIV- El�ments de Topologie\nDistances et espaces m�triques.\nEspaces vectoriels n\nBoule, voisinage, ouverts et ferm�\nNotion de Topologie.\nInt�rieur, adh�rence, fronti�re d\u0019un ensemble.\nCas des espaces IRm.\nV- Les notions de Limite et Continuit� des fonctions de IRm vers IRn, pour m=2,3 et n=1, 2,3\nLimite et Continuit� des fonctions de IRm vers IR.\nLimite et Continuit� des fonctions de IRm vers IRn.\nPropri�t�s.\nVI- Diff�rentiabilit� des fonctions � plusieurs variables r�elles\nD�riv�es partielles et th�or�me de Schwarz\nDiff�rentiabilit� et propri�t�s, les fonctions implicites.\nFormule de Taylor.\nFormes diff�rentielles et notion de diff�rentielle ext�rieure.\nVII-Optimisation avec ou sans contraintes"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

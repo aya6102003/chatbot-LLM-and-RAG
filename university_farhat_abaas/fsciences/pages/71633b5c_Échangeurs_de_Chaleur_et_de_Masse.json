@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S1-ECM.html",
+      "title": "Échangeurs de Chaleur et de Masse",
+      "id": "71633b5c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:02",
+      "hash": "c5a0659dab97286b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Échangeurs de Chaleur et de Masse\nSemestre 1 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nObjectifs de l’enseignement\nÀ la fin du cours, l’étudiant doit être capable de :\nMaîtriser les principes fondamentaux des transferts de chaleur et de masse appliqués aux échangeurs.\nComprendre et modéliser les phénomènes de changement de phase dans les échangeurs.\nIntégrer les développements technologiques innovants et les enjeux énergétiques dans le choix des échangeurs.\nConnaissances préalables recommandées\nUne solide formation en transferts thermiques et en thermodynamique industrielle est attendue.\nDes notions sur les différents types d’échangeurs et leur dimensionnement sont nécessaires.\nContenu de la matière :\n1. Mécanismes de convection (4 semaines)\nConvection naturelle et convection forcée : mécanismes physiques et équations fondamentales.\nRégimes d’écoulement laminaire et turbulent — critères de transition, relations empiriques classiques et modernes (ex : correlations Dittus-Boelter, Gnielinski).\nInfluence de la géométrie : canalisations cylindriques et non cylindriques, films liquides et écoulements autour d’obstacles (cylindres, sphères).\nApplications industrielles : faisceaux tubulaires, calandres d’échangeurs multitubulaires.\nCouplage conduction-convection et convection combinée.\n2. Théorie et dimensionnement des échangeurs de chaleur (6 semaines)\nConfigurations hydrauliques : co-courant, contre-courant, multipasses.\nCoefficient global d’échange thermique — calcul et interprétation.\nMéthodes d’analyse : différence de température moyenne logarithmique (DTML), efficacité énergétique (NTU method).\nDimensionnement pratique des échangeurs multitubulaires.\nTechnologies avancées : échangeurs à plaques, spirales, échangeurs compactes.\nTransfert avec changement de phase : condensation (film laminaire vs turbulence), évaporation, transferts diphasiques.\nCritères de sélection en fonction des performances thermiques et des contraintes industrielles.\n3. Echangeurs de matière (5 semaines)\nPrincipes fondamentaux de la diffusion moléculaire et de la convection du transfert de masse.\nLois de continuité et coefficients de diffusion dans les fluides.\nTransferts en phase unique et entre phases distinctes (extraction liquide-liquide, absorption gaz- liquide).\nCalcul des coefficients de transfert de masse, analogie chaleur-masse (Nusselt, Sherwood, Prandtl, Schmidt).\nAnalyse des échangeurs de masse industriels et applications.\nIntroduction aux phénomènes transitoires et aux transferts multicouches.\nÉtude des systèmes couplés transfert thermique/masse.\nRéférences :\n[1] Incropera, F.P., DeWitt, D.P., Bergman, T.L., Lavine, A.S. Fundamentals of Heat and Mass Transfer,\n7th Edition, Wiley, 2017. (Référence incontournable et très complète sur les transferts de chaleur\net de masse)\n[2] Kakac, S., Liu, H., Pramuanjaroenkij, A. Heat Exchangers: Selection, Rating, and Thermal Design,\n3rd Edition, CRC Press, 2012. (Spécialiste des échangeurs avec des méthodes avancées de\ndimensionnement)\n[3] Holman, J.P. Heat Transfer, 10th Edition, McGraw-Hill, 2010. (Texte classique avec de nombreuses\napplications et exemples)\n[4] Cussler, E.L. Diffusion: Mass Transfer in Fluid Systems, 3rd Edition, Cambridge University Press,\n2009.\n(Référence majeure pour la diffusion et transfert de masse)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

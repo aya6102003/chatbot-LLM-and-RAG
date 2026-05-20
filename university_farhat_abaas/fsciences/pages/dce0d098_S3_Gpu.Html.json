@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S3-GPU.html",
+      "title": "S3 Gpu.Html",
+      "id": "dce0d098",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:50",
+      "hash": "b2a0e57fa22a3a44",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "GPU Computing\nSemester:\n3  |\nType:\nUEM3  |\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLecture:\n1h30  |\nLab:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n2  |\nCredits:\n4\nTeaching Objectives\nThis module enables students to understand GPU architecture and its use in AI, master the tools and techniques necessary for programming GPUs for AI, explore AI applications on GPUs, and understand how to optimise training and inference performance.\nCourse Content (21h)\nChapter 1 – Introduction to GPU Computing and AI\nRole of GPUs in AI\nBasic architecture (SM, warp, memory)\nCPU vs GPU comparison\nChapter 2 – GPU Programming and Optimisation\nCUDA / OpenCL programming model\nThreads, blocks, and grids\nOptimisation techniques (coalescing, asynchronous streams)\nProfiling and debugging (nvprof, Nsight)\nChapter 3 – Distributed GPU Computing\nData and model parallelism\nInter-GPU communication (PCIe, NVLink, NCCL)\nMPI + CUDA and GPU cluster orchestration\nChapter 4 – Multi-GPU AI Applications\nTraining CNNs and Transformers on multiple GPUs\nPractical case: ResNet50 / BERT benchmark\nPerformance analysis and tuning\nChapter 5 – Deployment, Security, and Reliability\nGPU containers (Docker, Kubernetes)\nCloud GPU (AWS, GCP, Azure)\nCheckpointing and fault tolerance\nData security and GPU isolation\nChapter 6 – Advanced Technical Aspects\nVideo memory management (global, shared, register)\nAtomic access and synchronisation\nAI libraries (cuDNN, TensorRT)\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — tests, personal work\nBibliography\nDavid B. Kirk & Wen-mei W. Hwu.\nProgramming Massively Parallel Processors: A Hands-on Approach\n.\nFrançois Chollet.\nDeep Learning with Python\n.\nNicholas Wilt.\nCUDA Handbook: A Comprehensive Guide to GPU Programming\n.\nNVIDIA.\nThe CUDA Toolkit Documentation\n(official documentation)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

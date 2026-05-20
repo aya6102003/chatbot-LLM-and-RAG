@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S3-LDPOS.html",
+      "title": "Logiciels de dimensionnement & programmes open source",
+      "id": "6a9f30e1",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:08",
+      "hash": "a7bf7c6850f64922",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Logiciels de dimensionnement & programmes open source\nSemestre 3 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nObjectifs de l’enseignement :\nCe module vise à former les étudiants à l’utilisation de logiciels de dimensionnement énergétique (PVsyst, Polysun, HOMER, SolidWorks) pour concevoir, simuler et optimiser des systèmes solaires (photovoltaïques, thermiques) et hybrides (solaire + stockage + appoint). À travers des études de cas pratiques, il prépare à intégrer les contraintes techniques, économiques et environnementales dans la conception de solutions énergétiques. Connaissances préalables recommandées :\nBases en énergies renouvelables , notamment solaire photovoltaïque et thermique\nNotions fondamentales en thermodynamique , transfert d’énergie et conversion d’énergie\nContenu de la matière :\n1. Introduction au dimensionnement (2 semaines)\nQu’est-ce que le dimensionnement ?\nPourquoi dimensionner un système ?\n2. Présentation des logiciels (2 semaines)\nQuels logiciels existent ?\nÀ quoi servent-ils ?\nPrésentation rapide de : PVsyst, Polysun, HOMER.\n3. Utilisation de PVsyst (3 semaines)\nInstallation et interface du logiciel.\nSaisir les données météo (ensoleillement).\nCréer un petit système photovoltaïque (maison).\nLire les résultats : énergie produite, pertes, rendement.\n4. Utilisation de Polysun (ou TRNSYS) (3 semaines)\nCréer un système solaire thermique (chauffe-eau solaire).\nAjouter un appoint électrique ou gaz.\nVoir la performance du système selon les saisons.\n5. Utilisation de HOMER (2 semaines)\nCréer un système hybride : panneau solaire + batterie + groupe électrogène.\nSaisir les besoins en énergie (maison, école, etc.).\nComparer plusieurs solutions pour choisir la meilleure.\n6. Introduction à SolidWorks (2 semaines)\nIntroduction à la modélisation (dessin 2D/3D d’un objet).\nSimuler un échangeur de chaleur (écoulement d’eau, température).\nComprendre les résultats de base.\nReferences:\n[1] Quaschning, Volker, Understanding Renewable Energy Systems, Earthscan, 2016.\n[2] PVsyst SA, PVsyst Software Help Documentation (accessible via le logiciel ou le site officiel : )\n[3] Vela Solaris, Polysun Software User Manual (disponible via le site : )\n[4] TRNSYS 18 Documentation, Getting Started, Volume 1: Introductory Tutorial (disponible via : )\n[5] National Renewable Energy Laboratory (NREL), HOMER Software Documentation ()\n[6] SolidWorks Corporation, SOLIDWORKS Tutorials and Help Documentation (dans le logiciel ou via : )"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

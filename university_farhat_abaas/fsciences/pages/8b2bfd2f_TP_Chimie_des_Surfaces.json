@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S2-TPCS.html",
+      "title": "TP Chimie des Surfaces",
+      "id": "8b2bfd2f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:12",
+      "hash": "6949b9a6b4beba0a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : TP Chimie des Surfaces\nObjectifs de l'enseignement\nComprendre et quantifier les propriétés des surfaces (tension superficielle, énergie de surface, mouillage) et leur impact sur l'adhésion.\nMaîtriser des techniques expérimentales (goniométrie, tests mécaniques, fonctionnalisation) pour modifier et caractériser des surfaces.\nRelier théorie et applications (colles, revêtements, surfaces modifiées) en explorant l'influence de la chimie et de la topographie des surfaces.\nConnaissances préalables recommandées\nBases de thermodynamique des surfaces (tension superficielle, énergie libre, mouillage).\nNotions d'adhésion (mécanismes chimiques, physiques et mécaniques).\nTechniques de caractérisation (angles de contact, méthodes mécaniques, analyse spectroscopique FTIR…).\nLa liste des TP citée ci-dessous n'est pas exhaustive. Elle constitue une orientation d'ordre général et dépendra des ressources disponibles pour chaque établissement.\nContenu de la matière\nTP 1 : Mesure de tension superficielle des liquides par méthodes : goutte tombante, méthode de l'anneau…\nTP 2 : Mesure de l'énergie de surface par la méthode de la goutte sessile\nTP 3 : Influence des traitements de surface sur l'adhésion\nTP 4 : Influence de la rugosité sur l'adhésion\nTP 5 : Préparation et caractérisation de surfaces superhydrophobes\nTP 6 : Formulation d'une colle et tests mécaniques\nTP 7 : Préparation et caractérisation de surfaces chimiques modifiées"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S1-RP.html",
+      "title": "Radioprotection",
+      "id": "30afed1d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:46",
+      "hash": "f311fd8e0d99bfc9",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nFondamentale (UEF 1)  |\nCrédits :\n6  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs pédagogiques\nAvoir une expérience de niveau standard en tant que personne responsable de la radioprotection en milieu hospitalier.\nContenu de l'unité\n1- Introduction\nPerspective historique\nSources de rayonnement\n2- Détection et mesure de la radioprotection\nGeiger-Mueller (GM)\nCompteurs proportionnels\nScintillateurs\n3- Caractérisation de rayonnement et dosimétrie opérationnelle\nAtténuation exponentielle, couche de demi-atténuation (HVL), loi du carré inverse, couche de dixième d'atténuation (TVL)\nDose équivalente, dose efficace, etc.\n4- Calculs de blindage\nCalculs de blindage en radiologie\nCalculs de blindage en médecine nucléaire\nCalculs de blindage en radiothérapie\n5- Évaluation de la sûreté des installations et des activités\nCadre juridique de la radioprotection\nSituations d'exposition planifiées : Exigences générales, Exposition professionnelle, Exposition du public, Exposition médicale\nSituations d'exposition d'urgence\nTransport et gestion des déchets radioactifs\nÉvaluation des risques\nTravaux pratiques\nRadioprotection : Inspection radiologique d'une installation clinique\nCalcul du blindage\nRéférences bibliographiques\nINTERNATIONAL COMMISSION ON RADIATION UNITS AND MEASUREMENTS, Operational Quantities for External Radiation Exposure, ICRU Report No. 95, Bethesda, MD (2021).\nEUROPEAN COMMISSION et al., Radiation Protection and Safety of Radiation Sources: International Basic Safety Standards, IAEA Safety Standards Series No. GSR Part 3, IAEA, Vienna (2014).\nINTERNATIONAL COMMISSION ON RADIOLOGICAL PROTECTION, The 2007 Recommendations of the International Commission on Radiological Protection, ICRP Publication 103, ICRP, Ottawa (2007).\nINTERNATIONAL ATOMIC ENERGY AGENCY, Safety Assessment for Facilities and Activities: General Safety Requirements, Part 4 (Rev. 1), IAEA, Vienna (2016)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

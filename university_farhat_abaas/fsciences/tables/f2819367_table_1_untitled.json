@@ -1,0 +1,68 @@
+{
+  "source_url": "http://fsciences.univ-setif.dz/page_professionnelles/498",
+  "title": "",
+  "headers": [
+    "Cours d'Algorithmique",
+    "Polycopie de cours",
+    ""
+  ],
+  "rows": [
+    [
+      "Cours d'Algorithmique",
+      "Polycopie de cours",
+      ""
+    ],
+    [
+      "Génie logiciel",
+      "Polycopie de TD",
+      ""
+    ],
+    [
+      "Bases de données",
+      "Polycopie de TP",
+      ""
+    ],
+    [
+      "Ethiques et Déontologie de l'Informatique",
+      "Polycopie de cours",
+      ""
+    ],
+    [
+      "Rédaction scientfique",
+      "Polycopie de cours",
+      ""
+    ],
+    [
+      "Aspects juridiqes et économiques du logiciel",
+      "Polycopie de cours",
+      ""
+    ],
+    [
+      "Interface Homme Machine",
+      "Polycopie de TP",
+      ""
+    ],
+    [
+      "Programmation logique",
+      "Polycopie de TP",
+      ""
+    ],
+    [
+      "Méthodologie de recherche",
+      "Polycopie de TP",
+      ""
+    ],
+    [
+      "Méthodologie de recherche litterature scientifique",
+      "Ouvrage",
+      ""
+    ],
+    [
+      "Méthodologie de recherche LaTeX",
+      "Polycopie de TD",
+      ""
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 3
+}

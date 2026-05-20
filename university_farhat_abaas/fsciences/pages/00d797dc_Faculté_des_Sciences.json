@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9007",
+      "title": "Faculté des Sciences",
+      "id": "00d797dc",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:49:20",
+      "hash": "04e14d4d9073c377",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nPLANNING DES EXAMENS DES SPÉCIALITÉS MIGE2+ MBD2\nMAJ: Session Normale Semestre 2"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Exams S2 opt",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6479/Exams_S2_opt.pdf",
+        "local_file": "pdfs/00d797dc_Exams_S2_opt.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

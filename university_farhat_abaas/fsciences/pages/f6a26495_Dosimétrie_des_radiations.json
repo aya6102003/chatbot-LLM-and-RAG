@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S2-DR.html",
+      "title": "Dosimétrie des radiations",
+      "id": "f6a26495",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:51",
+      "hash": "4f9dee19aa9b2042",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nFondamentale (UEF 2)  |\nCrédits :\n6  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs pédagogiques\nAvoir une bonne maîtrise des fiches de travail utilisées dans les protocoles de dosimétrie de l'AIEA (TRS 398). Bonne compréhension des avantages et inconvénients des dosimètres. Très bonne maîtrise des mesures dosimétriques absolues et relatives.\nContenu de l'unité\n1- Concept dosimétrique\nGrandeurs et unités dosimétriques\nÉquilibre de rayonnement, équilibre des particules chargées partielles\nThéorème de Fano\nThéorie de la cavité\nNormes primaires de rayonnement pour le kerma dans l'air et la dose absorbée\n2- Dosimètres de rayonnement\nCaractéristique des dosimètres de radiation\nPrincipe de fonctionnement et technologie des dosimètres de radiation\n3- Traçabilité de l'étalonnage\nConcept de dose absorbée dans l'air (N\nD,air\n), réponse du détecteur, coefficient d'étalonnage de dose absorbée dans l'eau (N\nD,w\n)\nProtocoles de dosimétrie de référence et codes de pratique\nDosimétrie à petit champ (aspects fondamentaux, recommandations)\nTravaux pratiques\nÉtalonnage de la dosimétrie de référence des faisceaux cliniques à l'aide d'un protocole international (AIEA TRS 398)\nDosimétrie à petit champ\nMesures avec des chambres d'ionisation au Co-60, à rayons X et à faisceaux d'accélérateurs\nBalayage de réservoirs d'eau\nMesures avec des dosimètres à semi-conducteurs et chimiques (TLD, MOSFET, OSLD, film, etc.)\nRéférences bibliographiques\nANDREO, P., BURNS, D.T., NAHUM, A.E., SEUNTJENS, J., ATTIX, F.H., Fundamentals of Ionizing Radiation Dosimetry. Wiley-VCH, Weinheim, GERMANY (2017).\nROGERS, D.W.O., CYGLER, J., Clinical Dosimetry Measurements in Radiotherapy: AAPM 2009 Summer School, Medical Physics Pub Corp, Madison, USA (2009).\nKNOLL, G.F., Radiation Detection and Measurement. Wiley, USA (2010).\nICRU Report 90. Key Data for Ionizing-Radiation Dosimetry: Measurement Standards and Applications. International Commission on Radiation Units and Measurements. Bethesda, MD, USA (2016)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

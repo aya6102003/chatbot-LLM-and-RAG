@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S5-OPT.html",
+      "title": "Optimisation Techniques (TOp)",
+      "id": "5341823b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:31",
+      "hash": "9f692f63345eda82",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Optimisation Techniques (TOp)\nSemestre : S5\nUnité d’enseignement : UEM1\nMatière : Techniques d’Optimisation (TOp)\nCrédits : 5\nCoefficient : 3\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement (Décrire ce que l’étudiant est censé avoir acquis comme compétences\naprès le succès à cette matière – maximum 3 lignes).\nLa recherche opérationnelle ainsi que les techniques d’optimisation revêtent une grande importance\npour les ingénieurs informaticiens, particulièrement via les aspects algorithmiques. L'objectif du\nmodule est d'apprendre à l'étudiant à modéliser des problèmes combinatoires de différentes manières\n(programme linéaire, graphe, ...) et ce selon le type de problème. A travers ce cours, l'étudiant devra\nêtre capable d'identifier et de résoudre ces problèmes, trouver la solution optimale avec l’algorithme le\nplus adéquat.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour\npouvoir suivre cet enseignement – Maximum 2 lignes).\nAlgèbre, Théorie des Graphes, Algorithmique 1, 2 & 3.\nContenu de la matière :\nChapitre 0 : La recherche opérationnelle. (1 séance : 5%)\nDomaine de recherche opérationnelle.\nOrigine de la recherche opérationnelle.\nTypes de problèmes traités par la RO.\nBrèves notions sur la complexité des algorithmes.\nDomaines d’application de la recherche opérationnelle.\nChapitre 1 : Rappels. (2 séance : 12%)\nNotions de base sur l’Algèbre linéaire.\nMatrices : notions et éléments de base.\nSystèmes linéaires.\nGraphes : notions de base.\nAperçu sur quelques problèmes traités en théories des graphes : chemin optimal, ordonnancement.\nChapitre 2 : Programme linéaire. (2 séance : 15%)\nIntroduction par un exemple.\nForme générale, forme canonique, forme standard.\nModélisation.\nRésolution graphique.\nChapitre 3 : Méthode du simplexe. (3 séance : 20%)\nAlgorithme général du Simplexe.\nAlgorithme à deux phases.\nChapitre 4 : La dualité en programmation linéaire. (2 séance : 12%)\nPL dual.\nAlgorithme dual du simplexe.\nAnalyse post-optimale.\nChapitre 5 : Programmation linéaire en nombres entiers. (2 séance : 12%)\nIntroduction par un exemple.\nRésolution graphique.\nMéthode branch and bound (B&B).\nChapitre 6 : Programmation dynamique. (2 séance : 12%)\nIntroduction à la programmation dynamique.\nProblème du sac à dos.\nChapitre 7 : Problème d’affectation (2 séances : 12%)\nCouplage maximal.\nAlgorithme de l’Hongrois.\nBibliographie\n1. J. Acher et J. Gardelle. « Programmation linéaire ». Livre. Editions Bordas. 1978.\n2. A. Kaufmann et A. henry-Labordere. « Méthodes et modèles de la recherche opérationnelle ».\nLivre. Editions Dunod. 1974.\n3. M. Sakarovitch. « Optimisation Combinatoire – Tome 1 : Graphes et programmation Linéaire ».\nLivre. Editions Hermann. 1984.\n4. Roseaux. « Exercices et problèmes résolus de recherche opérationnelle. Tome 1. Graphes: leurs\nusages, leurs algorithmes ». Livre. Editions Dunod.1998."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/IQ/13.html",
+      "title": "13.Html",
+      "id": "884331ae",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:36",
+      "hash": "794a5e3c5808beb1",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI. Probability Basics Reminder:\n-    Introduction to probability spaces, events, and sample spaces.\n-    Probability axioms and properties.\n-    Combinatorics and counting techniques.\n-    Conditional probability and Bayes' theorem.\n-    Independence of events.\nII. Random Variables:\n-    Discrete and continuous random variables.\n-    Probability mass functions (PMFs) and probability density functions (PDFs).\n-    Cumulative distribution functions (CDFs).\n-    Expected value, variance, and moments.\n-    Joint probability distributions and marginalization.\nIII. Conditional Probability and Independence:\n-    Conditional probability and conditional distributions.\n-    Conditional expectation.\n-    Conditional independence and its properties.\n-    Markov chains and hidden Markov models.\nIV. Probability Distributions:\n-    Bernoulli, binomial, and multinomial distributions.\n-    Poisson distribution.\n-    Gaussian (normal) distribution.\n-    Exponential and gamma distributions.\n-    Joint and marginal distributions.\nV. Central Limit Theorem:\n-    Statement and applications of the central limit theorem.\n-    Sampling distributions and the law of large numbers.\n-    Confidence intervals and hypothesis testing.\nVI. Statistical Inference:\n-    Estimation theory: point estimation, maximum likelihood estimation.\n-    Confidence intervals and hypothesis testing.\n-    Parametric and non-parametric tests.\n-    Bayesian inference.\nVII. Random Processes:\n-    Introduction to stochastic processes.\n-    Discrete and continuous-time Markov chains.\n-    Poisson processes and renewal theory.\n-    Brownian motion and random walks."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

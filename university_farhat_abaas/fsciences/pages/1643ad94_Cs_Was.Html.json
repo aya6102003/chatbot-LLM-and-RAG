@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-WAS.html",
+      "title": "Cs Was.Html",
+      "id": "1643ad94",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:32",
+      "hash": "bb94fe4d6e64aa2e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nThis course will look at web applications from the angle of offensive security. The semester's themes will include data collection, vulnerability detection, penetration, and privilege escalation. Understanding the web application architecture, penetration testing a web site, and hardening a vulnerable application will be covered in each section of the course.\nContenu de la matière\nSecurity Fundamentals\nModern Web Applications Structure\nCross Site Scripting Attacks\nCross Site Request Forgery Attacks\nSQL Injection Attacks\nDenial of Service Attacks\nAuthentication\nAuthorization\nSecure Development and Deployment\nMode d’évaluation : Contrôle continu, examen Références\n• Web Application Security: Exploitation and Countermeasures for Modern Web Applications"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/7886",
+      "title": "Faculté des Sciences",
+      "id": "02e5a5a6",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:42:13",
+      "hash": "8b3483f7a8db9fc1",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nCIRCULAIRE N°1 (02 JUIN 2025)"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "circulaire 1",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/5741/circulaire_1.pdf",
+        "local_file": "pdfs/02e5a5a6_circulaire_1.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

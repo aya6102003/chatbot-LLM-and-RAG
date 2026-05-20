@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_INFORMATIQUE/S2-ELEC.html",
+      "title": "S2 Elec.Html",
+      "id": "27eca236",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:06",
+      "hash": "66af2c286686760f",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Electronique fondamentale\nSemestre :\n2  |\nUE :\nUED21  |\nCrédits :\n4  |\nCoefficient :\n2\nObjectifs de l'enseignement\nPrésenter les unités principales d'un ordinateur et expliquer leur fonctionnement ainsi que les principes de leur utilisation.\nConnaissances préalables recommandées\nConnaissances générales en informatique.\nContenu de la matière\nChapitre 1 : Diodes à Semi-conducteur\nSemi-conducteur (SC) : généralités, SC intrinsèque, SC extrinsèque type P et type N, jonction PN non polarisée, jonction PN polarisée\nLa diode à jonction : polarisation et caractéristique de la diode, diode en continu, droite de charge et point de fonctionnement, diode en alternatif (redressement mono et double alternances, écrêtage, détecteur de crêtes)\nLa diode Zener : définition, polarisation et caractéristique courant-tension, la diode Zener en continu (stabilisation de la tension) et en alternatif\nChapitre 2 : Le transistor bipolaire\nPrésentation, convention des courants (PNP et NPN), l'effet transistor, les courants du transistor, les différents montages d'un transistor (EC, CC, BC), caractéristiques de fonctionnement\nPolarisation du transistor (but et nécessité de polariser un transistor), droite d'attaque, droite de charge et point de fonctionnement, les circuits de polarisations, effet de la température et stabilité thermique\nLe transistor en régime dynamique aux fréquences basses, droite de charge dynamique, le rendement en puissance et les classes d'amplificateurs\nEtude d'un amplificateur en émetteur commun, caractéristiques des amplificateurs EC, BC et CC, associations d'étages amplificateurs, le transistor en commutation\nChapitre 3 : Transistors à effet de champ\nIntroduction, le transistor à effet de champ (TEC) à jonction (JFET) : principe d'un transistor JFET, fonctionnement, caractéristiques, modèles électriques en amplification, montages amplificateurs (SC, DC, GC)\nLe transistor à effet de champ à grille isolée (MOSFET), MOSFET à appauvrissement, MOSFET à enrichissement, MOSFET en commutation, applications des MOSFET\nChapitre 4 : Technologies des portes logiques\nClassification des circuits intégrés, caractéristiques des portes logiques\nPortes logiques DL, DTL, TTL et ECL\nPortes logiques NMOS et CMOS, la logique BiCMOS\nComparaison entre la technologie bipolaire et CMOS, interfaçage des portes logiques\nRecommandations\nIl est recommandé d'utiliser le vidéo projecteur pour le cours et de diffuser un support de cours ou polycopié.\nUtilisation d'un logiciel de simulation électronique (Workbench).\nMode d'évaluation\nExamen (60%), Contrôle continu (40%)\nRéférences bibliographiques\nCOEURDACIER S, « Amplification basses fréquences – commutation », Dunod, 1990.\nLADJOUZE H, « Cours d'électronique », OPU, 2005.\nTAYEB CHERIF R. « Electronique de base », Berti éditions, 1990.\nHARAOUBIA B., « Electronique générale », OPU, 2006.\nBORNAND M., « Exercices et problèmes avec solutions », ELECTRONIQUE Tome 1, Vuibert, 1990.\nCOEURDACIER S, « Les composants discrets linéaires », ELECTRONIQUE 1, Dunod, 1990.\nMALVINO, « Principes d'électronique », Mc Graw-Hill, 2004.\nBORNAND M., « Problèmes d'électronique », ELECTRONIQUE Tome 2, Vuibert, 1990."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

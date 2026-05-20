@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S1-PN1.html",
+      "title": "Programmation Numérique 1",
+      "id": "f442c9d2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:51",
+      "hash": "e4243f81a4916b67",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Programmation Numérique 1\nSemestre 1 – UE Méthodologie\nPrérequis\nConnaissances de base en analyse numérique et mathématiques acquises durant la licence en physique.\nObjectifs de l'enseignement\nCet enseignement vise à fournir aux étudiants des outils numériques efficaces pour la résolution de problèmes en physique, en mettant l'accent sur des applications ciblées à l'aide du langage Python.\nProgramme détaillé\nChapitre 1 : Introduction d'outils numériques avec Python\nLangage Python\nManipulation des fichiers via l'utilisation des librairies\nChapitre 2 : Techniques d'optimisation des systèmes non linéaires\nMéthode de Newton multivariée\nMéthode du Gradient\nApplications en physique\nChapitre 3 : Valeurs et vecteurs propres\nMéthode de la puissance itérée\nMéthode de Jacobi\nMéthode de Lanczos\nMéthode QR\nApplications en physique\nTravaux pratiques\nI. Introduction d'outils numériques avec Python\nSyntaxe de base : variables, types, opérations, opérateurs\nStructures de contrôle\nFonctions et modules\nLibrairies essentielles\nLecture et traitement de fichiers textes\nII. Techniques d'optimisation des systèmes non linéaires\nProgrammation des méthodes de Newton\nProgrammation des méthodes du Gradient\nApplication en physique : principe de moindre action\nIII. Valeurs et vecteurs propres (4 séances)\nProgrammation des méthodes de Jacobi et de Lanczos\nApplication en physique : diagonalisation de matrices pour un système quantique\nMode d'évaluation\nContrôle continu : 50 %\nExamen : 50 %\nRéférences bibliographiques\nE. Schultz et M. Bussonnier (2020), Python pour les SHS. Introduction à la programmation de données, Presses Universitaires de Rennes.\nR.H. Landau, M.J. Páez, C.C. Bordeianu, Computational Physics: Problem Solving with Python, Wiley-VCH.\nP.G. Ciarlet, Introduction à l'analyse numérique matricielle et à l'optimisation, Dunod.\nF. Jedrzejewski, Introduction aux méthodes numériques, Springer.\nM. Fellah et N.H. Allal, Analyse numérique, OPU."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_MATERIAUX/S2-DSC.html",
+      "title": "Dispositifs à semi",
+      "id": "5a354d15",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:12",
+      "hash": "8129c75246acc89f",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière :\nDispositifs à semi-conducteurs\nUnité d'Enseignement :\nUE Fondamentale (UEF 2)\nSemestre :\nSemestre 2\nCrédits :\n4\nCoefficient :\n2\nVHS (15 semaines) :\n55h00\nCours :\n1h30\nTD :\n1h30\nTP :\nMode d'évaluation :\nContinu : 33%  /  Examen : 67%\nSemestre 2\nUnité Fondamentale\nMatière : Dispositifs à semi-conducteurs\nObjectifs de l’enseignement :\nL'objectif de l'enseignement des dispositifs à semi-conducteurs est de donner une compréhension approfondie\ndu fonctionnement des composants électroniques basés sur les semi-conducteurs (diodes, transistors, etc.). Les\nétudiants apprendront leurs principes physiques, à analyser leur comportement, à concevoir des circuits simples et\nà comprendre leurs applications et limitations. Le but est de former des personnes capables de travailler avec ces\ncomposants essentiels de l'électronique moderne et de se préparer à des études plus avancées.\nConnaissances préalables recommandées :\nPour étudier les dispositifs à semi-conducteurs, il est conseillé d'avoir des bases solides en :\nÉlectricité et magnétisme (circuits, lois de Kirchhoff, condensateurs, inducteurs, champs).\nIntroduction à la physique du solide (structure cristalline, théorie des bandes, porteurs de charge, dopage).\nIntroduction à la mécanique quantique (dualité onde-particule, fonction d'onde, niveaux d'énergie).\nMathématiques (calcul différentiel/intégral, algèbre linéaire, équations différentielles).\nContenu de la matière :\nChapitre I : Rappels sur la physique des semi-conducteurs\nI.1 Structure de bandes\nI.2 Concentration des porteurs et propriétés de transports\nChapitre II : Diodes à jonction\nII.1 La diode PN : Principe de fonctionnement et réalisation technologique d’une diode PN. Calcul du courant :\ncaractéristique statique I-V. Capacité de transition et de diffusion. Phénomènes transitoires dans une diode PN :\ncircuit équivalent.\nII.2 La diode tunnel\nII.3 La diode Schottky :\nCalcul du courant et caractéristique I-V. Comparaison avec la diode PN. Contact ohmique\nII.4 Hétérojonctions\nChapitre III : Structure MIS et capacité MOS\nIII.1 Structure métal/isolant/semi-conducteur idéale :\nDescription. Diagramme de bandes d’énergie et régimes de fonctionnement. Champ et potentiel électriques\nd’une structure MIS en régime de déplétion ou de faible inversion. Calcul du champ électrique, du potentiel de\nsurface et de la charge de la structure MIS dans le cas général.\nIII.2 Structure métal/oxyde/semi-conducteur réelle :\nDiagramme d’énergie. Tension de bandes plates. Tension de seuil.\nIII.3 Capacité MOS : Caractéristique C-V hautes et basses fréquences – cas idéal. Cas réel : effets des travaux de sortie\net de la charge d’oxyde.\nChapitre IV : Transistors\nIV.1 Effet transistor\nIV.2 Transistors bipolaires\nIV.3 Transistor à effet de champ à jonction : JFET et MESFET\nIV.4 Le transistor à effet de champ à grille isolée : MOSFET\nChapitre V : Circuits Intégrés\nV.1 Principes de réalisation des circuits intégrés\nV.2 Métallisation\nV.3 Procédés de masquage et de photogravure. Attaque chimique et gravure sèche\nV.4 Procédés nMOS, CMOS\nRéférences:\nSolid State Electronic Devices par Ben G. Streetman et Sanjay Banerjee - 1975 (de nombreuses éditions ont suivi,\n22\nla 7ème édition date de 2016).\nPhysics of Semiconductor Devices par S.M. Sze et Kwok K. Ng - 1969 (de nombreuses éditions ont suivi, la 4ème\nédition date de 2021).\nSemiconductor Physics and Devices par Donald A. Neamen - 1992 (de nombreuses éditions ont suivi, la 5ème\nédition date de 2012).\nFundamentals of Semiconductor Devices par Betty Lise Anderson et Richard L. Anderson - 2005\nQuantum Mechanics of Semiconductor Materials and Devices par Umesh K. Mishra et Jasprit Singh – 1995.\nSemiconductor Optoelectronic Devices par Pallab Bhattacharya - 1994 (la 2ème édition date de 1997).\nHigh-Speed Semiconductor Devices par S.M. Sze, Yu-Chi Li et Kwok K. Ng – 2002.\nThe PN Junction Diode par Gerold W. Neudeck et Robert F. Pierret - 1983 (Part of the Modular Series on Solid\nState Devices) - Note : Bien que se concentrant sur un dispositif spécifique, il offre une analyse approfondie et\nest souvent utilisé comme référence.\n23"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

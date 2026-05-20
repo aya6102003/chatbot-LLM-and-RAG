@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S8-MEPS.html",
+      "title": "Modelling and Performance Evaluation of Systems (MEPS)",
+      "id": "f8897edb",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:33",
+      "hash": "ca1239340d88337b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Modelling and Performance Evaluation of Systems (MEPS)\nSemestre : S8\nUnité d’enseignement : UEM1\nMatière : Modélisation et Evaluation des performances de systèmes (MEPS)\nCrédits : 3\nCoefficient : 2\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement\nLes objectifs de ce module sont multiples. Le premier objectif serait de familiariser les étudiants aux\nprincipes de la modélisation et de l'évaluation des performances des systèmes de manière générale et plus\nparticulièrement des systèmes informatiques logiciels et matériels.\nUn autre objectif consiste à sensibiliser l'étudiant au fait que le développement de tout système\ninformatique ne doit aboutir à un système sous-dimensionné tout en évitant le surdimensionnement. Pour\ncela, développer un système adapté, en respectant le plus possible les objectifs du cahier des charges, est\nune démarche qui passera obligatoirement, au cours de la phase de conception, par une étape de\nmodélisation en choisissant le formalisme le plus adéquat, suivie d'une étape d'analyse et d'évaluation des\nperformances.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\nProbabilités et Statistiques\nContenu de la matière\nIntroduction générale\nChapitre I : Principes de la modélisation et de l'évaluation des performances\nChapitre II : Processus stochastiques\nChapitre III : Chaînes de Markov\nIII.1 : Chaînes de Markov à temps discret\nIII.2 : Chaînes de Markov à temps continu\nChapitre IV : 3. Files d’attente\nIV.1 : Files d'attente mono-serveur\nIV.2 : Files d'attente multi-serveurs\nIV.3 : Files d'attente à capacité limitée\nChapitre V : Les réseaux de Petri\nChapitre VI : Les réseaux de Petri stochastiques\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences\n- Randal Douc, Eric Moulines, Pierre Priouret, Philippe Soulier, Markov Chains, Springer, 2018.\n- Annie Choquet-Geniet, Les réseaux de Petri - Un outil de modélisation : Cours et exercices corrigés -\nLicence, Master, écoles d'ingénieur, Editeur Dunod, 2006.\n- B. Baynat, Théorie des files d’attente, Hermes 2000."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

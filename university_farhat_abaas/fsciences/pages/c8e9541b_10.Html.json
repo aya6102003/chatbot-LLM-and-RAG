@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/IQ/10.html",
+      "title": "10.Html",
+      "id": "c8e9541b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:36",
+      "hash": "ee3336ddf0ca0f70",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI.   Introducing Qiskit and its Elements\nII.  Programming with Qiskit Terra\nIII. Monitoring and Optimizing Quantum Circuits\nIV. Executing Circuits Using Qiskit Aer\nV.  Mitigating Quantum Errors Using Ignis\nVI. Learning about Qiskit Aqua\nVII.    Understanding Quantum Algorithms\nVIII.   Applying Quantum Algorithms\nIX. Introduction to Cirq (developed by google)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

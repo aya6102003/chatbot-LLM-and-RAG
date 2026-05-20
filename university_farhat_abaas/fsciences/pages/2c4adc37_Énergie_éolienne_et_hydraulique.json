@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S2-EEH.html",
+      "title": "Énergie éolienne et hydraulique",
+      "id": "2c4adc37",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:02",
+      "hash": "956e9528e18e50b5",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Énergie éolienne et hydraulique\nSemestre 2 – UE Fondamentale\nMode d'évaluation :\nContinu 33% / 67%\nObjectifs de l’enseignement\nCe module vise à fournir une compréhension approfondie des principes scientifiques, technologies et enjeux\npratiques des énergies éolienne et hydraulique. Il permettra aux apprenants :\nDe maîtriser les fondamentaux aérodynamiques et hydrauliques (théorie de Betz, équation de Bernoulli).\nDe concevoir et dimensionner des installations éoliennes et hydrauliques (choix de sites, turbines, rendement).\nConnaissances préalables recommandées\nUne bonne connaissance de la mécanique des fluides et des principes de l’aérodynamique/ hydrodynamique\nest essentielle. Des notions sur les systèmes de production d’énergie et les turbines sont également utiles.\nContenu de la matière :\n1. Introduction à l’énergie éolienne (2 semaines)\nHistoire et évolution des technologies éoliennes - Ressource éolienne : caractéristiques du vent\nMesure et évaluation du potentiel éolien (anémométrie, cartographie)\n2. Théories et concepts fondamentaux (2 semaines)\nThéorie de Betz et limite de puissance -Profil aérodynamique et générateurs de portance\nPerformances des éoliennes (Cp, TSR, courbes caractéristiques)\n3. Technologies des éoliennes (2 semaines)\nÉoliennes à axe horizontal (HAWT) et vertical (VAWT) - Composants principaux : pales, rotor, multiplicateur, générateur - Systèmes de contrôle : pitch, yaw, freins\n4. Dimensionnement et implantation (2 semaines)\nChoix de la taille et type de machine - Calcul de la puissance récupérable\nFacteurs de capacité et disponibilité -Critères de choix du site (topographie, turbulence, vent moyen annuel)\n5. Impact environnemental et intégration au réseau (1 semaine)\nBruits, ombrage, biodiversité -Stockage de l’énergie éolienne -Couplage réseau - gestion de la variabilité\n6. Introduction à l’énergie hydraulique (1 semaine)\nRessources hydrauliques disponibles (rivières, chutes, marées)-Types d’installations : centrales au fil de l’eau, réservoirs, pompage-turbinage\n7. Principes physiques et modélisation (1 semaine)\nÉnergie cinétique et potentielle de l’eau -Equation de Bernoulli appliquée aux installations hydrauliques\nRendement global d’une centrale hydraulique\n8. Turbines hydrauliques (2 semaines)\nTypes de turbines : Pelton, Francis, Kaplan -Choix de la turbine selon la hauteur de chute et débit\nCaractéristiques techniques : diagrammes de fonctionnement\n9. Dimensionnement d’une centrale hydraulique (1 semaine)\nCalcul de la hauteur nette et du débit disponible -Puissance installée et énergie annuelle produite\nCritères de site : régime d'écoulement, sédimentation, étiage\n10. Défis et innovations (1 semaine)\nMicrocentrales hydrauliques -Hydroélectricité marine (hydroliennes)\nImpacts environnementaux et sociétaux\nRéférences\n[1] Wind Energy Explained, J.F. Manwell, J.G. McGowan\n[2] Fundamentals of Renewable Energy Processes, Aldo V. da Rosa\n[3] Hydropower Engineering Handbook, John S. Gulliver\n[4] RETScreen Expert User Manual (outil libre pour projets énergétiques)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

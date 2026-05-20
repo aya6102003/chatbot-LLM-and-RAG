@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S1-MAC.html",
+      "title": "Mathématiques Appliquées à la Chimie",
+      "id": "963a62d8",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:13",
+      "hash": "546b1069a45bf120",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Mathématiques Appliquées à la Chimie\nObjectifs de l'enseignement\nÉtudier des méthodes numériques permettant de résoudre avec un ordinateur des problèmes chimiques qui ne peuvent pas être traités de manière analytique.\nIdentifier les notions d'approximation des données obtenues après expérimentation au laboratoire, ou à partir d'une fonction. Résoudre les problèmes chimiques traduisant les équations différentielles ordinaires.\nConnaissances préalables recommandées\nLes prérequis exigés sont relatifs aux notions élémentaires en mathématiques abordées durant les premières années du cycle universitaire : équations différentielles ordinaires, techniques d'intégration standard, opérations matricielles de base.\nContenu de la matière\nRésolution des équations non linéaires dans IR : Méthodes itératives (Point fixe – Lagrange – Newton)\nIntégration Numérique : Méthodes de Simpson et méthodes de trapèze\nRésolution des systèmes linéaires :\nMéthodes directes : Méthode d'élimination de Gauss – Méthode de factorisation LU\nMéthodes itératives : Méthode de Jacobi – Méthode de Gauss-Seidel\nRésolution des équations différentielles : Méthode d'Euler – Méthode de Runge-Kutta\nCalculs Matriciels : Somme, différence et produit de Matrices, Matrice Inverse, transposée et unitaire, Valeurs et vecteurs propres.\nNotions de probabilité statistique : Le modèle probabiliste, Variables aléatoires : discrètes et continues, théorèmes limites (loi des grands nombres, théorème central limite, intervalles de confiances, …)\nRéférences bibliographiques\nL'analyse statistique des données – Apprendre, comprendre et réaliser avec Excel, De Alain Morineau et Yves-Marie Chatelin – Ellipses\nMéthodes numériques – Algorithmes, analyse et applications, De Alfio Quarteroni, Ricardo Sacco et Fausto Saleri – Springer\nAnalyse interactive des données (ACP, AFC) avec Excel 2000 – Théorie et pratique, De Jean-Pierre Georgin – Presses Universitaires de Rennes (PUR)\nIntroduction à l'analyse numérique matricielle et à l'optimisation – Mathématiques appliquées pour le Master – Cours et exercices corrigés, De Philippe G. Ciarlet – Dunod\nL'analyse multivariée avec SPSS, De Jean Stafford et Paul Bodson – Presses de l'Université du Québec\nAnalyse numérique et optimisation, De Grégoire Allaire – Les Éditions de l'École polytechnique\nIntroduction à l'analyse numérique des équations aux dérivés partielles, De Pierre-Arnaud Raviart et Jean-Marie Thomas – Dunod"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

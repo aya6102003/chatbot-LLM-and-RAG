@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-OSFS.html",
+      "title": "Cs Osfs.Html",
+      "id": "7fc9e8b5",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:32",
+      "hash": "c8069e5c79ef6f1a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nAcquiring the skills resulting from the methods of analysis and improvement of the security of\noperating systems. Understanding the objectives, requirements and constraints specific to the application of best practices in computer security\nContenu de la matière\nI. General information on Protection\n- Security and System\n- General information on protection\nII. Concepts of Logical Security\nIII.\nSecurity and protection mechanisms\n- UNIX Trusted Base\n- UNIX Generalities\n- Windows and its security subsystem\n- Memory protection\n- Authentication and Identification\n- Discretionary Access Control to objects - Permission System\n- Security Audit\nIV .\nV. Securing Windows\nVI. Main security tools\n- Permission control\n- Encryption and data encryption - Antivirus\n- Security Assessment Tools\nMode d’évaluation : Contrôle continu, examen Références\nCory Altheide, Harlan Carvey, Digital Forensics with Open Source Tools, Syngress imprint of Elsevier.\nAngus M.Marshall, “Digital forensics: Digital evidence in criminal investigation”, John Wiley and Sons,"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

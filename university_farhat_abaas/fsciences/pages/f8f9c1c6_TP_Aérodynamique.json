@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S1-TPAERO.html",
+      "title": "TP Aérodynamique",
+      "id": "f8f9c1c6",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:02",
+      "hash": "7d425228154f5e75",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "TP Aérodynamique\nSemestre 1 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nObjectifs de l’enseignement\nComprendre les concepts fondamentaux de l’aérodynamique appliquée aux écoulements autour d’objets et dans des systèmes énergétiques.\nMaîtriser les techniques expérimentales de mesure des grandeurs aérodynamiques (vitesse, pression, forces).\nConnaissances préalables recommandées\nUne expérience pratique en laboratoire et une bonne compréhension de l’aérodynamique théorique sont\nrequises.\nContenu de la matière :\nSéance 1 : Introduction et sécurité en soufflerie\nPrésentation des outils et du matériel : soufflerie, anémomètres, capteurs de pression, dynamomètres.\nConsignes de sécurité et gestion de l’appareil.\nMise en route et réglages de base de la soufflerie.\nSéance 2 : Mesure de profil de vitesses dans un écoulement laminaire\nUtilisation d’anémomètres (fil chaud, à volet) pour caractériser un écoulement laminaire.\nCartographie des profils de vitesse au sein d’un conduit simple.\nAnalyse des données et comparaison avec théorie.\nSéance 3 : Étude de la traînée et portance sur un profil d’aile simple\nMesure des forces aérodynamiques (portance, traînée) sur profils standards.\nVariation en fonction de l’angle d’attaque.\nAnalyse des coefficients aérodynamiques.\nSéance 4 : Effet des perturbations et rugosité\nIntroduction aux perturbations d’écoulement et transition laminaire-turbulent.\nInfluence de la rugosité sur le comportement aérodynamique, mesures expérimentales.\nSéance 5 : Expérimentation sur pales d’éolienne ou section rotative\nÉtude des performances aérodynamiques de pales type éolienne (portance, couple).\nAnalyse comparative avec profils standards.\nImpact des conditions de vent (vitesse, turbulence).\nSéance 6 : Mesure de pertes de charge dans des conduits et échangeurs\nÉvaluation expérimentale des pertes de charge dans différents types de conduits.\nApplication aux systèmes énergétiques (ventilation, refroidissement, etc.).\nSéance 7 : Visualisation des écoulements et vortex\nTechniques de visualisation (fumée, colorants, particules).\nObservation des structures tourbillonnaires, séparation d’écoulement.\nSéance 8 : Synthèse et projet expérimental\nRéalisation d’un mini-projet : choix de paramètre à étudier, prise de données, analyse critique.\nPrésentation orale et rapport écrit.\nRéférences\n[1] J. J. Bertin, M. Y. Cummings – Aerodynamics for Engineers, 6th Edition, Pearson, 2014.\n[2] Anderson, J. D. Jr. – Fundamentals of Aerodynamics, 6th Edition, McGraw-Hill, 2017.\n[3] C. Tropea, A. Yarin, J. F. Foss (Eds.) – Springer Handbook of Experimental Fluid Mechanics,\nSpringer, 2007."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

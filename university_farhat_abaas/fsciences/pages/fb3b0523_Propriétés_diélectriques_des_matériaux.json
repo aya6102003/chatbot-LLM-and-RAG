@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S2-PDM.html",
+      "title": "Propriétés diélectriques des matériaux",
+      "id": "fb3b0523",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:05",
+      "hash": "9c52c7dff20007a3",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Propriétés diélectriques des matériaux\nSemestre 2 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nObjectifs de l’enseignement\nCe module a pour objectif de fournir aux étudiants les bases théoriques et pratiques nécessaires à la\ncompréhension des propriétés électriques des matériaux isolants (diélectriques), avec un accent particulier\nsur leur comportement en présence d’un champ électrique.\nIl vise à permettre aux étudiants d’analyser, mesurer et interpréter les phénomènes de polarisation, de\nconduction, de dispersion, ainsi que les mécanismes de claquage dans divers types de matériaux.\nConnaissances préalables recommandées\nIl est recommandé d’avoir des bases solides en électromagnétisme, physique du solide et électronique\nanalogique. Une familiarité avec les mesures électriques et les propriétés des matériaux est également utile.\nContenu de la matière :\n1. Introduction aux matériaux diélectriques (1 semaine)\nDéfinition, rôle des diélectriques dans les systèmes électriques et électroniques. Classification des\nmatériaux : isolants, semi-conducteurs, conducteurs.\n2. Bases d’électromagnétisme appliqué (1 semaine)\nRappels sur les champs électriques, polarisation, induction électrique, lois fondamentales (Maxwell, Gauss,\nPoisson).\n3. Phénomènes de polarisation (2 semaines)\nPolarisation électronique, ionique, orientation, interfaciale. Relation entre polarisation et champ électrique.\nSusceptibilité électrique.\n4. Réponse fréquentielle des diélectriques (2 semaines)\nSpectroscopie diélectrique, dispersion et absorption. Modèles de Debye, Cole-Cole, relaxation de Havriliak–\nNegami.\n5. Constante diélectrique et permittivité (1 semaine)\nMesure et interprétation de la permittivité relative. Facteur de perte, angle de perte diélectrique.\n6. Conduction dans les diélectriques (2 semaines)\nCourant de fuite, conduction ohmique et non-ohmique, effets de température et d’humidité, modèles de\nPoole-Frenkel, Schottky, etc.\n7. Rigidité diélectrique et claquage (1 semaine)\nClassement des matériaux selon leur tenue au claquage. Mécanismes de rupture : avalanche,\nthermoélectrique, surface, arc électrique.\n8. Effets de température et vieillissement des diélectriques (1 semaine)\nEffet de la température sur les propriétés diélectriques. Vieillissement thermique, électrique, chimique.\nEndurance diélectrique.\n9. Diélectriques dans les condensateurs (1 semaine)\nChoix des matériaux pour applications condensateur. Capacité volumique, densité d’énergie, pertes,\napplications haute fréquence et haute tension.\n10. Matériaux piézoélectriques et ferroélectriques (1 semaine)\nPrincipes physiques et applications. Différences avec les diélectriques linéaires. Exemples : quartz, PZT,\nBaTiO₃.\n11. Nanodiélectriques et matériaux composites (1 semaine)\nAvancées récentes dans les matériaux nanostructurés. Effets d’interface, amélioration des propriétés.\nApplications dans l’électronique moderne.\n12. TP et mesures expérimentales (2 semaines)\nTechniques de mesure : pont de mesure, spectroscopie impédancemétrique, générateur de signaux,\nanalyseurs LCR. Analyse des résultats.\nRéférences\n[1] Scaife, B.K.P., Principles of Dielectrics , Oxford University Press, 1989.\n[2] Chen, G., Dielectrics in Electric Fields , 2nd Edition, CRC Press, 2020.\n[3] Ibach, H. & Lüth, H., Solid-State Physics: An Introduction to Principles of Materials Science , Springer,\n2009.\n[4] Solymar, L., Walsh, D., & Syms, R.R.A., Electrical Properties of Materials , 9th Edition, Oxford\nUniversity Press, 2014."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/RSD.html",
+  "title": "SEMESTRE 2",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n14-16 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n14-16 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale 1    \nCrédits : 9\nCoefficients : 4",
+      "ACS: Administration\r\n    client /serveur",
+      "5",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "45h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "AR : Algorithmique répartis",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "45h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 2    \nCrédits : 9\nCoefficients : 5",
+      "RII: Réseaux II",
+      "5",
+      "3",
+      "1h30",
+      "1h30",
+      "1h30",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "RM : Réseaux mobiles",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "45h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie Crédits : 9Coefficients : 4",
+      "EPS : Evaluation des performances des Systèmes",
+      "5",
+      "2",
+      "1h30",
+      "1h30",
+      "1h",
+      "60h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "MF : Méthodes formelles",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "45h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversaleCrédits : 3Coefficients : 2",
+      "ANG2 : Anglais2",
+      "2",
+      "1",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Pédag : Pédagogie",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 2",
+      "30",
+      "15",
+      "12h",
+      "4h30",
+      "8h30",
+      "375h",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 7
+}

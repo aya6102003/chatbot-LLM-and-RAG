@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S2-EB.html",
+      "title": "Énergétique du bâtiment",
+      "id": "e1fb73f9",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:04",
+      "hash": "722cf283cc2d2be8",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Énergétique du bâtiment\nSemestre 2 – UE Découverte\nMode d'évaluation :\nContinu 100%\nObjectifs de l’enseignement\nCe module vise à donner aux étudiants les bases théoriques et pratiques nécessaires pour comprendre et\nanalyser les flux énergétiques dans les bâtiments, optimiser leur performance thermique et intégrer des\nsolutions efficaces en matière de chauffage, ventilation, climatisation et énergies renouvelables.\nConnaissances préalables recommandées\nUne bonne maîtrise des principes de base en transfert de chaleur , thermodynamique appliquée et physique\ndu bâtiment est nécessaire..\nContenu de la matière :\n1. Introduction à l’énergétique du bâtiment (2 semaines)\nRôle du bâtiment dans la consommation énergétique globale.\nEnjeux environnementaux et réglementaires (RE2020, BEPOS, HQE).\nNotions de confort thermique et de qualité de l’air intérieur.\n2. Transferts thermiques dans l’enveloppe (2 semaines)\nIsolation thermique : matériaux et caractéristiques (conductivité, résistance, etc.)\nPonts thermiques et performance de l’enveloppe.\nModélisation des transferts thermiques (stationnaires et dynamiques).\n3. Bilan énergétique global (3 semaines)\nApports internes et externes (solaires, métabolisme, équipements).\nDéperditions : transmission et ventilation.\nCalcul des besoins de chauffage et de refroidissement.\nUtilisation des degrés-jours et méthode bin annuelle.\n4. Systèmes de chauffage, ventilation et climatisation (CVC) (3 semaines)\nRendement et dimensionnement des systèmes CVC.\nPompes à chaleur, chaudières, systèmes hybrides.\nVentilation naturelle et mécanique (VMC simple/double flux).\n5. Intégration des énergies renouvelables (3 semaines)\nSolaire thermique (chauffe-eau solaire, SSC)\nSolaire photovoltaïque (autoconsommation, couplage réseau)\nGéothermie et aérothermie\nStockage thermique\n6. Simulation énergétique du bâtiment (2 semaines)\nIntroduction aux outils de simulation : EnergyPlus, DesignBuilder, TRNSYS…\nAnalyse des scénarios d’occupation, météorologie, inertie thermique.\nÉtude de cas : modélisation et simulation d’un bâtiment existant ou neuf.\nRéférences\n[1] ADEME. L’énergie dans le bâtiment – Guide pratique. Agence de l'environnement et de la maîtrise de\nl'énergie, France.\n[2] Jean-Pierre Douziech, Jean-Pierre Noyé. Thermique du bâtiment - Cours et exercices corrigés. Dunod,\n2018.\n[3] Michel De Smedt. Énergétique du bâtiment : Bases de calcul et simulation. Presses Polytechniques et\nUniversitaires Romandes, 2008.\n[4] Jean-François Métezeau. Le bâtiment à énergie positive. Le Moniteur, 2014.\n[5] Binggeli, Corky. Building Systems for Interior Designers. Wiley, 2016.\n[6] Santamouris, M. Energy Performance of Residential Buildings: A Practical Guide for Energy Rating and\nEfficiency. Routledge, 2010."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

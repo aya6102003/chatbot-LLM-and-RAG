@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_MATHS_APPLIQUEES/S2-ALGO2.html",
+      "title": "Algorithmique et structure de données 2",
+      "id": "c53e690a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:42",
+      "hash": "71fd1c6052e1d50a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Algorithmique et structure de données 2\nSemestre :\n02\nUnité d'enseignement :\nFondamentale (UEF22)\nMatière :\nAlgorithmique et structure de données 2\nCrédits :\n4\nCoefficient :\n3\nObjectifs de l'enseignement :\nPermettre à l'étudiant d'acquérir les notions fondamentales de la programmation.\nConnaissances préalables recommandées :\nNotions d'algorithmique et de structure de données.\nContenu de la matière :\nChapitre 1 : Les types personnalisés\nIntroduction\nEnumérations\nEnregistrements (Structures)\nAutres possibilités de définition de type\nChapitre 2 : Les fichiers\nIntroduction\nDéfinition\nTypes de fichier\nManipulation des fichiers\nChapitre 3 : Les listes chaînées\nIntroduction\nLes pointeurs\nLes listes chaînées\nOpérations sur les listes chaînées\nLes listes doublement chaînées\nNB : TPs en C.\nMode d'évaluation :\nExamen (60%), contrôle continu (40%)\nRéférences :\nThomas H. Cormen, Algorithmes Notions de base, Collection : Sciences Sup, Dunod, 2013.\nThomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Algorithmique - 3ème édition - Cours avec 957 exercices et 158 problèmes, Dunod, 2010.\nRémy Malgouyres, Rita Zrour et Fabien Feschet. Initiation à l'algorithmique et à la programmation en C. 2ième Edition. Dunod, Paris, 2011. ISBN : 978-2-10-055703-5.\nDamien Berthet et Vincent Labatut. Algorithmique & programmation en langage C - vol.1. 2014, pp.232.\nDamien Berthet et Vincent Labatut. Algorithmique & programmation en langage C - vol.2. 2014, pp.258. <cel-01176120>\nDamien Berthet et Vincent Labatut. Algorithmique & programmation en langage C - vol.3. 2014, pp.217. <cel-01176121>\nClaude Delannoy. Apprendre à programmer en Turbo C. Chihab-EYROLLES, 1994.\nJohn R. Gregg, Ones and Zeros: Understanding Boolean Algebra, Digital Circuits, and the Logic of Sets, 1st Edition, Wiley & sons Inc. publishing, 1998, ISBN: 978-0-7803-3426-7.\nBradford Henry Arnold, Logic and Boolean Algebra, Dover publication, Inc., Mineola, New York, 2011, ISBN-13: 978-0-486-48385-6.\nAlain Cazes, Joëlle Delacroix, Architecture des machines et des systèmes informatiques, 3° édition, Dunod 2008."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

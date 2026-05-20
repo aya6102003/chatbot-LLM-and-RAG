@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/7180",
+      "title": "Faculté des Sciences",
+      "id": "eac162d4",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:27:46",
+      "hash": "aefc1e8395cffdca",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nCALL FOR PAPERS"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "AJS Call for papers",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/5273/AJS_Call_for_papers.pdf",
+        "local_file": "pdfs/eac162d4_AJS_Call_for_papers.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

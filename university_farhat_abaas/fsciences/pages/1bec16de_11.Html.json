@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/IQ/11.html",
+      "title": "11.Html",
+      "id": "1bec16de",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:35",
+      "hash": "9ad64f95a4dd1f3e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI. Overview of Current Technologies\nTwo-level systems.\nBloch Sphere from an Experimental Point of View.\nDiVincenzo's Criteria.\nII. Superconducting  Qubits\nIntroduction to Superconductivity\nCooper Pairs\nJosephson Junctions: Introduction: Quantum tunneling and Josephson Tunneling, Josephson Energy,\nand Washboard Potential, SQUID.\nSuperconducting  Qubits:  LC  Oscillator,  Anharmonic  Oscillators  and  The  Josephson   Junction,\nCooper  Pair  Box  \u0013Artificial  Atom:  Josephson  junction  as  a  two-level  system,  Transmon  qubit:\nfundamentals, e.g., resonant frequency, anharmonicity, The Transmon Qubit , Circuit QED, Jaynes-\nComing model, Vacuum-Field Rabi Oscillations , Dispersive Model, Qubit Readout.\nSources of Decoherence\nOther Qubits: Charge, Phase and Flux Qubits.\nQuantum Gates and Circuit Quantum Electrodynamics (QED), CNOT Gate Using Charge Qubits.\nIII. Atomic Qubits\nRelevant Structure of Atoms.\nTrapping and Cooling Atoms and Ions.\nIon trap Quantum Gates.\nSources of Decoherence.\nIV. Spin Qubit\nSpin in an External Magnetic Field.\nSpin Qubit in Silicon.\nSpin Qubit in Diamond NV Centers.\nSources of Decoherence.\nV. Photonic Qubits\nBasic Optical Components and Single Photon Sources.\nPolarization, Optical Angular Mode Encoded Qubits.\nEntangled Photons and Manipulations and Cluster States.\nSources of Decoherence."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

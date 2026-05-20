@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_INFORMATIQUE/S1-STM1.html",
+      "title": "S1 Stm1.Html",
+      "id": "3f9cc43c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:04",
+      "hash": "bb581024d1ae0cad",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Structure machine 1\nSemestre :\n1  |\nUE :\nUEF12  |\nCrédits :\n5  |\nCoefficient :\n3\nObjectifs de l'enseignement\nUn premier but de cette matière est de présenter et d'approfondir les notions concernant les différents systèmes de numération ainsi que la représentation de l'information qu'elle soit de type numérique ou caractère. Les bases de l'algèbre de Boole sont, elles aussi, abordées de façon approfondie. Ces connaissances vont servir de plateforme pour d'autres aspects en relation avec l'ordinateur (architecture des ordinateurs, programmation, systèmes d'exploitation, réseaux, …).\nConnaissances préalables recommandées\nMathématiques élémentaires.\nContenu de la matière\nChapitre 1 : Introduction générale\nChapitre 2 : Les systèmes de numération\nDéfinition\nPrésentation des systèmes décimal, binaire, octal et hexadécimal\nConversion entre ces différents systèmes\nOpérations de base dans le système binaire : Addition, Soustraction, Multiplication, Division\nChapitre 3 : La représentation de l'information\nLe codage binaire :\nLe codage binaire pur\nLe code binaire réfléchi (ou code DE GRAY)\nLe code DCB (Décimal codé binaire)\nLe code excédent de trois\nReprésentation des caractères : Code EBCDIC, Code ASCII, Code UTF\nReprésentation des nombres entiers :\nReprésentation non signée\nReprésentation avec signe et valeur absolue\nComplément à 1 (ou Complément restreint)\nComplément à 2 (ou Complément Vrai)\nLes nombres fractionnaires : Virgule fixe, Virgule flottante (norme IEEE 754)\nChapitre 4 : L'algèbre de Boole binaire\nDéfinition et axiomes de l'algèbre de Boole\nThéorèmes et propriétés de l'algèbre de Boole\nLes opérateurs de base : ET, OU, négation logique – Représentation schématique\nAutres opérateurs logiques : Circuits NAND et NOR, Ou exclusif, Implication – Représentation schématique\nTable de vérité\nExpressions et fonctions logiques\nEcriture algébrique d'une fonction sous première et deuxième forme normale\nExpression d'une fonction logique avec des circuits NAND ou NOR exclusivement\nSchéma logique d'une fonction\nSimplification d'une fonction logique : Méthode algébrique, Tableaux de Karnaugh, Méthode de Quine-McCluskey\nMode d'évaluation\nExamen (60%), Contrôle continu (40%)\nRéférences bibliographiques\nJohn R. Gregg, Ones and Zeros: Understanding Boolean Algebra, Digital Circuits, and the Logic of Sets, 1st Edition, Wiley & Sons Inc. publishing, 1998, ISBN: 978-0-7803-3426-7.\nBradford Henry Arnold, Logic and Boolean Algebra, Dover publication, Inc., Mineola, New York, 2011, ISBN-13: 978-0-486-48385-6.\nAlain Cazes, Joëlle Delacroix, Architecture Des Machines Et Des Systèmes Informatiques : Cours et exercices corrigés, 3e édition, Dunod 2008.\nDonald D. Givone : « Digital Principles and Design », Mc Graw Hill, 2003."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

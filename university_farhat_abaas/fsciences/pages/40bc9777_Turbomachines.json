@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S2-TURBO.html",
+      "title": "Turbomachines",
+      "id": "40bc9777",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:04",
+      "hash": "0477c86798e19dd7",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Turbomachines\nSemestre 2 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nObjectifs de l’enseignement\nCe module a pour objectif de fournir aux étudiants les connaissances théoriques et pratiques nécessaires à\nla compréhension du fonctionnement, de la classification et de la performance des turbomachines utilisées\ndans divers domaines énergétiques et industriels (pompes, compresseurs, turbines hydrauliques,\nventilateurs).\nÀ travers des travaux pratiques, les étudiants acquièrent également une expérience concrète sur différents\ntypes de machines, leur comportement en régime réel, et les méthodes de mesure et d’optimisation des\nperformances.\nConnaissances préalables recommandées\nUne bonne maîtrise de la mécanique des fluides et des principes de la thermodynamique appliquée est\nindispensable.\nDes notions sur les machines tournantes (pompes, turbines, compresseurs) sont également recommandées\nContenu de la matière :\n1. Introduction (1 semaines)\nThermodynamique et mécanique des fluides de base\n2. Chapitre 1 : Pompes (2 semaines)\nIntroduction, historique, classification des pompes et domaines d’application\n3. Chapitre 2 : Les pompes volumétriques (2 semaines)\nClassification, caractéristiques, bilan énergétique, puissances et rendements, facteurs affectant les performances.\n4. Chapitre 3 : Les pompes centrifuges (3 semaines)\nFonctionnement et classification, triangles des vitesses, lois de similitude, vitesse spécifique, courbes caractéristiques, caractéristique résistante, caractéristique débitante, point de fonctionnement, modification des performances, cavitation, condition d’aspiration NPSH, couplage des pompes, série et parallèle\n5. Chapitre 4 : Compresseurs (4 semaines)\nIntroduction, classification et domaines d’application, compresseurs volumétriques (rotatifs et alternatifs) : design & technologie, thermodynamique de la compression : cycle de compression, bilan énergétique : puissances et rendements, turbocompresseurs (centrifuge et axiaux) : design & technologie, processus de la compression et performances, vitesse spécifique, coefficient de débit, coefficient de pression, nombre de Mach, pompage, contrôle du pompage, performances, courbes de performances.\n6. Chapitre 5 : Turbines hydrauliques (3 semaines)\nIntroduction : Définition, classification, turbine Pelton, triangle des vitesses, pertes & performances, turbine à réaction (Francis), caractéristiques, pertes, turbine axiale (Kaplan), caractéristiques, cavitation\nTravaux pratiques\nTP1 : Essai sur une pompe alternative avec pompe à piston\nTP2 : Essai d’une pompe centrifuge (série / parallèle)\nTP3 : Essai sur ventilateur axial\nTP4 : Essai sur une pompe à engrenages\nTP5 : Essai sur un compresseur à doubles étages\nRéférences\n[1] Michel Pluviose, Conversion d’énergie par turbo-machines, éoliennes, turbines, Ellipses, 2005.\n[2] Michel Pluviose , Ingénierie des turbomachines, Circuits, vibrations, effets\n[3] instationnaires et des exercices résolus, génie énergétique, Ellipses,2003.\n[4] René Bidard, Georges Bonnin, Energétique et turbo-machines, Direction des études et\n[5] recherches d’électricité de France, Eyrolles,1999.\n[6] Baltaretu E., \"Les pompes centrifuges\", EYROLLES, 1975"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

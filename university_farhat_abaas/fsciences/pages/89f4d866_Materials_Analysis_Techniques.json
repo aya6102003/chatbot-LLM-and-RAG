@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S3-TAM.html",
+      "title": "Materials Analysis Techniques",
+      "id": "89f4d866",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:57",
+      "hash": "c9988d17f9d89a0a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n3  |\nUE :\nMéthodologie (UEM 3)  |\nCrédits :\n4  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nL'objectif de cette formation est l'acquisition des connaissances nécessaires à la mise en œuvre de dispositifs expérimentaux dédiés à la caractérisation des matériaux répondant aux besoins des problématiques soulevées dans les disciplines telles que la physique des couches minces, les polymères, biologie, la médecine.\nContenu de la matière\nChapitre 1 : Principes des techniques d'analyse RBS et ERDA\nAnalyse par rétrodiffusion coulombienne (RBS)\nAnalyse par détection de recul élastique (ERDA)\nFacteur cinématique, section efficace, résolution en énergie et en masse, concentration en impuretés, perte d'énergie et straggling\nChapitre 2 : Emission X induite par des particules chargées (PIXE)\nEnergie des rayons X\nIntensité des rayonnements\nEffets interéléments\nMéthodes d'étalonnage\nSections efficaces\nExemples d'application\nChapitre 3 : Autres techniques d'analyse\nSpectroscopie d'ions diffusés à basse énergie (LEISS-ISS)\nAnalyse par activation neutronique\nChapitre 4 : Travaux de laboratoire\nAppareillage expérimental\nSchéma de principe d'un accélérateur Van de Graff\nCibles solides et gazeuses, conditions expérimentales\nAnalyse de spectres : épaisseurs de cibles, stœchiométrie, perte d'énergie et straggling\nFamiliarisation avec les programmes d'analyse VRBS, RUMP, TRIM\nSpectrométrie RBS dans diverses cibles solides\nAnalyse par réactions nucléaires de la stœchiométrie des éléments légers dans les cibles solides\nAnalyse et mesure de l'hydrogène par la technique Elastic Rutherford Diffusion\nMesure du stopping power des éléments légers en utilisant la RBS et la transmission\nEtude du parcours et du profil d'implantation des ions lourds (Ge et N dans le SiO2)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

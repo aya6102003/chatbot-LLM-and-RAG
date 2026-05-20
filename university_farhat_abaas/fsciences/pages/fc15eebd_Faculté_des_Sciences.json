@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/9087",
+      "title": "Faculté des Sciences",
+      "id": "fc15eebd",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:34:18",
+      "hash": "ab662cd52ecacf71",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Aux étudiants L3\nAnnonce – Étudiants L3 Chimie\nLocaux des examens\nLa\nliste des étudiants\nest disponible dans le\nfichier attaché\n.\nChaque étudiant est tenu d’assister à l’examen\ndans la salle qui lui a été attribuée\n.\nAucun changement de salle ne sera accepté.\nMerci de respecter cette organisation."
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "liste etudiants L3 Chimie",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6505/liste_etudiants_L3_Chimie.pdf",
+        "local_file": "pdfs/fc15eebd_liste_etudiants_L3_Chimie.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_DE_L_EAU/S3-ELS.html",
+      "title": "Exploration de logiciels open source et libre de la spécialité",
+      "id": "169a431a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:28",
+      "hash": "ef61089d4d7b6259",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Exploration de logiciels open source et libre de la spécialité\nSemestre :\n3  |\nUnité d'enseignement :\nMéthodologie\nObjectifs de l'enseignement\nIdentifier, installer et utiliser des logiciels open source pertinents dans le domaine de l'environnement et du traitement de l'eau\nTraiter, visualiser et interpréter des données environnementales\nRéaliser des simulations et modélisations de procédés environnementaux\nAutomatiser des tâches de calcul ou d'analyse avec des outils libres\nContenu de la matière\n(À développer au moins 6 points des 12 points donnés ci-après)\nIntroduction aux logiciels libres et open source : Licences, éthique, communauté\nInstallation et prise en main de Linux (Ubuntu/Debian) (\nLogiciels et outils :\nLinux, Terminal)\nManipulation de données environnementales (\nLogiciels et outils :\ntableurs open source LibreOffice Calc, CSVKit)\nTraitement de données analytiques (\nLogiciels et outils :\nPython (pandas, matplotlib))\nVisualisation cartographique et géospatiale (\nLogiciels et outils :\nQGIS)\nBase de données pour l'environnement (\nLogiciels et outils :\nSQLite, DB Browser)\nSimulation des procédés d'épuration biologique (\nLogiciels et outils :\nGPS-X (démonstration si disponible) ou BioWin (demo) ou alternative libre : WEST-like outils open source)\nChimie de l'eau : visualisation et modélisation (\nLogiciels et outils :\nPHREEQC, interface IPhreeqc)\nBilan de matière et simulation de réacteurs (\nLogiciels et outils :\nScilab ou Octave)\nTraitement statistique de données environnementales (\nLogiciels et outils :\nR, Jamovi (open source))\nIntroduction à l'automatisation (\nLogiciels et outils :\nscripts bash, Python)\nMini-projets étudiants : application d'un logiciel libre à un cas réel (\nLogiciels et outils :\nau choix)\nMode d'évaluation\nContinu : 50%  |  Examen : 50%"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

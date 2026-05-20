@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S1-TA.html",
+      "title": "Thermodynamique Appliquée",
+      "id": "4828ce54",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:12",
+      "hash": "6f7be971c40587f2",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Thermodynamique Appliquée\nObjectifs de l'enseignement\nL'enseignement de cette matière permet à l'étudiant de comprendre les bases de la thermodynamique et de la cinétique formelle appliquées aux systèmes matériels. Il vise également à maîtriser les types de diagrammes binaires (solutions solides, eutectiques, péritectiques, etc.) et leurs règles d'interprétation. Enfin, il permet d'appliquer ces connaissances à des cas industriels comme la lecture du diagramme des bronzes et l'optimisation des traitements thermiques.\nConnaissances préalables recommandées\nIl est recommandé d'avoir bien maîtrisé les bases de thermodynamique chimique, notions de la chimie générale et physico-chimie des solutions (solutions idéales et réelles : activité, coefficient d'activité), ainsi que les notions sur les alliages métalliques : solutions solides, composés intermédiaires ; définitions de base du point eutectique, péritectique…\nContenu de la matière\nNotions générales (2 semaines)\nNotion d'équilibre entre phases\nRègle ou loi des phases\nRègle des segments inverses\nLes écarts à l'équilibre\nImprécisions sur les diagrammes\nDénomination des phases\nLes différents types de diagrammes binaires : cas de la diffusion parfaite dans le solide et dans le liquide (5 semaines)\nCas des alliages formant des solutions solides illimitées\nCas des alliages formant des solutions solides limitées\nCas des alliages formant un eutectique\nCas des alliages formant un eutectoïde\nCas des alliages formant un péritectique\nCas des alliages formant un péritectoïde\nCas des alliages formant des phases intermédiaires\nCas des alliages formant une lacune de miscibilité à l'état liquide\nCas général des diagrammes d'équilibre\nCas pratique de la diffusion imparfaite : que deviennent les diagrammes d'équilibre ? (3 semaines)\nCas du diagramme en fuseau\nCas du diagramme eutectique\nApplications des diagrammes d'équilibre (2 semaines)\nIntroduction aux applications industrielles\nUtilisation dans la métallurgie et les traitements thermiques\nLecture du diagramme des bronzes (3 semaines)\nIdentification des différentes transformations et phases intermédiaires\nDiagramme pratique des recuits industriels\nDiagramme pratique des alliages bruts de fonderie\nRéférences bibliographiques\nMichel Soustelle : Thermodynamique des matériaux – École des Mines de Saint-Étienne (EDP Sciences), DOI:10.51926/ISTE.9781784051549\nMichel Dupeux : Introduction à la science des matériaux – Presses Polytechniques et Universitaires Romandes (PPUR)\nRobert W. Balluffi, Samuel M. Allen, W. Craig Carter : Kinetics of Materials – Wiley\nJean-Noel Pons, Michel Robineau : Thermodynamique et équilibres chimiques – Cours et exercices corrigés\nGeneviève M.L. Dumas, Roger I. Ben-Aim : L'indispensable sur les diagrammes de phases\nC. Moreau, J.-P. Payen : Thermodynamique chimique – exercices et problèmes corrigés"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

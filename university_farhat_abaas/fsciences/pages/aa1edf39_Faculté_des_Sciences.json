@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/9089",
+      "title": "Faculté des Sciences",
+      "id": "aa1edf39",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:36:10",
+      "hash": "9d8090c141c43f33",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nPLANNING DES EXAMENS POUR LICENCE 2+3\nSession Normale : Semestre 2 2025/2026 (Listes des étudiants par Local)"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Lic",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6507/Lic.pdf",
+        "local_file": "pdfs/aa1edf39_Lic.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

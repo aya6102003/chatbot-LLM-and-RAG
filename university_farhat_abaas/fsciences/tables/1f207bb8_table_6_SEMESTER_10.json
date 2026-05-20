@@ -1,0 +1,50 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/ING_INTELLIGENCE_ARTIFICIELLE.html",
+  "title": "SEMESTER 10",
+  "headers": [
+    "Activity",
+    "VHS",
+    "Coefficient",
+    "Credits"
+  ],
+  "rows": [
+    [
+      "Activity",
+      "VHS",
+      "Coefficient",
+      "Credits"
+    ],
+    [
+      "Personal work",
+      "140H",
+      "/",
+      "/"
+    ],
+    [
+      "Company internship",
+      "280H",
+      "/",
+      "/"
+    ],
+    [
+      "Seminar",
+      "/",
+      "/",
+      "/"
+    ],
+    [
+      "Other",
+      "/",
+      "/",
+      "/"
+    ],
+    [
+      "Total Semester 10",
+      "420H",
+      "20",
+      "30"
+    ]
+  ],
+  "row_count": 6,
+  "col_count": 4
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S3-IC.html",
+      "title": "Intégrale de chemin",
+      "id": "86921eb2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:54",
+      "hash": "8b2c584823d1934c",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Intégrale de chemin\nSemestre 3 – UE Méthodologie\nPrérequis\nMécanique quantique (niveau Licence)\nAlgèbre linéaire et analyse mathématique (niveau Licence)\nObjectifs de l'enseignement\nCe cours vise à initier l'étudiant au formalisme des intégrales de Feynman, en mettant l'accent sur ses applications en physique théorique. Il explore les techniques permettant de contourner les difficultés de calcul des propagateurs, notamment par des transformations d'espace-temps et des changements de coordonnées. L'étudiant pourra appliquer ce formalisme à divers domaines, tels que la physique statistique ou la théorie de la décohérence.\nProgramme détaillé\nChapitre 1 : Introduction aux intégrales de chemin\nOrigine historique et contexte physique\nExpérience de pensée de Feynman\nConstruction d'une intégrale de chemin via le produit de Trotter\nChapitre 2 : Propagateurs relatifs à des lagrangiens quadratiques\nApproche par chemins polygonaux\nIntégrales gaussiennes appliquées à des formes quadratiques\nCas des propagateurs classiques\nApplications à l'oscillateur harmonique et au potentiel libre\nChapitre 3 : Intégrales de chemin dans différents systèmes de coordonnées\nPropagateurs en coordonnées polaires et sphériques\nÉtude des potentiels centraux\nGénéralisation à D dimensions\nApplications à la physique atomique et moléculaire\nChapitre 4 : Transformations de coordonnées\nTransformations temporelles locales en mécanique classique\nChangements d'espace-temps dans les intégrales de chemin\nApplications : potentiel de Coulomb, de Morse, et systèmes à trois corps\nChapitre 5 : Intégrales de chemin en physique statistique\nMouvement brownien et intégrales de Wiener\nFonctions de partition et densité de particules dans le formalisme de Feynman\nMéthode variationnelle de Feynman\nApproche Feynman-Kleinert pour l'énergie de l'état fondamental\nApplications aux potentiels polynomiaux\nÉtude du spectre des états excités par la méthode de Kleinert\nMéthodes perturbatives et corrections systématiques\nCas des potentiels à symétrie PT\nChapitre 6 : Études de cas et synthèse\nApplication intégrée à un système quantique réel\nComparaison entre formalisme de Schrödinger et de Feynman\nBilan du cours et perspectives\nMode d'évaluation\nContrôle continu : 33 %\nExamen : 67 %"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

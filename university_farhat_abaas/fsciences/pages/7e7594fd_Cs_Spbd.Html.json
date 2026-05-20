@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-SPBD.html",
+      "title": "Cs Spbd.Html",
+      "id": "7e7594fd",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:56:30",
+      "hash": "020928d0851b4fa7",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nThis course will provide the background information needed for the course both in cyber security and big data, and also security and privacy in the Big Data. The using od data science in the cyber security will be presented in this course.\nContenu de la matière\n• • • • •\nMode d’évaluation : Contrôle continu, examen Références\n•\nBackground for Big Data Security and Privacy\nBig Data Security and Privacy Overview Big Data Security and Privacy Functions\nSecure Cloud Computing/Infrastructures for Big Data\nData Science and Cyber Security\nSecurity and Privacy for Big Data, Cloud Computing and Applications, Wei Ren; Lizhe"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "blob:https://www.univ-setif.dz/5731da0c-dd60-4477-95cb-43e04ae4e06e",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "blob:https://www.univ-setif.dz/549b560d-7ca1-42d0-a7ea-c264d71b122b",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "blob:https://www.univ-setif.dz/a087a910-e330-4ef7-b970-2082d0da23c3",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "blob:https://www.univ-setif.dz/fb80710d-d6c0-475d-8288-3ddd1d03d807",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "blob:https://www.univ-setif.dz/a6b05ab5-aaae-46ce-8447-4995672fd786",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "blob:https://www.univ-setif.dz/f2da6f5f-2389-4aca-a434-9f5e984ea1cc",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S3-OPTGEO.html",
+      "title": "Optique Géométrique",
+      "id": "66fdeac2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:29",
+      "hash": "544a6bd562df3883",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Optique Géométrique\nSemestre :\n3  |\nUE :\nFondamentale  |\nCrédits :\n4  |\nCoefficient :\n2\nConnaissances préalables recommandées\nNotions fondamentales d'optique géométrique enseignées au secondaire.\nObjectifs de l'enseignement\nL'étudiant acquiert les connaissances théoriques et les lois fondamentales de l'optique géométrique et physique ainsi que les techniques et les instruments utilisés accompagnés de plusieurs applications.\nContenu de la matière\nChapitre 1 : Principes et lois d'optique géométrique\nPhénomènes lumineux\nMilieu de propagation\nLe rayon lumineux (indépendance des rayons lumineux)\nIllustration du principe de Fermat (lois de Snell et Descartes)\nÉtude des propriétés d'un prisme :\nDéfinition d'un prisme\nConditions d'émergence d'un prisme\nLa fonction de déviation (déviation minimale)\nCouleurs de la lumière et dispersion (loi de Cauchy)\nChapitre 2 : L'approximation de Gauss\nL'image d'un point en optique géométrique : stigmatisme rigoureux et approché.\nLes dioptres sphériques :\nFormule de conjugaison par rapport aux sommet, centre et foyer.\nPositions des foyers objet et image, Grandissement transversal et calcul de vergence\nConstruction des images.\nCas particulier du dioptre sphérique : le dioptre plan.\nLes miroirs :\nLe miroir plan : formule de conjugaison et construction d'image.\nLe miroir sphérique :\nFormule de conjugaison par rapport aux sommet, centre et foyer.\nPositions des foyers, Grandissement transversal et calcul de vergence\nConstruction des images.\nL'invariant Lagrange-Helmholtz\nChapitre 3 : Étude des systèmes centrés dans l'approximation de Gauss\nPropriétés relatives à l'approximation de Gauss.\nInvariant de Lagrange-Helmholtz\nDifférents types de systèmes centrés\nÉtude d'un système dioptrique centré focaux :\nPlans principaux et points principaux\nFormule de conjugaison avec origines aux foyers, aux points principaux.\nLa vergence\nApplication : les lentilles minces\nL'approximation de la lentille mince\nLes différents types de la lentille mince\nFormules de conjugaison et de grandissement\nDiscussion graphique (représentation cartésienne) pour différentes positions de l'objet et l'image.\nConstruction géométrique d'une image pour des lentilles convergente et divergente.\nLentilles accolées et vergence.\nChapitre 4 : Les instruments optiques\nL'œil (fonctionnement, champ, résolution angulaire, courbe de la vision, défauts et modélisation)\nLa loupe (fonctionnement, grossissement, champ, puissance et modélisation)\nLe microscope (fonctionnement, grossissement, vergence (formule de Gullstrand), puissance et modélisation)\nLa lunette astronomique (fonctionnement, grossissement et modélisation)\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\nD. FIEL & P. COLIN,\nOptique - Cours et exercices corrigés\n, Ed. Ellipses, (1999).\nJ.-P. PEREZ,\nOptique - Fondements et Applications avec 250 exercices et problèmes résolus\n, Ed. Dunod, (2004).\nT. BECHERRAWY,\nOptique Géométrique - Cours et exercices corrigés\n, Ed. Debœck, (2006).\nH. GAGNAIRE,\nOptique géométrique et physique\n, Ed. Casteilla, (2011)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

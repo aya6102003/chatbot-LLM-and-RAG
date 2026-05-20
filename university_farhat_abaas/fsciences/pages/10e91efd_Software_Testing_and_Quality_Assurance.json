@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S8-TEST-QA.html",
+      "title": "Software Testing and Quality Assurance",
+      "id": "10e91efd",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:36",
+      "hash": "e48c5d363aaa68c0",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Software Testing and Quality Assurance\nSemestre : S8\nUnité d’enseignement : UEF2\nMatière : Test Logiciel et Assurance Qualité\nCrédits : 4\nCoefficient : 2\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement\nLe test a pour but de détecter la présence d’erreurs dans un programme vis-à-vis de sa spécification. Il\ncible la formalisation de critères pour guider la sélection des tests. Et éventuellement sa mise à\nl’épreuve : de la robustesse, des performances et des propriétés de sûreté de fonctionnement.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\nNotions fondamentales de développement et de spécification de logiciels\nContenu de la matière\n1. Introduction et problématique\n- Vérification statique (revue et inspection).\n- Exécution symbolique (valeurs – variables).\n- Techniques de test\n- Notions et critères de l’assurance qualité logiciel.\n2. Test dynamique (structurel et fonctionnel)\n- Structurel et Critères de test structurel\n- Fonctionnel\n3. Test statique\n4. Test Mutationnel (évaluer jeu de test) (Une Séance 1h 30 m).\n5. La qualité des logiciels : Facteurs et évaluation de la qualité d’un logiciel.\n6. Les modèles de qualité : SEI, CMMI,\n7. Les méthodologies de développement et qualité.\n8. Le processus et plan d’assurance qualité.\n9. Les risques et la qualité\n10. Automatisation des tests (Mise en œuvre : test unitaire et d’intégration) (Objet TP)\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences\n- Software engineering Addison-Wesely 6th ed.2001 I.Sommerville.\n- Le genie logiciel et ses applications I.Sommerville Intereditions .\n- Software Testing Techniques B. Bezier Van Nostrand Reinhold.\n- Structured Testing T.J.McCabe.\n- Test logiciel en pratique Vuibert informatique John Warkins 2002.\n- http://www.faqs.org/faqs/software-eng/testing-faq/.\n- Assurance qualité en conception by, Lavoisier.\n- Du système d'assurance qualité à la certification ISO 9002 by FLEUR\n- Software engineering Institute, SEI.org"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

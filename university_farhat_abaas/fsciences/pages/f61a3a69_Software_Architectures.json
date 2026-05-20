@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S8-ARCH-LOG.html",
+      "title": "Software Architectures",
+      "id": "f61a3a69",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:32",
+      "hash": "6a3d59d2fa31e4f1",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Software Architectures\nSemestre : S8\nUnité d’enseignement : UEF2\nMatière : Architectures logicielles\nCrédits : 4\nCoefficient : 2\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement\n✓ Maîtriser l’ensemble des compétences indispensables au métier de développeur et d’architecte\nlogiciel.\n✓ Apprendre à utiliser les techniques de conception, de modélisation et d’implémentation selon\nl’approche composants, services et architectures logicielles.\n✓ Apprendre à réfléchir au développement en termes d’architectures logicielles.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\nGénie logiciel, programmation orientée objet\nContenu de la matière\n1. Introduction et généralités\nIntroduction.\nLes architectures distribuées et les architectures centralisées.\nLes architectures n-tiers.\nLes modèles de structuration des systèmes et applications.\nPrésentation et comparaison des types d’architectures : multi-niveaux, clients/serveurs,\nextensibles, dynamiques,…etc.\n2. Les composants et les modèles de composants logiciels\nIntroduction et définitions.\nObject vs Composant.\nOrganisation logique d’un composant.\nL’aspect structurel et comportemental.\nL’approche par composant : principe et concepts de base.\nAvantages et inconvénients.\nCycle de vie.\nPrésentation et études de quelques modèles de composants (EJB3, UML, .Net…etc.).\n3. Les architectures logicielles\nIntroduction.\nPrincipe et objectif.\nArchitecture vs. Conception.\nLes modèles d'architectures.\n4. Les langages de description d’architecture logicielle (ADLs)\nIntroduction.\nLes concepts de base des langages de description d’architecture (Les composants, les\nconnecteurs et les configurations).\nDescription des principaux ADLs.\nClassification des ADLs.\nL’aspect statique dans les ADLs.\nL’aspect dynamique dans les ADLs.\nVérification et validation.\n5. Conception architecturale\nLes bases de la conception architecturale.\nLes approches de conception architecturale.\nDévelopper un modèle architectural.\nExemple d’application.\n6. Les styles architecturaux\n7. Les architectures orientées Services (SOA)\nIntroduction.\nLes concepts de base (service, annuaire de services, …etc).\nL’architecture orientée services.\nLes objectifs de l'architecture orientée services.\nLes principes de l’architecture l’orienté service.\nL’approche orientée services.\nTechnologies basées sur les principes de SOA.\nLes services web : définitions et caractéristiques.\nLes applications des services web.\nLe fonctionnement des services web.\nArchitecture des services web.\nProtocoles et normes.\nLes architectures micro services.\n8. Le déploiement\nIntroduction.\nDéploiement sur des infrastructures centralisées.\nDéploiement sur des infrastructures distribuées.\nDéploiement sur le Cloud.\nAutres solutions et technologies pour le déploiement.\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences\n- M. OUSSALAH. Ingénierie des composants: Concepts, techniques et outils. Éditeur Vuibert (20 juin\n2005). ISBN-10 : 2711748367.\n- Projet ACCORD (Assemblage de composants par contrats en environnement ouvert et réparti). Juin\n2002.\n- N. Medvidovic and R. N. Taylor, A Classification and Comparison Framework for\nSoftware Architecture Description Languages, IEEE Transactions on Software Engineering, Vol 26,\nno1, pp70-93, Janvier 2000.\n- Jean-Michel Doudoux. Ensemble des cours de Jean-Michel Doudoux sur la technologie Java (Java SE,\nJava EE, Java ME) et Eclipse (https://www.jmdoudoux.fr/java/dej/titre.htm). Version 2.30\ndu 15/06/2022\n- A. TASSO. Le livre de Java premier langage- Avec 109 exercices corrigés. 592 pages. ISBN-13 : 978-\n2212138542. ISBN-10 : 2212138547. Éditeur : Eyrolles; 9e édition (31 octobre 2013). Langue: Français.\n- J. LONCHAMP. Conception d’applications en Java/JEE - 2e édition. Principes, patterns et architectures.\nCollection : InfoSup, Dunod. Parution : janvier 2019.\n- J. ARLAT. Composants logiciels et sûreté de fonctionnement - intégration de COTS. Juin 2000.\n- J. Fontanel, F. Lacomme, L. Ren. Les web services - Concevoir et utiliser des applications 2.0 C#, Java,\nPHP, API JavaScript, Android SDK, iOS SDK. Éditeur: Ellipses. Avril 2013."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

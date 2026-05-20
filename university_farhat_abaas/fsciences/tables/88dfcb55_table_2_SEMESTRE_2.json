@@ -1,0 +1,130 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/IngInfoTC.html",
+  "title": "SEMESTRE 2",
+  "headers": [
+    "Unités d'enseignement",
+    "Intitulé des Matières",
+    "Crédits",
+    "Coefficient",
+    "Volume\nhoraire hebdomadaire",
+    "VHS\n14 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unités d'enseignement",
+      "Intitulé des Matières",
+      "Crédits",
+      "Coefficient",
+      "Volume\nhoraire hebdomadaire",
+      "VHS\n14 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "Unité FondamentaleCode:UEF2.1Crédits:12Coefficients:8",
+      "Algorithmes et Structure de Données 2",
+      "6",
+      "4",
+      "3h",
+      "1h30",
+      "1h30",
+      "6h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n ×"
+    ],
+    [
+      "Architecture des Ordinateurs",
+      "6",
+      "4",
+      "3h",
+      "1h30",
+      "1h30",
+      "6h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Unité FondamentaleCode:UEF2.2Crédits:12Coefficients:9",
+      "Analyse Mathématique 2",
+      "6",
+      "3",
+      "3h",
+      "3h",
+      "",
+      "6h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Algèbre 2",
+      "3",
+      "3",
+      "1h30",
+      "1h30",
+      "",
+      "3h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Logique Mathématique",
+      "3",
+      "3",
+      "1h30",
+      "1h30",
+      "",
+      "3h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Unité MéthodologiqueCode:UEM2.1Crédits:4Coefficients:2",
+      "Probabilités et Statistiques 1",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "3h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Unité TransversaleCode:UET2.1Crédits:2Coefficients:1",
+      "Techniques d'Expression Orale",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "",
+      "1h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 2",
+      "30",
+      "20",
+      "15h",
+      "10h30",
+      "3h",
+      "28h30"
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 7
+}

@@ -1,0 +1,116 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/IngInfoTC.html",
+  "title": "SEMESTRE 3",
+  "headers": [
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume\n    horaire hebdomadaire",
+    "VHS\n15 Semaines"
+  ],
+  "rows": [
+    [
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume\n    horaire hebdomadaire",
+      "VHS\n15 Semaines"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP"
+    ],
+    [
+      "Structure de Fichiers et Structures de Données",
+      "5",
+      "5",
+      "1h30",
+      "",
+      "3h00",
+      "67h30",
+      "Savoir\n    plus \n\n\n ×"
+    ],
+    [
+      "Architecture des Ordinateurs 2",
+      "5",
+      "5",
+      "3h00",
+      "1h30",
+      "",
+      "67h30",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Programmation Orientée Objet 1",
+      "5",
+      "5",
+      "1h30",
+      "",
+      "3h00",
+      "67h30",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Algorithmique et complexité",
+      "3",
+      "4",
+      "1h30",
+      "1h30",
+      "",
+      "45h00",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Algèbre 3",
+      "3",
+      "4",
+      "1h30",
+      "1h30",
+      "",
+      "45h00",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Analyse Mathématiques 3",
+      "5",
+      "4",
+      "3h00",
+      "3h00",
+      "",
+      "90h00",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Probabilités et Statistiques 2",
+      "3",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h00",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Entreprenariat",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total\n    Semestre 3",
+      "30",
+      "30",
+      "15h00",
+      "9h00",
+      "6h00",
+      "450h00"
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 5
+}

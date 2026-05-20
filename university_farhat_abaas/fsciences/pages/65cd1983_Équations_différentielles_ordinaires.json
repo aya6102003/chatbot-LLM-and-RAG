@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S1-EDO.html",
+      "title": "Équations différentielles ordinaires",
+      "id": "65cd1983",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:33",
+      "hash": "1f30d9b95e005a1d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Équations différentielles ordinaires\nSemestre :\n1  |\nUnité d'enseignement :\nFondamentale\nVolume Horaire Hebdomadaire :\nCours : 3h, TD : 1h30\nCrédits :\n6  |\nCoefficients :\n3\nObjectifs de l'enseignement\nÉtudier la théorie qualitative des EDO : existence, unicité, dépendance par rapport aux données, et comportement asymptotique des solutions (stabilité).\nConnaissances préalables recommandées\nCalcul différentiel et intégral, algèbre linéaire.\nContenu de la matière\nChapitre 1 : Théorèmes d'existence et d'unicité\nLe théorème de Cauchy-Lipschitz (point fixe de Banach). Le théorème de Peano (compacité).\nContinuation des solutions et solutions maximales.\nChapitre 2 : Dépendance par rapport aux données\nLe lemme de Gronwall.\nContinuité par rapport aux conditions initiales et aux paramètres.\nChapitre 3 : Systèmes différentiels linéaires et Stabilité de Lyapunov\nL'exponentielle de matrice. Stabilité des systèmes linéaires.\nPoints d'équilibre, stabilité. Linéarisation. Introduction aux fonctions de Lyapunov.\nMode d'évaluation\nExamen final (60%), Contrôle Continu (40%)\nRéférences bibliographiques\nV. I. Arnold,\nÉquations différentielles ordinaires\n. Mir/Springer.\nM. W. Hirsch, S. Smale, R. L. Devaney,\nDifferential Equations, Dynamical Systems, and an Introduction to Chaos\n. Academic Press, 3rd Ed., 2013.\nE. A. Coddington, N. Levinson,\nTheory of Ordinary Differential Equations\n. McGraw-Hill, 1955."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

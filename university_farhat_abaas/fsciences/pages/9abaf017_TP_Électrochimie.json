@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S1-TPE.html",
+      "title": "TP Électrochimie",
+      "id": "9abaf017",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:15",
+      "hash": "8cddaea21548e4ee",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : TP Électrochimie\nObjectifs de l'enseignement\nCes TP permettent aux étudiants de relier les concepts théoriques (thermodynamique, cinétique électrochimique) à des applications concrètes (corrosion, protection des matériaux, électroanalyse), ce qui est essentiel pour des futurs chercheurs ou ingénieurs en chimie physique ou matériaux.\nConnaissances préalables recommandées\nBases d'électrochimie (thermodynamique des piles, équation de Nernst, notions d'oxydoréduction).\nCinétique électrochimique (lois de Faraday, surtension, courbes courant-potentiel).\nChimie en solution (équilibres acido-basiques, précipitation, diagrammes de Pourbaix).\nLa liste des TP citée ci-dessous n'est pas exhaustive. Elle constitue une orientation d'ordre général et dépendra des ressources disponibles pour chaque établissement.\nContenu de la matière\nTP N°1 : Potentiel d'électrode et grandeurs thermodynamiques\nTP N°2 : Diagramme potentiel – pH du fer\nTP N°3 : Détermination de la vitesse de corrosion par méthode pondérale\nTP N°4 : Étude d'une courbe intensité – potentiel (courbe de polarisation)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

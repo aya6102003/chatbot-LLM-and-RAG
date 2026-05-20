@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S7-RESEAUX.html",
+      "title": "Networks and Protocols",
+      "id": "9eba7236",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:35",
+      "hash": "4fdb03fe3d6e9f49",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Networks and Protocols\nSemestre : S7\nUnité d’enseignement : UEM1\nMatière : Réseaux et Protocoles\nCrédits : 3\nCoefficient : 2\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement\nSuite à l’étude du module réseaux et protocoles, l’étudiant sera capable de comprendre, de configurer\net d’utiliser au moins un protocole dans chaque couche de la pile protocolaire. Il sera capable\nd’analyser le fonctionnement des protocoles et d’en déduire les anomalies dues à des erreurs de\nconfiguration ou au matériel.\nConnaissances préalables recommandées.\nInitiation aux Réseaux Informatiques (RES1)\nContenu de la matière\nChapitre 1 : Architectures Tcp/Ip (2 séances)\n• Rappel (protocoles Tcp/Ip)\n• Adressage IP/MAC (Protocole ARP)\n• Sous-adressage (statique/dynamique)\nChapitre 2 : Protocoles de routage (3 séances)\n• Routage statique (rappel)\n• Routage dynamique (RIP, OSPF, BGP)\nChapitre 3 : Réseaux locaux et réseaux étendues (3 séances)\n• Réseaux locaux Virtuels (Vlan), Protocoles VTP, DTP\n• Routage inter-Vlan\n• Redondances dans les LANs (STP, EtherChannel, Protocole HSRP)\n• Protocole PPP\n• VPN (Protocole GRE)\nChapitre 4 : Protocoles applicatifs (3 séances)\n• Protocoles web (HTTP et HTML)\n• Protocoles de messagerie électronique (SMTP, POP et IMAP)\n• Services de partage de fichiers (FTP et SMB)\n• DHCP et DNS\n• Telnet et SSH\nChapitre 5 : Protocole IPv6\n• Adressage\n• Transition IPv4/IPv6\n• Services IPv6…\nChapitre 6 : Gestion des réseaux\n• CDP, NTP\n• SNMP\n• Qualité de Service (QoS)\n• Automatisation de gestion de la configuration (Ansible…)\nChapitre 7 : Ingénierie des Protocoles\n• Introduction\n• Spécification d’un protocole\n• Cycle de Développement\n• Vérification et Validation\n• Modélisation\n• Des protocoles pour des traitements répartis ouverts\n• Conclusion\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences :\n• Cours cisco\n• Andrew S. Tanenbum, David J. Wetherall, ‘Computer Networks’, 5ème edition Pearson\n• G.J. Holzmann. Design and validation of computer protocols. Prentice-Hall, 1991.\n• J. Holzmann. The SPIN Model-Checker. Addison-Wesley, 2004.\n• R.Lai, A. Jirachiefpattana. Communication protocol specification and verification.\n• The Springer International Series in Engineering and Computer Science, 1998.\n• A.Tanenbaum, N. Feamster and D. Witherall. Computer Networks. Edition 6th.\n• Published by Pearson, 2020.\n• FLEURY Éric, KAMOUN Farouk. CFIP&#39;2006 : ingénierie des protocoles : mobilité, sans\n• fil, et qualité de services (Actes du 12° colloque francophone sur l&#39;ingénierie des\n• protocoles)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

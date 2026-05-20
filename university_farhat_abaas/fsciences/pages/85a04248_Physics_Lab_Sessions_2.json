@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/L1_SM_Common_Core/S2-PHYSLAB2.html",
+      "title": "Physics Lab Sessions 2",
+      "id": "85a04248",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:37",
+      "hash": "affc4597bff7cc9b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Physics Lab Sessions 2 – Electricity\nSemester:\n2  |\nTeaching Unit:\nMethodology Unit (MU)\nCourse Description\nThis laboratory course consolidates the theoretical knowledge acquired in the Electricity module (Physics 2) and develops practical skills in experimental techniques. Students will learn how to set up, operate, and interpret measurements in various electrical experiments, enabling them to visualize and better understand the phenomena studied in lectures and tutorials.\nLearning Outcomes\nPerform accurate measurements of electric fields and potentials using laboratory instruments.\nConstruct and analyze basic electrical circuits, applying Ohm's law and measuring resistance.\nUse the Wheatstone bridge method for precise resistance measurement.\nOperate oscilloscopes and signal generators, including transformer-based systems.\nMeasure and analyze the behavior of capacitors, including series/parallel combinations and charge–discharge cycles.\nVerify the Biot–Savart law experimentally.\nDetermine the Earth's magnetic field using appropriate apparatus.\nLab Schedule and Topics\nMeasurement of electric field and potential (rheographic tank)\nElectrical circuits: Ohm's law, resistor combinations, resistance measurements\nWheatstone bridge\nOscilloscope and current generator (transformer)\nCapacitors: combinations, capacitance measurement, charge–discharge experiments\nVerification of Biot–Savart law\nMeasurement of Earth's magnetic field\nAssessment Method\nContinuous assessment: 50%\nFinal exam: 50%\nReferences\nCaubarrere, J. L. – Electricity and Waves: Lectures and Lab Sessions. OPU, Algiers (1986).\nBentounsi, A. – General Electricity, Vol. 2: Solved Exercises. OPU, Algiers (1992).\nEdiscience Collective – University Physics: Electrostatics and Direct-Current Circuits, Years 1 and 2. Ediscience International (2010).\nFedullo, D., Gallauziaux, T. – Electricity: How to Build Your Own Electrical Installation. Eyrolles (2012).\nLargeaud, H. – Electrical Schematics. Eyrolles (2006)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

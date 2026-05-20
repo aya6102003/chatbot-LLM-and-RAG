@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S3-PMN.html",
+      "title": "Physique de la médecine nucléaire",
+      "id": "a323863a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:49",
+      "hash": "0eb76b49ffec0960",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n3  |\nUE :\nFondamentale (UEF 3)  |\nCrédits :\n6  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs pédagogiques\nPermettre à l'étudiant d'acquérir les notions essentielles en physique de médecine nucléaire nécessaires au physicien médical pour pouvoir exercer ses tâches dans un service de médecine nucléaire.\nContenu de l'unité\n1- Produits radiopharmaceutiques\nProduction de radionucléides et de produits radiopharmaceutiques\nDécroissance radioactive et choix des radionucléides\n2- Instrumentation en médecine nucléaire\nDétecteurs et électronique\nInstrumentation non-imagerie : Calibreurs de dose (Activimètre), compteurs de puits, sondes\nInstrumentation d'imagerie\n3- Différents modes d'acquisition\nPlanaire, corps entier\nTomographie par émission monophotonique (SPECT)\nTomographie par émission de photons (PET)\nImagerie hybride\n4- Dosimétrie interne\nIntroduction\nFormalisme de dose de rayonnement interne médicale (MIRD)\nModélisation biocinétique et analyse compartimentale\nImagerie quantitative\nDosimétrie pour thérapie radiopharmaceutique\n5- Qualité en médecine nucléaire\nPrincipes de gestion de la qualité en médecine nucléaire\nQualité d'image et bruit\nRadioprotection spécifique à la médecine nucléaire\nApplications diagnostiques et interprétation des images de radionucléides\nTravaux pratiques\nContrôle de qualité en médecine nucléaire\nÉtalonnage de la sensibilité d'une gamma-caméra\nSpectroscopie des rayons gamma\nRéférences bibliographiques\nINTERNATIONAL ATOMIC ENERGY AGENCY, Nuclear Medicine Physics: A Handbook for Teachers and Students, IAEA, Vienna (2014).\nINTERNATIONAL ATOMIC ENERGY AGENCY, Quantitative Nuclear Medicine Imaging: Concepts, Requirements and Methods, IAEA, Vienna (2014).\nBUSHBERG, J.T., SEIBERT, J. A., LEIDHOLDT Jr, E.M. and BOONE, J. M., The Essential Physics of Medical Imaging, Wolters Kluwer, Philadelphia (2021).\nCHERRY, S.R., SORENSEN, J.A., PHELPS, M.E., Physics in Nuclear Medicine, Elsevier Saunders, Philadelphia (2012).\nSTABIN, M. G., Fundamentals of Nuclear Medicine Dosimetry, Springer, USA (2008).\nINTERNATIONAL ATOMIC ENERGY AGENCY, Radiation Protection and Safety in Medical Uses of Ionizing Radiation: Specific Safety Guide No. SSG46, IAEA, Vienna (2018).\nINTERNATIONAL ATOMIC ENERGY AGENCY, Dosimetry for Radiopharmaceutical Therapy, IAEA, Vienna (in preparation)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

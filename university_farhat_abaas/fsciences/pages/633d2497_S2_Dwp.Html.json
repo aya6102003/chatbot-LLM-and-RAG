@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S2-DWP.html",
+      "title": "S2 Dwp.Html",
+      "id": "633d2497",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:51",
+      "hash": "37fa1299b9a82ff9",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Data Warehousing and Data Preparation\nSemester:\n2  |\nType:\nUEF22  |\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLecture:\n1h30  |\nLab:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n5\nTeaching Objectives\nData warehouses are currently the best response to the integration, storage, and personalised retrieval of large quantities of information from diverse sources. This course provides the foundations for designing, modelling, implementing, and maintaining data warehouses for decision information systems. It also covers data preparation and integration techniques to feed a data warehouse from heterogeneous sources.\nCourse Content (21h)\n1. Introduction to Data Warehouses\nFrom information systems to decision information systems\nMotivations and definition of a data warehouse\nProperties, objectives and functions of a data warehouse\n2. Data Warehouse Architecture\nData warehouse architecture\nWarehouse / Data Marts duality\nMetadata and data quality\nData flow in a warehouse\nOLAP and OLTP: definition, properties, operation, and comparison\n3. Data Extraction and Integration\nIntegration of source schemas\nVirtualised integration (mediation: GAV and LAV approaches)\nMaterialised integration (data warehouse)\nThe ETL process: data extraction, cleaning, and loading\n4. Warehouse Modelling\nMultidimensional model\nGeneral modelling approach\nFact table and dimension tables\nMultidimensional model schemas: star schema, snowflake schema, constellation schema\nCase study\n5. Physical Data Placement Optimisation\nDedicated operators\nOptimisation of join and aggregate operators\nView materialisation\nStorage medium selection\n6. Querying Data Warehouses\nData warehouse management systems (DBMS for decision-making, etc.)\nMultidimensional queries (complex SQL, etc.)\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — tests, personal work\nBibliography\nRalph Kimball (2013).\nThe Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling\n. Wiley.\nPaulraj Ponniah (2010).\nData Warehousing: Fundamentals for IT Professionals\n. Wiley.\nWilliam H. Inmon (2005).\nBuilding the Data Warehouse\n. Wiley."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

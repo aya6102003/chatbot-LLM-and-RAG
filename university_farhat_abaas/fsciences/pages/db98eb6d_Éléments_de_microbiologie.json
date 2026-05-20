@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_DE_L_EAU/S1-EM.html",
+      "title": "Éléments de microbiologie",
+      "id": "db98eb6d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:28",
+      "hash": "5ec8e38cfa190212",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Éléments de microbiologie\nSemestre :\n1\nUE :\nDécouverte\nCrédits :\n1\nCoefficient :\n1\nObjectifs de l'enseignement\nComprendre le rôle des microorganismes dans les cycles biogéochimiques (C, N, P…)\nMaîtriser les techniques d'analyse microbiologique des eaux et sols contaminés\nÉtudier les mécanismes de biodégradation des polluants (hydrocarbures, métaux lourds, pesticides)\nContenu de la matière\nCHAPITRE I : Introduction à la Microbiologie Environnementale\nObjectif : Comprendre la diversité microbienne et son rôle dans les écosystèmes.\nDiversité du monde microbien : Définition et historique\nClassification du vivant :\nProcaryotes : Bactéries, Cyanobactéries\nEucaryotes : Champignons, protozoaires\nArchées (rôle en milieux extrêmes)\nVirus : Structure, spécificité hôte\nCHAPITRE II : Bactériologie Appliquée\nObjectif : Maîtriser la structure et la physiologie bactériennes pour les procédés de traitement.\nStructure bactérienne : paroi (Gram+/Gram–), capsule, flagelles, plasmides\nClassification des bactéries\nMorphologie des bactéries\nNutrition et croissance :\nNutrition bactérienne\nLes substances élémentaires (Les Éléments Constitutifs)\nLes substances énergétiques\nBesoins spécifiques en facteurs de croissance\nCroissance bactérienne – la fission binaire\nFacteurs de croissance (température, pH, O₂…)\nMesure de la croissance bactérienne\nCroissance des bactéries en milieu non renouvelé – Courbe de croissance – paramètres de croissance\nCroissance en milieu renouvelé : culture continue\nRôle des microorganismes dans les cycles biogéochimiques : cycle du carbone, de l'azote, du soufre et du phosphore\nCHAPITRE III : Microbiologie de l'Eau et des Sols\nObjectif : Appliquer les concepts aux pollutions et traitements.\nBactériologie des eaux : eaux usées/potables, pathogènes (E. coli…), indicateurs de qualité\nBioremédiation : biodégradation des hydrocarbures, biolixiviation des métaux lourds\nMode d'évaluation\nExamen : 100%\nRéférences bibliographiques\nMadigan, M.T., Martinko, J.M., & Parker, J. (2021). Brock Biology of Microorganisms. Pearson.\nWilley, J.M., Sherwood, L., & Woolverton, C.J. (2020). Prescott's Microbiology. McGraw-Hill.\nONA Algérie (2023). Guide des Normes Microbiologiques des Eaux Usées.\nWHO (2022). Guidelines for Drinking-water Quality (microbiological parameters)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

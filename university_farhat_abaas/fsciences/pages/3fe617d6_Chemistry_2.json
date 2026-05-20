@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/L1_SM_Common_Core/S2-CHEM2.html",
+      "title": "Chemistry 2",
+      "id": "3fe617d6",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:38",
+      "hash": "944c5b96222df1b4",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Chemistry 2 – Thermodynamics & Chemical Kinetics\nSemester:\n2  |\nTeaching Unit:\nFundamental Unit (FU)\nCourse Description\nThis course introduces students to the fundamental formalism of thermodynamics, covering its core principles, thermodynamic quantities, and state functions such as enthalpy and entropy. It also provides an introduction to the chemical kinetics of reactions, including reaction rate laws and the factors influencing reaction speed.\nLearning Outcomes\nDefine and describe thermodynamic systems, state variables, and state functions.\nApply the first law of thermodynamics to various processes involving ideal gases and chemical systems.\nInterpret and use the second and third laws of thermodynamics in the context of natural processes and equilibrium.\nCalculate thermodynamic properties such as enthalpy, entropy, and Gibbs free energy.\nAnalyze chemical equilibrium using the law of mass action and equilibrium constants.\nExplain the basic concepts of chemical kinetics and determine how temperature and concentration affect reaction rates.\nWeekly Topics and Schedule\nGeneral Concepts in Thermodynamics\nSystems, system states, variables, and state functions\nEquilibrium and system transformations\nTemperature concepts and different forms of energy\nIdeal gas equation\nFirst Law of Thermodynamics\nInternal energy, work, and heat\nStatement of the first law\nDifferential form of the first law\nApplications: transformations of an ideal gas (isochoric, isothermal, isobaric, adiabatic)\nChemical systems: heat of reaction, bond energy\nExamples of applications to physical systems\nSecond Law of Thermodynamics\nNatural processes\nEntropy, Gibbs free energy, and heat engines\nChemical equilibria: law of mass action, equilibrium constant\nFactors affecting equilibrium\nStatement of the third law of thermodynamics\nIntroduction to Chemical Kinetics\nDefinition of reaction rate\nMain factors influencing reaction rates: concentration, temperature\nIntegrated rate laws\nAssessment Methods\nContinuous Assessment: 33% (tutorial participation, assignments, quizzes)\nFinal Exam: 67% (comprehensive written exam)\nReferences\nBecherravy, T. – Vibrations et Ondes, Vols. 1–4, Hermes-Lavoisier (2010).\nDjelouah, H. – Vibrations et Ondes Mécaniques, OPU (2011).\nBruneaux, J. – Vibrations et Ondes, Ed. Marketing (2010).\nGranjon, Y. – Exercises and Problems in Electricity, Dunod, Paris (2003).\nBorel, L., Favrat, D. – Thermodynamics and Energy Systems, Vol. 1: From Energy to Exergy, PPUR, Mechanical Engineering Collection (2011).\nFoussard, J.-N., Mathe, S. – Thermodynamics – Fundamentals and Applications, Lectures and Solved Exercises, 2nd ed., Dunod (2010).\nMauduit, R. – Thermodynamics in 20 Summaries, Dunod (2013)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Licence_Mathematiques.html",
+      "title": "Licence Mathématiques",
+      "id": "2e4e5902",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:20",
+      "hash": "b9f52a368746702c",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Guide pédagogique\nLicence Académique Mathématiques\nLa Licence Académique Mathématiques\nResponsable :\nSEMESTRE 1\nUnité\nd'Enseignement\nMatière\nCrédits\nCoefficient\nVolume horaire hebdomadaire\nVHS\n14 Semaines\nMode d'évaluation\nCours\nTD\nTP\nTravail personnel\nContinu\nExamen\nUE Fondamentales\nCode : UEF11(O/P)\nCrédits : 11\nCoefficients : 7\nUEF111 : Analyse 1\n6\n4\n3h00\n3h00\n3h\n84h\n40%\n60%\nSavoir plus\n×\nUEF112 : Algèbre 1\n5\n3\n1h30\n1h30\n3h\n42h\n40%\n60%\nSavoir plus\n×\nUEF121 : Algorithmique et structure de données 1\n6\n4\n3h00\n1h30\n3h\n3h\n105h\n40%\n60%\nSavoir plus\n×\nUE Méthodologie\nCode : UEM11(O/P)\nCrédits : 9\nCoefficients : 5\nUEM111 : Structure machine\n5\n3\n1h30\n1h30\n3h\n42h\n40%\n60%\nSavoir plus\n×\nUEM112 : Logiciels libres (Open source)\n4\n2\n1h30\n2h\n21h\n100%\nSavoir plus\n×\nUE Transversale\nCode : UET11(O/P)\nCrédits : 2\nCoefficients : 1\nUET111 : Langue étrangère\n2\n1\n1h30\n2h\n21h\n100%\nSavoir plus\n×\nUE Découverte\nCode : UED11(O/P)\nCrédits : 2\nCoefficients : 1\nUED111 : Choisir une Matière parmi :\n- Physique 1 (mécanique du point)\n- Electronique et composants des systèmes\n2\n1\n1h30\n1h30\n2h\n42h\n40%\n60%\nSavoir plus\n×\nElectronique\n×\nTotal Semestre 1\n30\n18\n13h30\n9h\n3h\n18h\n357h\nSEMESTRE 2\nUnité\nd'Enseignement\nMatière\nCrédits\nCoefficient\nVolume horaire hebdomadaire\nVHS\n14 Semaines\nMode d'évaluation\nCours\nTD\nTP\nTravail personnel\nContinu\nExamen\nUE Fondamentales\nCode : UEF21(O/P)\nCrédits : 18\nCoefficients : 11\nUEF211 : Analyse 2\n6\n4\n3h00\n3h\n3h\n84h\n40%\n60%\nSavoir plus\n×\nUEF212 : Algèbre 2\n4\n2\n1h30\n1h30\n3h\n42h\n40%\n60%\nSavoir plus\n×\nUEF221 : Algorithmique et structure de données 2\n4\n3\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nSavoir plus\n×\nUEF222 : Introduction aux probabilités et statistique descriptive\n4\n2\n1h30\n1h30\n2h\n42h\n40%\n60%\nSavoir plus\n×\nUE Méthodologie\nCode : UEM21(O/P)\nCrédits : 9\nCoefficients : 5\nUEM211 : Introduction à l'intelligence artificielle\n4\n2\n1h30\n2h\n21h\n100%\nSavoir plus\n×\nUEM212 : Fondements de programmation et calcul scientifique avec Python\n5\n3\n1h30\n1h30\n2h\n42h\n40%\n60%\nSavoir plus\n×\nUE Transversale\nCode : UET21(O/P)\nCrédits : 3\nCoefficients : 2\nUET211 : Physique 2 (électricité générale)\n3\n2\n1h30\n1h30\n2h\n42h\n40%\n60%\nSavoir plus\n×\nTotal Semestre 2\n30\n18\n12h00\n9h\n3h\n17h\n336h"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "Guide pédagogique",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/index.html",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/2e4e5902_table_1_SEMESTRE_1.json",
+        "rows": 10
+      },
+      {
+        "file": "tables/2e4e5902_table_2_SEMESTRE_2.json",
+        "rows": 10
+      }
+    ]
+  }
+}

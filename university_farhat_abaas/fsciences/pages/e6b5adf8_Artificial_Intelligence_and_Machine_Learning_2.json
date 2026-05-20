@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S2-IAML2.html",
+      "title": "Artificial Intelligence and Machine Learning 2",
+      "id": "e6b5adf8",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:58",
+      "hash": "a74ba107a97105e3",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nTransversale (UET 2)  |\nCrédits :\n1  |\nCoefficient :\n1\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs de l'enseignement\nCe cours vise à fournir une compréhension complète des méthodes statistiques avancées et des techniques d'apprentissage automatique essentielles à l'analyse des données et à la modélisation prédictive.\nContenu de la matière\nChapitre 1 :\nAnalyse en composantes principales\nChapitre 2 :\nAnalyse discriminante linéaire (LDA)\nChapitre 3 :\nMachines à vecteurs de support (SVM)\nChapitre 4 :\nMéthodes d'ensemble (Ensemble Learning)\nChapitre 5 :\nSystèmes de recommandation\nChapitre 6 :\nTechniques d'apprentissage profond\nRéférences bibliographiques\nHASTIE, T., TIBSHIRANI, R., FRIEDMAN, J.H. The Elements of Statistical Learning. Springer, New York (2009)\nBURKOV, A., The hundred-page machine learning book. Quebec City, QC, Canada (2019)\nJAMES, G., WITTEN, D., HASTIE, T., TIBSHIRANI, R. An Introduction to Statistical Learning. Springer, New York (2013)\nFLACH, P., Machine Learning: The Art and Science of Algorithms that Make Sense of Data. Cambridge University Press (2012)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

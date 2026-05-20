@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Licence_Informatique_SI.html",
+      "title": "Guide pédagogique",
+      "id": "615ef547",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:35",
+      "hash": "726d7121a7e5068a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Guide pédagogique\nLicence Académique Informatique – Systèmes Informatiques\nLicence Académique – Filière : Informatique – Spécialité : Systèmes Informatiques\nResponsable :\nSEMESTRE 1\nUnité\nd'Enseignement\nMatière\nCrédits\nCoefficient\nV.H hebdomadaire\nVHS\n14 sem\nMode d'évaluation\nC\nTD\nTP\nAutres\nContinu\nExamen\nUE Fondamentale\nCode : UEF11\nCrédits : 10\nCoefficients : 6\nAnalyse 1\n6\n4\n3h\n3h\n3h\n84h\n40%\n60%\nSavoir plus\n×\nAlgèbre 1\n4\n2\n1h30\n1h30\n3h\n42h\n40%\n60%\nSavoir plus\n×\nUE Fondamentale\nCode : UEF12\nCrédits : 12\nCoefficients : 8\nAlgorithmique et structure de données 1\n7\n5\n3h\n1h30\n3h\n3h\n105h\n40%\n60%\nSavoir plus\n×\nStructure machine 1\n5\n3\n1h30\n1h30\n3h\n42h\n40%\n60%\nSavoir plus\n×\nUE Méthodologie\nCode : UEM11\nCrédits : 2\nCoefficients : 1\nLogiciels libres (Open source)\n2\n1\n1h30\n2h\n21h\n100%\nSavoir plus\n×\nUE Transversal\nCode : UET11\nCrédits : 2\nCoefficients : 1\nLangue Étrangère\n2\n1\n1h30\n2h\n21h\n100%\nSavoir plus\n×\nUE Découverte\nCode : UED11\nCrédits : 4\nCoefficients : 2\nElectricité générale\n4\n2\n1h30\n1h30\n2h\n42h\n40%\n60%\nSavoir plus\n×\nTotal Semestre 1\n30\n18\n13h30\n9h\n3h\n18h\n357h\nSEMESTRE 2\nUnité\nd'Enseignement\nMatière\nCrédits\nCoefficient\nV.H hebdomadaire\nVHS\n14 sem\nMode d'évaluation\nC\nTD\nTP\nAutres\nContinu\nExamen\nUE Fondamentale\nCode : UEF21\nCrédits : 10\nCoefficients : 6\nAnalyse 2\n6\n4\n3h\n1h30\n3h\n63h\n40%\n60%\nSavoir plus\n×\nAlgèbre 2\n4\n2\n1h30\n1h30\n3h\n42h\n40%\n60%\nSavoir plus\n×\nUE Fondamentale\nCode : UEF22\nCrédits : 12\nCoefficients : 8\nAlgorithmique et structure de données 2\n7\n5\n1h30\n1h30\n3h\n3h\n84h\n40%\n60%\nSavoir plus\n×\nStructure machine 2\n5\n3\n1h30\n1h30\n3h\n42h\n40%\n60%\nSavoir plus\n×\nUE Méthodologie\nCode : UEM21\nCrédits : 4\nCoefficients : 2\nLogique Mathématique\n2\n1\n1h30\n1h30\n2h\n42h\n40%\n60%\nSavoir plus\n×\nIntroduction à l'intelligence artificielle\n2\n1\n1h30\n1h30\n2h\n42h\n40%\n60%\nSavoir plus\n×\nUE Découverte\nCode : UED21\nCrédits : 4\nCoefficients : 2\nElectronique fondamentale\n4\n2\n1h30\n1h30\n2h\n42h\n40%\n60%\nSavoir plus\n×\nTotal Semestre 2\n30\n18\n12h\n9h\n4h30\n18H\n357h"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "Guide pédagogique",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/index.html",
+        "type": "internal"
+      },
+      {
+        "text": "Informatique.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Informatique.html",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/615ef547_table_1_SEMESTRE_1.json",
+        "rows": 10
+      },
+      {
+        "file": "tables/615ef547_table_2_SEMESTRE_2.json",
+        "rows": 10
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S1-PA.html",
+      "title": "Atomic Physics",
+      "id": "154162c0",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:58",
+      "hash": "62bfe6a0c3e04d88",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nFondamentale (UEF 1)  |\nCrédits :\n4  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nEtude des propriétés fondamentales des atomes et des molécules diatomiques. Etude des transitions et des collisions atomiques.\nContenu de la matière\nChapitre 1 : Atomes à plusieurs électrons\nModèle de Thomas-Fermi\nApproximation du champ moyen\nApproximation de Hartree et Hartree-Fock\nDFT\nChapitre 2 : Atomes dans un champ\nEffet Stark\nEffets Zeeman et Paschen-Bach\nRésonance Paramagnétique électronique\nRésonance Magnétique Nucléaire\nChapitre 3 : Transitions atomiques\nProbabilités de transition\nRègles de sélection\nElargissement des raies\nChapitre 4 : Collisions atomiques\nDiffusion élastique\nProcessus inélastiques (ionisation, excitation, échange de charge)\nChapitre 5 : Molécules diatomiques\nNiveaux électroniques\nEnergies de vibration-rotation\nProcessus de dissociation"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

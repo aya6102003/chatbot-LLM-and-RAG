@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/7412",
+      "title": "Faculté des Sciences",
+      "id": "63f918c0",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:42:09",
+      "hash": "f8a2462e40429bd5",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nCRÉATION D'ENTREPRISE"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "cr%C3%A9ation d entreprise",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/5434/cr%C3%A9ation_d_entreprise.pdf",
+        "local_file": "pdfs/63f918c0_cr%C3%A9ation_d_entreprise.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

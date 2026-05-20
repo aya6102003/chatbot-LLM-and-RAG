@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S2-CPV.html",
+      "title": "Conversion Photovoltaïque",
+      "id": "776b4c71",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:04",
+      "hash": "d328284a1bfb9ac9",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Conversion Photovoltaïque\nSemestre 2 – UE Fondamentale\nMode d'évaluation :\nContinu 33% / 67%\nObjectifs de l’enseignement\nCe module vise à fournir une compréhension approfondie des fondamentaux scientifiques, des technologies\net des applications pratiques de l’énergie solaire photovoltaïque. Il permettra aux apprenants :\nD’acquérir les bases physiques de la conversion photovoltaïque (photonique, semi-conducteurs, courbes I-V).\nDe maîtriser les technologies existantes et émergentes (silicium, pérovskites, cellules bifaciales).\nDe caractériser et analyser les performances des modules en fonction des conditions climatiques.\nDe concevoir et dimensionner des systèmes photovoltaïques (autonomes ou raccordés au réseau).\nDe comprendre les enjeux de maintenance, de fiabilité et d’impact environnemental (recyclage, durabilité).\nConnaissances préalables recommandées\nUne bonne compréhension des bases en physique des semi-conducteurs et en électromagnétisme est\nindispensable. Des notions sur les cellules solaires et les principes de conversion d’énergie sont également\nrecommandées.\nContenu de la matière :\n1. Introduction générale (1 semaine)\nPotentiel solaire mondial et régional\nPrincipes de base de l'énergie solaire photovoltaïque\n2. Physique de la conversion photovoltaïque (2 semaines)\nPhoton, semi-conducteurs et génération de porteurs -Principe de fonctionnement de la cellule photovoltaïque -Courbe I-V d'une cellule solaire -Rendement et facteurs influençant la performance\n3. Technologies photovoltaïques (3 semaines)\nCellules à base de silicium cristallin (mono- et polycristallin)\nTechnologies couches minces (CdTe, CIGS, amorphe)\nCellules à haute efficacité (multi-jonctions, PERC, Bifaciales)\nNouvelles technologies (pérovskites, organiques)\n4. Caractérisation et performances des modules (3 semaines)\nParamètres électriques : Voc, Isc, Pmax, FF, rendement -Effets des conditions climatiques (température, irradiance) -Dégradations et vieillissement des modules\n5. Composants des systèmes photovoltaïques (2 semaines)\nGénérateurs photovoltaïques -Onduleurs et micro-onduleurs -Régulateurs de charge -Batteries et systèmes de stockage -Structures de support et suivi solaire\n6. Dimensionnement des systèmes photovoltaïques (2 semaines)\nEstimation des besoins énergétiques -Calcul de la production solaire -Choix et dimensionnement des composants -Études de cas : systèmes autonomes et raccordés au réseau\n7. Maintenance, fiabilité et impact environnemental (2 semaines)\nMaintenance préventive et curative -Durée de vie des installations photovoltaïques -Impact écologique et recyclage des panneaux solaires\nRéférences\n[1] Green, Martin A. Solar Cells: Operating Principles, Technology, and System Applications, Prentice-\nHall, 1982.\n[2] Luque, Antonio, & Hegedus, Steven. Handbook of Photovoltaic Science and Engineering, Wiley, 2ᵉ\nédition, 2011.\n[3] Nelson, Jenny. The Physics of Solar Cells, Imperial College Press, 2003.\n[4] Sorin Bensoussan. L’énergie photovoltaïque : Conversion, technologie et dimensionnement, Dunod,\n2016."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

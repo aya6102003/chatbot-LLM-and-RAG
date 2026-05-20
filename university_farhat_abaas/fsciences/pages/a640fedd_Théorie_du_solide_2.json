@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S3-TS2.html",
+      "title": "Théorie du solide 2",
+      "id": "a640fedd",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:55",
+      "hash": "f55837b0e7f304ae",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Théorie du solide 2\nSemestre 3 – UE Fondamentale\nPrérequis\nPhysique Statistique, Électromagnétisme, Mécanique Quantique, Physique du Solide Approfondie 1 (du même Master).\nObjectifs de l'enseignement\nCe cours fait suite au cours de Théorie du Solide 1, acquis en S1, tout en étant indépendant. Son programme aborde certaines propriétés physiques importantes de la matière, comme base fondamentale nécessaire à la recherche dans le domaine de la physique des matériaux dans son aspect théorique.\nProgramme détaillé\nChapitre 1 : Comportement diélectrique de la matière\nRappel de la description macroscopique des milieux polarisés\nLes différents types de polarisation (processus microscopique)\nRelaxation diélectrique\nMilieux diélectriques anisotropes et non linéaires\nInteraction ondes électromagnétiques / milieux diélectriques\nChapitre 2 : Milieux magnétiques\nAspects macroscopiques et microscopiques des milieux aimantés\nMilieux magnétiques anisotropes et non linéaires\nRelaxation, résonance magnétique, ondes de spin\nDiamagnétisme de Landau\nQuelques aspects du magnétisme à champ magnétique fort – transitions optiques dans les cristaux magnétiques ordonnés\nChapitre 3 : Surfaces et interfaces\nMorphologie et structure, mode de croissance, réseaux bidimensionnels\nTension de surface, énergie de surface\nVibrations de surface (phonons de surfaces)\nPropriétés électroniques, modèle du jellium\nPhysisorption et chimisorption\nTransitions de phase – Modèle d'Ising – Modèle gaz sur réseau\nMode d'évaluation\nContrôle continu : 33 %\nExamen : 67 %\nRéférences bibliographiques\nW. Ashcroft & N.D. Mermin, Solid State Physics, W.B. Saunders Co., 1976\nC. Kittel, Physique de l'état solide, 8e édition, Dunod, 2005\nMax Brousseau, Physique du solide – Propriétés électroniques, Masson, 1992\nH. Ibach, Physics of Surfaces and Interfaces, Springer, 2006\nH. Lüth, Solid Surfaces, Interfaces and Thin Films, 5e édition, Springer, 2010"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

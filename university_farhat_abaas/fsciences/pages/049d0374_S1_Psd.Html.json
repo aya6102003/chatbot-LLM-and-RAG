@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S1-PSD.html",
+      "title": "S1 Psd.Html",
+      "id": "049d0374",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:46",
+      "hash": "4104b08d6fe7af92",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Programming for Data Science\nSemester:\n1  |\nType:\nUEM1  |\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLecture:\n1h30  |\nLab:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n2  |\nCredits:\n5\nTeaching Objectives\nUpon completion of this module, the student will be able to:\nMaster the basics of Python and good programming practices\nEfficiently manipulate data structures for analysis\nUse fundamental libraries such as NumPy, Pandas, Matplotlib, Seaborn to explore and visualise data\nPerform data processing, transformation, and preparation operations\nLoad, export, and clean datasets from various sources (CSV, JSON, Excel, SQL)\nPrepare data for statistical analysis or machine learning algorithms\nCourse Content (21h)\nI. Fundamental Python Concepts\nSyntax and basic operations\nPrimitive data structures (integer, float, etc.)\nNon-primitive data structures (set, dictionary, tuple, etc.)\nFunctions and functional programming with map, reduce, filter and lambda functions\nFiles, errors and exceptions\nII. Data Manipulation with Pandas\nIntroduction to DataFrames, Series, Index Objects\nEssential features: re-indexing, entry deletion, selection, filtering, sorting, aggregation\nDescriptive analysis: statistics (correlation, variance), membership, unique values\nData transformation using functions\nIII. Arrays and Vectorial Computation\nNumPy basics: vector creation, multidimensional array objects, data types for ndarrays, transposition, sorting, indexing\nArithmetic with NumPy arrays\nExpressing conditional logic as a vectorised operation\nIV. Loading Data, Storage, and File Formats\nReading data from various file formats (txt, csv, excel, json, ...)\nWriting data to various file formats (csv, excel, json, ...)\nInteraction with databases\nV. Visualisation and Display Tools\nIntroduction to Matplotlib: Figure and subplot, legend, labels\nDisplay with DataFrames and Seaborn (histogram, bar and line plot, etc.)\nVI. Textual Data Manipulation\nString object methods\nRegular expressions\nVectorised string functions in Pandas\nVector representation of texts\nVII. Object-Oriented Programming\nClasses and objects\nInheritance and polymorphism\nVIII. Packages and Modules\nHierarchical package structure, importing submodules using relative names\nModule loading, splitting a module into multiple files\nCode organisation and package installation\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — tests, personal work\nBibliography\nPython Cookbook, Third Edition, Brian K. Jones, David M. Beazley, O'Reilly, 2011.\nFluent Python, Second Edition, Luciano Ramalho, O'Reilly, 2015.\nPython by Example: Learning to Program in 150 Challenges, Nicola Lacey, Cambridge University, 2019.\nPython for Data Analysis, Third Edition, Wes McKinney, O'Reilly, 2022.\nPandas for Everyone: Python Data Analysis, Second Edition, Daniel Y. Chen, Addison-Wesley Professional, 2017."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

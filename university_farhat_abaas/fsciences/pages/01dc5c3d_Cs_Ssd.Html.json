@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-SSD.html",
+      "title": "Cs Ssd.Html",
+      "id": "01dc5c3d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:54:59",
+      "hash": "1601e8a2a69d7e93",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nThis course is a guide for software professionals who want to better understand concepts essential to the discipline of software security and learn how to practice the art of secure software design and implementation. It begins with a discussion of core concepts like trust, threats, mitigation, secure design patterns, and cryptography. In addition, it covers the process of designing and reviewing a software design with security considerations in mind.\nContenu de la matière\nPART I: CONCEPTS OF SECURE SOFTWARE.\n- Foundations: Understanding Security, Trust, Privacy and information Security.\n- Threats: Identify Threats, Assets, Attacks surface and threat modelling.\n- Mitigation: Addressing threats based software, Data exposure and Vulnerabilities.\n- Access policy and Access control.\nPART II: SECURITY DESIGN AND ARCHITECTURE\n- Software development life cycle phases and models: Waterfall, Agile.\n- Secure Design: Integrating Security and Privacy in Design.\n- Security Design Reviews: SDR Process, Assessing Design Security.\nPART III: IMPLEMENTATION - Identify important assets, the attack surface, and the trust boundaries in a system\n- Evaluate the effectiveness of various threat mitigation candidates\n- Work with well-known secure coding patterns and libraries\n- Understand and prevent vulnerabilities like XSS and CSRF, memory flaws, and more\n- Use security testing to proactively identify vulnerabilities introduced into code\n- Review a software design for security flaws effectively and without judgment\nMode d’évaluation : Contrôle continu, examen Références\nDeveloping Secure Software: Jason Grembi, Cengage Learning\nSoftware Security : Richard Sinn, Cengage Learning"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

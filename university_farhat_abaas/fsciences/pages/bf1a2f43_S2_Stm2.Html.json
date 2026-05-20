@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_INFORMATIQUE/S2-STM2.html",
+      "title": "S2 Stm2.Html",
+      "id": "bf1a2f43",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:06",
+      "hash": "943895c4451fefa3",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Structure Machine 2\nSemestre :\n2  |\nUE :\nUEF22  |\nCrédits :\n5  |\nCoefficient :\n3\nObjectifs de l'enseignement\nA la fin du semestre, les étudiants bénéficient de connaissances de base sur l'architecture des ordinateurs et le principe de fonctionnement de chacun des composants. Ces connaissances vont servir de plateforme pour d'autres aspects en relation avec l'ordinateur (programmation, base de données, réseaux, …).\nConnaissances préalables recommandées\nLes étudiants doivent avoir des notions élémentaires en informatique.\nContenu de la matière\nChapitre 1 : Introduction\nChapitre 2 : La logique combinatoire\nDéfinition\nLes circuits combinatoires\nÉtapes de conception d'un circuit combinatoire :\nEtablissement de la table de vérité\nSimplification des fonctions logiques\nRéalisation du schéma logique\nEtude de quelques circuits combinatoires usuels :\nLe demi-additionneur\nL'additionneur complet\nL'additionneur soustracteur (en complément vrai)\nLes décodeurs\nLes multiplexeurs\nLes encodeurs de priorité\nLes démultiplexeurs\nAutres exemples de circuits combinatoires\nChapitre 3 : La logique séquentielle\nDéfinition\nLes bascules (RS, JK, D)\nLes registres (à chargement parallèle et à décalage)\nLes mémoires\nSynthèse d'un circuit séquentiel (automates) :\nAutomate de Moore et automate de Mealy\nGraphe et matrice de transition\nChoix des bascules et codage des états\nMatrice d'excitation des bascules\nSimplification des fonctions logiques\nEtablissement du schéma logique\nRéalisation d'automates :\nLes compteurs/décompteurs\nAutres exemples d'automates\nChapitre 4 : Les circuits intégrés\nDéfinition\nEtude des caractéristiques d'un circuit intégré simple (exemple circuit ou 7432)\nNotions sur la réalisation du montage d'un circuit combinatoire simple en utilisant des circuits intégrés\nMode d'évaluation\nExamen (60%), Contrôle continu (40%)\nRéférences bibliographiques\nJohn R. Gregg, Ones and Zeros: Understanding Boolean Algebra, Digital Circuits, and the Logic of Sets, 1st Edition, Wiley & Sons Inc. publishing, 1998, ISBN: 978-0-7803-3426-7.\nBradford Henry Arnold, Logic and Boolean Algebra, Dover publication, Inc., Mineola, New York, 2011, ISBN-13: 978-0-486-48385-6.\nAlain Cazes, Joëlle Delacroix, Architecture des machines et des systèmes informatiques : Cours et exercices corrigés, 3e édition, Dunod 2008."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

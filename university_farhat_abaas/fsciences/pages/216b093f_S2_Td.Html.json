@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S2-TD.html",
+      "title": "S2 Td.Html",
+      "id": "216b093f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:37",
+      "hash": "b7cf878974910007",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Digital Transformation\nSemester:\n2  |\nType:\nUEF22  |\nVHS:\n42h  |\nWeekly hours:\nC: 1h30 / TD: 1h30  |\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n5\nTeaching Objectives\nUnderstand the challenges and opportunities of digital transformation\nAssimilate the key concepts and technologies of DMS and virtualisation (Cloud, big data, AI, etc.)\nDesign and implement digital transformation solutions\nDevelop skills in digital project management and change management in a digital context\nAnalyse the impact of digital transformation on organisations\nRecommended prior knowledge:\nInformation systems, databases.\nCourse Content (Lectures: 21h)\nDigital Transformation and Information Systems\nDefinition and challenges of digital transformation\nRole of IS in digital transformation\nDifferent phases and types of digital transformation (technological, organisational, cultural)\nKey success factors; impacts on organisations and jobs\nChange management; role of the CIO in a digital transformation context\nEmerging Technologies and Digital Transformation\nBig Data: collection, storage, processing and analysis of massive data\nCloud Computing: architectures, services (IaaS, PaaS, SaaS), security challenges\nArtificial intelligence (AI): machine learning, deep learning, enterprise applications\nInternet of Things (IoT): sensors, networks, impact on business processes and services\nData security and cybersecurity: threats, data protection, compliance (GDPR, etc.)\nCollaborative tools and digital platforms\nDMS and Virtualisation in Digital Transformation\nRole of DMS: document dematerialisation, process automation, improved collaboration, cost reduction\nRole of virtualisation: flexibility and agility, cost reduction, efficiency, rapid deployment\nDocument Management Systems (DMS)\nDMS concepts and challenges (definition, objectives, advantages, types of digital documents)\nKey stages of a DMS project (collection, indexing, storage, distribution, archiving)\nDMS project implementation (needs analysis, tool selection, planning, development and deployment)\nDMS Tools and Technologies\nContent management systems (CMS)\nDocument capture and scanning software\nRecords management information systems\nCollaboration and document sharing tools\nElectronic archiving solutions\nAnalysis of CRM, ERP and other IS linked to DMS\nEmerging technologies in DMS (AI, blockchain, etc.)\nLegal and Regulatory Aspects of DMS\nLegislation on the conservation of electronic documents\nSector-specific regulations (health, finance, etc.)\nEvidentiary value of electronic documents\nPersonal data protection and GDPR legal framework\nIS Virtualisation\nConcepts and challenges: definition, types (server, network, storage, desktop)\nImplementation: platform selection, virtual machine management, backup and restore\nTools and technologies: VMware, Hyper-V, etc.; monitoring and performance management\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous tests, mini-project\nTP:\nCreation and management of virtual machines.\nTD:\nAnalysis of case studies of companies that have virtualised their IS.\nReferences\nVeldhoven Van Ziboud and Vanthienen Jan (2019). Designing a Comprehensive Understanding of Digital Transformation and its Impact.\nPeter C. Verhoef et al. (2021). Digital transformation: A multidisciplinary reflection and research agenda.\nJournal of Business Research\n, Volume 122.\nDavid Greenspan (2010).\nVirtualization: A Practical Guide\n.\nScott Lowe (2014).\nMastering VMware vSphere\n."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

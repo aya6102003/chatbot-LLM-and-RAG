@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L3/S5-PS.html",
+      "title": "Physique Statistique",
+      "id": "aa226e51",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:22",
+      "hash": "3c6bd142841c831e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Physique Statistique\nSemestre :\n5  |\nUnité d'enseignement :\nFondamentale\nObjectifs de l'enseignement\nFaire acquérir aux étudiants l'utilisation des méthodes statistiques en physique, les familiariser avec les notions de particules discernables et indiscernables, de macroétat et de microétats. Étudier les ensembles de Gibbs et quelques applications : modélisation de systèmes physiques, étude quantique, limite classique.\nContenu de la matière\nChapitre 1 : Éléments de base\nIntroduction aux méthodes statistiques : marche au hasard, moyennes et déviations standards\nParticules discernables et indiscernables, systèmes à N particules, microétats, macroétats\nMicroétats classiques, espace des phases\nPostulat de base\nHypothèse ergodique\nChapitre 2 : Ensemble micro-canonique\nÉquiprobabilité des états microscopiques d'un système isolé\nEntropie statistique\nParadoxe de Gibbs\nLimite thermodynamique\nLien avec le deuxième principe de la thermodynamique\nChapitre 3 : Ensemble canonique\nFacteur de Boltzmann\nFonction de partition et énergie libre\nÉnergie moyenne et fluctuations\nThéorème d'équipartition\nApplications à des systèmes de particules sans interactions\nChapitre 4 : Ensemble grand canonique\nGrand potentiel thermodynamique\nStatistique de Bose-Einstein\nStatistique de Fermi-Dirac\nGaz parfait de Bose\nRayonnement du corps noir\nGaz parfait de Fermi à température nulle\nModèle de Debye-Einstein pour les phonons\nParamagnétisme\nChapitre 5 : Applications : Rayonnement du corps noir\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\nM. Le Bellac et al. : Thermodynamique statistique, Dunod (2001)\nW. Greiner et al. : Thermodynamique et mécanique statistique, Springer"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

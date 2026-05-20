@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9103",
+      "title": "Faculté des Sciences",
+      "id": "d1585268",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:47:55",
+      "hash": "9d377ef414c23ed2",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nAUX ETUDIANTS DE MASTER 1 PHYSIQUE DES MATÉRIAUX\nRépartitions des Etudiants sur les locaux d'Examens"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "M1 Materiaux",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6520/M1_Materiaux.pdf",
+        "local_file": "pdfs/d1585268_M1_Materiaux.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

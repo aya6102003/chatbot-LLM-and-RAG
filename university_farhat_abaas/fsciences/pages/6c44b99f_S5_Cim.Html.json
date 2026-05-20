@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ET_IMAGERIE_MEDICALE/S5-CIM.html",
+      "title": "S5 Cim.Html",
+      "id": "6c44b99f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:19",
+      "hash": "3c540ef971b365dd",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Intitulé de l'UE :\nMéthodologique\nIntitulé de la matière :\nCapteurs et imagerie médicale\nCrédits :\n4\nCoefficient :\n2\nObjectifs de l'enseignement :\nFaire connaître aux étudiants le principe et la technologie des différents capteurs utilisés en biomédical, plus particulièrement ceux utilisés en imagerie, et quelques méthodes de traitement d'image médicale.\nConnaissances préalables recommandées :\nÉlectronique générale ; Informatique.\nContenu de la matière :\nCapteurs d'images\nEffet photo-électrique\nParamètres caractéristiques d'un capteur optique\nCaméras solides :\nCaméras CMOS\nCaméras CCD\nCapteur d'image infrarouge\nCapteur d'image à rayons X\nRecalage d'images médicales\nSegmentation d'images médicales\nMode d'évaluation :\nExamen (2/3) et TP (1/3)\nRéférences bibliographiques :\nW. S. Boyle and G.E. Smith,\nCharged-coupled semiconductor device\n, Bell system technical, 1970.\nA. J.P. Theuwissen,\nSolid-state imaging with charge-coupled devices\n, Kluwer Academic Publisher, 1995.\nJun Ohta,\nSmart CMOS Image Sensors and Applications\n, CRC Press, 2007.\nAnil K. Jain,\nFundamentals of Digital Image Processing\n, Prentice Hall, 1998."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

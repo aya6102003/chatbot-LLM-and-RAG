@@ -1,0 +1,120 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/OPC.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n15 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n15 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale 1    \nCrédits : 10\nCoefficients : 5",
+      "Méthodes simpliciales",
+      "10",
+      "5",
+      "3h",
+      "1h30",
+      "3h",
+      "112h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 2    \nCrédits : 8\nCoefficients : 4",
+      "Analyse convexe",
+      "8",
+      "4",
+      "3h",
+      "3h",
+      "",
+      "90h",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie 1\nCrédits : 6\nCoefficients : 3",
+      "Analyse matricielle",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie 2\nCrédits : 3\nCoefficients : 2",
+      "Méthode non réalisable",
+      "3",
+      "2",
+      "1h30",
+      "1h",
+      "",
+      "37h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Découverte\nCrédits : 2\nCoefficients : 2",
+      "Techniques d’enseignements et de recherche (TER 1)",
+      "2",
+      "2",
+      "3h",
+      "",
+      "",
+      "45h",
+      "",
+      "100%"
+    ],
+    [
+      "UE Transversale\nCrédits : 1\nCoefficients : 1",
+      "Anglais",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "17",
+      "15h",
+      "7h",
+      "3h",
+      "375h",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 9,
+  "col_count": 7
+}

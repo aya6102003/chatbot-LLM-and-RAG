@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S1-AN1.html",
+      "title": "Advanced Networks 1",
+      "id": "a6582f7a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:53",
+      "hash": "5ef347eb766d474d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nAdvanced Networks 1  |\nSemester:\n1  |\nType:\nUEF12\nVHS:\n63h  |\nWeekly hours:\n4h30  |\nLectures:\n1h30  |\nTD:\n1h30  |\nTP:\n1h30\nPersonal work VHS:\n42h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nThis course presents students with advanced aspects of communication networks using the top-down approach. The content focuses on the three upper layers: application, transport and network, where the protocols associated with these layers are studied in depth.\nRecommended Prerequisites\nFundamental notions related to computer networks\nCourse Content (Lectures: 21h)\nChapter 1: Communication Paradigms and Application Protocols\nCommunication models: Client/Server, Peer-to-Peer, Publish/Subscribe\nApplication protocols: HTTP, HTTPS, FTP, SIP, SMTP, DNS, CoAP, MQTT, etc.\nVoIP and RoIP: operating principles and associated protocols\nSIP: session establishment and management\nRTP: real-time audio/video stream transport\nChapter 2: Multiplexing and Transport Protocols\nMultiplexing and demultiplexing techniques: source multiplexing and destination demultiplexing, port usage, transport-application layer association\nTransport protocols: TCP (Transmission Control Protocol), UDP (User Datagram Protocol), SCTP (Stream Control Transmission Protocol): multi-stream, TCP/UDP hybrid\nChapter 3: Routing and Network Protocols\nIPv4 protocol review: IPv4 address structure, subnet masks, private/public addressing\nRouting in IP networks: distance vector protocols (e.g. RIP), link state protocols (e.g. OSPF), inter-domain routing (BGP), multicast routing: principles and examples (e.g. PIM)\nAssessment\nExam: 60%\nContinuous assessment: 40%\nBibliographic References\nKurose, J. F., & Ross, K. W. (2021). Computer Networking: A Top-Down Approach. Pearson Editions.\nBonaventure, O., Networking: Principles, Protocols and Practice, 3rd Edition, 2021.\nLannone, E., Telecommunication networks, O'Reilly Edition, 2017."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

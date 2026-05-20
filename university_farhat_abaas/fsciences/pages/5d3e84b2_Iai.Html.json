@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/IAI.html",
+      "title": "Iai.Html",
+      "id": "5d3e84b2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:32",
+      "hash": "45f69d40060cad99",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nIntroduction to Artificial Intelligence (IAI) — Semester 2, Unit UFC2, Credits: 5, Coeff: 3\nCourse Objectives\nThis course is aimed at developers and students in the fields of computer science and engineering who are interested in AI. Students will be able to: understand the role of AI in industry; define AI hardware and software; and evaluate the importance of datasets, data sources, problem solving with data and data science workflows.\nCourse Content\nChapter 1: Introduction\nThe definition of Artificial Intelligence.\nHistorical developments that now differentiate modern AI from earlier AI.\nThe differences between supervised and unsupervised learning.\nExamples of AI applications.\nChapter 2: Artificial Intelligence in the Industry\nHealth and genomics.\nTransportation and automated driving.\nRetail and supply chain.\nFinance.\nIndustrial.\nGovernment.\nChapter 3: Artificial Intelligence in the Enterprise\nSteps of the data science workflow.\nKey roles and skills in AI.\nWays to structure an AI team.\nCommon misconceptions in data science.\nComponents of post-deployment AI model maintenance.\nChapter 4: AI Development Tools\nGoogle Collab.\nJupyter.\nNumPy.\nMatPlotLib, SciKits Learn, and Pandas.\nChapter 5: Supervised Learning\nHow to formulate a supervised learning problem.\nCompare and understand the differences between training and inference.\nDescribe the dangers of overfitting against test data.\nChapter 6: Data Collection and Enhancement\nKnow when more data samples are necessary.\nHandling and augmenting data with feature engineering.\nIdentify problems such as overfitting and underfitting.\nPopular datasets used in neural network training.\nData pre-processing methods.\nData labeling.\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\nArtificial Intelligence: A Modern Approach, 4th US ed. by Stuart Russell and Peter Norvig"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

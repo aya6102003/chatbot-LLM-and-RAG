@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S3-PRO.html",
+      "title": "Physique de la radio",
+      "id": "1b145cdc",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:48",
+      "hash": "d02ec8e16d518c3a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n3  |\nUE :\nFondamentale (UEF 3)  |\nCrédits :\n6  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs pédagogiques\nMaîtrise du calcul dosimétrique dans le plan de traitement des patients en calculant le nombre d'unités de surveillance dans la gamme des mégavolts. Avoir une connaissance suffisante de l'étalonnage des accélérateurs de photons et d'électrons.\nContenu de l'unité\n1- Radiothérapie externe\nPrésentation de la radiothérapie clinique\nÉquipement de radiothérapie (téléthérapie 60Co, cyclotrons, générateurs kV, accélérateurs de particules et théorie des guides d'ondes)\nPhysique de la radiothérapie photonique mégavoltage (fonctions dosimétriques et planification de traitement de base, calculs d'unité de surveillance (MU))\nPhysique de la radiothérapie photonique kV (fonctions dosimétriques et planification de traitement de base, calculs d'unité de surveillance)\nInstallation du patient, y compris positionnement et immobilisation\nSimulation, simulation virtuelle, radiographies reconstruites numériquement (DRR), enregistrement d'images\nAlgorithmes de calcul de dose et corrections d'hétérogénéité\nPrescription, enregistrement et rapport selon les rapports pertinents de l'ICRU\nPhysique de la radiothérapie électronique mégavoltage\n2- Curiethérapie\nCuriethérapie selon les rapports pertinents de l'ICRU et de l'AAPM\nDébit de dose élevé (HDR) et faible débit de dose (LDR)\nÉquipement et sources\nPlanification du traitement\n3- Diverses techniques de radiothérapie\nPlanification inverse et optimisation pour la radiothérapie à modulation d'intensité (IMRT)\nÉquipements et techniques de radiothérapie à petit champ (SRT, SRS)\nRadiothérapie stéréotaxique corporelle (SBRT), IMRT\nThérapie par arc volumétrique (VMAT)\nRadiothérapie guidée par résonance magnétique (MRgRT)\nGuidage et vérification des images en radiothérapie (Cone Beam CT, échographie, imagerie portale, dosimétrie in vivo), recalage d'images affines et déformables\nPrincipes de la radiothérapie adaptative\nSystèmes d'information de radiothérapie\nPrincipes de gestion de la qualité en radio-oncologie\nRéférences bibliographiques\nPODGORSAK, E., (Ed), Radiation Oncology Physics: A Handbook for Teachers and Students, IAEA, Vienna (2005).\nKHAN, FAIZ M., The Physics of Radiation Therapy, Lippincott Williams & Wilkins, Philadelphia (2014).\nMAYLES, P., NAHUM, A., AND ROSENWALD, J.C., Handbook of Radiotherapy Physics, Theory and Practice, Taylor & Francis, USA (2007).\nBALTAS, D., SAKELLIOU, L., ZEMBOGLOU, N., The Physics of Modern Brachytherapy for Oncology, CRC Press (2007).\nINTERNATIONAL ATOMIC ENERGY AGENCY, Radiation Protection and Safety in Medical Uses of Ionizing Radiation: Specific Safety Guide No. SSG46, IAEA, Vienna (2018).\nICRU Report 50. Prescribing, Recording and Reporting Photon Beam therapy. Bethesda, MD, USA (1993).\nICRU Report 62. Prescribing, Recording and Reporting Photon Beam therapy (Supplement to ICRU Report 50). Bethesda, MD, USA (1999).\nICRU Report No. 71. Prescribing, Recording, and Reporting Electron Beam Therapy. Bethesda, MD, USA (2004).\nICRU Report 83. Prescribing, Recording and Reporting Photon Beam Intensity Modulated Radiation Therapy (IMRT). Bethesda, MD, USA (2010).\nICRU Report 91. Prescribing, Recording and Reporting of Stereotactic Treatments with Small Photon Beams. Bethesda, MD, USA (2019)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

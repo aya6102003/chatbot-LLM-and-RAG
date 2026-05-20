@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S6-BDD-OPT.html",
+      "title": "Database: Optimisation and Concurrent Access Management",
+      "id": "39b38a1d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:33",
+      "hash": "5c5aaebf9518c139",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Database: Optimisation and Concurrent Access Management\nSemestre : S6\nUnité d’enseignement : UEF2\nMatière : BDD : Optimisation et gestion des accès concurrents\nCrédits : 5\nCoefficient : 3\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement (Décrire ce que l’étudiant est censé avoir acquis comme\ncompétences après le succès à cette matière – maximum 3 lignes).\nMaîtrise de concepts avancés des bases de données concernant l’optimisation et la gestion des\naccès concurrents ainsi que la reprise après pannes.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour\npouvoir suivre cet enseignement – Maximum 2 lignes).\nLes concepts généraux de BD ainsi que leur modélisation et interrogation..\nContenu de la matière :\nChapitre 1 : La mémoire relationnelle\n1- La mémoire de stockage\n2- Les différentes approches de stockage des données\n3- Une approche de stockage : les B-arbres\nChapitre 2 : Fragmentation\n1- Définition\n2- Fragmentation horizontale\n3- Fragmentation verticale\n4- Fragmentation mixte\nChapitre 3 : Optimisation\n1- Typologie de requêtes\n2- Les différentes phases de traitement d’une requête\n3- Optimisation de requêtes\n3-1 Méthode syntaxique\na. Règles de transformation des arbres algébriques\nb. Algorithme simple de génération d’un plan de requêtes\n3-2 Estimation de coûts\na. Utilisation de données statistiques\nb. Techniques d’implémentation des opérateurs: cas de la jointure\nChapitre 4 : Gestion des accès concurrents :\n1- Transaction : Définitions et caractéristiques\n2- Les problèmes de concurrence\n2-1 Mise à jour perdue\n2-2 Non reproductibilité des lectures\n2-3 Dépendance non valide\n3- Gestion de la concurrence\n3-1 Principe de sérialisation\n3-2 Les trois techniques de sérialisation : (états équivalents à ordonnancement\nsérie, permutation et/ou séparation des opérations permutables et/ou compatibles,\net graphes de précédence non cyclique)\n3-3 Les méthodes de sérialisation\na- Par estampillage : estampillage simple, à deux estampilles\nb- Par verrouillage : différents types de verrouillage, graphe d’attente,\nV2P, verrous indéfinis\nChapitre 5 : Sureté de fonctionnement et reprise après pannes\n1- Introduction : rôle du SGBD afférent à la gestion de pannes\n2- Classification des pannes\n3- Le processus de reprise après panne et états d’une transaction\n4- Classification des mécanismes de reprise : mise à jour immédiates ou écriture en place,\nmise à jour différées ou écriture non en place, etc.\n5- Les utilitaires de récupération : mécanismes de sauvegarde, outils de journalisation,\nutilitaires de points de contrôle (Checkpoint), gestionnaire de récupération\n6- Les différentes Techniques de restauration : stratégies Undo, Redo etc.\nMode d’évaluation : Contrôle continu (40%), Examen (60%)\nRéférences bibliographiques (Livres et polycopiés, sites internet, etc) :\nCiter au moins 3 à 4 références classiques et importantes.\n- J. Date. Introduction aux bases de données. Thomson publishing France 6ième édition.\n1998\n- C. Delobel et M. Adiba : bases de données et systèmes relationnels. Dunod 1982\n- T. Connoly et Corolyn Begg. Systèmes de bases de données : approche pratique de\nconception de l’implémentation et de l’administration. Eyrolles 2005\n- Frederic Brouard SQL CampusPress 2001\n- Georges Gardarin : Les BD systèmes et leurs langages Eyrolles 2003\n- Nacer Boudjlida : Gestion et Administration des Bases de Donnees. Application a\nSybase et Oracle. Dunod, Collection Sciences Sup. 2003."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

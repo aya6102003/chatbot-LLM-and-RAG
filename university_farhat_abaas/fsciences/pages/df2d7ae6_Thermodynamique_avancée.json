@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S2-TA.html",
+      "title": "Thermodynamique avancée",
+      "id": "df2d7ae6",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:09",
+      "hash": "287671fdf762bb9e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Thermodynamique avancée\nSemestre 2 – UE Fondamentale\nMode d'évaluation :\nContinu 33% / 67%\nObjectifs de l’enseignement\nCe module vise à approfondir les concepts fondamentaux de la thermodynamique appliquée aux systèmes\nénergétiques, en mettant l’accent sur la compréhension et l’analyse des cycles thermodynamiques utilisés\ndans les centrales électriques, les moteurs thermiques et les systèmes de propulsion.\nConnaissances préalables recommandées\nIl est nécessaire de maîtriser les concepts fondamentaux de la thermodynamique classique (premier et\ndeuxième principes, enthalpie, entropie).\nUne solide base en analyse mathématique et en cycles thermodynamiques est fortement recommandée.\nContenu de la matière :\n1. Introduction et rappels (1 semaine)\nObjectifs de la thermodynamique appliquée à l’énergie.\nRappels fondamentaux (premier et second principe, variables d’état, fonctions d’état, entropie).\n2. Diagrammes thermodynamiques & gaz réels (2 semaines)\nTransformations élémentaires et diagrammes (T-s, h-s, P-v).\nPropriétés des gaz réels, équations d’état (Van der Waals, Redlich-Kwong, etc.).\n3. Cycles idéaux à vapeur (2 semaines)\nCarnot, Rankine, rendements idéaux.\nNotions de surchauffe et de régénération.\n4. Améliorations des cycles à vapeur (1 semaine)\nCycle avec resurchauffe.\nSoutirage et réchauffeurs.\n5. Centrales thermiques à vapeur (1 semaine)\nExemple d’application à une centrale réelle (fluide moteur, rendement global).\nComparaison avec le modèle idéal.\n6. Cycles des moteurs à combustion interne (2 semaines)\nOtto, Diesel, cycle mixte.\nComparaison avec le Carnot.\nRendements et pertes.\n7. Cycles réels des moteurs thermiques (1 semaine)\nNotion de pertes réelles (frottement, transferts thermiques irréversibles).\nApplications pratiques (automobile, groupes électrogènes).\n8. Air humide et applications (1 semaine)\nMélange gaz-vapeur.\nHumidité relative, diagrammes psychrométriques.\nApplications : climatisation, séchage.\n9. Turbines à gaz & cycles avancés (2 semaines)\nCycle de Brayton, cycles de Stirling, Ericsson.\nRégénération, détente/compression étagées.\n10. Cycles de propulsion & conclusion (2 semaines)\nCycle du turboréacteur, statoréacteur.\nCycles inversés (réfrigération, pompe à chaleur).\nConclusion : choix de cycle selon l'application.\nRéférences\n[1] Thermodynamique et Energétique, Lucien BOREL\n[2] Systèmes Energétiques, Renaud GICQUEL\n[3] Thermodynamique appliquée à l’Energétique, Francis-Emile MEUNIER\n[4] Thermodynamique Appliquée, Van-Wylen\n[5] Meunier : Livre : Thermodynamique de l'ingénieur, Dunod éditeur"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

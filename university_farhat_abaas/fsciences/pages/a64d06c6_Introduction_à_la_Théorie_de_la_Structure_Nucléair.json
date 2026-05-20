@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S3-TSN.html",
+      "title": "Introduction à la Théorie de la Structure Nucléaire",
+      "id": "a64d06c6",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:54",
+      "hash": "35e12f6c4161bf08",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Introduction à la Théorie de la Structure Nucléaire\nSemestre 3 – UE Fondamentale\nPrérequis\nMécanique quantique approfondie\nPhysique nucléaire élémentaire\nMathématiques pour la physique\n(Ces connaissances sont en général acquises durant la licence en physique fondamentale ou en M1 du même master.)\nObjectifs de l'enseignement\nCette matière vise à doter les étudiants des bases théoriques nécessaires pour comprendre la structure des noyaux atomiques et leur modélisation. À l'issue de cet enseignement, l'étudiant maîtrisera les concepts essentiels de la théorie du champ moyen, de l'interaction nucléon-nucléon et des modèles nucléaires tels que la goutte liquide ou le modèle en couches. Ces notions constituent un socle indispensable pour entamer des travaux de recherche dans le domaine de la physique nucléaire des basses énergies.\nProgramme détaillé\nChapitre 1 : L'interaction nucléon-nucléon\nSymétries et invariances\nConstruction de l'interaction\nDifférentes formes de l'interaction\nChapitre 2 : Théorie du champ moyen\nDéterminant de Slater\nÉquations d'Hartree-Fock\nRésolution des équations d'Hartree-Fock\nModèle à particules indépendantes et potentiel moyen d'Hartree-Fock\nSymétrie des solutions\nPotentiel de Nilsson : valeurs propres et vecteurs propres\nChapitre 3 : L'interaction d'appariement\nOrigine des corrélations\nDéfinition de l'interaction d'appariement\nTransformation de Bogoliubov-Valatin\nMinimisation, énergie BCS et équations du gap\nHamiltonien de quasi-particules indépendantes et états quasi-particules\nChapitre 4 : Modèle de la goutte liquide\nFormule semi-empirique des masses\nParamétrisation de la surface nucléaire\nDéfinition des paramètres de déformation\nOscillations de surface et hamiltonien nucléaire\nMode d'évaluation\nContrôle continu : 33 %\nExamen : 67 %\nRéférences bibliographiques\nD. Heyde, From Nucleons to the Atomic Nucleus: Concepts of Microscopic Nuclear Theory, Springer, 2004.\nW. Greiner & J. Maruhn, Nuclear Models, Springer, 1996.\nP. Ring & P. Schuck, The Nuclear Many-Body Problem, Springer, 2000.\nD.J. Rowe, The Nuclear Shell Model: Fundamentals, Springer, 2010.\nR.F. Casten, Nuclear Structure from a Simple Perspective, Oxford University Press, 2000.\nJ.A. Arias & M. Lozano, An Advanced Course in Modern Nuclear Physics, Springer, 2001."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

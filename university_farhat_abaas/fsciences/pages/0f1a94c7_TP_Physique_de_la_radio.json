@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S3-TPRO.html",
+      "title": "TP Physique de la radio",
+      "id": "0f1a94c7",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:49",
+      "hash": "beef7747ae0e6689",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n3  |\nUE :\nMéthodologie (UEM 3)  |\nCrédits :\n2  |\nCoefficient :\n1\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs pédagogiques\nAcquérir des connaissances pratiques en dosimétrie, radiothérapie externe (mode électron et photon), la planification des plans de traitement sur machine, Protocole de calibration, contrôle et assurance qualité.\nContenu de l'unité\nTP 1° : Contrôle de qualité des installations\nTP 2° : Dosimétrie en mode photons\nTP 3° : Dosimétrie en mode électrons\nTP 4° : Système de planification\nRéférences bibliographiques\nPODGORSAK, E., (Ed), Radiation Oncology Physics: A Handbook for Teachers and Students, IAEA, Vienna (2005).\nKHAN, FAIZ M., The Physics of Radiation Therapy, Lippincott Williams & Wilkins, Philadelphia (2014).\nMAYLES, P., NAHUM, A., AND ROSENWALD, J.C., Handbook of Radiotherapy Physics, Theory and Practice, Taylor & Francis, USA (2007).\nBALTAS, D., SAKELLIOU, L., ZEMBOGLOU, N., The Physics of Modern Brachytherapy for Oncology, CRC Press (2007).\nINTERNATIONAL ATOMIC ENERGY AGENCY, Radiation Protection and Safety in Medical Uses of Ionizing Radiation: Specific Safety Guide No. SSG46, IAEA, Vienna (2018).\nICRU Report 50. Prescribing, Recording and Reporting Photon Beam therapy. Bethesda, MD, USA (1993).\nICRU Report 62. Prescribing, Recording and Reporting Photon Beam therapy (Supplement to ICRU Report 50). Bethesda, MD, USA (1999).\nICRU Report No. 71. Prescribing, Recording, and Reporting Electron Beam Therapy. Bethesda, MD, USA (2004).\nICRU Report 83. Prescribing, Recording and Reporting Photon Beam Intensity Modulated Radiation Therapy (IMRT). Bethesda, MD, USA (2010).\nICRU Report 91. Prescribing, Recording and Reporting of Stereotactic Treatments with Small Photon Beams. Bethesda, MD, USA (2019)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

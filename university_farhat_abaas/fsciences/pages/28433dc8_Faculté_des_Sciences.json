@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/451",
+      "title": "Faculté des Sciences",
+      "id": "28433dc8",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:31:33",
+      "hash": "0724f9001cb507b7",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "GUENNOUNE Hakim\nGUENNOUNE Hakim\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:hguennoune@univ-setif.dz\nEmail:hguennoune@univ-setif.dz\nDépartement:Physique\nBureau:\nBureau:\n\nJe suis enseignant chercheur à l’université FERHAT ABBAS Sétif 1.\nJ’enseigne la physique et j’effectue de la recherche sur la relativité générale\net plus spécialement les trous noirs. Je suis actuellement adjoint chef de\ndépartement de physique.\nJe travaille depuis une dizaine d’années\nsur la gravitation topologiquement massive à trois dimensions TMG, qui est une\nthéorie de la gravitation à l'action de laquelle on ajoute un terme dit\ntopologique ou de Chern-Simons, pour la rendre dynamique, contrairement à la\ngravitation pure à trois dimensions d'espace-temps. C'est un laboratoire pour\nl'étude de la quantification de la gravitation, ainsi que pour la découverte de\nsolutions exactes classiques, notamment du type trou noir.\nMon sujet de recherche consiste en la\nconstruction et l’analyse d'une classe de solutions du type trou noir en\nrotation, donc du type Kerr puis étudier leur domaine de régularité, leur\nstructure globale et causale, par la méthode des diagrammes de Penrose et leur\nthermodynamique.\nJ’étudie aussi la théorie de la gravito-électrodynamique\ntopologiquement massive à trois dimensions (TMGE), où l’utilisation de la\nprocédure de réduction dimensionnelle permet de montrer que cette théorie admet\nquatre vecteurs de Killing locaux générant une algèbre de Lie.\nD’autres solutions stationnaires en\nrotation mais cette fois-ci pour la théorie de l’électrodynamique\ntopologiquement massive (TME) couplée à un champ scalaire, le dilaton, ont été\nconstruites.\nActuellement j’entame une étude plus\napprofondie de la géométrie d’espace-temps à (2+1) dimensions des\nsolutions trous noirs de TMG dites WarpedAdS black holes et des wormholes.\nJournaux (2)\nChern–Simons dilaton black holes in 2 + 1 dimensions\nKarim Ait Moussa, Gérard Clément and Hakim Guennoune\nClassical and Quantum Gravity, 33 (2016), pp 065008\nThree-dimensional Chern-Simons black holes\nKarim Ait Moussa, Gérard Clément, Hakim Guennoune, and Cédric Leygnac\nPhysical Review D , 78 (2008), pp 064065"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

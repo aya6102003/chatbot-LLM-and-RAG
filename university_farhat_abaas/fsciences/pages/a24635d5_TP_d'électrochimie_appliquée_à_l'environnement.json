@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_DE_L_EAU/S1-TPECA.html",
+      "title": "TP d'électrochimie appliquée à l'environnement",
+      "id": "a24635d5",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:28",
+      "hash": "e7aff97535cd97e6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "TP d'électrochimie appliquée à l'environnement\nSemestre :\n1\nUE :\nMéthodologie\nCrédits :\n2\nCoefficient :\n1\nObjectifs de l'enseignement\nCes TP permettent de relier théorie et pratique avec des outils accessibles. L'interprétation des données peut aller jusqu'à la modélisation ou la rédaction de rapports professionnels. Aussi, tous les TP peuvent être modifiés pour s'adapter à l'équipement disponible.\nContenu de la matière\nTP 1 : Dépollution de l'eau par électrocoagulation\nObjectif : Étudier la capacité de l'électrocoagulation à éliminer des colorants ou des métaux lourds d'une solution aqueuse\nExploitation : Analyse UV-Vis (ou analyse visuelle)\nMatériel : Électrodes en aluminium ou fer, source de courant continu (pile 9V ou alimentation de labo), bécher, agitateur, colorant alimentaire ou solution de Cu²⁺/Pb²⁺ (faible concentration)\nParamètres à étudier : Tension, durée, distance entre électrodes, pH\nTP 2 : Pile électrochimique à base de déchets (pile verte)\nObjectif : Construire une pile à partir de matériaux recyclés et comparer son rendement à des piles commerciales\nExploitation : Comparaison de tensions produites, mesure de la durée de fonctionnement\nMatériel : Électrodes (cuivre, zinc, graphite / mine de crayon), électrolytes (jus de citron, vinaigre, solution saline), contenants plastiques ou verres, multimètre pour mesurer tension et intensité\nTP 3 : Détection électrochimique de polluants (nitrates, métaux lourds)\nObjectif : Réaliser une voltammétrie pour détecter des ions nitrate, plomb ou cuivre dans une solution modèle\nExploitation : Courbes courant-potentiel, mise en évidence de pics caractéristiques\nMatériel : Cellule électrochimique à 3 électrodes, électrode de graphite (mine), fil de Cu ou Ag, potentiostat rudimentaire ou interface Arduino + logiciel gratuit (OpenElectrons)\nTP 4 : Étude de la corrosion de métaux en milieu acide ou salé\nObjectif : Étudier la corrosion électrochimique du fer ou du zinc selon les conditions du milieu\nExploitation : Courbes de corrosion, taux de corrosion, influence du pH\nMatériel : Clous en fer, morceaux de zinc, solutions de NaCl, HCl dilué, eau déminéralisée, multimètre pour mesure de potentiel de corrosion, chronomètre, balance (perte de masse)\nTP 5 : Fabrication et test d'un capteur électrochimique simple pour le suivi de pH ou de CO2\nObjectif : Concevoir un capteur rudimentaire basé sur une réaction redox sensible au pH ou au CO2 dissous\nExploitation : Sensibilité du capteur, comparaison avec mesures standard\nMatériel : Électrode en graphite ou platine, solution de permanganate ou indicateur redox, eau carbonatée (CO2 dissous), pHmètre ou mesure de potentiel\nMode d'évaluation\nContrôle continu : 50%\nExamen : 50%"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

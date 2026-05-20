@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S1-DAF1.html",
+      "title": "Distributions et Analyse de Fourier 1",
+      "id": "e8d75c42",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:33",
+      "hash": "10f9e9ad386f1621",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Distributions et Analyse de Fourier 1\nSemestre :\n1  |\nUnité d'enseignement :\nFondamentale\nVolume Horaire Hebdomadaire :\nCours : 3h, TD : 1h30\nCrédits :\n6  |\nCoefficients :\n3\nObjectifs de l'enseignement\nGénéraliser les notions de fonction et de dérivation. Maîtriser la transformée de Fourier comme outil de \"diagonalisation\" des opérateurs différentiels à coefficients constants et l'appliquer à la résolution d'EDP.\nConnaissances préalables recommandées\nAnalyse réelle, théorie de l'intégration, topologie.\nContenu de la matière\nChapitre 1 : Théorie des Distributions\nMotivation (solutions faibles), espaces de fonctions-test D(Ω).\nDéfinition des distributions et opérations (dérivation, multiplication, convolution).\nChapitre 2 : Espace de Schwartz et Distributions Tempérées\nL'espace de Schwartz S(ℝⁿ) et ses propriétés.\nLes distributions tempérées S'(ℝⁿ) comme cadre naturel pour la transformée de Fourier.\nChapitre 3 : Transformation de Fourier\nDéfinition et propriétés sur S(ℝⁿ) et S'(ℝⁿ).\nApplication à la résolution d'EDP : solution élémentaire du Laplacien, équation de Poisson sur ℝⁿ.\nMode d'évaluation\nExamen final (60%), Contrôle Continu (40%)\nRéférences bibliographiques\nC. Gasquet, P. Witomski,\nAnalyse de Fourier et applications\n. Dunod, 2015.\nG. B. Folland,\nFourier Analysis and Its Applications\n. Wadsworth & Brooks/Cole, 1992.\nL. Schwartz,\nThéorie des distributions\n. Hermann, 1966."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/sites_departements/sm",
+      "title": "Faculté des Sciences",
+      "id": "754e1848",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:27:31",
+      "hash": "0899ce15ed2177e5",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "مستجدات\nAUX ETUDIANTS DE PREMIÈRE ANNÉE S.M (L1)\nRépartition des Etudiants par Lieux d'Examens\nقراءة المزيد\nPLANNING DES EXAMENS DU DEUXIÈME SEMESTRE (TRONC COMMUN S.M L1)\n(Période du 11 au 25 mai 2026)\nقراءة المزيد\nالتوزيعات الاسبوعية\nاللجان البيداغوجية\nمواقيت الامتحانات"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "قراءة المزيد",
+        "url": "https://fsciences.univ-setif.dz/annonces/9097",
+        "type": "internal"
+      },
+      {
+        "text": "قراءة المزيد",
+        "url": "https://fsciences.univ-setif.dz/annonces/8978",
+        "type": "internal"
+      },
+      {
+        "text": "sm",
+        "url": "https://fsciences.univ-setif.dz/sites_departements/sm",
+        "type": "internal"
+      },
+      {
+        "text": "التوزيعات الاسبوعية",
+        "url": "https://fsciences.univ-setif.dz/uploads/article/fichier/3016/Emploi_du_temps_SM_24-25-S2_-_V4_04-02-25_.pdf",
+        "type": "internal"
+      },
+      {
+        "text": "اللجان البيداغوجية",
+        "url": "https://fsciences.univ-setif.dz/uploads/article/fichier/3038/Planning_CP2_S2_SM_%D9%8EAvril_2025.pdf",
+        "type": "internal"
+      },
+      {
+        "text": "مواقيت الامتحانات",
+        "url": "https://fsciences.univ-setif.dz/uploads/article/fichier/3039/Planning_Examen_S2_Mai_2025__SM_.pdf",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/754e1848_transparent_9f4556d33d3e3098b1f6854f97a4.png"
+      }
+    ],
+    "documents": [
+      {
+        "title": "التوزيعات الاسبوعية",
+        "url": "https://fsciences.univ-setif.dz/uploads/article/fichier/3016/Emploi_du_temps_SM_24-25-S2_-_V4_04-02-25_.pdf",
+        "local_file": "pdfs/754e1848_التوزيعات_الاسبوعية.pdf"
+      },
+      {
+        "title": "اللجان البيداغوجية",
+        "url": "https://fsciences.univ-setif.dz/uploads/article/fichier/3038/Planning_CP2_S2_SM_%D9%8EAvril_2025.pdf",
+        "local_file": "pdfs/754e1848_اللجان_البيداغوجية.pdf"
+      },
+      {
+        "title": "مواقيت الامتحانات",
+        "url": "https://fsciences.univ-setif.dz/uploads/article/fichier/3039/Planning_Examen_S2_Mai_2025__SM_.pdf",
+        "local_file": "pdfs/754e1848_مواقيت_الامتحانات.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

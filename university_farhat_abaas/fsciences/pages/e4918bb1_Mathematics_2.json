@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/L1_SM_Common_Core/S2-MATH2.html",
+      "title": "Mathematics 2",
+      "id": "e4918bb1",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:38",
+      "hash": "9e147d9dacd8ba24",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Mathematics 2\nSemester:\n2  |\nTeaching Unit:\nFundamental Unit (FU)\nCourse Structure:\n1h30 lecture + 3h00 tutorial sessions per week.\nCourse Objectives\nThis course is of critical importance for students in the sciences. It provides the foundational mathematical skills necessary for the rigorous formulation of physical and chemical laws. Students will learn to solve ordinary differential equations (ODEs), perform matrix calculations, compute determinants, solve linear systems, work with matrices and linear transformations, and diagonalize matrices. Additional essential tools include polynomial approximations of functions and the study of functions of two variables.\nLearning Outcomes\nSolve first- and second-order ordinary differential equations with various techniques.\nPerform matrix operations, compute determinants, and determine matrix rank.\nSolve linear systems using methods such as Cramer's Rule, inverse matrices, and Gaussian elimination.\nApply Taylor expansions and polynomial approximations to analyze functions.\nWork with functions of several variables, including computing partial derivatives and applying gradient and Laplacian concepts.\nCourse Content\nChapter 1: Ordinary Differential Equations (ODEs) (2 weeks)\nFirst-order linear ODEs:\nGeneral form of a first-order linear ODE\nSolution of the associated homogeneous equation\nParticular solution using the method of variation of constants\nExamples\nNote: The Cauchy problem (ODE with initial conditions) and the principle of superposition will be covered through exercises in tutorial sessions.\nSecond-order linear ODEs with constant coefficients:\nGeneral form of a second-order linear ODE with constant coefficients\nSolution of the homogeneous equation (no forcing term)\nParticular solutions (table summarizing the main types of forcing terms)\nExamples\nNote: The method of variation of constants, ODEs with initial conditions, and the principle of superposition will be introduced in tutorial sessions.\nChapter 2: Linear Algebra (5 weeks)\nMatrices and Linear Transformations:\nDefinition of a matrix; common types of matrices\nMatrix operations: equality, addition, scalar multiplication, matrix multiplication\nElementary row and column operations (row echelon form)\nRank of a matrix and of a set of vectors\nLinear transformations from ℝⁿ to ℝᵐ (definition, examples, matrix representation)\nDeterminants:\nDeterminants of order 2 and 3\nDefinition, cofactors, properties, general case\nInverse Matrices:\nDefinition and computation using cofactors; other methods covered in tutorial sessions\nSystems of Linear Equations:\nDefinition and examples; matrix form; augmented matrices\nSolving square systems (Cramer's rule, inverse matrix method)\nSolving general systems (Gaussian elimination)\nChapter 3: Polynomial Approximation of Functions (3 weeks)\nTaylor formulas with Lagrange and Young remainders (special case near 0)\nTaylor Series Expansions:\nDefinition near 0\nSeries obtained using Taylor's formula (basic examples; a reference table of expansions is essential)\nOperations on series expansions (covered in tutorial sessions)\nExpansions near an arbitrary point\nApplications of series expansions\nChapter 4: Functions of Several Variables (2–3 weeks)\nDefinition of a function of two variables\nGraphical representation (examples: plane, paraboloid, cone, etc.)\nFirst-order partial derivatives:\nDefinition and examples\nTangent plane, gradient, divergence\nDirectional derivatives and derivatives along a vector\nMixed partial derivatives\nSecond-order partial derivatives (definition, Laplacian)\nAssessment Method\nContinuous assessment: 33%\nFinal exam: 67%\nReferences\nBelorizky, E. – Mathematical Tools for Scientists and Engineers, EDP Sciences, Paris (2007).\nAppel, W. – Mathematics for Physics and Physicists, 4th ed., H&K Editions, Paris (2008).\nAslangul, C. – Mathematics for the Sciences: Concepts, Methods, and Techniques for Modeling, De Boeck, Brussels (2011).\nAslangul, C. – Mathematics for the Sciences 2: Detailed and Commented Solutions to Exercises and Problems, De Boeck, Brussels (2013).\nPiskounov – Differential and Integral Calculus, Vol. 2, MIR Publishers (1976).\nhttp://www.les-mathematiques.net"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

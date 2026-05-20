@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/ANME.html",
+      "title": "Anme.Html",
+      "id": "83157c79",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:38",
+      "hash": "bc1f7e03696c2393",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nApplied Numerical Methods for Economics (ANME) — Semester 6, Unit UFE6, Credits: 5, Coeff: 3\nCourse Objectives\nThe objective of the course is to acquire a good basic understanding and overview of numerical techniques typically used for economics and finance. This knowledge should enable you to use numerical methods for your own research projects.\nCourse Content\nPart I: Numerical Methods\nConcepts in Numerical Analysis (Computer Arithmetic and Data Storage, Economics of Computation, Rounding Error, Stopping Criteria…)\nSolving Linear Equations\nSolving Nonlinear Equations\nOptimization methods\nNumerical Integration and Differentiation (Gaussian Quadrature, Monte Carlo Integration)\nFunction Approximation\nPart II: Applications\nMacroeconomic Models\nFinance Applications\nOther Applications (depending on composition of the course and desires of students)\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\nMario J. Miranda and Paul L. Fackler “Applied Computational Economics and Finance”, MIT Press, 2004.\nKenneth L. Judd “Numerical Methods in Economics”, MIT Press, 1998.\nBurkhard Heer and Alfred Maussner “Dynamic General Equilibrium Modelling”, Springer Verlag, 2004."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

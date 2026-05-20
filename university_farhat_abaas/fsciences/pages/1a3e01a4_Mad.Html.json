@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/MAD.html",
+      "title": "Mad.Html",
+      "id": "1a3e01a4",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:36",
+      "hash": "11e779a66f3045df",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nMobile Application Development (MAD) — Semester 5, Unit UM5, Credits: 3, Coeff: 2\nPrerequisite Knowledge\nBasic concepts of object-oriented programming.\nEmbedded systems.\nNetwork programming.\nCourse Objectives\nEnables students to acquire the skills needed to conceptualize, program, test and troubleshoot a mobile application.\nCourse Content\nChapter I: Introduction to Mobile Systems\nBasic notions and concepts.\nAreas of application.\nOperating and development constraints.\nMobile system architecture.\nOverview of the main mobile systems.\nChapter II: Programming Languages for Mobile Application Development\nMobile development environments.\nMobile application types: Native Applications; Web applications; Hybrid applications.\nMobile development languages: Objective-C; Swift; Kotlin; Java; React Native (JavaScript); C++; C#.\nChapter III: Android Mobile Application Development\nSDK Android\nAndroid application components\nActivity lifecycle\nConcept of resources: XML language; Different types of resources; Retrieving a resource (The R class); XML file handling.\nCreation of graphic interfaces\nAdvanced concepts: AndroidManifest.xml; Communication between components; Data storage; Databases (SQLite); Thread management; Services; Sharing content between applications; Creating an AppWidget.\nExploiting Android features: Network connectivity; Learn to draw; Location and maps; Telephony; Multimedia; Sensors.\nPublish an Android app.\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\nFlorent Garin, ANDROID Développer des applications mobiles pour les Google Phones, Dunod 2009.\nSylvain HEBUTERNE, Guide de développement d’applications Java pour Smartphones et Tablettes, 3e édition, ENI, 2016.\nNazim BENBOURAHLA — Serge UNGAR, Des fondamentaux du développement Java à la mise en pratique d’une application sous Android, ENI — 1re édition, 2014.\nMathias Seguy, Android, A Complete Course, From Basics To Enterprise Edition, android2ee — 1re édition, 2011."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

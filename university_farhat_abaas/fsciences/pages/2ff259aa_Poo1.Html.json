@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING2EME/POO1.html",
+      "title": "Poo1.Html",
+      "id": "2ff259aa",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:57",
+      "hash": "598babd24e1055be",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nPrincipes de Bases\nClasses et Objets\nDu Proc�dural � l\u0019Orient� Objet\nCollaboration entre classes\nM�thodes et messages\nH�ritage\nRed�finition des m�thodes\nAbstraite, cette classe est sans objet\nClonage, comparaison et assignation d\u0019objet"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

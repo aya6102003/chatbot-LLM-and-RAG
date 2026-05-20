@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L3/S6-PSOLIDE.html",
+      "title": "Physique du Solide",
+      "id": "e39031e1",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:22",
+      "hash": "09f3ba45514a2209",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Physique du Solide\nSemestre :\n6  |\nUnité d'enseignement :\nFondamentale\nConnaissances préalables recommandées\nNotions en Algèbre et Analyse. Connaissances en Électrostatique, Mécanique analytique, Ondes Électromagnétiques, Optique, Physique Atomique, Mécanique Quantique. Vibrations du réseau. Statistiques de Boltzman et de Fermi.\nObjectifs de l'enseignement\nIntroduction à la physique de l'état solide. Étude des concepts de base de l'état solide. Initiation aux principales propriétés.\nContenu de la matière\nChapitre 1 : Cristallographie (4 semaines)\nStructure Cristalline : motif et réseau, maille, réseau cristallin, plans réticulaires et indices de Miller, structures cristallines courantes.\nRéseau réciproque\nDiffraction cristalline : réflexion des RX (loi de Bragg), diffraction par un réseau cristallin, facteur de structure, méthodes expérimentales.\nLiaison cristalline : définition (cohésion du cristal), cristaux de gaz neutres, cristaux ioniques, cristaux covalents, cristaux métalliques.\nChapitre 2 : Propriétés mécaniques – Élasticité (2 semaines)\nDéfinition, tenseur de déformation, tenseur de contraintes, loi de Hooke, propagation des ondes élastiques dans les solides cristallins.\nChapitre 3 : Vibrations et propriétés thermiques des atomes du réseau (2 semaines)\nVibrations du réseau cristallin : chaîne unidimensionnelle d'atomes identiques, chaîne unidimensionnelle d'atomes différents, réseau tridimensionnel, modes de vibration, phonons.\nPropriétés thermiques du solide : théorie classique, modèle d'Einstein, modèle de Debye, conductivité thermique.\nChapitre 4 : Électrons dans le solide (4 semaines)\nÉlectrons libres : modèle de Drude, modèle de Fermi-Dirac, gaz d'électrons libres à 3D, Cv d'un gaz d'électrons, conductivité électrique (loi d'Ohm), mouvement dans un champ magnétique, effet Hall.\nÉlectrons dans un potentiel périodique : modèle des électrons presque libres, théorie des bandes, fonction de Bloch, masse effective.\nSemi-conducteurs intrinsèques : nature des porteurs de charges, conductivité. Effet du dopage.\nChapitre 5 : Magnétisme (2 semaines)\nMoment dipolaire magnétique, diamagnétisme, paramagnétisme.\nChapitre 6 : Diélectriques (1 semaine)\nChamps électriques, polarisation, mécanisme de la polarisation.\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\nC. Kittel, Physique du Solide.\nP. Pavlov, Physique du Solide.\nGuinier, La matière à l'état solide.\nD. Schwarzenbach, Cristallographie.\nY. Quéré, Physique des solides problèmes avec corrigés, Éditeur École Polytechnique.\nN. W. Ashcroft, N. D. Mermin, Solid state physics. Saunders College Publishing."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

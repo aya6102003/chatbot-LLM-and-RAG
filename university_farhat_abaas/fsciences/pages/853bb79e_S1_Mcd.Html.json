@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S1-MCD.html",
+      "title": "S1 Mcd.Html",
+      "id": "853bb79e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:37",
+      "hash": "e65ec4f70358008b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Software Design Methods & Design Patterns\nSemester:\n1  |\nType:\nUEF12  |\nVHS:\n63h  |\nWeekly hours:\nC: 1h30 / TD: 1h30 / TP: 1h30  |\nPersonal work VHS:\n42h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nMaster the fundamental concepts of software design\nUnderstand and apply different advanced design methods\nKnow how to choose and use modelling and design tools appropriate to the type of application\nUnderstand software quality issues and aspects related to security and maintainability\nRecommended prior knowledge:\nSoftware engineering and object-oriented programming.\nCourse Content (Lectures: 21h)\nReview of Design Methods\nSoftware life cycle models (V-model, agile, formal transformations, etc.)\nNotions of software quality (reliability, maintainability, performance)\nAdvanced Object-Oriented Design\nReview of OO concepts (inheritance, polymorphism, encapsulation, etc.)\nDesign patterns for reuse and modularity\nUML modelling tools, UP (Unified Process) RUP, 2TUP\nCASE tools in development (examples)\nModel-Driven Modelling and Design (MDA)\nModel-Driven Architecture (MDA)\nPlatform models (PIM, PSM)\nModel transformations\nCode generation tools from models\nQuality and Security\nStatic and dynamic code analysis\nUnit and integration testing\nSoftware security techniques (vulnerability prevention, encryption, etc.)\nMaintainability (modularity, coupling, cohesion)\nAdvanced Agile Methods\nAdvanced Scrum (sprints, roles, planning, etc.)\nKanban (visualisation, flow, etc.)\nAdapting agile methods to different contexts\nIntegrating agility into classic development cycles\nSpecific Software Design: Generalities\nEmbedded systems\nCloud\nDistributed systems\nDatabases\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous tests, personal work\nReferences\nBooch, G., Rumbaugh, J., Jacobson, I. (1999).\nThe Unified Modeling Language User Guide\n. Addison-Wesley.\nFowler, M. (2003).\nPatterns of Enterprise Application Architecture\n. Addison-Wesley.\nGamma, E., Helm, R., Johnson, R., Vlissides, J. (1995).\nDesign Patterns: Elements of Reusable Object-Oriented Software\n. Addison-Wesley.\nOMG (2017).\nOMG Unified Modeling Language (OMG UML), Version 2.5.1\n. Object Management Group.\nKruchten P. (2001).\nIntroduction au Rational Unified Process (RUP)\n. Editions Eyrolles, Paris."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

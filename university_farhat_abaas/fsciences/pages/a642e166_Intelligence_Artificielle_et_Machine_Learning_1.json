@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S1-IAML1.html",
+      "title": "Intelligence Artificielle et Machine Learning 1",
+      "id": "a642e166",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:08",
+      "hash": "483ed54106306036",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Intelligence Artificielle et Machine Learning 1\nSemestre 1 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nObjectifs de l’enseignement\nIntroduire les bases de l'IA et de l'apprentissage automatique (Machine Learning), en se concentrant sur\nleurs applications dans les sciences de la matière. Les étudiants comprendront les concepts fondamentaux\nde la modélisation basée sur les données et comment appliquer les techniques de l'apprentissage\nautomatique pour résoudre des problèmes du monde réel.\nConnaissances préalables recommandées\nUne bonne maîtrise des bases des mathématiques (algèbre linéaire, statistiques, probabilités, calcul\ndifférentiel) est indispensable. Des connaissances en programmation (notamment en Python), ainsi qu’une\npremière expérience avec les algorithmes ou la science des données sont fortement recommandées\nContenu de la matière :\n1. Introduction à l'IA et à l'apprentissage automatique (2 semaines)\nAperçu de l'IA et de ses applications.\nImportance des données dans l'IA et l'apprentissage automatique.\n2. Concepts de base de l'apprentissage automatique (3 semaines)\nApprentissage supervisé ou non supervisé.\nAlgorithmes clés de l'apprentissage automatique : régression, classification, regroupement.\nMesures d'évaluation (MAE, R², précision).\n3. Collecte et traitement des données (3 semaines)\nIngénierie des caractéristiques et techniques de prétraitement des données.\nTraitement de l'ajustement excessif et de l'ajustement insuffisant.\nBases de données sur les matériaux : Materials Project, OQMD, AFLOW.\n4. Apprentissage automatique (Machine Learning) pratique en sciences de la matière (4 semaines)\nÉtude de cas : Prédiction des propriétés des matériaux (bande interdite, etc.).\nUtilisation de modèles d'apprentissage automatique pour des tâches simples de classification et de régression.\n5. Fondements de l'apprentissage profond (3 semaines)\nIntroduction aux réseaux neuronaux.\nPrincipaux cadres d'apprentissage profond : TensorFlow, Keras, PyTorch.\nApplication : Prédiction de la structure cristalline à l'aide de réseaux neuronaux.\nReferences :\n[1] Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow; by Aurélien Géron (focuses on\npractical applications of machine learning)\n[2] Pattern Recognition and Machine Learning; by Christopher M. Bishop (provides theoretical foundations\nof ML)\nOutils et bibliothèques :\n− Python, Jupyter Notebooks\n− Scikit-learn, Pandas, Matplotlib\n− Materials science tools: Matminer, Pymatgen"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

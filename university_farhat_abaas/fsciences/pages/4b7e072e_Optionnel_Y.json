@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S2-OPTY.html",
+      "title": "Optionnel Y",
+      "id": "4b7e072e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:31",
+      "hash": "844be1fdd1449c41",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Optionnel Y\nSemestre :\n2  |\nUnité d'enseignement :\nMéthodologique\nVolume Horaire Hebdomadaire :\nCours : 1h30, TD : 1h30\nCrédits :\n4  |\nCoefficients :\n2\nÀ choisir parmi :\nFormulations variationnelles pour les problèmes aux limites\n,\nInéquations Variationnelles\n,\nDegré topologique et applications\n,\nEDP et traitement de l'image\n.\nOption A : Formulations variationnelles pour les problèmes aux limites\nObjectifs :\nGénéraliser l'approche variationnelle à des problèmes plus complexes (Stokes) nécessitant des espaces fonctionnels adaptés (H(div), H(curl)) et des conditions de stabilité spécifiques.\nContenu :\nEspaces H(div) et H(curl) : Définitions et propriétés.\nProblèmes de Stokes : Formulation variationnelle mixte (vitesse-pression).\nCondition Inf-Sup (Ladyjenskaïa-Babuška-Brezzi) : Stabilité des formulations mixtes.\nRéférences :\nD. Boffi, F. Brezzi, M. Fortin,\nMixed Finite Element Methods and Applications\n. Springer, 2013.\nA. Ern, J.-L. Guermond,\nTheory and Practice of Finite Elements\n. Springer, 2004.\nOption B : Inéquations Variationnelles\nObjectifs :\nGénéraliser la formulation variationnelle au cas de problèmes avec contraintes unilatérales et maîtriser le théorème de Lions-Stampacchia.\nContenu :\nMotivation : Problème de l'obstacle.\nFormulation abstraite dans les espaces de Hilbert.\nThéorème d'existence et d'unicité de Lions-Stampacchia.\nApplications aux problèmes de contact.\nRéférences :\nD. Kinderlehrer, G. Stampacchia,\nAn Introduction to Variational Inequalities and Their Applications\n. SIAM, 2000.\nH. Brezis,\nFunctional Analysis...\n(Chapitre 10).\nOption C : Degré topologique et applications\nObjectifs :\nIntroduire l'outil du degré topologique pour prouver l'existence de solutions à des équations non linéaires, là où les méthodes de point fixe classiques échouent.\nContenu :\nDegré de Brouwer en dimension finie : définition et propriétés (invariance par homotopie).\nApplication du degré de Brouwer : Théorème du point fixe de Brouwer.\nDegré de Leray-Schauder en dimension infinie.\nApplication à l'existence de solutions pour les EDP semi-linéaires.\nRéférences :\nL. Nirenberg,\nTopics in Nonlinear Functional Analysis\n. AMS, 2001.\nK. Deimling,\nNonlinear Functional Analysis\n. Springer, 1985.\nOption D : EDP et traitement de l'image\nObjectifs :\nMontrer comment les EDP et le calcul des variations fournissent un cadre puissant pour modéliser et résoudre des problèmes en traitement d'images (débruitage, segmentation).\nContenu :\nModèles de diffusion pour le débruitage : Équation de la chaleur, filtrage anisotrope (Perona-Malik).\nModèles variationnels et Variation Totale : Le modèle de Rudin-Osher-Fatemi (ROF) pour le débruitage avec préservation des contours.\nSegmentation par contours actifs : Modèles \"snakes\" (Kass-Witkin-Terzopoulos).\nApproche par ensembles de niveaux.\nRéférences :\nG. Aubert, P. Kornprobst,\nMathematical Problems in Image Processing\n. Springer, 2006.\nT. Chan, J. Shen,\nImage Processing and Analysis: Variational, PDE, Wavelet, and Stochastic Methods\n. SIAM, 2005.\nMode d'évaluation\nExamen final (60%), Contrôle Continu (40%)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

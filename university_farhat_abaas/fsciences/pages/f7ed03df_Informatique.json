@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/InfoMaths.html",
+      "title": "Informatique",
+      "id": "f7ed03df",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:33:11",
+      "hash": "bc10940746d18f8f",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Guide pédagogique\nPremière année Informatique / Mathématiques\n\n1ère année Informatique LMD\nIngénieur Informatique Tronc commun\n1ère année Mathématiques LMD\n1ère année Mathématiques Appliquées LMD\nLicence Médecine et Big Data\nLicence Mathématiques et Informatiques appliquées aux Sciences Economiques"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "Guide pédagogique",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/index.html",
+        "type": "internal"
+      },
+      {
+        "text": "Licence_Informatique_SI.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Licence_Informatique_SI.html",
+        "type": "internal"
+      },
+      {
+        "text": "IngInfoTC.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/IngInfoTC.html",
+        "type": "internal"
+      },
+      {
+        "text": "Licence_Mathematiques.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Licence_Mathematiques.html",
+        "type": "internal"
+      },
+      {
+        "text": "Licence_Mathematiques_Appliquees.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Licence_Mathematiques_Appliquees.html",
+        "type": "internal"
+      },
+      {
+        "text": "BigData.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/BigData.html",
+        "type": "internal"
+      },
+      {
+        "text": "Licence_MIAGE.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Licence_MIAGE.html",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/f7ed03df_back.png"
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

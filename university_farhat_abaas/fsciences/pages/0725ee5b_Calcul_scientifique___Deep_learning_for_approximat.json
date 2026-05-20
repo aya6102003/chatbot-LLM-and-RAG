@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S2-DEC.html",
+      "title": "Calcul scientifique / Deep learning for approximation theory",
+      "id": "0725ee5b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:30",
+      "hash": "651c5b1854d7016e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "UE Découverte — À choisir parmi :\nSemestre :\n2  |\nUnité d'enseignement :\nDécouverte\nVolume Horaire Hebdomadaire :\nCours : 1h30, TP : 1h30\nCrédits :\n2  |\nCoefficients :\n2\nObjectifs de l'enseignement\nSoit acquérir des compétences pratiques en implémentation d'algorithmes numériques, soit explorer les liens entre les réseaux de neurones et la théorie de l'approximation.\nOption A : Calcul scientifique\nEnvironnements de calcul (Python/NumPy).\nAlgèbre linéaire numérique : Résolution de grands systèmes, calcul de valeurs propres.\nDiscrétisation d'EDP : Implémentation de la méthode des différences finies.\nOption B : Deep learning for approximation theory\nIntroduction aux réseaux de neurones (architecture, fonctions d'activation).\nThéorèmes d'approximation universelle.\nRéseaux profonds ReLU et leur interprétation comme des fonctions affines par morceaux.\nMode d'évaluation\nExamen final (60%), Contrôle Continu (40%)\nRéférences bibliographiques\nA. Quarteroni, F. Saleri, P. Gervasio,\nScientific Computing with MATLAB and Octave\n. Springer, 2014.\nI. Goodfellow, Y. Bengio, A. Courville,\nDeep Learning\n. MIT Press, 2016."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S3-REG.html",
+      "title": "Théorie de Régularité",
+      "id": "311e58b3",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:33",
+      "hash": "63862ba6404ccd45",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Théorie de Régularité\nSemestre :\n3  |\nUnité d'enseignement :\nFondamentale\nVolume Horaire Hebdomadaire :\nCours : 3h, TD : 1h30\nCrédits :\n6  |\nCoefficients :\n3\nObjectifs de l'enseignement\nÉtudier la question fondamentale : \"une solution faible d'une EDP est-elle régulière ?\". Maîtriser les techniques pour obtenir des estimations a priori sur les solutions.\nConnaissances préalables recommandées\nTous les modules d'analyse et d'EDP des S1/S2.\nContenu de la matière\nChapitre 1 : Régularité Intérieure (Lemme de Weyl, différences finies).\nChapitre 2 : Régularité L² et H^k.\nChapitre 3 : Estimations de Schauder (C^k,α).\nChapitre 4 : Régularité au Bord.\nMode d'évaluation\nExamen final (60%), Contrôle Continu (40%)\nRéférences bibliographiques\nD. Gilbarg, N. S. Trudinger,\nElliptic Partial Differential Equations of Second Order\n. Springer, 2001.\nQ. Han, F. Lin,\nElliptic Partial Differential Equations\n. AMS, 2011."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

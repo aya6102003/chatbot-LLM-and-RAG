@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/production_pedagogiques/1510",
+      "title": "Faculté des Sciences",
+      "id": "d2dc7ab0",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T13:01:52",
+      "hash": "92424207f0e2f80a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "الهيئات\nالعلمية\nالمجلس العلمي للكلية\nتركيبة المجلس\nرزنامة الإجتماعات\nمحاضر الإجتماعات\nاللجنة العلمية لقسم الكيمياء\nتركيبة اللجنة\nرزنامة الإجتماعات\nاللجنة العلمية لقسم الإعلام الآلي\nتركيبة اللجنة\nرزنامة الإجتماعات\nاللجنة العلمية لقسم الرياضيات\nتركيبة اللجنة\nرزنامة الإجتماعات\nاللجنة العلمية لقسم الفيزياء\nرزنامة الإجتماعات\nتركيبة اللجنة"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "TD 1  UV Vis 2020 converti",
+        "url": "http://fsciences.univ-setif.dz/uploads/production_pedagogique/attachment/1510/TD_1-_UV_Vis_2020-converti.pdf",
+        "local_file": "pdfs/d2dc7ab0_TD_1_UV_Vis_2020_converti.pdf"
+      }
+    ],
+    "tables": [
+      {
+        "file": "tables/d2dc7ab0_table_1_untitled.json",
+        "rows": 3
+      }
+    ]
+  }
+}

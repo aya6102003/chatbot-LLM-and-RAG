@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_INFORMATIQUE/S2-ASD2.html",
+      "title": "S2 Asd2.Html",
+      "id": "68a153c2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:08",
+      "hash": "36cd2c8ebfc37430",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Algorithmique et structure de données 2\nSemestre :\n2  |\nUE :\nUEF22  |\nCrédits :\n7  |\nCoefficient :\n5\nObjectifs de l'enseignement\nPermettre à l'étudiant d'acquérir des notions fondamentales de la programmation.\nConnaissances préalables recommandées\nNotions élémentaires de mathématiques.\nContenu de la matière\nChapitre 1 : Les sous-programmes : Fonctions et Procédures\nIntroduction\nDéfinitions\nLes variables locales et les variables globales\nLe passage des paramètres\nLa récursivité\nChapitre 2 : Les fichiers\nIntroduction\nDéfinition\nTypes de fichier\nManipulation des fichiers\nChapitre 3 : Les listes chaînées\nIntroduction\nLes pointeurs\nGestion dynamique de la mémoire\nLes listes chaînées\nOpérations sur les listes chaînées\nLes listes doublement chaînées\nLes listes chaînées particulières\nLes piles\nLes files\nNB :\nTPs en C (Complémentaires aux TDs).\nMode d'évaluation\nExamen (60%), Contrôle continu (40%)\nRéférences bibliographiques\nThomas H. Cormen, Algorithmes Notions de base. Collection : Sciences Sup, Dunod, 2013.\nThomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest. Algorithmique – 3ème édition – Cours avec 957 exercices et 158 problèmes. Broché, Dunod, 2010.\nRémy Malgouyres, Rita Zrour et Fabien Feschet. Initiation à l'algorithmique et à la programmation en C : cours avec 129 exercices corrigés. 2ième Edition. Dunod, Paris, 2011. ISBN : 978-2-10-055703-5.\nDamien Berthet et Vincent Labatut. Algorithmique & programmation en langage C – vol.1 : Supports de cours. Licence. Algorithmique et Programmation, Istanbul, Turquie. 2014, pp.232.\nDamien Berthet et Vincent Labatut. Algorithmique & programmation en langage C – vol.2 : Sujets de travaux pratiques. Licence. Algorithmique et Programmation, Istanbul, Turquie. 2014, pp.258.\nDamien Berthet et Vincent Labatut. Algorithmique & programmation en langage C – vol.3 : Corrigés de travaux pratiques. Licence. Algorithmique et Programmation, Istanbul, Turquie. 2014, pp.217.\nClaude Delannoy. Apprendre à programmer en Turbo C. Chihab-EYROLLES, 1994."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

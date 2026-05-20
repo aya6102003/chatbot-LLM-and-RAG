@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S1-MQA.html",
+      "title": "Advanced Quantum Mechanics",
+      "id": "90c4f39e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:57",
+      "hash": "1052adbbfe629872",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nFondamentale (UEF 1)  |\nCrédits :\n6  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nL'objectif principal est de familiariser l'étudiant à la résolution des problèmes de la physique à l'échelle microscopique, afin de l'initier aux vrais problèmes de la recherche fondamentale.\nConnaissances préalables recommandées\nL'étudiant est censé avoir suivi en licence une introduction à la mécanique quantique.\nContenu de la matière\nChapitre 1 : Théorie du moment cinétique\nImportance du moment cinétique\nPropriétés générales des valeurs et vecteurs propres d'un moment cinétique\nÉtats propres du moment cinétique orbital\nCas particuliers des moments cinétiques j = 1/2, j = 1\nChapitre 2 : Addition de deux moments cinétiques – Coefficients de Clebsh-Gordan\nComment apparaît la somme des moments cinétiques\nSomme de deux moments cinétiques\nThéorème de Wigner-Eckart. Règles de sélection\nChapitre 3 : Potentiel central et atome d'hydrogène\nDéfinition du champ central et exemples\nHamiltonien du problème central\nComportements de la fonction radiale – La particule libre\nPuits \"carré\" sphérique\nChapitre 4 : Atome d'hydrogène – états propres liés\nRésolution de l'équation radiale\nSymétrie dynamique du potentiel coulombien\nChapitre 5 : Le spin\nInsuffisances de la description par une seule fonction d'onde\nLagrangien d'une particule dans un champ électromagnétique\nMagnétisme atomique : l'atome d'hydrogène\nRotations d'un spin\nRetour sur le renversement du temps\nOrigine relativiste du spin\nConstruction de l'équation de Dirac\nEtats stationnaires d'un électron libre\nChapitre 6 : Méthodes d'approximation pour les états propres\nMéthode variationnelle : formulation variationnelle, calcul variationnel des états discrets\nThéorie des perturbations stationnaires : cas non-dégénéré, cas dégénéré, développement systématique à l'aide de la résolvante\nExemples d'application : effet Stark et effet Zeeman pour l'hydrogène\nRéférences bibliographiques\nC. Cohen-Tanoudji, Mécanique Quantique Tome 1 et Tome 2\nR.P. Feynman, Mécanique Quantique Tome 3\nD. BLOKHINTSEV, Principes de Mécanique Quantique\nA. TELLEZ–ARENA, Mécanique Quantique Travaux Dirigés\nG. ZEPP, Mécanique Quantique 2° cycle Universitaire et Ecoles d'ingénieurs – Exercices avec Solutions\nTER HAAR, Problèmes de Mécanique Quantique\nCh. NGO et H. NGO, Physique Quantique – Introduction avec exercices corrigés"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

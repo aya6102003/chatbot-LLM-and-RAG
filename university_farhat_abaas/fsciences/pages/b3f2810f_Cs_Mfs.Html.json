@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-MFS.html",
+      "title": "Cs Mfs.Html",
+      "id": "b3f2810f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:54:59",
+      "hash": "f4b744ca3ce44c6e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nMultimedia Forensics and Securityprovides an in-depth treatment of advancements in the emerging field of multimedia forensics and security by tackling challenging issues such as digital watermarking for copyright protection, digital fingerprinting for transaction tracking, and digital camera source identification.\nContenu de la matière\nIntroduction\nsteganography\n3. 4. 5.\nCharacteristics of Watermarking\nWatermarking techniques\nDetecting Significant Changes in Image/audio/video Sequences\nDeep Neural Watermarking\nMode d’évaluation : Contrôle continu, examen Références\nMultimedia\nMultimedia Watermarking\nMultimedia format\nCharacteristics of Information Hiding\nA. Bovik, Handbook of Image & Video Processing, Academic Press.\nI.J. Cox, M.L. Miller, and J.A. Bloom, Digital Watermarking, Morgan Kaufmann Publishers,\nInc., San Francisco."
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "blob:https://www.univ-setif.dz/63f113aa-4084-4d12-af2c-7ed756cf541c",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "blob:https://www.univ-setif.dz/d5ffddb3-4063-4160-9902-4e83f6bd5258",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "blob:https://www.univ-setif.dz/54ce6ec1-b435-443a-80d7-5f1fe9b7b548",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

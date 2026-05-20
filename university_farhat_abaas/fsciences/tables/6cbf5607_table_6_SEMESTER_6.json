@@ -1,0 +1,82 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/BigData.html",
+  "title": "SEMESTER 6",
+  "headers": [
+    "Unit",
+    "Courses",
+    "Credit",
+    "Coeff",
+    "Course",
+    "TD",
+    "TP",
+    "Evaluation",
+    "Teaching mode"
+  ],
+  "rows": [
+    [
+      "Unit",
+      "Courses",
+      "Credit",
+      "Coeff",
+      "Course",
+      "TD",
+      "TP",
+      "Evaluation",
+      "Teaching mode"
+    ],
+    [
+      "Exam",
+      "Cont",
+      "Mode",
+      "Elearning (%)",
+      "FTF (%)"
+    ],
+    [
+      "UF6",
+      "Operational Research",
+      "6",
+      "4",
+      "1h30",
+      "1h30",
+      "",
+      "60%",
+      "40%",
+      "FTF",
+      "",
+      "100%",
+      "Savoir plus\n\n\n ×"
+    ],
+    [
+      "UM6",
+      "Project",
+      "20",
+      "10",
+      "6h",
+      "",
+      "",
+      "",
+      "100%",
+      "H",
+      "70%",
+      "30%",
+      "Savoir plus\n\n\n ×"
+    ],
+    [
+      "UD6",
+      "Enterprise Resources Planning",
+      "4",
+      "4",
+      "1h30",
+      "",
+      "",
+      "100%",
+      "",
+      "ELEARN",
+      "100%",
+      "",
+      "Savoir plus\n\n\n ×"
+    ]
+  ],
+  "row_count": 5,
+  "col_count": 9
+}

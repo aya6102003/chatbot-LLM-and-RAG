@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S3-MO.html",
+      "title": "S3 Mo.Html",
+      "id": "125fbe0b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:50",
+      "hash": "728c719181854dba",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Modelling and Optimization\nSemester:\n3  |\nType:\nUEF32  |\nVHS:\n63h  |\nWeekly hours:\n4h30  |\nLecture:\n1h30  |\nTutorial:\n1h30  |\nLab:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nThis module introduces the fundamental concepts of constraint problem modelling and optimisation/decision problem solving, with particular emphasis on combinatorial optimisation. It covers:\nModelling Constraint Satisfaction Problems (CSP) and solving them with classical algorithms (backtracking, forward checking, heuristics) and dedicated solvers. Special attention is paid to the link between CSPs and integer linear programming (ILP).\nResolution methods for large search spaces: local search techniques such as simulated annealing, genetic algorithms, dynamic programming, and branch and bound (applied to knapsack, inventory management, and scheduling problems).\nCourse Content (21h)\nChapter I – Modelling Constraint Satisfaction Problems (CSP)\nDefinition of a constraint satisfaction problem\nFormal model: variables, domains, constraints\nCSP examples: sudoku, timetabling, assignment\nChapter II – CSP Typology\nClassical CSPs (binary, non-binary)\nDiscrete vs continuous CSPs\nHard vs soft constraints\nDynamic and incremental CSPs\nChapter III – CSP Resolution Algorithms\nBacktracking methods\nForward checking\nHeuristics: most constrained variable, least constraining value\nPerformance comparison\nChapter IV – Consistency and Complexity\nArc-consistency concept\nDomain reduction of variables\nPath consistency and k-consistency\nComplexity analysis of filtering algorithms\nAdaptation to structured problems (trees, grids, networks)\nChapter V – Integer Linear Programming and CSP\nReview of integer linear programming\nModelling a CSP as a linear problem\nExamples: assignment, colouring, logical problems\nAdvantages and limitations of this approach\nChapter VI – Local Search for CSPs\nMotivation and context (large search spaces)\nAlgorithms: min-conflicts, simulated annealing, tabu search, and genetic algorithms\nNeighbourhood concept, state evaluation\nApplications to planning and placement\nChapter VII – Dynamic Programming\nPrinciple of dynamic programming: sub-problems and reuse\nRecursive modelling and tabulation\nApplications:\nKnapsack problem (0-1 and fractional)\nInventory management (optimal replenishment)\nTask scheduling (with or without precedence constraints)\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — written tests, personal work\nBibliography\nRina Dechter (2003).\nConstraint Processing\n. Morgan Kaufmann.\nChristophe Lecoutre (2009).\nConstraint Networks: Techniques and Algorithms\n. ISTE Ltd & Wiley.\nRossi, van Beek, Walsh (2006).\nHandbook of Constraint Programming\n. Elsevier.\nH. Paul Williams (2013).\nModel Building in Mathematical Programming\n. Wiley.\nWinston & Venkataramanan (2021).\nOperations Research: Applications and Algorithms\n. Cengage Learning.\nBazaraa, Jarvis & Sherali (2010).\nLinear Programming and Network Flows\n. Wiley.\nNeapolitan & Naimipour (2015).\nFoundations of Algorithms Using C++ Pseudocode\n. Jones & Bartlett.\nFrederic Glover & Manuel Laguna (1997).\nTabu Search\n. Springer."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

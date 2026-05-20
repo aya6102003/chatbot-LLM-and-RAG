@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/259",
+      "title": "Faculté des Sciences",
+      "id": "80abb65d",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:30:48",
+      "hash": "28355c3e86e8940c",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "DOUIDI Lamri\nDOUIDI Lamri\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:douidi@univ-setif.dz\nEmail:douidi@univ-setif.dz\nDépartement:Informatique\nBureau:\nBureau:\n\nASD cours ch1-1\nPolycopie de cours\nASD TD/TP ch1-1\nPolycopie de TP\nASD cours ch1-2\nPolycopie de cours\nASD TD/TP ch1-2\nPolycopie de TP"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "1970",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1970",
+        "type": "internal"
+      },
+      {
+        "text": "1971",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1971",
+        "type": "internal"
+      },
+      {
+        "text": "1972",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1972",
+        "type": "internal"
+      },
+      {
+        "text": "1973",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1973",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/80abb65d_table_1_untitled.json",
+        "rows": 4
+      }
+    ]
+  }
+}

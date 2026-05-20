@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S1-IOT.html",
+      "title": "Introduction to the Internet of Things",
+      "id": "b2ab5952",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:53",
+      "hash": "60ecee6112e65109",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nIntroduction to the Internet of Things  |\nSemester:\n1  |\nType:\nUET1\nVHS:\n21h  |\nWeekly hours:\n1h30  |\nLectures:\n1h30  |\nTD:\n-  |\nTP:\n-\nPersonal work VHS:\n21h  |\nCoefficient:\n1  |\nCredits:\n2\nTeaching Objectives\nExplain the technical foundations and challenges of the Internet of Things\nIdentify IoT components, protocols and architectures\nImplement simple applications using communication between objects\nRecommended Prerequisites\nBasics in computer networks and object-oriented programming concepts\nCourse Content (Lectures: 21h)\nIntroduction to the Internet of Things (definitions, challenges, history)\nComponents and sensors in IoT (sensors, actuators, microcontrollers)\nNetwork architectures and communication models (client-server, publish/subscribe)\nIoT communication protocols\nUse cases and application domains (health, agriculture, industry, smart city)\nSecurity, privacy, and standardization norms\nIoT platforms (e.g. Arduino, Raspberry Pi, Node-RED, AWS IoT...)\nConnected object programming (Java, C, Python)\nIoT, Big Data and ambient intelligence: challenges and perspectives\nIoT, innovation and industrial ecosystems\nAssessment\nExam: 100%\nBibliographic References\nPierre-Jean Benghozi, Sylvain Bureau, Françoise Massit-Folléa, L'Internet des Objets. 2009.\nAdrian McEwen, Hakim Cassimally, Designing the Internet of Things, Wiley, 2013.\nOlivier Hersent, L'Internet des objets : Les principaux protocoles M2M, Dunod, 2014.\nSamuel Greengard, The Internet of Things, MIT Press, 2015.\nTomás Domínguez-Bolaño et al., An overview of IoT architectures, technologies, and existing open-source projects, Volume 20, 2022. https://doi.org/10.1016/j.iot.2022.100626"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

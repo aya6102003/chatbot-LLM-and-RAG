@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/326",
+      "title": "Faculté des Sciences",
+      "id": "b8cfde81",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:46:23",
+      "hash": "6b2095afc07976a0",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "YALLAOUI El-bachir\nYALLAOUI El-bachir\nGrade:Professeur\nGrade:Professeur\nEmail:el-bachir.yallaoui@univ-setif.dz\nEmail:el-bachir.yallaoui@univ-setif.dz\nDépartement:Mathématiques\nBureau:\nBureau:\n\nChers étudiant(e)s ;\nTrouvez ci-dessous les sites des modules\nM1S1 - Méthodes d'Analyse Complexe\n:\nhttps://sites.google.com/view/yallaoui/mac\nM1S2 - Modélisation Stochastique\n:\nhttps://sites.google.com/view/yallaoui/ms\nAnalyse Complexe Élémentaire\nPolycopie de cours\nIntroduction à la topologie générale\nPolycopie de cours\nTravaux dirigés 2017 : Introduction à la topologie générale\nPolycopie de TD\nIntroduction à la probabilité\nPolycopie de cours\nAlgèbre 1\nPolycopie de cours\nMathématiques pour les sciences de la matière\nPolycopie de cours\nAnalyse 1\nPolycopie de cours\nAnalyse 2\nPolycopie de cours\nAlgèbre 2\nPolycopie de cours\nMAC\nPolycopie de cours"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "https://sites.google.com/view/yallaoui/mac",
+        "url": "https://sites.google.com/view/yallaoui/mac",
+        "type": "external"
+      },
+      {
+        "text": "https://sites.google.com/view/yallaoui/ms",
+        "url": "https://sites.google.com/view/yallaoui/ms",
+        "type": "external"
+      },
+      {
+        "text": "s",
+        "url": "https://sites.google.com/view/yallaoui/s",
+        "type": "external"
+      },
+      {
+        "text": "294",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/294",
+        "type": "internal"
+      },
+      {
+        "text": "295",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/295",
+        "type": "internal"
+      },
+      {
+        "text": "296",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/296",
+        "type": "internal"
+      },
+      {
+        "text": "450",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/450",
+        "type": "internal"
+      },
+      {
+        "text": "663",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/663",
+        "type": "internal"
+      },
+      {
+        "text": "664",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/664",
+        "type": "internal"
+      },
+      {
+        "text": "665",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/665",
+        "type": "internal"
+      },
+      {
+        "text": "666",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/666",
+        "type": "internal"
+      },
+      {
+        "text": "667",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/667",
+        "type": "internal"
+      },
+      {
+        "text": "1929",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/1929",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/b8cfde81_table_1_M1S2_-_Modélisation_Stochastiq.json",
+        "rows": 10
+      }
+    ]
+  }
+}

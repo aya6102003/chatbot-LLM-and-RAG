@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ET_IMAGERIE_MEDICALE/S6-IArt.html",
+      "title": "S6 Iart.Html",
+      "id": "5f74a4bb",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:17",
+      "hash": "b8787daf8b76b263",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Intitulé de l'UE :\nMéthodologique\nIntitulé de la matière :\nIntroduction à l'intelligence artificielle\nCrédits :\n3\nCoefficient :\n1\nObjectifs de l'enseignement :\nComprendre les concepts fondamentaux de l'intelligence artificielle (IA) et de l'apprentissage automatique (machine learning).\nDécouvrir les applications de l'IA dans le domaine de la physique médicale.\nMaîtriser les outils et techniques de base pour développer des applications d'IA en physique médicale.\nDévelopper une pensée critique et réflexive sur les enjeux éthiques et sociétaux liés à l'IA en médecine.\nContenu de la matière :\nIntroduction à l'intelligence artificielle\nDéfinition et histoire de l'IA\nLes différents types d'IA\nLes approches symboliques et connexionnistes\nL'apprentissage automatique\nLes algorithmes d'apprentissage supervisé et non supervisé\nL'apprentissage par renforcement\nApplications de l'IA en physique médicale\nImagerie médicale\nAnalyse de données biomédicales\nAide au diagnostic\nDéveloppement de traitements personnalisés\nRobotique médicale\nOutils et techniques de développement d'applications d'IA\nLangages de programmation pour l'IA (Python, R, etc.)\nEnjeux éthiques et sociétaux de l'IA en médecine\nBiais algorithmiques\nProtection des données personnelles\nResponsabilité des systèmes d'IA\nAccès à l'IA et inclusion\nTravaux pratiques\nRéalisation de projets d'IA en physique médicale\nUtilisation d'outils et techniques d'IA pour analyser des données biomédicales\nRéflexion sur les enjeux éthiques et sociétaux liés aux projets développés\nMode d'évaluation :\nContrôle continu (50%) et Examen (50%)\nRéférences bibliographiques :\nAurélien Géron,\nHands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow\n, O'Reilly Media, 2019.\nFrançois Chollet,\nDeep Learning with Python\n, Manning Publications, 2018.\nYann LeCun, Yoshua Bengio, and Geoffrey Hinton, « Deep learning »,\nNature\n, vol. 521, no. 7553, pp. 436-444, 2015.\nVincent Van der Laan,\nThe Use of Machine Learning in Medical Research and Practice\n, Springer, 2018."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

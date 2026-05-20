@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S2-GPI.html",
+      "title": "S2 Gpi.Html",
+      "id": "5e17c49c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:38",
+      "hash": "ce502c22de7cd62e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "IT Project Management\nSemester:\n2  |\nType:\nUET2  |\nVHS:\n42h  |\nWeekly hours:\nC: 1h30 / TP: 1h30  |\nPersonal work VHS:\n21h  |\nCoefficient:\n1  |\nCredits:\n2\nTeaching Objectives\nUnderstand the principles and methods of IT project management\nExecute the different phases of an IT project, from design to closure\nAcquire skills in planning, organising, monitoring and controlling projects\nIdentify and manage risks related to IT projects\nUse IT project management tools and techniques\nWork in a team in a project management context\nRecommended prior knowledge:\nSoftware engineering, information systems.\nCourse Content (Lectures: 21h)\nIT Project Management: Review\nDefinition and challenges of IT project management\nIT project production process: realisation, management, quality processes\nDifferent types of IT projects (software development, infrastructure, etc.)\nActors involved in an IT project\nTraditional methodologies (V-model); agile methodologies (Scrum, Kanban)\nPlanning and Estimation\nDefining project scope and objectives\nProject breakdown into tasks (WBS)\nSchedule establishment (Gantt chart, PERT)\nResource estimation (time, budget, personnel, costs, COCOMO)\nPlanning tools (Microsoft Project, Asana, etc.)\nRisk Management and Monitoring\nRisk identification and analysis (SWOT matrix, Ishikawa diagram)\nRisk probability and impact assessment\nProject progress monitoring\nChange management; communication and reporting\nKPI dashboards and key performance metrics\nResource Management\nIdentification of required resources\nResource allocation to different tasks\nConflict and priority management\nQuality Management\nDefining quality criteria\nImplementing quality control procedures\nVerification and validation testing\nProject Closure\nProject closure documentation\nKnowledge and skills transfer\nStakeholder satisfaction evaluation\nProject review and lessons learned\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous tests, personal work\nReferences\nProject Management Institute (PMI) (2021).\nA Guide to the Project Management Body of Knowledge (PMBOK Guide)\n.\nAndrew Stellman, Jennifer Greene (2005).\nApplied Software Project Management\n. Theory In Practice.\nKerzner, Harold (2017).\nProject Management: A Systems Approach to Planning, Scheduling, and Controlling\n. Wiley.\nR. S. Pressman, B. R. Maxim (2014).\nSoftware Engineering: A Practitioner's Approach\n. McGraw-Hill.\nC. Aubry (2022).\nScrum un outil convivial pour une agilité radicale\n. Editions Dunod."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

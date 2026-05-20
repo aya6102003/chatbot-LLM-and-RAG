@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/9019",
+      "title": "Faculté des Sciences",
+      "id": "6131aa81",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:34:55",
+      "hash": "a409386e25ee2a1b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nNOUVEAU PLANNING DES EXAMENS DU DEUXIÈME SEMESTRE MASTER 1\n(Période du 11 au 25 mai 2026)"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Planning Exams M1 2025 2026",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6484/Planning_Exams_M1-2025-2026.pdf",
+        "local_file": "pdfs/6131aa81_Planning_Exams_M1_2025_2026.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

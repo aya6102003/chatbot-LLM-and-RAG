@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S3-TESI.html",
+      "title": "S3 Tesi.Html",
+      "id": "73d22a28",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:35",
+      "hash": "ff73fdd08c24e5b2",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Emerging Technologies and Information Systems\nSemester:\n3  |\nType:\nUEF32  |\nVHS:\n42h  |\nWeekly hours:\nC: 1h30 / TD: 1h30  |\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nUnderstand the fundamental concepts of emerging technologies (AI, Blockchain, Cloud Computing, IoT, Big Data, etc.)\nAnalyse the impact of these technologies on organisational information systems\nAcquire a critical vision of the opportunities and challenges related to these technologies\nRecommended prior knowledge:\nInformation systems, networks.\nCourse Content (Lectures: 21h)\nIntroduction to Emerging Technologies\nDefinition and classification of emerging technologies\nOverview of main technologies (AI, Blockchain, Cloud computing, IoT, Big data, Cybersecurity, Social networks)\nArtificial Intelligence and Information Systems\nMachine Learning\nNatural Language Processing (NLP)\nComputer vision\nImpact on decision-making, personalisation and automation\nBlockchain and Information Systems\nFundamental principles of Blockchain\nApplications in supply chain management, finance, etc.\nSmart contracts\nRisks and challenges of Blockchain\nCloud Computing and Information Systems\nDeployment models (IaaS, PaaS, SaaS)\nCloud services (storage, compute, databases)\nCloud security; impact on agility and scalability\nInternet of Things (IoT) and Information Systems\nIoT architecture and technologies\nIoT data collection and processing\nApplications in home automation, health, industry\nIoT data security and privacy\nBig Data and Information Systems\nBig Data concepts and challenges\nBig Data processing tools and technologies\nData analysis and business intelligence\nInformation Systems and Cybersecurity\nIS threats and vulnerabilities\nProtection and incident response strategies\nRisk management\nInformation Systems and Social Networks\nSocial networks as sources of information and disinformation\nImpacts of social networks on enterprise IS\nSecurity and privacy challenges\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous assessment, mini-project\nMini-project on the different technologies proposed at the beginning of each chapter, evaluated as a report and oral presentation.\nReferences\nStuart Russell and Peter Norvig (2021).\nArtificial Intelligence: A Modern Approach\n. Fourth edition. Pearson.\nDaniel Drescher (2017).\nBlockchain Basics\n. Apress.\nThomas Erl, Zaigham Mahmood, Ricardo Puttini (2013).\nCloud Computing: Concepts, Technology & Architecture\n. Prentice-Hall.\nAurélien Géron (2019).\nHands-On Machine Learning with Scikit-Learn, Keras & TensorFlow\n.\nDaniel Jurafsky and James H. Martin (2025).\nSpeech and Language Processing\n. 3rd edition.\nVermesan, O., & Friess, P. (2014).\nInternet of things applications\n. Taylor & Francis.\nP.W. Singer and Allan Friedman (2014).\nCybersecurity and Cyberwar: What Everyone Needs to Know\n. Oxford University Press."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

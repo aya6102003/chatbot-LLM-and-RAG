@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Licence_Mathematiques_Appliquees.html",
+      "title": "Licence Mathématiques Appliquées",
+      "id": "328cdf5c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:35",
+      "hash": "eda23a844c6efbdb",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Guide pédagogique\nLicence Mathématiques Appliquées\nLa Licence Mathématiques Appliquées\nResponsable :\nSEMESTRE 1\nUnité\nd'Enseignement\nMatière\nCrédits\nCoefficient\nVolume horaire hebdomadaire\nVHS\n14 Semaines\nMode d'évaluation\nCours\nTD\nTP\nTravail personnel\nContinu\nExamen\nUE Fondamentale\nCode : UEF 1\nCrédits : 17\nCoefficients : 11\nAnalyse 1\n6\n4\n3h00\n3h00\n3h\n84h\n40%\n60%\nSavoir plus\n×\nAlgèbre 1\n5\n3\n1h30\n1h30\n3h\n42h\n40%\n60%\nSavoir plus\n×\nAlgorithmique et structure de données 1\n6\n4\n3h00\n1h30\n3h\n3h\n105h\n40%\n60%\nSavoir plus\n×\nUE Méthodologie\nCode : UEM 1\nCrédits : 9\nCoefficients : 5\nStructure machine\n5\n3\n1h30\n1h30\n3h\n42h\n40%\n60%\nSavoir plus\n×\nLogiciels libres (Open source)\n4\n2\n1h30\n2h\n21h\n100%\nSavoir plus\n×\nUE Transversale\nCode : UET 1\nCrédits : 2\nCoefficients : 1\nLangue étrangère\n2\n1\n1h30\n2h\n21h\n100%\nSavoir plus\n×\nUE Découverte\nCode : UED 1\nCrédits : 2\nCoefficients : 1\nChoisir une matière parmi :\n- Physique 1 (mécanique du point)\n- Electronique et composants des systèmes\n2\n1\n1h30\n1h30\n2h\n42h\n40%\n60%\nPhysique 1\n×\nElectronique\n×\nTotal Semestre 1\n30\n18\n13h30\n9h\n3h\n18h\n357h\nSEMESTRE 2\nUnité\nd'Enseignement\nMatière\nCrédits\nCoefficient\nVolume horaire hebdomadaire\nVHS\n14 Semaines\nMode d'évaluation\nCours\nTD\nTP\nTravail personnel\nContinu\nExamen\nUE Fondamentale\nCode : UEF 2\nCrédits : 18\nCoefficients : 11\nAnalyse 2\n6\n4\n3h00\n3h\n3h\n84h\n40%\n60%\nSavoir plus\n×\nAlgèbre 2\n4\n2\n1h30\n1h30\n3h\n42h\n40%\n60%\nSavoir plus\n×\nAlgorithmique et structure de données 2\n4\n3\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nSavoir plus\n×\nIntroduction aux probabilités et statistique descriptive\n4\n2\n1h30\n1h30\n2h\n42h\n40%\n60%\nSavoir plus\n×\nUE Méthodologie\nCode : UEM 2\nCrédits : 9\nCoefficients : 5\nIntroduction à l'intelligence artificielle\n4\n2\n1h30\n2h\n21h\n100%\nSavoir plus\n×\nFondements de programmation et calcul scientifique avec Python\n5\n3\n1h30\n1h30\n2h\n42h\n40%\n60%\nSavoir plus\n×\nUE Transversale\nCode : UET 2\nCrédits : 3\nCoefficients : 2\nPhysique 2 (électricité générale)\n3\n2\n1h30\n1h30\n2h\n42h\n40%\n60%\nSavoir plus\n×\nTotal Semestre 2\n30\n18\n12h00\n9h00\n3h\n17h\n336h"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "Guide pédagogique",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/index.html",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/328cdf5c_table_1_SEMESTRE_1.json",
+        "rows": 10
+      },
+      {
+        "file": "tables/328cdf5c_table_2_SEMESTRE_2.json",
+        "rows": 10
+      }
+    ]
+  }
+}

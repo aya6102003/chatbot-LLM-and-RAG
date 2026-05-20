@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S3-UASI.html",
+      "title": "S3 Uasi.Html",
+      "id": "369fc616",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:37",
+      "hash": "14128893ce89d041",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "IS Urbanisation and Strategic Alignment\nSemester:\n3  |\nType:\nUEF31  |\nVHS:\n63h  |\nWeekly hours:\nC: 3h / TD: 1h30  |\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n5\nTeaching Objectives\nThe main objective is to provide students with the knowledge and skills needed to lead and manage an urbanisation project, ensuring coherence and alignment between the information system and the strategic objectives of the enterprise.\nRecommended prior knowledge:\nInformation systems.\nCourse Content (Lectures: 21h)\nIntroduction to IS Urbanisation\nDefinition and key concepts of IS urbanisation (zone, neighbourhood, block)\nObjectives and benefits (rationalisation, strategic alignment, flexibility, agility, etc.)\nDifferent levels of urbanisation (business, functional, application, technical)\nUrbanisation Framework and Principles\nDefinition of the IS reference framework (business, functional, application, technical)\nIS urban planning plans and components (target architecture, urban planning rules, cartographies)\nUrbanisation principles: modularity, reuse, standardisation, etc.\nData and service repository management\nEnterprise Architecture and Urbanisation Frameworks\nEnterprise architecture principles and models\nUrbanisation frameworks (e.g. TOGAF)\nIS cartographies and business process modelling\nIdentification of IS components (applications, data, infrastructure)\nIS Strategic Alignment\nUnderstanding IS/Business strategic alignment\nImpact of enterprise strategy on IS\nIS alignment with business objectives\nDevelopment of an IS urbanisation roadmap\nAlignment monitoring and evaluation\nIS Governance and Strategic Alignment\nSetting up governance to lead and control IS urbanisation\nUrbanisation risk management\nStakeholder communication and change management\nUrbanisation project steering and monitoring\nUrbanisation and Technologies\nImpact of Cloud, SOA, and microservices architectures on urbanisation\nIS interoperability and integration\nData management in an urbanisation context\nSecurity and resilience of the urbanised IS\nIS Urbanisation Approach\nIdentification and analysis of existing state (IS cartography)\nDefinition of the IS target architecture\nImplementation of urban planning rules and IS governance\nUrbanisation approaches: Veronique Levasseur approach, Christophe Longépé approach, \"Think Service\" approach by Yann Le Tanou\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous tests, personal work\nReferences\nC. Longépé, R. Colletti, G. Balantzian (2009).\nLe projet d'urbanisation du SI : Cas concret d'architecture d'entreprise\n. Editions Dunod.\nSassoon Jacques (1998).\nUrbanisation des systèmes d'information\n. Editions Hermes.\nYann le Tanou (2006).\nUrbanisation Orienté-Service: L'approche 'think service'\n. Valtech Technologie Consulting."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

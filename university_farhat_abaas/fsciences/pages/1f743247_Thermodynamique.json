@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S4-THERMO.html",
+      "title": "Thermodynamique",
+      "id": "1f743247",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:29",
+      "hash": "e7c97a8e66c0c4b3",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Thermodynamique\nSemestre :\n4  |\nUE :\nFondamentale  |\nCrédits :\n6  |\nCoefficient :\n3\nObjectifs de l'enseignement\nFigurant parmi les branches fondamentales de la physique, l'enseignement de cette matière permet à l'étudiant d'acquérir les lois fondamentales de la thermodynamique et la conservation de l'énergie ainsi que les fonctions thermodynamiques ou d'état caractérisant un système et l'irréversibilité.\nConnaissances préalables recommandées\nIl est recommandé de maîtriser la matière « Chimie 2 » enseignée en S2 de la 1ère année Sciences de la Matière.\nContenu de la matière\n1. Notions de systèmes thermodynamiques et caractérisations\nRappel sur les fonctions à plusieurs variables, dérivées partielles et Jacobien\nVariables et fonctions d'états : variables interne et externe, variables extensive et intensives ; variables conjuguées et variables affines\nGrandeurs et procédés : travail, chaleur\nNotions de transformations thermodynamiques : procédés quasi-statique, réversible et irréversible. Notion de cycles\nNotion de transformations isochore, isobare, isotherme, adiabatique, etc…\nFluide parfait et fluide réel : Lois d'état, Diagrammes d'état mécanique, thermique, etc…\n2. Principe zéro : équilibre thermodynamique\nNotions de thermométrie et de calorimétrie\nExemples et applications\n3. Premier principe de la thermodynamique et applications\nRetour sur le travail et chaleur\nÉnergie interne et cycles Enthalpie\nApplications à la détente de Joule.\nDétente de Joule-Thomson\n4. Deuxième principe et troisième principe de la thermodynamique\nÉnoncé du deuxième principe : Carnot, Kelvin, Clausius et principe d'évolution. Création d'entropie\nApplication au cycle de Carnot\nApplication aux mélanges de gaz, changement de phase, etc…\nTroisième principe : Inaccessibilité du zéro absolu\n5. Relations calorimétriques et potentiels thermodynamiques\nPropriétés calorimétriques et chaleur\nPropriétés calorimétriques et fonction d'état\nRelations calorimétriques\nTransformation de Legendre et construction des potentiels thermodynamiques U, H, F et G\nRelations de Maxwell et relations de Helmholtz et de Gibbs-Duhem\nApplications : Potentiels de Planck, Massieu, etc…\n6. Applications aux transitions de phase\nGénéralités sur les changements de phase : Fusion, Vaporisation, Sublimation, etc...\nÉtude du processus de vaporisation et propriétés associées\nÉtude du processus de liquéfaction\nÉtude du processus de solidification\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

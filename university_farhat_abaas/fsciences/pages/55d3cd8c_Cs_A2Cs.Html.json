@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-A2CS.html",
+      "title": "Cs A2Cs.Html",
+      "id": "55d3cd8c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:55:00",
+      "hash": "f733dcf76caab2c4",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nThis course teaches advanced technologies and topics of artificial intelligence, that covers various methods within artificial intelligence (AI) and their applications in Cybersecurity. The course also introduces some examples of applications of AI algorithms to solve Cybersecurity problems and issues. The course uses Python as the primary language, although some projects can include other languages and tools.\nContenu de la matière\nInformed search: A* search and heuristics\nIntelligent Agents\nMachine Learning & Deep Learning\na)  supervised learning models & unsupervised learning models\nb)  Building a machine learning pipeline\nc)  Deep Learning\nIntroduction to reinforcement Learning\nUncertainty and Probabilistic Reasoning\nApplications of AI in Cybersecurity\na)  Overview of AI application in cyber security (Data privacy issues)\nb)  Data-Driven Network and Computer Security\nc)  Spam filter methods\nd)  Applications of machine learning to network security\nMode d’évaluation : Contrôle continu, examen\nRéférences\nArtificial Intelligence: A Modern Approach (Russell & Norvig, Pearson, 2020)\nReinforcement Learning: An Introduction (Sutton & Barto, 2018)\nHands-On Artificial Intelligence for Cybersecurity (Parisi et al, Packt Publishing, 2019) -\nPractical AI for Cybersecurity (Ravi Das, CRC Press, 2021) –\nMachine Learning and Security, (David Freeman, Clarence Chio), O'Reilly Media, Inc.,\n2018. (electronic edition available via MQ Library)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

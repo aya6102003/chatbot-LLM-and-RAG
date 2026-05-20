@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S2-LP2.html",
+      "title": "Langage de programmation II",
+      "id": "b35f5736",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:51",
+      "hash": "517921ebed92784b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nDécouverte (UED 2)  |\nCrédits :\n2  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs pédagogiques\nMaîtriser la programmation avec le langage de programmation avancé Python pour le traitement d'images. Effectuer des opérations de traitement d'images à l'aide du langage Python. Fournir aux étudiants un outil de programmation performant qui leur permet de mettre en œuvre différentes techniques de traitement d'images, notamment le seuillage, le filtrage, la détection des contours et la segmentation.\nConnaissances préalables recommandées\nAlgorithmique (Preuve d'algorithmes, structures de données)\nProgrammation à l'aide du langage de programmation Python\nContenu de l'unité\nCette matière contient uniquement des TP.\n1- Introduction à l'imagerie\nAffichage d'une image\nManipulation des pixels de l'image\nAmélioration du contraste\n2- Traitement d'image\nFiltrage\nSeuillage\nTransformation géométrique\nSegmentation\nRéférences bibliographiques\nGérard Swinnen. Apprendre à programmer avec Python 3, Eyrolles, 2012.\nChityala Ravishankar, Image Processing and Acquisition Using Python, CRC Press, 2014.\nJosé Manuel Ortega, Dr. M. O. Faruque Sarker, Sam Washington, Learning Python Networking, Packt Publishing, 2019."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

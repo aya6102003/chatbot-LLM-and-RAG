@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S1-TAP1.html",
+      "title": "Techniques d'Analyses Physicochimiques I",
+      "id": "4cf955b9",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:12",
+      "hash": "3acd16b783b9439d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Techniques d'Analyses Physicochimiques I\nObjectifs de l'enseignement\nDonner à l'étudiant les connaissances nécessaires sur la spectroscopie atomique et moléculaire afin de pouvoir identifier ou doser des espèces inorganiques ou organiques.\nConnaissances préalables recommandées\nNotions données en licence.\nContenu de la matière\nIntroduction aux méthodes spectrochimiques\nInteraction rayonnement–matière : mécanismes d'absorption, d'émission et de diffusion, Transitions électroniques, vibrationnelles et rotationnelles.\nTypes de spectroscopie (absorption, émission, fluorescence, diffusion)\nParamètres spectraux : longueur d'onde, intensité, résolution, largeur à mi-hauteur, Domaines spectraux (UV, visible, IR, etc.).\nLa spectroscopie d'absorption moléculaire dans les différents domaines du spectre de lumière : UV-VIS, IR.\nRaman : Principes, appareillages.\nSpectrométrie d'absorption atomique (SAA)\nPrincipe\nInstruments de base\nDosage par absorption atomique\nQuelques applications\nProtocole analytique\nSpectroscopie de Résonance Magnétique Nucléaire (RMN)\nIntroduction\nPrincipes généraux de la RMN\nSignal RMN et séquence de mesure\nAnalyser un spectre RMN\nSpectrométrie RMN du ¹³C\nAppareillage\nRMN multidimensionnelle : à 2D\nRMN 2D – L'idée de JEENER\nCorrélation homonucléaire – Spectre COSY\nCorrélations hétéronucléaires HSQC, HMBC\nTableau résumant le rôle de séquences 2D\nLes techniques d'analyse chimique globale\nSpectrométrie de fluorescence X\nSpectrométries d'émission\nSpectrométrie par torche à plasma (ICP-optique)\nSpectrométrie par décharge luminescente (SDL)\nSpectrométrie par étincelle\nAnalyse par ablation laser\nSpectromètre à décharge luminescente\nAnalyseurs de gaz : analyse de O, N, C et S\nAnalyse de l'oxygène et de l'azote\nAnalyse du carbone et du soufre\nRéférences bibliographiques\nChemical Analysis Modern Instrumental Methods and Techniques – J. Tranchant.\nManuel pratique de chromatographie en phase gazeuse, Masson, (1995) Robert E. Ardrey.\nLiquid chromatography Mass Spectrometry: An introduction, John Wiley & Sons (2004).\nJ. Cazes, Encyclopedia of Chromatography 2004 Update Supplement, CRC (2004).\nIdentification spectrométrique de composés organiques. R. M. Silverstein. G. C. Bassler. T. C. Morill. DeBoech. 1998.\nE. Pretsch, P. Buhlmann, C. Affolter – Structure Determination of Organic Compounds. Tables of Spectral Data. 3rd Edition, Springer, 2000. ISBN 3-540-67815-8.\nUnderstanding NMR Spectroscopy – James Keeler. Wiley 2002.\nLa Résonance Magnétique Nucléaire. Apprentissage à l'interprétation des spectres à une et deux dimensions des chaines O-glycanniques – Emmanuel MAES. Université des Sciences et Technologies de Lille. 2009."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

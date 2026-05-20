@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9034",
+      "title": "Faculté des Sciences",
+      "id": "ebca162f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:46:40",
+      "hash": "b15cd10096952b81",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nPLANNING DES EXAMENS DU 2ᵉ SEMESTRE POUR LES L2, L3 ET M1 (MISE À JOUR DU 2 MAI 2026)\nDu 11 au 25 mai 2026"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Planning examen S2 licence master new2",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6490/Planning_examen_S2_licence_master_new2.pdf",
+        "local_file": "pdfs/ebca162f_Planning_examen_S2_licence_master_new2.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

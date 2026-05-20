@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S3-ONDES.html",
+      "title": "Ondes dans la matière",
+      "id": "0d1369f2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:26",
+      "hash": "24b33359d2eea466",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Ondes dans la matière\nSemestre :\n3  |\nUE :\nFondamentale  |\nCrédits :\n4  |\nCoefficient :\n2\nConnaissances préalables recommandées\nNotions de mécanique\nRésolution d'équations différentielles\nObjectifs de l'enseignement\nLe but est d'introduire les propriétés générales des ondes dans la matière. Ceci avant de rencontrer des situations plus abstraites (électromagnétisme et quantique). Cet enseignement a pour vocation de donner un premier aperçu sur les comportements ondulatoires et éviter des redondances dans les enseignements dans les semestres suivants.\nContenu de la matière\nChapitre 1 : Onde à une dimension : propagation sur une corde tendue\nÉquation de propagation, vitesse de phase\nSolution progressive et régressive\nPolarisation\nOndes harmoniques :\nImpédance caractéristique, impédance terminale\nRéflexion et transmission\nOndes stationnaires : corde de guitare\nChapitre 2 : Ondes dans les fluides\nÉquation de propagation dans les gaz et les liquides. Vitesse de phase\nImpédance caractéristique d'un milieu\nOnde plane et onde sphérique\nRéfraction et réflexion\nIntensité d'une onde\nChapitre 3 : Onde dans les solides\nModules élastiques. Vitesse de phase. Impédance caractéristique\nÉquation de propagation : onde longitudinale, onde transversale\nChapitre 4 : Dispersion et absorption\nExemple de milieu dispersif\nSuperposition de deux ondes de fréquences voisines\nVitesse de phase et de groupe\nChapitre 5 : Interférence et diffraction\nPrincipe de superposition et Interférence : Fente d'Young\nPrincipe de Huygens-Kirchhoff\nDiffraction de Fraunhofer par une fente et un trou circulaire\nChapitre 6 : Effet Doppler\nSource Mobile\nObservateur mobile\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\nBecherrawy,\nVibrations et ondes\nBruneaux et Matricon,\nVibrations, ondes\nCrawford et Berkeley,\nCours de physique : ondes"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

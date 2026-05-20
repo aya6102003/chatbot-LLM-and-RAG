@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-CAV.html",
+      "title": "Cs Cav.Html",
+      "id": "c34c3749",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:33",
+      "hash": "a0d9a2bd98878183",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nDesigned secure protocols should work even under worst-case assumptions, eg. that messages may be seen or tampered with by an intruder. Severe attacks can be conducted by exploiting weaknesses in the protocols themselves. Thus, protocol verification is an important aspect. This course presents\nsome of the most used methods and tools for formal analysis of security protocols.\nContenu de la matière\nChapter 1: AVISPA: Automated Validation of Internet Security Protocols and Applications Chapter 2: BAN Logic: A logic of authentication\nChapter 3: Scyther: Verification, Falsification, and Analysis of Security Protocols\nChapter 4: “Real-Or-Random (ROR)” oracle model\nMode d’évaluation : Contrôle continu, examen Références\n1. Thomas Genet, AVISPA+SPAN, http://people.irisa.fr/Thomas.Genet/span/ , Version 2017. 2. Y. Glouche, T. Genet, O. Heen and O. Courtay A Security Protocol Animator Tool for AVISPA. In ARTIST2 Workshop on Security Specification and Verification of Embedded\nSystems , Pisa, May 2006.\n3. Binh Thanh Nguyen and Christoph Sprenger, Scyther,\nhttps://people.cispa.io/cas.cremers/scyther/ , Version 2016.\n4. Christian Haack, Verification of Security Protocols, Chapter 6: BAN Logic. March 31, 2008"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

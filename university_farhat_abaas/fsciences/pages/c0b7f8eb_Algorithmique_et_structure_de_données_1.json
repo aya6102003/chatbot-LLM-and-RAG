@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_MATHEMATIQUES/S1-ALGO1.html",
+      "title": "Algorithmique et structure de données 1",
+      "id": "c0b7f8eb",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:30",
+      "hash": "5fca11474606aaf5",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Algorithmique et structure de données 1\nSemestre : 01\nUnité d'enseignement : Fondamentale\nMatière : Algorithmique et structure de données 1\nCrédits : 6\nCoefficient : 4\nObjectifs de l'enseignement\nPrésenter les notions d'algorithme et de structure de données.\nConnaissances préalables recommandées\nNotions d'informatique et de mathématiques.\nContenu de la matière\nChapitre 1 : Introduction\nBref historique sur l'informatique\nIntroduction à l'algorithmique\nChapitre 2 : Algorithme séquentiel simple\nNotion de langage et langage algorithmique\nParties d'un algorithme\nLes données : variables et constantes\nTypes de données\nOpérations de base\nInstructions de base : Affectations, Instructions d'entrée sorties\nConstruction d'un algorithme simple\nReprésentation d'un algorithme par un organigramme\nTraduction en langage C\nChapitre 3 : Les structures conditionnelles (en langage algorithmique et en C)\nIntroduction\nStructure conditionnelle simple\nStructure conditionnelle composée\nStructure conditionnelle de choix multiple\nLe branchement\nChapitre 4 : Les boucles (en langage algorithmique et en C)\nIntroduction\nLa boucle Tant que\nLa boucle Répéter\nLa boucle Pour\nLes boucles imbriquées\nChapitre 5 : Les sous-programmes : Fonctions et Procédures\nIntroduction\nDéfinitions\nLes variables locales et les variables globales\nLe passage des paramètres\nLa récursivité\nChapitre 6 : Les tableaux et les chaînes de caractères\nIntroduction\nLe type tableau\nLes tableaux multidimensionnels\nLes chaînes de caractères\nNB : TP en C\nMode d'évaluation\nExamen (60%), contrôle continu (40%)\nRéférences bibliographiques\nThomas H. Cormen, Algorithmes Notions de base, Collection : Sciences Sup, Dunod, 2013.\nThomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Algorithmique – 3ème édition – Cours avec 957 exercices et 158 problèmes, Dunod, 2010.\nRémy Malgouyres, Rita Zrour et Fabien Feschet. Initiation à l'algorithmique et à la programmation en C : cours avec 129 exercices corrigés. 2ième Edition. Dunod, Paris, 2011. ISBN : 978-2-10-055703-5.\nDamien Berthet et Vincent Labatut. Algorithmique & programmation en langage C – vol.1 : Supports de cours. Licence. Algorithmique et Programmation, Istanbul, Turquie. 2014, pp.232.\nDamien Berthet et Vincent Labatut. Algorithmique & programmation en langage C – vol.2 : Sujets de travaux pratiques. 2014, pp.258.\nDamien Berthet et Vincent Labatut. Algorithmique & programmation en langage C – vol.3 : Corrigés de travaux pratiques. 2014, pp.217.\nClaude Delannoy. Apprendre à programmer en Turbo C. Chihab-EYROLLES, 1994."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

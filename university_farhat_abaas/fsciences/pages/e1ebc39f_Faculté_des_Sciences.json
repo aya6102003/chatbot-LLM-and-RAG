@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/8957",
+      "title": "Faculté des Sciences",
+      "id": "e1ebc39f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:43:53",
+      "hash": "e8962372851d0196",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nBOURES INDIENNE\nMaster et Doctorat"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Bourse indienne 2026",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6444/Bourse_indienne_2026.PDF",
+        "local_file": "pdfs/e1ebc39f_Bourse_indienne_2026.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

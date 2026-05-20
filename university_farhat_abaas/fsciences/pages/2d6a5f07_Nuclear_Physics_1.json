@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S1-PN1.html",
+      "title": "Nuclear Physics 1",
+      "id": "2d6a5f07",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:55",
+      "hash": "ca152a0d78581a72",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nFondamentale (UEF 1)  |\nCrédits :\n4  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nMaîtrise des modèles collectifs et la dynamique nucléaire.\nConnaissances préalables recommandées\nConnaissance générales en physique nucléaire et mécanique quantique.\nContenu de la matière\nChapitre 1 : Concepts de Base\nNoyaux atomique\nForces fondamentales\nCaractéristiques nucléaires : propriétés statiques, propriétés dynamiques\nRayon nucléaire\nEnergie de liaison\nChapitre 2 : Etude des émissions radioactives\nEtude de l'émission alpha\nEtude de l'émission bêta\nEtude de l'émission gamma\nEquilibre radioactif\nChapitre 3 : Modèles nucléaires, stabilité des noyaux\nModèle du potentiel nucléaire moyen\nLa formule de masse semi-empirique\nLa goutte liquide de Bohr\nLa formule de masse de Bethe-Weizsäcker\nModèle du gaz de Fermi\nStructure en couches des noyaux : nombres magiques\nCouplage spin-orbite et modèle en couches\nQuelques conséquences de la structure en couches des noyaux\nRépulsion coulombienne et radioactivité alpha\nModèle de Gamow de l'émission alpha\nVallée de stabilité et désintégrations\nChapitre 4 : Réactions nucléaires, lois de conservation\nLois de conservation\nConservation de l'énergie et de l'impulsion totale\nConservation du moment cinétique\nSymétries du Hamiltonien\nBilan énergétique\nLe potentiel de Yukawa et ses généralisations\nChapitre 5 : Nucléosynthèse\nNucléosynthèse primordiale\nNucléosynthèse stellaire\nComment sont apparus les noyaux A > 56 ?\nLes différents processus de nucléosynthèse\nEléments de cosmologie\nRappels sur le modèle du Big bang\nRéférences bibliographiques\nNuclear models, W. Greiner, J.A. Maruhn, Springer 1996\nBasic ideas and concepts in nuclear Physics, K. Heyde, IOP, 1999\nNuclear Structure, A. Bohr et B. Mottelson, Benjamin, New York, 1969\nStructure of the Nucleus, M.A. Preston et R.K. Bhaduri, Addison-Wesley, 1975\nCours de Physique Nucléaire : Vincent Gillet, Ecole polytechnique (1984)\nTheoretical Nuclear Physics, J.M. Blatt et V.F. Weisskopf, John Wiley et Sons, New-York (1963)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

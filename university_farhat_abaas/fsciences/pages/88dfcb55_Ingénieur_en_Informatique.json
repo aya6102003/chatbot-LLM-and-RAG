@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/IngInfoTC.html",
+      "title": "Ingénieur en Informatique",
+      "id": "88dfcb55",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:35",
+      "hash": "6cba6289882d7e13",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "L’objectif de la formation d’Ingénieur d’état en Informatique vise à\noffrir aux futurs ingénieurs des notions fondamentales sur les systèmes\ninformatiques et leurs applications dans les différents domaines. Elle\nforme des cadres ingénieurs capables de conduire un projet en ce\nsens.  Leur champ d’action couvre de la conception, le\ndéveloppement et l’exploitation d’infrastructures informatiques.\nLa formation propose un spectre large avec les unités d’enseignement de\nsynthèse offrant à des étudiants attirés par la professionnalisation et\nla recherche d’acquérir les outils leur permettant d’évoluer dans leur\nmétier, dans un environnement industriel ou académique, et d’être\ncapable de transmettre leur savoir au sein des entreprises ou dans le\nmilieu scientifique.\nLe cycle préparatoire vise à doter le futur Ingénieur :\n- de solides connaissances en sciences de l’ingénieur,\n- de compétence de base en informatique,\n- d’aptitude en communication orale et écrite,\n- de connaissance sur le monde de l’entreprise.\nLes débouchés attendus tant au niveau régional ou national (voire même\ninternational) sont énormes. Dans ce contexte et à titre indicatif,\nnous pouvons citer :\n- Le secteur industriel comme la SONATRACH, la SONELGAZ, Algérie Telecom, les opérateurs téléphoniques, etc.\n- Le secteur de la sous-traitance en plein développement.\n- L’entreprenariat notamment dans le cadre des programmes nationaux d’aide à l’emploi des jeunes diplômés.\n- Création d’entreprises innovantes en TIC (startup)."
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/88dfcb55_table_1_SEMESTRE_1.json",
+        "rows": 10
+      },
+      {
+        "file": "tables/88dfcb55_table_2_SEMESTRE_2.json",
+        "rows": 10
+      },
+      {
+        "file": "tables/88dfcb55_table_3_SEMESTRE_3.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/88dfcb55_table_4_SEMESTRE_4.json",
+        "rows": 11
+      }
+    ]
+  }
+}

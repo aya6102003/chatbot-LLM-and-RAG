@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S9-JEUX-VIDEO.html",
+      "title": "Video Game Design: Theory and Practice",
+      "id": "0c172376",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:31",
+      "hash": "67b24d844f7f1d67",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Video Game Design: Theory and Practice\nSemestre : S9\nUnité d’enseignement : UEF2\nMatière : Conception de jeux vidéo : Théorie et Pratique\nCrédits : 4\nCoefficient : 3\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement\nL’objectif de ce cours et de fournir à l’étudiant les principes de base de design et de conception\nd’un jeu vidéo allant du 2D au 3D. Plusieurs plateformes seront présentées et étudiés en pratique\npour offrir un choix de développement.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\nAlgorithmique, Programmation\nContenu de la matière\nChapitre 1. Conception et développement de jeux : Principes de base\n1.1 Concepteur de jeux : Définition et tâches\n1.2 Notion de jouabilité de jeu\n1.3 Besoins du concepteur de jeux\n1.4 Exigences des joueurs\n1.5 Outils de conception\n1.6 Document de conception (GDD)\nChapitre 2. Gestion des Lutins (Sprites) et tuiles (Tiles)\n2.1 Génération et visualisation de sprites\n2.2 Génération et visualisation de de tuiles\n2.3 Atlas de tuiles (spritesheet)\n2.4 Défilement de scènes de tuiles (Scrolling tilemaps)\n2.5 Tuiles isométriques\n2.6 Exemple d’un jeux 2D\nChapitre 3. Détection de collision\n3.1 Physique des objets rigides\n3.2 Le moteur physique\n3.3 Calcul de la collision\n3.4 Moteur physique box2dweb\nChapitre 4. Webgl et son intégration dans les jeux 3D\n4. 1 Le WEBGL\n4. 2 Three.js\n4.3 Editeur Three.js\n4.4 Intégration de WebGL dans les jeux 3D\n4.5 Exemple de jeux 3D basé sur Three.js\nChapitre 5. Applications : Le moteur de jeux Unity\n5.1 Principes de base de Unity\n5.2 Navigation dans les scènes et physique\n5.3 Importation de ressources statiques\n5.4 Création de scripts avec C#\n5.5 Animation\n5.6 Armement et effets spéciaux.\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen pratique (60%)\nRéférences\n- Game design : theory and practice; Richard Rousse, 2005\n- Beginning game level design, John Feil & Marc scattergood, 2005\n- Game Programming, All in One, Jonathan s. Harbour, 2004\n- Android game programming for dummies, Derek James, John Wiley & Son Inc. 2013\n- Unity for Absolute Beginners, Sue Blackman, 2014, Apress, www.it-ebooks.info"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

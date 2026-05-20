@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S3-DSS.html",
+      "title": "S3 Dss.Html",
+      "id": "42b6a151",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:46",
+      "hash": "daabff167e90e712",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Decision Support Systems\nSemester:\n3  |\nType:\nUEF32  |\nVHS:\n63h  |\nWeekly hours:\n4h30  |\nLecture:\n1h30  |\nTutorial:\n1h30  |\nLab:\n1h30\nPersonal work VHS:\n42h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nMaster the architectures and techniques of decision support systems.\nCourse Content (21h)\nChapter I – Introduction\nCourse objectives\nDefinition of decision support systems\nDecision typology: strategic, tactical, operational\nGeneral architecture of a DSS (data sources, models, interface)\nChapter II – Data and Preprocessing\nNature and types of data used in decision-making\nData preprocessing: cleaning, normalisation, coding\nIntroduction to dissimilarity indices (Euclidean, Manhattan, etc.)\nChapter III – Decision Criteria and Discriminant Methods\nDecision criteria: utility, gain, risk minimisation\nFisher's criterion: optimal class separation\nLinear discriminant functions: formulation and interpretation\nChapter IV – Statistical Methods for Decision-Making\nSupervised statistical methods:\nBayesian decision\nProbabilistic methods and classification rules\nUnsupervised methods:\nClustering (k-means, HAC)\nExploratory analysis of latent structures\nChapter V – Advanced Classification Methods\nGeneralised linear discriminant functions\nSupport Vector Machines (SVMs): margins, kernels\nNeural networks: multilayer perceptron, backpropagation\nComparison between classical methods and advanced models\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — written tests, personal work\nBibliography\nNAKACHE J.P., CONFAIS J. (2000).\nMéthodes de classification\n. CISIA-CERESTA."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

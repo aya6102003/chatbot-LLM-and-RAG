@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2116",
+      "title": "Faculté des Sciences",
+      "id": "1d2d9dea",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:38:02",
+      "hash": "92424207f0e2f80a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "الهيئات\nالعلمية\nالمجلس العلمي للكلية\nتركيبة المجلس\nرزنامة الإجتماعات\nمحاضر الإجتماعات\nاللجنة العلمية لقسم الكيمياء\nتركيبة اللجنة\nرزنامة الإجتماعات\nاللجنة العلمية لقسم الإعلام الآلي\nتركيبة اللجنة\nرزنامة الإجتماعات\nاللجنة العلمية لقسم الرياضيات\nتركيبة اللجنة\nرزنامة الإجتماعات\nاللجنة العلمية لقسم الفيزياء\nرزنامة الإجتماعات\nتركيبة اللجنة"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Cours N 6 Suite R%C3%A9solution par la m%C3%A9thode du simplexe",
+        "url": "https://fsciences.univ-setif.dz/uploads/production_pedagogique/attachment/2116/Cours_N_6-Suite-R%C3%A9solution_par_la_m%C3%A9thode_du_simplexe.pdf",
+        "local_file": "pdfs/1d2d9dea_Cours_N_6_Suite_R%C3%A9solution_par_la_m.pdf"
+      }
+    ],
+    "tables": [
+      {
+        "file": "tables/1d2d9dea_table_1_untitled.json",
+        "rows": 3
+      }
+    ]
+  }
+}

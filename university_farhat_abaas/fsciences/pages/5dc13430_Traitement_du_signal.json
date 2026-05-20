@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_MATERIAUX/S1-TS.html",
+      "title": "Traitement du signal",
+      "id": "5dc13430",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:17",
+      "hash": "1d7896b111e2187e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière :\nTraitement du signal\nUnité d'Enseignement :\nUE Méthodologie (UEM 1)\nSemestre :\nSemestre 1\nCrédits :\n3\nCoefficient :\n2\nVHS (15 semaines) :\n37h30\nCours :\n1h00\nTD :\n1h30\nTP :\nMode d'évaluation :\nContinu : 50%  /  Examen : 50%\nSemestre 1\nUnité Méthodologie\nMatière : Traitement du signal\nObjectifs de l’enseignement :\nL’objectif de cet enseignement est de permettre à l’étudiant physicien d’acquérir les outils essentiels de\ntraitement du signal. On donne, d’abord, un aperçu sur les méthodes de traitement des signaux analogiques, tels\nque délivrés par les systèmes de mesure physiques. La conversion de ces signaux en signaux numériques, permet,\npar la suite, de leur appliquer différentes techniques de traitement que l’on peut facilement implémenter sur micro-\nordinateur.\nConnaissances préalables recommandées :\nEnseignements de la licence: Outils mathématiques de base, notion d'électricité et de magnétisme, de\nthermodynamique, et de physique du solide\nContenu de la matière :\nA. Signaux analogiques\nReprésentation des signaux : Modélisation, Classification\nTransformation de Fourier (TF): Signaux périodiques, Signaux apériodiques\nSystèmes de transmission : Propriétés, Convolution, Corrélation\nFiltrage : Transformée de Laplace, Filtrage temporel, Filtrage fréquentiel\nModulation : Modulation d’amplitude, de fréquence et de phase\nBruit : Sources, Types, Rapport signal sur bruit, Détection d’un signal noyé dans le bruit\nDéconvolution\nB. Signaux numériques\nNumérisation des signaux : Echantillonnage, Quantification, Compression, Expansion, Restitution\nTransformée de Fourier Discrète, Transformée de Fourier Rapide\nFiltrage Numérique : Transformée en z, Synthèse de filtres numériques\nRéférences :\nJ. Max: Méthodes et techniques du traitement du signal et applications aux mesures physiques. Masson, Paris,\n1992.\nM. Kunt: Traitement numérique des signaux. Traité d’électricité, Vol. XX, Presses Polytechniques Romandes,\n1989.\nB. Picinbono: Théories des signaux et des systèmes. Dunod, Paris, 1989.\nF. Cottet: Traitement des signaux et acquisition des données. Dunod, Paris, 1997.\nA. Ouahabi: Traitement du signal, Théorie du signal. O.P.U., Alger, 1987.\nR. Bekka: Fondements du traitement du signal, Théorie du signal. O.P.U., Alger, 1998.\nA. Guerchaoui: Traitement du signal: Théorie et Applications. O.P.U., Alger, 2008\n14"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

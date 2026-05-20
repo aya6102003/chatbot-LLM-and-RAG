@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S2-IAML2.html",
+      "title": "Intelligence Artificielle et Machine Learning 2",
+      "id": "22c94754",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:54",
+      "hash": "a27b3f1155b56c91",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Intelligence Artificielle et Machine Learning 2\nSemestre 2 – UE Méthodologie\nObjectifs du cours\nS'appuyer sur les techniques de base de l'apprentissage automatique (Machine Learning) pour introduire l'apprentissage profond, les réseaux neuronaux et les concepts avancés d'apprentissage automatique pour les applications en sciences de la matière. Les étudiants approfondiront leur compréhension de la découverte et de la conception de matériaux basées sur l'IA.\nProgramme détaillé\nChapitre 1 : Modèles basés sur les graphes dans les sciences de la matière\nLes matériaux sont des graphes : atomes = nœuds, liaisons = arêtes.\nRéseaux convolutionnels de graphes de cristaux (CGCNN).\nÉtude de cas : Prévision des énergies de formation.\nChapitre 2 : Modèles génératifs pour la conception de matériaux\nIntroduction aux réseaux adversoriels génératifs (GAN) et aux auto-encodeurs variationnels (VAE).\nApplication : Conception de nouveaux matériaux et molécules.\nChapitre 3 : Évaluation des modèles et interprétabilité\nTechniques d'évaluation des modèles d'apprentissage profond : validation croisée, surajustement.\nInterprétation des modèles avec SHAP et LIME.\nChapitre 4 : Techniques avancées de ML\nModèles d'ensemble (Random Forests, XGBoost, LightGBM).\nModèles avancés de régression et de classification.\nRéduction de la dimensionnalité : ACP, t-SNE, UMAP.\nChapitre 5 : Applications avancées en sciences de la matière\nConception inverse pour la découverte de matériaux à l'aide de l'IA.\nPrédiction des propriétés des matériaux (modules élastiques, supraconductivité, etc.).\nModélisation multi-échelle : combinaison de l'IA avec la dynamique moléculaire ou la théorie de la fonctionnelle de la densité (DFT).\nChapitre 6 : Mini-Projet de spécialisation (Capstone Project)\nLes étudiants réaliseront un projet dans lequel ils appliqueront l'IA/ML pour résoudre un problème en sciences de la matière, en utilisant les compétences acquises tout au long du semestre.\nOutils et bibliothèques\nPython, Jupyter Notebooks\nTensorFlow, PyTorch\nMatminer, Pymatgen\nMode d'évaluation\nContrôle continu : 50 %\nExamen : 50 %\nBibliographie\n\"Deep Learning\" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville (a comprehensive introduction to deep learning)\n\"Deep Learning with Python\" by François Chollet (applies Keras for hands-on deep learning projects)\n\"Machine Learning for Materials Science\" by Jha et al. (directly relates to AI in materials science)\n\"Data Science for Materials Discovery\" by K. A. Persson, et al. (focused on machine learning applications in materials science)\n\"Materials Informatics: Methods, Tools, and Applications\" by Rajiv S. Mishra (further extends ML into material discovery)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

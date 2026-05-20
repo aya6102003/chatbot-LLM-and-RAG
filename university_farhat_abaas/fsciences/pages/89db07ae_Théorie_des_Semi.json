@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S3-SG.html",
+      "title": "Théorie des Semi",
+      "id": "89db07ae",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:30",
+      "hash": "2edbe8373a9ee535",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Théorie des Semi-groupes et Applications pour les EDP\nSemestre :\n3  |\nUnité d'enseignement :\nFondamentale\nVolume Horaire Hebdomadaire :\nCours : 3h, TD : 1h30\nCrédits :\n6  |\nCoefficients :\n3\nObjectifs de l'enseignement\nMaîtriser le cadre abstrait et rigoureux de la théorie des semi-groupes pour la résolution des problèmes d'évolution linéaires.\nConnaissances préalables recommandées\nAnalyse Fonctionnelle 1 & 2, EDP.\nContenu de la matière\nChapitre 1 : Le Problème de Cauchy Abstrait et les C₀-Semigroups.\nChapitre 2 : Les Théorèmes de Hille-Yosida et Lumer-Phillips.\nChapitre 3 : Semi-groupes analytiques et application aux équations paraboliques.\nChapitre 4 : Groupes unitaires et application aux équations hyperboliques (Théorème de Stone).\nMode d'évaluation\nExamen final (60%), Contrôle Continu (40%)\nRéférences bibliographiques\nA. Pazy,\nSemigroups of Linear Operators and Applications to Partial Differential Equations\n. Springer, 1983.\nK.-J. Engel, R. Nagel,\nA Short Course on Operator Semigroups\n. Springer, 2006."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

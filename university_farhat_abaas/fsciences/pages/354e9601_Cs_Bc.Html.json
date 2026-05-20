@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-BC.html",
+      "title": "Cs Bc.Html",
+      "id": "354e9601",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:59",
+      "hash": "53dcdc55717b8a1c",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nContenu de la matière\nChapter 1 : Blockchain fundamentals and security factors\nChapter 2 : Digital currency (Bitcoin)\n- Security of cryptocurrencies\nChapter 3 : Consensus algorithms\n-  Validation of transactions\n-  Proof of work, Proof of stake, etc.\n-  Byzantine Fault Tolerance algorithm\nChapter 4 : Smart contracts & Ethereum\n-  Overview on Ethereum and smart contracts\n-  The best practices for securing smart contracts\n-  Creation of smart contracts on Ethereum\nChapter 5 : Blockchain security issues and attacks\n-  Issues: Privacy, vulnerabilities in smart contracts, criminal activity, etc.\n-  Attacks: Double Spending Attacks, 51% Vulnerability Attack, etc\nMode d’évaluation : Contrôle continu, examen Références\n• •\nEtablissement : Université Ferhat Abbas Sétif-1 Intitulé du master : Cyber Security Page 35 Année universitaire : 2022/2023\nBlockchain is one of the most frequently discussed methods for securing data storage and transfer through decentralized and trustless systems. It has been popularized through the security of cryptocurrencies such as Bitcoin, but now has changed the perception of many organizations and empowered them to use it for different applications. This course presents Blockchain technology, its implementation and use in cyber security.\n-  Overview\n-  How Blockchain works\n-  How is Blockchain used to improve cyber security\n-  Latest Blockchain applications focused on security\nGupta, Rajneesh. “Hands-On Cybersecurity with Blockchain: Implement DDoS protection,\nPKI-based identity, 2FA, and DNS security using Blockchain”. Packt Publishing Ltd, 2018.\nSingh, Saurabh, ASM Sanwar Hosen, and Byungun Yoon. \"Blockchain security attacks,\nchallenges, and solutions for the future distributed iot network.\" IEEE Access 9 (2021):\n13938-13959."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

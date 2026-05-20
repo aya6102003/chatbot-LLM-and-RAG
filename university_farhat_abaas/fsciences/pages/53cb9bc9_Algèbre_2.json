@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_MATHS_APPLIQUEES/S2-ALGEBRE2.html",
+      "title": "Algèbre 2",
+      "id": "53cb9bc9",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:45",
+      "hash": "167b872a7c6cdb5c",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Algèbre 2\nSemestre :\n02\nUnité d'enseignement :\nFondamentale\nMatière :\nAlgèbre 2\nCrédits :\n4\nCoefficient :\n2\nObjectifs de l'enseignement :\nMise en place des principes de base des espaces vectoriels.\nConnaissances préalables recommandées :\nNotions d'algèbre.\nContenu de la matière :\nChapitre 1 : Espace vectoriel\nDéfinition.\nSous espace vectoriel.\nExemples.\nFamilles libres. Génératrices. Bases. Dimension.\nEspace vectoriel de dimension finie (propriétés).\nSous espace vectoriel supplémentaire.\nChapitre 2 : Applications linéaires\nDéfinition.\nImage et noyau d'une application linéaire.\nRang d'une application, théorème du rang.\nComposée d'applications linéaires. Inverse d'une application linéaire bijective, automorphisme.\nChapitre 3 : Les matrices\nMatrice associée à une application linéaire.\nOpérations sur les matrices : somme, produit de deux matrices, matrice transposée.\nEspace vectoriel des matrices à n lignes et m colonnes.\nAnneau de matrices carrées. Déterminant d'une matrice carrée et propriétés. Matrices inversibles.\nRang d'une matrice (application associée). Invariance du rang par transposition.\nChapitre 4 : Résolution de systèmes d'équations\nSystème d'équations – écriture matricielle - rang d'un système d'équations.\nMéthode de Cramer.\nMode d'évaluation :\nExamen (60%), contrôle continu (40%)\nRéférences :\nLieven Vandenberghe et Stephen P. Boyd. Introduction to applied linear algebra: vectors, matrices and least squares. 2018.\nSheldon Axler. Linear Algebra Done Right (3rd Edition). Springer. 2015.\nS. Lang : Algèbre : cours et exercices, 3ème édition, Dunod, 2004.\nE. Azoulay et J. Avignant, Mathématiques. Tome1, Analyse. Mc Graw-Hill, 1983.\nM. Mignotte et J. Nervi, Algèbre : licences sciences 1ère année, Ellipses, Paris, 2004.\nJ. Franchini et J. C. Jacquens, Algèbre : cours, exercices corrigés, travaux dirigés, Ellipses, Paris, 1996."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

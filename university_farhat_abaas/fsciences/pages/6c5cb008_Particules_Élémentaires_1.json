@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S2-PE1.html",
+      "title": "Particules Élémentaires 1",
+      "id": "6c5cb008",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:54",
+      "hash": "2ad458cf9051a28a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Particules Élémentaires 1\nSemestre 2 – UE Transversal\nPrérequis\nMécanique quantique (niveau Licence)\nRelativité restreinte\nBases en physique nucléaire et interactions fondamentales (souhaitables)\nObjectifs de l'enseignement\nCe cours vise à offrir une vue globale, qualitative et introductive de la physique des particules. Il met l'accent sur les symétries, les lois de conservation, les interactions fondamentales et les éléments clés du modèle des quarks, en préparation à des cours plus avancés en physique des hautes énergies.\nProgramme simplifié\nChapitre 1 – Introduction à la physique des particules\nQu'est-ce qu'une particule élémentaire ?\nRôle et portée de la physique des particules\nUnités naturelles et échelles d'énergie\nInteractions fondamentales et classification des particules\nVue d'ensemble des expériences modernes (LHC, ATLAS, CMS)\nChapitre 2 – Outils expérimentaux et processus de base\nTypes de sources : accélérateurs, désintégrations radioactives\nDétecteurs : principes de fonctionnement (chambres, calorimètres, semi-conducteurs)\nProcessus élémentaires : diffusion, désintégration, vie moyenne\nNotions qualitatives : section efficace, largeur, espace de phase\nChapitre 3 – Symétries et lois de conservation\nSymétries de l'espace-temps : translation, rotation, parité (P), temps (T), charge (C)\nSymétries internes : isospin, saveur, étrangeté\nLois de conservation associées (énergie, moment, baryon, lepton...)\nIntroduction aux symétries locales et invariance de jauge\nChapitre 4 – Le modèle des quarks\nHistorique du modèle des quarks et familles de particules\nClassification des hadrons (mésons, baryons)\nNotions qualitatives sur la couleur, le confinement et le rôle de SU(3)\nDiagrammes de quarks et phénomènes caractéristiques : charme, saveur, résonances\nMode d'évaluation\nExamen : 100 %\nRéférences bibliographiques\nL. Marleau, Introduction à la physique des particules, Éditions Ellipses\nDavid Tong, Lectures on Particle Physics, University of Cambridge → http://www.damtp.cam.ac.uk/user/tong/particle.html\nD. Griffiths, Introduction to Elementary Particles, Wiley\nC. Amsler, Particle Physics: An Introduction, Oxford University Press\nCERN, Ressources pédagogiques et documents de vulgarisation → https://home.cern"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

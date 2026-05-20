@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-CF.html",
+      "title": "Cs Cf.Html",
+      "id": "ba81eb53",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:54:59",
+      "hash": "da174a5fb22e083d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nDescribe a computer investigation and the steps required to complete a case. Use appropriate tools for forensic investigations. Demonstrate an understanding of evidence preservation and authentication. Understand the basics and specifics of file systems. Understand how to perform a forensic analysis of the Windows system\nContenu de la matière\nChapter 1: Computer Forensics Fundamentals\nChapter 2: Evidence Collection & Data Seizure\nChapter 3: Computer Forensics Analysis and Validation\nChapter 4: Windows system and artifacts\nChapter 5: Current computer forensic tools\nChapter 6: Network Forensics /Email Analysis\nMode d’évaluation : Contrôle continu, examen Références\nBill Nelson, Amelia Phillips, Christopher Steuart, “Guide to Computer Forensics and Investigations”, Fourth Edition, Course Technology.\nCory Altheide, Harlan Carvey, Digital Forensics with Open Source Tools, Syngress imprint of Elsevier.\nMariE-Helen Maras, “Computer Forensics: Cybercriminals, Laws, and Evidence”, Jones & Bartlett Learning, 2nd Edition,"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

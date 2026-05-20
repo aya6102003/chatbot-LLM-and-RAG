@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S2-PFIM2.html",
+      "title": "Principes fondamentaux de l'imagerie médicale II",
+      "id": "04609783",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:49",
+      "hash": "9e3971aee49634cf",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nMéthodologie (UEM 2)  |\nCrédits :\n6  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs pédagogiques\nAcquérir les notions de base du traitement, de l'affichage et du traitement d'images. Découvrir certains logiciels permettant un traitement d'images basique ou plus avancé.\nIntroduire de nouvelles techniques de traitement d'images médicales pour aider à l'analyse.\nContenu de l'unité\n1- Méthodes mathématiques\nSystèmes linéaires\nMéthodes d'échantillonnages\n2- Introduction au traitement d'images\nFiltrage d'images (lissage, restauration)\nSegmentation d'Image\nEnregistrement d'images\nTechniques Statistiques (optimisation, classification)\nTechniques Volumétriques (rendu, modélisation)\n3- Perception et évaluation de l'image\nThéorie de la vision humaine (modèle Barton)\nSpécifications de performance des observateurs (decision outcomes, ROC)\nMéthodologies expérimentales\nConception de systèmes d'affichage\nTravaux pratiques\nPrincipes fondamentaux de l'imagerie médicale\nTravaux pratiques sur l'imagerie numérique et les communications en médecine (DICOM)\nPerception et évaluation de l'image\nRéférences bibliographiques\nGONZALEZ, R., and WOODS, R., Digital Image Processing. Prentice Hall, New Jersey, USA (2007).\nBUSHBERG, J.T., SEIBERT, J. A., LEIDHOLDT Jr, E.M. and BOONE, J. M., The Essential Physics of Medical Imaging, Wolters Kluwer, Philadelphia (2021)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

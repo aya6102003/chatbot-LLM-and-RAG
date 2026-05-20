@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIM_ANAL_CONTROLE_QUALITE/S3-RE.html",
+      "title": "S3 Re.Html",
+      "id": "4cbc034d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:21",
+      "hash": "ec89e2cd49cf6839",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Reverse-Engineering\nSemestre :\n3  |\nUE :\nDécouverte  |\nCrédits :\n1  |\nCoefficients :\n1\nContenu de l'enseignement\nI-1 — Concepts fondamentaux (4h)\nDéfinition et historique du reverse engineering\nDifférences avec le forward engineering (conception traditionnelle)\nApplications industrielles : maintenance, innovation compétitive, interopérabilité\n2 — Échelle TRL (Technology Readiness Level) (3h)\nPrésentation des 9 niveaux de maturité technologique\nLes niveaux recherche/innovation et les niveaux technologiques\nLes TRL et le développement de nouveaux produits\nLes moyens nécessaires\n3 — Cadre juridique et propriété intellectuelle (5h)\nProtection des brevets vs droit à l'ingénierie inverse\nAnalyse comparative des législations (États-Unis : Oui sauf clauses contractuelles / DMCA anti-contournement ; UE : Limité par les directives logiciels / Protection des savoir-faire)\nGestion des risques juridiques dans les contrats technologiques\nLes limites légales : le RE n'est pas interdit, c'est l'usage qui peut en être fait qui peut l'être\nII — Techniques de Formulation — Analyse\nChromatographie (HPLC, GC-MS)\nSpectroscopie IR/Raman\nExploitation / Interprétations\nSéparation des composants\nIdentification des substances actives\nAnalyse des interactions moléculaires\nIII — Les soubassements métiers\nChaque enseignant doit donner une couverture (et ouverture) technologique à son cours et attirer l'attention sur les aspects qui peuvent aider/influencer dans une démarche de reverse engineering : 2 à 4 heures\nMode d'évaluation\n100% Examen"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

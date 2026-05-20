@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/CP.html",
+      "title": "Guide pédagogique",
+      "id": "5ee77603",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:29",
+      "hash": "ba65fbfbe477989a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Ce master offre une formation approfondie de haut niveau qui combine théorie et pratique dans les domaines de la\nchimie liée aux produits médicinales\n.\nLe parcours proposé est spécifique aux domaines qui couvrent la vie d’un médicament, depuis sa conception jusqu’à sa mise sur le marché. Il s’intéresse aussi au développement des aptitudes techniques et organisationnelles pour résoudre des problèmes propres aux sciences du médicament, en tenant compte des facteurs scientifiques, économiques...\nResponsable : Dr Y. NOUAR          nouar-y@univ-setif.dz"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/5ee77603_table_1_SEMESTRE_1.json",
+        "rows": 12
+      },
+      {
+        "file": "tables/5ee77603_table_2_SEMESTRE_2.json",
+        "rows": 12
+      },
+      {
+        "file": "tables/5ee77603_table_3_SEMESTRE_3.json",
+        "rows": 12
+      },
+      {
+        "file": "tables/5ee77603_table_4_SEMESTRE_4.json",
+        "rows": 3
+      }
+    ]
+  }
+}

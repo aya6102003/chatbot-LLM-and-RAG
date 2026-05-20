@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/CS.html",
+      "title": "Cs.Html",
+      "id": "6c085b57",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:32",
+      "hash": "9cf878dbc2ae48c0",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nCybersecurity (CS) — Semester 5, Unit UM5, Credits: 3, Coeff: 2\nPrerequisite Knowledge\nFoundational understanding of computer systems and networks.\nFamiliarity with operating systems such as Windows and Linux.\nBasic programming skills in languages like Python or Java.\nCourse Objectives\nThis course is intended for students pursuing a career in fields related to cyber-security. Since cryptography is present in everyday life, this course will cover classical cryptography algorithms, symmetric and asymmetric cryptography, hash functions, digital signatures and other fundamental cryptographic protocols.\nCourse Content\nPart I\nChapter 1: Introduction to Cybersecurity\nDefinitions and basic concepts\nImportance of Cybersecurity in the modern world\nCommon online threats and attacks\nChapter 2: Basic Principles of Cybersecurity\nConfidentiality, integrity, and availability (CIA) of data\nSecurity models (Bell-LaPadula, Biba, etc.)\nInformation security principles (ISO 27001)\nChapter 3: Network and Operating System Security\nNetwork threats and attacks (denial of service attack, brute force attack, etc.)\nFirewalls and packet filtering\nWireless security (Wi-Fi, WPA2, etc.)\nVPN (Virtual Private Network)\nOperating system security (Windows, Linux, macOS)\nPatch and update management\nAccess control mechanisms (ACL, permissions, etc.)\nChapter 4: Application Security\nSecure application development\nSQL injection, XSS, CSRF, and other common vulnerabilities\nPenetration testing and vulnerability analysis\nPart II\nChapter 5: Cryptography\nIntroduction and terminology\nMathematical background: GCD, Modulo, Modular inverse\nSymmetric cryptography: Caesar, Vigenère, Substitution, Hill, Affine, …\nPublic-key cryptography: RSA, Elgamal, …\nHybrid cryptography\nHash functions: MD4, MD5, SHA-1, …\nCryptanalysis: Brute force attack, Frequency analysis\nKey exchange algorithms: Diffie-Hellman; Shamir’s Three-pass protocol\nDigital signature\nBlockchain\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\n“Handbook of applied cryptography”. Menezes Alfred J., Paul C. Van Oorschot and Scott A. Vanstone. CRC press, 2018.\n“Applied cryptography: protocols, algorithms, and source code in C”. Schneier Bruce. 1996."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

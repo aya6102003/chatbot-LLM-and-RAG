@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Licence_Informatique.html",
+      "title": "Guide pédagogique",
+      "id": "9c8dbdbf",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:43",
+      "hash": "f5a5b74a5f4522eb",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Les objectifs de la licence en Systèmes Informatiques sont l’acquisition des compétences fondamentales, des méthodes théoriques et pratiques et du savoir-faire techniques représentatifs des différentes tâches de la discipline informatique.\nCette formation couvre l'ensemble de la filière : fondements, architectures et matériels, conception d’interface homme-machine, technologies Web, objets, réseaux, systèmes, méthodes et technologies logicielles, applications informatiques, systèmes d'information, langages de programmation, systèmes d’exploitation, algorithmique, logique...\nA l’issue de la formation, construite de façon suffisamment généraliste, les étudiants peuvent intégrer des masters variés, comme ils auront la possibilité à l’insertion dans le monde du travail de tous les domaines de l’informatique, les débouchés étant nombreux et intéressants.\nResponsable : Dr L. Douidi                 douidi@univ-setif.dz"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/9c8dbdbf_table_1_SEMESTRE_3.json",
+        "rows": 10
+      },
+      {
+        "file": "tables/9c8dbdbf_table_2_SEMESTRE_4.json",
+        "rows": 10
+      },
+      {
+        "file": "tables/9c8dbdbf_table_3_SEMESTRE_5.json",
+        "rows": 10
+      },
+      {
+        "file": "tables/9c8dbdbf_table_4_SEMESTRE_6.json",
+        "rows": 10
+      }
+    ]
+  }
+}

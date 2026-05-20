@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S5-FIA.html",
+      "title": "Foundations of Artificial Intelligence (FIA)",
+      "id": "4357a562",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:32",
+      "hash": "c9766d234756d3ab",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Foundations of Artificial Intelligence (FIA)\nSemestre : S5\nUnité d’enseignement : UED1\nMatière : Fondements de l’IA (FIA)\nCrédits : 3\nCoefficient : 2\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement (Décrire ce que l’étudiant est censé avoir acquis comme compétences après le\nsuccès à cette matière – maximum 3 lignes).\nL'objectif de ce module est de présenter les fondements du domaine de l'intelligence artificielle. Dans\nce cours, les principes de base des différents éléments de l’intelligence artificielle seront présentés :\nLogiques et Raisonnement, Résolution de problèmes, Méta heuristiques, Problème de satisfaction de\ncontraintes, Apprentissage automatique et réseaux de neurones, Systèmes multi-agents.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\nContenu de la matière :\nChapitre 1 : Logiques et Raisonnement\n1.1 Logique propositionnelle\n1.2 Logique du 1er ordre\n1.3 Introduction aux logiques non classiques\nChapitre 2. Résolution de problèmes de planification\n2.1. Représentation d’un problème par un espace d’états\n2.2. Méthodes de recherche de solution dans les espaces d’états\nChapitre 3. Algorithmes pour les jeux\n3.1 Algorithme Min Max\n3.2 Algorithme Alpha Beta\nChapitre 4. Les méta-heuristiques\n4.1 La recherche locale\n4.2 Méthode Simulated Annealing (Recuit Simulé)\n4.3 Algorithme génétique\nChapitre 5. Problème de satisfaction de contraintes (CSP)\n5.1 Exemples de CSP\n5.2 Recherche en arrière pour les CSPs (BackTracking)\n5.3 Algorithme AC-3\nChapitre 6. Apprentissage automatique et réseaux de neurones\n6.1 Algorithmes d’apprentissage automatique\n6.2- Méthode des K plus proches voisins\n6.3- Les réseaux de neurones\nChapitre 7 : Les systèmes multi-agents\n7.1 Concepts de base\n7.2 Les systèmes multi agents. (SMA) : Interaction, Communication, Négociation et Architecture\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences bibliographiques (Livres et polycopiés, sites internet, etc) :\nCiter au moins 3 à 4 références classiques et importantes.\n[1] Principles of Artificial Intelligence par Nils J. Nilson, 1982, Springer-Verlag Berlin Heidelberg.\n[2] Essentials of Artificial Intelligence par Nils J. Nilson, 1993, Copyright: © Morgan Kaufmann\n[3] Artificial Intelligence: A new synthesis, Nils Nilson, 1997, Elsevier.\n[4]Artificial Intelligence: A Modern Approach par Stuart Russell and Peter Norvig, Ed. Pearson, 2016\n[5] Rapport de synthèse - France Intelligence Artificielle. Ministère de l'Enseignement supérieur et de\nla Recherche, 2017."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

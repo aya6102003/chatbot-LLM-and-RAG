@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/MAML.html",
+      "title": "Maml.Html",
+      "id": "5ab8120f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:36",
+      "hash": "c6846a29b1903c25",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nMathematics Analysis and Mathematics Logic (MAML) — Semester 1, Unit UFM1, Credits: 5, Coeff: 3\nCourse Objectives\nUnderstand the concept of limits and continuity.\nApply the principles of differentiation to solve problems.\nDevelop logical and formal proof skills for analysis.\nCourse Content\nPart I: Mathematics Analysis and Logic\nChapter I.1: Sequences and Series\nConvergence and divergence\nCauchy sequences\nMonotonic sequences\nInfinite series and tests for convergence (comparison test, ratio test, root test, etc.)\nChapter I.2: Functions and Continuity\nLimits of functions\nContinuity and discontinuity of functions\nUniform continuity\nIntermediate Value Theorem\nExtreme Value Theorem\nChapter I.3: Differentiation\nDefinition and properties of the derivative\nMean Value Theorem\nBernoulli's rule\nTaylor series\nApplications of derivatives: concavity, inflection points, optimization\nPart II: Mathematics Logic\nChapter II.1: Syntax and Semantics\nPropositional variables\nLogical connectives: AND, OR, NOT, IMPLIES, IFF\nTruth tables and interpretations\nChapter II.2: Tautologies and Logical Equivalences\nLaws of logic (De Morgan's Laws, distribution, etc.)\nLogical equivalence and implications\nNormal forms (Conjunctive Normal Form, Disjunctive Normal Form)\nChapter II.3: Proof Systems\nNatural deduction\nAxiomatic systems\nSoundness and completeness theorems for propositional logic\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\n“Principles of Mathematical Analysis” by Walter Rudin"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

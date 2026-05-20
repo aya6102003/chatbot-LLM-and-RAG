@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S3-MRS.html",
+      "title": "Méthodologie et Rédaction scientifique",
+      "id": "a823a140",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:30",
+      "hash": "aad5f5da2132a7bc",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Méthodologie et Rédaction scientifique\nSemestre :\n3  |\nUnité d'enseignement :\nTransversale\nVolume Horaire Hebdomadaire :\nCours : 1h30\nCrédits :\n1  |\nCoefficients :\n1\nObjectifs de l'enseignement\nAcquérir les compétences pratiques pour la rédaction d'un mémoire de Master et de tout document scientifique. Maîtriser les outils de la communication scientifique en mathématiques.\nContenu de la matière\nRecherche bibliographique : Utilisation des bases de données scientifiques (MathSciNet, arXiv).\nStructure d'un mémoire/article scientifique.\nApprentissage de LaTeX : Structuration de documents, écriture d'équations, gestion de la bibliographie avec BibTeX.\nÉthique et présentation : Éviter le plagiat, préparer une soutenance orale.\nMode d'évaluation\nExamen (100%)\nRéférences bibliographiques\nN. J. Higham,\nHandbook of Writing for the Mathematical Sciences\n. SIAM, 3rd Ed., 2019.\nM. Goossens, F. Mittelbach, A. Samarin,\nThe LaTeX Companion\n. Addison-Wesley, 2nd Ed., 2004."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S2-IIQ.html",
+      "title": "Introduction à l'Information Quantique",
+      "id": "2009d561",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:52",
+      "hash": "d027bba164c2e6b5",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Introduction à l'Information Quantique\nSemestre 2 – UE Méthodologie\nPrérequis\nMécanique quantique (niveau licence)\nObjectifs de l'enseignement\nCe cours a pour objectif de familiariser les étudiants avec les concepts fondamentaux de l'information quantique. Ils découvriront la théorie quantique de la mesure ainsi que les effets de la décohérence sur celle-ci. L'introduction au qubit — notamment via la polarisation du photon — servira de base à l'exploration de protocoles tels que BB84. Le cours couvre également l'intrication, la téléportation quantique, les portes logiques quantiques et les principaux algorithmes quantiques comme ceux de Grover et Deutsch-Jozsa. Enfin, il propose un survol des différentes réalisations physiques des ordinateurs quantiques.\nProgramme détaillé\nChapitre 1 : Mesure quantique et décohérence\nMesure quantique PVM\nMesure quantique POVM\nDécohérence et mesure quantique\nChapitre 2 : Qubit et applications\nPolarisation du photon, spin 1/2 et sphère de Bloch\nPolariseur, protocole BB84 et théorème de non-clonage\nLame semi-réfléchissante et représentation dual-rail\nInterféromètre de Mach-Zehnder et applications\nChapitre 3 : Intrication\nÉtats multipartites\nCritères d'intrication\nInégalités de Bell\nTéléportation\nChapitre 4 : Introduction aux calculs quantiques\nPortes quantiques\nCalcul parallèle\nAlgorithme de Deutsch-Jozsa\nAlgorithme de Grover\nTransformée de Fourier Quantique\nChapitre 5 : Réalisation d'ordinateur quantique\nOscillateur harmonique\nPhotons\nIons piégés\nRésonance magnétique nucléaire (RMN)\nMode d'évaluation\nContrôle continu (interrogations, exposés, devoirs) : 50 %\nExamen final : 50 %\nRéférences bibliographiques\nM. A. Nielsen, I. L. Chuang, Quantum Computation and Quantum Information, Cambridge University Press, 2000\nJohn Preskill, Quantum Information and Computation (http://www.theory.caltech.edu/people/preskill/ph229/)\nMaximilian Schlosshauer, Decoherence and the Quantum-to-Classical Transition, Springer, 2007\nMichel Le Bellac, Physique Quantique, EDP Sciences & CNRS Éditions, 2007"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

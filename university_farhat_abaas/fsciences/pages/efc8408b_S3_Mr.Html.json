@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S3-MR.html",
+      "title": "S3 Mr.Html",
+      "id": "efc8408b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:34",
+      "hash": "6be28319d8e9a3fe",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Research Methodology\nSemester:\n3  |\nType:\nUET3  |\nVHS:\n21h  |\nWeekly hours:\nC: 1h30  |\nCoefficient:\n1  |\nCredits:\n2\nTeaching Objectives\nThis module aims to teach students the skills and knowledge needed to conduct effective scientific research. It covers the key stages of research, from topic formulation to final report writing, including literature review, research design, data collection and analysis, and oral presentation of results.\nRecommended prior knowledge:\nScientific writing, language used.\nCourse Content (Lectures: 21h)\nIntroduction to Scientific Research\nDefinition and objectives of scientific research\nTypes of research (fundamental, applied, etc.)\nRole of methodology in research\nImportance of language mastery\nResearch ethics in computer science: plagiarism, self-plagiarism, generative AI (ChatGPT, Deepseek, etc.)\nResearch Topic Formulation\nIdentification and selection of a relevant research topic\nLiterature review: searching relevant sources (scientific articles, books, etc.); critical analysis of existing literature (state of the art); identifying gaps in the state of the art\nDefining the research problem: formulating a clear research question; defining hypotheses\nResearch objectives: defining specific objectives; identifying expected results\nResearch Design\nChoice of appropriate research methods (experimental, qualitative, quantitative, etc.)\nPlanning data collection (sampling, collection tools, etc.)\nDeveloping a research plan\nData Collection\nImplementing the research plan\nUsing data collection tools and techniques specific to computer science\nData management and organisation\nData Analysis\nUse of data analysis software\nProcessing and analysis of collected data\nUse of statistical methods or other appropriate analysis techniques\nInterpretation of results and discussion of implications\nWriting the Research Report\nPublication modes and structures: article, patent, thesis, book, poster, oral communication\nUse of writing software: LaTeX, Overleaf, etc.\nStructure and organisation of a scientific research report\nClear and concise writing of different report sections\nBibliographic reference management tools (APA, IEEE, Zotero, EndNote, etc.)\nOral Presentation of Results\nPreparation and delivery of an oral presentation of research results\nMastery of scientific communication\nAssessment\nIn-person semester exam (100%)\nReferences\nBeaud, Michel (2020).\nL'art de la thèse\n. La Découverte.\nStefan Kottwitz (2021).\nLaTeX Beginner's Guide\n. 2nd Edition, Packt Publishing.\nJean-Marie Dubois (2005).\nLa rédaction scientifique: mémoires et thèses\n. Estem.\nMichèle Lenoble-Pinson (1996).\nLa rédaction scientifique: conception, rédaction, présentation\n. De Boeck Université."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

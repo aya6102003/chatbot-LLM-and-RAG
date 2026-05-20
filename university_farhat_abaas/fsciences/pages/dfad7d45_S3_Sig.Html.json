@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S3-SIG.html",
+      "title": "S3 Sig.Html",
+      "id": "dfad7d45",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:34",
+      "hash": "28a57e0991dbba16",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Geographic Information Systems\nSemester:\n3  |\nType:\nUEF32  |\nVHS:\n63h  |\nWeekly hours:\nC: 1h30 / TD: 1h30 / TP: 1h30  |\nPersonal work VHS:\n42h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nIntroduce students to the fundamental concepts and tools of geomatics, enabling them to collect, organise, store, analyse and visualise geographic data (satellite images or field-collected data). The programme includes 2D and 3D modelling of geo-spatial data for decision support, GIS tools, and an introduction to spatial analysis and cartography.\nRecommended prior knowledge:\nDatabases, probability and statistics, graph theory.\nCourse Content (Lectures: 21h)\nIntroduction to GIS\nDefinition of a GIS: key concepts, history, and its role in geomatics\nUses and challenges of GIS (urban planning, environment, finance, decision support, human resources, etc.)\nGIS components: hardware, software, data, methods, and human resources\nGeographic Data Modelling: Data in a GIS\nData types: raster and vector data, their structures, and representations\nData sources: acquisition, management and storage of geographic data\nFundamental spatial notions: geographic reference systems, geographic coordinates\nData quality: precision, consistency, and integrity\nCartography and Data Representation\nBasic cartography principles: symbolisation, legend, scale\nCreation of thematic and custom maps\nData visualisation: 2D and 3D representation, animation and interaction\nSpatial Analysis and Decision-Making\nProximity, neighbourhood, distribution analysis, etc.\nPractical GIS applications in various fields (urban management, environmental management, transport, etc.)\nGIS Design\nPresentation of common GIS software (ArcGIS, QGIS, etc.)\nBasic functionalities: creation, visualisation, management, and analysis of spatial data\nData manipulation and querying: spatial queries, data joins\nSpatial analysis and map creation: overlay, zoning, proximity, and other analysis techniques\nThe GPS System\nPresentation; types of measurements; application examples\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous tests, personal work\nPractical work:\nPractice of acquired knowledge through concrete exercises; real case studies; use of GIS software for spatial analyses and map creation.\nReferences\nJean-Philippe Giraud (2010).\nPrincipes de Géomatique\n. Lavoisier.\nJean-Philippe Giraud (2004).\nSystèmes d'Information Géographique\n. Hermès Science.\nDenègre, Jean et Salgé, François (2001).\nLes systèmes d'information géographiques\n. PUF, 2ème édition.\nLaurini, R., and D. Thompson (1992).\nFundamentals of spatial information systems\n. Academic Press.\nBurroughs, P. A. (1986).\nGeographical information systems for land resources assessment\n. Clarendon Press."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

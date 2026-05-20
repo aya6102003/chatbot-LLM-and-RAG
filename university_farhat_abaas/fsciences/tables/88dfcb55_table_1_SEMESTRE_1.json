@@ -1,0 +1,130 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/IngInfoTC.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unités d'enseignement",
+    "Intitulés des matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n14 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unités d'enseignement",
+      "Intitulés des matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n14 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "Unité FondamentaleCode:UEF1.1Crédits:16Coefficients:12",
+      "Algorithmes et Structure de Données 1",
+      "6",
+      "5",
+      "3h",
+      "1h30",
+      "1h30",
+      "6h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n ×"
+    ],
+    [
+      "Structure Machine",
+      "6",
+      "4",
+      "3h",
+      "1h30",
+      "",
+      "4h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Introduction aux Systèmes d'Exploitation 1",
+      "4",
+      "3",
+      "1h30",
+      "",
+      "3h",
+      "4h30",
+      "60%",
+      "40%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Unité FondamentaleCode:UEF1.2Crédits:9Coefficients:6",
+      "Analyse Mathématique 1",
+      "6",
+      "3",
+      "3h",
+      "3h",
+      "",
+      "6h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n ×"
+    ],
+    [
+      "Algèbre 1",
+      "3",
+      "3",
+      "1h30",
+      "1h30",
+      "",
+      "3h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n ×"
+    ],
+    [
+      "Unité DécouverteCode:UED1.1Crédits:3Coefficients:1",
+      "Electronique Fondamentale",
+      "3",
+      "1",
+      "1h30",
+      "",
+      "",
+      "1h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Unité TransversaleCode:UET1.1Crédits:2Coefficients:1",
+      "Techniques d'Expression Ecrite et Bureautique",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "1h30",
+      "3h",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "20",
+      "15h",
+      "7h30",
+      "4h30",
+      "28h30"
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 7
+}

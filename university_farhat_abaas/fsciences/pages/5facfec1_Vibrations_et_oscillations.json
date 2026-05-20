@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S3-VIBR.html",
+      "title": "Vibrations et oscillations",
+      "id": "5facfec1",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:23",
+      "hash": "d5cfae7999ed8947",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Vibrations et oscillations\nSemestre :\n3  |\nUE :\nMéthodologie  |\nCrédits :\n6  |\nCoefficient :\n3\nObjectifs de l'enseignement\nL'objectif de la matière est d'initier l'étudiant à l'étude des différents types de mouvements vibratoires ou oscillatoires appliqués aux systèmes linéaires. La notion d'impédance mécanique sera introduite et il sera mis l'accent sur le phénomène de résonnance et ses applications. L'enseignement est consolidé par des travaux pratiques sur les phénomènes d'oscillations.\nContenu de la matière — Cours\nChapitre 1 : Généralités sur les vibrations\nDéfinition d'un mouvement vibratoire.\nExemples de systèmes vibratoires.\nMouvements périodiques.\nChapitre 2 : Systèmes linéaires à un degré de liberté\n2.1. Les oscillations libres. L'oscillateur harmonique. Pulsation propre d'un oscillateur harmonique. L'énergie d'un oscillateur harmonique.\n2.2. Les oscillations libres amorties. Forces d'amortissement. Équation des mouvements. Oscillations pseudopériodiques (décrément logarithmique, facteur de qualité).\n2.3. Les oscillations libres forcées. Définition. Cas d'une excitation sinusoïdale (résonance, déphasage). Cas d'une excitation périodique quelconque.\n2.4. Les oscillations amorties forcées. Équation des mouvements. Régime transitoire, régime permanent. Bande passante. Facteur de qualité.\n2.5. Analogie entre systèmes oscillants mécaniques et électriques.\nChapitre 3 : Systèmes linéaires à plusieurs degrés de liberté\n3.1. Systèmes à 2 degrés de liberté (Cas libres - pulsations propres), amortis et amortis forcés.\n3.2. Systèmes à N degrés de liberté (comportement général).\nTravaux Pratiques : Oscillations\nT.P. N° 1 : Introduction : Présentation du matériel\nT.P. N° 2 : Oscillations libres d'un système à un degré de liberté\nT.P. N° 3 : Oscillations forcées d'un système à un degré de liberté\nT.P. N° 4 : Oscillations libres d'un système à deux degrés de liberté\nT.P. N° 5 : Oscillations forcées d'un système à deux degrés de liberté\nT.P. N° 6 : Décomposition spectrale d'un signal périodique\nMode d'évaluation\nContrôle continu : 50%\nExamen : 50%\nRéférences bibliographiques\nT. BECHERRAWY,\nVibrations et Ondes\n, Tomes 1-4, Ed. Hermes-Lavoisier, (2010).\nH. DJELOUAH,\nVibrations et Ondes Mécaniques\n, OPU, (2011).\nJ. BRUNEAUX,\nVibrations et Ondes\n, Ed. Marketing, (2010)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

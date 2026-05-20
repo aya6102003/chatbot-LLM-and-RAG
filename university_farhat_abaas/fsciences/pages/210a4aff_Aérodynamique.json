@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S1-AERO.html",
+      "title": "Aérodynamique",
+      "id": "210a4aff",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:01",
+      "hash": "714a56ea694dbc88",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Aérodynamique\nSemestre 1 – UE Fondamentale\nMode d'évaluation :\nContinu 33% / 67%\nObjectifs de l’enseignement\nL’objectif est de fournir aux étudiants les bases théoriques et pratiques nécessaires pour comprendre les\nphénomènes aérodynamiques et leur application dans la conception et l’analyse de systèmes aéronautiques\nou éoliens.\nIl s'agit également de développer des compétences en modélisation, en simulation numérique et en\nexpérimentation aérodynamique.\nConnaissances préalables recommandées\nUne bonne maîtrise de la mécanique des fluides classique (Navier-Stokes, Bernoulli) est indispensable.\nDes connaissances sur les nombres adimensionnels (Reynolds, Mach) et les phénomènes aérodynamiques\nsont requises.\nContenu de la matière :\n1. Chapitre 1 : Introduction à l’aérodynamique (3 semaines)\nDéfinition et domaines d'application\nÉchelle de Reynolds, types d'écoulements (laminaire, turbulent)\nRappel sur la mécanique des fluides (équation de Bernoulli, continuité)\n2. Chapitre 2 : Écoulements autour des corps (3 semaines)\nÉcoulement autour d’un cylindre, d’une sphère\nNotion de couche limite (théorie de Prandtl)\nSéparation de l’écoulement et formation des tourbillons\nInfluence de la forme sur la traînée\n3. Chapitre 3 : Profils aérodynamiques (3 semaines)\nGéométrie des profils (cambrure, corde, incidence)\nPortance et traînée : origine physique\nPolaires aérodynamiques (Cl, Cd en fonction de l’angle d’attaque)\nEffet de sol et de bout d’aile\n4. Chapitre 4 : Théorie de la portance (3 semaines)\nThéorie de Kutta-Joukowski\nCirculation et vortex\nThéorie des ailes (2D et 3D)\nDistribution de la portance\n5. Chapitre 5 : Aérodynamique des bâtiments et structures (3 semaines)\nÉcoulement autour des bâtiments\nPressions aérodynamiques et confort thermique\nStratégies de conception bioclimatique\nImpacts sur la ventilation naturelle\nRéférences\n[1] André Boussinesq, Jean-Yves Sane, Michel J. L. Van Schie — Aérodynamique\n[2] H. Schlichting, K. Gersten — Boundary-Layer Theory (9e édition, Springer, 2017)\n[3] John D. Anderson Jr. — Fundamentals of Aerodynamics (7e éd., McGraw-Hill, 2017)\n[4] Joël Tricot — Introduction à l’aérodynamique"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9088",
+      "title": "Faculté des Sciences",
+      "id": "8314775d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:40",
+      "hash": "bac878e92f5083e5",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Aux étudiants M1\nAnnonce – Étudiants M1 Chimie\nLocaux des examens\nLa\nliste des étudiants\nest disponible dans le\nfichier attaché\n.\nChaque étudiant est tenu d’assister à l’examen\ndans la salle qui lui a été attribuée\n.\nAucun changement de salle ne sera accepté.\nMerci de respecter cette organisation."
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "M1",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6506/M1.pdf",
+        "local_file": "pdfs/8314775d_M1.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

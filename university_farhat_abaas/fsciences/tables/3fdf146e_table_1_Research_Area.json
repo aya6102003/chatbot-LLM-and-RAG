@@ -1,0 +1,43 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/page_professionnelles/275",
+  "title": "Research Area",
+  "headers": [
+    "Data Warehouse",
+    "Polycopie de cours",
+    ""
+  ],
+  "rows": [
+    [
+      "Data Warehouse",
+      "Polycopie de cours",
+      ""
+    ],
+    [
+      "Cloud Computing",
+      "Polycopie de cours",
+      ""
+    ],
+    [
+      "Ethical Hacking",
+      "Polycopie de cours",
+      ""
+    ],
+    [
+      "Unix System Administration",
+      "Polycopie de cours",
+      ""
+    ],
+    [
+      "Security and Privacy of Big Data",
+      "Polycopie de cours",
+      ""
+    ],
+    [
+      "Database architecture and administration",
+      "Polycopie de cours",
+      ""
+    ]
+  ],
+  "row_count": 6,
+  "col_count": 3
+}

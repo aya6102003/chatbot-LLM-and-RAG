@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/IQ/14.html",
+      "title": "14.Html",
+      "id": "993f057b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:33",
+      "hash": "af2c7ad58ecbe3c2",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI.   Administration fundamental\n- Introduction to Unix\n- Unix vs Linux\n- Partitioning\n- Login, logout and startup files\n- .profile, .bashrc, etc\n- The Shell\n- Word processing without and with X11\n- File tree\n- Scripting Shell\n- Network setup\n- Local security.\nII.  Advanced Administration\n- Boot process\n- Installing software\n- Scripting Shell and user and group management\n- Virtualization\n- LVM Disk and Storage\n- Backup and Recovery\nIII. Secured Administration\n- Secure-Shell\n- Firewall\n- Privacy"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

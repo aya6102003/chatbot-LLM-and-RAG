@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S3-SR.html",
+      "title": "S3 Sr.Html",
+      "id": "eaee6f82",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:34",
+      "hash": "4630ae1931f59a60",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Recommendation Systems\nSemester:\n3  |\nType:\nUEM3  |\nVHS:\n63h  |\nWeekly hours:\nC: 1h30 / TD: 1h30 / TP: 1h30  |\nPersonal work VHS:\n42h  |\nCoefficient:\n2  |\nCredits:\n5\nTeaching Objectives\nUnderstand the fundamental principles of recommendation systems\nMaster the different recommendation approaches (collaborative, content-based, hybrid)\nDevelop recommendation systems\nEvaluate the quality and relevance of recommendations\nKnow the challenges in this domain\nRecommended prior knowledge:\nAlgorithmics, data structures, databases, machine learning, and programming in Python/Java.\nCourse Content (Lectures: 21h)\nIntroduction to Recommendation Systems\nDefinition and importance of recommendation systems\nApplications in different domains (e-commerce, social media, etc.)\nEvaluation of recommendation systems: precision, recall, F1-score, etc.\nCollaborative Recommendation\nUser-based methods (similarity, neighbourhood)\nItem-based methods (similarity, neighbourhood)\nAlgorithms: k-NN, Pearson, etc.\nAdvantages and disadvantages of collaborative recommendation\nContent-Based Recommendation\nRepresentation of items and users\nMethods: content similarity, feature vectors\nAlgorithms: TF-IDF, word embeddings, etc.\nAdvantages and disadvantages of content-based recommendation\nHybrid Recommendation Systems\nCombination approaches (weighting, concatenation, etc.)\nAdvantages and disadvantages of hybrid systems\nExamples of hybrid systems (Netflix, Amazon, etc.)\nDevelopment and Evaluation of Recommendation Systems\nChoice of tools and technologies (frameworks, libraries)\nImplementation of recommendation algorithms\nPerformance evaluation and parameter tuning\nProduction deployment and monitoring\nChallenges of Recommendation Systems\nData sparsity\nNew challenges (scalability, diversity, etc.)\nContext-aware recommendation, personalisation\nContent, service, and event recommendation\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous tests, mini-project\nReferences\nFrancesco Ricci, Lior Rokach, Bracha Shapira, Paul Kantor (2015).\nRecommender systems handbook\n. 2nd Edition, Springer.\nGediminas Adomavicius and Alexander Tuzhilin (2005). Toward the next generation of recommender systems.\nIEEE Transactions on Knowledge & Data Engineering\n, (6):734–749.\nYilmaz Ar and Erkan Bostanci (2016). A genetic algorithm solution to the collaborative filtering problem.\nExpert Systems with Applications\n, 61:122–128."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

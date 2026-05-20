@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S3-TPSM.html",
+      "title": "TP Synthèse des Matériaux",
+      "id": "768dd063",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:12",
+      "hash": "e1e0ba3314c72b55",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : TP Synthèse des Matériaux\nObjectifs de l'enseignement\nL'objectif de ce travail pratique est de donner quelques éléments de base pour mieux comprendre les propriétés physiques et structurelles des matériaux nanostructurés et en couches minces déposées par électrodéposition.\nConnaissances préalables recommandées\nConnaissances avérées en électrochimie, électrodéposition, techniques d'élaborations des couches minces, techniques bain chimiques, techniques d'épitaxie par jet moléculaires.\nLa liste des TP citée ci-dessous n'est pas exhaustive. Elle constitue une orientation d'ordre général et dépendra des ressources disponibles pour chaque établissement.\nContenu de la matière\nTP 1 : Elaboration par électrodéposition de couches minces à base de métaux de transition (Ni, Co, Fe)\nTP 2 : Élaboration par bain chimique des nanostructures à base des semi-conducteurs II-VI (ZnO-ZnS).\nTP 3 : Elaboration des nanostructures à base d'oxyde de zinc (ZnO) et d'oxyde de cuivre (Cu₂O) par électrodéposition.\nTP 4 : Dopage par voie électrochimique de ZnO : ZnO par Al (AZO), ZnO par Mg (MGO), dopage des nanostructures de Cu₂O (naturellement p) par les ions Chlorure Cl⁻ pour changer sa conductivité vers n (n-Cu₂O).\nTP 5 : Synthèse de ZnO, Cu₂O, des hétérojonctions de p-Cu₂O/n-ZnO et de homojonctions p-Cu₂O/n-Cu₂O par électrodéposition et bain chimique.\nTP 6 : Elaboration hydrothermale des oxydes métalliques semiconducteurs\nAutres TP :\nTP : Voie solide\nTPs : Méthodes de la chimie douce : Co-précipitation ; Sol-gel ; Citrate ; Nitrate\nTP Méthodes sèches (classiques)\nTP Méthodes céramiques\nTP : Elaboration hydrothermale des oxydes métalliques semiconducteurs (TCO)\nTP : Elaboration de nanopoudres d'oxyde de zinc (ZnO) par voie hydrothermale\nTP : Elaboration de SnO₂ par la méthode sol-gel\nTP : Elaboration de poudres de TiO₂ par la méthode sol-gel modifiée\nTP : Elaboration de couches minces de ZnS par la méthode de dépôt par bain chimique (CBD)\nTP : Préparation d'un matériau composite organique/inorganique"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

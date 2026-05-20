@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9118",
+      "title": "Faculté des Sciences",
+      "id": "512aecf9",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:48:51",
+      "hash": "dab98813a2a54dea",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Bibliothèque de la faculté\nLa bibliothèque de la faculté informe tous les étudiants ayant des emprunts en cours, dont les noms figurent sur la liste jointe, qu’ils doivent se présenter à la bibliothèque dans les plus brefs délais afin de régulariser leur situation et restituer les ouvrages empruntés.\nTout retard pourra entraîner des mesures administratives.\nN°\nN°inscription\nNom\nPrénom\n1\n242435406107\nTALEB HACINE\nImene\n2\n252535360216\nMALOUM\nAlaa Yara\n3\n252539505118\nELALOUANI\nMehdi\n4\n252535424711\nOUDJHANE\nChouaib\n5\n24248GHA25596\nMENSAH\nEnoch\n6\n24248GHA25599\nAVOGNAN\nHenri Junior\n7\n232435501204\nCHOUGUI\nOuissal\n8\n242433383802\nbenabid\nabderaouf\n9\n222235393601\nTamani\nFarah\n10\n252535515404\nSamah\nHAKIMI\n11\n25258NGA28267\nAhmadu Aliyu\nAliyu\n12\n242435415607\nDAOUADJI\nSarra\n13\n232335373618\nDIOUANE\nAbderrahmane\n14\n242435411801\nCHELLAL\nAyete Rahmane\n15\n252535350205\nKERKACHE\nNihade\n16\n252535367706\nBELLAL\nMalak Hibet Ellah\n17\n242435365102\nDOUADI\nMaroua\n18\n242435396706\nBougherara\nBouchra\n19\n252535365707\nCHAMAR\nHamam\n20\n202035053499\nHADDAR\nHAMAME\n21\n242435354802\nSOUAKIR\nRiheme"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/512aecf9_table_1_untitled.json",
+        "rows": 22
+      }
+    ]
+  }
+}

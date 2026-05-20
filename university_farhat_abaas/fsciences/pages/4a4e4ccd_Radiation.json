@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S2-IRM.html",
+      "title": "Radiation",
+      "id": "4a4e4ccd",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:57",
+      "hash": "6c540012f3f34270",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nFondamentale (UEF 2)  |\nCrédits :\n4  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nLe but de cet enseignement est de décrire les principales sources de rayonnements (chargées et neutres). Les interactions élastique et inélastique des photons avec la matière sont traitées en insistant sur les variations avec l'énergie et le numéro atomique des atomes. L'interaction des particules chargées est traitée séparément pour les particules lourdes (ions) et légères (électrons, positrons). Des notions relatives au rayonnement de freinage et au parcours sont introduites dans le cas des électrons.\nConnaissances préalables recommandées\nPhysique nucléaire, physique atomique, électromagnétisme (niveau licence).\nContenu de la matière\nChapitre 1 : Sources de rayonnements ionisants\nRayonnements naturel et artificiel\nRayonnements directement et indirectement ionisant\nSources radioactives : sources β−, α, sources à conversion interne, sources de fission\nSources de neutrons : sources de fission, sources (α,n), accélérateurs, réacteurs nucléaires\nEmission accompagnant la désexcitation radioactive : rayons X, électrons Auger\nChapitre 2 : Interaction des photons avec la matière\nDiffusion élastique : Thomson, Rayleigh, diffusion élastique par un atome\nDiffusion Compton : lois de conservation, section efficace Klein-Nishina, section efficace de transfert\nEffet Photoélectrique : conservation de l'énergie, section efficace\nCréation de paires et de triplets : lois de conservation, sections efficaces\nCoefficients d'absorption massique : variation avec l'énergie et le numéro atomique, règles d'addition\nChapitre 3 : Interaction des particules chargées lourdes avec la matière\nThéorie classique de l'ionisation. Diffusion de Rutherford et critère adiabatique de Bohr\nThéorie semi-classique de Fermi, Formule de Bethe\nCas relativiste, Pouvoir d'arrêt massique. Règle d'addition de Bragg\nChapitre 4 : Interaction des particules chargées \"lourdes\" avec la matière (approfondie)\nThéories classique et quantique\nRègle d'or de Fermi\nModèle de Bohr avec approximation de Thomas Fermi\nThéorie collisionnelle (Bethe) et diélectrique\nEtat de charge des projectiles\nPouvoir d'arrêt nucléaire, Règle d'addition de Bragg\nEffets relativistes, Correction de densité\nIllustration : code Monte Carlo SRIM\nChapitre 5 : Interaction des électrons avec la matière\nDifférences avec les particules chargées lourdes\nSection efficace de Møller\nFormule de Bethe relativiste\nDiffusion des électrons\nBremsstrahlung : pouvoir d'arrêt par rayonnement, longueur d'absorption\nRéférences bibliographiques\nP. Sigmund : Particle penetration and radiation effects (Springer)\nJ.D. Jackson: Classical electromagnetism (Wiley)\nW. Heitler: Quantum theory of radiation (Clarendon Press)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

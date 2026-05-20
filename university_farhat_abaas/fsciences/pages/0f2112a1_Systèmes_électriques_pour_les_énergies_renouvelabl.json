@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S1-SEER.html",
+      "title": "Systèmes électriques pour les énergies renouvelables",
+      "id": "0f2112a1",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:08",
+      "hash": "a205d5213ee35fee",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Systèmes électriques pour les énergies renouvelables\nSemestre 1 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nObjectifs de l’enseignement\nComprendre les bases des systèmes électriques et leurs applications aux énergies renouvelables.\nMaîtriser les défis et méthodes d’intégration des énergies renouvelables au réseau électrique.\nApprendre à contrôler et optimiser les systèmes électriques pour améliorer l’efficacité énergétique\nConnaissances préalables recommandées\nUne solide base en électrotechnique (conversion AC/DC, circuits électriques) est nécessaire.\nDes connaissances sur les systèmes de stockage et l’intégration au réseau électrique sont recommandées.\nContenu de la matière :\n1. Fondamentaux des systèmes électriques pour les énergies renouvelables (3 semaines)\nIntroduction aux systèmes électriques : composants (générateurs, transformateurs, lignes, etc.).\nCaractéristiques des sources renouvelables (intermittence, variabilité).\nPrincipes de conversion d’énergie : électromécanique, électronique de puissance.\nNormes et réglementations pour l’intégration des EnR\n2. Intégration des énergies renouvelables dans les réseaux électriques (6 semaines)\nA-Introduction à l’intégration au réseau électrique,\nPourquoi le raccordement aux réseaux électrique ?\nFonctionnalités attendues du raccordement d'une source sur le réseau.\nCritères d’insertion technique des ENR dans le système électrique,\nSystème ER à injection dans le réseau,\nSystème ER interchangeant de l’énergie avec le réseau,\nChoix du ou des convertisseurs d'interfaçage, dispositifs de protection, Gestion énergétique assurée par MPPT … etc. B-Intégration de l’énergie solaire photovoltaïque au réseau électrique :\nSystème PV de faible puissance raccordé au réseau distribué\nSystème PV inégré au bâtiment (BIPV : Building Inegrated Photovoltaïc),\nCentrale PV à injection dans le réseau, C-Intégration de l’énergie éolienne au réseau électrique. D-Intégration de piles à combustible au réseau électrique\nConstitution du stack,\nDimensionnement de la source de puissance, choix du ou des convertisseurs d'interfaçage,\nContrôle-commande du système Pile à Combustible.\n3. Contrôle et optimisation des systèmes électriques (5 semaines)\nContrôle-commande des systèmes électriques : automates, algorithmes de régulation.\nÉlectronique de puissance pour la conversion d’énergie (convertisseurs DC/AC, AC/DC).\nOptimisation énergétique : efficacité des systèmes, réduction des pertes.\nSimulation numérique multiphysique pour les systèmes électriques.\nRéférences\n[1] Ackermann, T. (Ed.). (2012). Wind Power in Power Systems. Wiley. DOI: 10.1002/9781119941842.\n[2] Jones, L. E. (2017). Renewable Energy Integration: Practical Management of Variability,\nUncertainty, and Flexibility in Power Grids (2nd ed.). Elsevier. ISBN: 978-0128095928.\n[3] Saadat, H. (2010). Power Systems Analysis (3rd ed.). PSA Publishing. ISBN: 978-0984543809.\n[4] Mohan, N., Undeland, T. M., & Robbins, W. P. (2014). Power Electronics: Converters, Applications,\nand Design (3rd ed.). Wiley. ISBN: 978-0471226932."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

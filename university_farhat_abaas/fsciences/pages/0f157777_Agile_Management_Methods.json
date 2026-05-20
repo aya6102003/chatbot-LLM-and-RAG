@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S7-AGILE.html",
+      "title": "Agile Management Methods",
+      "id": "0f157777",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:37",
+      "hash": "20432797d1cbc3b4",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Agile Management Methods\nSemestre : S7\nUnité d’enseignement : UEM1\nMatière : Méthodes de management agiles\nCrédits : 3\nCoefficient : 2\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement\nCe cours donne des concepts avancés de la gestion de projet notamment les méthodes agiles.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\nNotions de gestion de projet\nContenu de la matière\n1. Introduction et rappels de gestion de projets, les cycles traditionnels et WBS.\n2. Définition de concepts de base.\n3. Principes et méthodes Agiles dans la gestion de projet.\n4. Responsabilité et Avantages d’un développement agile.\n5. La méthode Agile SCRUM : Vue d’ensemble de SCRUM.\n5.1 L’approche itérative et incrémentale\n5.2 Le Cycle de Développement adopté\n5.3 Framework de SCRUM\n5.4 La théorie de SCRUM\n5.5 Les Artefacts SCRUM\n6. Méthode XP.\n7. Techniques d’analyse d’options et de décisions.\n7.1 Graphe polaire.\n7.2 Table des bénéfices.\n8. Les modèles basés sur le risque.\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences\nLes méthodes agiles et la qualité Cours ENSG MOCCAND Guillaume\nLes nouveaux tableaux de bord des managers Le projet Business Intelligence clés en main\nAlain Fernandez 6ème édition Eyrolles\nLe chef de projet efficace 12 bonnes pratiques pour un management humain. Alain Fernandez Eyrolles\n6ème édition\nGuide PMBOK + Guide pratique Agile. Project Management Institute. Edition PMI Édition 2018"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S3-PPM.html",
+      "title": "Propriétés physiques des matériaux",
+      "id": "a3c530e3",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:05",
+      "hash": "692a86af4690209b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Propriétés physiques des matériaux\nSemestre 3 – UE Découverte\nMode d'évaluation :\nContinu 100%\nObjectifs de l’enseignement :\nMaîtriser les propriétés fondamentales des matériaux (mécaniques, thermiques, électriques, optiques, etc.) en lien avec les applications énergétiques.\nComprendre les relations entre la structure des matériaux et leurs performances dans des systèmes comme les panneaux photovoltaïques, les piles à combustible, ou les dispositifs de stockage d'énergie.\nAppliquer des techniques de caractérisation et de modélisation pour analyser et optimiser les matériaux.\nÉvaluer l'impact des propriétés des matériaux sur l'efficacité énergétique et la durabilité des systèmes. Connaissances préalables recommandées :\nNotions fondamentales en physique du solide (structure cristalline, liaisons chimiques, bandes d’énergie)\nBases en chimie des matériaux (composition, états allotropiques)\nConnaissances élémentaires sur les propriétés mécaniques et thermiques des solides\nBonnes bases en mathématiques appliquées (calcul différentiel, intégration, analyse de données)\nFamiliarité avec les outils de simulation scientifique (Python, MATLAB, Excel avancé)\nContenu de la matière\n1. Introduction aux matériaux pour l'énergie (1 semaine)\nClassification des matériaux : métaux, polymères, céramiques, composites, semi-conducteurs, matériaux nanostructurés.\nImportance des matériaux dans les technologies énergétiques (solaire, éolien, hydrogène, batteries, etc.).\n2. Propriétés physico-chimiques des matériaux (4 semaines)\nStructure atomique et cristalline : influence sur les propriétés macroscopiques.\nPropriétés mécaniques : résistance, élasticité, fatigue, déformation sous contrainte.\nPropriétés thermiques : conductivité thermique, capacité calorifique, dilatation thermique.\nPropriétés électriques et magnétiques : conductivité, résistivité, propriétés diélectriques.\nPropriétés optiques : absorption, réflexion, transmission (essentiel pour le photovoltaïque).\n3. Matériaux spécifiques pour les énergies renouvelables (5 semaines)\nMatériaux photovoltaïques : silicium, pérovskites, couches minces (CdTe, CIGS).\nMatériaux pour le stockage d'énergie : électrodes et électrolytes pour batteries Li-ion, supercondensateurs, stockage d'hydrogène.\nMatériaux pour la conversion thermique : fluides caloporteurs, matériaux à changement de phase.\nMatériaux pour l'énergie solaire thermique : absorbants sélectifs, revêtements.\n4. Techniques de caractérisation (2 semaines)\nMéthodes expérimentales : spectroscopie (UV-Vis, FTIR), microscopie (SEM, TEM), diffraction des rayons X, analyse thermique (DSC, TGA).\nAnalyse des propriétés en conditions réelles (ex. : résistance à la corrosion, vieillissement).\n5. Défis de la modélisation des matériaux (2 semaines)\nOptimisation des matériaux pour panneaux solaires, éoliennes, ou systèmes de stockage.\nAperçu sur les logiciels pour simuler les propriétés des matériaux (ex. : COMSOL, DFT, CASTEM, SCAPS, SILVACO).\nApproches multi-échelles pour relier les propriétés microscopiques aux performances macroscopiques.\nRéférences :\n[1] Chassaing, P. (2000). Mécanique des fluides, Éléments d’un premier parcours . Cépaduès Éditions.\n[2] Anderson, J. D. (2003). Modern Compressible Flow: With Historical Perspective (3rd ed.). McGraw-\nHill.\n[3] Van Wylen, G. J., Sonntag, R. E., & Desrochers, P. (1992). Thermodynamique appliquée . Éditions du\nRenouveau pédagogique.\n[4] Landau, L. D., & Lifshitz, E. M. (1980). Statistical Physics, Part I . Pergamon."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

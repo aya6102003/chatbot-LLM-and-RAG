@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S4-ELEC1.html",
+      "title": "Électronique 1",
+      "id": "2faef822",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:23",
+      "hash": "52c67cde2980cd0b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Électronique I\nSemestre :\n4  |\nUE :\nMéthodologie  |\nCrédits :\n4  |\nCoefficient :\n2\nObjectifs de l'enseignement\nC'est une matière d'électricité appliquée qui complète la matière Phys 2 et qui constitue une initiation à l'électronique.\nConnaissances préalables recommandées\nNotions d'électricité acquises durant le deuxième semestre, notamment l'analyse des réseaux en courant continu et alternatif.\nContenu de la matière — Cours\nChapitre I : Réseaux électriques en régime continu et en régime variable\nDipôles passifs, impédance complexe, circuit résonant.\nChapitre II : Quadripôles passifs et étude des filtres\nReprésentation (matrices impédance, admittance, hybride), réponse en fréquence (diagramme de Bode), filtres passifs (exemples).\nChapitre III : Diode à semi-conducteurs\nLa jonction p-n, caractéristique I-V, applications (redressement, redressement et filtrage), diode Zener (stabilisation).\nChapitre IV : Introduction aux transistors\nTransistor bipolaire, Principe de fonctionnement, Caractéristiques, polarisation, régime dynamique, schéma équivalent, amplification.\nTravaux Pratiques\nCircuits résonants : Étude des circuits RLC série et parallèle en régime forcé.\nThéorème de Thévenin : Vérification expérimentale du théorème de Thévenin.\nMesure d'impédances : Méthode du circuit accordé. Calcul d'erreurs.\nMesure de puissances : Puissance active. Puissance réactive. Facteur de puissance.\nQuadripôles (filtres passifs) : Réponse fréquentielle (tracé du diagramme de Bode : amplitude et phase). Cas d'un filtre passe-bas, cas d'un filtre passe-haut, cas d'un filtre passe-bande.\nDiode : Caractéristique d'une diode à semi-conducteur, étude d'un transformateur, redressement, redressement et filtrage.\nDiode Zener : Stabilisation d'une tension ondulée.\nMode d'évaluation\nContrôle continu : 50%\nExamen : 50%\nRéférences bibliographiques\nJean-Jacques Rousseau.\nIntroduction à l'électronique : Cours et exercices corrigés\n, Edition ellipses.\nYves Granjon.\nExercices et problèmes d'électronique-Licence\n, Dunod, 2010.\nMourad Haddad.\nExercices corrigés en électronique générale avec résumé du cours\n. OPU-Alger.\nHamoud Ladjouze.\nÉlectronique générale\n, OPU-Alger.\nJ. Niard,\nMesures électriques\n, Nathan, 1981.\nAnnequin et Boutigny,\nCours de physique, Électricité 3\n, Vuibert 1980.\nF. Milsant,\nCours d'électronique, Tome 1 : Circuits à régime variable\n, Ed Eyrolles."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-USA.html",
+      "title": "Cs Usa.Html",
+      "id": "25733e1f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:33",
+      "hash": "8d98b6ee18025158",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nStudents will learn about the Unix/Linux operating system and its history. Students will master the fundamentals of setting up, administering, and maintaining a Linux system. The shell, fault tolerance, managing system resources, backup and recovery, and other topics will be covered.\nContenu de la matière\nI. Administration fondamentale\nIntroduction à Unix\no Unix vs Linux\no Partitionnement, pour quels besoins ? o Login, logout et fichiers de démarrage o (.profile, .bashrc,etc.)\nLe Shell\nTraitement de texte sans et avec X11\nArborescence des fichiers\nScripting Shell\nConfiguration du réseau\nSécurité locale.\nII. Administration avancée\nProcessus de démarrage\nInstallation de logiciels\nServeur DNS, Serveur-Web, etc.\nScripting Shell et la gestion des utilisateurs et des groupes\nVirtualisation KVM\nConteneurisation\nDisque et Stockage LVM\nIII. Administration sécurisée\nSecure-Shell\nRoutage et parefeu\nConfidentialité\nMode d’évaluation : Contrôle continu, examen Références\n• UNIX and Linux System Administration Handbook, 4th Edition.pdf"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

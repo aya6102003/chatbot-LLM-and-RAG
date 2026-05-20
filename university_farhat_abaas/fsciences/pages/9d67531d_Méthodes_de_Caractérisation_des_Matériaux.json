@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S3-MCM.html",
+      "title": "Méthodes de Caractérisation des Matériaux",
+      "id": "9d67531d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:11",
+      "hash": "8d65a4ef132d22b6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Méthodes de Caractérisation des Matériaux\nObjectifs de l'enseignement\nPrésenter les principes et l'application de techniques majeures pour l'étude et la caractérisation de matériaux et des nanostructures.\nTechniques spectroscopiques et microscopiques pour la caractérisation des matériaux\nConnaissances préalables recommandées\nConnaissances préalables sur les nanosciences et nanotechnologie, chimie et physique des matériaux, électrochimie, propriétés physicochimiques des matériaux.\nContenu de la matière\nDiffraction de rayons X\nIntroduction\nPrésentation des états cristallins et amorphes. Interaction des RX avec la matière.\nProduction des RX\nDiffraction des RX. Condition d'apparition du phénomène de diffraction.\nLes techniques de diffraction de RX.\nDiffraction sur poudre : Aspects expérimentaux (Chambres, diffractomètre, préparation de l'échantillon, facteurs influençant) ; Enregistrement d'un diagramme de diffraction X sur poudre ; Conditions d'enregistrements ; Données obtenues ; Exploitation d'un diagramme de diffraction de poudre (Recherche de pics, Décomposition du diagramme, Affinement de profil de raie, Affinement de profil total, Recherche de maille) ; Modélisation des diagrammes de diffraction : fonctions analytiques, méthodes de décomposition, méthode de Rietveld.\nLes méthodes du monocristal : Méthode de Lauë ; Méthode du cristal tournant ; Méthode de Weissenberg ; Méthode de précession\nMicroscopies à sonde atomique : Microscopies en champ proche (AFM, STM, …)\nLe microscope à effet tunnel (STM)\nLe microscope à force atomique (AFM)\nMicroscopies à faisceau d'électrons (MET, MEB, …) et microanalyse EDS\nPrincipes de fonctionnement du MEB.\nFormation de l'image et modes de détection. Micro-analyse X (EDS/EDX) : principes et applications pour l'analyse élémentaire locale.\nPréparation des échantillons pour le MEB.\nPrincipes de fonctionnement du MET. Formation de l'image et modes de contraste (diffraction, masse-épaisseur).\nTechniques complémentaires (diffraction électronique, analyse chimique par spectroscopie électronique par perte d'énergie EELS).\nPréparation des échantillons pour le MET (amincissement).\nMicroscopie électronique à haute résolution (utilisation des diaphragmes, contraste et interprétation des images).\nCaractérisations optiques et électriques\nSpectroscopie de Photoluminescence : Principes et applications\nSpectroscopie Raman : Principes et applications\nDétermination du Gap optique à partir des spectres UV-Vis\nCaractérisation électrique : mesure de la conductivité et effet Hall\nRéférences bibliographiques\nWilliams, D. B., & Carter, C. B. (2009). Transmission Electron Microscopy: A Textbook for Materials Science (2nd ed.). Springer.\nGoldstein, J. et al. (2017). Scanning Electron Microscopy and X-Ray Microanalysis (4th ed.). Springer.\nCullity, B. D., & Stock, S. R. (2014). Elements of X-Ray Diffraction (3rd ed.). Pearson."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

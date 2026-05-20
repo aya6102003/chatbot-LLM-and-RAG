@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S7-IHM.html",
+      "title": "HCI: Interface Design and Evaluation",
+      "id": "59ddfcf7",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:31",
+      "hash": "ec4e86678a16c782",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "HCI: Interface Design and Evaluation\nSemestre : S7\nUnité d’enseignement : UED1\nMatière : IHM : Conception et évaluation des interfaces\nCrédits : 3\nCoefficient : 2\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement\nConfectionner des interfaces graphiques visuelles en respectant les critères ergonomiques et les\nstandards du design des interfaces interactives et conviviales. L’étudiant pourra acquérir les\nconnaissances suivantes :\n- Connaissances des règles ergonomiques\n- Connaissance d’une méthode de développent d’IHM\n- Couplage avec la méthode de développement par objets\n- Mise en œuvre de ces méthodes dans un projet\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\nGénie logiciel ; Programmation Orientée Objet\nContenu de la matière\nChapitre I : Notions fondamentales\n1. Définitions : Interaction, Interactivité, IHM\n2. Historique et évolution des IHMs\n3. Conception d’IHM\n• Principes de base de la conception d'IHM\n• Tendances actuelles en matière de conception d'IHM\n• Défis et opportunités pour les IHMs dans le futur\n4. Types d'interactions et de dispositifs IHM\n5. Évaluation des IHMs : tests utilisateurs et mesures d'utilisabilité\n6. Considérations sur l'accessibilité des IHMs\nChapitre II : Méthodologie de construction d’une IHM\n1. Méthodologie Classique.\n2. Etape d’identification : identification des domaines fonctionnels, Définition du modèle de\nl’utilisateur (notion de profil de l’utilisateur), Définition du modèle des taches (types des\ntâches) et environnement technique.\n3. Etape d’analyse des taches (notion de séquence actions-objectifs).\n4. Etape de modélisation (nécessité de choisir un modèle et une architecture).\n5. Etape de spécification (cahier de charges)\n- Etude des besoins pour l’IHM\n- Spécification conceptuelle\n- Spécification fonctionnelle\n- Spécification syntaxique/ Spécification lexicale\nChapitre III : Modèles & architectures\n1. Le Contrôleur de dialogue (définition & rôle).\n2. Présentation du modèle Seeheim\n3. Présentation du modèle PAC\n4. Présentation du modèle MVC\n5. Présentation des modèles à agents.\nChapitre IV : Règles ergonomiques dans les IHMs\n1. Concepts de bases\n2. Utilisabilité des systèmes interactifs\n3. Heuristiques de Nielsen.\n4. Critères ergonomiques de Bastien et Scapin\na. Guidage\nb. Charge de travail\nc. Contrôle explicite\nd. Adaptabilité\ne. Gestion des erreurs\nf. Homogénéité / cohérence\ng. Signification des codes et dénominations\nh. Compatibilité\n5. Règles d’or de Coutaz\nChapitre V : Conception d’interfaces multi utilisateurs\n1. Etude comparative entre IHM mono utilisateur et multi utilisateur.\n2. La méthode CCU (conception centrée sur l’utilisateur).\n3. Exemples d’interfaces multi utilisateurs.\nChapitre VI : Interfaces adaptatives\n1. Le Modèle de Vaudry.\n2. Etude d’un exemple : Modèle à agents.\nChapitre VII : Les interfaces multimodales et les interfaces futures\n1. Techniques d'interactions avancées, Réalité Augmentée, Interface Tangible, projection 3D,\nAnalyse du mouvement)\n2. Eléments de Programmation Visuelle.\nMode d’évaluation : (type d’évaluation et pondération)\nExamen de TP (40%), Examen (60%)\nRéférences\nB. Shneiderman (1987). Designing the user Interface: Strategies for effective human computers,\nEdition Wesley.\nJ. Coutaz (1990). Interface homme-ordinateur, conception et réalisation. Dunod informatique.\nJ-B,Cramps(1998). Interfaces graphiques ergonomiques, conception et modélisation.\nC.Kolski (2001). Analyse et conception de l'IHM : interaction homme-machine pour les SI Volume1,\nTraité IC2, série Informatique et Systèmes d'Information.\nS-A Serengul (2006). The FastTrack to Human-Computer Interaction, (Paperback) Thomson Learning.\nD. Benyon (2013). Designing Interactive Systems: A Comprehensive Guide to HCI, UX and\nInteraction Design, Pearson; 3 edition.\nKolski, C, Ezzedine, H et Abed, M (2001). Développement du logiciel : des cycles classiques aux\ncycles enrichis sous l’angle des IHM, ouvrage collectif, Analyse et conception de l'IHM, Interaction\nhomme-machine pour les systèmes d'information Vol 1, Hermès, 2001, 250 p, ISBN 27462-0239-5,\np. 23-49.\nYvonne Rogers, Helen Sharp et Jenny Preece (2011). Interaction Design: beyond human computer\ninteraction (3rd edition)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

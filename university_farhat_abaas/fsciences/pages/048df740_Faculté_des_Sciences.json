@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/7202",
+      "title": "Faculté des Sciences",
+      "id": "048df740",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:29",
+      "hash": "dfd42b2b595bcd93",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nACADÉMIE HUAWEI ICT"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "eng",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/5289/eng.pdf",
+        "local_file": "pdfs/048df740_eng.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

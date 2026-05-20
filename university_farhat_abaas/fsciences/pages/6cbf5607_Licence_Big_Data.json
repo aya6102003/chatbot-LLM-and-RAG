@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/BigData.html",
+      "title": "Licence Big Data",
+      "id": "6cbf5607",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:35",
+      "hash": "ac1f654f24769bca",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "SEMESTER 6\nUnit\nCourses\nCredit\nCoeff\nCourse\nTD\nTP\nEvaluation\nTeaching mode\nExam\nCont\nMode\nElearning (%)\nFTF (%)\nUF6\nOperational Research\n6\n4\n1h30\n1h30\n60%\n40%\nFTF\n100%\nSavoir plus\n×\nUM6\nProject\n20\n10\n6h\n100%\nH\n70%\n30%\nSavoir plus\n×\nUD6\nEnterprise Resources Planning\n4\n4\n1h30\n100%\nELEARN\n100%\nSavoir plus\n×\nF: Fundamental M: methdodological D: Discovery T: Transversal\nFTF: Face-To-Face mode\nELEARN: E-learning mode\nH: Hybrid mode (FTF / E-learning)\nThe weighting 70%, 30% means that students will be present 1 week out of 3 for each course in an alternating manner."
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/6cbf5607_table_1_SEMESTER_1.json",
+        "rows": 10
+      },
+      {
+        "file": "tables/6cbf5607_table_2_SEMESTER_2.json",
+        "rows": 10
+      },
+      {
+        "file": "tables/6cbf5607_table_3_SEMESTER_3.json",
+        "rows": 10
+      },
+      {
+        "file": "tables/6cbf5607_table_4_SEMESTER_4.json",
+        "rows": 10
+      },
+      {
+        "file": "tables/6cbf5607_table_5_SEMESTER_5.json",
+        "rows": 10
+      },
+      {
+        "file": "tables/6cbf5607_table_6_SEMESTER_6.json",
+        "rows": 5
+      }
+    ]
+  }
+}

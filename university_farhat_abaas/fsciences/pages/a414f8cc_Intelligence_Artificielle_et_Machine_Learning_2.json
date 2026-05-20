@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S2-IAML2.html",
+      "title": "Intelligence Artificielle et Machine Learning 2",
+      "id": "a414f8cc",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:15",
+      "hash": "c156829d164c468a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Intelligence Artificielle et Machine Learning 2\nObjectifs de l'enseignement\nL'objectif de cet enseignement est d'approfondir les notions d'apprentissage automatique en introduisant des concepts avancés tels que l'apprentissage profond, les réseaux neuronaux, les modèles génératifs et les techniques d'interprétation. À travers ce cours, l'étudiant sera capable d'utiliser ces outils pour la découverte et la conception de nouveaux matériaux dans le domaine des sciences des matériaux.\nConnaissances préalables recommandées\nIl est recommandé d'avoir bien maîtrisé les bases de l'apprentissage automatique, du langage Python ainsi qu'une compréhension basique des structures atomiques et cristallines.\nContenu de la matière\nModèles basés sur les graphes dans les sciences de la matière (3 semaines)\nLes matériaux sont des graphes : atomes = nœuds, liaisons = arêtes.\nRéseaux convolutionnels de graphes de cristaux (CGCNN).\nÉtude de cas : Prévision des énergies de formation\nModèles génératifs pour la conception de matériaux (3 semaines)\nIntroduction aux réseaux adversoriels génératifs (GAN) et aux auto-encodeurs variationnels (VAE).\nApplication : Conception de nouveaux matériaux et molécules.\nÉvaluation des modèles et interprétabilité (2 semaines)\nTechniques d'évaluation des modèles d'apprentissage profond\nValidation croisée, détection du surajustement (overfitting)\nInterprétabilité des modèles : SHAP, LIME\nTechniques avancées de Machine Learning (3 semaines)\nModèles d'ensemble : Random Forests, XGBoost, LightGBM\nAlgorithmes avancés de régression et de classification\nRéduction de la dimensionnalité : Analyse en Composantes Principales (ACP), t-SNE, UMAP\nApplications avancées en sciences des matériaux (3 semaines)\nConception inverse assistée par IA pour la découverte de matériaux\nPrédiction des propriétés avancées : modules élastiques, température critique de supraconductivité\nModélisation multi-échelle : couplage entre IA, dynamique moléculaire et théorie de la fonctionnelle de la densité (DFT)\nMini-projet de spécialisation – Capstone Project (3 semaines)\nLes étudiants réaliseront un projet dans lequel ils appliqueront l'IA/ML pour résoudre un problème en sciences de la matière, en utilisant les compétences acquises tout au long du semestre.\nOutils et bibliothèques utilisés\nLangage de programmation : Python\nEnvironnements : Jupyter Notebooks\nBibliothèques : TensorFlow, PyTorch\nOutils spécifiques : Matminer, Pymatgen\nRéférences bibliographiques\nIan Goodfellow, Yoshua Bengio, Aaron Courville : Deep Learning – MIT Press, 2016\nFrançois Chollet : Deep Learning with Python – Manning Publications, 2017\nD. K. Jha, T. Chen, M. Tan, H. Chen : Machine Learning in Materials Science – Springer, 2018\nKristin Persson et al. : Data Science for Materials Discovery – CRC Press\nRajiv S. Mishra : Materials Informatics: Methods, Tools, and Applications – Elsevier"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S7-COMPIL2.html",
+      "title": "Compilation 2",
+      "id": "d63216a0",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:37",
+      "hash": "0e30295ef2a4c3d5",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Compilation 2\nSemestre : S7\nUnité d’enseignement : UEF2\nMatière : Compilation 2\nCrédits : 5\nCoefficient : 3\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement (Décrire ce que l’étudiant est censé avoir acquis comme compétences après le\nsuccès à cette matière – maximum 3 lignes).\nLes objectifs de ce cours sont multiples :\n- Maîtrise des langages de programmation : En effet, il est primordial de comprendre le fonctionnement\ndes compilateurs afin de programmer efficacement.\n- Conception et description de langages dédiés à des applications spécifiques. Le processus de\ncompilation est souvent associé et restreint aux langages de programmation (procéduraux, orientés\nobjets) alors qu'il peut être généralisé à une multitude de langages tels que :\no Les langages logiques (Prolog adapté aux stratégies d’essais et d’erreurs, aux problèmes de\nplanification,…)\no Les langages fonctionnels (Lisp, Ocaml pour les applications de l’Intelligence Artificielle,…)\no les langages de description de textes,\no les langages de commandes de robots,\no les langages à balise (HTML, XML,…)\no les langages formels\no les langages de description et de conception de programme,\no langage pour les protocoles (ASN1 : description des formats des messages)\no les langages de test pour les protocoles (TTCN)\no les langages de description des architectures (Rapid, Darwin,…)\no les langages pour les techniques de preuves,\no les langages de conception du matériel (VHDL pour le matériel informatique)\no les langages de modélisation graphique ou textuelle des systèmes et d’objets (tel\nque UML),\no les langages de modélisation de la réalité virtuelle\no les langages Postscript\no les langages naturels,…\n- Ecriture des compilateurs pour des processeurs spécifiques comme ceux présents dans les systèmes\nembarqués tels que les téléphones portables, les assistants personnels, les outils de positionnement (GPS),\nles caméscopes numériques, les systèmes de radiologie numériques,…\nConsolidation des connaissances acquises à travers différents modules à savoir les théories des Langages,\nl’algorithmique, Architecture des ordinateurs, la théorie des graphes, l’Assembleur, les systèmes d'exploitation,\nla logique mathématique,…\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\nCompilation 1, Théorie des langages, Architecture des ordinateurs, Système d’exploitation, Algorithmique\nContenu de la matière\nIntroduction générale\nChapitre I : Rappel sur les différentes phases d’un compilateur\nChapitre II - Environnement d’exécution\n1- Allocation-Substitution\n2- Organisation des données à l’exécution\n2-1 Allocation statique\n2-2 Allocation dynamique\nChapitre III- Optimisation de code\n1- Introduction\n2- Blocs de base et graphe de flot de contrôle\n3- Principales optimisations\n3-1 Sous-expressions communes\n3-2 Propagation des copies\n3-3 Elimination de code inutile\n3-4 Optimisation des boucles\n4- Analyse globale des flot de données\nChapitre VI : Génération du code objet\n1- Description de la machine virtuelle\n2- Description de la machine cible\n3- Langage assembleur & langage machine\n4- Exemple de programme en assembleur\n4-1 L’instruction conditionnelle\n4-2 Les instructions itératives\n4-3 Les expressions arithmétiques\n4-4 Les données\n4-4-1 les données statiques\n4-4-2 les données dynamiques\n5- Les procédures simples\n6- Allocation des registres par coloriage de graphe\nChapitre V - Modèles alternatifs de programmation\n16- Compilateurs des langages fonctionnels\n17- Compilateurs des langages orientés objets\n18- Compilateurs des langages scripts\n19- Les parseurs dédiés\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences\n- Compilateurs : principes, techniques et outils - A. Aho, R. Sethi, J. Ullman\n- Compilateurs - D. Grune, H. Bal, C. Jacobs, K. Langendoen - Dunod.\n- The Theory and Practice of Compiler Writing- Sorensen\n- Modern Compiler Implementation In ML - Andrew.W.Appel\n- Programming Language Pragmatics, Michael Scott"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

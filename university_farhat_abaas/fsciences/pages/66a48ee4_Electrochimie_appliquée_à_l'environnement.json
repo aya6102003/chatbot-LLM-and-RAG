@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_DE_L_EAU/S1-EAE.html",
+      "title": "Electrochimie appliquée à l'environnement",
+      "id": "66a48ee4",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:26",
+      "hash": "a34e8e0b38551264",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Electrochimie appliquée à l'environnement\nSemestre :\n1\nUE :\nFondamentale\nCrédits :\n6\nCoefficient :\n3\nObjectifs de l'enseignement\nMaîtriser les principales techniques électrochimiques d'analyse.\nConnaissances préalables recommandées\nL'étudiant doit avoir suivi les enseignements sur les notions de base des réactions d'oxydoréduction.\nContenu de la matière\nChapitre I : Thermodynamique des réactions électrochimiques\nRappel des notions d'électrochimie : réaction électrochimique, système électrochimique, double couche électrochimique, potentiel électrochimique, Relation de Nernst, L'électrolyse et les lois de Faraday, Polarisation et les courbes de polarisation, Théorie de la cinétique électrochimique\nChapitre II : Corrosion des matériaux\nI. Phénomène de corrosion\nDéfinition\nEffets et enjeux de la corrosion (sur l'environnement, sur les biens, impact des gaz corrosifs sur la santé)\nDiagrammes E-pH (Construction des E-pH de l'eau, du fer et d'autres métaux), utilisation du diagramme E-pH dans le domaine de la corrosion\nLes différents types de corrosion : corrosion généralisée (uniforme), corrosion par piqûres localisée, corrosion caverneuse localisée, corrosion sous contrainte, corrosion sous contrainte due aux gaz sulfureux, fragilisation par l'hydrogène, corrosion intercristalline, corrosion galvanique\nII. Les facteurs affectant la corrosion\nInfluence du milieu\nInfluence de l'état de surface\nCondition d'utilisation des pièces\nForme des pièces métalliques\nChoix des matériaux\nIII. Mesures électrochimiques de la vitesse de la corrosion\nMesure de la perte de poids\nTechniques électrochimiques : extrapolation des droites de Tafel, mesure de la résistance de polarisation, impédance électrochimique\nChapitre III : Protections contre la corrosion\nIntroduction\nLes différents types de protection : protection naturelle, protection artificielle, protection chimique, traitement de surface, protection électrochimique (cathodique et anodique), protection par inhibiteur\nChapitre IV : Méthodes électrochimiques de dépollution\nIntroduction\nL'électrocoagulation\nElectroflottation\nL'électrodéposition\nL'électrodialyse et l'électro-électrodialyse\nElectro-activation\nElectro-Fenton\nProcédés d'oxydation avancés : photocatalyse hétérogène, élimination des contaminants par oxydation électrochimique, photoélectrocatalyse\nElectrochimie et récupération des métaux\nChapitre V : L'électrochimie et énergies renouvelables : production et stockage\nGénéralités sur les piles\nLa pile de type Leclanché :\nPile saline\nPile alcaline\nAutres types de piles alcalines :\nPile à oxyde de mercure\nPile Argent zinc\nPile Metal/air, exemple : air zinc\nPile à combustible\nAccumulateurs électrochimiques :\nGénéralités sur les accumulateurs\nL'accumulateur au plomb\nLes accumulateurs alcalins\nLes accumulateurs au Lithium\nChapitre VI : La bioélectrochimie ; méthodes électrophorétiques de séparation\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\n« Électrochimie : des concepts aux applications » – F. Miomandre, S. Sadki, P. Audebert et R. Méallat-Renault, Ed. Dunod (2005)\n« L'électrochimie : fondamentaux avec exercices corrigés » – C. Lefrou, S. Sadki, P. Fabry et J.-C. Poignet, Ed. EDP Sciences, Collection Grenoble Sc. (2009)\n« Électrochimie : principes, méthodes et applications » – A. J. Bard, L. R. Faulkner, R. Rosset et D. Bauer, Ed. John Wiley & Sons (2001)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_DE_L_EAU/S2-PTB.html",
+      "title": "Procédés de traitements biologiques",
+      "id": "4f359ebb",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:25",
+      "hash": "0c635c58996f2a40",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Procédés de traitements biologiques\nSemestre :\n2  |\nUnité d'enseignement :\nFondamentale\nObjectifs de l'enseignement\nComprendre les mécanismes biologiques des procédés de traitement (eaux, sols, air)\nMaîtriser les technologies clés (boues activées, biofilms, lagunage)\nSavoir caractériser et optimiser un système biologique (mesures MES/MVS, cinétiques)\nLier théorie et pratique via des TP ciblés et des études de cas industriels (des sorties pédagogiques)\nConnaissances préalables recommandées\nConnaissances basiques de microbiologie (Semestre 1).\nContenu de la matière\nIntroduction aux Procédés Biologiques\nRôle des traitements biologiques (ou secondaires en STEP)\nEpuration biologique\nClassification :\nCultures libres (boues activées) vs fixées (biofilms)\nAérobie/anaérobie\nTraitement biologique des eaux usées\nTraitement par Boues Activées\nPrincipe : Schéma d'une station, rôle des bactéries, boue activée vs SBR (Sequencing Batch Reactor)\nParamètres de fonctionnement d'une station d'épuration\nÂge des boues, charge massique (F/M), DBO₅/DCO\nIndice de Mohlman (IV30) : Interprétation et diagnostic\nProblèmes courants : Bulking filamenteux, moussage\nDénitrification biologique dans une station d'épuration\nProcédés à Biofilms\nLits bactériens : Principe, substrats, avantages/inconvénients\nDisques biologiques (RBC) : Rotation, oxygénation, applications\nMBBR (Moving Bed Biofilm Reactor) : Supports mobiles, efficacité\nLagunage\nTypes de lagunage\nRôle des écosystèmes : Algues-bactéries, macrophytes\nÉtude de cas\nTraitement des Sols et Déchets\nBioremédiation\nIn situ (bioaugmentation) vs ex situ (bioréacteurs)\nValorisation des Déchets\nCompostage (rôle des micro-organismes)\nMéthanisation (étapes biochimiques, biogaz)\nMode d'évaluation\nContinu : 33%  |  Examen : 67%\nRéférences bibliographiques\nMetcalf & Eddy (2014). Wastewater Engineering: Treatment and Resource Recovery (5th ed.). McGraw-Hill.\nJenkins, D., Richard, M.G., & Daigger, G.T. (2003). Manual on the Causes and Control of Activated Sludge Bulking and Foaming (3rd ed.). CRC Press.\nTchobanoglous, G., et al. (2020). Integrated Biological Treatment Processes. In Wastewater Engineering (7th ed.). McGraw-Hill.\nStandard Methods for the Examination of Water and Wastewater (23rd ed., 2017). APHA/AWWA/WEF."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

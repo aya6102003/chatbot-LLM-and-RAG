@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_DE_L_EAU/S3-CPE.html",
+      "title": "Chimiométrie et Plans d'expériences",
+      "id": "f58e48cc",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:25",
+      "hash": "b4bba5135119cf9a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Chimiométrie & Plans d'expériences\nSemestre :\n3  |\nUnité d'enseignement :\nMéthodologie\nObjectifs généraux\nCette unité d'enseignement est orientée principalement sur l'exploitation des plans d'expériences, à savoir : le choix du plan à adopter, le choix des paramètres pertinents de l'étude (criblage), l'analyse de leur influence sur des réponses cibles, la modélisation empirique de ces dernières, la simulation pour des situations inconnues et l'optimisation.\nL'objectif principal est de former l'étudiant à la bonne conduite lors de l'approche d'un problème expérimental ; il lui permettra de tirer le maximum d'informations, voire des conclusions, pour un nombre minimal d'essais, et par conséquent en moins de temps et pour des coûts moindres. L'étudiant maîtrisera en outre les outils statistiques et mathématiques pour une exploitation optimale des résultats d'expériences chimiques.\nContenu de la matière\nChapitre 1 : Introduction à la chimiométrie et à la Planification des expériences (DoE) (3 semaines)\nDéfinitions, Histoire de la science\nClassification des plans d'expériences\nConcepts fondamentaux : facteur, réponse, interaction, répétabilité\nIntroduction des Plans factoriels complets (2^k) et fractionnaires\nChapitre 2 : Fondamentaux de la statistique appliquée à la chimie (3 semaines)\nStatistiques descriptives : moyenne, médiane, variance, écart-type, coefficient de variation\nLoi normale, histogrammes, boxplots\nTests d'hypothèses : Student, chi², ANOVA simple\nIntervalle de confiance et niveau de signification (p-value)\nChapitre 3 : Plans factoriels complets à 2 niveaux 2^k (4 semaines)\nConstruction : Matrice d'expériences\nTraitement : Matrice de calcul des effets\nÉtude statistique : Régression linéaire, erreurs, tests des effets, analyse de variance (ANOVA) & construction de modèles empiriques\nOptimisation & Validation\nExemples d'applications – Logiciels : JMP, Statgraphics, Modde,… : Procédés de polymérisation : synthèse & caractérisation ; Chimie macromoléculaire : Compoundage préalable à la mise en œuvre des polymères ; Procédés pharmaceutiques et cosmétiques ; Procédés environnementaux, etc.\nChapitre 4 : Plans centraux composites à 2 niveaux (3 semaines)\nConstruction : Matrice d'expériences\nTraitement : Matrice de calcul des effets\nÉtude statistique : Régression, erreurs, tests des effets, analyse de variance (ANOVA), modélisation empirique\nOptimisation & Validation\nExemples d'applications – Logiciels : JMP, Statgraphics, Modde,…\nChapitre 5 : Autres plans (2 semaines)\nPlan fractionnaire / Plan de criblage ; Exemples d'applications sur machine\nPlan de mélange ; Exemples d'applications sur machine\nMode d'évaluation\nContinu : 50%  |  Examen : 50%\nRéférences bibliographiques\nJacques Goupy, Les plans d'expériences, Optimisation du choix des essais et de l'interprétation des résultats, (2017). 5ème Edition Dunod.\nSado, G., & Sado, M. C. (2000). Les plans d'expériences : de l'expérimentation à l'assurance qualité. Afnor.\nTinsson, W. (2010). Plans d'expériences : constructions et analyses statistiques (Vol. 67). Springer Science & Business Media.\nGoupy, J., & Creighton, L. (2006). Introduction aux plans d'expériences – 3ème édition – Livre + CD-Rom. Hachette.\nDroesbeke, J. J., Fine, J., & Saporta, G. (Eds.). (1997). Plans d'expériences : applications à l'entreprise. Editions technip.\nLinder, R. (2005). Les plans d'expériences : un outil indispensable à l'expérimentateur. Presses des Ponts."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

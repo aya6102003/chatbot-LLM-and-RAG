@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING2EME/ISI.html",
+      "title": "Isi.Html",
+      "id": "9e85b97f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:45",
+      "hash": "adbde2a5ad96f831",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI \u0013 NOTION DE SYSTEME\nD�finitions de syst�me\nComposition d\u0019un syst�me\nObjectifs d\u0019un syst�me\nFonction d\u0019un syst�me\nUne classification des syst�mes\nSyst�mes naturels et syst�mes techniques\nSyst�mes physiques et syst�mes conceptuels\nSyst�mes statiques et dynamiques\nSyst�mes ouverts et syst�mes ferm�s\nCycle de vie d\u0019un syst�me\nSyst�mes et sous syst�mes\nContr�le d\u0019un syst�me\nII- NOTION D\u0019INFORMATION\nD�finitions :\nQu\u0019est ce qu\u0019une donn�e, une information, une connaissance ?\nTh�orie de l\u0019information\nLa mesure de la quantit� d\u0019information\nL\u0019analyse de la cha�ne de communication\nQualit� d\u0019information\nIII- OUTILS D\u0019ANALYSE DE L\u0019INFORMATION\nCodification de l\u0019information\nD�finitions\nPuissance lexicographique\nObjectif de la codification\nTypes de codification\nCaract�ristiques d\u0019un code\nLes syst�mes de codification\nComment choisir une codification ?\nContr�le de l\u0019information\nN�cessit� des contr�les\nDiff�rents types de contr�le\nOrdre d\u0019ex�cution des contr�les\nContr�les manuels et contr�les automatiques\nProtection de l\u0019information\nIV- NOTION DE SYSTEME D\u0019INFORMATION\nD�finitions\nQu\u0019est ce qu\u0019un syst�me d\u0019information ?\nQuels sont les diff�rents sous-syst�mes ? (strat�gique, tactique, op�rationnel)\nQu\u0019est ce qu\u0019une technologie de l\u0019information ?\nObjectifs\nR�le du S.I dans l\u0019organisation\nMod�le OID (Lemoigne)\nClassification des S.I\nS.I op�rationnels\nS.I d\u0019aide � la d�cision\nS.I de communication\nCycles de vie de d�veloppement des S.I"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

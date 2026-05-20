@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S2-DPC.html",
+      "title": "Dynamique des Particules chargées",
+      "id": "93cf75b9",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:52",
+      "hash": "ace4663de7795f18",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Dynamique des Particules chargées\nSemestre 2 – UE Découverte\nPrérequis\nNotions basiques de mathématiques, Mécanique des fluides, Physique statistique et Électromagnétisme.\nObjectifs de l'enseignement\nCe cours initie à l'étude des trajectoires et interactions des particules chargées dans des champs électromagnétiques, en s'appuyant sur la loi de Lorentz et les équations de Maxwell. Il couvre les effets magnétiques (cyclotron, hélicoïdal) et électriques (accélération, déviation), et ouvre sur des notions relativistes, quantiques et des applications (plasmas, accélérateurs, technologies quantiques). Il vise à former des chercheurs rigoureux et polyvalents en physique théorique.\nProgramme détaillé\nChapitre I : Mouvement d'une particule chargée dans un champ électromagnétique\nMouvement dans un champ électrostatique uniforme\nMouvement dans un champ magnétique uniforme\nMouvement de dérive\nMouvement dans des champs non-uniformes\nMouvement dans des champs électriques et magnétiques variables\nInvariants adiabatiques\nApplication : confinement des particules chargées\nChapitre II : Théorie cinétique\nRappels (espace des phases, fonctions de distribution...)\nÉquations de Vlasov et de Boltzmann\nÉquation cinétique de Boltzmann\nMoments de la fonction de distribution\nMoments de l'équation cinétique de Boltzmann et équations de conservation\nQuelques fonctions de distribution (à l'équilibre, non-thermique...)\nChapitre III : Théorie fluide\nÉquations d'Euler\nModèle à plusieurs fluides\nRelations de fermeture (équations d'état...)\nDescription à un seul fluide : dérivation des équations MHD à partir de la théorie multi-fluide\nLoi d'Ohm généralisée\nLes deux régimes MHD\nChapitre IV : Collisions\nDynamique des collisions binaires\nModèle des sphères dures\nCollisions coulombiennes\nSections efficaces\nMode d'évaluation\nContrôle continu : 50 %\nExamen : 50 %\nRéférences bibliographiques\nF.F. Chen, Introduction to Plasma Physics, Plenum Press, New York, 1974.\nR.J. Goldston & P.H. Rutherford, Introduction to Plasma Physics, Institute of Physics Publishing, Bristol, 1995.\nJ.A. Bittencourt, Fundamentals of Plasma Physics, Pergamon Press, 1986.\nJ.-L. Delcroix & A. Bers, Physique des Plasmas, Tome 1, Savoirs Actuels, EDP Sciences / CNRS Éditions, 1994.\nJ.-L. Delcroix & A. Bers, Physique des Plasmas, Tome 2, Savoirs Actuels, EDP Sciences / CNRS Éditions, 1994.\nG. Belmont et al., Introduction à la Physique des Plasmas, ISTE Éditions.\nS. Galtier, Magnétohydrodynamique, Dunod, 2018.\nP. Bellan, Fundamentals of Plasma Physics, Cambridge University Press.\nD. Gurnett & A. Bhattacharjee, Introduction to Plasma Physics with Space and Laboratory Applications, Cambridge University Press."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_DE_L_EAU/S1-POA.html",
+      "title": "Procédés d'oxydation avancée",
+      "id": "ed656ddc",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:28",
+      "hash": "ad35ae3a1b114ce1",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Procédés d'oxydation avancée\nSemestre :\n1\nUE :\nFondamentale\nCrédits :\n4\nCoefficient :\n2\nObjectifs de l'enseignement\nL'objectif principal de ce module est de permettre aux étudiants de Master de comprendre et de maîtriser les principes et les applications des procédés d'oxydation avancée (POAs) dans le traitement des eaux polluées. À travers ce module, les étudiants seront amenés à prendre conscience des enjeux liés à la pollution de l'eau et des limites des techniques de traitement conventionnelles, ce qui justifie l'intérêt croissant pour des technologies plus performantes telles que les POAs.\nConnaissances préalables recommandées\nChimie organique, cinétique chimique, connaissances en chimie de l'environnement et méthodes analytiques.\nContenu de la matière\nChapitre 1 : Introduction générale\nPrésentation du problème de la pollution de l'eau\nLimite des méthodes de traitement conventionnelles\nIntérêt des procédés d'oxydation avancée (POA)\nChapitre 2 : Fondements théoriques des Procédés d'Oxydation Avancée\nDéfinition des POA\nPrincipe de formation des radicaux hydroxyles (•OH)\nMécanismes de dégradation des polluants organiques\nParamètres influents (pH, température, DCO, TOC...)\nChapitre 3 : Classification des Procédés d'Oxydation Avancée\nOxydation chimique :\nOzonation (O₃)\nPeroxyde d'hydrogène (H₂O₂)\nRéaction de Fenton et photo-Fenton\nOxydation photochimique :\nUV/H₂O₂\nUV/O₃\nPhotocatalyse TiO₂/UV\nOxydation électrochimique :\nElectro-Fenton\nOxydation anodique\nProcédés combinés\nChapitre 4 : Étude des paramètres opératoires\nEffet du pH\nInfluence de la concentration des oxydants\nEffet de la concentration en polluant\nTemps de traitement\nEffet de la température\nChapitre 5 : Applications pratiques des POA et évaluation de l'efficacité\nTraitement des eaux industrielles (textile, pharmaceutique, …)\nSuivi de la cinétique de dégradation\nIndicateurs : DCO, TOC, biodégradabilité (BOD₅)\nMéthodes analytiques (UV-Vis, COT, HPLC…)\nChapitre 6 : Avantages et limites des POA\nAvantages : efficacité, absence de résidus, minéralisation\nLimites : coût, énergie, formation de sous-produits\nComparaison avec d'autres techniques\nChapitre 7 : Enjeux économiques, environnementaux et innovations dans les POAs\nAspects économiques et environnementaux :\nAnalyse technico-économique des procédés\nConsommation en réactifs et en énergie\nImpacts environnementaux et stratégies d'optimisation\nPerspectives et innovations :\nUtilisation de la lumière solaire dans les POA\nNouveaux catalyseurs et matériaux\nCouplage POA avec d'autres technologies (membranes, ultrasons ou plasma)\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\nZaviska, F., Drogui, P., Mercier, G. and Blais, J.-F. (2009) Procédés d'oxydation avancée dans le traitement des eaux et des effluents industriels : Application à la dégradation des polluants réfractaires. Revue des sciences de l'eau, 22, 535-564.\nAnaëlle Gabetm, Évaluation de procédés d'oxydation avancée pour le traitement des micropolluants organiques émergents en sortie de petites et moyennes stations de traitement des eaux usées. Thèse de doctorat, soutenue le 1er décembre 2022.\nSameh, J., Wali, A., Buonerba A., Zarra, T., Belgiorno, V., Naddeo, V., Ksibi, M., (2020) Efficient and Sustainable Treatment of Tannery Wastewater by a Sequential Electrocoagulation-UV Photolytic Process, Journal of Water Process Engineering Volume 38, 10142.\nTopolovec, B., Nevena Puac, N., Petrovic M., (2022) Pathways of organic micropollutants degradation in atmospheric pressure plasma processing, Chemosphere. 294, 133606.\nMalika Mokhtari et Hafida Gaffour – Les procédés d'oxydation avancée dans le traitement des eaux. Edition universitaires européennes, 24-02-2012.\nThomas Oppenländer, Advanced Oxidation Processes (AOPs): Principles, Reaction Mechanisms, Reactor Concepts. Wiley-VCH, 2003."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

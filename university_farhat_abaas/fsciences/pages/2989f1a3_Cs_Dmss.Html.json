@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-DMSS.html",
+      "title": "Cs Dmss.Html",
+      "id": "2989f1a3",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:32",
+      "hash": "25686d52ea5c2b44",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nThe main purpose of the content of this module is to provide concerned students with an essential background for establishing an adequate security policy within a digitalized institution (Equipped with a computer system). In other words, to protect system against threats that could disrupt it. These disruptions can be denial of service, theft of confidential data, etc. Therefore, the so-called policy must be strongly related to the importance of the stakes involved in the institution\nContenu de la matière\nManaging Secure Systems\nSurveillance Technologies\nSecurity Policies\nSecurity for Protocol Management\nLocation Management\nQoS Management\nResource Management\nChannel Management\nMobility Management\nDigital Contents Copyright Protection\nSystem Security Management\nNetwork Security Management\nManagement in Network Equipment\nStorage Area Networks (SAN) Management\nAnalysis of design tools for secure systems\nFirewall Systems\nHacking Techniques and Related Issues\nIntrusion Detection System (IDS)\nHoneypot\nVirus Issues (Detection, Prevention ...)\nTrustedComputing\nAlertCorrelation\nAttack Graphs\nIncident Responding\nThe concepts of Security\nSecurity Policies\nSecurity Strategies\nSecurity measures\nMode d’évaluation : Contrôle continu, examen Références\n• Whitman and Mattord, Management of Information Security, Sixth Edition, ISBN-13: 978- 1337405713, ISBN-10: 133740571X, Cengage Learning, 2019"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

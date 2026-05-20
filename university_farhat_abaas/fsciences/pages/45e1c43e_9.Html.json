@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/IQ/9.html",
+      "title": "9.Html",
+      "id": "45e1c43e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:33",
+      "hash": "b3a54c6698e34dc6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI.   Introduction\nII.  Quantum Comuping\n-      Qubits and quantum States\n-      Quantum operations\n-      Quantum Mesure\n-      Quantum Oracle\n-      Quantum  Circuit\n-      Quantum  Mixed States\nIII. Quantum Algoithms\n-      Algorithme of Deutch\n-      Algorithme of Deutsch-Jozsa\n-      Algorithme of Grover\n-      Algorithme of Shor\n-      Quantum Teleportation\n-      Quantum Error Correction\n-      Cryptographie quantique"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

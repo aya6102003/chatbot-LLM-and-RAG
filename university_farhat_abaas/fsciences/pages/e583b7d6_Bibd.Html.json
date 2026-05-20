@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/BIBD.html",
+      "title": "Bibd.Html",
+      "id": "e583b7d6",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:32",
+      "hash": "dd3e5e9d17d1836a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nBusiness Intelligence and Big Data (BIBD) — Semester 5, Unit UFC5, Credits: 4, Coeff: 2\nCourse Objectives\nThis course introduces Business Intelligence (BI) and its role in supporting decision-making within organizations. Students will learn how to collect, process, and analyze large datasets using BI and Big Data tools. The course emphasizes data visualization, reporting, data-driven decision-making, and the integration of Big Data with BI systems. Topics include data warehousing, data mining, dashboards, predictive analytics, and Big Data technologies.\nCourse Content\nChapter 1: Introduction to Business Intelligence\nOverview of Business Intelligence\nRole of BI in organizations\nBI vs. Data Science vs. Analytics\nChapter 2: BI Architecture and Components\nBI system architecture\nData sources and data integration\nETL processes (Extraction, Transformation, Loading)\nChapter 3: Data Warehousing and Big Data Integration\nConcepts of data warehousing\nDesign and implementation of data warehouses\nStar and snowflake schemas\nIntroduction to Big Data (characteristics: volume, variety, velocity, veracity)\nIntegration of Big Data with BI\nChapter 4: Data Mining, Analytics, and Big Data Processing\nIntroduction to data mining techniques\nClassification, clustering, and association\nApplications of data mining in BI\nBig Data analytics (MapReduce, Hadoop, Spark)\nChapter 5: BI and Big Data Tools\nOverview of popular BI tools (e.g., Tableau, Power BI, QlikView)\nIntroduction to Big Data tools (e.g., Hadoop, Spark)\nHands-on training with selected BI and Big Data tools\nCreating reports and dashboards from large datasets\nChapter 6: Reporting, Performance Management, and Big Data\nCreating and managing reports\nKey Performance Indicators (KPIs)\nScorecards and balanced scorecards\nReporting on Big Data insights\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\n“Business Intelligence: A Managerial Perspective on Analytics” by Ramesh Sharda, Dursun Delen, and Efraim Turban\n“Business Intelligence Guidebook: From Data Integration to Analytics” by Rick Sherman\n“Successful Business Intelligence: Unlock the Value of BI & Big Data” by Cindi Howson\n“Big Data: Principles and Best Practices of Scalable Real-Time Data Systems” by Nathan Marz and James Warren"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

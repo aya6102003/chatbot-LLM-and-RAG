@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S3-SID.html",
+      "title": "S3 Sid.Html",
+      "id": "71ff49e5",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:38",
+      "hash": "064645f06e79fef8",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Decision Support Information Systems\nSemester:\n3  |\nType:\nUEF31  |\nVHS:\n63h  |\nWeekly hours:\nC: 1h30 / TD: 1h30 / TP: 1h30  |\nPersonal work VHS:\n42h  |\nCoefficient:\n3  |\nCredits:\n5\nTeaching Objectives\nUnderstand the fundamentals of decision-making and the different approaches\nUnderstand the fundamental concepts of decision support information systems\nStudy decision support IS (DSIS) and their role in the decision-making process\nDevelop skills in designing and implementing decision solutions\nAcquire knowledge of decision support tools and techniques\nBecome familiar with data analysis and modelling techniques in a decision-making context\nAnalyse and evaluate the impact of DSIS on the organisation and its effectiveness\nRecommended prior knowledge:\nDatabases, programming, algorithmics, information systems, statistics and operations research.\nCourse Content (Lectures: 21h)\nFoundations of Decision-Making\nDefinition of decision, decision-making process\nTypes of decisions (strategic, tactical, operational)\nDecision-making approaches (rational, intuitive, etc.)\nFactors influencing decision (information, uncertainty, risk)\nInformation sources and their relevance\nDecision Support Information Systems (DSIS)\nDefinition and role of DSIS in decision-making\nDSIS typology and conceptual framework: data, information, knowledge, wisdom, experience\nDSIS architecture: client-server, web, data warehouses, datamarts, etc.\nDSIS types: TPS, MIS, DSS, ESS\nData sources and integration: ETL techniques\nDimensional data modelling: star, snowflake\nAnalysis and reporting tools: dashboards, OLAP queries\nDecision Support Tools and Technologies\nDBMS: Oracle, MySQL, SQL Server\nBusiness Intelligence tools: SAP BusinessObjects, Tableau, Power BI\nQuery languages: SQL\nModelling and simulation; linear programming, decision trees\nSensitivity analysis, scenario analysis\nData mining tools; AI and machine learning for decision-making\nDSIS Design and Implementation\nDSIS development stages: needs analysis, design, development, deployment, maintenance\nProject management methodologies: Agile, Waterfall\nData security and confidentiality in DSIS\nOrganisational and human aspects of DSIS\nDecision Databases\nData models for data warehouses (star, snowflake model)\nDesign and implementation of data warehouses\nQuery performance optimisation\nData quality and metadata management\nDSIS Evaluation and Management\nDSIS evaluation criteria (performance, usability, etc.)\nDSIS project planning and management\nSecurity and data confidentiality\nFuture trends and prospects of DSIS\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous tests, personal work\nReferences\nPh. Vallin and D. Vanderpooten (2002).\nAide à la décision : une approche par les cas\n. Ellipses, Paris.\nTurban, E., Volonino, L., & McLean, E. R. (2018).\nInformation Technology for Management\n. Wiley.\nInmon, W. H. (2005).\nBuilding the Data Warehouse\n. John Wiley & Sons.\nKimball, R., & Ross, M. (2013).\nThe Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling\n. John Wiley & Sons."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

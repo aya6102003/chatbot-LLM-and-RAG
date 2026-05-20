@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S2-VCC.html",
+      "title": "S2 Vcc.Html",
+      "id": "4f8334bf",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:46",
+      "hash": "492fbdbaa1a408e6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Virtualization and Cloud Computing\nSemester:\n2  |\nType:\nUEM2  |\nVHS:\n63h  |\nWeekly hours:\n4h30  |\nLecture:\n1h30  |\nLab:\n3h\nPersonal work VHS:\n42h  |\nCoefficient:\n2  |\nCredits:\n4\nTeaching Objectives\nThe Virtualisation & Cloud Computing module aims to help students understand the basic concepts of cloud computing and virtualisation, as well as associated technologies and tools. Students will be able to deploy and manage applications on the Cloud, understand different deployment and service models, monitor performance, and ensure data security and compliance.\nCourse Content (21h)\nIntroduction to Cloud computing and virtualisation\nBasic concepts of Cloud computing and virtualisation\nDifferent types of clouds (public, private, hybrid) and service models (IaaS, PaaS, SaaS)\nVirtualisation protocols (hypervisors, containers)\nVirtualisation technologies:\nContainerisation technologies (Docker, Kubernetes)\nHypervisors (VMware, Hyper-V)\nCloud management tools:\nCloud management tools (OpenStack, CloudStack)\nCloud monitoring tools (Nagios, Zabbix)\nConfiguration management tools (Ansible, Chef)\nDeploying applications on the Cloud:\nDeployment on public cloud (AWS, Azure, GCP)\nDeployment on private cloud (OpenStack, VMware)\nReference architectures for Cloud applications\nManaging VMs and containers\nSecurity and compliance in the Cloud:\nSecurity challenges in the Cloud\nBest security practices for Cloud resources\nRegulations and compliance standards for Cloud data\nTrends and evolutions in Cloud computing and virtualisation:\nCurrent market trends and new technologies\nFuture prospects for Cloud computing and virtualisation\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — tests, personal work"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

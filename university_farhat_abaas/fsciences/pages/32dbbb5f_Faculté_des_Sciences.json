@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9117",
+      "title": "Faculté des Sciences",
+      "id": "32dbbb5f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:10",
+      "hash": "a84fc681054eaa82",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "يرجى من الطلبة المدرج اسمائهم في المرفق، الاتصال بمكتبة الكلية لتسوية\nوضعيتهم\nN°\nNom\nPrénom\n1\nCHETIOUI\nSelsabil kater nada\n2\nLAMECHE\nHanaa\n3\nNACER\nNesrine\n4\nBENSBAA\nNadia\n5\nMAGHZA\nAmina\n6\nSATTA\nImene\n7\nABIZA\nIkram\n8\nADJISSA\nAmira-ouassila\n9\nAZZI\nNour elyakine\n10\nHENNOUS\nDounia\n11\nKACEM\nMeriem\n12\nKASSALI\nYasmine\n13\nLAIFA\nYasmine\n14\nMOUAHLI\nYasmine\n15\nSERSOUB\nLina\n16\nAIDOUD\nRoumaissa\n17\nAIT CHABANE\nAmel\n18\nBRAHMA\nInssaf\n19\nDOUS\nAya\n20\nKORICHI\nSelsabil\n21\nZAIBET\nRahma\n22\nZEMMIT\nKaouther\n23\nANGUEK\nAffaf\n24\nBOUCHEKOUM\nImane\n25\nHERRADA\nSafoua\n26\nKADRI\nChaima\n27\nREMAL\nAsma\n28\nSEFFARI\nAbdelhadi\n29\nCheriet\nMeriem\n30\nKAROUCHE\nAmel"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/32dbbb5f_table_1_untitled.json",
+        "rows": 31
+      }
+    ]
+  }
+}

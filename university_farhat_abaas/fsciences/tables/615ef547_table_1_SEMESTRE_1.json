@@ -1,0 +1,143 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Licence_Informatique_SI.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "V.H hebdomadaire",
+    "VHS\n14 sem",
+    "Mode d'évaluation",
+    ""
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "V.H hebdomadaire",
+      "VHS\n14 sem",
+      "Mode d'évaluation",
+      ""
+    ],
+    [
+      "C",
+      "TD",
+      "TP",
+      "Autres",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE FondamentaleCode : UEF11Crédits : 10Coefficients : 6",
+      "Analyse 1",
+      "6",
+      "4",
+      "3h",
+      "3h",
+      "",
+      "3h",
+      "84h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Algèbre 1",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "3h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE FondamentaleCode : UEF12Crédits : 12Coefficients : 8",
+      "Algorithmique et structure de données 1",
+      "7",
+      "5",
+      "3h",
+      "1h30",
+      "3h",
+      "3h",
+      "105h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Structure machine 1",
+      "5",
+      "3",
+      "1h30",
+      "1h30",
+      "",
+      "3h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE MéthodologieCode : UEM11Crédits : 2Coefficients : 1",
+      "Logiciels libres (Open source)",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "",
+      "2h",
+      "21h",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversalCode : UET11Crédits : 2Coefficients : 1",
+      "Langue Étrangère",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "",
+      "2h",
+      "21h",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE DécouverteCode : UED11Crédits : 4Coefficients : 2",
+      "Electricité générale",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "2h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "18",
+      "13h30",
+      "9h",
+      "3h",
+      "18h",
+      "357h",
+      ""
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 8
+}

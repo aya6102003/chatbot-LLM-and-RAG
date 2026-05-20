@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/455",
+      "title": "Faculté des Sciences",
+      "id": "1933fcbb",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:47:37",
+      "hash": "76308309bf660f89",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "BENCHEIKH Kamel\nBENCHEIKH Kamel\nGrade:Professeur\nGrade:Professeur\nEmail:bencheikhkml@univ-setif.dz\nEmail:bencheikhkml@univ-setif.dz\nDépartement:Physique\nBureau:\nBureau:\n\nResearch Interest\n:\n1 Energy Density Functional method with semiclassical approach\n2) Low\ndimensional systems and Ultra-Cold atoms\n3) Spin and\nCurrent Density Functional Theory (Formal aspects)\n4) Spintronics.\nMy Recent published papers\n25) K. Bencheikh, S. Medjedel, and G.\nVignale,\nPhys.\nRev. A 89, 063620 (2014)\n26) K. Bencheikh, E. Rasasen,\nJ. Phys. A: Math. Theor. 49, (2016) 015205\n27) K. Bencheikh, B. P. Van zyl and K.\nBerkane,\nPhys. Rev. B 94, 075423 (2016)\n28) R. Boumaza and K. Bencheikh,\nJ. Phys. A: Math. Theor. 50 (2017) 505003 (11pp)\n29) S. Medjedel and K. Bencheikh,\nPhys. Lett. A 383 1915-1921 (2019)\n30) Y. Redjati,\nK. Berkane and K. Bencheikh,\nJ. Phys.\nChem. Solids. 134 (2019)\n313-318\n31)K. Bencheikh and L.M. Nieto,\nPhys. Lett. A\n384 (2020) 126599.\nExact results for\nnonequilibrium dynamics in Wigner phase  space\n.\n32) K. Bencheikh, A. Putaja and E.\nRasasen.\nJ. Phys. A: Math. Theor. 54 255302  (2021)\n33) K. Bencheikh, L. M. Nieto and U. Ancarani, The European Physical Journal Plus\nT\n136,\n721 (2021)\nsical Journal Plus\nFor the complete list please see  : Bencheikh kamel-Google Scholar Citations.\nAny copy of my papers upon request .\nEXERCICES MATH2 (Master 1: Theoretical Physics)\nPolycopie de TD\nJournaux (6)\nElectron localization function for non-collinear spins\nJacques K. Desmarais, Giovanni Vignale, Kamel Bencheikh, Alessandro Erba, and Stefano Pittalis\nPhys. Rev. Lett. 133, 136401 (2024) , 133 (2024), pp 136401\nPreserving the Hermiticity of the One-Body Density Matrix for a Non-Interacting Fermi Gas.\nL. M. Farrell, D. Eaton, P. Chitnelawong, K. Bencheikh and B. P. van Zyl\nJ. Phys. A: Math. Theor. 57 (2024) 395201, 57 (2024), pp 395201\nOrbital microscopic magnetization and persistent currents of a harmonically confined two-dimensional electron gas under strong magnetic field’’\nAmina Berkane, Soheyb Medjedel and Kamel Bencheikh\nPhysics Letters A 522 (2024) 129769 , 522 (2024), pp 129769\n’’The The momentum distribution of two bosons in one dimension with infinite contact repulsion in harmonic trap gets analytical’’.\nK. Bencheikh, L. M. Nieto and U. Ancarani\nThe European Physical Journal Plus , 36 (2021), pp 721\nAiry gas model: from three to reduced dimensions\nK. Bencheikh, A. Putaja and E. Rasasen.\nJournal of Physics Mathematical and Theoretical . , 54 (2021), pp 255302\nExact results for nonequilibrium dynamics in Wigner phase space\nKamel Bencheikh and Luis Miguel Nieto\nPhysics Letters A, 384 (2020), pp 126599"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "Exact results for\r\nnonequilibrium dynamics in Wigner phase  space",
+        "url": "http://mathphys.uva.es/files/2020/05/Bencheikh_Nieto_May4_2020.pdf",
+        "type": "external"
+      },
+      {
+        "text": "T",
+        "url": "https://link.springer.com/journal/13360",
+        "type": "external"
+      },
+      {
+        "text": "1656",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/1656",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Exact results for\r\nnonequilibrium dynamics in Wigner phase  space",
+        "url": "http://mathphys.uva.es/files/2020/05/Bencheikh_Nieto_May4_2020.pdf"
+      }
+    ],
+    "tables": [
+      {
+        "file": "tables/1933fcbb_table_1_untitled.json",
+        "rows": 1
+      }
+    ]
+  }
+}

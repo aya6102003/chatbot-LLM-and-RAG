@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/9112",
+      "title": "Faculté des Sciences",
+      "id": "88b41d02",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:29:43",
+      "hash": "deabe7fc8df417af",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nSOUTENANCE DE DOCTORAT, N. DRIAI\nle 23 mai 2026 à 16:00"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Affichage Doctorat DRIAI Nedjoua 2",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6529/Affichage_Doctorat_DRIAI_Nedjoua-2.pdf",
+        "local_file": "pdfs/88b41d02_Affichage_Doctorat_DRIAI_Nedjoua_2.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

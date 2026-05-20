@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/RSD.html",
+      "title": "Guide pédagogique",
+      "id": "5b8eac34",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:54",
+      "hash": "36e3c63a8d83c2f2",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Le master RSD (Réseaux et Systèmes Distribués) permet aux étudiants d’acquérir des compétences nécessaires à la mise en œuvre et à la maintenance des applications informatiques concernant le fonctionnement de plusieurs réseaux d’ordinateurs partageant des données et coopérant pour offrir des services.\nIl vise aussi à approfondir leurs connaissances dans les nouvelles technologies de ce domaine telles que les réseaux filaires, les réseaux sans fil et le cloud computing, un vaste domaine qui a pu intéresser et couvert le monde de l’industrie, l’éducation, la santé et toute notre vie quotidienne.\nCe master aborde non seulement l’aspect théorique de ce domaine et ses problématiques de recherche mais aussi un aspect pratique sous forme de travaux pratiques.\nResponsable : Dr D. Mechta                 mechtadjamila@univ-setif.dz"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/5b8eac34_table_1_SEMESTRE_1.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/5b8eac34_table_2_SEMESTRE_2.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/5b8eac34_table_3_SEMESTRE_3.json",
+        "rows": 10
+      },
+      {
+        "file": "tables/5b8eac34_table_4_SEMESTRE_4.json",
+        "rows": 4
+      }
+    ]
+  }
+}

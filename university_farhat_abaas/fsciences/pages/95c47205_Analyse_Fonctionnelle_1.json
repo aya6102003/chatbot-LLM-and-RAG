@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S1-AF1.html",
+      "title": "Analyse Fonctionnelle 1",
+      "id": "95c47205",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:30",
+      "hash": "eb4dba288e10d745",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Analyse Fonctionnelle 1\nSemestre :\n1  |\nUnité d'enseignement :\nFondamentale\nVolume Horaire Hebdomadaire :\nCours : 3h, TD : 1h30\nCrédits :\n6  |\nCoefficients :\n3\nObjectifs de l'enseignement\nIntroduire les structures fondamentales des espaces de dimension infinie (Banach et Hilbert) et maîtriser les grands théorèmes de l'analyse fonctionnelle qui constituent le socle de l'analyse moderne et de la théorie des EDP.\nConnaissances préalables recommandées\nTopologie générale, théorie de l'intégration (Lebesgue), algèbre linéaire.\nContenu de la matière\nChapitre 1 : Espaces de Banach\nEspaces vectoriels normés, complétude, exemples (ℓᵖ, C(K)).\nOpérateurs linéaires continus, norme d'opérateur.\nLemme de Baire et ses conséquences.\nChapitre 2 : Espaces de Hilbert\nProduit scalaire, orthogonalité, théorème de projection sur un convexe fermé.\nBases hilbertiennes (systèmes orthonormaux complets), inégalité de Bessel, identité de Parseval.\nLe théorème de Représentation de Riesz.\nChapitre 3 : Les théorèmes fondamentaux de l'analyse fonctionnelle\nLe théorème de Hahn-Banach (formes analytique et géométrique).\nLe théorème de Banach-Steinhaus (principe de la borne uniforme).\nLe théorème de l'application ouverte et le théorème du graphe fermé.\nLe théorème du graphe fermé.\nMode d'évaluation\nExamen final (60%), Contrôle Continu (40%)\nRéférences bibliographiques\nH. Brezis,\nFunctional Analysis, Sobolev Spaces and Partial Differential Equations\n. Springer, 2011.\nW. Rudin,\nFunctional Analysis\n. McGraw-Hill, 1991.\nP. D. Lax,\nFunctional Analysis\n. Wiley-Interscience, 2002."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

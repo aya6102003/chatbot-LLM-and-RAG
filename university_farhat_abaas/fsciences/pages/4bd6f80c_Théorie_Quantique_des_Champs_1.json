@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S1-TQC1.html",
+      "title": "Théorie Quantique des Champs 1",
+      "id": "4bd6f80c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:54",
+      "hash": "1cdd449261ba9493",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Théorie Quantique des Champs 1\nSemestre 1 – UE Fondamentale\nPrérequis\nRelativité restreinte (niveau Licence).\nMécanique quantique (niveau Licence).\nObjectifs de l'enseignement\nLe contenu de cette matière correspond aux trois premiers chapitres des notes de David Tong. L'étudiant sera initié à la notion de champs classiques, à leur quantification dans le cas scalaire, au calcul des propagateurs, des amplitudes de transition, ainsi qu'aux sections efficaces et taux de désintégration.\nProgramme détaillé\nIntroduction : Champs en physique\nDéfinition et utilité de la notion de champ\nSystème d'unités naturelles\nNotations et préliminaires mathématiques\nChapitre 1 : Théorie Classique des Champs\nÉquations d'Euler-Lagrange : cas du champ scalaire (Klein-Gordon) et électromagnétique (Maxwell)\nPropriétés de localité et invariance de Lorentz\nLe théorème de Noether : applications aux symétries de translation, Lorentz et symétries internes\nIntroduction au formalisme hamiltonien\nChapitre 2 : Champs Libres\nQuantification canonique des champs\nChamps scalaires réels et complexes\nReprésentation de Heisenberg\nCalcul du propagateur\nChapitre 3 : Champs en Interaction\nReprésentation d'interaction\nThéorème de Wick et contractions\nDiagrammes de Feynman : règles de construction\nCalcul d'amplitudes de diffusion simples\nChapitre 4 : Observables Physiques\nSections efficaces\nTaux de désintégration\nFonctions de Green\nChapitre 5 : Approfondissements et Révisions\nDiscussion sur les limites du formalisme perturbatif\nIntroduction à d'autres types d'interactions (selon le temps disponible)\nSynthèse des résultats obtenus\nMode d'évaluation\nContrôle continu : 33 %\nExamen : 67 %\nRéférences bibliographiques\nD. Tong, Quantum Field Theory, http://www.damtp.cam.ac.uk/user/tong/qft.html\nM. E. Peskin and D. V. Schroeder, An Introduction to Quantum Field Theory, Addison-Wesley, 1995.\nA. Das, Lectures On Quantum Field Theory, World Scientific Publishing, 2008.\nM. Kaku, Quantum Field Theory, Oxford University Press, 1993.\nS. Weinberg, The Quantum Theory of Fields, Vol. 1, Cambridge University Press, 1995.\nN. N. Bogoliubov and D. V. Shirkov, Introduction to the Theory of Quantized Fields, Wiley, 3rd ed., 1980.\nJ.-P. Derendinger, Théorie quantique des champs, PPUR, 2001."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

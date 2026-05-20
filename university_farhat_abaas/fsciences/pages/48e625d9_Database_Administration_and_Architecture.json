@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S5-BDD-ADMIN.html",
+      "title": "Database Administration and Architecture",
+      "id": "48e625d9",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:38",
+      "hash": "eb9f19e819809c82",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Database Administration and Architecture\nSemestre : S5\nUnité d’enseignement : UEF2\nMatière : BDD : Administration et Architecture\nCrédits : 5\nCoefficient : 4\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement (Décrire ce que l’étudiant est censé avoir acquis comme\ncompétences après le succès à cette matière – maximum 3 lignes).\nCe module permet de cerner le niveau de stockage des données relationnelles. Seront présentées\nles contraintes d’intégrités (définition et représentation à l’aide d’un langage), l’organisation de\ndonnées et structures d’accès, et les méta données, le mécanismes des vues ainsi que le contrôle\nd’accès.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour\npouvoir suivre cet enseignement – Maximum 2 lignes).\nLes concepts généraux de BD ainsi que leur modélisation et interrogation.\nContenu de la matière :\nChapitre 1 : Généralités sur les SGBD : concepts et architecture\nPartie 1 : Présentation générale des BD et SGBD : Rappels\n1- Généralités\n1-1 Définitions : BD et SGBD\n1-2 Historique des SGBD,\n2- Niveaux de description et Architecture des SGBD\n3- Objectifs et fonctionnalités d’un SGBD : Le SGBD ORACLE\nPartie 2 : Gestion de l’intégrité\n4- Vue d’ensemble des CI\n4-1 Les CI statiques\n4-2 Les CI dynamiques : les Triggers\nChapitre 2 : Les méta données\n1- Introduction : nécessité de description des différents types de relations d’une base de\ndonnées (relation système, relation de base, relation virtuelle)\n2- Les concepts de base\n2-1 : les principaux catalogues ; Relation, Attribut, Index, Vue etc.\n2-2 : Gestion dynamique des catalogues\n2-3 : Le dictionnaire de données ORACLE\nChapitre 3 : Mécanisme des vues\n1- Définition des vues\n2- Interrogation à travers les vues\n3- Mise à jour à travers les vues\nChapitre 4 : Gestion des privilèges d’accès\n1- Privilèges système\n2- Privilèges objets\n3- Notion de rôle\nMode d’évaluation : Contrôle continu (40%), Examen (60%)\nRéférences bibliographiques (Livres et polycopiés, sites internet, etc) :\nCiter au moins 3 à 4 références classiques et importantes.\n- J. Date. Introduction aux bases de données. Thomson publishing France 6ième édition.\n1998\n- C. Delobel et M. Adiba : bases de données et systèmes relationnels. Dunod 1982\n- T. Connoly et Corolyn Begg. Systèmes de bases de données : approche pratique de\nconception de l’implémentation et de l’administration. Eyrolles 2005\n- Frederic Brouard SQL CampusPress 2001\n- Georges Gardarin : Les BD systèmes et leurs langages Eyrolles 2003\n- Nacer Boudjlida : Gestion et Administration des Bases de Donnees. Application a\nSybase et Oracle. Dunod, Collection Sciences Sup. 2003."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

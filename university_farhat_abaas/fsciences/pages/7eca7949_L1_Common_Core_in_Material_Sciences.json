@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/L1_SM_Common_Core.html",
+      "title": "L1 Common Core in Material Sciences",
+      "id": "7eca7949",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:33:11",
+      "hash": "0613d9f75e612ca8",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Guide pédagogique\nL1 – Common Core in Material Sciences (Sciences de la Matière)\nL1 – Common Core in Material Sciences\nDomain: Material Sciences  |  Field: L1 – Socle Commun (Common Core)  |  Academic Year: 2025–2026\nSEMESTER 1\nUnité\nd'Enseignement\nMatière\nCrédits\nCoefficient\nVolume horaire hebdomadaire\nVHS\n15 Semaines\nMode d'évaluation\nCours\nTD\nTP\nAutres\nContinu\nExamen\nFundamental Unit\nCode : FU 1\nCredits : 18\nCoefficient : 09\nMathematics 1\n6\n3\n1h30\n3h00\n82h30\n67h30\n33%\n67%\nSavoir plus\n×\nPhysics 1\n6\n3\n3h00\n1h30\n82h30\n67h30\n33%\n67%\nSavoir plus\n×\nChemistry 1\n6\n3\n3h00\n1h30\n82h30\n67h30\n33%\n67%\nSavoir plus\n×\nMethodology Unit\nCode : MU 1\nCredits : 9\nCoefficient : 5\nPhysics Lab 1\n2\n1\n1h30\n27h30\n22h30\n50%\n50%\nSavoir plus\n×\nChemistry Lab 1\n2\n1\n1h30\n27h30\n22h30\n50%\n50%\nSavoir plus\n×\nComputer Science 1\n5\n3\n1h30\n2h30\n65h00\n60h00\n50%\n50%\nSavoir plus\n×\nDiscovery Unit\nCode : DU 1\nCredits : 1\nCoefficient : 1\nUniversity Study Methods\n1\n1\n1h30\n2h30\n22h30\n100%\nSavoir plus\n×\nTransversal Unit\nCode : TU 1\nCredits : 2\nCoefficient : 2\nEnglish 1 (A2 Level)\n2\n2\n1h30\n1h30\n5h00\n45h00\n100%\nSavoir plus\n×\nTotal Semester 1\n30\n17\n12h00\n6h00\n7h00\n375h00\n375h00\nSEMESTER 2\nUnité\nd'Enseignement\nMatière\nCrédits\nCoefficient\nVolume horaire hebdomadaire\nVHS\n15 Semaines\nMode d'évaluation\nCours\nTD\nTP\nAutres\nContinu\nExamen\nFundamental Unit\nCode : FU 1\nCredits : 18\nCoefficient : 09\nMathematics 2\n6\n3\n1h30\n3h00\n82h30\n67h30\n33%\n67%\nSavoir plus\n×\nPhysics 2\n6\n3\n3h00\n1h30\n82h30\n67h30\n33%\n67%\nSavoir plus\n×\nChemistry 2\n6\n3\n3h00\n1h30\n82h30\n67h30\n33%\n67%\nSavoir plus\n×\nMethodology Unit\nCode : MU 1\nCredits : 9\nCoefficient : 5\nPhysics Lab 2\n2\n1\n1h30\n27h30\n22h30\n50%\n50%\nSavoir plus\n×\nChemistry Lab 2\n2\n1\n1h30\n27h30\n22h30\n50%\n50%\nSavoir plus\n×\nComputer Science 2\n5\n3\n1h30\n2h30\n65h00\n60h00\n50%\n50%\nSavoir plus\n×\nDiscovery Unit\nCode : DU 1\nCredits : 1\nCoefficient : 1\nBusiness Economics\n1\n1\n1h30\n2h30\n22h30\n100%\nSavoir plus\n×\nTransversal Unit\nCode : TU 1\nCredits : 2\nCoefficient : 2\nEnglish 2 (B1 Level)\n2\n2\n1h30\n1h30\n5h00\n45h00\n100%\nSavoir plus\n×\nTotal Semester 2\n30\n17\n12h00\n6h00\n7h00\n375h00\n375h00"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "Guide pédagogique",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/index.html",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/7eca7949_back.png"
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/7eca7949_table_1_SEMESTER_1.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/7eca7949_table_2_SEMESTER_2.json",
+        "rows": 11
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9102",
+      "title": "Faculté des Sciences",
+      "id": "0b5ab9e4",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:42:45",
+      "hash": "2d73bdbc823c7093",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Instructions concernant le déroulement des examens\n·\nIl est strictement interdit de porter ou d’utiliser des téléphones portables, des montres intelligentes ou tout autre appareil électronique à l’intérieur des amphis et des salles d’examen.\n·\nIl est interdit de circuler dans les couloirs de la faculté pendant les périodes d’examen.\n·\nL’accès aux amphis et aux salles d’examen n’est pas autorisé après 30 minutes du début de l’examen.\n·\nIl n’est pas permis de quitter les amphis et les salles d’examen avant l’écoulement de 30 minutes après le début de l’examen.\n·\nIl est interdit d’échanger des outils ou du matériel pendant les examens."
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

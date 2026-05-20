@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S3-RM.html",
+      "title": "Research Methodologies",
+      "id": "9debde34",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:53",
+      "hash": "1559eca53048c222",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nResearch Methodologies  |\nSemester:\n3  |\nType:\nUET3\nVHS:\n21h  |\nWeekly hours:\n1h30  |\nLectures:\n1h30  |\nTD:\n-  |\nTP:\n-\nPersonal work VHS:\n21h  |\nCoefficient:\n1  |\nCredits:\n2\nTeaching Objectives\nTeach students the skills and knowledge necessary to conduct effective scientific research\nCover key research steps: from topic formulation to final report writing, including literature review, research design, data collection and analysis, and oral presentation of results\nRecommended Prerequisites\nScientific writing, language proficiency\nCourse Content (Lectures: 21h)\nIntroduction to Scientific Research\nDefinition and objectives of scientific research\nTypes of research (fundamental, applied, etc.)\nRole of methodology in research\nImportance of language proficiency\nResearch ethics in computer science: plagiarism, self-plagiarism, generative AI (ChatGPT, DeepSeek, etc.)\nResearch Topic Formulation\nIdentifying and selecting a relevant research topic\nLiterature review: searching relevant sources (articles, books), critical analysis of existing literature (state of the art), identifying gaps\nProblem formulation: clear research question, research hypotheses\nResearch objectives: specific objectives, expected outcomes\nResearch Design\nChoosing appropriate research methods (experimental, qualitative, quantitative, etc.)\nData collection planning (sampling, collection tools, etc.)\nResearch plan development\nData Collection\nImplementing the research plan\nUsing data collection tools and techniques specific to computer science\nManaging and organizing collected data\nData Analysis\nUsing data analysis software\nProcessing and analyzing collected data\nStatistical methods and other appropriate analysis techniques\nInterpreting results and discussing implications\nResearch Report Writing\nPublication modes and structures: article, patent, thesis, book, poster, oral communication\nWriting software: LaTeX, Overleaf, etc.\nStructure and organization of a scientific research report\nClear and concise writing of report sections\nResults presentation and conclusions discussion\nBibliographic reference management tools (APA, IEEE, Zotero, EndNote, etc.) and appendices\nOral Presentation of Results\nPreparation and delivery of an oral research presentation\nScientific communication skills\nAssessment\nSemester exam (in-person): 100%\nBibliographic References\nMichel Beaud (2020). L'art de la thèse. Éditions La Découverte.\nStefan Kottwitz (2021). LaTeX Beginner's Guide (2nd Edition). Packt Publishing.\nJean-Marie Dubois (2005). La rédaction scientifique: mémoires et thèses – formes régulières et par articles. Estem.\nMichèle Lenoble-Pinson (1996). La rédaction scientifique: conception, rédaction, présentation. De Boeck Université.\nChristine Gérard & Jean Germain (1985). Recherche bibliographique et documentaire: généralités. Faculté de Philosophie et Lettres."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

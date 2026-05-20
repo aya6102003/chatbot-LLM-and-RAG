@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING/ADO1.html",
+      "title": "Ado1.Html",
+      "id": "438a6f0a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:45",
+      "hash": "ed4383cfbbd75392",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la matière\nChapitre 1 : Eléments de base\nNumérisation et codage, conversion, représentation des  nombres\nAlgèbre et boole\nChapitre 2 : Logique combinatoire  et séquentielle\nFonctions de base\nSynthèse des fonctions combinatoires\nEléments de mémorisation\nSynthèse des circuits séquentiels\nRéseaux logiques programmables\nChapitre 3 : Vue d'ensemble de l'ordinateur\nFonction de mémorisation\nFonction de communication\nFonction d'exécution\nChapitre 4 : Etude d'une machine pédagogique\nTRAVAUX PERSONNELS\nDes travaux (Exposés, TP, Etude de cas, Simulations) personnels devront être réalisés."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

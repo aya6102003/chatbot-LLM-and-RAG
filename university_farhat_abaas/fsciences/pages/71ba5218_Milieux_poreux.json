@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S3-MP.html",
+      "title": "Milieux poreux",
+      "id": "71ba5218",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:05",
+      "hash": "9b84cf6ea647d9ba",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Milieux poreux\nSemestre 3 – UE Découverte\nMode d'évaluation :\nContinu 100%\nObjectifs de l’enseignement :\nComprendre les structures et propriétés physiques des milieux poreux. Maîtriser les lois régissant les\nécoulements monophasiques et polyphasiques dans ces milieux. Apprendre à modéliser et analyser les\nphénomènes de transfert en contexte poreux, avec une approche appliquée aux domaines de l’énergie, de\nl’environnement et du stockage.\nConnaissances préalables recommandées :\nNotions de base en mécanique des fluides et en transfert de masse. Bonne maîtrise des principes de\nconservation (masse, quantité de mouvement). Familiarité avec les concepts élémentaires de porosité,\nperméabilité et capillarité.\nContenu de la matière\n1. Structure et propriétés des matériaux poreux: (2 semaines)\nstructure et classification, porosité, surface,\nspécifique, perméabilité, propriétés mécaniques des milieux poreux\n2. Statique des fluides dans les milieux poreux (3 semaines)\nsaturation, théorie de la capillarité, fluides en équilibre.\n3. Écoulements monophasiques: (3 semaines)\nLois de la filtration, Description macroscopique des phénomènes de transport en milieux poreux.\n4. Écoulements laminaires: (3 semaines)\nmesure de la perméabilité, extensions de la loi de Darcy, Convection forcée externe et dans les conduites,\nconvection naturelle, convection thermosolutale\n5. Écoulements polyphasiques (3 semaines)\nPropriétés interfaciales, drainage et inhibition, concept de perméabilités relatives, équations fondamentales des écoulements polyphasiques, étude analytique d’écoulements unidirectionnels ; calcul et méthodes de mesures des perméabilités relatives.\nRéférences :\n[1] KAVIANY, M , \"Porous Media: Theory and Experiments\".\n[2] MICHAEL W., \"Porous Media: Theory, Experiments and Numerical Applications\"\n[3] DINCER I., \"Principles of Heat Transfer in Porous Media\"\n[4] SUKHATME, S P , \"Principles of Heat Transfer in Porous Media\"."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

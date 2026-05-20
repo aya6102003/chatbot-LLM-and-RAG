@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/production_pedagogiques/483",
+      "title": "Faculté des Sciences",
+      "id": "34f84dce",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T13:01:08",
+      "hash": "92424207f0e2f80a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "الهيئات\nالعلمية\nالمجلس العلمي للكلية\nتركيبة المجلس\nرزنامة الإجتماعات\nمحاضر الإجتماعات\nاللجنة العلمية لقسم الكيمياء\nتركيبة اللجنة\nرزنامة الإجتماعات\nاللجنة العلمية لقسم الإعلام الآلي\nتركيبة اللجنة\nرزنامة الإجتماعات\nاللجنة العلمية لقسم الرياضيات\nتركيبة اللجنة\nرزنامة الإجتماعات\nاللجنة العلمية لقسم الفيزياء\nرزنامة الإجتماعات\nتركيبة اللجنة"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/34f84dce_table_1_untitled.json",
+        "rows": 3
+      }
+    ]
+  }
+}

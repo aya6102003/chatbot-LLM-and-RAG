@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S2-SIC.html",
+      "title": "S2 Sic.Html",
+      "id": "30457433",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:37",
+      "hash": "af30a14bedad7c67",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Cooperative Information Systems\nSemester:\n2  |\nType:\nUEF22  |\nVHS:\n42h  |\nWeekly hours:\nC: 1h30 / TD: 1h30  |\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nUnderstand the fundamental concepts of cooperative information systems (CIS)\nMaster the architectures and key technologies of CIS\nDevelop skills in CIS design, development and management\nAnalyse collaboration and communication challenges in CIS\nEvaluate the impact of CIS on organisations and individuals\nRecommended prior knowledge:\nProject management, databases, information systems.\nCourse Content (Lectures: 21h)\nCooperative Information Systems\nFoundations of distributed information systems: aspects, characteristics\nDefinition and principles of collaboration and coordination\nChallenges and issues of CIS in various contexts\nCIS Architecture\nCooperative work and its forms and modalities\nArchitecture models for CIS (group-oriented, reference architectures, standards-based)\nCooperative work tools (synchronous groupware, asynchronous groupware, DMS, workflow)\nCIS Engineering\nCIS development methodologies (agile, OSSAD, etc.)\nNeeds analysis and business process modelling\nCollaborative user interface design\nProject management and change management in CIS\nCIS security\nCollaboration and Communication in CIS\nSociological analysis of cooperative/collaborative work\nSynchronous and asynchronous communication tools (chat, videoconferencing, etc.)\nKnowledge and shared information management\nDecision support tools (GDSS, …)\nSocial aspects of CIS\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous tests, personal work\nReferences\nAlquier & al, (2000).\nLes systèmes d'information coopératifs : une approche par les collecticiels\n.\nBaghdadi Y. (1997).\nContribution méthodologique à la conception des systèmes d'information coopératifs\n. Thèse de doctorat. Toulouse 1.\nNurcan, Selmin (1996). Analyse et conception de systèmes d'information coopératifs. TSI'96.\nVincent Couturier (2004).\nL'ingénierie des systèmes d'information coopératifs par réutilisation\n. Thèse de doctorat, Lyon 3.\nVan Der Aalst, Kees Van Hee (2002).\nWorkflow Management: Models, Methods and Systems\n. MIT Press."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

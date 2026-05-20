@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S1-PROG.html",
+      "title": "Programming",
+      "id": "fb4e94d5",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:55",
+      "hash": "1edccbc88be6bab2",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nMéthodologie (UEM 1)  |\nCrédits :\n4  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs de l'enseignement\nCe cours vise la maîtrise par l'étudiant d'un ou deux langages de programmation modernes applicables aux domaines scientifiques choisi parmi les langages : compilé (FORTRAN), interprété (JAVA), orienté objet (VISUAL C++), et symbolique (MATHEMATICA).\nConnaissances préalables recommandées\nL'étudiant est supposé avoir déjà acquis (en licence) les éléments de base de l'analyse numérique (approximation et zéros de fonctions, différentiation, intégration, équations différentielles), ainsi qu'une initiation à MATLAB.\nContenu de la matière\nLa programmation se basera sur un ou deux langages choisis parmi les langages suivants :\nMatlab\nPython\nFortran\nMathematica\nJava\nVisual C++\nApplications\nRéférences bibliographiques\nLivre de Mathematica, Stephen Wolfram, Addison Wesley 1988\nNumerical recipes in FORTRAN, W.H. Press, S.A. Tenkolsky, W.T. Wetterling, B.P. Fannery, Cambridge"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

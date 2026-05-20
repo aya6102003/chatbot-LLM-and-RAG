@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIM_ANAL_CONTROLE_QUALITE/S2-EA.html",
+      "title": "S2 Ea.Html",
+      "id": "3e29eb98",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:19",
+      "hash": "d5d430229d74a015",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Électrochimie Analytique\nSemestre :\n2  |\nUE :\nFondamentale  |\nCrédits :\n6  |\nCoefficients :\n3\nObjectifs de l'enseignement\nMaîtriser les concepts fondamentaux de l'électrochimie\nComprendre les principales techniques d'électrochimie analytique\nDévelopper et évaluer des méthodes d'analyse électrochimique\nAppliquer les techniques électrochimiques à des cas réels\nConnaître les capteurs électrochimiques et leurs applications\nDévelopper des compétences expérimentales et critiques\nContenu de la matière\n1. Rappels et fondements de l'électrochimie (2 semaines)\nSystèmes électrochimiques : électrodes, cellules, potentiels\nRéactions rédox, demi-équations, électrons échangés\nNernst, électrodes de référence, convention des potentiels\nDiagrammes d'Ellingham, prédiction de la spontanéité\n2. Techniques potentiométriques (2 semaines)\nPrincipe de la potentiométrie (sans passage de courant)\nÉlectrodes sélectives : pH, ions spécifiques\nCourbes de titrage potentiométrique\nApplications : dosage acido-basique, complexométrie, redox\n3. Techniques ampérométriques et voltampérométriques (3 semaines)\nCourant/temps/tension : loi de Faraday, courant de diffusion\nPolarographie, voltampérométrie linéaire, cyclique, différentielle\nÉlectrodes à goutte de mercure, électrodes solides\nDétection de métaux, d'antioxydants, d'espèces traces\n4. Techniques de conductimétrie (2 semaines)\nConductivité des solutions électrolytiques\nCellule de conductimétrie, constante de cellule\nDosages conductimétriques : acide fort, base faible, précipitation\nEffets de la température, corrections\n5. Électrolyse et coulométrie (2 semaines)\nÉlectrolyse à courant constant ou à potentiel constant\nDosage coulométrique primaire et secondaire\nApplications analytiques : titrage de Cl⁻, SO₂\nRendement de courant, surpotentiels\n6. Applications modernes de l'électrochimie analytique (2 semaines)\nCapteurs et biosenseurs électrochimiques\nMicroélectrodes, électrochimie en flux, dispositifs portables\nDétection de polluants, électrochimie environnementale\nCouplage avec autres techniques (UV, HPLC, etc.)\nMode d'évaluation\n33% Contrôle continu + 67% Examen\nRéférences bibliographiques\nW. Schmickler, Interfacial electrochemistry, Oxford university press, NY, 1996\nH. H. Girault, Électrochimie physique et analytique, Presses polytechniques et universitaires romandes, Lausanne, 2001"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

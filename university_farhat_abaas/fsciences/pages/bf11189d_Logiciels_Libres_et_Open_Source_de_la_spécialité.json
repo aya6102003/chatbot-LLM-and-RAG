@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S2-LLOS.html",
+      "title": "Logiciels Libres et Open Source de la spécialité",
+      "id": "bf11189d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:15",
+      "hash": "ae2f17a773993f76",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Exploration de Logiciels Libres et Open Source de la spécialité\nObjectifs de l'enseignement\nL'objectif de cet enseignement est de développer les compétences numériques des étudiants en les formant à l'utilisation d'outils informatiques libres et open source, essentiels dans un environnement professionnel et académique de plus en plus digitalisé. Ce cours leur permettra d'acquérir une maîtrise pratique des logiciels et bases de données open source pour répondre aux besoins spécifiques des chercheurs et laboratoires, notamment dans la résolution de problèmes complexes liés à leur domaine.\nConnaissances préalables recommandées\nIl est recommandé d'avoir bien maîtrisé les outils informatiques de base tels que les suites bureautiques, les logiciels de gestion de projet et les plateformes collaboratives, afin de faciliter l'apprentissage des outils avancés utilisés dans ce module.\nContenu de la matière\nIntroduction aux logiciels libres (2 semaines)\nLibre vs open source vs logiciel propriétaire\nHistoire du mouvement : de Richard Stallman à Linux\nLes quatre libertés fondamentales du logiciel libre\nEnjeux éthiques, économiques et sociétaux\nLes licences open source (2 semaines)\nLes principales familles de licences : GPL, MIT, Apache\nPrincipe du copyleft – rôle et importance\nCe qu'on peut ou ne peut pas faire avec chaque licence\nExemples concrets de projets et leurs modèles de licence\nL'économie du logiciel libre (2 semaines)\nComment les projets open source génèrent des revenus\nModèle des services payants autour de produits gratuits\nRôle des entreprises majeures (Red Hat, Canonical, etc.)\nFinancement participatif et subventions publiques\nOutils et environnements open source (2 semaines)\nPanorama des logiciels libres utiles dans le domaine scientifique\nComparaison avec les solutions propriétaires équivalentes\nInstallation et prise en main d'un système d'exploitation libre (ex. : Linux)\nDécouverte des suites bureautiques libres (ex. : LibreOffice)\nContribution aux projets open source (2 semaines)\nFonctionnement des communautés open source\nPlateformes de collaboration : GitHub, GitLab\nBonnes pratiques pour contribuer au code, documentation ou tests\nRéaliser sa première contribution à un projet libre\nSécurité et protection des données (2 semaines)\nPourquoi les logiciels libres sont généralement plus sûrs\nOutils gratuits pour protéger ses données personnelles\nChiffrement de bout en bout et vie privée numérique\nÉtudes de cas réalistes de failles et protections\nLe logiciel libre en entreprise (2 semaines)\nAvantages du libre pour les organisations\nMigration depuis des solutions propriétaires – bonnes pratiques\nAspects juridiques et réglementaires à connaître\nÉtudes de cas : grandes migrations réussies (Google, NASA, etc.)\nFutur du logiciel libre (2 semaines)\nTendances actuelles : IA, cloud computing, edge computing\nDéfis technologiques et philosophiques à relever\nComment participer activement à l'avenir du logiciel libre\nSynthèse des enjeux clés pour les futurs professionnels\nRéférences bibliographiques\nSam Williams : Free as in Freedom: Richard Stallman's Crusade for Free Software – O'Reilly, 2002\nRichard Stallman : Richard Stallman et la révolution du logiciel libre – Eyrolles, 2010\nFrançoise Mouël : L'économie du logiciel libre – CNRS Éditions, 2021\nAPRIL : Guide du logiciel libre en entreprise – avril.org, 2022\nOpen Source Initiative : The OSI Licenses Overview – opensource.org/licenses, 2023"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

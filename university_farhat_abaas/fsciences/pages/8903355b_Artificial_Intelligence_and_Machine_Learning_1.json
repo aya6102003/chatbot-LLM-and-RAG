@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S1-IAML1.html",
+      "title": "Artificial Intelligence and Machine Learning 1",
+      "id": "8903355b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:58",
+      "hash": "ef89c3f9d3be7161",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nTransversale (UET 1)  |\nCrédits :\n1  |\nCoefficient :\n1\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs de l'enseignement\nL'objectif principal de ce cours est de doter les étudiants d'une compréhension globale des techniques d'apprentissage automatique (ML) et de leurs applications.\nContenu de la matière\nChapitre 1 :\nIntroduction à l'intelligence artificielle\nChapitre 2 :\nIntroduction aux Algorithmes de Recherche pour la Résolution de Problèmes\nChapitre 3 :\nPlanification\nChapitre 4 :\nReprésentation des Connaissances et Raisonnement Automatique\nChapitre 5 :\nApprentissage Automatique\nRéférences bibliographiques\nMÜLLER, A.C., GUIDO, S., Introduction to Machine Learning with Python: a guide for data scientists. O'Reilly Media, Inc (2016)\nFLACH, P., Machine Learning: The Art and Science of Algorithms that Make Sense of Data. Cambridge University Press (2012)\nBISHOP, C.M., NASRABADI, N.M., Pattern recognition and machine learning, Springer, New York (2006)\nTensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems. O'Reilly Media, Inc (2019)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

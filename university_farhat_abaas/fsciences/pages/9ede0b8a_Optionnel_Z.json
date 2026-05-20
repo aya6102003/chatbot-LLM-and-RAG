@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S3-OPTZ.html",
+      "title": "Optionnel Z",
+      "id": "9ede0b8a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:33",
+      "hash": "6c81d400c05fd15d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Optionnel Z\nSemestre :\n3  |\nUnité d'enseignement :\nMéthodologique\nVolume Horaire Hebdomadaire :\nCours : 1h30, TD : 1h30\nCrédits :\n4  |\nCoefficients :\n2\nÀ choisir parmi :\nMéthodes spectrales\n,\nContrôle optimal\n,\nAnalyse Asymptotique\n,\nÉquations intégrales\n,\nEstimation d'erreur à postériori\n.\nOption A : Méthodes spectrales\nObjectifs :\nMaîtriser les méthodes d'approximation par polynômes globaux, qui offrent une convergence exponentielle pour les solutions régulières.\nContenu :\nBases de l'approximation : Séries de Fourier, polynômes de Tchebychev.\nDifférentiation spectrale.\nMéthodes de Galerkin, Tau et Collocation.\nApplication à la résolution d'EDP.\nRéférences :\nL. N. Trefethen,\nSpectral Methods in MATLAB\n. SIAM, 2000.\nC. Canuto, M. Y. Hussaini, A. Quarteroni, T. A. Zang,\nSpectral Methods\n. Springer, 2006.\nOption B : Contrôle optimal\nObjectifs :\nIntroduire les outils mathématiques pour déterminer les stratégies de commande qui optimisent un critère de performance.\nContenu :\nCalcul des variations : Rappels sur l'équation d'Euler-Lagrange.\nLe Principe du Maximum de Pontryagin (PMP) : Hamiltonien, équations d'état et d'état adjoint.\nProgrammation dynamique et Équation de Hamilton-Jacobi-Bellman (HJB).\nLien entre PMP et HJB.\nRéférences :\nD. Liberzon,\nCalculus of Variations and Optimal Control Theory\n. Princeton University Press, 2012.\nL. C. Evans,\nAn Introduction to Mathematical Optimal Control Theory\n. (Notes de cours, disponibles en ligne).\nOption C : Analyse Asymptotique\nObjectifs :\nApprendre les techniques d'approximation de solutions de problèmes contenant des petits ou grands paramètres.\nContenu :\nÉchelles et développements asymptotiques.\nMéthodes des perturbations régulières et singulières.\nMéthode des développements raccordés (couches limites).\nMéthode WKB.\nRéférences :\nM. H. Holmes,\nIntroduction to Perturbation Methods\n. Springer, 2013.\nC. M. Bender, S. A. Orszag,\nAdvanced Mathematical Methods for Scientists and Engineers\n. Springer, 1999.\nOption D : Équations intégrales\nObjectifs :\nÉtudier la théorie et les méthodes de résolution des équations intégrales, et comprendre leur lien avec les opérateurs compacts.\nContenu :\nClassification : Équations de Volterra et de Fredholm.\nÉquations de Volterra : Méthode des approximations successives.\nThéorie de Fredholm : Noyaux séparables, Alternative de Fredholm.\nLien avec les opérateurs compacts.\nRéférences :\nR. Kress,\nLinear Integral Equations\n. Springer, 3rd Ed., 2014.\nF. G. Tricomi,\nIntegral Equations\n. Dover, 1985.\nOption E : Estimation d'erreur à postériori\nObjectifs :\nMaîtriser les techniques d'estimation de l'erreur de la méthode des éléments finis après le calcul, afin de guider le raffinement adaptatif du maillage.\nContenu :\nMotivation : Contrôle de l'erreur et maillage adaptatif.\nEstimateurs d'erreur a posteriori basés sur le résidu.\nAnalyse de l'efficacité et de la fiabilité de l'estimateur.\nAlgorithme de raffinement adaptatif.\nRéférences :\nM. Ainsworth, J. T. Oden,\nA Posteriori Error Estimation in Finite Element Analysis\n. Wiley, 2011.\nR. Verfürth,\nA Posteriori Error Estimation Techniques for Finite Element Methods\n. Oxford University Press, 2013.\nMode d'évaluation\nExamen final (60%), Contrôle Continu (40%)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

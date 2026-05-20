@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S1-BDA.html",
+      "title": "S1 Bda.Html",
+      "id": "b0bfb047",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:49",
+      "hash": "b3d9423083edba48",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Advanced Databases\nSemester:\n1  |\nType:\nUEF11  |\nVHS:\n63h  |\nWeekly hours:\n4h30  |\nLecture:\n1h30  |\nTutorial:\n1h30  |\nLab:\n1h30\nPersonal work VHS:\n42h  |\nCoefficient:\n3  |\nCredits:\n5\nTeaching Objectives\nThis course focuses on the essential concepts and technologies for the design, management, and exploitation of modern database systems, covering both theoretical and practical aspects. It allows students to update and deepen their knowledge of databases.\nPrerequisites:\nBasic database concepts, SQL language, relational algebra.\nCourse Content (21h)\n1. Introduction to Databases\nReview of fundamental concepts: relational model, DBMS, query languages\nTypes of databases: relational, NoSQL, object-oriented, etc.\nDBMS architecture: client-server, distributed architectures\nConcepts of transaction, concurrency, and data recovery\n2. Advanced SQL Programming\nSQL review: joins, sub-queries, aggregation functions, views, stored procedures and functions\nAdvanced SQL: triggers, error handling and management\nNoSQL data manipulation languages: JSONiq, Cypher\n3. The Object-Relational Model\nPresentation of the Object model\nPresentation of the Object-Relational model\nObject-Relational model concepts (complex types, inheritance...)\nQuerying Object-Relational databases (SQL3)\n4. NoSQL Databases\nIntroduction to NoSQL databases: types (key-value, document, graph, column)\nNoSQL data models: advantages and disadvantages\nCase studies: MongoDB, Cassandra, Neo4j\n5. Distributed Databases\nDistributed systems architecture\nReplication and partitioning techniques\nData consistency in a distributed environment: ACID vs BASE\n6. Cloud Databases\nService models: IaaS, PaaS, SaaS\nCloud computing and databases\nSecurity considerations in the cloud\n7. Database Performance and Security\nSQL query optimisation\nIndexing and access strategies\nSecurity: access control, data encryption, auditing\nSecurity management in distributed databases\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — tests, personal work\nBibliography\nR. Elmasri & S. Navathe (2016).\nFundamentals of Database Systems\n, 7th Edition, Pearson.\nT. Connolly & C. Begg (2014).\nDatabase Systems: A Practical Approach to Design, Implementation, and Management\n, 6th Edition, Pearson.\nChristian Soutou (2013).\nSQL pour Oracle\n. Editions Eyrolles.\nSilberschatz, Korth & Sudarshan (2019).\nDatabase System Concepts\n, 7th Edition, McGraw-Hill.\nMohamed Fadhel SAAD (2016).\nPL/SQL sous Oracle 12c. Guide du développeur\n.\nR.G.G. Cattell (1994).\nObject Data Management\n. Addison-Wesley.\nP. Selmer (2012).\nNOSQL stores and Data analytics tools\n. Advances in Data Management."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

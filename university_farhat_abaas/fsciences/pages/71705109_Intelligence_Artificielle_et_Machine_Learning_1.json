@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S1-IAML1.html",
+      "title": "Intelligence Artificielle et Machine Learning 1",
+      "id": "71705109",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:12",
+      "hash": "dea118ba1b33c130",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Intelligence Artificielle et Machine Learning 1\nObjectifs de l'enseignement\nL'enseignement de cette matière permet à l'étudiant d'acquérir les bases de l'intelligence artificielle et de l'apprentissage automatique (Machine Learning), avec un accent particulier sur leurs applications dans les sciences des matériaux. Les étudiants découvriront les concepts fondamentaux de la modélisation basée sur les données et apprendront à appliquer des techniques d'apprentissage automatique pour résoudre des problèmes concrets liés aux propriétés et structures des matériaux.\nConnaissances préalables recommandées\nIl est recommandé d'avoir des bases en programmation (notamment en Python), en statistiques et en chimie ou physique des matériaux.\nContenu de la matière\nIntroduction à l'IA et à l'apprentissage automatique (2 semaines)\nAperçu de l'intelligence artificielle et ses domaines d'application\nImportance des données dans l'IA et l'apprentissage automatique\nConcepts de base de l'apprentissage automatique (3 semaines)\nApprentissage supervisé ou non supervisé.\nAlgorithmes clés de l'apprentissage automatique : régression, classification, regroupement.\nMesures d'évaluation (MAE, R², précision)\nCollecte et traitement des données (3 semaines)\nIngénierie des caractéristiques et techniques de prétraitement des données.\nTraitement de l'ajustement excessif et de l'ajustement insuffisant.\nBases de données sur les matériaux : Materials Project, OQMD, AFLOW.\nApprentissage automatique pratique en sciences des matériaux (3 semaines)\nÉtude de cas : Prédiction des propriétés des matériaux (bande interdite, etc.).\nUtilisation de modèles d'apprentissage automatique pour des tâches simples de classification et de régression.\nFondements de l'apprentissage profond (3 semaines)\nIntroduction aux réseaux neuronaux.\nPrincipaux cadres d'apprentissage profond : TensorFlow, Keras, PyTorch.\nApplication : Prédiction de la structure cristalline à l'aide de réseaux neuronaux.\nOutils et bibliothèques\nLangage de programmation : Python\nEnvironnements : Jupyter Notebooks\nBibliothèques : Scikit-learn, Pandas, Matplotlib\nOutils dédiés aux matériaux : Matminer, Pymatgen\nRéférences bibliographiques\nAurélien Géron : Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow – O'Reilly Media (2019)\nChristopher M. Bishop : Pattern Recognition and Machine Learning – Springer (2006)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

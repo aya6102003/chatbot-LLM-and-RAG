@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S3-MN.html",
+      "title": "Mobile Networks",
+      "id": "5c11f830",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:54",
+      "hash": "ff0daf91b20fa390",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nMobile Networks  |\nSemester:\n3  |\nType:\nUEF31\nVHS:\n63h  |\nWeekly hours:\n4h30  |\nLectures:\n1h30  |\nTD:\n1h30  |\nTP:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n5\nTeaching Objectives\nDiscover wide area networks, including cellular networks covering all existing technologies\nIntroduction to the upcoming 6G generation\nAnalysis of WiMax urban wireless network performance and services\nCoverage of LTE networks\nRecommended Prerequisites\nGood knowledge of basic networking, OSI reference model and TCP/IP protocols\nCourse Content (Lectures: 21h)\n2nd generation mobile networks\n3rd generation mobile networks\n4th generation mobile networks\n5th generation mobile networks\nUpcoming mobile networks: 6G\nAssessment\nExam: 60%\nContinuous assessment: 40%\nBibliographic References\nFrom GSM to LTE-Advanced Pro and 5G: An Introduction to Mobile Networks and Mobile Broadband — Martin Sauter, Wiley and Sons Ltd, 2017.\nRéseaux GSM — Xavier Lagrange, Philippe Godlewski, Sami Tabbane, Ed. Hermes, 2000.\nWCDMA for UMTS: HSPA Evolution and LTE — Dr. Harri Holma, Dr. Antti Toskala, Ed. Wiley.\n3G Wireless With WiMAX and Wi-Fi: 802.16 and 802.11 — Clint Smith et John Meyer, Ed. McGraw-Hill Professional.\nL. Toutain, \"Réseaux locaux et Internet\", 3e édition, Hermes, 2003.\nC. Huitema, \"Le routage dans l'Internet\", Eyrolles, 1995.\nJochen Schiller, Mobile Communications. Addison-Wesley, 2000.\nTheodore S. Rappaport, Wireless Communications – Principles and Practice, Second Edition. Prentice Hall."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

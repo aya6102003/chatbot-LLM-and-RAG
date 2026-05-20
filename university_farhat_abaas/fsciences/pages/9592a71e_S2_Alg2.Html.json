@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_INFORMATIQUE/S2-ALG2.html",
+      "title": "S2 Alg2.Html",
+      "id": "9592a71e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:06",
+      "hash": "5b97c0d1297c7376",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Algèbre 2\nSemestre :\n2  |\nUE :\nUEF21  |\nCrédits :\n4  |\nCoefficient :\n2\nObjectifs de l'enseignement\nEtude des concepts fondamentaux relatifs aux espaces vectoriels de dimension finie. Assimiler les bases de calcul matriciel afin d'acquérir des connaissances suffisantes pour aborder l'algèbre 3.\nConnaissances préalables recommandées\nAlgèbre 1.\nContenu de la matière\nChapitre 1 : Espaces vectoriels\nDéfinition d'un espace vectoriel. Sous espace vectoriel. Exemples.\nFamilles libres. Génératrices. Bases. Dimension.\nEspace vectoriel de dimension finie (propriétés). Sous espace vectoriel supplémentaire.\nChapitre 2 : Applications linéaires\nDéfinition.\nImage et noyau d'une application linéaire.\nPropriétés d'une application linéaire en dimension finie.\nRang d'une application, théorème du rang.\nChapitre 3 : Matrices et déterminants\nDéfinition. Matrices particulières.\nOpérations sur les matrices (somme, produit de deux matrices).\nMatrice associée à une application linéaire et propriétés.\nEspace vectoriel des matrices.\nAnneau des matrices carrées, matrice inversible.\nMatrice de changement de base (matrice de passage).\nMatrices semblables et matrices équivalentes.\nDéterminant d'une matrice carrée et propriétés.\nMéthodes de calcul de l'inverse d'une matrice carrée inversible (méthode de Gauss et des cofacteurs).\nChapitre 4 : Résolution de systèmes d'équations\nSystème d'équations – écriture matricielle – rang d'un système d'équations.\nRésolution d'un système linéaire à n équations et m inconnues.\nMéthode de Cramer. Théorème de Rouché-Foutené (système linéaire général).\nRecommandation\nPour rapprocher les notions d'algèbre linéaire à l'informatique, il est recommandé de traiter des exemples et des exercices d'application à l'informatique.\nMode d'évaluation\nExamen (60%), Contrôle continu (40%)\nRéférences bibliographiques\nJ. Franchini et J. C. Jacquens, Algèbre : cours, exercices corrigés, travaux dirigés, Ellipses, Paris, 2014.\nLieven Vandenberghe et Stephen P. Boyd. Introduction to applied linear algebra: vectors, matrices and least squares. 2018.\nSheldon Axler. Linear Algebra Done Right (3rd Edition). Springer. 2015.\nDavid C. Lay, Steven R. Lay, et Judi J. McDonald. Linear Algebra and Its Applications (5e édition, 2016). Ce livre aborde les concepts d'algèbre linéaire avec un accent particulier sur les applications, y compris celles en informatique et en sciences des données.\nGene H. Golub et Charles F. Van Loan. Matrix Computations (4e édition, 2013). Ouvrage fondamental pour comprendre les algorithmes de calcul matriciel, essentiels en informatique, en traitement d'images et en apprentissage automatique.\nJohn L. Weatherwax. Linear Algebra and Its Applications in Computer Science. 2014. Ce livre se concentre spécifiquement sur les applications de l'algèbre linéaire dans divers domaines de l'informatique, y compris la théorie des graphes et l'apprentissage automatique.\nJ. J. Sylvester. Linear Algebra for Computer Science (2020). Introduction à l'algèbre linéaire avec des exemples et des exercices orientés vers des applications en informatique."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING2EME/TG.html",
+      "title": "Tg.Html",
+      "id": "e856a0ca",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:52",
+      "hash": "11e7e3d2ba66cc88",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nIntroduction � la recherche op�rationnelle\nNotions fondamentales de la th�orie des graphes\nArbres et arborescence\nCycles et co-cycliques, flots et tensions\nProbl�mes de cheminement dans un graphe\nDomaines d'application"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

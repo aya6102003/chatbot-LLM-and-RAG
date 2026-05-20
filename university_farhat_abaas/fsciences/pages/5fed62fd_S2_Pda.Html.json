@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S2-PDA.html",
+      "title": "S2 Pda.Html",
+      "id": "5fed62fd",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:49",
+      "hash": "22d93639a3af2b66",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Parallel and Distributed Algorithmics\nSemester:\n2  |\nType:\nUEM2  |\nVHS:\n63h  |\nWeekly hours:\n4h30  |\nLecture:\n1h30  |\nTutorial:\n1h30  |\nLab:\n1h30\nPersonal work VHS:\n42h  |\nCoefficient:\n2  |\nCredits:\n5\nTeaching Objectives\nFamiliarise students with the concepts, techniques, and tools of parallel and distributed algorithmics. Students will be able to understand parallel and distributed system architectures, design parallel and distributed algorithms, understand the complexity of parallel and distributed algorithmics, and master parallel and distributed programming techniques.\nPrerequisites:\nFundamentals of algorithmics and algorithm complexity\nProgramming in C or Python\nComputer system architectures and operating systems\nComputer networks and communication protocols\nCourse Content (21h)\nChapter 1 – Foundations\nParallel computation models (PRAM, BSP)\nPerformance measures (Amdahl's law, Gustafson)\nParallelism patterns\nChapter 2 – Basic Algorithms\nParallel sorting and searching\nPrefix-sum, parallel matrix products\nFFT\nChapter 3 – Graph Problems and Optimisation\nShortest paths (Floyd-Warshall, Dijkstra, Bellman-Ford)\nParallel heuristics (genetic, ant colony)\nParallel neural networks\nChapter 4 – Parallel Programming\nOpenMP, native threads, GPU\nSynchronisation (barriers, locks, atomics)\nProfiling and debugging\nChapter 5 – Distributed Computing\nArchitectures (clusters, grids, cloud)\nMPI, MapReduce, Spark\nConsistency, fault tolerance (consensus, checkpointing)\nChapter 6 – Distributed System Architecture\nCommunication protocols (TCP/IP, RDMA, gRPC)\nLoad balancing, high availability\nSecurity and isolation\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — written tests, personal work\nBibliography\nBertsekas, D. P., & Tsitsiklis, J. N.\nParallel and Distributed Computation: Numerical Methods\n.\nWilkinson, B., & Allen, M.\nParallel Programming: Techniques and Applications Using Networked Workstations and Parallel Computers\n.\nKshemkalyani, A. D., & Singhal, M.\nDistributed Computing: Principles, Algorithms, and Systems\n.\nGrama, A., Karypis, G., Kumar, V., & Gupta, A.\nIntroduction to Parallel Computing\n."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

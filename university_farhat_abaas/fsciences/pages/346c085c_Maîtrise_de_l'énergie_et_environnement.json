@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S1-MEE.html",
+      "title": "Maîtrise de l'énergie et environnement",
+      "id": "346c085c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:05",
+      "hash": "22e2195799a86600",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Maîtrise de l'énergie et environnement\nSemestre 1 – UE Découverte\nMode d'évaluation :\nContinu 100%\nObjectifs de l’enseignement\nComprendre les bases de l’énergie, ses impacts environnementaux et les enjeux globaux.\nMaîtriser les méthodes d’analyse statistique et temporelle pour évaluer la consommation énergétique.\nApprendre à réaliser un audit énergétique et à proposer des mesures d’optimisation.\nAppliquer les principes de l’efficacité énergétique aux bâtiments via le solaire passif.\nConnaissances préalables recommandées\nUne bonne compréhension des principes d’efficacité énergétique et de gestion énergétique est essentielle.\nDes notions sur les impacts environnementaux et les politiques énergétiques sont attendues.\nContenu de la matière :\n1. Introduction : Energie et environnement (3 semaines)\nC’est quoi l’énergie ?\nLes principes de la thermodynamique\nLes problèmes environnementaux liés à l’énergie\nLa consommation de l’énergie\nLes réserves énergétiques\n2. Techniques d’analyse énergétiques (4 semaines)\nLa consommation annuelle en énergie\nLes indicateurs de performance\nAnalyse énergétique en fonction du temps\nAnalyse de régression linéaire\nVariable indépendante unique\nCoefficient de corrélation\nAnalyse multi- variable\n3. Audit énergétique (4 semaines)\nTypes d’audit énergétique\nAudit préliminaire\nAudit complet\nRapport d’audit\n4. Conception du bâtiment à basse consommation énergétique : Solaire passif (3 semaines)\nChauffage solaire passif\nRefroidissement solaire passif\nRéférences\n[1] La maîtrise de l’énergie ; Jean-Baptiste Lesourd, Jean-Yves Faberon\n[2] Energy management supply and conservation, Clive Beggs\n[3] Energy management handbook, Wayne C. Turner, Steve Doty"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

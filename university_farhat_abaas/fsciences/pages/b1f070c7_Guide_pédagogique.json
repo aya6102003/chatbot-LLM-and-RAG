@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/ANLDP.html",
+      "title": "Guide pédagogique",
+      "id": "b1f070c7",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:18",
+      "hash": "41d380690a314942",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "SEMESTRE 3\nUnité\nd'Enseignement\nMatière\nCrédits\nCoefficient\nVolume horaire hebdomadaire\nVHS\n14-16 Semaines\nMode d'évaluation\nCours\nTD\nTP\nContinu\nExamen\nUE Fondamentale 7 Crédits : 6\nCoefficients : 3\nMéthodes de résolution des problèmes aux limites non linéaires\n6\n3\n3h\n1h30\n67h30\n40%\n60%\nSavoir plus\n×\nUE Fondamentale 8 Crédits : 6\nCoefficients : 3\nProblèmes d’évolution non linéaires\n6\n3\n3h\n1h30\n67h30\n40%\n60%\nSavoir plus\n×\nUE Fondamentale 9 Crédits : 6\nCoefficients : 3\nThéorie des semi-groupes et applications pour les EDP\n6\n3\n3h\n1h30\n67h30\n40%\n60%\nSavoir plus\n×\nUE Méthodologie Crédits : 9\nCoefficients : 5\nContrôle pour des problèmes non linéaires\n9\n5\n3h\n3h\n1h\n105h\n40%\n60%\nSavoir plus\n×\nUE Découverte\nCrédits : 2\nCoefficients : 2\nTechniques d’enseignements et de recherche (TER3)\n2\n2\n3h\n45h\n100%\nUE Transversale\nCrédits : 1\nCoefficients : 1\nAnglais technique\n1\n1\n1h30\n22h30\n100%\nTotal Semestre 3\n30\n17\n16h30\n7h30\n1h\n375h"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/b1f070c7_table_1_SEMESTRE_1.json",
+        "rows": 9
+      },
+      {
+        "file": "tables/b1f070c7_table_2_SEMESTRE_2.json",
+        "rows": 9
+      },
+      {
+        "file": "tables/b1f070c7_table_3_SEMESTRE_3.json",
+        "rows": 9
+      },
+      {
+        "file": "tables/b1f070c7_table_4_SEMESTRE_4.json",
+        "rows": 3
+      }
+    ]
+  }
+}

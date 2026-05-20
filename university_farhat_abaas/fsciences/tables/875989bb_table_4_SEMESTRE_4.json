@@ -1,0 +1,50 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/F3I.html",
+  "title": "SEMESTRE 4",
+  "headers": [
+    "",
+    "VHS",
+    "Coeff",
+    "Crédits"
+  ],
+  "rows": [
+    [
+      "",
+      "VHS",
+      "Coeff",
+      "Crédits"
+    ],
+    [
+      "Travail personnel",
+      "400h",
+      "10",
+      "20"
+    ],
+    [
+      "Projet de fin d'études (stage en entreprise)",
+      "300h",
+      "",
+      "8"
+    ],
+    [
+      "Séminaires",
+      "50h",
+      "",
+      "2"
+    ],
+    [
+      "Autres (préciser)",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Total Semestre 4",
+      "750h",
+      "10",
+      "30"
+    ]
+  ],
+  "row_count": 6,
+  "col_count": 4
+}

@@ -1,0 +1,163 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/F3I.html",
+  "title": "SEMESTRE 3",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n15 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n15 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Autres",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale 1   \nCrédits : 12\nCoefficients : 5",
+      "APS: Apprentissage statistique",
+      "6",
+      "3",
+      "1h30",
+      "",
+      "1h30",
+      "6h",
+      "135h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "TIM2: Tratement d'Images 2",
+      "3",
+      "1",
+      "1h30",
+      "",
+      "1h30",
+      "1h30",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "PRD: Pattern Recognition and Discovery",
+      "3",
+      "1",
+      "1h30",
+      "",
+      "1h30",
+      "1h30",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 2   \nCrédits : 6\nCoefficients : 4",
+      "EBD: Entrepôts de Données et Big Data",
+      "3",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "1h30",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "ISIG: Infographie et Systèmes d'Information Géographiques",
+      "3",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "1h30",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie Crédits : 9Coefficients : 5",
+      "TALN: Traitement Automatique du Langage Naturel",
+      "5",
+      "3",
+      "1h30",
+      "",
+      "1h30",
+      "4h",
+      "105h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "RI: Recherche D'Information",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "3h",
+      "90h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversaleCrédits : 3Coefficients : 3",
+      "CCA2: Compétences de Communication en Anglais 2",
+      "2",
+      "2",
+      "1h30",
+      "",
+      "",
+      "1h30",
+      "45h",
+      "",
+      "100%"
+    ],
+    [
+      "MR: Méthodologie de recherche",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%"
+    ],
+    [
+      "Total Semestre 3",
+      "30",
+      "17",
+      "13h30",
+      "",
+      "10h30",
+      "31h",
+      "667h30"
+    ]
+  ],
+  "row_count": 12,
+  "col_count": 7
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/L1_SM_Common_Core/S2-PHYS2.html",
+      "title": "Physics 2",
+      "id": "08e92f2d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:37",
+      "hash": "f97ffcc25fa7158a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Physics 2 – Electricity and Electromagnetism\nSemester:\n2  |\nTeaching Unit:\nFundamental Unit (FU)\nCourse Description\nThis course provides students with the foundational concepts and principles of electricity and electromagnetism. Topics include electrostatics, conductors, direct-current (DC) circuits, magnetostatics, and magnetic induction. Emphasis is placed on both theoretical understanding and practical problem-solving skills relevant to physical science and engineering applications.\nLearning Outcomes\nApply Coulomb's law and Gauss's theorem to calculate electric fields and potentials.\nAnalyze electrostatic properties of conductors and capacitors, including capacitance calculations.\nSolve direct-current circuit problems using Ohm's law, Joule's law, and Kirchhoff's laws.\nExplain magnetostatic phenomena and apply the Biot–Savart law and Ampère's law to compute magnetic fields.\nWeekly Topics and Schedule\nWeeks 1–3: Electrostatics\nElectric charge and electric fields\nElectrostatic potential\nElectric dipoles\nElectric flux\nGauss's theorem\nWeeks 4–5: Conductors\nDefinition and properties of conductors in electrostatic equilibrium\nElectrostatic pressure\nCapacitance of conductors and capacitors\nWeeks 6–8: Direct-Current (DC) Circuits\nElectrical conduction\nOhm's law\nJoule's law\nBasic electrical circuits\nApplication of Ohm's law to networks\nKirchhoff's laws\nWeeks 9–11: Magnetostatics\nLorentz force\nLaplace's law\nBiot–Savart law\nMagnetic dipoles\nWeeks 12–15: Magnetic Induction\nFundamental principles and applications (details covered in lectures and tutorials)\nApply the principles of electromagnetic induction to basic physical systems.\nAssessment Methods\nContinuous Assessment: 33% (quizzes, assignments, participation in tutorial sessions)\nFinal Exam: 67% (comprehensive written exam)\nReferences\nGranjon, Y. – Exercises and Problems in Electricity. Dunod, Paris (2003).\nCaubarrere, J. L. – Electricity and Waves: Lectures and Lab Sessions. OPU, Algiers (1986).\nEdiscience Collective – University Physics: Electrostatics and Direct-Current Circuits, Years 1 and 2. Ediscience International (2010).\nSanz, M.-N., Chardon, D., Vandenbrouck, F., Salamito, B. – Physics All-in-One PC: Lectures and Solved Exercises. Dunod, Paris (2014).\nSerway, R. A., Jewett, J. W., Ducharme, A., Périard, M. – Physics – Vol. 2: Electricity and Magnetism. De Boeck (2013).\nFedullo, D., Gallauziaux, T. – Electricity: How to Build Your Own Electrical Installation. Eyrolles (2012)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

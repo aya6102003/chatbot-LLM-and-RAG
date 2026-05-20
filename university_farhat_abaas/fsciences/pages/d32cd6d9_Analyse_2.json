@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_MATHS_APPLIQUEES/S2-ANALYSE2.html",
+      "title": "Analyse 2",
+      "id": "d32cd6d9",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:42",
+      "hash": "81098306d2cee8d6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Analyse 2\nSemestre :\n02\nUnité d'enseignement :\nFondamentale\nMatière :\nAnalyse 2\nCrédits :\n6\nCoefficient :\n4\nObjectif du cours :\nCette matière a pour objectif de présenter aux étudiants les différents aspects du calcul intégral : intégrale de Riemann, différentes techniques de calcul des primitives, l'initiation à la résolution des équations différentielles.\nConnaissances préalables recommandées :\nAnalyse 1.\nContenu de la matière :\nChapitre 1 : Développements limités et applications\nDéveloppements limités polynomiaux (D.L), et opérations sur les D.L. Généralisation des développements limités. Application au calcul de limites et à l'étude des branches infinies.\nChapitre 2 : Intégrales indéfinies\nIntégrale indéfinie, Quelques propriétés de l'intégrale indéfinie, Méthodes d'intégration, Intégration par changement de variable, Intégration par parties, Intégration d'expressions rationnelles, Intégration de fonctions irrationnelles.\nChapitre 3 : Intégrales définies\nIntégrale définie, Propriétés des intégrales définies, Intégrale fonction de sa borne supérieure, Formule de Newton-Leibniz, Inégalité Cauchy-Schwarz, Sommes de Darboux - Conditions de l'existence de l'intégrale, Propriétés des sommes de Darboux, Intégrabilité des fonctions continues et monotones.\nChapitre 4 : Équations différentielles du premier ordre\nGénéralités, Classification des équations différentielles du premier ordre, Équation à variables séparables, Équations homogènes, Équations linéaires, Méthode de Bernoulli, Méthode de la variation de la constante de Lagrange, Équation de Bernoulli, Équation différentielle totale, Équation de Riccati.\nChapitre 5 : Équations différentielles du second ordre à coefficients constants\nÉquations différentielles du second ordre homogènes à coefficients constants, Équations différentielles du second ordre non homogènes à coefficients constants, Méthodes de résolutions des équations différentielles du second ordre à coefficients constants.\nMode d'évaluation :\nExamen (60%), contrôle continu (40%)\nRéférences :\nJiri Lebel, Basic Analysis II; Introduction to Real Analysis, Volume II (2023) (6th Edition).\nG. B. Thomas, M. D. Weir, and Joel Hass, Calculus and Analytic Geometry, Pearson 2014 (13ème édition).\nJ.-M. Monier, Analyse PCSI-PTSI, Dunod, Paris 2003.\nY. Bougrov et S. Nikolski, Cours de Mathématiques Supérieures, Editions Mir, Moscou, 1983.\nN. Piskounov, Calcul différentiel et intégral, Tome 1, Editions Mir, Moscou, 1980.\nK. Allab, Eléments d'Analyse, OPU, Alger, 1984.\nB. Calvo, J. Doyen, A. Calvo, F. Boschet, Cours d'analyse, Librairie Armand Colin, Paris, 1976.\nJ. Lelong-Ferrand et J. M. Arnaudiès, Cours de mathématiques, tome 2, Edition Dunod, 1978."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S3-MODMOL.html",
+      "title": "Modélisation Moléculaire",
+      "id": "3a0e699d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:09",
+      "hash": "d0b1651b3ec1a4e6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Modélisation Moléculaire\nObjectifs de l'enseignement\nMaîtriser les outils mathématiques et informatiques pour la résolution de problèmes de modélisation et exploration des méthodes de modélisation moléculaire (mécanique moléculaire, dynamique moléculaire).\nÉvaluation des formalismes, leurs implications physiques, et les compromis coût/précision.\nConnaissances préalables recommandées\nBases en mathématiques et en programmation. Connaissances fondamentales en chimie et physique (thermodynamique, mécanique quantique).\nContenu de la matière\nIntroduction à la modélisation moléculaire\nIntérêt et domaines d'application\nDéfinitions et enjeux\nRappels de chimie quantique appliquée\nMécanique moléculaire (MM) et champs de force\nMéthodes semi-empiriques (PM3, AM1)\nHartree–Fock\nThéorie DFT\nAnalyse électronique des molécules et prédiction de la réactivité\nOptimisation géométrique et états de transition\nDiagramme de Jablonski\nEtats électroniques\nFluorescence et phosphorescence\nModélisation des inhibiteurs de corrosion\nIndices quantiques\nMécanismes d'adsorption\nModélisation de l'effet du solvant\nTravaux Pratiques\nTP 1 : Prise en main des logiciels de modélisation (ORCA, Gaussian, etc.). Installation, visualisation de structures, préparation des fichiers d'entrée.\nTP 2 : Modélisation des propriétés électroniques d'une molécule. Calcul de l'énergie totale, des charges atomiques, du moment dipolaire, de la polarisabilité et de la carte du potentiel électrostatique moléculaire (MEP).\nTP 3 : Analyse des descripteurs de réactivité locale. Calcul des indices de Fukui (f⁺, f⁻, f⁰), dualité de réactivité, etc. et interprétation des sites nucléophiles et électrophiles.\nTP 4 : Étude des descripteurs de réactivité globale. Évaluation des orbitales HOMO–LUMO, du gap énergétique, du potentiel chimique, de la dureté, de la mollesse et de l'affinité électronique, etc.\nTP 5 : Simulation spectroscopique IR et UV-Visible. Construction du diagramme de Jablonski, simulation des transitions électroniques, identification des états excités.\nTP 6 : Prédiction computationnelle de la réactivité dans une réaction de Diels–Alder. Analyse des paramètres thermodynamiques et orbitalaires d'une réaction asymétrique.\nTP 7 : Étude théorique de la régiosélectivité selon la règle de Markovnikov. Prédiction du produit majoritaire via des calculs quantiques et analyse de la stabilité des intermédiaires.\nTP 8 : Modélisation de l'efficacité d'inhibiteurs de corrosion. Calculs des descripteurs de réactivité et interactions possibles avec des surfaces métalliques.\nTP 9 : Étude des mécanismes de photoluminescence dans les composés organiques. Identification des transitions radiatives, analyse des états singulets et triplets.\nTP 10 : Conception moléculaire de diodes électroluminescentes organiques (OLEDs). Optimisation géométrique, simulation des propriétés électroniques et prédiction de l'efficacité lumineuse.\nLogiciels Open Source pour la chimie computationnelle\nORCA (semi-open source) – https://orcaforum.kofo.mpg.de\nNWChem – https://nwchemgit.github.io\nPsi4 – https://psicode.org\nxTB (GFN-xTB) – https://github.com/grimme-lab/xtb\nAvogadro (interface 3D + plugin de calculs) – https://avogadro.cc\nWebMO (interface web, version gratuite disponible) – https://www.webmo.net\nCP2K – https://www.cp2k.org\nRéférences bibliographiques\nMolecular modelling: principles and applications ; Andrew Leach ; Prentice Hall ; 2001.\nEssentials of Computational Chemistry: Theories and Models ; Christopher J. Cramer ; John Wiley & Sons ; 2002.\nFundamentals of materials for energy and environmental sustainability ; D S Ginley ; Daṿid Kahen ; Cambridge University Press ; 2012.\nHighly Efficient OLEDs with Phosphorescent Materials ; Hartmut Yersin ; Wiley ; 2007.\nEco-Friendly Corrosion Inhibitors: Principles, Designing and Applications ; Lei Guo, Chandrabhan Verma, Dawei Zhang ; Elsevier ; 2022"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

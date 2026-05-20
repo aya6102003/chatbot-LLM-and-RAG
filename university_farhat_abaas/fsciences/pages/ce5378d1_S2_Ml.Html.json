@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S2-ML.html",
+      "title": "S2 Ml.Html",
+      "id": "ce5378d1",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:37",
+      "hash": "76a538f88b65656e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Machine Learning\nSemester:\n2  |\nType:\nUEM2  |\nVHS:\n63h  |\nWeekly hours:\nC: 1h30 / TD: 1h30 / TP: 1h30  |\nPersonal work VHS:\n42h  |\nCoefficient:\n2  |\nCredits:\n5\nTeaching Objectives\nThis module covers an introduction to the field, followed by an overview of supervised and unsupervised learning techniques, then an exploration of more advanced topics such as deep learning and natural language processing. It also addresses essential mathematical foundations (linear algebra, statistics), Python programming and practical aspects such as data preprocessing, feature engineering, model selection, training, evaluation and deployment.\nRecommended prior knowledge:\nMathematics: linear algebra, probability, statistics, etc.\nCourse Content (Lectures: 21h)\nIntroduction and Fundamentals of Machine Learning\nMachine learning: definition and application domains\nTypes of learning (supervised, unsupervised, semi-supervised, reinforcement, autonomous)\nMathematical foundations: linear algebra, statistics and probability, random variables and distributions, Bayesian thinking\nMachine learning workflow: stages of an ML project (from data collection to deployment)\nSupervised Learning\nRegression: linear, polynomial, etc.\nClassification: logistic regression, support vector machines (SVM), decision trees and ensemble methods (random forests, gradient boosting)\nModel evaluation: metrics for regression and classification (RMSE, accuracy, precision, recall, F1 score)\nUnsupervised Learning\nClustering: K-means, hierarchical clustering, density-based (DBSCAN, OPTICS)\nEvaluation metrics: silhouette score, Davies-Bouldin index, adjusted Rand index, mutual information\nDimensionality reduction: PCA, t-SNE, LDA, ICA, UMAP, factor analysis\nAnomaly detection: outlier identification\nAssociation Rule Learning: Apriori, Eclat, FP-Growth algorithms\nDeep Learning\nIntroduction to neural networks: basic architecture, operating principles\nDeep learning architectures: CNN, RNN\nTraining deep learning models: TensorFlow, PyTorch\nAdvanced Topics\nNatural Language Processing (NLP)\nTime series analysis\nRecommendation systems\nReinforcement learning\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous tests, personal work\nReferences\nAndreas Müller and Sarah Guido (2016).\nIntroduction to Machine Learning with Python\n. O'Reilly.\nChapelle, O., Scholkopf, B. et Zien, A. (2009). Semi-Supervised Learning.\nIEEE Transactions on Neural Networks\n, 20(3), 542–542.\nBatta, M. (2018). Machine Learning Algorithms: A Review. ResearchGate."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

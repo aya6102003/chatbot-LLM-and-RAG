@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S2-DL.html",
+      "title": "S2 Dl.Html",
+      "id": "e5e668d2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:47",
+      "hash": "a6d49cf0f47ec27d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Deep Learning\nSemester:\n2  |\nType:\nUEF22  |\nVHS:\n63h  |\nWeekly hours:\n4h30  |\nLecture:\n1h30  |\nTutorial:\n1h30  |\nLab:\n1h30\nPersonal work VHS:\n42h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nThis module provides knowledge on machine learning as a very important pillar of artificial intelligence, with neural networks as a specific case.\nCourse Content (21h)\nChapter 1 – Introduction to Deep Learning\nDefinition, origin, and links with machine learning\nNeural networks: general principle\nImportance of massive data and parallel computing (GPU, TPUs)\nUse cases (vision, NLP, audio, time series)\nChapter 2 – Artificial Neural Networks (ANN)\nFormal neuron, activation functions (ReLU, sigmoid, tanh)\nForward propagation and backpropagation\nCost function and gradient descent (SGD, Adam)\nOverfitting and regularisation techniques: dropout, early stopping, L2\nChapter 3 – Practical Tools and Frameworks\nIntroduction to TensorFlow and Keras\nData manipulation with NumPy and Pandas\nCreating, training, and evaluating a simple ANN model\nSaving, loading, and visualising models\nChapter 4 – Convolutional Networks (CNN)\nCNN architecture: conv, pooling, fully connected layers\nDimensionality reduction, local pattern detection\nApplication to image classification (MNIST, CIFAR-10)\nTechniques: data augmentation, batch normalisation\nChapter 5 – Recurrent Networks (RNN) and Sequential Models\nSimple RNNs and limitations (vanishing gradient)\nLSTM and GRU\nApplication to time series and NLP\nSequence-to-sequence (seq2seq) and attentional models\nChapter 6 – Advanced Models and Recent Trends\nAuto-encoders: dimensionality reduction, denoising\nGAN (Generative Adversarial Networks): principles, applications\nIntroduction to Transformers: architecture and interest (vision, NLP)\nOverview of pre-trained models (BERT, GPT, ResNet)\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — tests, personal work\nBibliography\nGérard Dreyfus et al. (2004).\nRéseaux de neurones, Méthodologies et applications\n. 2nd edition, Eyrolles.\nGolovko, V. A. (2017). Deep learning: an overview and main paradigms.\nOptical memory and neural networks\n, 26, 1-17.\nDavid Rousseau,\nL'apprentissage machine\n. https://www.youtube.com/watch?v=utaKQ-obVR8"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

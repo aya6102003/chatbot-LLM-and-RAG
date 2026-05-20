@@ -1,0 +1,139 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Master_Physique_Medicale.html",
+  "title": "SEMESTRE 2",
+  "headers": [
+    "Unité d'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS15 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité d'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS15 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Autres",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE FondamentaleCode : UEF 2Crédits : 18Coefficients : 9",
+      "Physique des Radiations II",
+      "6",
+      "3",
+      "1h30",
+      "",
+      "3h00",
+      "82h30",
+      "67h30",
+      "33%",
+      "67%",
+      "Savoir plus\n×"
+    ],
+    [
+      "Physique de la radiologie diagnostique et interventionnelle II",
+      "6",
+      "3",
+      "1h30",
+      "",
+      "3h00",
+      "82h30",
+      "67h30",
+      "33%",
+      "67%",
+      "Savoir plus\n×"
+    ],
+    [
+      "Dosimétrie des radiations",
+      "6",
+      "3",
+      "1h30",
+      "1h30",
+      "1h30",
+      "82h30",
+      "67h30",
+      "33%",
+      "67%",
+      "Savoir plus\n×"
+    ],
+    [
+      "UE MéthodologiqueCode : UEM 2Crédits : 9Coefficients : 5",
+      "Principes fondamentaux de l'imagerie médicale II",
+      "6",
+      "3",
+      "1h30",
+      "1h30",
+      "1h30",
+      "82h30",
+      "67h30",
+      "50%",
+      "50%",
+      "Savoir plus\n×"
+    ],
+    [
+      "Intelligence artificielle et Machine Learning 2",
+      "3",
+      "2",
+      "1h30",
+      "",
+      "1h00",
+      "37h30",
+      "37h30",
+      "50%",
+      "50%",
+      "Savoir plus\n×"
+    ],
+    [
+      "UE DécouverteCode : UED 2Crédits : 2Coefficients : 2",
+      "Langage de programmation II",
+      "2",
+      "2",
+      "",
+      "",
+      "3h00",
+      "5h00",
+      "45h00",
+      "50%",
+      "50%",
+      "Savoir plus\n×"
+    ],
+    [
+      "UE TransversaleCode : UET 2Crédits : 1Coefficients : 1",
+      "Anglais II",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "02h30",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus\n×"
+    ],
+    [
+      "Total Semestre 2",
+      "30",
+      "17",
+      "9h00",
+      "3h00",
+      "13h00",
+      "375h00",
+      "375h00"
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 7
+}

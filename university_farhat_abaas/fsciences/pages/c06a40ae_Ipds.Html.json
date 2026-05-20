@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/IPDS.html",
+      "title": "Ipds.Html",
+      "id": "c06a40ae",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:31",
+      "hash": "bcf3c7b99fc7f945",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nIntroduction to Probabilities and Descriptive Statistics (IPDS) — Semester 1, Unit UFM1, Credits: 4, Coeff: 2\nCourse Objectives\nUnderstand basic concepts of probability and random variables.\nCompute and interpret key descriptive statistics (mean, median, mode, variance, standard deviation).\nUnderstand and apply the laws of probability, conditional probability, and independence.\nCourse Content\nChapter 1: Introduction to Statistics and Data\nOverview of statistics and its importance\nTypes of data: qualitative vs. quantitative\nIntroduction to data collection methods\nMeasures of frequency, proportions, and percentages\nIntroduction to data visualization: charts and graphs\nChapter 2: Descriptive Statistics\nMeasures of central tendency (mean, median, mode)\nMeasures of spread (range, variance, standard deviation)\nZ-scores and percentile ranks\nExploratory Data Analysis (EDA)\nGraphical representations: histograms, box plots, stem-and-leaf plots\nChapter 3: Basic Probability Theory\nIntroduction to probability: concepts and rules\nSample space and events\nThe addition and multiplication rules of probability\nComplementary, joint, and conditional probabilities\nIndependent and dependent events\nChapter 4: Discrete Probability Distributions\nDiscrete random variables and probability mass functions (PMFs)\nThe binomial distribution\nThe Poisson distribution\nExpected value and variance of discrete distributions\nChapter 5: Continuous Probability Distributions\nContinuous random variables and probability density functions (PDFs)\nThe normal distribution\nThe standard normal distribution and Z-scores\nApplications of the normal distribution (Central Limit Theorem)\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\n“Statistics for Business and Economics” by Paul Newbold"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

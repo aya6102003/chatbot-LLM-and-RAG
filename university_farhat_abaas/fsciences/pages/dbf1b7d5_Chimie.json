@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Chimie.html",
+      "title": "Chimie",
+      "id": "dbf1b7d5",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:33:14",
+      "hash": "ef0c624066249fc8",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Guide pédagogique\nChimie\n\nLicence\nMaster"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "Guide pédagogique",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/index.html",
+        "type": "internal"
+      },
+      {
+        "text": "Licence Chimie.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Licence Chimie.html",
+        "type": "internal"
+      },
+      {
+        "text": "Master_Chimie.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Master_Chimie.html",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

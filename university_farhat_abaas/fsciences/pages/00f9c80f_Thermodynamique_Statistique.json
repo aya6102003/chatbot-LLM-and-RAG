@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S3-TS.html",
+      "title": "Thermodynamique Statistique",
+      "id": "00f9c80f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:15",
+      "hash": "864f33d6b6863756",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Thermodynamique Statistique\nObjectifs de l'enseignement\nCe cours approfondit la thermodynamique classique et les bases statistiques, en abordant des applications comme les gaz réels et les transitions de phase.\nIl introduit aussi des méthodes numériques modernes telles que les simulations Monte Carlo et la dynamique moléculaire.\nConnaissances préalables recommandées\nL'étudiant doit s'appuyer sur les acquis du premier et deuxième semestre du M1.\nContenu de la matière\nFondements et Introduction\nRappels thermodynamiques : Lois de la thermodynamique ; Potentiels thermodynamiques ; Limites de l'approche macroscopique\nPrincipes de base : Hypothèse ergodique ; Moyennes temporelles vs moyennes d'ensemble ; Échelles de description (micro/macro)\nNotion d'ensemble statistique : Définition mathématique ; Espace des phases ; Exemples concrets (gaz parfait, solide magnétique)\nThéorie des Ensembles\nEnsemble microcanonique : Systèmes isolés (N, V, E fixes) ; Définition de l'entropie statistique\nEnsemble canonique : Fonction de partition Z ; Distribution de Boltzmann ; Énergie libre et grandeurs dérivées\nEnsemble grand-canonique : Potentiel chimique ; Fonction de partition grand-canonique ; Applications aux systèmes ouverts\nEnsemble isotherme-isobare : Fonction de partition isobare ; Enthalpie libre ; Exemple des transitions de phase\nApplications aux Systèmes Classiques\nGaz parfaits classiques : Théorème d'équipartition ; Distribution de Maxwell-Boltzmann ; Capacité calorifique\nSystèmes dilués réels : Équation de van der Waals ; Théorie du champ moyen ; Potentiels intermoléculaires\nExtension Quantique\nFondements quantiques : Opérateur densité ; Fonction de partition quantique ; Limite classique et correction de Gibbs\nStatistiques quantiques : Fermions vs Bosons ; Gaz de Fermi parfait (électrons, température de Fermi) ; Gaz de Bose parfait (condensation BEC)\nRéférences bibliographiques\nInfelta P ; Graetzel M. Thermodynamique : principes et applications, Brown Walker Press, 2006.\nNightingale M. P ; Umrigar C. J., Monte Carlo Methods in Chemistry, Wiley, NY, 1998.\nFrenkel, D ; Smit, B., Understanding molecular simulations: From algorithms to applications, Academic Press: San Diego, 1996."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

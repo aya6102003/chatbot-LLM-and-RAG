@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S2-PRII.html",
+      "title": "Physique des Radiations II",
+      "id": "74cf56bd",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:45",
+      "hash": "cbee142c2defeef6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nFondamentale (UEF 2)  |\nCrédits :\n6  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs pédagogiques\nDonner aux futurs spécialistes en physique médicale le bagage théorique et expérimental nécessaire à la compréhension des rayonnements, de leurs preuves et de la protection contre ces rayonnements. Comprendre comment réaliser une modélisation numérique du transport des rayonnements utilisé en thérapie et en diagnostic. Maîtrise d'un des codes numériques de simulation de transport de rayonnement (MCNPX, Penelope, Gate, EGS…).\nContenu de l'unité\n1- Équation de transport de Boltzmann\nIntroduction\nRalentissement des particules chargées (CSDA)\nÉlectrons Secondaires\n2- Introduction aux techniques de Monte Carlo\nMéthodes Monte Carlo\nDistribution de probabilité et échantillonnage inverse\nIncertitude, temps de simulation et efficacité\nModélisation du transport des particules\nSimulation Monte Carlo détaillée\nSimulation Monte Carlo histoire-condensée\nTechniques de la réduction de la variance\nApplications\n3- Aperçu de la physique des rayonnements non ionisants\nTravaux pratiques\nDétection des radiations : détecteur Geiger Muller, compteur proportionnel, scintillateur et chaîne de mesure ; statistique de comptage (Gauss et Poisson) ; détermination du coefficient d'atténuation ; mesure du temps mort du GM ; loi inverse carrée de la distance\nPhysique des radiations : utilisation d'un code Monte Carlo simple pour illustrer le principe et l'échantillonnage ; calculs de transport Monte Carlo à l'aide d'un code à usage général ; applications du tutorial d'un code Monte Carlo\nRéférences bibliographiques\nPODGORSAK, E. B., Radiation Physics for Medical Physicists, Springer, New York, USA (2010).\nANDREO, P., BURNS, D.T., NAHUM, A.E., SEUNTJENS, J., ATTIX, F.H., Fundamentals of Ionizing Radiation Dosimetry. Wiley-VCH, Weinheim, GERMANY (2017).\nKoutsojannis C.: Electromagnetic Radiation: History, Theory and Research, Nova Pubs, NY 2018; ISBN: 978-1-53614-331-7."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

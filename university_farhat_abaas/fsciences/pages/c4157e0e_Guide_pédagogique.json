@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Licence Chimie.html",
+      "title": "Guide pédagogique",
+      "id": "c4157e0e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:39",
+      "hash": "791d40a4c99de161",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Cette licence propose une formation générale permettant d'acquérir des connaissances théoriques et expérimentales fondamentales, de développer progressivement des compétences en chimie et de comprendre des concepts clés dans des champs disciplinaires tels que: chimie générale, inorganique, organique, macromoléculaire, spectroscopies, analytique, minérale...\nL'objectif principal est de donner aux étudiants une formation scientifique solide de base dans les domaines se rattachant à la chimie afin de poursuivre leurs études en Master ou d'intégrer la vie professionnelle concernant des métiers de la chimie.\nAinsi, sont dispensés des enseignements de techniques de base de l'expérimentation en laboratoire, d'analyse et de traitement de données dans les différents domaines de la chimie, techniques volumétriques, pH-métriques, conductimétries, gravimétriques, spectrochimiques, chromatographiques, thermodynamique, cinétique....\nCette mention de Licence permet aux étudiants d’accéder à un large panel de masters nationaux et internationaux.\nResponsable : Dr T. BOUKAZOULA                 fakhreddine.boukezoula@univ-setif.dz"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/c4157e0e_table_1_SEMESTRE_3.json",
+        "rows": 12
+      },
+      {
+        "file": "tables/c4157e0e_table_2_SEMESTRE_4.json",
+        "rows": 12
+      },
+      {
+        "file": "tables/c4157e0e_table_3_SEMESTRE_5.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/c4157e0e_table_4_SEMESTRE_6.json",
+        "rows": 11
+      }
+    ]
+  }
+}

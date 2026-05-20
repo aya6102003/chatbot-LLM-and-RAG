@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S3-CF.html",
+      "title": "Calcul Fractionnaire et Applications",
+      "id": "33ffa22f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:29",
+      "hash": "faadd3b367b28aed",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Calcul Fractionnaire et Applications\nSemestre :\n3  |\nUnité d'enseignement :\nMéthodologique\nVolume Horaire Hebdomadaire :\nCours : 3h, TD : 1h30\nCrédits :\n5  |\nCoefficients :\n3\nObjectifs de l'enseignement\nIntroduire la généralisation des opérateurs de dérivation à des ordres non entiers et explorer leurs applications à la modélisation.\nConnaissances préalables recommandées\nEDO, Analyse de Fourier.\nContenu de la matière\nChapitre 1 : Définitions et Propriétés (Riemann-Liouville, Caputo).\nChapitre 2 : Fonctions Spéciales Associées (Fonction de Mittag-Leffler).\nChapitre 3 : Équations Différentielles Fractionnaires.\nChapitre 4 : Applications (diffusion anormale, viscoélasticité).\nMode d'évaluation\nExamen final (60%), Contrôle Continu (40%)\nRéférences bibliographiques\nI. Podlubny,\nFractional Differential Equations\n. Academic Press, 1998.\nK. Diethelm,\nThe Analysis of Fractional Differential Equations\n. Springer, 2010."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

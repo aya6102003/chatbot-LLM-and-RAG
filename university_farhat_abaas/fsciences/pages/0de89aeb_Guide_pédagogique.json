@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/info_quant.html",
+      "title": "Guide pédagogique",
+      "id": "0de89aeb",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:58",
+      "hash": "88220f5d6a250817",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "It's important to note that the field of quantum\ncomputing is rapidly evolving, and the objectives of a this Master's\nprogram may evolve over time to align with advancements in technology\nand new discoveries in the field. Here are some common objectives for a\nMaster's program in quantum computing:\n-  Develop a deep understanding of quantum theory: The program\naims to provide students with a solid foundation in quantum mechanics\nand quantum information theory. This includes  understanding\nprinciples  such  as  superposition,\nentanglement,  quantum  gates, quantum algorithms, and\nquantum error correction.\n-  Gain  proficiency  in  quantum\nprogramming:  Students  will  learn  how\nto  write  and  analyze quantum  algorithms\nusing  programming  languages  and\nframeworks  specific  to  quantum computing,\nsuch  as  Qiskit,  Cirq,  or  IBM\nQuantum  Experience.  They  will  develop\nskills  in translating  classical  problems\ninto  quantum  algorithms  and  optimizing\nthem  for  quantum systems.\n-  Explore  quantum  hardware  and\ntechnologies:  The  program  may  cover\nthe  underlying hardware   architectures\nand   technologies   used\nin   quantum   computing,   including\nsuperconducting  qubits,  trapped  ions,\ntopological  qubits,  and  other  emerging\nquantum computing  platforms.  Students  may\ngain  hands-on  experience  with\nexperimental  setups and quantum simulators.\n-  Investigate quantum applications and use cases: Students will\nexplore various applications of quantum computing across different\ndomains, such as cryptography, optimization, machine\nlearning,  chemistry  simulations,  and\nquantum  simulation.  They  may  delve  into\ncase  studies  and  real-world  examples\nto  understand  the  potential  impact\nof  quantum computing.\n-  Prepare for careers in quantum computing: The  program\naims to equip students with the necessary  skills  and\nknowledge  to  pursue  careers  in\nquantum  computing.  This  includes roles  in\nresearch  and  development,  quantum\nsoftware  engineering,  quantum  algorithm design,\nquantum information theory, and quantum consulting.\nResponsable : ZAZOUA née DJEMAME Safia          email :\nsafia.zazoua@univ-setif.dz"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/0de89aeb_table_1_SEMESTRE_1.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/0de89aeb_table_2_SEMESTRE_2.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/0de89aeb_table_3_SEMESTRE_3.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/0de89aeb_table_4_SEMESTRE_4.json",
+        "rows": 3
+      }
+    ]
+  }
+}

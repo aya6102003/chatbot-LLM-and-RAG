@@ -1,0 +1,33 @@
+{
+  "source_url": "http://fsciences.univ-setif.dz/page_professionnelles/259",
+  "title": "",
+  "headers": [
+    "ASD cours ch1-1",
+    "Polycopie de cours",
+    ""
+  ],
+  "rows": [
+    [
+      "ASD cours ch1-1",
+      "Polycopie de cours",
+      ""
+    ],
+    [
+      "ASD TD/TP ch1-1",
+      "Polycopie de TP",
+      ""
+    ],
+    [
+      "ASD cours ch1-2",
+      "Polycopie de cours",
+      ""
+    ],
+    [
+      "ASD TD/TP ch1-2",
+      "Polycopie de TP",
+      ""
+    ]
+  ],
+  "row_count": 4,
+  "col_count": 3
+}

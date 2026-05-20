@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S7-WEB-MICRO.html",
+      "title": "Advanced Web and Microservices",
+      "id": "029ed388",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:35",
+      "hash": "19849e5f100f977d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Advanced Web and Microservices\nSemestre : S7\nUnité d’enseignement : UEF1\nMatière : Web avancé et Micro-services\nCrédits : 3\nCoefficient : 2\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement : Apprendre à créer des applications Web avancées, Se familiariser avec\nl'architecture orienté-micro services et Apprendre à créer des clients mobiles hybrides\nConnaissances préalables recommandées. Développement de sites Web statiques et dynamiques, modèle\nMVC\nContenu de la matière\nChapitre I : Introduction au Web Avancé\n- Architecture d'une application Web en entreprise\n- Rappel du modèle logiciel MVC.\n- Les différentes couches d'une application monolithique traditionnelle (couche Métier, couche\nORM, Services Web et applications Web tiers, clients lourd, client léger, client mobile, etc.).\n- Limites des applications Web monolithiques\nChapitre II : Framework côté Client\n- Limites du cycle de développement traditionnel côté client (JavaScript) sans Framework.\n- Utilité des Framework\n- Quelques exemples de Framework JavaScript (Angular, React, ...)\nChapitre III : Introduction aux Micro-Services\n- Services Web et leur fonctionnement\n- Principe et avantages des micro-services\n- Passage d'une application Web monolithique à une architecture micro-services.\nChapitre IV: Mise en oeuvre d'une architecture micro-services\n- Architecture micro-services avec Flask/Python\n- Conception des micro-services avec Flask\n- Déploiement des micro-services Flask\n- Déploiement avec Docker\nChapitre V: Sécurisation des micro-services\n- Bases de la sécurité Web (HTTP, socket, session, code status).\n- Limites de l'authentification basée sur les sessions et les cookies, et types d'attaques.\n- Introduction à JWT (Json Web Token), structure de JWT (header, payload, signature).\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences :\n1. Moises Macero, Learn Microservices with Spring Boot, Editions Apress, 2017.\n2. Christian Gammelgaard. Microservices in .Net, Editions Manning Publications Co. 2021.\n3. Sam Newman. Monolith to Microservices : Evolutionary Patterns to transform your monolith.\nEditions OREILLY. 2019.\n4. Julien Ponge. Architecture Microservices. Editions ENI. 2017."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

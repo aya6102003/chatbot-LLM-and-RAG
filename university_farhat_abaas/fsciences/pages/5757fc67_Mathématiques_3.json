@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S3-MATH3.html",
+      "title": "Mathématiques 3",
+      "id": "5757fc67",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:25",
+      "hash": "0f2e4d973cfd99b6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Mathématiques 3 – Séries et Équations Différentielles\nSemestre :\n3  |\nUE :\nFondamentale  |\nCrédits :\n4  |\nCoefficient :\n2\nPrérequis\nCours de math1 et math2 première année SM\nConnaissances élémentaires en algèbre linéaire\nExpérience en méthodes mathématiques appliquées aux sciences\nObjectifs de l'enseignement\nL'objectif principal de cette matière est de maîtriser l'étude d'une fonction à une et deux variables réelles et les techniques de calcul différentielles qui entrent en jeu dans la physique. Les étudiants apprendront à :\nMaîtriser les différentes méthodes de calcul et évaluation des intégrales simples/multiples et définies/impropres.\nMaîtriser les différentes méthodes menant à la résolution d'équations différentielles.\nUtiliser les transformations de Laplace et Fourier pour résoudre des équations différentielles ordinaires et équations aux dérivées partielles.\nDécouvrir les séries numériques et leurs propriétés, notamment l'étude de quelques critères de convergence.\nContenu de la matière\nChapitre 1 : Intégrales simples et multiples\nContenu théorique :\nRappels sur l'intégrale de Riemann et sur le calcul de primitives.\nGénéralisation : Intégrales multiples (plusieurs dimensions).\nApplication au calcul d'aires, de volumes.\nTravaux dirigés :\nExercices sur le calcul des primitives.\nExercices sur les intégrales doubles et triples.\nCalcul d'aires et de volumes.\nChapitre 2 : Intégrales impropres\nContenu théorique :\nIntégrales de fonctions définies sur un intervalle non borné.\nIntégrales de fonctions définies sur un intervalle borné, infinies à l'une des extrémités.\nIntégrales de fonctions discontinues sur l'intervalle d'intégration.\nTravaux dirigés :\nExercices sur les intégrales définies sur un intervalle borné infinies à l'une extrémité et sur les intervalles non bornés.\nExercices sur les intégrales des fonctions discontinues sur l'intervalle d'intégration.\nChapitre 3 : Équations différentielles\nContenu théorique :\nÉquations différentielles ordinaires du 1er et du 2ème ordre.\nFonctions multivariables.\nÉléments d'équations aux dérivées partielles.\nTravaux dirigés :\nRésolutions des équations différentielles de différents ordres.\nChapitre 4 : Séries\nContenu théorique :\nSéries numériques.\nSuites et séries de fonctions.\nSéries entières, séries de Fourier.\nTravaux dirigés :\nExercices d'application sur la convergence et la divergence des séries.\nChapitre 5 : Transformation de Laplace\nContenu théorique :\nDéfinition et propriétés.\nApplication à la résolution d'équations différentielles.\nTravaux dirigés :\nExercices de démonstration et d'application de la transformation de Laplace.\nChapitre 6 : Transformation de Fourier\nContenu théorique :\nDéfinition et propriétés.\nApplication à la résolution d'équations différentielles.\nTravaux dirigés :\nExercices de démonstration et d'application de la transformation de Fourier.\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\nStewart, James.\nCalculus: Early Transcendentals\n. 8th ed., Cengage Learning, 2016.\nThomas, George B., Maurice D. Weir, and Joel Hass.\nThomas' Calculus\n. 13th ed., Pearson, 2015.\nSpivak, Michael.\nCalculus\n. 4th ed., Pearson, 2008.\nElie Belorizky,\nOutils mathématiques à l'usage des scientifiques et des ingénieurs\n, EDP Sciences, Paris, (2007).\nWalter Appel,\nMathématiques pour la physique et les physiciens!\n, 4ème Ed., H&K Edition, Paris, (2008)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

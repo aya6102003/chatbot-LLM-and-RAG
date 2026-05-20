@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/295",
+      "title": "Faculté des Sciences",
+      "id": "1ac1cf04",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:50:49",
+      "hash": "64b7f337b055a0ff",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "MANSOURI Houceme\nMANSOURI Houceme\nGrade:Professeur\nGrade:Professeur\nEmail:mansouri_houssem@univ-setif.dz\nEmail:mansouri_houssem@univ-setif.dz\nDépartement:Informatique\nBureau:1\nBureau:1\n\nDéveloppement d’Applications Web\nPolycopie de cours\nConferences Internationales (7)\nA new fault tolerant snapshot algorithm for distributed systems\nH. Mansouri\nProceedings of the 3rd International Conference on Electrical Engineering and Control Applications, Algeria, (2017)\nA new efficient checkpointing algorithm for distributed systems security\nH. Mansouri\nProceedings of the 3rd International Conference on Networking and Advanced Systems, Algeria, (2017)\nUn nouvel algorithme de sauvegarde d’un point de reprise global (Checkpointing) pour les bases de données distribuées\nH. Mansouri, M.A. El-Dosuky\nProceedings of the 11ème édition de la conférence sur les avancées, des systèmes décisionnels, Tunisia , (2017)\nA snapshot security protocol for radar network protection\nH. Mansouri, A-S.K. Pathan., M. Aliouat\nProceedings of the 7th Seminar on Detection Systems: Architectures and Technologies, Algeria, (2017)\nAn efficient minimum-process non-intrusive snapshot protocol for vehicular ad hoc networks\nH. Mansouri, A-S.K. Pathan\nProceedings of the 13th ACS/IEEE International Conference on Computer Systems and Applications, Morocco, (2016)\nA non-blocking coordinated checkpointing algorithm for message-passing systems\nH. Mansouri, N. Badache, M. Aliouat, A-S.K. Pathan\nProceedings of the International Conference on Intelligent Information Processing, Security and Advanced Communication, Algeria, (2015)\nAdaptive fault tolerant checkpointing algorithm for cluster based mobile ad hoc networks\nH. Mansouri, N. Badache, M. Aliouat, A-S.K. Pathan\nProceedings of the International Conference on Advanced Wireless, Information, and Communication Technologies, Tunisia , (2015)\nJournaux (6)\nA Communication-Induced Checkpointing Algorithm for Consistent-Transaction in Distributed Database Systems\nH. Mansouri, A-S.K. Pathan\n». Security in Computing and Communications, 1364 (2021), pp 21-32\nA Resilient Hierarchical Checkpointing Algorithm for Distributed Systems Running on Cluster Federation\nH. Mansouri, A-S.K. Pathan\nSecurity in Computing and Communications, 1208 (2020), pp 99-110\nCheckpointing distributed computing systems: an optimization approach\nH. Mansouri, A-S.K. Pathan\nInternational Journal of High Performance Computing and Networking, 15 (2019), pp 202–209\nCheckpointing distributed application running on mobile ad hoc networks\nH. Mansouri, N. Badache, M. Aliouat, A-S.K. Pathan\nInternational Journal of High Performance Computing and Networking, 11 (2018), pp 95–107\nAdaptive fault tolerant checkpointing algorithm for cluster based mobile ad hoc networks\nH. Mansouri, N. Badache, M. Aliouat, A-S.K. Pathan\nProcedia Computer Science, 73 (2015), pp 40–47\nA new efficient checkpointing algorithm for distributed mobile computing\nH. Mansouri, N. Badache, M. Aliouat, A-S.K. Pathan\nJournal of Control Engineering and Applied Informatics, 17 (2015), pp 43–54"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "2259",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2259",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/uploads/page_professionnelle/image/295/thumb_Houssem.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/1ac1cf04_table_1_untitled.json",
+        "rows": 1
+      }
+    ]
+  }
+}

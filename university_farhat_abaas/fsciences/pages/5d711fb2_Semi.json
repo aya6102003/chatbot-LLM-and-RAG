@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S2-SCA.html",
+      "title": "Semi",
+      "id": "5d711fb2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:11",
+      "hash": "2ff3e42ece207a70",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Semi-conducteurs et Applications\nObjectifs de l'enseignement\nCe cours permet à l'étudiant d'acquérir les notions générales des matériaux inorganiques.\nConnaissances approfondies sur les matériaux semi-conducteurs et leurs propriétés physicochimiques à savoir leurs applications en énergétiques et nanotechnologies.\nConnaissances préalables recommandées\nChimie théorique, propriétés des matériaux, physique et chimie des semi-conducteurs.\nContenu de la matière\nNotions générales\nCaractéristiques physiques des semi-conducteurs\nQuels Matériaux pour quel type d'applications\nPropriétés électriques des semi-conducteurs\nStructure électronique et bande interdite (2 semaines) : Modèle des bandes : métal, semi-conducteur, isolant ; Effet des dopants et défauts sur les propriétés électroniques ; Bande interdite directe vs indirecte.\nSemi-conducteurs classiques et nouveaux matériaux (2 semaines) : Silicium, germanium, GaAs, GaN, SiC ; Jonctions p-n, hétérojonctions ; Matériaux bidimensionnels (graphène, TMDs), pérovskites halogénées.\nOxydes transparents conducteurs (TCO) (2 semaines) : Exemples : ITO, AZO, ZnO:Al ; Mécanisme de conduction et transparence optique ; Jonctions p-n, hétérojonctions, homojonctions ; Applications : écrans tactiles, cellules solaires, OLEDs.\nApplications\nÉtudes des comportements photo électrochimiques des Semi-conducteurs sous Lumière\nDiodes électroluminescentes (LEDs)\nCellules photovoltaïques (silicium, pérovskites, CIGS…)\nCapteurs optiques et détecteurs\nTransistors dans les circuits intégrés\nRéférences bibliographiques\nMercier, Jean P., Gérald Zambelli, and Wilfried Kurz. Introduction à la science des matériaux. Vol. 1. PPUR presses polytechniques, 1999.\nLévy, Francis. Physique et technologie des semiconducteurs. Vol. 18. PPUR presses polytechniques, 1995.\nGuillien, R. (1978). Les semiconducteurs et leurs applications. FeniXX.\nDelaire, Jacques, et al. Photophysique et photochimie : Des fondements aux applications. EDP sciences, 2017.\nDauvin, Jean-Philippe. Les semi-conducteurs. FeniXX, 1990."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

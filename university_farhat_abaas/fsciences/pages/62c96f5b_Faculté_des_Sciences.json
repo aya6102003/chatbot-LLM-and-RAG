@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/9098",
+      "title": "Faculté des Sciences",
+      "id": "62c96f5b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:35:25",
+      "hash": "6a746ef3ef4511c5",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nAUX ETUDIANTS DE DEUXIÈME ANNÉE PHYSIQUE (L2)\nRépartition des Etudiants sur Les Locaux des Examens"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "L2 S4",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6516/L2_S4.pdf",
+        "local_file": "pdfs/62c96f5b_L2_S4.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

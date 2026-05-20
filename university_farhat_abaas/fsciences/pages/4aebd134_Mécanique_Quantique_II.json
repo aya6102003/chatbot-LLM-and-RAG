@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L3/S5-MQII.html",
+      "title": "Mécanique Quantique II",
+      "id": "4aebd134",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:26",
+      "hash": "b9080e4441785a91",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Mécanique Quantique II\nSemestre :\n5  |\nUnité d'enseignement :\nFondamentale\nObjectifs de l'enseignement\nL'objectif de ce module est de remettre à jour et approfondir les connaissances en mécanique quantique acquises en S4.\nConnaissances préalables recommandées\nSavoir comment décrire les particules en mécanique quantique, en utilisant la représentation de Schrödinger.\nConnaître comment trouver les solutions stationnaires de l'équation de Schrödinger, dans le cas des potentiels élémentaires à une dimension.\nConnaître le formalisme mathématique et les postulats de la mécanique quantique.\nContenu de la matière\nChapitre 1 : Rappels\nPuits et barrières\nOscillateur harmonique à une dimension\nChapitre 2 : Les moments cinétiques\nThéorie générale\nMoments cinétiques orbitaux, harmoniques sphériques\nMoment cinétique de spin ½\nComposition de moments cinétiques. Coefficients de Clebsh-Gordon\nChapitre 3 : Le potentiel central\nÉtats liés. Atome d'hydrogène\nÉtats de diffusion\nChapitre 4 : Méthodes d'approximations\nPerturbations stationnaires : cas non-dégénéré\nPerturbations stationnaires : cas dégénéré\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\n[1] C. Cohen-Tannoudji, B. Diu, and F. Laloe. Mécanique quantique, tomes 1 et 2, édition Heramann (1973).\n[2] Michel Le Bellac, Physique quantique, EDP Sciences, Paris, 2007.\n[3] Texier Christophe, Mécanique quantique : Cours et exercices corrigés, 2ème édition, Dunod, 2015.\n[4] Jean-Louis Basdevant et Jean Dalibard, Mécanique quantique : Cours de l'École polytechnique, 2002.\n[5] Habib Bouchriha, Introduction à la physique quantique, Cours et applications, 2002 Office des Publication Universitaire."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

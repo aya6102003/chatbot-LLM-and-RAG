@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9099",
+      "title": "Faculté des Sciences",
+      "id": "e5f57842",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:47:59",
+      "hash": "8a726443007e3e2b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nAUX ETUDIANTS DE TROISIÈME ANNÉE PHYSIQUE FONDAMENTALE (L3)\nRépartition des Etudiants sur Les Locaux des Examens"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "L3 S6",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6517/L3_S6.pdf",
+        "local_file": "pdfs/e5f57842_L3_S6.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S3-DS.html",
+      "title": "S3 Ds.Html",
+      "id": "83a055a9",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:50",
+      "hash": "c549260cb8f84187",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Data Security\nSemester:\n3  |\nType:\nUEF31  |\nVHS:\n63h  |\nWeekly hours:\n4h30  |\nLecture:\n1h30  |\nTutorial:\n1h30  |\nLab:\n1h30\nPersonal work VHS:\n42h  |\nCoefficient:\n3  |\nCredits:\n5\nTeaching Objectives\nThis course introduces the main concepts of data security, highlighting the fundamental pillars of confidentiality, integrity, and availability. Students will be introduced to identification and authentication techniques, then study different access control policies. Cryptographic concepts will be explored, covering the main algorithms used in encryption, authentication, and electronic signatures — from history to modern applications, including symmetric encryption (DES, 3DES, AES), asymmetric cryptography (RSA), and electronic signature techniques.\nCourse Content (21h)\nChapter 1: Introduction\nCIA fundamentals of data security: Confidentiality, Integrity, Availability\nSecurity vs privacy\nRisks associated with data manipulation and analysis\nIdentification and Authentication: techniques (2FA, MFA, certificate...)\nChapter 3: Access Control\nDefinition and objectives\nAccess control policies (ACLs, DAC, MAC, RBAC, ABAC...)\nChapter 4: Cryptography\nHistorical background\nClassical cryptography: mono and polyalphabetic\nModern cryptography:\nSecret-key cryptography: stream cipher, block cipher, transposition/substitution, Feistel schemes, DES, 3DES, AES\nPublic-key cryptography: RSA\nCryptanalysis: brute-force attacks, replay attacks, ciphertext-only, chosen-plaintext and chosen-ciphertext attacks, frequency analysis (Al Kindi)\nOne-way functions, hash functions, key exchange algorithms, zero-knowledge algorithms, quantum encryption, elliptic curves\nChapter 5: Data Security in Transit and at Rest\nEncryption of data in transit (HTTPS, SSH)\nEncryption of data at rest (hard drives, databases)\nData masking and anonymisation techniques\nSecuring cloud computing environments\nChapter 6: Database Security\nSecuring relational databases (SQL Injection, encryption)\nNoSQL database security (MongoDB, Cassandra)\nDatabase monitoring and audit\nPrivilege and access management for databases\nChapter 7: Access Control and Authentication\nAccess control models (RBAC, ABAC, DAC, MAC)\nAuthentication methods (2FA, MFA, biometrics)\nIdentity and Access Management (IAM)\nSSO (Single Sign-On) and identity federation\nChapter 8: System and Application Security\nOperating system security (Windows, Linux, MacOS)\nWeb application security (OWASP Top 10, CSP, SameSite Cookies)\nAPI security (OAuth, OpenID Connect)\nDevSecOps and security integration in the SDLC\nChapter 9: Network Security\nNetwork and transport layer security (firewalls, IDS/IPS)\nWireless network security (WPA3, WEP, WPA2)\nVPN and secure communications\nProtocol security (HTTP, HTTPS, DNSSEC)\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — written tests, personal work\nBibliography\nW. Stallings (2011).\nComputer Security: Principles and Practice\n. Prentice Hall.\nM. T. Goodrich, R. Tamassia (2010).\nIntroduction to Computer Security\n. Pearson, International Edition.\nPIPER, F. C., ROBSHAW, M. J. B., & SCHWIDERSKI-GROSCHE, S. (2004).\nIdentities and authentication\n. Foresight Directorate.\nHU, V. C., FERRAIOLO, D., KUHN, D. R. et al. (2006).\nAssessment of access control systems\n. NIST.\nEbrahimi, T., Leprévost, F., Warusfel, B. (2006).\nCryptographie et sécurité des systèmes et réseaux\n. Hermès - Lavoisier.\nW. Stallings (2010).\nCryptography and Network Security: Principles and Practice\n. Pearson.\nG. Avoine, P. Junod, P. Oechslin (2010).\nSécurité Informatique\n. Editions Vuibert."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

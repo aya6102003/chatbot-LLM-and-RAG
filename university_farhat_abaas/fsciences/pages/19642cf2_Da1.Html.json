@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/DA1.html",
+      "title": "Da1.Html",
+      "id": "19642cf2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:32",
+      "hash": "74ef99bc8766da32",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nData Analysis 1 (DA1) — Semester 3, Unit UM3, Credits: 3, Coeff: 2\nPrerequisite Knowledge\nDescriptive statistics, probability, linear algebra.\nCourse Objectives\nStudents will learn how to apply statistical inference techniques, linear regression, and ANOVA, and interpret their results. They will also begin the study of nonlinear and logistic regressions to prepare for more complex analyses.\nCourse Content\nChapter 1:\nFundamental Statistical Concepts: Review of probability and distributions, descriptive statistics.\nChapter 2:\nStatistical Inference: Estimation techniques, hypothesis testing.\nChapter 3:\nLinear Regression and Modeling: Simple and multiple linear regression techniques, model diagnostics.\nChapter 4:\nAnalysis of Variance (ANOVA): Principles and applications of ANOVA, post hoc tests for multiple comparisons.\nChapter 5:\nIntroduction to Nonlinear and Logistic Regression: Basic principles and applications.\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\nReference books on standard statistics such as “Statistics” by Freedman, and online resources for statistical applications."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

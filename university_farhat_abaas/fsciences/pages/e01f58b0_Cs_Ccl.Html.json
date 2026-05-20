@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-CCl.html",
+      "title": "Cs Ccl.Html",
+      "id": "e01f58b0",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:33",
+      "hash": "1bf22f9415e7d90e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nThis course focuses on cloud technology. The main objective of this teaching unfolds around the socio-economic and technological impact of Cloud Computing. This teaching offers a good exploitation of aspects of database and information system on the Cloud. It provides preliminary knowledge of the Cloud architectures used today, the evolution of the Internet to support Cloud Computing, the architecture of data centers and their technologies.\nContenu de la matière\nIntroduction to Cloud Computing\nCloud Computing Platforms\nParallel Programming in the Cloud\nDistributed Storage Systems\nVirtualization\nCloud Security\nMulticore Operating Systems\nMode d’évaluation : Contrôle continu, examen\nRéférences\n• Cloud Computing: Concepts, Technology & Architecture (The Pearson Service Technology Series from Thomas Erl)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

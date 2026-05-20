@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/9114",
+      "title": "Faculté des Sciences",
+      "id": "1fec7235",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:34:11",
+      "hash": "c3e03dbf3a4294cd",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nPLANNING DES CONSULTATIONS L2-L3 ET M1\nAux étudiants de chimie L2-L3 et M1"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Planning des Consultations  L2 L3 et M1",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6531/Planning_des_Consultations__L2-L3_et_M1.pdf",
+        "local_file": "pdfs/1fec7235_Planning_des_Consultations_L2_L3_et_M1.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

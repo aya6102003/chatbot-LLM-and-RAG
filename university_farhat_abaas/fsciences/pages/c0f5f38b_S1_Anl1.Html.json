@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_INFORMATIQUE/S1-ANL1.html",
+      "title": "S1 Anl1.Html",
+      "id": "c0f5f38b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:08",
+      "hash": "8024dde4c7fe882b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Analyse 1\nSemestre :\n1  |\nUE :\nUEF11  |\nCrédits :\n6  |\nCoefficient :\n4\nObjectifs de l'enseignement\nL'objectif de ce module est de familiariser les étudiants avec le vocabulaire ensembliste, de donner des différentes méthodes de convergence des suites réelles et les différents aspects de l'analyse des fonctions d'une variable réelle.\nConnaissances préalables recommandées\nNiveau terminale.\nContenu de la matière\nChapitre 1 : Le Corps des Réels\nℝ est un corps commutatif, ℝ est un corps totalement ordonné\nRaisonnement par récurrence\nℝ est un corps valué, Intervalles\nBornes supérieure et inférieure d'un sous ensemble de ℝ\nℝ est un corps archimédien, Caractérisation des bornes supérieure et inférieure\nLa fonction partie entière, Ensembles bornés\nProlongement de ℝ : Droite numérique achevée ℝ\nPropriétés topologiques de ℝ, Parties ouvertes fermées\nChapitre 2 : Le Corps des Nombres Complexes\nOpérations algébriques sur les nombres complexes\nModule d'un nombre complexe z\nReprésentation géométrique d'un nombre complexe\nForme trigonométrique d'un nombre complexe\nFormules d'Euler\nForme exponentielle d'un nombre complexe\nRacines n-ième d'un nombre complexe\nChapitre 3 : Suites de Nombres réels\nSuites bornées, suites convergentes\nPropriétés des suites convergentes\nOpérations arithmétiques sur les suites convergentes\nExtensions aux limites infinies, Infiniment petit et infiniment grand\nSuites monotones, Suites extraites, Suite de Cauchy\nGénéralisation de notion de la limite, Limite supérieure, Limite inférieure\nSuites récurrentes\nChapitre 4 : Fonctions réelles d'une variable réelle\nGraphe d'une fonction réelle d'une variable réelle\nFonctions paires-impaires, Fonctions périodiques, Fonctions bornées, Fonctions monotones\nMaximum local, Minimum local\nLimite d'une fonction, Théorèmes sur les limites, Opérations sur les limites\nFonctions continues, Discontinuités de première et de seconde espèce\nContinuité uniforme\nThéorèmes sur les fonctions continues sur un intervalle fermé\nFonction réciproque continue\nOrdre d'une variable-équivalence (Notation de Landau)\nChapitre 5 : Fonctions dérivables\nDérivée à droite, dérivée à gauche\nInterprétation géométrique de la dérivée\nOpérations sur les fonctions dérivables\nDifférentielle-Fonctions différentiables\nThéorème de Fermat, Théorème de Rolle, Théorème des accroissements finis\nDérivées d'ordre supérieur, Formule de Taylor\nExtrémum local d'une fonction, Bornes d'une fonction sur un intervalle\nConvexité d'une courbe, Point d'inflexion, Asymptote d'une courbe\nConstruction du graphe d'une fonction\nChapitre 6 : Fonctions Élémentaires\nLogarithme népérien, Exponentielle népérienne\nLogarithme de base quelconque, Fonction puissance\nFonctions hyperboliques, Fonctions hyperboliques réciproques\nMode d'évaluation\nExamen (60%), Contrôle continu (40%)\nRéférences bibliographiques\nJ.-M. Monier, Analyse PCSI-PTSI, Dunod, Paris 2003.\nY. Bougrov et S. Nikolski, Cours de Mathématiques Supérieures, Editions Mir, Moscou, 1983.\nN. Piskounov, Calcul différentiel et intégral, Tome 1, Editions Mir, Moscou, 1980.\nK. Allab, Eléments d'Analyse, OPU, Alger, 1984.\nB. Calvo, J. Doyen, A. Calvo, F. Boschet, Cours d'analyse, Librairie Armand Colin, Paris, 1976.\nJ. Lelong-Ferrand et J. M. Arnaudiès, Cours de mathématiques, tome 2, Edition Dunod, 1978."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S2-WN.html",
+      "title": "Wireless Networks",
+      "id": "6b2c1c81",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:51",
+      "hash": "943093fb918635b4",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nWireless Networks  |\nSemester:\n2  |\nType:\nUEF21\nVHS:\n63h  |\nWeekly hours:\n4h30  |\nLectures:\n1h30  |\nTD:\n1h30  |\nTP:\n1h30\nPersonal work VHS:\n42h  |\nCoefficient:\n3  |\nCredits:\n5\nTeaching Objectives\nWireless networks are increasingly present in everyday life; this course gives students very solid knowledge in this domain\nRecommended Prerequisites\nBasic notions of computer networks\nCourse Content (Lectures: 21h)\nIntroduction to wireless networks\nTypes of wireless networks\nFundamental elements of wireless transmission: signal, electromagnetic waves, propagation, coverage, etc.\nSpectrum spreading techniques (FHSS, DSSS, ...)\nAntennas and transmission equipment in wireless networks\nWireless local area networks:\nDefinitions and architectures\nIEEE 802.11a/b/g/n/ac/ax standards (Wi-Fi 1, 2, 3, 4, 5, 6, 7...)\nPhysical layer in WLANs\nData link layer: concurrent access techniques (CSMA/CA)\nSecurity in wireless local area networks\nAd hoc networks\nRouting in ad hoc networks: proactive, reactive and hybrid protocols\nWireless sensor networks\nNew emerging technologies in wireless communication\nAssessment\nExam: 60%\nContinuous assessment: 40%\nBibliographic References\nSachan V. K., Wireless Cellular Communications: Principles, Designs and Applications, Paperback Edition. 2020.\nBlokdyk, G., Wireless Local Area Network: A Complete Guide, Paperback Edition. 2021.\nKurose, J. F., & Ross, K. W., Computer Networking: A Top-Down Approach. Pearson Editions. 2021.\nLannone, E., Telecommunication networks, O'Reilly Edition. 2017.\nWilliam Stallings, Wireless Communications & Networks, Prentice Hall (2005).\nBegrouz A. Forouzan, DATA COMMUNICATION AND NETWORKING, fourth edition, McGraw-Hill, Higher Education, 2007."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

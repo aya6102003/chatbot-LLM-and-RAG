@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S1-LOS.html",
+      "title": "Exploration de logiciels libres et open source en Physique Médicale",
+      "id": "05c219cf",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:48",
+      "hash": "42f9d0ed63f064c3",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nDécouverte (UED 1)  |\nCrédits :\n1  |\nCoefficient :\n1\nMode d'évaluation :\nExamen : 100%\nObjectifs de l'enseignement\nInitier les étudiants à l'usage de logiciels libres dédiés à la modélisation, à la simulation et à l'analyse des phénomènes liés à la physique médicale.\nDévelopper des compétences pratiques en traitement d'image médicale, dosimétrie, planification thérapeutique et simulation de radiations.\nComprendre le rôle des outils numériques open source dans les applications cliniques et de recherche en physique médicale.\nConnaissances préalables recommandées\nBases en physique nucléaire, rayonnement, interaction rayons-matière\nConnaissances fondamentales en anatomie et instrumentation biomédicale\nFamiliarité souhaitée avec Linux et/ou Python\nContenu pédagogique détaillé\nChapitre I. Introduction aux logiciels open source en physique médicale\nDéfinition et avantages des logiciels libres et open source\nNotions de licences (GPL, MIT) et de communautés de développement\nExemples d'environnements libres en médecine : ITK, 3D Slicer, GATE\nChapitre II. Traitement d'images médicales\nIntroduction à ImageJ/Fiji : histogramme, seuillage, filtres\nSegmentation d'images DICOM (scanner, IRM)\nIntroduction à 3D Slicer : volumes 3D, enregistrement, annotations\nChapitre III. Dosimétrie et planification\nIntroduction à GATE (Geant4 Application for Tomographic Emission) : structure, géométrie, simulation de sources radioactives\nSimulation de la dose dans un fantôme anthropomorphe\nÉtude de faisceaux externes (photons, protons)\nChapitre IV. Interaction rayonnement-matière\nVisualisation et simulation avec PENELOPE, EGSnrc\nCas d'étude : interaction des électrons, photons X, électrons de haute énergie\nOutils pour la radioprotection : simulation de blindages\nChapitre V. Analyse de données et visualisation scientifique\nUtilisation de Python (NumPy, Matplotlib, Pandas) pour l'analyse d'images et de données dosimétriques\nScripts pour la lecture de fichiers DICOM, courbes dose-volume\nIntroduction à l'automatisation et au traitement par lots\nChapitre VI. Applications en imagerie et en thérapie\nSimulation de la tomographie d'émission (TEP, TEMP)\nReconstruction d'images (algorithmes open source dans STIR)\nIntroduction à OpenRTK (Reconstruction Tomographique)\nChapitre VII. Mini-projet de simulation ou traitement\nRéalisation d'un mini-projet par binôme : application d'un logiciel libre sur un cas réel ou simulé\nRédaction d'un rapport et soutenance orale\nRéférences et ressources recommandées\nJan S. et al., \"GATE: a simulation toolkit for PET and SPECT\", Phys Med Biol, 2004.\nSchneider C.A. et al., \"NIH Image to ImageJ: 25 years of image analysis\", Nat Methods, 2012.\nPENELOPE, EGSnrc documentation : IAEA, NRC Canada\nDocumentation de 3D Slicer : https://slicer.readthedocs.io\nGATE : https://www.opengatecollaboration.org\nPython libraries : https://scikit-image.org, https://pydicom.github.io"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

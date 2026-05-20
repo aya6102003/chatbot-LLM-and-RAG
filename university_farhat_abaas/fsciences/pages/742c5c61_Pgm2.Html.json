@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/PGM2.html",
+      "title": "Pgm2.Html",
+      "id": "742c5c61",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:31",
+      "hash": "82c8d3b0f250a2e6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nProgramming 2 (PGM2) — Semester 2, Unit UFC2, Credits: 6, Coeff: 3\nCourse Objectives\nMaster advanced algorithmic concepts and design techniques to solve complex problems efficiently.\nUnderstand and implement linked lists, stacks, and queues, focusing on dynamic memory management.\nExplore and apply advanced data structures like trees and graphs for effective data manipulation and problem-solving.\nImplement and analyze advanced sorting and search algorithms, and apply graph algorithms to real-world problems.\nCourse Content\nChapter 1: Design and Analysis of an Algorithm\nAdvanced concepts in algorithmics.\nAlgorithm design techniques (divide and conquer, recursion…).\nAnalysis and calculation of algorithm complexity.\nChapter 2: Linked Lists (in algorithmics and in Python)\nIntroduction.\nPointers.\nDynamic memory management.\nLinked lists.\nOperations on linked lists.\nDoubly linked lists.\nStacks and queues.\nChapter 3: Advanced Data Structures (in algorithmics and in Python)\nTrees (Binary trees, specialized binary trees, etc.).\nGraphs (Representation, traversal, search algorithms, etc.).\nAdvanced data structures (Heaps, Hash tables, etc.).\nChapter 4: Advanced Algorithms (in algorithmics and in Python)\nAdvanced sorting algorithms (Quick sort, Merge sort, etc.).\nAdvanced search algorithms (Binary search, Interpolation search, etc.).\nGraph algorithms (Depth-first search, Breadth-first search, Shortest paths, etc.).\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\n“Introduction to Algorithms” by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein\n“Algorithms” by Robert Sedgewick and Kevin Wayne\n“Python Algorithms” by Magnus Lie Hetland"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

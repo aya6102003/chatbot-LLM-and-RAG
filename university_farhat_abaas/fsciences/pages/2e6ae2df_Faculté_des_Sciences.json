@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/7600",
+      "title": "Faculté des Sciences",
+      "id": "2e6ae2df",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:29:33",
+      "hash": "c7205eb84bf7fdf2",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nARRÊTÉ 1275"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Arrete1275 du 27 sept 2022",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/5553/Arrete1275-du-27-sept-2022.pdf",
+        "local_file": "pdfs/2e6ae2df_Arrete1275_du_27_sept_2022.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Master_Physique.html",
+      "title": "Guide pédagogique",
+      "id": "6f7edc1e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:35",
+      "hash": "60208bb4fab2bc89",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Guide pédagogique\nMaster Physique\n\nPhysique des Matériaux\nPhysique Energétique et Energies Renouvelables\nPhysique Médicale\nPhysique des Rayonnements\nPhysique Théorique"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "Guide pédagogique",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/index.html",
+        "type": "internal"
+      },
+      {
+        "text": "physique.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/physique.html",
+        "type": "internal"
+      },
+      {
+        "text": "Master_Physique_des_Materiaux.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Master_Physique_des_Materiaux.html",
+        "type": "internal"
+      },
+      {
+        "text": "Master_Physique_Energetique_ER.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Master_Physique_Energetique_ER.html",
+        "type": "internal"
+      },
+      {
+        "text": "Master_Physique_Medicale.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Master_Physique_Medicale.html",
+        "type": "internal"
+      },
+      {
+        "text": "Master_Physique_Rayonnements.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Master_Physique_Rayonnements.html",
+        "type": "internal"
+      },
+      {
+        "text": "Master_Physique_Theorique.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Master_Physique_Theorique.html",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

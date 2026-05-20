@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/9116",
+      "title": "Faculté des Sciences",
+      "id": "0632077a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:34:06",
+      "hash": "771b2a5a4b8c393e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nEXAMEN DE REMPLACEMENT (SEMESTRE 2)\n1ère Année Math et Info"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Replacement Exam Schedule MI",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6533/Replacement_Exam_Schedule_MI.pdf",
+        "local_file": "pdfs/0632077a_Replacement_Exam_Schedule_MI.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

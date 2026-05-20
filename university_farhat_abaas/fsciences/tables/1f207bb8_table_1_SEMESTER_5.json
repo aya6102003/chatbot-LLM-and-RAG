@@ -1,0 +1,141 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/ING_INTELLIGENCE_ARTIFICIELLE.html",
+  "title": "SEMESTER 5",
+  "headers": [
+    "Teaching Unit",
+    "Subject",
+    "Credits",
+    "Coefficient",
+    "Weekly Teaching Hours",
+    "VHS14 weeks",
+    "Assessment",
+    "Details"
+  ],
+  "rows": [
+    [
+      "Teaching Unit",
+      "Subject",
+      "Credits",
+      "Coefficient",
+      "Weekly Teaching Hours",
+      "VHS14 weeks",
+      "Assessment",
+      "Details"
+    ],
+    [
+      "Lecture",
+      "Tutorial",
+      "Lab",
+      "Other",
+      "Continuous",
+      "Exam"
+    ],
+    [
+      "UE FundamentalsCode: UEF1Credits: 12Coefficients: 8",
+      "Database Architecture and Administration",
+      "6",
+      "4",
+      "03H00",
+      "",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Compilation",
+      "6",
+      "4",
+      "01H30",
+      "01H30",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE FundamentalsCode: UEF2Credits: 13Coefficients: 8",
+      "Linear and Dynamic Programming",
+      "4",
+      "3",
+      "01H30",
+      "01H30",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Numerical Analysis 1",
+      "4",
+      "2",
+      "01H30",
+      "01H30",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Foundations of Artificial Intelligence",
+      "5",
+      "3",
+      "01H30",
+      "",
+      "01H30",
+      "",
+      "42H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE DiscoveryCode: UED1Credits: 3Coefficients: 2",
+      "Software Engineering",
+      "3",
+      "2",
+      "01H30",
+      "01H30",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE TransversalCode: UET1Credits: 2Coefficients: 2",
+      "Optional Module: Mobile Dev / HCI / Video Game Design",
+      "2",
+      "2",
+      "01H30",
+      "",
+      "01H30",
+      "",
+      "42H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Total Semester 5",
+      "30",
+      "20",
+      "12H00",
+      "06H00",
+      "10H30",
+      "",
+      "399H"
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 8
+}

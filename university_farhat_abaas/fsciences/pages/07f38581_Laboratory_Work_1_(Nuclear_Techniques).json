@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S1-TL1.html",
+      "title": "Laboratory Work 1 (Nuclear Techniques)",
+      "id": "07f38581",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:00",
+      "hash": "4ad43258678eb886",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nMéthodologie (UEM 1)  |\nCrédits :\n4  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs de l'enseignement\nCette Unité d'Enseignement se propose comme une introduction générale aux techniques de détection de particules et de rayonnements utilisés dans les laboratoires de recherche. Elle a pour but de familiariser l'étudiant avec les deux aspects de l'interaction rayonnement matière. Elle a pour but de donner les connaissances de base indispensables à la physique de la détection et le principe de fonctionnement de tous les éléments constituants une chaine de détection classique (préampli, ampli, ADC, etc.).\nContenu de la matière\nCompteur Geiger Müller\nStatistique de comptage\nElectronique nucléaire de détection\nDétecteur 1 : scintillateur avec analyseur monocanal\nDétecteur 2 : scintillateur avec analyseur multicanal\nDétecteur à barrière de surface : Détection des particules α\nDétection des rayonnements γ\nCoïncidences «γ-γ »\nRéférences bibliographiques\nW. R. LEO, Techniques for nuclear and particle physics experiments, Springer-Verlag, ISBN 0 387 57280 5\nG.F. KNOLL, Radiation detection and measurement, Wiley, ISBN 0 471 61761 X\nM. BUENERD et al., Instrumentation en physique nucléaire et en physique des particules, JOLIOT CURIE 1988, Les éditions de physique, ISBN 2 86883 134\nD. GREEN, The physics of particle detectors, Cambridge, ISBN 0 521 66226 5\nW. BLUM & L. ROLANDI, Particle detection with drift chambers, Springer-Verlag ISBN 3 540 58322"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

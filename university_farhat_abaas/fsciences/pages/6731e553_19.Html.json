@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/IQ/19.html",
+      "title": "19.Html",
+      "id": "6731e553",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:36",
+      "hash": "6984453f8e5b0d67",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI.   General framework: representation, loss function, generalization and over-learning\nentropy, supervised / unsupervised\nII. Supervised Learning and Linear Regression\nIII. Classification and Logistic Regression\nIV. Decision Tree and Random Forest\nV. Na�ve Bayes and Support Vector Machine\nVI. Unsupervised Learning\nVII.   Natural Language Processing and Text Mining\nVIII.  Deep Learning\nIX. Time Series Analysis"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

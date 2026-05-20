@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9032",
+      "title": "Faculté des Sciences",
+      "id": "f0b597ba",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:42:50",
+      "hash": "30c9fbc843d3e6e3",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nBOURSE INDONOSIENNE\nUniversité Maulana Malik Ibrahim"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Bourse Universit%C3%A9 Maulana Malik Ibrahim Indonesie",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6488/Bourse-Universit%C3%A9_Maulana_Malik_Ibrahim_Indonesie.pdf",
+        "local_file": "pdfs/f0b597ba_Bourse_Universit%C3%A9_Maulana_Malik_Ibr.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

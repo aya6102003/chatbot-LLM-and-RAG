@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/L1_SM_Common_Core/S1-MATH1.html",
+      "title": "Mathematics 1",
+      "id": "56bbdce7",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:37",
+      "hash": "21722287bde3b298",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Mathematics 1\nSemester:\n1  |\nTeaching Unit:\nFundamental Unit (FU 1)  |\nCourse Code:\nFU 1\nCourse Objectives\nOf paramount importance for any scientist, this course enables students to acquire the fundamental mathematical foundations necessary to rigorously express the laws of physics and chemistry. The course covers vector calculus, differential calculus, and their applications to problems in physical and chemical modelling.\nNote: Although the introduction to logic and reasoning methods is not included as a separate chapter due to time constraints, it must be incorporated into the exercise sets directly.\nCourse Structure:\n1h30 lecture + 3h00 tutorial sessions per week.\nSyllabus\nChapter 1 – Numbers and Vectors (3 weeks: 3 lectures, 6 tutorial sessions)\nReal numbers: definition, absolute value, radicals (square root, cube root, n-th root and properties), integer part.\nVectors: definition, operations (sum, scalar multiplication), examples in 2D and 3D.\nLinear dependence and independence, basis and dimension.\nVector projection in Cartesian coordinates.\nPolar and cylindrical coordinate systems.\nChapter 2 – Real-valued Functions (3 weeks)\nReview of elementary functions.\nTrigonometric functions: periodicity, parity, graphs, solving equations and inequalities.\nHyperbolic functions: definition, parity, monotonicity, graphs.\nContinuous functions: fundamental theorems, intermediate value theorem.\nInverse functions and the monotonic bijection theorem.\nApplications: inverse trigonometric and hyperbolic functions.\nChapter 3 – Differential Calculus (3 weeks)\nDifferentiability at a point (right and left derivatives), geometric interpretation.\nDerivatives of composite and inverse functions.\nFundamental theorems: Rolle's theorem, mean value theorem, L'Hospital's rule.\nHigher-order derivatives.\nChapter 4 – Integral Calculus (3 weeks)\nAntiderivatives and indefinite integrals: definitions, properties.\nDefinite integrals: definition, Chasles relation, mean value formula.\nIntegration methods: by parts, by substitution, of rational functions.\nApplications: area calculation, physics and chemistry problems.\nAssessment Method\nContinuous assessment: 33%\nFinal exam: 67%"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

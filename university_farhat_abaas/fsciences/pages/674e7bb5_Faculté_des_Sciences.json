@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/8881",
+      "title": "Faculté des Sciences",
+      "id": "674e7bb5",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:27:50",
+      "hash": "9ec410e11a0f43e0",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nCONFERENCE ON CYBERSECURITY AND APPLICATIONS\nNovember 25-26, 2026"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Call for Paper CCA2026 FinalVersion",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6395/Call_for_Paper_CCA2026_FinalVersion.pdf",
+        "local_file": "pdfs/674e7bb5_Call_for_Paper_CCA2026_FinalVersion.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

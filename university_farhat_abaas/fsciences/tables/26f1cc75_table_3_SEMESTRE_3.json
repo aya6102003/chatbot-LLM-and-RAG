@@ -1,0 +1,152 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Master_Physique_Theorique.html",
+  "title": "SEMESTRE 3",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n15 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n15 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Autres",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE FondamentaleCode : UEF 3Crédits : 18Coefficients : 9",
+      "Etude des plasmas",
+      "6",
+      "3",
+      "3h00",
+      "1h30",
+      "",
+      "82h30",
+      "67h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Cosmologie",
+      "4",
+      "2",
+      "3h00",
+      "",
+      "",
+      "55h00",
+      "45h00",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Introduction à la Théorie de la Structure Nucléaire",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "55h00",
+      "45h00",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Théorie du solide 2",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "55h00",
+      "45h00",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE MéthodologieCode : UEM 3Crédits : 9Coefficients : 5",
+      "Intégrale de chemin",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "55h00",
+      "45h00",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Techniques de simulation en Physique",
+      "5",
+      "3",
+      "1h30",
+      "",
+      "2h30",
+      "65h00",
+      "60h00",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE DécouverteCode : UED 3Crédits : 2Coefficients : 2",
+      "Particules élémentaires 2",
+      "2",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "5h00",
+      "45h00",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversalCode : UET 3Crédits : 1Coefficients : 1",
+      "Entrepreneuriat, Innovation et Startup",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "2h30",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 3",
+      "30",
+      "17",
+      "15h00",
+      "6h00",
+      "4h00",
+      "375h00",
+      "375h00"
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 7
+}

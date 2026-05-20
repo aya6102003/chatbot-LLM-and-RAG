@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S2-MCSI.html",
+      "title": "S2 Mcsi.Html",
+      "id": "15bd8351",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:37",
+      "hash": "1f0dd707f3fd3649",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Information Systems Design Methods\nSemester:\n2  |\nType:\nUEF21  |\nVHS:\n63h  |\nWeekly hours:\nC: 1h30 / TD: 1h30 / TP: 1h30  |\nPersonal work VHS:\n42h  |\nCoefficient:\n3  |\nCredits:\n5\nTeaching Objectives\nUnderstand the foundations of enterprise information systems\nMaster the different IS design methods, their principles and applications\nDevelop a critical analysis capability of existing methods\nAcquire skills to choose and adapt design methods to the context\nBecome familiar with design tools and technologies\nRecommended prior knowledge:\nInformation systems, software engineering, and databases.\nCourse Content (Lectures: 21h)\nReview of IS Analysis and Design Methods\nDefinition and components of IS (hardware, software, data, people, processes)\nRole of IS in the organisation\nRequirements engineering (identification and analysis of user needs, functional and non-functional specification, traceability management)\nIS typologies (TPS, MIS, DSS, EIS, KMS, ERP)\nIS life cycle models and key development stages\nClassical and Systemic Methods\nTop-down and bottom-up analysis\nCartesian vs systemic methods\nData and process modelling\nMERISE: data models, processing models\nLimits of classical and systemic methods\nObject-Oriented Methods\nReview of OOP fundamentals (encapsulation, inheritance, polymorphism)\nUML: use case diagrams, class diagrams, sequence diagrams, etc.\nObject-oriented design and development\nImplementation and integration of object-oriented systems\nAgile Methods\nIntroduction to agile methods (Scrum, XP, Kanban)\nAgile principles and values\nImplementing agile methods in IS design\nAdvantages and disadvantages\nFormal Specification and Development Methods\nFormal specification methods (B, Event-B, Z)\nFormal methods and UML (formal analysis of UML diagrams)\nOrganisational Aspects and Project Management\nIS quality criteria (reliability, performance, security, etc.)\nProject management (planning, monitoring, control)\nChange management related to new IS implementation\nEthical and social aspects of IS design\nDesign Tools and Technologies\nModelling tools (CASE, etc.)\nIntegrated development environments (IDE)\nProject management tools\nTrends and Challenges in IS Design\nKnowledge engineering\nBig Data and Artificial Intelligence\nCloud Computing\nIS interoperability\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): written tests, personal work\nReferences\nBooch, G., Rumbaugh, J., & Jacobson, I. (2005).\nThe Unified Modeling Language User Guide\n. Addison-Wesley.\nNanci, D., et Pascot, D. (1987).\nIngénierie des systèmes d'information: La méthode MERISE\n. Editions d'Organisation.\nBeck, K. (2000).\nExtreme Programming Explained: Embrace Change\n. Addison-Wesley.\nSchwaber, K., & Beedle, M. (2002).\nAgile Software Development with Scrum\n. Prentice-Hall.\nR. Marciniak, F. Rowe (2009).\nSystèmes d'information: dynamique et organisation\n. 3e Édition, Economica."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

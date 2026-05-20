@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9083",
+      "title": "Faculté des Sciences",
+      "id": "de43ce12",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:43:17",
+      "hash": "4f139c99d5ae8b83",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nBOURSE FULLBRIGHT 2027-2028"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Fullbright 2026 Merged file",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6501/Fullbright_2026_Merged_file.pdf",
+        "local_file": "pdfs/de43ce12_Fullbright_2026_Merged_file.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

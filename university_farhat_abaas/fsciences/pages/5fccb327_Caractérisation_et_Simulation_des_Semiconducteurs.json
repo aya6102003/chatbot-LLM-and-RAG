@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S3-CSS.html",
+      "title": "Caractérisation et Simulation des Semiconducteurs",
+      "id": "5fccb327",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:06",
+      "hash": "e117b1c6d8ac7015",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Caractérisation et Simulation des Semiconducteurs\nSemestre 3 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nObjectifs de l’enseignement :\nComprendre les propriétés physiques et électriques des semiconducteurs utilisées dans les technologies des énergies renouvelables (photovoltaïque, électronique de puissance, stockage).\nMaîtriser les techniques de caractérisation des matériaux semiconducteurs (ex. : silicium, CdTe, CIGS, pérovskites).\nApprendre à modéliser et simuler le comportement des dispositifs à base de semiconducteurs à l’aide d’outils numériques.\nAppliquer ces connaissances à la conception et l’optimisation de systèmes pour les énergies renouvelables. Connaissances préalables recommandées :\nNotions fondamentales en physique du solide (structure cristalline, bandes d’énergie, porteurs de charge)\nBases en électromagnétisme et physique des semi-conducteurs (jonction PN, dopage, mobilité des porteurs)\nConnaissances en électronique de base (diodes, transistors, circuits élémentaires)\nFamiliarité avec les principes de conversion photovoltaïque et les systèmes de stockage d’énergie\nBonne maîtrise des outils de simulation scientifique (Python, MATLAB, SPICE, ou logiciels comme Sentaurus TCAD, Silvaco, etc.)\nContenu de la matière :\nLe module est divisé en quatre parties principales, combinant théorie, pratique et projets appliqués :\n1. Fondements des semiconducteurs\nStructure des bandes d’énergie, dopage, et propriétés électroniques (ex. : mobilité, durée de vie des porteurs).\nTypes de semiconducteurs pour les énergies renouvelables : silicium monocristallin/polycristallin, couches minces (CdTe, CIGS), matériaux émergents (pérovskites, GaAs).\nApplications spécifiques : cellules photovoltaïques, transistors MOSFET pour convertisseurs, diodes pour stockage d’énergie.\n2. Techniques de caractérisation\nMéthodes expérimentales : spectroscopie (Raman, photoluminescence), mesure de la résistivité (4- pointes), analyse de défauts (DLTS).\nCaractérisation optique et électrique pour évaluer l’efficacité des cellules solaires (courbe I-V, rendement quantique).\n3. Étude des propriétés thermiques et mécaniques des semiconducteurs dans des conditions d’opération\nréelles.\nModélisation et simulation\nIntroduction aux outils de simulation : COMSOL Multiphysics, Silvaco TCAD, MATLAB/Simulink.\nModélisation des dispositifs : équations de transport (drift-diffusion), équation de Poisson, recombinaison (Shockley-Read-Hall).\nSimulation de cellules photovoltaïques : optimisation du rendement, analyse des pertes (optiques, électriques).\nSimulation de composants d’électronique de puissance pour l’intégration des énergies renouvelables (ex. : convertisseurs DC-DC pour parcs solaires).\n4. Projets appliqués et travaux pratiques\nTP 1 : Caractérisation d’une cellule photovoltaïque (mesure de la courbe I-V et analyse des performances).\nTP 2 : Simulation d’un MOSFET pour un convertisseur utilisé dans un système solaire.\nProjet de groupe : Conception et simulation d’un dispositif à base de semiconducteurs pour une application énergétique (ex. : optimisation d’une cellule solaire ou d’un module de stockage).\nRéférences :\n[1] Chassaing P., 2000 – Mécanique des fluides, Élément d’un premier parcours\n[2] Anderson, J. D., 2003 – Modern Compressible Flow: With Historical Perspective\n[3] Zucrow M. J., & Hoffman, J. D., 1976 – Gas Dynamics\n[4] Thompson, P. A., 1972 – Compressible-Fluid Dynamics"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

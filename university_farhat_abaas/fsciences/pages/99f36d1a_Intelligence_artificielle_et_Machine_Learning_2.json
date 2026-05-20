@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S2-IAML2.html",
+      "title": "Intelligence artificielle et Machine Learning 2",
+      "id": "99f36d1a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:47",
+      "hash": "36e67c7861c1ce87",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nMéthodologie (UEM 2)  |\nCrédits :\n3  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs pédagogiques\nL'objectif principal de ce cours est de doter les étudiants d'une compréhension globale des techniques d'apprentissage automatique (ML) et de leurs applications dans le domaine de l'analyse médicale. À la fin de ce cours, les étudiants seront en mesure de :\nComprendre les concepts fondamentaux du ML, appliquer les techniques du ML aux données médicales\nÉvaluer les modèles ML\nDévelopper des compétences pratiques en ML\nExplorer et comprendre des sujets avancés tels que les réseaux bayésiens, les techniques de clustering et les applications d'apprentissage profond dans l'imagerie médicale et le diagnostic\nContenu de l'unité\n1- Introduction à l'apprentissage automatique dans l'analyse médicale\nIntroduction à l'apprentissage automatique (concepts et définitions, importance en médecine)\nPrincipes de l'apprentissage automatique – comment les algorithmes apprennent à partir des données\nTypes d'apprentissage automatique (supervisé, non supervisé et par renforcement)\n2- Apprentissage supervisé\nRégression vs classification\nMesures et indicateurs de performance\nDéveloppement et amélioration de modèles\n3- Techniques de régression\nRégression linéaire et multiple (erreur quadratique moyenne, algorithme de descente de gradient)\nRégression polynomiale\nAutres techniques (régression de Lasso, régression de crête, réseau élastique, méthode des moindres carrés)\n4- Techniques de classification\nRégression logistique\nk-plus proches voisins (KNN) et variantes\nArbres de décision\nClassification bayésienne naïve\nRéseaux bayésiens\n5- Apprentissage non supervisé\nClustering\nAutre algorithme de clustering (modèle de mélange gaussien, décalage moyen)\nRègles d'association\n6- Implémentations et outils pratiques\nRéférences bibliographiques\nJAMES, G., WITTEN, D., HASTIE, T., TIBSHIRANI, R., An Introduction to Statistical Learning. Springer, New York (2013).\nHASTIE, T., TIBSHIRANI, R., FRIEDMAN, J.H., The Elements of Statistical Learning. Springer, New York (2009).\nFLACH, P., Machine Learning: The Art and Science of Algorithms that Make Sense of Data. Cambridge University Press (2012).\nGOODFELLOW, I., BENGIO, Y., COURVILLE, A., Deep learning, MIT Press (2016).\nBISHOP, C.M., NASRABADI, N.M., Pattern recognition and machine learning, Springer, New York (2006).\nBISHOP, C. M., Neural networks for pattern recognition. Oxford University Press (1995)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

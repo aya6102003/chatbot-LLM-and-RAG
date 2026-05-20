@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/PRG1.html",
+      "title": "Prg1.Html",
+      "id": "af1a2dd6",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:39",
+      "hash": "8e6295a6a115bd6d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nProgramming 1 (PRG1) — Semester 1, Unit UFC1, Credits: 5, Coeff: 3\nCourse Objectives\nUnderstand the history and fundamentals of computer science and how it has evolved to its current state.\nComprehend the concept of algorithms and their importance in problem-solving, as well as how to represent and implement them using algorithmic language.\nMaster basic data types, operations, and instructions used in programming, such as variables, constants, input/output, and assignments.\nDevelop and represent simple sequential algorithms using Python, alongside the construction of flowcharts.\nImplement and understand conditional structures for decision-making in algorithms, such as simple, compound, and multiple-choice conditions in Python.\nLearn and apply looping structures (while, repeat, and for loops) to solve iterative problems, using Python.\nUnderstand arrays and strings as data structures, including their types, manipulations, and applications in programming.\nUtilize subprograms (functions and procedures), understanding parameter passing, local and global variables, and recursion, to write modular and efficient code.\nCourse Content\nChapter 1: Introduction\nBrief history of computer science.\nIntroduction to algorithms.\nChapter 2: Simple Sequential Algorithm (in algorithmic language and Python)\nConcept of language and algorithmic language.\nParts of an algorithm.\nData: variables and constants.\nData types.\nBasic operations.\nBasic instructions: Assignments; Input/output instructions.\nConstructing a simple algorithm.\nRepresenting an algorithm using a flowchart.\nChapter 3: Conditional Structures (in algorithmic language and Python)\nIntroduction.\nSimple conditional structure.\nCompound conditional structure.\nMultiple choice conditional structure.\nBranching.\nChapter 4: Loops (in algorithmic language and Python)\nWhile loop.\nRepeat loop.\nFor loop.\nNested loops.\nChapter 5: Arrays and Strings\nIntroduction.\nArray type.\nVectors and multidimensional arrays.\nStrings.\nChapter 6: Subprograms: Functions and Procedures\nIntroduction.\nDefinitions.\nLocal and global variables.\nParameter passing.\nRecursion.\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\n“Introduction to Algorithms” by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein\n“Python Programming: An Introduction to Computer Science” by John Zelle"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

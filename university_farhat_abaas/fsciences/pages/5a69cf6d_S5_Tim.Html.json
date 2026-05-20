@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ET_IMAGERIE_MEDICALE/S5-TIM.html",
+      "title": "S5 Tim.Html",
+      "id": "5a69cf6d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:19",
+      "hash": "e42d413185a866de",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Intitulé de l'UE :\nFondamentale\nIntitulé de la matière :\nTraitement d'image médicale\nCrédits :\n4\nCoefficient :\n2\nObjectifs de l'enseignement :\nL'étudiant doit se familiariser avec les différentes techniques de base de traitement d'image médicale afin qu'il soit capable d'effectuer des opérations d'amélioration de la qualité d'une image médicale. Pour ce faire, plusieurs techniques d'amélioration de contraste et de filtrage seront enseignées dans le cadre de ce cours. De même, une initiation à l'analyse des images médicales sera abordée.\nConnaissances préalables recommandées :\nMathématiques, calcul matriciel, programmation.\nContenu de la matière :\nIntroduction à l'image numérique\nNumérisation d'une image\nPrétraitement des images numériques\nRestauration des images médicales\nQuelques techniques de base de traitement d'image\nFormat DICOM\nMode d'évaluation :\nContrôle continu (33%) et Examen (67%)\nRéférences bibliographiques :\nAwcock, Graeme J., and Ray Thomas.\nApplied image processing\n. Basingstoke, UK: Macmillan, 1995.\nPetrou, Maria MP, and Costas Petrou.\nImage processing: the fundamentals\n. John Wiley & Sons, 2010.\nRichards, John A., and John A. Richards.\nRemote sensing digital image analysis\n. Vol. 5. New York: Springer, 2022."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/IQ/3.html",
+      "title": "3.Html",
+      "id": "ce62a17b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:35",
+      "hash": "a90020214c996417",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\n1. From Classical Physics to Quantum Mechanics\nParticle-wave  duality,  Interference,  Wave  function,  Probability  of  presence,  Heisenberg\u0019s\nUncertainty   Principle,   the   Hamiltonian,   Schrodinger   equation,   Position   Space   and\nMomentum Space, Quantum Fourier Transform.\n2. Dirac Notation\nEigenvectors and eigenvalues, Adjoints and Hermitian operators, Unitary Operator, Tensor\nProducts, The Commutator and Anti-Commutator, Hilbert Space, braket, Observables, Ecco,\nProjectors,  Solution  of  the  Schr�dinger\u0019s  equation  for  simple  one-dimensional  quantum\nproblems (the tunnel effect).\n3. Postulates of Quantum Mechanics & Time Evolution\nThe  State  Space,  States  and  principle  of  Superposition,  Probability  Amplitudes  and\nProbabilities,  Physical  Quantities  and  Operators,  Quantum  Measurement  Theory  (The\nMeasurement  Process,  Projective  Measurements,  POVMs...etc),  Wave  Packet  Reduction\nPrinciple, Time Evolution of Quantum Systems, Evolution Operator and Stationary States.\n4. Multipartite System and Entangled State\nPure  States,  Mixed  States  (Entangled  States),  Density  Matrices,  ,  Liouville  von  Neumann\nEquation, Partial Trace and Purification, The Density Operator and the Bloch Vector, Bell\nStates, Open systems, Master Equation.\n5. Two-State System (Qubit)\nIntrinsic  Angular  Momentum  (spin),  the  Spin  Operator  and  Spin  States,  Bloch  Sphere,\nMagnetic  Resonance,  Larmor  Precession,  Rabi  Oscillations,  Atom-Light  Interactions,\nJaynes-Cummings Model."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

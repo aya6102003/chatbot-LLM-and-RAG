@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Master_Informatique.html",
+      "title": "Guide pédagogique",
+      "id": "1d3785b1",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:43",
+      "hash": "1b0255768495ff7d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Guide pédagogique\nMaster Academique\nMaster Professionnalisant\n\nIngénierie des Données et Technologie Web\nRéseaux et Systèmes Distribués (ancien)\nFondements et Ingénierie de l'Information et de l'Image\nIngénierie des Systèmes d'Information\nScience des Données\nRéseaux et Systèmes Distribués\nCyber Security\nInformatique Quantique"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "Guide pédagogique",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/index.html",
+        "type": "internal"
+      },
+      {
+        "text": "Informatique.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Informatique.html",
+        "type": "internal"
+      },
+      {
+        "text": "IDTW.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/IDTW.html",
+        "type": "internal"
+      },
+      {
+        "text": "RSD.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/RSD.html",
+        "type": "internal"
+      },
+      {
+        "text": "F3I.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/F3I.html",
+        "type": "internal"
+      },
+      {
+        "text": "Master_ISI.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Master_ISI.html",
+        "type": "internal"
+      },
+      {
+        "text": "Master_Science_des_Donnees.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Master_Science_des_Donnees.html",
+        "type": "internal"
+      },
+      {
+        "text": "Master_Reseaux_Systemes_Distribues.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Master_Reseaux_Systemes_Distribues.html",
+        "type": "internal"
+      },
+      {
+        "text": "CS.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/CS.html",
+        "type": "internal"
+      },
+      {
+        "text": "info_quant.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/info_quant.html",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

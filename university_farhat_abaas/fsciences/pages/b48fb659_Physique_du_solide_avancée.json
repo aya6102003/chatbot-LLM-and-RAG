@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S2-PSA.html",
+      "title": "Physique du solide avancée",
+      "id": "b48fb659",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:04",
+      "hash": "545dd99425020bc2",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Physique du solide avancée\nSemestre 2 – UE Découverte\nMode d'évaluation :\nContinu 100%\nObjectifs de l’enseignement\nCe module vise à fournir une compréhension approfondie des propriétés électroniques des solides en\ncombinant théorie quantique et applications pratiques\nConnaissances préalables recommandées\nIl est recommandé d’avoir une solide maîtrise de la physique quantique, de la cristallographie et des bases\ndes bandes d’énergie pour aborder les concepts avancés de la physique du solide, notamment les propriétés\nélectroniques, magnétiques et thermiques des matériaux.\nContenu de la matière :\n1. Théorie de Sommerfeld et rappels (2 semaines)\nModèle de Drude vs. modèle de Sommerfeld - Notions de fonction de Fermi, densité d’états\nLimites du modèle de Sommerfeld\n2. Électrons dans un potentiel périodique : Théorie de Bloch (2 semaines)\nÉquation de Schrödinger dans un cristal périodique - Fonctions de Bloch, théorème de Bloch\nZones de Brillouin\n3. Approximation des électrons libres (1 semaine)\nGaz d’électrons libres dans un cristal - Notion de bande vide\nDiagrammes E(k) et interprétation physique\n4. Approximation des électrons fortement liés (1 semaine)\nModèle de tight-binding (liaisons fortes) - Superposition d’orbitales atomiques\nApplication aux bandes étroites (ex : matériaux isolants, semi-conducteurs)\n5. Bandes d’énergie et structure de bande (1 semaine)\nFormation des bandes d’énergie - Interdits de bande et conductivité\nComparaison métaux – semi-conducteurs – isolants\n6. Modèle semi-classique de la dynamique des électrons (2 semaines)\nÉquations de mouvement dans un champ E et B - Masse effective et courbure de bande\nInterprétation de la dynamique électronique\n7. Théorie semi-classique de la conduction (2 semaines)\nConductivité électrique et thermique - Effet Hall et Hall quantique (introduction)\nTemps de relaxation, mobilité électronique\nLoi de Wiedemann-Franz\n8. Effets de surface dans les solides (2 semaines)\nPhysique des surfaces : relaxation, reconstruction - États électroniques de surface (ex. états de Tamm et Shockley)\nTechniques de sonde de surface (STM, LEED, etc.)\n9. Applications modernes (2 semaines)\nMatériaux topologiques (introduction) - Interfaces métal-semi-conducteur, effets de taille\nNanosystèmes et dispositifs quantiques\nRéférences\n[1] Physique des solides, N.W. Ashcroft, N.D Mermin, traduit par F. Biet, H. Kachkachi, EDP Sciences,\n2002\n[2] Introduction to solid state physics, C. Kittel, 5th , Wiley .1983.\n[3] H.E Hall, Solid state physics, Wiley ELBS ed ,1979\n[4] Solid State Physics, Hilary D. Brewster, Oxford Book Company, 2009"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S3-PROBSTAT.html",
+      "title": "Probabilités et Statistiques",
+      "id": "fbe2057f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:26",
+      "hash": "dedf859eb789f289",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Probabilités & Statistiques\nSemestre :\n3  |\nUE :\nDécouverte  |\nCrédits :\n2  |\nCoefficient :\n2\nObjectifs de l'enseignement\nL'enseignement de cette matière permet à l'étudiant de découvrir le domaine de l'aléatoire et des probabilités ainsi que l'estimation et l'analyse des données expérimentales ou numériques.\nConnaissances préalables recommandées\nIl est recommandé de maîtriser les matières « Mathématiques 1 & 2 » enseignées en 1ère année Sciences de la Matière.\nContenu de la matière\nChapitre 1 : Éléments de base en théorie des probabilités (2 semaines)\nI. Historique et motivations (utilité des probabilités en physique)\nII. Axiomatique de base :\nEspace probabilisé. Univers, tribu, probabilités, probabilités conditionnelles.\nVariables aléatoires. Définitions. Lois usuelles. Entropie. Fonctions de variables aléatoires. Systèmes de variables aléatoires. Espérance conditionnelle.\nChapitre 2 : Convergences et théorèmes limites (2 semaines)\nUn exemple : « Variations autour du tirage à pile ou face ».\nConvergences. Loi des grands nombres (forte et faible). Théorème central limite.\nInégalités fondamentales. Tchebychev, Jensen, Hölder.\nGrandes déviations. Liens avec la limite thermodynamique en physique statistique.\nChapitre 3 : Analyse des séries statistiques (3 semaines)\nSéries simples. Séries doubles.\nAnalyse de régression et corrélation : Régressions linéaire simple et multiple. Régression non-linéaire (exponentielle, logarithmique, polynomiale).\nChapitre 4 : Statistique inférentielle (4 semaines)\nEstimation paramétrique\nTests statistiques (tests de corrélation, tests d'indépendance, tests d'ajustement, test de student, ANOVA).\nChapitre 5 : Analyse des données (3 semaines)\nAnalyse en composantes principales (ACP).\nAnalyse factorielle discriminante (AFD).\nAnalyse de classification (hiérarchique, automatique).\nMode d'évaluation\nExamen : 100%\nRéférences bibliographiques\nFEMENIAS,\nProbabilités et statistiques pour les sciences physiques : Cours et exercices corrigés\n, Dunod, Paris, (2003).\nSAPORTA,\nProbabilités, Analyse des Données et Statistique\n, 3ème Ed, Technip, Paris, (2011).\nESCOUBES,\nProbabilités et statistiques à l'usage des physiciens\n, Ed. Ellipses, Paris, (1998).\nW. APPEL,\nProbabilités pour les non probabilistes\n, H&K Edition, Paris, (2013)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

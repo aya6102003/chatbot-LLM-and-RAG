@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_MATERIAUX/S1-PSA.html",
+      "title": "Physique du Solide approfondie",
+      "id": "dcdfe366",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:16",
+      "hash": "bf8b8466db22445a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière :\nPhysique du Solide approfondie\nUnité d'Enseignement :\nUE Fondamentale (UEF 1)\nSemestre :\nSemestre 1\nCrédits :\n6\nCoefficient :\n3\nVHS (15 semaines) :\n82h30\nCours :\n3h00\nTD :\n1h30\nTP :\nMode d'évaluation :\nContinu : 33%  /  Examen : 67%\nSemestre 1\nUnité Fondamentale\nMatière : Physique du Solide approfondie\nObjectifs de l’enseignement :\nL'objectif de l’enseignement de physique du solide approfondie est de donner une compréhension solide des\nthéories quantiques avancées des solides (bandes, phonons), permettant d'expliquer les propriétés des matériaux\n(Elastiques, électroniques, mécanique) via des outils théoriques. Il explore des phénomènes avancés\n(supraconductivité, nanostructures...) et vise à développer un esprit critique et une base pour la recherche.\nConnaissances préalables recommandées :\nIl est recommandé d'avoir de bonnes bases en :\nPhysique générale (mécanique, électricité/magnétisme, thermodynamique, optique).\nMécanique quantique (équation de Schrödinger, fonctions d'onde, opérateurs, systèmes à plusieurs particules).\nPhysique statistique (ensembles statistiques, fonction de partition, statistiques de Fermi-Dirac et Bose-Einstein).\nIntroduction à la physique du solide (structure cristalline, réseau réciproque, phonons, modèle des électrons\nlibres).\nMathématiques (calcul différentiel/intégral, algèbre linéaire, équations différentielles, analyse de Fourier).\nContenu de la matière :\nChapitre I : Symétrie cristalline\nEléments de symétrie\nThéorie des groupes\nRéseaux de Bravais\nEtude de quelques structures simples et composées\nTenseurs physiques.\nChapitre II : Vibrations du réseau\nModes de vibrations dans les cristaux\nPhonons et chaleur spécifique\nInteraction électron-phonons.\nChapitre III : Structure et propriétés électroniques des solides\nStructure de bandes : Approximation de Hartree-Fock\nCalcul de bandes d’énergie\nChapitre IV : Propriétés mécaniques-élasticité des solides\nDéfinitions: déformation élastique sous l'effet d'une contrainte mécanique,\nla loi de Hooke:\nTenseur de déformation\nTenseur de contraintes\nTenseur d'élasticité\nCas d'un milieu isotrope et d'un milieu cristallin\nPropagations ondes élastiques de déformations dans les milieux denses.\nRéférences :\nSolid State Physics par Neil W. Ashcroft et N. David Mermin - 1976\nIntroduction to Solid State Physics par Charles Kittel - 1953 (la 8ème édition date de 2005, et la 9ème de 2018)\nAdvanced Solid State Physics par Philip Phillips - 2012 (2ème édition)\nSolid State Theory par Walter A. Harrison - 1980\nQuantum Theory of Solids par Charles Kittel - 1963 (la 2ème édition révisée date de 1991)\nMany-Particle Physics par Gerald D. Mahan - La première édition date de 1990.\nPrinciples of the Theory of Solids par J. M. Ziman - 1964 (la 2ème édition date de 1972)\nModern Condensed Matter Physics par Steven M. Girvin et Kun Yang (2019)\n8"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

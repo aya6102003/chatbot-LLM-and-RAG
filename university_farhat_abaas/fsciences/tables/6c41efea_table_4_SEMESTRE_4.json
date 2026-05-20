@@ -1,0 +1,50 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Master_EDP.html",
+  "title": "SEMESTRE 4",
+  "headers": [
+    "Intitulé",
+    "VHS",
+    "Coefficient",
+    "Crédits"
+  ],
+  "rows": [
+    [
+      "Intitulé",
+      "VHS",
+      "Coefficient",
+      "Crédits"
+    ],
+    [
+      "UEF 4.1 : PFE avec Mémoire",
+      "750h",
+      "17",
+      "30"
+    ],
+    [
+      "Stage dans l'entreprise",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Ateliers",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Travail Personnel",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Total Semestre 4",
+      "750h",
+      "17",
+      "30"
+    ]
+  ],
+  "row_count": 6,
+  "col_count": 4
+}

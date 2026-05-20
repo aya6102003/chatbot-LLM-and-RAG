@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L3/S5-AN2.html",
+      "title": "Analyse Numérique II",
+      "id": "4d247c60",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:23",
+      "hash": "49b0a0f5c562272e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Analyse Numérique II\nSemestre :\n5  |\nUnité d'enseignement :\nFondamentale\nObjectifs de l'enseignement\nLa maîtrise des outils de calcul numérique appliqués pour les systèmes algébriques et la résolution des équations différentielles.\nConnaissances préalables recommandées\nNotions d'Analyse Mathématique 1 et de Calcul Approché enseignées en première et deuxième année Licence respectivement.\nContenu de la matière (Cours)\nChapitre 1 : Intégration Numérique\nPosition du problème\nMéthode directe\nMéthodes de Newton-Cotes : Formule des trapèzes, Formules de Simpson\nQuadratures de Gauss – Définition, Généralisation\nChapitre 2 : Équations différentielles ordinaires\nRappels\nMéthode d'Euler : Interprétation géométrique, Estimation de l'erreur, Méthode d'Euler Implicite\nMéthode de Runge-Kutta – RK22, RK44\nChapitre 3 : Systèmes d'équations\nRappels d'algèbre linéaire\nMéthodes Directes : Quelques propriétés\nMéthode d'élimination de Gauss\nMéthode de Gauss-Jordan\nFactorisation LU – Méthode de Cholesky\nConditionnement d'une matrice\nMéthodes itératives : Méthode de Jacobi, Méthode de Gauss-Siedel\nChapitre 4 : Systèmes non linéaires\nTravaux pratiques\nTP N°1 : Intégration numérique\nTP N°2 : Résolution des équations différentielles ordinaires\nTP N°3 : Résolution des systèmes d'équations linéaires\nTP N°4 : TP sous forme de petit projet ; plusieurs variantes de problèmes réels résolues numériquement et présentées sous forme d'un projet.\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\n[1] R. L. Burden, J. D. Faires and M. Julet, Numerical Analysis, Brooks / Cole, Cengage Learning, Boston, 2011\n[2] Luc Jolivet and Rabah Labbas, Analyse et analyse numérique, Lavoisier, 2005\n[3] J. Kiusalaas, Numerical Methods in Engineering with MATLAB, Cambridge University Press, 2005"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

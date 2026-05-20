@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_MATHS_APPLIQUEES/S1-ELECTRONIQUE.html",
+      "title": "Electronique, composants des systèmes",
+      "id": "e564a346",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:42",
+      "hash": "6f33217fb561a415",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Electronique, composants des systèmes\nSemestre :\n01\nUnité d'enseignement :\nDécouverte\nMatière :\nElectronique, composants des systèmes\nCrédits :\n4\nCoefficient :\n2\nObjectifs de l'enseignement :\nPrésenter les unités principales d'un ordinateur et expliquer leur fonctionnement ainsi que les principes de leur utilisation.\nConnaissances préalables recommandées :\nConnaissances générales en informatique.\nContenu de la matière :\nChapitre 1 : Préambule – Définitions et Généralités\nChapitre 2 : Éléments d'un ordinateur\nChapitre 3 : Composants électroniques d'un ordinateur\nLes principaux composants d'un ordinateur et leur rôle : La carte-mère, Le processeur, La mémoire, La carte graphique, Le disque dur.\nLes principaux éléments connectés à la carte mère de l'ordinateur.\nChapitre 4 : Les différents types de périphériques\nLe périphérique d'entrée\nLes périphériques de sortie\nLes périphériques d'entrée-sortie\nChapitre 5 : Connexions à l'ordinateur\nChapitre 6 : Les systèmes d'exploitation\nDéfinition, Missions, Types de systèmes\nLes éléments d'un système : Noyau (fonctionnalités, types, typologie des systèmes), Bibliothèques système, Services des systèmes.\nChapitre 7 : Introduction aux Réseaux\nLes Réseaux : Domaines d'utilisation, L'internet, Objectifs recherchés.\nCatégories de réseaux.\nLa structuration physique & logique : Le matériel, Le logiciel.\nLes types de réseaux : Le \"Peer to Peer\", Le \"Client / Serveur\".\nHardware : Les médias de transport, Les Topologies (en bus, en étoile, en anneau).\nChapitre 8 : Les réseaux sans fil\nDéfinitions\nApplications\nClassification\nMode d'évaluation :\nExamen (60%), contrôle continu (40%)\nRéférences :\nT. Floyd. Electronique. Composants et systèmes d'application. 2000. Editions Dunod.\nJacques Lonchamp, Introduction aux systèmes informatiques Architectures, composants, prise en main, 2017 collection infosup, Dunod."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

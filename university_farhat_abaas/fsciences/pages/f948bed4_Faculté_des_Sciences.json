@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/7838",
+      "title": "Faculté des Sciences",
+      "id": "f948bed4",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:28:51",
+      "hash": "31c6fcdd57b49579",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nMANIFESTATIONS SCIENTIFIQUES\norganisation"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "organisation manif scien",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/5701/organisation_manif_scien.PDF",
+        "local_file": "pdfs/f948bed4_organisation_manif_scien.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

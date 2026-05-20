@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_DE_L_EAU/S1-HC.html",
+      "title": "Hydrochimie",
+      "id": "8f38c758",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:26",
+      "hash": "0bfd5b30efa11a81",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Hydrochimie\nSemestre :\n1\nUE :\nDécouverte\nCrédits :\n1\nCoefficient :\n1\nObjectifs de l'enseignement\nL'objectif est de doter les étudiants en chimie d'une compréhension globale des processus hydrogéologiques et des compétences pour analyser et gérer l'eau souterraine, tout en prenant en compte les dimensions environnementales et sociales.\nConnaissances préalables recommandées\nUne bonne maîtrise des concepts de base de la géologie (structure de la terre, composition de la croûte terrestre) ainsi que de la chimie de l'eau (propriétés physiques et chimiques) qui sont importantes pour l'analyse des eaux souterraines.\nContenu de la matière\nChapitre 1 : L'eau sur la Terre\nCycle de l'eau\nEaux superficielles\nPrécipitations, évapotranspiration\nChapitre 2 : Introduction à l'hydrogéologie ou l'hydrochimie\nDéfinition et enjeux de l'hydrogéologie\nRôle de l'hydrogéologie dans la gestion des ressources en eau\nBilans hydrologiques et hydrogéologiques\nImportance pour l'industrie chimique et environnementale\nTerminologie de base (aquifères, nappes phréatiques, etc.)\nChapitre 3 : Propriétés de l'eau souterraine\nPropriétés physiques et chimiques de l'eau souterraine :\nSolubilité des minéraux, pH, conductivité, concentration en ions\nRelation entre les paramètres chimiques et géochimiques des eaux souterraines\nInfluence de la température, de la pression et des conditions géologiques sur les propriétés de l'eau\nProcessus chimiques dans les aquifères :\nÉquilibres chimiques et réactions dans les eaux souterraines\nSpéciation chimique, précipitation, dissolution, adsorption et désorption\nChapitre 4 : Mécanismes d'écoulement de l'eau souterraine\nHydrodynamique des aquifères :\nLois de Darcy, perméabilité et conductivité hydraulique\nModèles d'écoulement (limités et non limités par la capillarité)\nDiffusion et dispersion des solutés\nRépartition des eaux souterraines et types d'aquifères :\nAquifères libres, semi-confinés et confinés\nAquifères karstiques et fracturés\nChapitre 5 : Contaminants chimiques et gestion des eaux souterraines\nSources de contamination :\nPollution par les métaux lourds, pesticides, hydrocarbures, etc.\nInteraction entre contaminants chimiques et minéraux dans les aquifères\nMéthodes de dépollution :\nTraitement physico-chimique des eaux souterraines\nTechnologies de dépollution : pompage et traitement\nGestion des eaux souterraines en milieu industriel :\nGestion des nappes phréatiques dans le cadre des activités chimiques et industrielles\nÉtudes de cas sur la contamination et réhabilitation d'aquifères\nMode d'évaluation\nExamen : 100%\nRéférences bibliographiques\nBruno Arfib, Université Aix-Marseille, « Cours d'Hydrogéologie générale » – www.Karsteau.fr\nHydrogéologie : objets, méthodes, applications – Gilli, Mangan et Mudry, éditions Dunod, 2004\nL'hydrogéologie, principes et méthodes – Castany, éditions Dunod, 1998\nEnvironnements géologiques et activités humaines – Chamley, éditions Vuibert, 2002\nAppelo, C.A.J. et Postma, D. (2005). Geochemistry, Groundwater and Pollution (2e édition). Balkema Publishers."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

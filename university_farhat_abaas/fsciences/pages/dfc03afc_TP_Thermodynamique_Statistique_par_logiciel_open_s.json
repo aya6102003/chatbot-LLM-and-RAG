@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S3-TPTS.html",
+      "title": "TP Thermodynamique Statistique par logiciel open source",
+      "id": "dfc03afc",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:12",
+      "hash": "2d5b139e2563ed58",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : TP Thermodynamique Statistique par logiciel open source\nObjectifs de l'enseignement\nCes travaux pratiques visent à mettre en application les concepts de la thermodynamique statistique à l'aide de logiciels libres et open source. Les étudiants développeront des compétences pratiques en simulation numérique appliquée à la thermodynamique des systèmes moléculaires.\nContenu de la matière\nUtilisation de logiciels open source pour la simulation de systèmes thermodynamiques\nSimulation Monte Carlo et dynamique moléculaire\nCalcul de grandeurs thermodynamiques (énergie, entropie, capacité calorifique)\nExploitation et visualisation des résultats numériques"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S4-METRO.html",
+      "title": "Métrologie physique",
+      "id": "31942741",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:26",
+      "hash": "1e4bf114cc02416f",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Métrologie physique\nSemestre :\n4  |\nUE :\nDécouverte  |\nCrédits :\n2  |\nCoefficient :\n2\nObjectifs de l'enseignement\nL'objectif de cette unité est d'initier les étudiants de cette licence à la métrologie physique, en leur fournissant aussi bien les bases statistiques que physiques de cette science. Les notions acquises, étayées par quelques exemples d'application, devraient être généralisées, par la suite, à tout type de mesure physique.\nConnaissances préalables recommandées\nNotions de physique\nNotions de statistiques\nContenu de la matière\nI. Notions de statistiques pour l'estimation des incertitudes\nStatistiques descriptives et loi normale\nNotion de carte de contrôle\nTest d'hypothèse\nTest de comparaison de 2 moyennes\nÉvaluation de la normalité d'une série de mesures\nIdentification de valeurs aberrantes dans une série de données\nII. Généralités sur la métrologie\nIntroduction : définition, mesure d'une grandeur physique\nTypes de métrologie : fondamentale, industrielle, légale\nStructure de métrologie internationale\nRaccordement aux étalons internationaux\nSystème international d'unité des grandeurs physiques : unités de base, unités dérivées, unités supplémentaires\nIII. Estimation des incertitudes de mesure en physique\nIntroduction : Mesures et incertitudes en physiques\nLa mesure : vocabulaire et notations\nEstimation des incertitudes expérimentales et présentation du résultat :\n3.1 Évaluation de type A de l'incertitude-type\n3.2 Évaluation de type B de l'incertitude-type\n3.3 Incertitude-type composée\n3.4 Incertitude-type élargie et intervalle de confiance\n3.5 Écriture des résultats de mesure\n3.6 Présentation des résultats numériques\nPropagation des incertitudes\nIV. Exemples d'application\nMétrologie dimensionnelle : Étalonnage d'un pied à coulisse. Mesure d'épaisseur à l'aide d'un pied à coulisse.\nÉtalonnage d'une sonde de température. Mesure d'une température à l'aide d'une sonde de température.\nÉtalonnage d'un manomètre de pression. Mesure d'une pression à l'aide d'un manomètre.\nÉtalonnage d'un multimètre de pression. Mesure d'une tension, d'un courant, d'une résistance.\nMode d'évaluation\nExamen : 100%\nRéférences bibliographiques\nJohn Taylor.\nIncertitudes et analyse des erreurs dans les mesures physiques\n. Dunod (janvier 2000).\nISO-IEC 10012 : 2003 : Systèmes de management de la mesure - Exigences pour les processus et les équipements de mesure.\nISO-IEC 17025 : 2017 : Exigences générales concernant la compétence des laboratoires d'étalonnages et d'essais.\nJCGM-200 : 2012 : Vocabulaire International de Métrologie – Concepts fondamentaux et généraux et termes associés (VIM).\nJCGM-100 : 2008 : Évaluation des données de mesures – Guide pour l'expression de l'incertitude de mesure (GUM).\nIEC 60050-300 : 2001 : Vocabulaire électrotechnique international - Mesures et appareils de mesure électriques et électroniques.\nFDX07-022 : 2004 : Métrologie et applications de la statistique."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

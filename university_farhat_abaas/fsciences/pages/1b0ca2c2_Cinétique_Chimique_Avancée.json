@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S2-CCA.html",
+      "title": "Cinétique Chimique Avancée",
+      "id": "1b0ca2c2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:09",
+      "hash": "7719e68535fc9f69",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Cinétique Chimique Avancée\nObjectifs de l'enseignement\nCompréhension des concepts fondamentaux de la cinétique chimique.\nAnalyse des vitesses de réaction.\nÉtude des mécanismes réactionnels. Étude des collisions moléculaires.\nCompréhension des mécanismes catalytiques.\nConnaissances préalables recommandées\nLes réactions chimiques, les équations chimiques.\nNotions de base thermodynamique (l'énergie, l'enthalpie, l'entropie et l'énergie libre).\nNotions sur les constantes d'équilibre et leur relation avec les concentrations des réactifs et des produits.\nContenu de la matière\nRappels fondamentaux\nIntroduction (Définition et objectifs de la cinétique chimique)\nRappels de thermodynamique (affinité chimique, équilibre)\nFacteurs de la cinétique : Concentrations (loi de vitesse, ordre de réaction, temps de demi-réaction) ; Température (loi d'Arrhenius, énergie d'activation) ; Méthodes expérimentales de mesure des vitesses (chimiques et physiques)\nCinétique formelle des réactions complexes\nLes réactions élémentaires\nLa molécularité d'une réaction élémentaire\nLes mécanismes de réaction\nMéthodes d'approximation : Approximation de l'état quasi stationnaire (A.E.Q.S) ; Principe de l'étape déterminante ; Réactions complexes avec état stationnaire des composés intermédiaires\nLes réactions en chaîne (à séquence fermée) : Mécanisme d'une réaction en chaîne ; Cinétique d'une réaction en chaîne\nRéactions par stade (à séquence ouverte) : Mécanismes des réactions par stade ; Longueur de la chaîne (λ)\nThéories cinétiques\nThéorie des collisions moléculaires\nThéorie du complexe activé\nThéorie de l'étape limitante\nThéorie de l'approximation de l'état quasi stationnaire\nThéorie de réactions pseudo-mono moléculaires (Théorie de Lindemann-Hinshelwood)\nModes d'activation : Activation thermique et Activation photochimique.\nCatalyse homogène et hétérogène\nOrdre de la réaction par rapport au catalyseur\nMécanisme de la catalyse homogène\nCatalyse acido-basique\nCatalyse redox\nCatalyse enzymatique\nRéactions hétérogènes : Méthodes d'étude ; Adsorption d'un soluté sur solide ; Cinétique d'adsorption ; Cinétique de désorption\nRéférences bibliographiques\nChemical Kinetics and Dynamics (J. I. Steinfeld, J. S. Francisco, W. L. Hase)\nLa Cinétique Chimique (P. Infelta, M. Grätzel)\nModern Liquid Phase Kinetics (B. G. Cox)\nCinétique et catalyse, 2e édition (Gérard SCACCHI, Michel BOUCHY, Jean-François FOUCAUT, Orfan ZAHRAA, René FOURNET)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

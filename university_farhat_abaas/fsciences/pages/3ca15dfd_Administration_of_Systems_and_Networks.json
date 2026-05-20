@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S3-ASN.html",
+      "title": "Administration of Systems and Networks",
+      "id": "3ca15dfd",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:54",
+      "hash": "990a07c9d6306d9c",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nAdministration of Systems and Networks  |\nSemester:\n3  |\nType:\nUEM3\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLectures:\n1h30  |\nTD:\n-  |\nTP:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n2  |\nCredits:\n5\nTeaching Objectives\nTrain students in the profession of systems and network administrator with extensive practical workshops (Linux and Windows platforms)\nInstall, configure and study in practice the main services common in companies equipped with a computer network\nHandle best practices for managing, installing and configuring a workstation fleet in a heterogeneous environment\nRecommended Prerequisites\nNetworks, operating systems\nCourse Content (Lectures: 21h)\nClient/Server Administration:\nClient/Server architecture structure\nClient/Server models: P2P, two-tier, three-tier\nInteraction models: message communication, event communication, database (ODBC), RPC client/server\nObject-based client/server\nSystem interoperability, redundancy, and load balancing\nUnix Network Administration:\nUnix implementation of application service administration\nUnix exploitation philosophy, RedHat\nEnterprise network configuration (Network Manager, Interface Teaming, VLANs, SSH Tunneling)\nPractical user account and permission management\nSetting up common enterprise services (Apache, NGINX, DNS, DHCP, etc.)\nLatest trends: KVM virtualization, Docker containerization and native containers\nWindows Network Administration:\nActive Directory domain, distributed resource access architecture, high availability\nEnterprise network services setup, Remote Desktop Services, remote access\nInternet application, server and workstation deployment\nArchitecture security and attack surface reduction\nWindows network infrastructure lifecycle\nAssessment\nExams: 60%\nContinuous assessment: 40%\nBibliographic References\nG. Gardarin, O. Gardarin, \"le client serveur\", Eyrolles, 1996.\nRobert Orfali, Dan Harkey, Jeri Edwards, \"Client/Serveur\", Vuibert informatique, 1999.\nT. Deman, G. Desfarges, F. Elmaleh, M. Van Jones, Window server 2016, Eyrolles, 2017.\nT. Bartolone, Red Hat Enterprise Linux CentOS: Mise en production et administration de serveurs, 2019."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

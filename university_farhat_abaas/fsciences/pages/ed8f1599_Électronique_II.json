@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L3/S5-ELEC2.html",
+      "title": "Électronique II",
+      "id": "ed8f1599",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:26",
+      "hash": "c55b751dfce726a9",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Électronique II\nSemestre :\n5  |\nUnité d'enseignement :\nMéthodologie\nConnaissances préalables recommandées\nNotions d'électricité acquises en S2 et notions de l'électronique de base acquise en S4 (Matière Électronique I).\nObjectifs de l'enseignement\nLe contenu du programme de cette matière complète et approfondie les notions élémentaires d'électronique acquises dans la matière Électronique I enseignée en S4.\nContenu de la matière (Cours)\nChapitre 1 :\nÉtude des amplificateurs à base de transistors (montages fondamentaux, amplificateurs à plusieurs étages, réponse en fréquences)\nChapitre 2 :\nÉtude de la contre réaction (indispensable pour des physiciens et nécessaires pour la compréhension des amplificateurs opérationnels)\nChapitre 3 :\nAmplificateurs opérationnels (montages de base, filtres actifs, oscillateurs)\nChapitre 4 :\nApplication des amplificateurs opérationnels\nTravaux Pratiques\nT.P. N°1 : Transistor bipolaire : caractéristiques statiques\nT.P. N°2 : Transistor bipolaire : montage émetteur commun (caractéristiques dynamiques, circuit équivalent, influence de la résistance d'émetteur, réponse fréquentielle, autres montages)\nT.P. N°3 : Transistor bipolaire : montage sélectif (réponse fréquentielle, bande passante, coefficient de qualité)\nT.P. N°4 : Amplificateur opérationnel : montages fondamentaux (montages inverseur et non inverseur)\nT.P. N°5 : Amplificateur opérationnel : filtres actifs (filtre passe bas, filtre passe bande)\nT.P. N°6 : Amplificateur opérationnel : régime de saturation (montage comparateur, montage oscillateur carré (astable))\nT.P. N°7 : Amplificateur opérationnel : autres applications (montage dérivateur, montage intégrateur, montage sommateur)\nDémonstration : La simulation en électronique – étude d'un logiciel de simulation, exemples d'application.\nMode d'évaluation\nContrôle continu : 50%\nExamen : 50%\nRéférences bibliographiques\n1. Jean-Jacques Rousseau, Introduction à l'électronique : cours et exercices corrigés, Edition ellipses\n2. Yves Granjon. Exercices et problèmes d'électronique-Licence, Dunod\n3. Lantz André. Amplificateurs fondamentaux et opérationnels, principe, fonctionnement et utilisation.\n4. Mourad Haddad. Exercices corrigés en électronique générale avec résumé du cours OPU-Alger.\n5. Hamoud Ladjouze. Électronique générale, OPU-Alger"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

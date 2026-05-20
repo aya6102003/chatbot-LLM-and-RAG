@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S5-SO-SYNC.html",
+      "title": "Operating Systems: Synchronization and Communication",
+      "id": "a0e44b57",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:36",
+      "hash": "951a9bd630bbcba1",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Operating Systems: Synchronization and Communication\nSemestre : S5\nUnité d’enseignement : UEF2\nMatière : Système d’Exploitation : Synchronisation et Communication\nCrédits : 5\nCoefficient : 3\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement (Décrire ce que l’étudiant est censé avoir acquis comme compétences après le\nsuccès à cette matière – maximum 3 lignes).\nIntroduire la problématique du parallélisme dans les systèmes d'exploitation, étudier la mise en œuvre\nde la coopération à travers les outils de synchronisation et de communication et les problèmes associés.\nRecommandation : Illustrer les différents concepts à l’aide d’outils (création de processus, signaux,\nsémaphores, mémoire partagée, files de messages, tubes) du système UNIX notamment dans les\nséances de TP.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\nContenu de la matière :\nChapitre 1 : NOTION DE PARALLELISME/CONCURRENCE (10 %)\n• Systèmes de tâches\n• Parallélisme et langages évolués\n• Déterminisme d’un système de tâches\n• Parallélisme maximal\nChapitre 2 : SYNCHRONISATION DES PROCESSUS (20 %)\n• Partage de ressources et des données\n• Exclusion mutuelle\n• Mécanismes d’exclusion mutuelle : variables d’états, solutions matérielles, les sémaphores,\nautres mécanismes de synchronisation\nChapitre 3 : COMMUNICATION ENTRE PROCESSUS (15 %)\n• Communication par partage de variables : Modèle du producteur/ consommateur, modèle des\nlecteurs/ rédacteurs.\n• Communication par échanges de messages : Désignation (directe : CSP, indirecte : les boites\naux lettres)\nChapitre 4: MONITEURS ET REGIONS CRITIQUES (15%)\n• Les moniteurs : Structure, implémentation, illustrations, variantes de moniteurs\n• Régions critiques (Simples, Conditionnelles)\nChapitre 5: INTERBLOCAGE (20%)\n• Caractéristiques, Modèles, Formalisation, Représentations graphiques\n• Traitement de l’interblocage : Prévention, Détection- Guérison, Evitement\nChapitre 6: SYSTEMES DE FICHIERS (20%)\n• Interface d’un système de fichiers : Attributs d’un fichier, opérations, types, structures,\nméthodes d’accès, répertoires.\n• Implémentation d’un système de fichiers : Structure, organisation physique des fichiers et\nrépertoires, implémentation, gestion des fichiers actifs et de l’espace libre, partage de fichiers,\nprotection.\n• Systèmes de fichiers multimédias\no Types, structures et compression de fichiers multimédias\no Opérations sur les fichiers multimédias\no Organisation des fichiers multimédias\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences bibliographiques (Livres et polycopiés, sites internet, etc) :\nCiter au moins 3 à 4 références classiques et importantes.\n[1] Thomas Anderson and Michael Dahlin Operating Systems: Principles and Practice (Second\nEdition) Volume II: Concurrency ISBN : 978-0-9856735-4-3 Publisher: Recursive Books, Ltd.,.\n2011-2015.\n[2] M. J. Bach, traduit par G. Fellah, ‘’Conception du Système UNIX,’’ Masson et Prentice Hall,1990.\n[3] J. Beauquier, B. Berard,’’ Systèmes d'exploitation : concepts et algorithmes,’’ McGraw-Hill,\n1990.\n[4] Crocus,’’ Systèmes d’exploitation des ordinateurs’’, Dunod 1975.\n[6] Patrick Cegielski, Conception de systèmes d'exploitation : le cas linux, Éditions Eyrolles, 16\nOctobre 2003.\n[7] N. B. Fontaine, P. Hammes, ‘’UNIX système V: Système et environnement’’ Masson 1989.\n[8] S. Krakowiak, ‘’Principes des systèmes d'exploitation des ordinateurs,’’ Dunod 1987.\n[9] J-L.Peterson, A.Silbershartz ‘’Operating Systems Concepts,’’Addison-Wesly Publishing\nCompany,Inc, 1983.\n[10] A. Silberschatz, P. B. Galvin ‘’ Principes des systèmes d’exploitation,’’ 4 e Edition, Addison\nWesley, 1994.\n[11] William Stallings, Operating Systems: Internals and Design Principles (8th Edition), Publisher :\nPearson; 8th edition (February 2, 2014).\n[12] A. Tanenbaum, ‘’ Modern Operating Systems, ’’ Third Edition Prentice Hall, 2009.\n[13] A. Tananbaun, ‘’Systèmes d’exploitation,’’ 3°édition, Pearson Edition. 2008.\n[14] J-P. Verjus et al,’’Synchronisation des programmes parallèles : Expression et mise en oeuvre dans\nles systèmes centralisés, édition 1983 Dunod."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

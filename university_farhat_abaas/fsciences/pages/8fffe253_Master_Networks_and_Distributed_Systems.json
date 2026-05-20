@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Master_Reseaux_Systemes_Distribues.html",
+      "title": "Master Networks and Distributed Systems",
+      "id": "8fffe253",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:54",
+      "hash": "ad21f917af5ea00e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Master Networks and Distributed Systems (RSD)\nDomain: Mathematics and Computer Science  |  Field: Computer Science\nResponsible:\nSEMESTER 1\nTeaching Unit\nModule\nCredits\nCoeff.\nWeekly hours\nVHS\n14-16 wks\nAssessment\nLectures\nTD\nTP\nPersonal Work\nContinuous\nExam\nUE Fundamental\nCode: UEF11\nCredits: 10\nCoeff.: 6\nAdvanced Algorithmics and Complexity\n5\n3\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nLearn more\n×\nAdvanced Databases\n5\n3\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nLearn more\n×\nUE Fundamental\nCode: UEF12\nCredits: 8\nCoeff.: 6\nAdvanced Networks 1\n4\n3\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nLearn more\n×\nDistributed Systems 1\n4\n3\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nLearn more\n×\nUE Methodological\nCode: UEM1\nCredits: 9\nCoeff.: 4\nData Analysis\n4\n2\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nModelling and Simulation of Networks\n5\n2\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nUE Transversal\nCode: UET1\nCredits: 2\nCoeff.: 1\nIntroduction to the Internet of Things\n2\n1\n1h30\n1h30\n21h\n100%\nLearn more\n×\nUE Discovery\nCode: UED1\nCredits: 1\nCoeff.: 1\nOptional module (one choice)\n1\n1\n1h30\n21h\n100%\nTotal Semester 1\n30\n18\n12h\n6h\n9h\n16h30\n378h\nSEMESTER 2\nTeaching Unit\nModule\nCredits\nCoeff.\nWeekly hours\nVHS\n14-16 wks\nAssessment\nLectures\nTD\nTP\nPersonal Work\nContinuous\nExam\nUE Fundamental\nCode: UEF21\nCredits: 10\nCoeff.: 6\nAdvanced Networks 2\n5\n3\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nLearn more\n×\nWireless Networks\n5\n3\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nLearn more\n×\nUE Fundamental\nCode: UEF22\nCredits: 8\nCoeff.: 6\nDistributed Systems 2\n4\n3\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nSpecification Models for Distributed Systems\n4\n3\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nUE Methodological\nCode: UEM2\nCredits: 9\nCoeff.: 4\nQuality of Service in Networks\n4\n2\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nMachine Learning\n5\n2\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nLearn more\n×\nUE Transversal\nCode: UET2\nCredits: 2\nCoeff.: 1\nIT Project Management\n2\n1\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nUE Discovery\nCode: UED2\nCredits: 1\nCoeff.: 1\nOptional module (one choice)\n1\n1\n1h30\n21h\n100%\nTotal Semester 2\n30\n18\n12h\n6h\n9h\n15h\n378h\nSEMESTER 3\nTeaching Unit\nModule\nCredits\nCoeff.\nWeekly hours\nVHS\n14-16 wks\nAssessment\nLectures\nTD\nTP\nPersonal Work\nContinuous\nExam\nUE Fundamental\nCode: UEF31\nCredits: 10\nCoeff.: 6\nMobile Networks\n5\n3\n1h30\n1h30\n1h30\n1h30\n63h\n40%\n60%\nLearn more\n×\nVirtualization, Cloud Computing and Security\n5\n3\n1h30\n3h\n3h\n63h\n40%\n60%\nLearn more\n×\nUE Fundamental\nCode: UEF32\nCredits: 8\nCoeff.: 6\nDevelopment of Distributed Applications\n4\n3\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nCryptography and Computer Security\n4\n3\n3h\n1h30\n1h30\n3h\n84h\n40%\n60%\nLearn more\n×\nUE Methodological\nCode: UEM3\nCredits: 9\nCoeff.: 4\nAdministration of Systems and Networks\n5\n2\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nSpecification and Verification of Protocols\n4\n2\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nUE Transversal\nCode: UET3\nCredits: 2\nCoeff.: 1\nResearch Methodologies\n2\n1\n1h30\n21h\n100%\nLearn more\n×\nUE Discovery\nCode: UED3\nCredits: 1\nCoeff.: 1\nOptional module (one choice)\n1\n1\n1h30\n21h\n100%\nTotal Semester 3\n30\n18\n13h30\n3h\n10h30\n12h\n378h\nSEMESTER 4\nVHS\nCoeff.\nCredits\nDissertation / Thesis\n750h\n18\n30\nCompany Internship\nWorkshops\nPersonal Work\nOther\nTotal Semester 4\n750h\n18\n30"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/8fffe253_table_1_SEMESTER_1.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/8fffe253_table_2_SEMESTER_2.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/8fffe253_table_3_SEMESTER_3.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/8fffe253_table_4_SEMESTER_4.json",
+        "rows": 7
+      }
+    ]
+  }
+}

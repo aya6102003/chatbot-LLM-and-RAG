@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9026",
+      "title": "Faculté des Sciences",
+      "id": "4c98a1a9",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:49:45",
+      "hash": "ea9867e382c9d8ef",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "CSD\nLa réunion du Comité Scientifique du Département d’Informatique (CSD) se tiendra le\n21 mai 2026\n.\nLe dernier délai de réception des dossiers est fixé au\n17 mai 2026 à 12h00 (midi)\n."
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

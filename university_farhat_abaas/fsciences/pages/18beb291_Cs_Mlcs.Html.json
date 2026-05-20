@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-MLCS.html",
+      "title": "Cs Mlcs.Html",
+      "id": "18beb291",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:32",
+      "hash": "849c7f57ca39fb54",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nHave a state of the art of advances in the field of Machine Learning and design of these models - Know how to implement these deep learning algorithms for different types of medical imaging data - Know how to evaluate the performance of these algorithms on a given problem and know the impact of different learning parameters\nContenu de la matière\nBasics of Machine Learning in Cybersecurity\nTime Series Analysis and Ensemble Modeling\nSegregating Legitimate and Lousy URLs\nKnocking Down CAPTCHAs\nUsing Data Science to Catch Email Fraud and Spam\nEfficient Network Anomaly Detection Using K-Means\nDecision Tree and Context-Based Malicious Event Detection\nCatching Impersonators and Hackers Red-Handed\nChange the Game with TensorFlow\nMode d’évaluation : Contrôle continu, examen Références\nMachine learning for Cybersecurity cookbook\nJames, G., Witten, D., Hastie, T., and Tibshirani, R.An introduction to statistical learning,\nvolume 112. Springer.\nHastie, T., Tibshirani, R., and Friedman, J, The Elements of Statistical Learning. Springer"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/F3I.html",
+      "title": "Guide pédagogique",
+      "id": "875989bb",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:51",
+      "hash": "a76cb8af06119fbf",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Le Master F3I est un enseignement scientifique de deuxième cycle universitaire à finalité́ académique. Cette formation porte essentiellement sur les aspects recherche et développement de projets dans les domaines de l’apprentissage automatique (Machine Learning) qui est un domaine de l’intelligence artificielle qui utilise des techniques intelligentes pour donner aux ordinateurs la capacité d’apprendre d’une manière automatique.\nCette technologie révolutionnaire à l’instar de l’apprentissage profond (Deep Learning) trouve toute son importance dans des applications liées aux nouvelles technologies comme le web mining (Commande vocale : Siri), les systèmes de recommandation (Amazon), la prédiction d’indicateurs biologiques, la médecine intelligentes (Robots Chirurgiens), le pilotage d’un processus par des programmes autonomes et intelligents (Google car). C’est pourquoi ce Master s’adresse aux étudiants ambitieux et désireux d’avoir une carrière dans un domaine phare et très dynamique de l’informatique.\nResponsable : Dr B. Annane          boubakeur.annane@univ-setif.dz"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/875989bb_table_1_SEMESTRE_1.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/875989bb_table_2_SEMESTRE_2.json",
+        "rows": 12
+      },
+      {
+        "file": "tables/875989bb_table_3_SEMESTRE_3.json",
+        "rows": 12
+      },
+      {
+        "file": "tables/875989bb_table_4_SEMESTRE_4.json",
+        "rows": 6
+      }
+    ]
+  }
+}

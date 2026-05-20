@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIM_ANAL_CONTROLE_QUALITE/S2-APCS.html",
+      "title": "S2 Apcs.Html",
+      "id": "c120bf54",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:22",
+      "hash": "130bdd35734f0a64",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Analyse Physico-Chimique des Surfaces et Corrosion\nSemestre :\n2  |\nUE :\nFondamentale  |\nCrédits :\n4  |\nCoefficients :\n2\nObjectifs de l'enseignement\nPermettre à l'étudiant d'acquérir les notions fondamentales dans l'analyse spécifique des surfaces, en particulier des micro-poudres\nConnaissances préalables recommandées\nL'étudiant doit avoir suivi les enseignements des méthodes spectroscopiques et des méthodes physiques d'analyse\nContenu de la matière\n1. Les techniques d'analyse chimique globale\nSpectrométrie de fluorescence X\nSpectrométries d'émission\nSpectrométrie par torche à plasma (ICP-optique)\nSpectrométrie par décharge luminescente (SDL)\nSpectrométrie par étincelle\nAnalyse par ablation laser\nSpectromètre à décharge luminescente\nAnalyseurs de gaz : analyse de O, N, C et S\nAnalyse de l'oxygène et de l'azote\nAnalyse du carbone et du soufre\n2. Les techniques d'analyse chimique locale — Microanalyse X\nLa microsonde de Castaing (instrument essentiellement destiné à la microanalyse)\nLa microanalyse, accessoire des microscopes électroniques à balayage et en transmission\nLa spectrométrie par dispersion de longueur d'onde (WDS) pour la microsonde\nLa spectrométrie par sélection en énergie (EDS) pour le MEB et le TEM\n3. Techniques de caractérisation de surface\nSpectrométrie de photo-électrons (ESCA ou XPS) et d'électrons Auger (analyse élémentaire et chimique)\nSpectrométrie à décharge luminescente (SDL)\nSpectrométrie d'émission ionique secondaire (SIMS)\n4. Corrosion\nLes différentes formes de corrosion\nIntroduction\nCorrosion atmosphérique\nCorrosion électrochimique\nCorrosion généralisée (uniforme)\nCorrosion localisée\nCorrosion macroscopique : Corrosion galvanique ; Corrosion par érosion ; Corrosion par frottement (usure) ; Corrosion par crevasse (sous joint) ; Corrosion par piqûre ; Exfoliation ; Dissolution sélective (ex. : corrosion du laiton)\nCorrosion microscopique : corrosion intergranulaire ; Corrosion sous contrainte mécanique ; Corrosion-fatigue\nProtection contre la corrosion\nConditions et principes de la protection contre la corrosion\nProtection cathodique avec anode sacrificielle\nProtection par courant (ou tension) imposé\nProtection par revêtements métalliques : Immersion dans un métal fondu\nAutres types de protection\nLes inhibiteurs de corrosion\nMode d'évaluation\n33% Contrôle continu + 67% Examen\nRéférences bibliographiques\nJ. Salauze, \"Traité de galvanoplastie\", Ed. Dunod, 1961\nTechnique de l'ingénieur : Articles sur les revêtements par voie électrolytique : L. Lacourcelle (M 1591) ; Y. Badé (M 1605) ; P. Piessen (M 1600) ; Y. Badé (M 1610)\nM. Pourbaix, \"Atlas d'Équilibres Électrochimiques\", Gauthier Villars et Cie, Paris, 1963\nJ. BESSON, \"Précis de Thermodynamique et Cinétique Électrochimiques\", Ed. Ellipses, Paris, 1984\nN. Perez, \"Electrochemistry and corrosion science\", Kluwer Academic Publishers, 2004\nANALYSES DE SURFACE ET DE MATÉRIAUX, Techniques de l'Ingénieur"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

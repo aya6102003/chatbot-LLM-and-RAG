@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ET_IMAGERIE_MEDICALE/S5-DRD.html",
+      "title": "S5 Drd.Html",
+      "id": "52328224",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:17",
+      "hash": "67ae790383c48796",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Intitulé de l'UE :\nFondamentale\nIntitulé de la matière :\nDétection des Rayonnements et Dosimétrie\nCrédits :\n4\nCoefficient :\n2\nObjectifs de l'enseignement :\nMaîtrise des notions sur le rayonnement, interaction rayonnement avec la matière et la détection.\nConnaissances préalables recommandées :\nNotions de base sur la structure de la matière, électromagnétisme, électronique et la mécanique quantique.\nContenu de la matière :\nBase physique de rayonnement\nSources de rayonnement en physique médicale\nInteraction de rayonnement avec la matière\nDétection de rayonnement (Différents détecteurs et Chaîne de mesure, Statistique de comptage, Atténuation de rayonnement)\nMode d'évaluation :\nContrôle continu (33%) et Examen (67%)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

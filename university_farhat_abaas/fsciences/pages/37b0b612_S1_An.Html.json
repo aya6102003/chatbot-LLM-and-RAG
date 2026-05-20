@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S1-AN.html",
+      "title": "S1 An.Html",
+      "id": "37b0b612",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:47",
+      "hash": "a20d854ebe4a6efa",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Advanced Networks\nSemester:\n1  |\nType:\nUET1  |\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLecture:\n1h30  |\nLab:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n1  |\nCredits:\n2\nTeaching Objectives\nThis course aims to consolidate and deepen students' knowledge of computer network operation, addressing advanced concepts such as dynamic routing, transmission protocols, application protocols, and IPv6 configuration. The objective is to prepare students to analyse, design, and manage more complex network infrastructures in professional or research contexts.\nPrerequisites:\nComputer networks (bachelor level)\nCourse Content (21h)\n1. Network Review\nOSI and TCP/IP models\nMAC/IP addressing (ARP protocol)\nSubnet addressing (FLSM, VLSM, CIDR)\n2. Routing Protocols\nStatic routing\nDynamic routing (RIP, OSPF, BGP): distance vectors, link states\n3. Local and Wide Area Networks\nVirtual Local Area Networks (VLAN), VTP, DTP protocols\nInter-VLAN routing\nRedundancy in LANs (STP, EtherChannel, HSRP protocol)\nPPP protocol\nVPN (GRE protocol)\n4. Transmission Protocols\nTCP/UDP protocols\nTCP connection state management\nFlow control\nCongestion control\nError control\n5. Application Protocols\nWeb protocols (HTTP and HTTPS)\nEmail protocols (SMTP, POP and IMAP)\nFile sharing services (FTP and SMB)\nDHCP, DNS, Telnet and SSH\n6. IPv6 Protocol\nAddressing\nIPv4/IPv6 transition\nIPv6 services\n7. Network Management\nLLDP, CDP, NTP\nSNMP\nQuality of Service (QoS)\nConfiguration management automation (Ansible...)\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — tests, personal work\nBibliography\nTanenbaum, A., Feamster, N., & Witherall, D. (2021).\nComputer networks\n(6th ed.). Pearson.\nWhite, R., & Banks, E. (2017).\nComputer networking problems and solutions\n. Addison-Wesley Professional.\nEnglander, I., & Wong, W. (2021).\nThe architecture of computer hardware, systems software, and networking\n. John Wiley & Sons.\nBonaventure, O. (2021).\nComputer networking: Principles, protocols and practice\n.\nDordal, P. L. (2022).\nAn introduction to computer networks\n. Loyola University Chicago."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

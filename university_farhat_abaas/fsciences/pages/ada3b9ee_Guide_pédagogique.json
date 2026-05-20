@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/CS.html",
+      "title": "Guide pédagogique",
+      "id": "ada3b9ee",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:54",
+      "hash": "4ae7de22c937e625",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "La cyber sécurité assure une gestion des données dans des conditions optimales et sécurisées. Elle permet la protection des systèmes informatiques et des données qui circulent contre ceux que l’on appelle les cybercriminels. Les compétences en informatiques acquises par les personnes malveillantes sont des risques à ne pas prendre à la légère. La sécurité informatique aujourd’hui impacte tous les métiers et elle devient un facteur très important à prendre en considération.\nOutre les cyber-attaques, la cyber sécurité permet la mise en place de processus auprès des collaborateurs pour l’instauration de bonnes pratiques. En effet, les erreurs humaines sont des sources réelles de fuites de données. La sensibilisation des équipes aux problématiques d’usurpation d’identité (par exemple) est une composante importante d’une politique de sécurité informatique.\nAujourd’hui, alors que les réseaux informatiques envahissent tous les aspects de notre vie, la formation des cadres dans le domaine de la cyber sécurité devient vitale.\nResponsable : Pr Z. Aliouat     zaliouat@univ-setif.dz\nSEMESTRE 1\nUnité\nd'Enseignement\nMatière\nCrédits\nCoefficient\nVolume horaire hebdomadaire\nVHS\n14 Semaines\nMode d'évaluation\nCours\nTD\nTP\nContinu\nExamen\nUE Fondamentale 1.1\nCrédits : 9\nCoefficients : 5\nDMSS: Designing and Managing Secure Systems\n5\n3\n1h30\n1h30\n42h\n40%\n60%\nSavoir plus\n×\nAC: Advanced Cryptography\n4\n2\n1h30\n1h30\n42h\n40%\n60%\nSavoir plus\n×\nUE Fondamentale 1.2\nCrédits : 9\nCoefficients : 5\nA2CS: Artificial Intelligence for Cyber Security\n5\n3\n1h30\n1h30\n42h\n40%\n60%\nSavoir plus\n×\nQC: Quantum Computing\n4\n2\n1h30\n1h30\n42h00\n40%\n60%\nSavoir plus\n×\nUE Méthodologie 1.1\nCrédits : 5\nCoefficients : 3\nUSA: Unix System Administration\n3\n2\n1h30\n1h30\n42h\n40%\n60%\nSavoir plus\n×\nCAV: Computer-Aided Verification\n2\n1\n1h30\n1h30\n42h\n40%\n60%\nSavoir plus\n×\nUE Méthodologie 1.2\nCrédits : 4\nCoefficients : 2\nAVR: Augmented and Virtual Reality\n2\n1\n1h30\n1h30\n42h\n40%\n60%\nSavoir plus\n×\nCC: Cybercrime\n2\n1\n1h30\n1h30\n42h\n40%\n60%\nSavoir plus\n×\nUE Transversale\nCrédits : 3\nCoefficients : 2\nCE 1: Communication skills in English 1\n3\n2\n1h30\n1h30\n42h00\n100%\nSavoir plus\n×\nTotal Semestre 1\n30\n17\n13h30\n1h30\n12h00\n378h\nSEMESTRE 2\nUnité\nd'Enseignement\nMatière\nCrédits\nCoefficient\nVolume horaire hebdomadaire\nVHS\n14 Semaines\nMode d'évaluation\nCours\nTD\nTP\nContinu\nExamen\nUE Fondamentale 1.1\nCrédits : 9\nCoefficients : 5\nEHSD: Ethical Hacking and Systems Defense\n5\n3\n1h30\n1h30\n42h\n40%\n60%\nSavoir plus\n×\nWAS : Web Application Security\n4\n2\n1h30\n1h30\n42h\n40%\n60%\nSavoir plus\n×\nUE Fondamentale 1.2\nCrédits : 9\nCoefficients : 5\nMLCS: Machine Learning for Cyber Security\n5\n3\n1h30\n1h30\n42h\n40%\n60%\nSavoir plus\n×\nINS: Information And Network Security\n4\n2\n1h30\n1h30\n42h00\n40%\n60%\nSavoir plus\n×\nUE Méthodologie 1.1\nCrédits : 5\nCoefficients : 3\nOSFS: Operating Systems Forensics And Security\n3\n2\n1h30\n1h30\n42h\n40%\n60%\nSavoir plus\n×\nSSD: Secure Software Development\n2\n1\n1h30\n1h30\n42h\n40%\n60%\nSavoir plus\n×\nUE Méthodologie 1.2\nCrédits : 4\nCoefficients : 2\nCC: Cloud Computing\n2\n1\n1h30\n1h30\n42h\n40%\n60%\nSavoir plus\n×\nBC: Blockchain\n2\n1\n1h30\n1h30\n42h\n40%\n60%\nSavoir plus\n×\nUE Transversale\nCrédits : 3\nCoefficients : 2\nCE 2: Communication skills in English 2\n3\n2\n1h30\n1h30\n42h00\n100%\nSavoir plus\n×\nTotal Semestre 1\n30\n17\n13h30\n1h30\n12h00\n378h"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/ada3b9ee_table_1_SEMESTRE_1.json",
+        "rows": 12
+      },
+      {
+        "file": "tables/ada3b9ee_table_2_SEMESTRE_2.json",
+        "rows": 12
+      },
+      {
+        "file": "tables/ada3b9ee_table_3_SEMESTRE_3.json",
+        "rows": 12
+      },
+      {
+        "file": "tables/ada3b9ee_table_4_SEMESTRE_4.json",
+        "rows": 3
+      }
+    ]
+  }
+}

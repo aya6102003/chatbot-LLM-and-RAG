@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S3-IOC.html",
+      "title": "Instruments for Cosmic Radiation Observation and Detection",
+      "id": "386fb134",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:01",
+      "hash": "66e5c9f620a00d3b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n3  |\nUE :\nDécouverte (UED 3)  |\nCrédits :\n1  |\nCoefficient :\n1\nMode d'évaluation :\nExamen : 100%\nObjectifs de l'enseignement\nPrésenter les différentes gammes du spectre électromagnétique observées en astrophysique\nComprendre les principes physiques de détection des rayonnements cosmiques\nIdentifier les instruments spécifiques à chaque bande spectrale et leurs contraintes\nApprécier l'apport des missions spatiales et des technologies modernes dans l'étude de l'Univers\nConnaissances préalables recommandées\nNotions d'optique, d'électromagnétisme, et de physique atomique.\nContenu de la matière\nChapitre 1 : Introduction aux rayonnements cosmiques et à leur détection\nOrigine des rayonnements électromagnétiques dans l'Univers\nInteraction avec l'atmosphère terrestre\nJustification de l'observation depuis le sol ou l'espace\nObjectifs scientifiques des observations multispectrales\nChapitre 2 : Fenêtres atmosphériques et plateformes d'observation\nTransparence de l'atmosphère selon la longueur d'onde\nSites d'observation terrestre (radio, visible, IR proche)\nPlateformes extra-atmosphériques : ballons stratosphériques, satellites\nAvantages et limites des différents environnements d'observation\nChapitre 3 : Observation dans le domaine radio et infrarouge\nRadiotélescopes : principes, antennes, interférométrie, synthèse d'ouverture\nExemples : VLA, ALMA, SKA\nDétecteurs infrarouges : bolomètres, photodiodes, contraintes cryogéniques\nExemples de missions : Spitzer, Herschel, JWST\nChapitre 4 : Observation dans le visible et l'ultraviolet\nTélescopes optiques terrestres et spatiaux : composants (miroirs, lentilles)\nDétecteurs CCD/CMOS, filtres, spectrographes\nTechniques de correction : optique adaptative, coronographie\nMissions UV : IUE, GALEX, HST\nChapitre 5 : Instruments pour les rayons X et gamma\nDifficultés de détection des rayonnements X/gamma\nTechniques : masques codés, optiques à cristaux, télescopes à miroirs multicouches\nDétecteurs : scintillateurs, semi-conducteurs, microcalorimètres\nMissions emblématiques : Chandra, XMM-Newton, Fermi, INTEGRAL, HESS\nChapitre 6 : Perspectives actuelles et technologies émergentes\nObservation multi-messagers : rayonnements, neutrinos, ondes gravitationnelles\nPolarimétrie, interférométrie longue base, imagerie 3D\nProjets à venir : Athena, SKA, LISA, CTA\nImpact de l'intelligence artificielle et du traitement automatique des données\nChapitre 7 : Etudes de cas : missions et données d'observation\nAnalyse commentée d'images issues de Hubble, JWST, Chandra, Fermi\nPrésentation d'une mission spatiale choisie par binôme (mini-exposé)\nDiscussion sur la complémentarité des différentes bandes spectrales\nRéférences bibliographiques\nC.R. Kitchin, Astrophysical Techniques, 5e éd., CRC Press, 2009\nJ. Lequeux, L'instrumentation en astronomie, EDP Sciences, 2012\nG.H. Rieke, Detection of Light: From the Ultraviolet to the Submillimeter, Cambridge UP, 2003\nF. Combes & J.B. Zuber, Physique de l'Univers, EDP Sciences, 2021\nFiches techniques ESA/NASA : missions HST, JWST, Chandra, Fermi, Athena, SKA"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

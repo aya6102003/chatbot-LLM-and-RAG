@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/431",
+      "title": "Faculté des Sciences",
+      "id": "7f9b4c69",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:48:01",
+      "hash": "1bbe8070bbaf5193",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "BETKA Abderrahim\nBETKA Abderrahim\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:b_rahim@univ-setif.dz\nEmail:b_rahim@univ-setif.dz\nDépartement:Physique\nBureau:31\nBureau:31\n\nGrade : maître de conférence A\nSpécialité : Physique médicale\nModélisation Numérique de Rayonnement Ionisant (cours Physique médicale)\nPolycopie de cours"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "463",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/463",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/7f9b4c69_table_1_untitled.json",
+        "rows": 1
+      }
+    ]
+  }
+}

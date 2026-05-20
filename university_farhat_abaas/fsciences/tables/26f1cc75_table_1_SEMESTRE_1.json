@@ -1,0 +1,152 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Master_Physique_Theorique.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n15 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n15 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Autres",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE FondamentaleCode : UEF 1Crédits : 18Coefficients : 9",
+      "Mécanique Quantique Approfondie 1",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "82h30",
+      "67h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Théorie Quantique des Champs 1",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "82h30",
+      "67h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Physique Statistique Quantique 1",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "82h30",
+      "67h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE MéthodologieCode : UEM 1Crédits : 9Coefficients : 5",
+      "Méthodes Mathématiques pour la Physique",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "55h00",
+      "45h00",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Programmation Numérique 1",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "55h00",
+      "45h00",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Intelligence artificielle et Machine Learning 1",
+      "1",
+      "1",
+      "",
+      "",
+      "1h00",
+      "10h00",
+      "15h00",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE DécouverteCode : UED 1Crédits : 2Coefficients : 2",
+      "Théorie du solide 1",
+      "2",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "05h00",
+      "45h00",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversalCode : UET 1Crédits : 1Coefficients : 1",
+      "Symétries en Mécanique Quantique 1",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "2h30",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "17",
+      "15h00",
+      "7h30",
+      "2h30",
+      "375h00",
+      "375h00"
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 7
+}

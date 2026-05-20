@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/633",
+      "title": "Faculté des Sciences",
+      "id": "3b28b2b8",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:50:10",
+      "hash": "393e08736598b4bf",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "HAMDI Skander\nHAMDI Skander\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:skander.hamdi@univ-setif.dz\nEmail:skander.hamdi@univ-setif.dz\nDépartement:Informatique\nBureau:\nBureau:\n\nBiography & Portfolio in\nhttps://s-hamdi.com/\nJournaux (1)\nAttention-based hybrid CNN-LSTM and spectral data augmentation for COVID-19 diagnosis from cough sound\nSkander Hamdi, Mourad Oussalah, Abdelouahab Moussaoui & Mohamed Saidi\nJournal of Intelligent Information Systems, 59 (2022), pp 367–389\nConferences Internationales (10)\nPrecision Diagnosis in Pandemics: Machine Learning and Cough Sound Analysis for COVID-19\nIyad Chehili and Skander Hamdi\nInternational Conference on Information and Communication Technologies for Disaster Management (ICT-DM), Setif, Algeria, (2024)\nSECA-Net: A Lightweight Spatial and Efficient Channel Attention for Enhanced Natural Disaster Recognition\nSkander Hamdi, Abdelouahab Moussaoui, Mafaza Chabane, Ayou Laouarem, Mohamed Berrimi Mourad Oussalah\nInternational Conference on Information and Communication Technologies for Disaster Management (ICT-DM), Setif, Algeria, (2024)\nEnsemble Transfer Learning for Improved Brain Tumor Classification in MRI Images\nSkander Hamdi, Abdelouahab Moussaoui ,Mohamed Berrimi, Ayoub Laouarem, Mafaza Chabane\nThe 2nd International Conference and School on Radiation Imaging and Nuclear Medicine, Setif, Algeria, (2023)\nUncovering Linguistic Patterns: Exploring Ensemble Learning and Low-Level Features for Identifying Spoken Arabic, English, Spanish, and German\nSkander Hamdi, Abdelouahab Moussaoui, Mafaza Chabane, Ayoub Laouarem, Mohamed Berrimi, Mourad Oussalah\n5th International Conference on Pattern Analysis and Intelligent Systems (PAIS), Setif, Algeria, (2023)\nAutoencoders and Ensemble-Based Solution for COVID-19 Diagnosis from Cough Sound\nSkander Hamdi, Abdelouahab Moussaoui, Mourad Oussalah, Mohamed Saidi\nIn book: Modelling and Implementation of Complex SystemsEdition: International Symposium on Modelling and Implementation of Complex SystemsPublisher: Springer, Cham, Mostaganem, Algeria, (2022)\nCOVID-19 detection from Xray and CT scans using transfer learning\nMohamed Berrimi, Skander Hamdi, Raoudha Yahia Cherif, Abdelouahab Moussaoui, Mourad Oussalah, Mafaza Chabane\nInternational Conference of Women in Data Science at Taif University (WiDSTaif ), Taif, Kingdom of Saudi Arabia, (2021)\nConvolutional Neural Network for detecting Alzheimer’s disease in the early stages from Magnetic Resonance Imaging\nSkander Hamdi, Abdelouahab Moussaoui, Mourad Oussalah, Mohamed Saidi\nTHE FIRST INTERNATIONAL CONFERENCE AND SCHOOL ON RADIATION IMAGING ICSRI-2021, Setif, Algeria, (2021)\nEarly COVID-19 Diagnosis from Cough Sound Using Random Forest and Low-Level Descriptors\nSkander Hamdi, Abdelouahab Moussaoui, Mourad Oussalah, Mohamed Saidi\nThe Third International Conference on Computer and Information Sciences 2021 (ICCIS 2021), Aljouf, Kindgom of Saudi Arabia, (2021)\nGender Identification from Arabic Speech Using Machine Learning\nSkander Hamdi, Abdelouahab Moussaoui, Mourad Oussalah, Mohamed Saidi\nIn book: Modelling and Implementation of Complex SystemsEdition: International Symposium on Modelling and Implementation of Complex SystemsPublisher: Springer, Cham, Batna, Algeria, (2020)\nComparative study between machine and deep learning methods for age, gender and ethnicity identification\nSkander Hamdi, Abdelouahab Moussaoui\nThe 4th International Symposium on Informatics and its Applications (ISIA), M'sila, Algeria, (2020)"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "https://s-hamdi.com/",
+        "url": "https://s-hamdi.com/",
+        "type": "external"
+      }
+    ],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/uploads/page_professionnelle/image/633/thumb_Screen_Shot_2024-09-04_at_8.19.16_PM.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

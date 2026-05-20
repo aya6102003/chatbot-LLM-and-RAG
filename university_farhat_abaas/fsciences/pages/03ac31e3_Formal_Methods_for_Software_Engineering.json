@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S9-METHODES-FORM.html",
+      "title": "Formal Methods for Software Engineering",
+      "id": "03ac31e3",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:32",
+      "hash": "835bf8d9beebe725",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Formal Methods for Software Engineering\nSemestre : S9\nUnité d’enseignement : UEF1\nMatière : Méthodes formelles pour GL\nCrédits : 4\nCoefficient : 3\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement\nLes compétences développées dans le cadre de ce cours sont :\n- Connaître les langages de description formelle des systèmes logiciels,\n- Appliquer les techniques de modélisation aux systèmes critiques,\n- Connaître les langages de spécification formelle des propriétés et des exigences,\n- Exprimer les propriétés à satisfaire par les systèmes logiciels,\n- Apprendre à appliquer les techniques de vérification formelle.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\nGénie Logiciel, Logique Mathématique, Probabilités & Statistiques\nContenu de la matière\n1) Introduction aux méthodes formelles\nProcessus de modélisation et de vérification formelle\nLangages formels de description des systèmes\nLangages formels de spécification des systèmes\nTechniques formelles de vérification\n2) Modèles formels à base d’automates\nSystèmes de transitions\nAutomates communicants et leurs types\nSémantiques\n3) Algèbres de processus\nSyntaxe\nSémantique Opérationnelle structurée\n4) Réseaux de Petri\nSyntaxe\nPropriétés des graphes de marquages\nVariantes et Extensions\n5) Logiques temporelles & Technique de Model-Checking\nLogique Temporelle à temps linéaire\nLogique Temporelle à temps arborescent\nAlgorithmes de model-checking\n6) Spécification Comportementale\nRelations d’équivalence comportementale\nRelations basées sur les modèles des traces, failures et raidies\nRelations de Raffinement\n7) Descriptions Formelles des Données\nTypes Abstrait de Données : Syntaxe & Sémantique axiomatique\nLangage Z.\n8) Modèles probabilistes\nChaînes de Markov\nEvaluation des performances.\nModel-Checking Probabiliste.\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences\nMarkus Roggenbach, Antonio Cerone, Bernd-Holger Schlingloff, Gerardo Schneider, Siraj Ahmed Shaikh.\nFormal Methods for Software Engineering Languages, Methods, Application Domains. Springer 2021.\nC. A. R. Hoare, Communicating Sequential Processes, Prentice-Hall, Inc., USA, 1985.\nCollectif sous la direction de Michel Diaz. Vérification et mise en œuvre des réseaux de Petri. Editions Hermes-\nScience, 2003.\nWolfgang Reisig. Understanding Petri Nets: Modeling Techniques, Analysis Methods, Case Studies Springer;\n2013th edition.\nR. Milner (1989): Communication and Concurrency, Prentice Hall\nM. Hennessy (1988): Algebraic Theory of Processes, MIT Press J.C.M.\nBaeten & W.P. Weijland (1990): Process Algebra, Cambridge University Press\nBill Roscoe (1998, amended 2005): The theory and practice of concurrency, Prentice Hall W.J.\nFokkink (2000): Introduction to Process Algebra, Texts in Theoretical Computer Science, An EATCS Series,\nSpringer.\nPeter Ryan, Steve Schneider, Michael Goldsmith, Gavin Lowe and Bill Roscoe, Modelling and Analysis of\nSecurity Protocols, Addison Wesley; 01 edition (6 Dec. 2000)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

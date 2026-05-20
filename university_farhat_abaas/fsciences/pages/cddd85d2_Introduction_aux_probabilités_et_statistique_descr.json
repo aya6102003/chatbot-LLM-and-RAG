@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_MATHEMATIQUES/S2-PROBA-STAT.html",
+      "title": "Introduction aux probabilités et statistique descriptive",
+      "id": "cddd85d2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:14",
+      "hash": "2a03444ee48cea5c",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Introduction aux probabilités et statistique descriptive\nSemestre : 02\nUnité d'enseignement : Fondamentale\nMatière : Introduction aux probabilités et statistique descriptive\nCrédits : 4\nCoefficient : 2\nObjectifs de l'enseignement\nIntroduire les notions fondamentales en probabilités et en séries statistiques à une et à deux variables.\nConnaissances préalables recommandées\nMathématiques de base.\nContenu de la matière\nChapitre 1 : Notions de base et vocabulaire statistique\nConcepts de base de la statistique (Population et individu, Variable (ou caractère))\nLes tableaux statistiques : cas de variables qualitatives (représentation circulaire par des secteurs, représentation en tuyaux d'orgue, diagramme en bandes), cas de variables quantitatives (le diagramme en bâtons, histogramme, polygone)\nChapitre 2 : Représentation numérique des données\nLes caractéristiques de tendance centrale ou de position : la médiane, les quartiles, intervalle interquartile, le mode, la moyenne arithmétique, la moyenne arithmétique pondérée, la moyenne géométrique, la moyenne harmonique, la moyenne quadratique\nLes caractéristiques de dispersion : l'étendu, l'écart type, l'écart absolue moyen, le coefficient de variation\nChapitre 3 : Calcul des probabilités\nAnalyse combinatoire : principe fondamental de l'analyse combinatoire, arrangements, permutations, combinaisons\nEspace probabilisable : expérience aléatoire, événements élémentaires et composés, réalisation d'un événement, événement incompatible, système complet d'événement, algèbre des événements, espace probabilisable, concept de probabilité\nEspace probabilisé : définitions, conséquence de la définition, probabilité conditionnelle, évènements indépendants, expériences indépendantes\nConstruction d'une probabilité\nProbabilités conditionnelles, indépendance et probabilités composées : probabilités conditionnelles, indépendance, indépendance mutuelle, probabilités composées, formule de Bayes\nMode d'évaluation\nExamen (60%), contrôle continu (40%)\nRéférences bibliographiques\nG. Calot, Cours de statistique descriptive, Dunod, Paris, 1973.\nP. Bailly, Exercices corrigés de statistique descriptive, OPU Alger, 1993.\nH. Hamdani, Statistique descriptive avec initiation aux méthodes d'analyse de l'information économique : exercices et corriges, OPU Alger, 2006.\nK. Redjdal, Probabilités, OPU Alger, 2004."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

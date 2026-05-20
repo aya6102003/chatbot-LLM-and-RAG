@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_INFORMATIQUE/S2-LM.html",
+      "title": "S2 Lm.Html",
+      "id": "94091e1c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:07",
+      "hash": "6ae11798e8407d38",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Logique mathématique\nSemestre :\n2  |\nUE :\nUEM21  |\nCrédits :\n2  |\nCoefficient :\n1\nObjectifs de l'enseignement\nFormalisation du raisonnement humain.\nConnaissances préalables recommandées\nConnaissances de base en mathématiques et en algèbre de Boole.\nContenu de la matière\nChapitre 1 : Introduction\nObjets de la logique\nSyntaxe et sémantique\nChapitre 2 : Logique des propositions\nSyntaxe\nLes propositions\nLes connecteurs logiques\nVariables et formules propositionnelles\nSubstitution dans une formule\nFormules logiques et arbres\nSémantique\nInterprétation\nTables de vérité\nTautologies et antilogies\nEquivalence sémantique\nFormes normales conjonctives et disjonctives\nSatisfaisabilité et validité\nRésolution\nRéfutation\nMise en forme clausale\nRègle de résolution propositionnelle\nLa méthode de résolution propositionnelle\nChapitre 3 : Logique des prédicats\nSyntaxe\nTermes\nPrédicats\nQuantificateurs\nFormules : Portée d'un identificateur, Variables libres, Variables liées\nSémantique\nStructure\nSatisfaction d'une formule\nMode d'évaluation\nExamen (60%), Contrôle continu (40%)\nRéférences bibliographiques\nS.C. Kleene. Logique mathématique. Collection U, Armand Colin, Paris 1971.\nJ.L. Krivine. Elements of Mathematical Logic. North-Holland Publishing Company Amsterdam, 1967.\nR. Cori. Logique mathématique. Tome 1 : Calcul propositionnel, Algèbre de Boole, calcul des prédicats. Dunod, 2003."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

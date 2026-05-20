@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L3/S6-FSP.html",
+      "title": "Fonctions Spéciales de la Physique",
+      "id": "97380aea",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:25",
+      "hash": "411c24a29359f499",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Fonctions Spéciales de la Physique\nSemestre :\n6  |\nUnité d'enseignement :\nFondamentale\nConnaissances préalables recommandées\nMathématiques de base (analyse, algèbre…)\nMathématiques classiques dispensées en licence de physique fondamentale.\nObjectifs de l'enseignement\nL'objectif principal du module est d'acquérir les outils et les méthodes mathématiques essentiels pour l'étude des phénomènes ondulatoires et corpusculaires, la théorie quantique, la physique subatomique, atomique et moléculaire, ainsi que la physique de la matière condensée.\nContenu de la matière\nChapitre 1 : Les fonctions Eulériennes Bêta et Gamma (6 heures)\nPropriétés, formule de Stirling, formule de duplication, formule des compléments, dérivée logarithmique de la fonction gamma.\nFonction gamma incomplète (Exemple : calcul de la densité d'états en physique statistique : surface d'une sphère dans l'espace à D dimensions).\nChapitre 2 : Les fonctions de Bessel (9 heures)\nRésolution de l'équation différentielle de Bessel.\nLes fonctions de Bessel de première espèce, de Neumann, de Hankel de première et deuxième espèce.\nRelations de récurrence, forme intégrale.\nLes fonctions de Bessel d'indice entier, demi entier, les fonctions de Bessel modifiées.\nDéveloppement en série des fonctions de Bessel.\nApplication des fonctions de Bessel (équation d'Helmhotz en coordonnées cylindriques, exemples de problèmes physiques présentant une symétrie cylindrique : onde électromagnétique, phénomènes de diffraction…)\nChapitre 3 : Fonction erreur et intégrales de Fresnel (1h30)\nDéfinition, représentation intégrale, développement en série, développement asymptotique.\nChapitre 4 : Les tenseurs Cartésiens (1h30)\nLes tenseurs Cartésiens d'ordre zéro, un, deux et de rang quelconque, changement de base.\nAlgèbre des tenseurs, covariant et contravariant et les formes linéaires. Tenseur en physique.\nTenseurs de contrainte et de déformation.\nChapitre 5 : Les polynômes orthogonaux (9 heures)\nPropriétés générales, formules de récurrence, identité de Christoffel Darboux, zéros des polynômes orthogonaux, fonction génératrice.\nLes polynômes de Legendre, de Laguerre, d'Hermite, de Tchebychev : définitions, orthogonalité, relations de récurrence.\nDéveloppement d'une fonction en série des polynômes orthogonaux.\nQuelques exemples physiques : solutions de l'équation radiale pour l'atome d'hydrogène, équation de Schrödinger pour l'oscillateur harmonique, pour le champ Coulombien, pour le potentiel de Poschl-Teller…\nChapitre 6 : Les fonctions hypergéométriques (9 heures)\nRésolution des équations de type hypergéométrique et hypergéométrique dégénérée.\nReprésentation intégrale, relations de récurrence.\nReprésentation de quelques fonctions spéciales à l'aide des fonctions hypergéométriques (illustrations à travers des problèmes de la physique : électrodynamique, théorie des vibrations, théorie de la chaleur…)\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\nY. Ayant, M. Borg, Fonctions spéciales à l'usage des étudiants en physique, Dunod\nA. Nikiforov, V. Ouvarov, Fonctions spéciales de la physique mathématique, Mir\nJ. Hladik, Le calcul tensoriel en physique, Dunod\nG. Arfken, Mathematical methods for physicists"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

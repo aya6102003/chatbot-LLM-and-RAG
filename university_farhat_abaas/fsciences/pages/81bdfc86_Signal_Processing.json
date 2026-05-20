@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S2-TS.html",
+      "title": "Signal Processing",
+      "id": "81bdfc86",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:01",
+      "hash": "9e7a4fc25e581e1b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nMéthodologie (UEM 2)  |\nCrédits :\n4  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nMise en évidence des applications pratiques des rayonnements et leurs relations avec les signaux électriques. Exploitations de ces derniers après leurs traitements.\nConnaissances préalables recommandées\nLes notions de physique nucléaire, électronique de base et les différents types d'interaction rayonnements matière.\nContenu de la matière\nChapitre 1 : Généralités sur les signaux et les systèmes\nClassification des signaux\nReprésentation des signaux et des systèmes\nChapitre 2 : Signaux déterministes continus et discrets\nSignaux d'énergie finie et infinie : représentation de Fourier\nSignal analytique – Transformée de Hilbert, représentation de Laplace\nEchantillonnage, Transformée de Fourier discrète\nReprésentation des signaux discrets\nChapitre 3 : Filtrage linéaire des signaux déterministes\nClassification des filtres linéaires continus\nCausalité et filtrage linéaire\nFiltres dynamiques et filtrage discret\nChapitre 4 : Signaux aléatoires à temps continu et à temps discrets\nAnalyse des signaux aléatoires\nDensité spectrale et fonction de corrélation\nEchantillonnage\nChapitre 5 : Détection – Estimation\nProblème de la détection et de l'estimation\nEstimation linéaire en moyenne quadratique\nDétection en présence de bruit – Filtrage adapté\nNotion sur le filtrage statistique\nChapitre 6 : Signaux délivrés par les détecteurs nucléaires\nLes préamplificateurs pour les détecteurs nucléaires\nLes amplificateurs linéaires d'impulsion\nLes photomultiplicateurs\nChapitre 7 : Méthodes d'analyses des spectres\nSpectres théoriques et spectres réels\nPrincipaux facteurs pouvant modifier l'allure des spectres\nAnalyse de spectres"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Licence_Physique_et_Imagerie_Medicale.html",
+      "title": "Guide pédagogique",
+      "id": "2411e223",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:16",
+      "hash": "93bc8c1c26585778",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Licence Professionnalisante – Physique et Imagerie Médicale (L3)\nÉtablissement : Université Ferhat Abbas – Sétif 1  |  Département : Physique  |  Année : 2025–2026\nSEMESTRE 5\nUnité\nd'Enseignement\nMatière\nCrédits\nCoefficient\nVolume horaire hebdomadaire\nVHS\n15 Semaines\nMode d'évaluation\nCours\nTD\nTP\nAutres\nContinu\nExamen\nUE Fondamentale\nCode : UEF 13\nCrédits : 18\nCoefficient : 09\nTraitement d'Image Médicale\n4\n2\n1h30\n1h30\n55h\n45h00\n33%\n67%\nSavoir plus\n×\nDétection des Rayonnements et Dosimétrie\n4\n2\n1h30\n1h30\n55h\n45h00\n33%\n67%\nSavoir plus\n×\nÉchographie Ultrasonore\n4\n2\n1h30\n1h30\n55h\n45h00\n33%\n67%\nSavoir plus\n×\nRadioprotection et Radiobiologie\n6\n3\n3h00\n1h30\n82h30\n67h30\n33%\n67%\nSavoir plus\n×\nUE Méthodologie\nCode : UEM 13\nCrédits : 9\nCoefficient : 05\nCapteurs et imagerie médicale\n4\n2\n1h30\n1h30\n55h\n45h00\n50%\n50%\nSavoir plus\n×\nProgrammation Orientée Objet 2\n2\n1\n1h30\n27h30\n22h30\n50%\n50%\nSavoir plus\n×\nAutomatique des Systèmes Biomédicaux\n3\n2\n1h30\n37h30\n22h30\n50%\n50%\nSavoir plus\n×\nUE Découverte\nCode : UED 13\nCrédits : 2\nCoefficient : 2\nAnatomie et imagerie médicale\n1\n1\n1h30\n1h30\n2h30\n45h00\n33%\n67%\nSavoir plus\n×\nLogiciels libres et open source\n1\n1\n1h30\n2h30\n22h30\n100%\nSavoir plus\n×\nUE Transversal\nCode : UET 13\nCrédits : 1\nCoefficient : 1\nLangue étrangère 5 : Anglais\n1\n1\n1h00\n2h30\n15h00\n/\n100%\nSavoir plus\n×\nTotal Semestre 5\n30\n17\n16h00\n3h00\n9h00\n375h\n375h\nSEMESTRE 6\nUnité\nd'Enseignement\nMatière\nCrédits\nCoefficient\nVolume horaire hebdomadaire\nVHS\n15 Semaines\nMode d'évaluation\nCours\nTD\nTP\nAutres\nContinu\nExamen\nUE Fondamentale\nCode : UEF 13\nCrédits : 18\nCoefficient : 09\nMédecine Nucléaire et Radiothérapie\n6\n3\n3h00\n1h30\n82h30\n67h30\n33%\n67%\nSavoir plus\n×\nRadiologie et Tomodensitométrie\n6\n3\n3h00\n1h30\n82h30\n67h30\n33%\n67%\nSavoir plus\n×\nStage dans un milieu hospitalier\n6\n3\n82h30\n60h\n/\n100%\nSavoir plus\n×\nUE Méthodologie\nCode : UEM 13\nCrédits : 9\nCoefficient : 05\nInstrumentation et Exploration Fonctionnelle\n3\n2\n1h30\n27h30\n22h30\n50%\n50%\nSavoir plus\n×\nIntroduction à l'intelligence artificielle\n3\n1\n1h30\n1h30\n55h00\n45h00\n50%\n50%\nSavoir plus\n×\nImagerie par Résonance Magnétique\n3\n2\n1h30\n1h30\n37h30\n45h00\n33%\n67%\nSavoir plus\n×\nUE Découverte\nCode : UED 13\nCrédits : 2\nCoefficient : 2\nManagement et qualité en milieu hospitalier\n1\n1\n1h30\n2h30\n22h30\n100%\nSavoir plus\n×\nÉthique et Déontologie du Travail\n1\n1\n1h30\n2h30\n22h30\n/\n100%\nSavoir plus\n×\nUE Transversal\nCode : UET 13\nCrédits : 1\nCoefficient : 1\nEntrepreneuriat et Startup\n1\n1\n1h30\n2h30\n22h30\n100%\nSavoir plus\n×\nTotal Semestre 6\n30\n17\n15h00\n3h00\n3h00\n375h\n375h00"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/2411e223_table_1_SEMESTRE_5.json",
+        "rows": 13
+      },
+      {
+        "file": "tables/2411e223_table_2_SEMESTRE_6.json",
+        "rows": 12
+      }
+    ]
+  }
+}

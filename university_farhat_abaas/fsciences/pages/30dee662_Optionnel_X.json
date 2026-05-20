@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S1-OPTX.html",
+      "title": "Optionnel X",
+      "id": "30dee662",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:30",
+      "hash": "4ca5560e0c16886e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Optionnel X\nSemestre :\n1  |\nUnité d'enseignement :\nMéthodologique\nVolume Horaire Hebdomadaire :\nCours : 1h30, TD : 1h30\nCrédits :\n4  |\nCoefficients :\n2\nÀ choisir parmi :\nMéthodes Numériques\n,\nApproximation Variationnelle\n,\nIntroduction au système dynamique\n,\nThéorie spectrale des opérateurs\n.\nOption A : Méthodes Numériques\nObjectifs :\nIntroduire les concepts et algorithmes de base de l'analyse numérique pour l'approximation de fonctions, le calcul d'intégrales et la résolution d'équations non linéaires.\nContenu :\nRésolution d'équations non linéaires : Méthodes de la dichotomie, de Newton-Raphson.\nInterpolation polynomiale : Polynômes de Lagrange, phénomène de Runge, points de Tchebychev.\nIntégration numérique : Quadrature de Newton-Cotes (trapèzes, Simpson), quadrature de Gauss.\nRéférences :\nA. Quarteroni, R. Sacco, F. Saleri,\nNumerical Mathematics\n. Springer, 2007.\nR. L. Burden, J. D. Faires, A. M. Burden,\nNumerical Analysis\n. Cengage Learning.\nOption B : Approximation Variationnelle\nObjectifs :\nIntroduire les fondements de la formulation faible des EDP et de leur approximation par la méthode de Galerkin, en préparation à la méthode des éléments finis.\nContenu :\nMotivation : Limites des solutions classiques, notion de solution faible.\nFormulation variationnelle : Espaces de Sobolev H¹, H¹₀. Formulation faible d'un problème elliptique.\nThéorème de Lax-Milgram : Existence et unicité de la solution faible.\nPrincipe de l'approximation de Galerkin : Approximation dans un sous-espace de dimension finie.\nRéférences :\nP. G. Ciarlet,\nThe Finite Element Method for Elliptic Problems\n. SIAM, 2002.\nH. Brezis,\nFunctional Analysis, Sobolev Spaces and Partial Differential Equations\n. Springer, 2011.\nOption C : Introduction au système dynamique\nObjectifs :\nÉtudier le comportement qualitatif à long terme des solutions d'équations différentielles, en se concentrant sur les notions d'orbites, de stabilité et de bifurcations.\nContenu :\nFlots et orbites : Flot d'un champ de vecteurs, orbites, points fixes, orbites périodiques.\nStabilité : Stabilité des points fixes en 1D et 2D. Portraits de phase.\nBifurcations : Étude des changements qualitatifs de la dynamique en fonction d'un paramètre. Bifurcations selle-nœud, transcritique, fourche.\nRéférences :\nS. H. Strogatz,\nNonlinear Dynamics and Chaos\n. Westview Press, 2015.\nM. W. Hirsch, S. Smale, R. L. Devaney,\nDifferential Equations, Dynamical Systems, and an Introduction to Chaos\n. Academic Press, 2013.\nOption D : Théorie spectrale des opérateurs\nObjectifs :\nIntroduire la théorie spectrale pour les opérateurs bornés, en particulier les opérateurs compacts, comme une généralisation de l'algèbre linéaire en dimension infinie.\nContenu :\nSpectre d'un opérateur borné : Ensemble résolvant et spectre. Décomposition du spectre.\nOpérateurs compacts : Définition, propriétés et exemples (opérateurs intégraux).\nThéorie de Riesz-Schauder et Alternative de Fredholm.\nThéorème spectral pour les opérateurs compacts auto-adjoints.\nRéférences :\nJ. Weidmann,\nLinear Operators in Hilbert Spaces\n. Springer, 1980.\nM. Reed, B. Simon,\nMethods of Modern Mathematical Physics, Vol. 1: Functional Analysis\n. Academic Press, 1980.\nMode d'évaluation\nExamen final (60%), Contrôle Continu (40%)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

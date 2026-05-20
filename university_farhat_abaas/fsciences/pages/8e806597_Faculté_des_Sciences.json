@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/6667",
+      "title": "Faculté des Sciences",
+      "id": "8e806597",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:29:03",
+      "hash": "7463e13b2ac0f6ae",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nCOMPOSITION DES JURYS"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "composition des jurys fr",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/4901/composition_des_jurys_fr.pdf",
+        "local_file": "pdfs/8e806597_composition_des_jurys_fr.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

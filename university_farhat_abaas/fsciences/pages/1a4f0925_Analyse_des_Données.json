@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L3/S5-AD.html",
+      "title": "Analyse des Données",
+      "id": "1a4f0925",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:23",
+      "hash": "ea88199e7e842e21",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Analyse des Données\nSemestre :\n5  |\nUnité d'enseignement :\nMéthodologie\nPrérequis\nConnaissances de base en probabilités et statistiques\nNotions d'algèbre linéaire\nExpérience en méthodes numériques et programmation\nObjectifs de l'enseignement\nL'objectif de cette unité est d'initier les étudiants aux techniques modernes d'analyse statistique des données. Elle combine une approche théorique approfondie à des applications pratiques via des travaux pratiques en Python. À l'issue de l'unité, les étudiants seront capables de :\nPrésenter et analyser des données expérimentales.\nModéliser des phénomènes à l'aide de distributions de probabilité.\nEstimer des paramètres statistiques à partir d'échantillons.\nUtiliser des méthodes d'estimation avancées et réaliser des tests d'hypothèses.\nProgramme détaillé et répartition sur 15 semaines\nChapitre 1 : Expériences, données et statistiques (Semaines 1 à 3)\nIntroduction aux méthodes expérimentales : présentation des protocoles de mesure en physique et des différents types d'expériences ; collecte des données expérimentales : sources, formats et enjeux.\nMise en forme et structuration des données : organisation sous forme de tableaux, graphiques et diagrammes ; statistiques descriptives : calcul de la moyenne, médiane, écart-type et variance.\nTP Python/R : collecte et préparation des données, visualisation (histogrammes, scatter plots), calcul des indicateurs statistiques.\nChapitre 2 : Distributions de probabilité (Semaines 3 à 5)\nIntroduction aux variables aléatoires.\nÉtude des principales distributions : Normale, Exponentielle, Cauchy, Bi-normale, Poisson, Log-normale.\nTP Python/R : implémentation et visualisation des distributions, utilisation des tables standard.\nChapitre 3 : Distributions associées à la distribution normale (Semaines 6 à 8)\nDistribution du Chi-carré\nDistribution de Student\nDistribution F\nTP Python/R : implémentation, analyse et utilisation des tables de ces distributions.\nChapitre 4 : Échantillonnage et estimation par intervalle de confiance (Semaines 9 à 10)\nConcepts d'échantillonnage aléatoire et d'estimateurs.\nEstimation de la moyenne, de la variance et de la covariance.\nLoi des grands nombres et théorème de la limite centrale.\nMéthodes de propagation des erreurs.\nTP Python/R : simulation d'échantillonnage et calcul d'estimateurs, vérification du théorème de la limite centrale.\nChapitre 5 : Estimation ponctuelle des paramètres (Semaines 11 à 12)\nMéthodes d'estimation des paramètres : vraisemblance maximale et variance minimale.\nIntroduction à la méthode des moindres carrés.\nApproche par Chi-carré minimal.\nTP Python/R : mise en œuvre des méthodes d'estimation, comparaison et évaluation de leur précision.\nChapitre 6 : Tests d'hypothèses (Semaines 13 à 14)\nFormulation des hypothèses statistiques.\nTest du meilleur ajustement (goodness-of-fit test) et test d'indépendance.\nDistinction entre tests paramétriques et non paramétriques.\nTP Python/R : implémentation et application des tests d'hypothèses sur des données réelles.\nSynthèse et révisions (Semaine 15)\nRévision générale de l'ensemble des chapitres.\nDiscussion sur l'intégration des concepts et préparation à l'examen final.\nSession interactive en Python pour consolider les acquis.\nMode d'évaluation\nContrôle continu : 50%\nExamen : 50%\nRéférences bibliographiques essentielles\n1. Sheldon M. Ross, Introduction to Probability and Statistics for Engineers and Scientists, Academic Press.\n2. Press, W.H., Teukolsky, S.A., Vetterling, W.T. & Flannery, B.P., Numerical Recipes, Cambridge University Press.\n3. Casella, G. & Berger, R.L., Statistical Inference, Duxbury Press."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

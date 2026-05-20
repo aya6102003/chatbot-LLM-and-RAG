@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/387",
+      "title": "Faculté des Sciences",
+      "id": "f6bf6a1b",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:30:46",
+      "hash": "55363fd3ee886aaa",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "BENSERIDI Hamid\nBENSERIDI Hamid\nGrade:Professeur\nGrade:Professeur\nEmail:hamid.benseridi@univ-setif.dz\nEmail:hamid.benseridi@univ-setif.dz\nDépartement:Mathématiques\nBureau:\nBureau:\n\nMr. Hamid  Benseridi\nis currently a Professor in the Department\nof Mathematics, Faculty of Science, University of Sétif 1 since December 12,\n1998.\nHe obtained  his doctorate in Applied\nMathematics  in July 3, 2005, from\nthe Department of Mathematics, University of Sétif 1. In June 2008, he obtained\nthe title of Academic Habilitation from the same institution, and got promoted\nto the rank of MCA the same date.\nArea of\nresearch interest\n: Functional\nAnalysis (Partial Differential Equations),\nApplied\nMathematics (modeling in continuous porous media) and Asymptotic analysis.\nAnalyse Complexe Elémentaire\nOuvrage\nAnalyse complexe - Série 01 (2019-2020)\nPolycopie de TD\nAnalyse complexe - Série 02 (2019-2020)\nPolycopie de TD\nJournaux (12)\nAsymptotic Behaviour of a Nonlinear Boundary Value Problem with Friction\nH. Benseridi, M. Dilmi, and A. Saadallah\nProc. Natl. Acad. Sci., India, Sect. A Phys. Sci., 88 (2017), pp 55-63\nAsymptotic behavior of solutions to a boundary value problem with mixed boundary conditions and friction law\nD. Benterki, H. Benseridi and M. Dilmi\nBoundary Value Problems , 55 (2017), pp 1-17\nAsymptotic study of a frictionless contact problem between two elastic bodies\nY. Letoufa, H. Benseridi and M. Dilmi\nJ. Math. Computer Sci, 16 (2016), pp 336-350\nEstimates for the asymptotic convergence of a non-isothermal linear elasticity with friction\nA. Saadallah H. Benseridi M. Dilmi S. Drabla\nGeorgian Math. J. , 23 (2016), pp 435-446\nAsymptotic Analysis of a Bingham Fluid in a Thin Domain with Fourier and Tresca Boundary Conditions,\nM. Dilmi, H. Benseridi and A. Saadallah\nAdv. Appl. Math. Mech, 6 (2014), pp 797-810\nAsymptotic Study of a Boundary Value Problem Governed by the Elasticity Operator with Nonlinear Term\nD. Benterki, H. Benseridi and M. Dilmi\nAdv. Appl. Math. Mech., 6 (2014), pp 191-202\nSome inequalities and asymptotic behavior of a dynamic problem of linear elasticity\nH. Benseridi & M. Dilmi\nGeorgian Math. J. , 20 (2013), pp 25-41\nVariational analysis of an electro viscoelastic contact problem with friction\nZ. Lerguet, Z. Zellagui, H. Benseridi and S. Drabla\nJournal of the Association of Arab Universities for Basic and Applied Sciences, 14 (2013), pp 93-100\nSingularities of the solutions for the elasticity system in a nonhomogeneous three-dimensional domain,\nH. Benseridi, M. Dilmi, F. Guechi, B. Merouani\nJournal of the Association of Arab Universities for Basic and Applied Sciences, 12 (2012), pp 79-84\nNon linear and obique boundary value problems for the Stokes equations\nH. Benseridi & M. Dilmi\nE. J. Qualitative Theory of Diff. Equ, 82 (2011), pp 1-8\nZero gravity of open channel flows\nF. Guechi, S. Boutechebak and H. Benseridi\nInt. J. of open prob. Comp. Sci. Math., 4 (2011), pp 151-157\nOn the singular behavior of solutions of a transmission problem in a dihedral\nH. Benseridi & M. Dilmi\nE. J. Qualitative Theory of Diff. Equ,, 13 (2010), pp 1-12"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "282",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/282",
+        "type": "internal"
+      },
+      {
+        "text": "1506",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1506",
+        "type": "internal"
+      },
+      {
+        "text": "1586",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1586",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/f6bf6a1b_table_1_untitled.json",
+        "rows": 3
+      }
+    ]
+  }
+}

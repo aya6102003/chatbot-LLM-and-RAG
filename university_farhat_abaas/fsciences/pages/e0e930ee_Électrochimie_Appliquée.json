@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S3-EAPP.html",
+      "title": "Électrochimie Appliquée",
+      "id": "e0e930ee",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:09",
+      "hash": "a129c20c9402c754",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Électrochimie Appliquée\nObjectifs de l'enseignement\nComprendre les fondements physico-chimiques et les applications analytiques de l'électrochimie.\nMaîtriser les techniques électrochimiques pour caractériser des systèmes redox et découvrir les grandes applications industrielles de l'électrochimie.\nConnaissances préalables recommandées\nConnaissances préalables en chimie physique et électrochimie.\nContenu de la matière\nCorrosion et protection\nMécanismes électrochimiques de la corrosion.\nTechniques de caractérisation de la corrosion (courbes de polarisation, EIS).\nProtection anodique, cathodique, revêtements passivants\nÉlectrodéposition et modification de surface\nCinétique de l'électrodépôt, surpotentiel, croissance des couches. Paramètres : pH, température, courant, potentiel\nTechniques de suivi électrochimique : Potentiométrie (courant nul et imposé). Ampérométrie. Voltampérométrie linéaire et cyclique.\nApplications industrielles : Galvanisation, électrozingage, galvanoplastie (Cu, Ni, Ag, Au)\nHydrométallurgie : Lixiviation, cémentation, électroobtention, électroraffinage. Codéposition (Ni-Co, Cu-Zn…)\nTraitements de surface électrochimiques\nÉlectrochimie des semiconducteurs et des réactions photoélectrochimiques\nNotions sur l'électrochimie des semi-conducteurs\nBases de l'électrochimie des semi-conducteurs\nLa relation de Mott-Schottky\nQuelques applications\nRéactions photoélectrochimiques : Introduction ; Processus électrochimiques et photoélectrochimiques aux électrodes semiconductrices ; Exploitation des processus photoélectrochimiques ; Photoélectrolyse et électrolyse photoassistée\nÉlectrochimie des solides\nTransport ionique dans les cristaux ioniques\nMobilité électrochimique\nConductivité électrique et nombre de transport\nTransport ionique dans les cristaux – Mobilité électrique – Conductivité ionique\nÉlectrochimie, Micro et Nanostructures\nL'électrochimie comme outil d'élaboration de nanostructures : Électrodéposition de nanostructures métalliques ; Couches monomoléculaires ; Micro- et nano-usinage ; Couches d'oxyde poreuses ; Semi-conducteurs poreux\nL'électrochimie comme outil d'étude de nanostructures : Microscopies à l'interface électrochimique ; Nanoparticules métalliques ; blocage de Coulomb ; Nanoparticules semi-conductrices ; effets quantiques\nRéférences bibliographiques\nAllen J. Bard, Larry R. Faulkner, « Électrochimie : principes, méthodes et applications », Ed. Masson 1983.\nG. Barral, B. Le Gorrec, C. Montella, « Cours et exercices : Notions élémentaires sur les cellules électrochimiques », Grenoble (2003).\nJean Besson, « L'électrochimie », Ed. PUF, Paris, 1979.\nJean Besson, J. Guitton, « Manipulations d'électrochimie – Introduction à la théorie et à la pratique de la cinétique électrochimique », Ed. Masson – Paris, 1972.\nJean Besson, « Précis de thermodynamique et de cinétique électrochimiques », Ed. Ellipses-Marketing, Paris, 1984.\nMichel Chemla, « Chimie Physique – Tome 2 : Électrochimie, cinétique chimique, états de la matière », Éd. Dunod\nDidier Devilliers, « De la chimie des solutions à l'électrochimie – Thermodynamique et cinétique électrochimiques », Ed. Ellipses 2020.\nDidier Devilliers, E. Mahé, « Cours : Cellules électrochimiques : aspects thermodynamiques et cinétiques – Applications aux générateurs et aux électrolyseurs industriels », (2003)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

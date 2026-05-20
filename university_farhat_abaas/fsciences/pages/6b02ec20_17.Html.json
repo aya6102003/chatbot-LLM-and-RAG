@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/IQ/17.html",
+      "title": "17.Html",
+      "id": "6b02ec20",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:33",
+      "hash": "e11a18f76458d728",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI. Quantum Tools\n-      Fundamental  concepts  of  quantum  information:  pure  and  mixed  quantum  states,  the  partial  trace,\nclassical-quantum states, generalized measurements.\n-      Encrypting quantum bits with the quantum one-time pad.\nII. Mathematical Tools for Quantum Cryptography\n-     Information Theory: Shannon Entropy,\n-     Quantum  Information:  Polarization  of  Light, The  Photon  (Nature,  Properties  and  Polarization  of  a\nPhoton),  Qubit,  Quantum  Superposition,  Quantum  Gates  (the  Pauli  Gates),  the  Measurement\nProblem  in  Quantum  Physics,  Application  of  the  Heisenberg  Uncertainty  Principle  to  Quantum\nCryptography, Quantum Decoherence, No-Cloning Theorem.\nIII. Distributing Keys\n-      Quantum Key Distribution: Definitions and Concepts\n-      Key Distribution over a Noisy Channel.\n-      Key Material, Key Distribution and the\nOne-Time Pad\n.\nIV. Quantum Key Distribution Protocols\n-      BB84  Protocol  :  The  Idea,  Principle  of  Operation  of  BB84,  The  BB84  Protocol,  Using  Polarized\nLight,  Practical  Quantum  Cryptography:  Error  Correction  and  Privacy  Amplification,  Security Proofs, Authentication.\n-      Warmup: Security against a Classical Eavesdropper.\n-      E91 Protocol: Purifying Protocols Using Entanglement.\nV. Technology\n-      Single Photon Sources, Single Photon Detectors, Quantum Channel, Random Number Generator,\n-      Applications: Commercial Systems with Dual Key Agreement, Quantum Key Distribution Networks"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

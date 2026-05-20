@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S3-PRN.html",
+      "title": "Reactor Physics and Neutronics",
+      "id": "3ab2ea2a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:57",
+      "hash": "38e607d46f063e48",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n3  |\nUE :\nFondamentale (UEF 3)  |\nCrédits :\n6  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nApprofondir les connaissances en matière de : Physique des réacteurs nucléaires, étude et résolution de l'équation de transport des neutrons, distribution du flux de neutrons, Spectre des neutrons, ralentissement des neutrons, etc., qui sont liées à : centrales nucléaires et réacteurs nucléaires, Applications de la neutronique, la neutronthérapie, fusion thermonucléaire, etc.\nConnaissances préalables recommandées\nPhysique de base (S1) ; Physique Nucléaire (Licence), Analyse mathématique (Licence).\nContenu de la matière\nChapitre 1 : Généralités sur l'énergie nucléaire\nHistorique\nFission Nucléaire\nRéaction en chaîne\nEnergie libérée\nChapitre 2 : Interaction des neutrons avec la matière\nSections efficaces macroscopiques\nParcours total et d'absorption d'un neutron dans un milieu homogène\nTypes d'interactions des neutrons avec la matière\nFission Nucléaire (spontanée et induite)\nRéactions résonnantes : loi de Breit et Wigner\nCinématique d'une collision élastique neutron-noyau\nSections efficaces de diffusion élastique et inélastique\nChapitre 3 : Calcul Neutronique\nSpectres de neutrons\nDistribution neutronique dans un milieu homogène\nRéacteur à neutrons rapides / thermiques\nFacteur de multiplication dans un milieu infini / effectif\nRéactivité en régime stationnaire\nChapitre 4 : Cinétique ponctuelle\nCinétique d'un réacteur sans/avec neutrons retardés\nParamètre des neutrons retardés\nEquation de Nordheim\nCas de faible et de forte réactivité\nChapitre 5 : Transport neutronique en milieu homogène\nDensité, flux et courant de neutrons\nEquation de distribution de Boltzmann\nLoi de Fick, Equation de diffusion\nRésolution pour une source cylindrique, plane et ponctuelle\nDistribution de flux dans le réflecteur\nCalcul de l'albédo neutronique\nChapitre 6 : Ralentissement des neutrons\nDiffusion élastique et inélastique\nDéfinition de Léthargie\nNombre de chocs nécessaires pour le ralentissement thermique\nDéfinition de l'âge de Fermi\nRégion des résonances et effet Doppler\nChapitre 7 : Réactions de Fusion Productrices de neutrons\nFusion thermonucléaire\nConfinement magnétique (Tokamak)\nGénérateurs de neutrons\nSections efficaces des réactions productrices de neutrons\nChapitre 8 : Activation neutronique\nEquations fondamentales de l'activation neutronique\nModes de décroissances radioactives\nRéactions passant par états isomériques\nMesure du flux de neutrons et des sections efficaces\nRéférences bibliographiques\nIntroduction to the theory of thermal neutron scattering, G.L. Squires, Cambridge University Press 1978\nTraité de neutronique, Jean BUSSAC, Edition Herman Paris 1978\nTheory of neutron scattering from condensed matter, S. Lovesey, Oxford University Press 1984\nNuclear fission, Robert VANDENBOSCH, Academic Press New York 1973\nVandenbosch and J.R. Huizenga, Nuclear Fission, Academic Press, New York, 1973\nL. Wilets, Theories of Nuclear Fission, Clarendon Press, Oxford, 1964\nC. Wagemans, The Nuclear Fission Process, CRC Press, 1991\nP. Reuss, Précis de neutronique, Edition EDF, Paris, 2003"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

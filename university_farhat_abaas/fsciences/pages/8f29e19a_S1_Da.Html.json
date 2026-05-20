@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S1-DA.html",
+      "title": "S1 Da.Html",
+      "id": "8f29e19a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:37",
+      "hash": "bd442107bc61e76a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Data Analysis\nSemester:\n1  |\nType:\nUEM1  |\nVHS:\n42h  |\nWeekly hours:\nC: 1h30 / TP: 1h30  |\nPersonal work VHS:\n21h  |\nCoefficient:\n2  |\nCredits:\n4\nTeaching Objectives\nUnderstand the fundamental concepts of data analysis\nDevelop skills in data exploration, cleaning and transformation\nUnderstand and apply different statistical and predictive analysis techniques\nUse data analysis and visualisation tools\nInterpret analysis results and communicate them effectively\nRecommended prior knowledge:\nAlgebra, descriptive statistics, and probability.\nCourse Content (Lectures: 21h)\nIntroduction to Data Analysis\nReview: linear algebra, probability, and descriptive statistics\nDefinition and challenges of data analysis in the context of information systems engineering\nData types (structured, semi-structured, unstructured)\nStages of the data analysis life cycle\nData Exploration and Preparation\nData exploration techniques (visualisation, descriptive statistics)\nData cleaning (handling missing values, error detection and correction)\nData transformation (normalisation, aggregation, new variable creation)\nDescriptive and Inferential Statistical Analysis\nDescriptive statistics (mean, variance, correlation, etc.)\nHypothesis testing (t-tests, ANOVA, chi-square)\nLinear and logistic regression\nPredictive Analysis Techniques\nDecision trees and random forests\nSupport vector machines\nNeural networks\nTime series models\nClassification Methods\nSupervised and unsupervised classification\nPartitioning methods\nHierarchical ascending classification\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): TP tests, personal work\nPractical work:\nUse of Python; exploration of common libraries (pandas, TensorFlow, etc.) and visualisation tools (matplotlib, seaborn, tableau, etc.).\nReferences\nPetrelli, M. (2021).\nIntroduction to Python in Earth Science Data Analysis\n. Springer Nature.\nProvost, F., & Fawcett, T. (2013).\nData Science for Business\n. O'Reilly Media.\nDasGupta, A. (2011).\nProbability for statistics and machine learning\n. Springer.\nMontgomery, D. C., & Runger, G. C. (2010).\nApplied Statistics and Probability for Engineers\n. John Wiley & Sons.\nVanderPlas, J. (2016).\nPython Data Science Handbook\n. O'Reilly Media.\nBrigitte Escofier, Jérôme Pagès (2016).\nAnalyses factorielles simples et multiples\n. 5e édition. DUNOD."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

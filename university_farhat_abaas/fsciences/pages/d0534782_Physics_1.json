@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/L1_SM_Common_Core/S1-PHYS1.html",
+      "title": "Physics 1",
+      "id": "d0534782",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:38",
+      "hash": "18acf8cca4130f48",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Physics 1\nSemester:\n1  |\nTeaching Unit:\nFundamental Unit (FU 1)\nCourse Objectives\nTo provide students with fundamental concepts of classical mechanics related to the material point, through kinematics, dynamics, and work-energy principles.\nPrerequisites\nA solid understanding of physics at the secondary school level.\nSyllabus\nMathematical Review (2 weeks)\nDimensional analysis\nError calculation\nVectors\nKinematics of a Point (5 weeks)\nRectilinear motion\nMotion in space\nSpecial types of motion\nPolar, cylindrical, and spherical coordinates\nRelative motion\nDynamics of a Point (5 weeks)\nInertia principle and Galilean frames\nNewton's laws of motion\nForce laws\nAngular momentum, torque\nWork and Energy (3 weeks)\nWork of a force\nKinetic and potential energy (gravitational, elastic)\nNon-conservative forces\nAssessment Method\nContinuous assessment: 33%\nFinal exam: 67%\nReferences\nT. HANNI, Mécanique générale cours et exercices, OPU (1996).\nJ. TAYLOR, Mécanique classique, Ellipses, Paris, (2007).\nJ. TAYLOR, Incertitudes et analyse des erreurs dans les mesures physiques, Dunod, Paris, (2000).\nH. LUMBROSO, Mécanique du point, 1ère an. MPSI - PCSI - PTSI - Problèmes résolus, Dunod, Paris (2002).\nD. TEYSSIER, Mécanique du point : exercices corrigés, Ed. Ellipses Paris, (2005).\nJ. FAGET, J. MAZZASCHI, Travaux Dirigés de Physique Généralités, Ed. Vuibert Paris, (1970).\nJ. FAGET, J. MAZZASCHI, Travaux Dirigés de Physique Mécanique, Ed. Vuibert Paris, (1970)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

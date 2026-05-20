@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-IOTS.html",
+      "title": "Cs Iots.Html",
+      "id": "09c026e3",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:57",
+      "hash": "caf49a8ea0eaccfd",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nInternet of Things (IoT) security is concerned with protecting IoT systems' devices and communications by installing protective measures and avoiding practices that could lead to intrusions and assaults. However, security was never a top priority during the IoT's development, and as a result, vendors have produced IoT solutions that lack comprehensive security features.\nContenu de la matière\nChapter 1: IoT background and application overview. Chapter 2: IoT architecture layer and protocols. Chapter 3: Security and privacy issues in IoT. Chapter 4: Security protocols in perception layer. Chapter 5: Security protocols in network layer. Chapter 6: Security protocols in application layer.\nTP:\nIoT security simulation with COOJA under the operating system Contiki. Mode d’évaluation : Contrôle continu, examen\nRéférences\nPractical Internet of Things Security, Brian Russell and Drew Van Dure.\nIOT Security and Privacy Paradigm, Pal Souvik, Díaz Vicente García, Le Dac-Nhuong.\nIoT Security: Advances in Authentication, Madhusanka Liyanage.\nThe IoT Architect’s Guide to Attainable Security & Privacy, David M. Wheeler."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S7-GP.html",
+      "title": "Project Management (GP)",
+      "id": "b44edd6b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:29",
+      "hash": "f5926bccfaa652a5",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Project Management (GP)\nSemestre : S7\nUnité d’enseignement : UEF1\nMatière : Gestion de projets (GP)\nCrédits : 4\nCoefficient : 3\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement (Décrire ce que l’étudiant est censé avoir acquis comme compétences après le\nsuccès à cette matière – maximum 3 lignes).\nDécrire ce que l’étudiant est censé acquérir pour maitriser le bon déroulement d’un projet et assurer\nles enjeux aussi bien temporels et financière\n➢ Permettre à l’étudiant de comprendre l’enjeu majeur de la gestion de projet.\n➢ Initier l’étudiant au processus d’organisation et de planification.\n➢ Entrainer l’étudiant à l’application de processus, méthodes et outils de planification.\n➢ Initier l’étudiant aux environnements de gestion projet.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\nContenu de la matière :\n1. Introduction\n▪ Définition de concepts de base.\n▪ Notions de projet et gestion de projet.\n2. Les modèles de gestion de projet\n▪ Les modèles de basés sur les livrables.\n▪ Les modèles basés sur le risque.\n3. Les éléments de Gestion de projet\n▪ Les enjeux de gestion de projet.\n▪ Les activités de gestion de projet.\n▪ La structure de gestion de projet.\n▪ Les risques et la gestion de projet.\n4. L’organisation des équipes de programmation\n▪ L’organisation de base.\n▪ Les outils de support.\n5. Les éléments de la planification\n▪ La productivité du programmeur.\n▪ Echéance et jalonnement d’un projet.\n6. Le processus de planification\n▪ Découpage et coordination des activités.\n▪ Les outils de planification (ordonnancement des activités et affectation des ressources).\n▪ Les environnements de planification (ex : MSPROJECT).\n7. Estimation des charges, délais et coût\n▪ Les options alternatives : méthodes.\n▪ La précision de la taille des programmes.\n▪ Modèle d’estimation algorithmique.\n8. Approche Agile\n▪ Principes et méthodes Agiles.\n▪ Présentation : Méthode Scrum. Méthode XP.\n9. Techniques d’analyse d’options et de décisions.\n▪ Graphe polaire.\n▪ Matrice des bénéfices\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences bibliographiques (Livres et polycopiés, sites internet, etc) :\nCiter au moins 3 à 4 références classiques et importantes.\n• Principles of software engineering management by Tom GILB Edition Lavoisier.\n• Software Engineering: A Practitioner's Approach by Roger S Pressman.\n• Software Project Management in Practice by Pankaj Jalote.\n• Génie logiciel: principes, méthodes et techniques by Alfred Strohmeier et Didier Buchs."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

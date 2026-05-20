@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/IQ/1.html",
+      "title": "1.Html",
+      "id": "219a961f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:33",
+      "hash": "e4371050fad4070b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nIII. Parallel Models : Shared memory, PRAM, &\nIV. Parallel Basic Algorithms: Reduce, Parallel Prefix Scan, &\nV.  Parallel Sorting Algorithms: Odd-Even Sort, Bitonic Sort, Parallel Mergesort\nVI. Parallel Graph Algorithms: Lattice Linear Predicates, Shortest Path Algorithms\nVII.    Parallel Tree Algorithms: Euler Tour Technique, Least Common Ancestor problem\nVIII.   Parallel Matrix Algorithms: Matrix multiplication, Matrix inversion"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

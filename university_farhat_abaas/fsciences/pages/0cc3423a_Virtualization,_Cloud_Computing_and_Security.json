@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S3-VCS.html",
+      "title": "Virtualization, Cloud Computing and Security",
+      "id": "0cc3423a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:55",
+      "hash": "fc1b2fdafed23f68",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nVirtualization, Cloud Computing and Security  |\nSemester:\n3  |\nType:\nUEF31\nVHS:\n63h  |\nWeekly hours:\n4h30  |\nLectures:\n1h30  |\nTD:\n-  |\nTP:\n3h\nPersonal work VHS:\n42h  |\nCoefficient:\n3  |\nCredits:\n5\nTeaching Objectives\nFamiliarize students with Cloud Computing, presenting the foundations of virtualization and tools for creating and deploying Cloud infrastructures\nIntroduce security applications in a cloud environment\nRecommended Prerequisites\nNotions of virtualization, distributed computing, networking, web technologies\nCourse Content (Lectures: 21h)\nVirtualization\nDefinitions of virtualization\nVirtual machines (workstation virtualization, server virtualization)\nApplication virtualization\nData and storage virtualization\nNetwork virtualization\nDefinitions and History\nDefinitions: The Cloud and Cloud Computing from economic and virtual space perspectives\nHistory: 1950s, early 2000s...\nCloud Computing Models and Services\nCloud models\nCloud services: IaaS, PaaS, SaaS\nCloud services architecture\nOther services\nCloud Computing Architecture and Topology\nArchitecture: N-Tiers, SOA, virtual machines, file virtualization\nDeployment: pilot, deployment and integration, load management phases\nTopology: private, public, community, hybrid, distributed, Inter-Cloud, Multi-Cloud\nCloud Examples\nDROPBOX, Microsoft Cloud Platform, commercial clouds and main market players\nOpenStack, OpenNebula presentation\nStorage cloud examples\nCloud Advantages and Limitations\nAdvantages: cost reduction, flexibility and business focus\nLimitations: data loss control, data security issues\nCloud Security and Confidentiality\nGeneral aspects, specific security problems, contractual aspects\nSecurity best practices, threat types, attacker types, security risks, risk mitigation tips\nAssessment\nExam: 60%\nContinuous assessment: 40%\nBibliographic References\nRajkumar Buyya, James Broberg, Andrzej M. Goscinski, \"Cloud Computing: Principles and Paradigms\", John Wiley & Sons, 2010.\nLee Gillam, \"Cloud computing\", Springer, 2010.\nZaigham Mahmood, Richard Hill, \"Cloud Computing for Enterprise Architectures\", Springer, 2011.\nCigref, \"Fondamentaux du Cloud Computing\", Mars 2013.\nRomain Hennion, Hubert Tournier, Eric Bourgeois, Cloud Computing: Décider - Concevoir - Piloter - Améliorer, Eyrolles, 2012.\nGuillaume Plouin, Cloud Computing, Sécurité, stratégie d'entreprise et panorama du marché, Dunod, 2013.\nGuillaume Plouin, Tout sur le Cloud Personnel, Dunod, 2013.\nAdora Nwodo, Confident Cloud, Kogan Page, 2024.\nNaresh Kumar Sehgal et al., Cloud Computing with Security and Scalability, Edition 3, Springer, 2023.\nMatthew Portnoy, Virtualization Essentials, Sybex, 2023.\nSouvik Pal et al., Cloud Computing Solutions: Architecture, Data Storage, Implementation, and Security, Wiley, 2022.\nJudith S. Hurwitz, Daniel Kirsch, Cloud Computing For Dummies, 2nd Edition, Wiley, 2020."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

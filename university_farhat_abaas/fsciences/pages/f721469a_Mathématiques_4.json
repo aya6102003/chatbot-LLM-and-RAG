@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S4-MATH4.html",
+      "title": "Mathématiques 4",
+      "id": "f721469a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:28",
+      "hash": "17a9b8630edc62e7",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Mathématiques 4\nSemestre :\n4  |\nUE :\nFondamentale  |\nCrédits :\n4  |\nCoefficient :\n2\nObjectifs de l'enseignement\nL'objectif de cet enseignement est de renforcer les outils mathématiques de l'étudiant en particulier concernant les fonctions complexes, les fonctions holomorphes, l'intégration, les séries entières et de Laurent ainsi que la transformée en z.\nContenu de la matière\nChapitre 1 : Séries (5 semaines)\nSéries numériques.\nSuites et séries de fonctions.\nExemples de séries de fonctions : séries entières et séries de Fourier.\nChapitre 2 : Généralités sur les nombres complexes (1 semaine)\nRappels généraux sur les nombres complexes.\nFonctions complexes, limite, continuité et l'infini complexe.\nChapitre 3 : Fonctions usuelles (1 semaine)\nFonctions algébriques : z + a, a·z, 1/z, et (az+b)/(cz+d)\nFonctions définies par des séries : exponentielles, trigonométriques et hyperboliques.\nFonctions multiformes : argument, puissances et logarithme.\nChapitre 4 : Fonctions holomorphes (1 semaine)\nFonctions différentiables de deux variables.\nDérivabilité d'une fonction complexe.\nHolomorphie et conditions de Cauchy.\nFonctions holomorphes et fonctions harmoniques.\nChapitre 5 : Intégration (2 semaines)\nChemins et courbes - Intégrale curviligne.\nThéorie de Cauchy et Formule intégrale de Cauchy.\nPrimitives et Théorème de Morera.\nPrincipe d'identité, propriété de la moyenne et Principe du maximum – Théorèmes de Liouville, de D'Alembert et de Rouché.\nChapitre 6 : Séries entières et Séries de Laurent (2 semaines)\nSéries entières complexes, fonctions analytiques et holomorphie.\nDéveloppement en séries de Taylor de fonctions holomorphes.\nProlongement analytique, Développement de Laurent - Points singuliers isolés.\nChapitre 7 : Théorème des résidus et applications (1,5 semaine)\nThéorème des résidus.\nApplications au calcul intégral et à la sommation de séries.\nChapitre 8 : Transformée en Z (1,5 semaine)\nDéfinition et propriétés.\nApplications aux équations récurrentes.\nTransformée en Z et Transformée de Laplace.\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\nSPIEGEL,\nVariables complexes, Cours et problèmes\n, Séries Schaum, Mac Graw Hill, (2000).\nElie BELORIZKY,\nOutils mathématiques à l'usage des scientifiques et des ingénieurs\n, EDP Sciences, Paris, (2007).\nWalter APPEL,\nMathématiques pour la physique et les physiciens!\n, 4ème Ed., H&K Edition, Paris, (2008).\nC. ASLANGUL,\nDes mathématiques pour les sciences 1, Concepts, méthodes et techniques - pour la modélisation\n, De Boeck, Bruxelles (2011)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

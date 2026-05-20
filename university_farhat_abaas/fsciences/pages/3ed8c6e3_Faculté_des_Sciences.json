@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/290",
+      "title": "Faculté des Sciences",
+      "id": "3ed8c6e3",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:49:23",
+      "hash": "3a142ad88c129065",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "GUELLATI Nabil\nGUELLATI Nabil\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:nabil.guellati@univ-setif.dz\nEmail:nabil.guellati@univ-setif.dz\nDépartement:Informatique\nBureau:10\nBureau:10\n\nNabil\nGuellati a obtenu son diplôme d’ingénieur en informatique option systèmes parallèles\net distribués de l’université de Sétif en 2004. Il a obtenu son diplôme de\nmagistère option réseaux et systèmes distribués de l’université de Béjaia en\n2007. Il a préparé une thèse de doctorat dans l’université de Béjaia sous la\ndirection du Professeur H. Kheddouci (Université de Lyon 1). Il a soutenu son\ndoctorat en 2016. Les activités de recherche de Nabil Guellati portent sur les\nsystèmes distribués auto-stabilisants. (ORCID ID :\nhttps://orcid.org/0000-0002-3502-5836\n)\nConferences Internationales (1)\nUn algorithme distribué auto-stabilisant pour la découverte et le maintien d’un cycle hamiltonien\nN. Guellati, H. Kheddouci\nInternational Symposium on Programming and Systems (ISPS'07), Alger, (2007)\nConferences Nationales (1)\nInformation technology for enhancing disaster management\nN. Nouali, N. Bouchama, A. Bendjoudi, A. Babakhouya, S. Yahiaoui, Y. Belhoul, H. Zeghilet, N.Guellati\nCongrès national sur les telecommunications et leurs applications (CNTA'09), Béjaia, (2009)\nJournaux (3)\nA Survey on Distributed Self-stabilizing Algorithms for Finding Independent Sets\nTouahra Yousra, Khaloua Nesrine Hadil, Derradj Imane, Guellati Nabil\nAlgerian Journal of Sciences, 1 (2024), pp 33–41\nEfficient self-stabilizing algorithm for independent strong dominating sets in arbitrary graphs\nB. Neggazi, N. Guellati, M. Haddad, H. Kheddouci\nInternational Journal of Foundations of Computer Science, 26 (2015), pp 751-768\nA Survey on Self-Stabilizing Algorithms for Independence, Domination, Coloring, and Matching in Graphs\nN. Guellati, H. Kheddouci\nJournal of Parallel and Distributed Computing, 70 (2010), pp 406-415"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "https://orcid.org/0000-0002-3502-5836",
+        "url": "https://orcid.org/0000-0002-3502-5836",
+        "type": "external"
+      }
+    ],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

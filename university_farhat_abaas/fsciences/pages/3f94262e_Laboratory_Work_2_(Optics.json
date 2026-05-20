@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S2-TL2.html",
+      "title": "Laboratory Work 2 (Optics",
+      "id": "3f94262e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:58",
+      "hash": "14ac571b4970d205",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nMéthodologie (UEM 2)  |\nCrédits :\n3  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs de l'enseignement\nL'étudiant est censé maîtriser la technique d'alignement d'un laser à gaz, se familiariser à l'usage d'une pompe primaire et à diffusion d'huile. Comprendre le fonctionnement d'un laser HeNe, d'un laser à azote et d'un laser à colorant. Caractérisation d'un laser à gaz carbonique en fonction du courant de décharge et de la pression du gaz et l'interprétation des résultats obtenus. Fonctionnement du laser en mode déclenché par absorbant saturable et méthode interférométrique. Caractérisation des impulsions. Etude du fonctionnement en modes relaxé et déclenché d'un laser solide Nd:YAG.\nConnaissances préalables recommandées\nOptique. Electromagnétisme. Optique non linéaire, optique des milieux anisotropes. Physique atomique et moléculaire, Optique quantique et lasers.\nContenu de la matière\nAlignement d'une cavité laser\nTechniques de vide primaire et secondaire\nLe laser à colorant\nLe laser à azote\nLe laser à He-Ne\nCaractérisation du laser à CO2 fonctionnant en continu et en déclenché\nFonctionnement en modes relaxé et déclenché du laser solide Nd:YAG\nTransmission par fibres optiques : Propagation et atténuation\nOptique et Imagerie : Holographie classique et numérique\nRéférences bibliographiques\nW.W. Duley, CO2 laser: Effects and Applications, Academic Press (1976)\nA.K. Levine and J. De Maria, \"Lasers\" Vol 3, Marcel Dekker Inc. (1971)\nJ.P. Mathieu : Optique et Electromagnétisme, Tomes 1 et 2, SEDES\nP.R. Roland : Problèmes d'optique, ARMAND COLIN\nJ.P. Mathieu, M. Rousseau : Problèmes d'optique, 2, DUNOD\nJ. ROIG : Optique Physique, Tomes 1 et 2, MASSON ET CIE\nBorn et Wolf : Principles of Optics, PERGAMON\nM. Bertin, J.P. Faroux et J. Renault : Optique, Tomes 1 et 2, DUNOD\nL. Tarassov, Physique des processus dans les générateurs de rayonnement cohérent, Ed. MIR, Moscou"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

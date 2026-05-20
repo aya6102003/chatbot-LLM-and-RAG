@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S4-TPTHERMO.html",
+      "title": "TP Thermodynamique",
+      "id": "500086d3",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:23",
+      "hash": "322c1069a3114092",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "TP Thermodynamique\nSemestre :\n4  |\nUE :\nMéthodologie  |\nCrédits :\n2  |\nCoefficient :\n1\nObjectifs de l'enseignement\nConsolidation des connaissances théoriques sur la thermodynamique.\nApprentissage et visualisation des phénomènes liés à la thermodynamique.\nContenu de la matière\n(Choisir 5 TP selon disponibilité du matériel)\nLoi des gaz parfaits : vérification de la loi de Boyle-Mariotte\nMatériels : Tubes en verre gradués (Ø = 1.5 cm env.) avec robinet, tuyau souple, grande règle, mercure et supports.\nMesure du coefficient γ = Cp/Cv : détermination par la méthode de Clément–Désormés\nMatériels : bonbonne avec robinet, tubes en verre (Ø= 3-5mm), tubes souples, pompes à air, tubes en verre en U, chronomètre, mercure, grande règle graduée, robinets et supports.\nDilatation thermique des solides\nMatériels : Tubes (acier, laiton, cuivre, verre,…) L=65cm et Ø= 7mm, pyromètre à cadran, comparateur, thermomètres numériques, tuyau souple et thermostat de circulation de 30 à 100°C.\nCalorimétrie\n: Mesurer les quantités de chaleur ou les transferts thermiques entre des corps différents en utilisant plusieurs types de calorimétrie (à glace, à résistance …)\nMatériels : Vase Dewar avec couvercle, grenaille cuivre, plomb, verre … (env. 100 g de chaque), thermomètres, balance, générateur de vapeur 220V/550W, bécher, calorimètre, ensemble chauffant avec couvercle et accessoires, bécher en aluminium, bec Bunsen, glace et supports.\nDétermination de la chaleur latente de vaporisation\nMatériels : Appareils pour déterminer les pressions de la vapeur d'eau (chaudière), un manomètre 60 atm, un thermomètre 0-250°C et un bruleur à gaz (bec Bunsen).\nÉtalonnage d'un thermocouple (mesure de son pouvoir thermoélectrique)\nMatériels : Fils (cuivre et constantin), deux béchers, thermomètres (0-100°C), Microvoltmètre numérique, un bruleur à gaz, de la glace et une bougie.\nPropagation de la chaleur dans une barre cylindrique en métal\nMatériels : Tubes en métal l = 1,5 m et Ø =2 cm, Thermomètres numériques, chronomètre, four tubulaire et supports.\nTransport de la chaleur : convection thermique\nMatériels : Thermosiphon, Bec Bunsen, colorant en poudre et supports.\nIsolation thermique\nMatériels : Chambre calorifique avec accessoires.\nThéorie cinétique des gaz\n: variation du volume des gaz en fonction de la pression à température constante (loi de Boyle-Mariotte).\nMode d'évaluation\nContrôle continu : 50%\nExamen : 50%"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

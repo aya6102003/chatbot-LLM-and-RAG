@@ -1,0 +1,50 @@
+# =========================
+# Core HTTP & Async
+# =========================
+aiohttp>=3.9.0
+aiofiles>=23.2.0
+curl-cffi>=0.5.0
+
+# =========================
+# HTML Parsing
+# =========================
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# =========================
+# RAG & Embeddings
+# =========================
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+neo4j>=5.14.0
+langchain-chroma>=0.1.0
+langchain-huggingface>=0.0.3
+langchain-core>=0.1.0
+rank-bm25>=0.2.0
+
+# =========================
+# Document Extraction
+# =========================
+PyMuPDF>=1.23.0
+pdfplumber>=0.10.0
+python-docx>=1.1.0
+openpyxl>=3.1.0
+xlrd>=2.0.0
+rarfile>=4.0
+
+# =========================
+# OCR (optional but recommended)
+# =========================
+pytesseract>=0.3.0
+Pillow>=10.0.0
+
+# =========================
+# Browser Automation (optional)
+# =========================
+playwright>=1.40.0
+
+# =========================
+# Utilities
+# =========================
+requests>=2.31.0
+urllib3>=2.0.0

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S1-AAC.html",
+      "title": "S1 Aac.Html",
+      "id": "8105fa9c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:38",
+      "hash": "192642508236b969",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Advanced Algorithmics & Complexity\nSemester:\n1  |\nType:\nUEF11  |\nVHS:\n63h  |\nWeekly hours:\nC: 1h30 / TD: 1h30 / TP: 1h30  |\nPersonal work VHS:\n42h  |\nCoefficient:\n3  |\nCredits:\n5\nTeaching Objectives\nUnderstand the notions of algorithmic complexity (time, space)\nMaster advanced techniques for algorithm design\nClassify problems according to their difficulty (P, NP, NP-complete, etc.)\nApply exact and approximate methods to complex problems\nRecommended prior knowledge:\nAlgorithmics, advanced data structures and programming.\nCourse Content (Lectures: 21h)\nAlgorithmic Complexity\nAsymptotic notations (Big O, Ω, Θ)\nBest-case, worst-case and average-case analysis\nRecurrence equations\nAdvanced Data Structures and Complexity\nBinary trees (review), AVL trees, Red-Black trees\nHash tables\nString Algorithmics and Complexity\nPattern matching\nCompression algorithms\nDesign Paradigms\nDivide and conquer\nDynamic programming\nGreedy algorithms\nProbabilistic algorithms\nProblem Classes\nDecision and optimisation problems\nDeterminism vs non-determinism\nNP-completeness and problem reduction\nAdvanced Algorithms\nParallel and distributed algorithms\nOnline algorithms\nRandomised algorithms\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous tests, personal work\nReferences\nT. Cormen, C. Leiserson, R. Rivest & C. Stein (2022).\nIntroduction to Algorithms\n. The MIT Press, 5th Edition.\nP. Brass (2008).\nAdvanced Data Structures\n. Cambridge University Press.\nC. A. Shaffer (2010).\nA Practical Introduction to Data Structures and Algorithm Analysis\n. Virginia Tech.\nSedgewick, R., & Wayne, K. (2011).\nAlgorithms\n(4th ed.). Addison-Wesley.\nKozen, D. C. (1991).\nThe Design and Analysis of Algorithms\n. Springer.\nMotwani, R., & Raghavan, P. (1995).\nRandomized Algorithms\n. Cambridge University Press.\nS. Arora & Barak B. (2006).\nComputational Complexity: A Modern Approach\n. Cambridge University Press."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

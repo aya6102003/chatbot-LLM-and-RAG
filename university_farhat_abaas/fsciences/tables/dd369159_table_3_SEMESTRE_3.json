@@ -1,0 +1,120 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/MAP.html",
+  "title": "SEMESTRE 3",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n15 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n15 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale 7 \nCrédits : 6\nCoefficients : 3",
+      "Méthodes fonctionnelles et numériques en mécanique",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 8 \nCrédits : 6\nCoefficients : 3",
+      "Calcul des variations et théorie du contrôle",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 9 \nCrédits : 6\nCoefficients : 3",
+      "Recherche opérationnelle",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie Crédits : 9\nCoefficients : 5",
+      "Introduction aux problèmes d’évolution",
+      "9",
+      "5",
+      "3h",
+      "3h",
+      "1h",
+      "105h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Découverte\nCrédits : 2\nCoefficients : 2",
+      "Techniques d’enseignements et de recherche (TER 3)",
+      "2",
+      "2",
+      "3h",
+      "",
+      "",
+      "45h",
+      "",
+      "100%"
+    ],
+    [
+      "UE Transversale\nCrédits : 1\nCoefficients : 1",
+      "Anglais technique",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%"
+    ],
+    [
+      "Total Semestre 3",
+      "30",
+      "17",
+      "16h30",
+      "6h",
+      "2h30",
+      "375h",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 9,
+  "col_count": 7
+}

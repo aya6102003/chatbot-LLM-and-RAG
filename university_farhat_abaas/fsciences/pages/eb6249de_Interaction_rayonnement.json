@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_MATERIAUX/S1-IRM.html",
+      "title": "Interaction rayonnement",
+      "id": "eb6249de",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:12",
+      "hash": "0d043437653a7d52",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière :\nInteraction rayonnement-matière et applications\nUnité d'Enseignement :\nUE Méthodologie (UEM 1)\nSemestre :\nSemestre 1\nCrédits :\n4\nCoefficient :\n2\nVHS (15 semaines) :\n55h00\nCours :\n1h30\nTD :\n1h30\nTP :\nMode d'évaluation :\nContinu : 50%  /  Examen : 50%\nSemestre 1\nUnité Méthodologie\nMatière : Interaction rayonnement-matière et applications\nObjectifs de l’enseignement :\nComprendre les mécanismes fondamentaux d’interaction entre les rayonnements (X, électrons, neutrons, ions)\net la matière.\nMaîtriser les techniques expérimentales de caractérisation des matériaux basées sur ces interactions.\nSavoir analyser les effets des rayonnements sur les propriétés structurales, électroniques et mécaniques des\nmatériaux\nConnaissances préalables recommandées :\nPour suivre efficacement cette matière, une base solide en mécanique quantique (notamment la dualité onde-\ncorpuscule et l'équation de Schrödinger), en électromagnétisme (équations de Maxwell) et en physique de la matière\ncondensée (structure cristalline, défauts, bandes d'énergie) est recommandée. Des notions de physique nucléaire\n(interactions particules-matière, sections efficaces) et de mathématiques appliquées (analyse de Fourier pour la\ndiffraction) sont également utiles. Bien que des rappels soient prévus, une familiarité avec ces concepts\nfondamentaux permettra une meilleure appréhension des techniques de caractérisation (diffraction X, microscopie\nélectronique) et des effets des rayonnements sur les matériaux.\nContenu de la matière :\nIntroduction\nImportance des rayonnements en science des matériaux\nTypes de rayonnements utilisés : X, électrons, neutrons, ions\nNotions de base : sections efficaces, atténuation, diffusion\nInteractions des photons (rayons X & γ) avec la matière\nEffet photoélectrique (applications : XPS, EXAFS)\nDiffusion Compton (spectroscopie Compton pour les électrons de valence)\nDiffusion Rayleigh (élastique) → Diffraction des rayons X (XRD, DRX)\nAbsorption des rayons X (spectroscopie XANES, EXAFS)\nApplications :\nCaractérisation des structures cristallines (XRD)\nAnalyse chimique (fluorescence X, XPS)\nÉtude des défauts et contraintes\nInteractions des électrons avec la matière\nDiffusion élastique (diffraction électronique) → MET (Microscopie Électronique en Transmission)\nDiffusion inélastique (spectroscopie EELS – pertes d’énergie)\nÉmission secondaire d’électrons → MEB (Microscopie Électronique à Balayage)\nApplications :\nImagerie à haute résolution (MET, MEB)\nAnalyse chimique locale (EDS, WDS)\nÉtude des plasmons et états électroniques (EELS)\nInteractions des neutrons avec la matière\nDiffusion élastique → Diffraction neutronique (étude des structures magnétiques)\nDiffusion inélastique → Spectroscopie pour les excitations vibrationnelles (phonons)\nApplications :\nÉtude des matériaux magnétiques\nCartographie des contraintes résiduelles\nAnalyse des polymères et matériaux légers (H, Li, etc.)\n12\nInteractions des ions avec la matière\nRétrodiffusion Rutherford (RBS) → Profilage de composition\nSpectrométrie des masses d’ions secondaires (SIMS) → Analyse de traces\nImplantation ionique → Modification des propriétés des matériaux\nApplications :\nDopage des semi-conducteurs\nRevêtements et traitements de surface\nRéférences:\n1- \"Advanced Radiation-Matter Interactions: From Fundamentals to Applications\" (Springer, 2023)\n“Operando X-ray Techniques for Energy Materials\" (Wiley, 2024)\nUltrafast Electron Microscopy: Imaging Matter in Motion\" (Elsevier, 2023)\nR. Ouahes et B. Devallez, chimie générale, OPU, Alger, 1988\nDaniel Blanc, les rayonnements ionisants, Masson, Paris, 1990-1997\nJ. Michel Hollas, Spectroscopie, Dunod, Paris, 1998\nSekkalZohir, atomes et liaisons chimiques, OPU, Alger, 1988\nKadi-Hanafi Mouhyddine, Electricité Rayonnement et Radioactivité, OPU, Alger, 1982\nAlonso-Finn, Physique générale, Champs et Ondes,InterEdition, Paris, 1977\nPierre CHEVALIER, Interaction du rayonnement avec la matière, technique de l'ingénieur\n13"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

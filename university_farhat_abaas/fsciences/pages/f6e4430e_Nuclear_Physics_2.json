@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S2-PN2.html",
+      "title": "Nuclear Physics 2",
+      "id": "f6e4430e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:55",
+      "hash": "2d38494f96aa04c2",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nFondamentale (UEF 2)  |\nCrédits :\n6  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nL'objectif de ce programme de formation est de proposer aux étudiants un enseignement approfondi en physique des réactions nucléaires. Un ensemble de mécanismes de réactions nucléaires est présenté dans ce cours. L'étudiant recevra les outils nécessaires pour établir la formulation théorique des sections efficaces des réactions. L'accent est mis sur les techniques expérimentales et l'utilisation des grands accélérateurs de particules comme outils de recherche avancés. Il convient de noter que certains accélérateurs à l'échelle internationale sont des partenaires associés de ce master. Les travaux dirigés comportent des applications sous forme de computations numériques.\nConnaissances préalables recommandées\nDes connaissances de base en physique nucléaire, en mécanique quantique, en interaction ion matière et en programmation sont recommandées.\nContenu de la matière\nChapitre 1 : Généralités sur les réactions nucléaires\nCinématiques des collisions : Lois de conservation, cas relativiste et non relativiste\nSection efficace de réaction : Formulations et transformation du référentiel\nChapitre 2 : Modèles nucléaires\nModèle du gaz de fermi\nModèle de Rainwater\nModèle de Nilsson\nModèle unifié de Bohr Mottelson\nModèle statistique des niveaux excités\nChapitre 3 : Calcul de la section efficace en mécanique quantique\nThéorie générale de la diffusion\nSection efficace et amplitudes de diffusion\nMéthode des ondes partielles\nMéthode des déphasages\nChapitre 4 : Mécanismes des réactions nucléaires\nThéorie statistique du noyau composé\nDynamique des réactions nucléaires\nRéactions nucléaires directes\nRéactions de transfert : facteurs spectroscopiques\nRéactions nucléaires à haute énergie\nL'excitation coulombienne\nTransitions électromagnétiques dans les noyaux\nChapitre 5 : Physique des accélérateurs\nInstrumentation en physique nucléaire\nSources d'ions et faisceau\nTechnologie des accélérateurs\nDétection des rayonnements\nProcédures expérimentales\nSpectrométrie de masse par accélérateur\nInstruments avancés\nRéférences bibliographiques\nG.R. Satchler, Direct Nuclear Reactions, Clarendon, Oxford, 1983\nF. Ajzenberg-Selove, Nuclear Spectroscopy, part B, Academic Press, 1960\nJ.M. Blatt et V.F. Weisskopf, Theoretical Nuclear Physics, John Wiley and Sons, New York, 1952\nA.G. Sitenko, Theory of Nuclear Reactions, World Scientific, Singapore, 1990\nC. Iliadis, Nuclear Physics of Stars, WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim, 2007. ISBN: 978-3-527-40602-9\nN. Keeley, Analysis of Transfer Reactions: Determination of Spectroscopic Factors. Cours donné à l'école Joliot Curie"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

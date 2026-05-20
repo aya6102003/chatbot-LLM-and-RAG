@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/9113",
+      "title": "Faculté des Sciences",
+      "id": "07ca05d1",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:34:18",
+      "hash": "f8864c09cca04ca0",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Aux étudiants de chimie L2-L3 et M1\nAnnonce aux étudiants – Examens de remplacement: S2\nIl est porté à la connaissance des étudiants de\nL2, L3 et M1\nque les plannings des examens de remplacement sont affichés ci-joints.\nTout étudiant n’ayant pas participé à un examen est tenu de présenter un justificatif d’absence dans un délai maximum de\n72 heures après l’examen\n.\nPassé ce délai, aucun justificatif ne sera accepté."
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Planning des Examens de remplacement L2 L3 et M1",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6530/Planning_des_Examens_de_remplacement_L2-L3_et_M1.pdf",
+        "local_file": "pdfs/07ca05d1_Planning_des_Examens_de_remplacement_L2.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/9106",
+      "title": "Faculté des Sciences",
+      "id": "bf52dacd",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:29:55",
+      "hash": "48d80d99f6068ccd",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nARTICLE PARU"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Article Boukelia Kara",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6523/Article_Boukelia-Kara.pdf",
+        "local_file": "pdfs/bf52dacd_Article_Boukelia_Kara.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

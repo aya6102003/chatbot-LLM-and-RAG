@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_MATERIAUX/S2-IAML2.html",
+      "title": "Intelligence artificielle et Machine Learning 2",
+      "id": "1a34f000",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:13",
+      "hash": "74664bffd6891330",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière :\nIntelligence artificielle et Machine Learning 2\nUnité d'Enseignement :\nUE Méthodologie (UEM 2)\nSemestre :\nSemestre 2\nCrédits :\n2\nCoefficient :\n1\nVHS (15 semaines) :\n27h30\nCours :\nTD :\nTP :\n1h30\nMode d'évaluation :\nContinu : 50%  /  Examen : 50%\nSemestre 2\nUnité Méthodologie\nMatière : Intelligence artificielle et Machine Learning 2\nCourse Objectives:\nBuild on basic ML techniques to introduce deep learning, neural networks, and advanced ML concepts for materials\nscience applications.\nCourse Content:\nObjectifs du cours :\nS'appuyer sur les techniques de base de l’apprentissage automatique (Machine Learning) pour introduire\nl'apprentissage profond, les réseaux neuronaux et les concepts avancés d’apprentissage automatique pour les\napplications en sciences de la matière. Les étudiants approfondiront leur compréhension de la découverte et de la\nconception de matériaux basées sur l'IA.\nContenu du cours :\nChapitre 1 : Modèles basés sur les graphes dans les sciences de la matière\no Les matériaux sont des graphes : atomes = nœuds, liaisons = arêtes.\no Réseaux convolutionnels de graphes de cristaux (CGCNN).\no Étude de cas : Prévision des énergies de formation.\nChapitre 2 : Modèles génératifs pour la conception de matériaux\no Introduction aux réseaux adversoriels génératifs (GAN) et aux auto-encodeurs variationnels (VAE).\no Application : Conception de nouveaux matériaux et molécules.\nChapitre 3 : Évaluation des modèles et interprétabilité\no Techniques d'évaluation des modèles d'apprentissage profond : validation croisée, surajustement.\no Interprétation des modèles avec SHAP et LIME.\nChapitre 4 : Techniques avancées de ML\no Modèles d'ensemble (Random Forests, XGBoost, LightGBM).\no Modèles avancés de régression et de classification.\no Réduction de la dimensionnalité : ACP, t-SNE, UMAP.\nChapitre 5 : Applications avancées en sciences de la matière\no Conception inverse pour la découverte de matériaux à l'aide de l'IA.\no Prédiction des propriétés des matériaux (modules élastiques, supraconductivité, etc.).\no Modélisation multi-échelle : combinaison de l'IA avec la dynamique moléculaire ou la théorie de la\nfonctionnelle de la densité (DFT).\nChapitre 6 : Mini-Projet de spécialisation (Capstone Project)\nLes étudiants réaliseront un projet dans lequel ils appliqueront l'IA/ML pour résoudre un problème en\nsciences de la matière, en utilisant les compétences acquises tout au long du semestre.\n28\nOutils et bibliothèques :\nPython, Jupyter Notebooks\nTensorFlow, PyTorch\nMatminer, Pymatgen\nBibliographie :\n\"Deep Learning\" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville (a comprehensive introduction to\ndeep learning)\n\"Deep Learning with Python\" by François Chollet (applies Keras for hands-on deep learning projects)\n\"Machine Learning for Materials Science\" by Jha et al. (directly relates to AI in materials science)\n\"Data Science for Materials Discovery\" by K. A. Persson, et al. (focused on machine learning applications in\nmaterials science)\n\"Materials Informatics: Methods, Tools, and Applications\" by Rajiv S. Mishra (further extends ML into\nmaterial discovery)\n29"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S6-CONCEP.html",
+      "title": "Software Design",
+      "id": "aa06dfcb",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:30",
+      "hash": "15dea39ce5477347",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Software Design\nSemestre : S6\nUnité d’enseignement : UEF1\nMatière : Conception de logiciels\nCrédits : 5\nCoefficient : 4\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement\nCe module vise à donner aux étudiants les compétences indispensables pour concevoir des logiciels de\nqualité. Il a pour but d'offrir une vision complète de la conception de logiciels, en couvrant à la fois les\nprincipes et les méthodes de base ainsi que les perspectives émergentes dans la matière. Le module\ns'article principalement autour de points suivants :\n• Comprendre les principes de conception des gros logiciels.\n• Savoir concevoir une expérience utilisateur intuitive.\n• Comprendre les enjeux présents et futurs de la conception de logiciels.\n• Savoir utiliser les principaux patrons de conception pour résoudre des problèmes de conception\nrécurrents.\n• Savoir utiliser des patrons d'architecture pour structurer une solution logicielle.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\nGénie Logiciel, Programmation orientée Objet\nContenu de la matière\n• Chapitre I : Introduction\nConcepts clés de la conception de logiciels\nLes enjeux présents de la conception de logiciels\nConception pour la scalabilité\nConception pour l'expérience utilisateur (UX)\n• Chapitre II : Patrons de conceptions courants\nRappel sur les avantages et inconvénients des patrons, la description d'un patron, la classification\nRéutilisation de patrons de conception\nExemples de patrons de conception\n• Chapitre III : Patterns architecturaux courants\nLe patrons MVC\nLe patron PAC\n• Chapitre IV : Ingénierie Dirigée par les Modèles et conception de logiciels\nLa conception dans l'IDM\nLa conception dans MDA (Model driven architecture)\n• Chapitre V : Les principes de conception\nPrincipe de responsabilité unique\nPrincipe d'ouverture-fermeture\nPrincipe de substitution de Liskov\nPrincipe de séparation des interfaces\nPrincipe d'inversion des dépendances\n• Chapitre VI : Tendances futures de la conception de logiciels (optionnel)\nDiscussion sur les tendances futures de la conception de logiciels\nImpacts sur les processus de développement\n• Chapitre VII : Étude de cas d'un processus logiciel : 2TUP\nConception générique\nConception préliminaire\nConception détaillée\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences\nDennis, Alan, Barbara Wixom, and David Tegarden. Systems analysis and design: An object-\noriented approach with UML. John wiley & sons, 2015.\nKleppmann, Martin. \"Designing Data-Intensive Applications: The Big Ideas Behind Reliable.\"\nScalable, and Maintainable Systems 1st Edition–O'Reilly Media (2017).\nFreeman, Eric, et al. Head First Design Patterns: A Brain-Friendly Guide. \" O'Reilly Media,\nInc.\", 2004.\nFreeman, Adam, and Adam Freeman. \"The MVC Pattern, Projects, and Conventions.\" Pro ASP.\nNET Core MVC 2 (2017): 53-65.\nRubis, Ruslan. Patterns for Enterprise Application Design and Development. Diss. Florida\nAtlantic University, 2017.\nGamma, Erich, et al. \"Elements of Reusable Object-Oriented Software.\" Design Patterns (1995)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

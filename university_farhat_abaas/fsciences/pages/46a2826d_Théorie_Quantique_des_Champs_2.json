@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S2-TQC2.html",
+      "title": "Théorie Quantique des Champs 2",
+      "id": "46a2826d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:54",
+      "hash": "e9b4b665f5f1f172",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Théorie Quantique des Champs 2\nSemestre 2 – UE Fondamentale\nPrérequis\nThéorie Quantique des Champs 1 – Semestre 1\nObjectifs de l'enseignement\nCe cours approfondit la Théorie Quantique des Champs (TQC) en se basant sur les chapitres 4 à 6 des notes de cours de David Tong. Il vise à familiariser l'étudiant avec les champs spinoriels de Dirac (pour les particules de spin 1/2) et le champ électromagnétique (pour les photons). À l'issue de ce cours, l'étudiant sera apte à aborder l'électrodynamique quantique (QED) et à calculer certaines amplitudes de transition non divergentes.\nProgramme détaillé\nChapitre 1 : L'Équation de Dirac\nReprésentation des spineurs\nConstruction de l'action relativiste pour les fermions\nÉquation de Dirac\nSpineurs chiraux et fermions de Majorana\nSymétries et courants conservés\nSolutions en ondes planes\nChapitre 2 : Quantification du champ de Dirac\nThéorème spin-statistique (aperçu)\nQuantification fermionique canonique\nInterprétation du trou de Dirac\nPropagateurs du champ de Dirac\nPropagateur de Feynman\nThéorie de Yukawa\nRègles de Feynman pour les fermions\nChapitre 3 : Électrodynamique Quantique (QED)\nÉquations de Maxwell et champ électromagnétique quantifié\nCouplage champ matière-photon\nFormulation de la QED\nRègles de Feynman pour la QED\nCalculs de diffusion en QED\nMode d'évaluation\nContrôle continu : 33 %\nExamen : 67 %\nRéférences bibliographiques\nD. Tong, Quantum Field Theory, Notes de cours en ligne\nM.E. Peskin & D.V. Schroeder, An Introduction to Quantum Field Theory, Addison-Wesley, 1995\nA. Das, Lectures On Quantum Field Theory, World Scientific, 2008\nM. Kaku, Quantum Field Theory, Oxford University Press, 1993\nS. Weinberg, The Quantum Theory of Fields, Volume 1, Cambridge University Press, 1995\nN.N. Bogoliubov & D.V. Shirkov, Introduction to the Theory of Quantized Fields, 3e éd., Wiley, 1980\nJ.-P. Derendinger, Théorie quantique des champs, PPUR, 2001"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

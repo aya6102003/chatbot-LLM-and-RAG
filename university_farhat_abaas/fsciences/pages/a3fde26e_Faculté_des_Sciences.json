@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9091",
+      "title": "Faculté des Sciences",
+      "id": "a3fde26e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:49:14",
+      "hash": "7a2a606be8c188e7",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nRÉPARTITION DES ÉTUDIANTS PAR LIEU D’EXAMEN – 2ᵉ SEMESTRE 2025-2026\nMédecine - Big Data"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "R%C3%A9partition Etudiants Medecine Big Data Par Lieu d examen 2 Sem 2025 26",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6509/R%C3%A9partition_Etudiants_Medecine_Big_Data_Par_Lieu_d_examen_2_Sem_2025-26.pdf",
+        "local_file": "pdfs/a3fde26e_R%C3%A9partition_Etudiants_Medecine_Big.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

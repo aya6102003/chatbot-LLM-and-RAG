@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9063",
+      "title": "Faculté des Sciences",
+      "id": "225d1e3e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:48:57",
+      "hash": "e41c5b8fa7e3af96",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nPLANNING DES EXAMENS – SEMESTRE 2 (SESSION : MAI 2026)\n1ère Année MI (Version 03/05/2026)"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Examen S2 2025 2026",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6496/Examen_S2_2025-2026.pdf",
+        "local_file": "pdfs/225d1e3e_Examen_S2_2025_2026.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

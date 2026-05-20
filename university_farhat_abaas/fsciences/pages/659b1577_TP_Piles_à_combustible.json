@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S3-TPPC.html",
+      "title": "TP Piles à combustible",
+      "id": "659b1577",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:05",
+      "hash": "bafa2dd84dcaa2c0",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "TP Piles à combustible\nSemestre 3 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nObjectifs de l’enseignement :\nComprendre le fonctionnement des piles à combustible : principes électrochimiques, réactions, conversion d’énergie.\nMaîtriser les techniques expérimentales liées à l’étude des performances des piles.\nAnalyser et optimiser les paramètres influençant l’efficacité des piles à combustible.\nDévelopper une approche critique face aux technologies actuelles et aux défis. Connaissances préalables recommandées : Notions fondamentales en chimie générale et électrochimie (réactions redox, potentiels électrochimiques), bases en thermodynamique et transfert d’énergie, compréhension élémentaire des systèmes énergétiques, bonnes bases en instrumentation scientifique et mesure physique.\nContenu de la matière :\n1. Introduction aux piles à combustible\nTypes de piles à combustible (PEMFC, SOFC, AFC, etc.).\nPrincipes électrochimiques de conversion d’énergie.\nAvantages, limitations et perspectives.\n2. Composants d’une pile à combustible\nAnode, cathode, électrolytes : matériaux et fonctions.\nCatalyseurs et mécanismes réactionnels.\nManagement de l’eau et du gaz : humidification, diffusion.\n3. Montage expérimental et sécurité\nDescription du matériel : piles expérimentales, bancs d’essai, capteurs.\nProtocoles de sécurité liés à l’hydrogène et aux gaz combustibles.\nMise en place du circuit électrique et des instruments de mesure.\n4. Mesures et caractérisation\nPolarisation et courbes Voltampériques (I-V).\nMesure du rendement énergétique et puissance.\nÉvaluation des pertes (ohmiques, activation, concentration).\nSuivi des gaz : analyse compositionnelle, débitmètres.\n5. Analyse expérimentale approfondie\nImpact des paramètres opératoires : température, pression, humidité.\nEffets du débit de combustible et comburant.\nCaractérisation des dégradations dans le temps.\n6. Modélisation et interprétation des données\nModèles physiques simples adaptés aux résultats expérimentaux.\nCorrélation entre aspects théoriques et mesures.\nLogiciels et outils d’analyse.\n7. Étude de cas et optimisation\nÉtudes comparatives entre différents types de piles.\nStratégies d’amélioration des performances.\nDiscussion sur la durabilité et recyclage.\nRéférences :\n[1]. Larminie, J., & Dicks, A. (2003). Fuel Cell Systems Explained . Wiley.\n[2]. Khandelwal, M., & Mench, M. M. (2008). Principles of Fuel Cells – CRC Press.\n[3]. Qi, Z., & Kaufman, A. (2002). Solid Oxide Fuel Cells: From Electrolytes to System Design . Elsevier.\n[4]. Hamnett, A., & Brandon, N. P. (2007). Fuel Cell Science and Engineering , IET."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIM_ANAL_CONTROLE_QUALITE/S1-MPCA1.html",
+      "title": "S1 Mpca1.Html",
+      "id": "b3c3a9ee",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:21",
+      "hash": "bd1589005dd5e5b8",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Méthodes Physico-Chimiques d'Analyse I\nSemestre :\n1  |\nUE :\nFondamentale  |\nCrédits :\n4  |\nCoefficients :\n2\nObjectifs de l'enseignement\nDonner à l'étudiant les connaissances nécessaires sur la spectroscopie atomique et moléculaire afin de pouvoir identifier ou doser des espèces inorganiques ou organiques\nConnaissances préalables recommandées\nNotions données en licence\nContenu de la matière\n1. Introduction aux méthodes spectrochimiques\nInteraction rayonnement–matière : mécanismes d'absorption, d'émission et de diffusion, transitions électroniques, vibrationnelles et rotationnelles\nTypes de spectroscopie (absorption, émission, fluorescence, diffusion)\nParamètres spectraux : longueur d'onde, intensité, résolution, largeur à mi-hauteur, domaines spectraux (UV, visible, IR, etc.)\nLa spectroscopie d'absorption moléculaire dans les différents domaines du spectre : UV-VIS, IR\nRaman : Principes, appareillages\n2. Spectrométrie d'absorption atomique (SAA)\nPrincipe\nInstruments de base\nDosage par absorption atomique\nQuelques applications\nProtocole analytique\n3. Spectroscopie de Résonance Magnétique Nucléaire (RMN)\nIntroduction\nPrincipes généraux de la RMN\nSignal RMN et séquence de mesure\nAnalyser un spectre RMN\nSpectrométrie RMN du 13C\nAppareillage\nRMN multidimensionnelle : à 2D\nRMN 2D — L'idée de JEENER\nCorrélation homonucléaire — Spectre COSY\nCorrélations hétéronucléaires HSQC, HMBC\nTableau résumant le rôle des séquences 2D\nMode d'évaluation\n33% Contrôle continu + 67% Examen\nRéférences bibliographiques\nChemical Analysis Modern Instrumental Methods and Techniques, J. Tranchant\nManuel pratique de chromatographie en phase gazeuse, Masson, 1995\nRobert E. Ardrey, Liquid chromatography Mass Spectrometry : An introduction, John Wiley & Sons, 2004\nJ. Cazes, Encyclopedia of Chromatography 2004 Update Supplement, CRC, 2004\nIdentification spectrométrique de composés organiques. R. M. Silverstein, G. C. Bassler, T. C. Morill. DeBoeck, 1998\nE. Pretsch, P. Buhlmann, C. Affolter, Structure Determination of Organic Compounds. Tables of Spectral Data, 3rd Edition, Springer, 2000\nUnderstanding NMR Spectroscopy, James Keeler, Wiley, 2002\nLa Résonance Magnétique Nucléaire — Apprentissage à l'interprétation des spectres à une et deux dimensions des chaînes O-glycanniques, Emmanuel MAES, Université des Sciences et Technologies de Lille"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S1-POSE.html",
+      "title": "Programmes open sources pour l'énergétique",
+      "id": "dab54251",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:08",
+      "hash": "96e7fef9ba4370fc",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Programmes open sources pour l'énergétique\nSemestre 1 – UE Transversale\nMode d'évaluation :\nContinu 100%\nObjectifs de l’enseignement\nCe cours a pour objectif de doter les étudiants de compétences numériques avancées à travers la maîtrise\ndes outils libres et open source\nConnaissances préalables recommandées\nUne expérience pratique avec les outils de modélisation énergétique et de simulation numérique est\nrecommandée. Une familiarité avec Python, OpenFOAM ou EnergyPlus est un atout important.\nContenu de la matière :\nLe contenu de cette matière n'est pas exhaustif compte tenu du caractère évolutif des outils informatiques.\nUne flexibilité est nécessaire en ce qui concerne le choix des meilleurs outils de simulation adaptés aux\nenseignements de l'établissement\n1 . Introduction générale (1 semaine)\nImportance de la simulation en sciences énergétiques.\nPanorama des logiciels utilisés (MATLAB/Simulink, TRNSYS, PVsyst, ANSYS Fluent, HOMER, COMSOL, etc.).\n2 . Rappels de modélisation mathématique (1 semaine)\nSystèmes d’équations : algébriques, différentielles et différentielles partielles.\nNotions de linéarisation, discrétisation.\n3 . Outils de Simulation Numérique (2 semaines)\nIntroduction à MATLAB/Simulink : environnement, structures de base.\nUtilisation de Python (avec Numpy, Scipy) pour des simulations simples.\n4 . Simulation Thermique (2 semaines)\nModélisation du transfert thermique : conduction, convection, rayonnement.\nSimulation d’un échangeur de chaleur.\nIntroduction à TRNSYS pour la simulation énergétique des bâtiments.\n5 . Simulation des Systèmes Solaires (2 semaines)\nPrésentation de PVsyst : dimensionnement et performance des installations photovoltaïques.\nCas pratiques : calcul de production d’une centrale solaire.\n6 . Simulation des Systèmes Éoliens (2 semaines)\nModélisation de la production éolienne.\nUtilisation d’HOMER pour l'étude de systèmes hybrides (solaire + éolien + stockage).\n7 . Simulation CFD (Fluides) pour l'Énergétique (2 semaines)\nIntroduction à la mécanique des fluides numérique (CFD).\nInitiation à ANSYS Fluent : simulation de flux d’air sur une pale éolienne.\n8 . Applications avancées (selon niveau) (2 semaines)\nOptimisation énergétique multi-objectifs.\nIntroduction rapide à COMSOL Multiphysics (pour couplage thermique, électrique, mécanique).\nTravaux Pratiques (TP) :\nTP1 : Prise en main de MATLAB/Simulink : résolution d'équations différentielles simples.\nTP2 : Simulation thermique d'un mur solaire sous COMSOL ou TRNSYS.\nTP3 : Dimensionnement et simulation d'une centrale photovoltaïque avec PVsyst.\nTP4 : Simulation d'un micro-réseau hybride sous HOMER.\nTP5 : Initiation à la simulation CFD sous ANSYS Fluent (profil d’écoulement autour d'une éolienne).\nReferences\n[1] Etter, D. M., Kuncicky, D. C., & Manolakis, D. G. (2017). Introduction to MATLAB for Engineers (3rd ed.).\nMcGraw-Hill Education.\n[2] Alrashid, H. A. (2008). Power Generation, Operation, and Control . Wiley-Interscience.\n[3] Duffie, J. A., & Beckman, W. A. (2013). Solar Engineering of Thermal Processes (4th ed.). Wiley. ISBN :\n978-0-470-87366-3\n[4] Anderson, J. D. (2002). Computational Fluid Dynamics: The Basics with Applications . McGraw-Hill\nEducation."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

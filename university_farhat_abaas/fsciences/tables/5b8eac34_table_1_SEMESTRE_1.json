@@ -1,0 +1,142 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/RSD.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n14-16 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n14-16 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale    Crédits : 18Coefficients : 9",
+      "BDA: Bases de données avancées",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "45h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "PWA: Programmation web avancée",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "45h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "AAC: Algorithmique avancé et complexité",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "45h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "SR: Systèmes répartis",
+      "6",
+      "3",
+      "1h30",
+      "1h30",
+      "1h30",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie Crédits : 9Coefficients : 4",
+      "MS: Modélisation et simulation",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "45h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "CP: Conduite de projets",
+      "5",
+      "2",
+      "1h30",
+      "1h30",
+      "1h",
+      "60h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversaleCrédits : 3Coefficients : 2",
+      "ANG1 : Anglais 1",
+      "2",
+      "1",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "",
+      "100%"
+    ],
+    [
+      "CDT : Corruption et déontologie de travail",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "15",
+      "12h",
+      "4h30",
+      "8h30",
+      "375h",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 7
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIM_ANAL_CONTROLE_QUALITE/S3-TSAS.html",
+      "title": "S3 Tsas.Html",
+      "id": "f014980e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:21",
+      "hash": "3126a83792d92b14",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Techniques Spectroscopiques dans l'Analyse des Surfaces\nSemestre :\n3  |\nUE :\nFondamentale  |\nCrédits :\n4  |\nCoefficients :\n2\nObjectifs de l'enseignement\nÊtre capable de choisir parmi les techniques spectroscopiques celle qui est la plus adaptée à l'analyse d'une surface donnée\nInterprétation des résultats\nConnaissances préalables recommandées\nAvoir suivi l'enseignement des méthodes physiques d'analyse\nContenu de la matière\n1. Les techniques d'analyse chimique globale\nSpectrométrie de fluorescence X\nSpectrométries d'émission\nSpectrométrie par torche à plasma (ICP-optique)\nSpectrométrie par décharge luminescente (SDL)\nSpectrométrie par étincelle\nAnalyse par ablation laser\nSpectromètre à décharge luminescente\nAnalyseurs de gaz : analyse de O, N, C et S\nAnalyse de l'oxygène et de l'azote\nAnalyse du carbone et du soufre\n2. Les techniques d'analyse chimique locale — Microanalyse X\nLa microsonde de Castaing (instrument essentiellement destiné à la microanalyse)\nLa microanalyse, accessoire des microscopes électroniques à balayage et en transmission\nLa spectrométrie par dispersion de longueur d'onde (WDS) pour la microsonde\nLa spectrométrie par sélection en énergie (EDS) pour le MEB et le TEM\n3. Techniques de caractérisation de surface\nSpectrométrie de photo-électrons (ESCA ou XPS) et d'électrons Auger (analyse élémentaire et chimique)\nSpectrométrie à décharge luminescente (SDL)\nSpectrométrie d'émission ionique secondaire (SIMS)\nMode d'évaluation\n33% Contrôle continu + 67% Examen\nRéférences bibliographiques\nW. Schmickler, Interfacial electrochemistry, Oxford university press, NY, 1996\nE. Gileadi, E. Kirowa-Eisner, J. Penciner, Interfacial electrochemistry – an experimental approach, Addison-Wesley publishing company Inc., Reading – MA, 1975\nH. H. Girault, Électrochimie physique et analytique, Presses polytechniques et universitaires romandes, Lausanne, 2001"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

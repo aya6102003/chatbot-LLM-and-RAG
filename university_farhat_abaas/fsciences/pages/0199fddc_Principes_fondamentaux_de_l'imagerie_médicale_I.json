@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S1-PFIM1.html",
+      "title": "Principes fondamentaux de l'imagerie médicale I",
+      "id": "0199fddc",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:48",
+      "hash": "5c4361f94d802b58",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nMéthodologie (UEM 1)  |\nCrédits :\n5  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs pédagogiques\nL'objectif est de familiariser l'étudiant avec les différentes méthodes mathématiques utilisées en imagerie, ainsi qu'avec les techniques de reconstruction d'images tomographiques et de maîtriser les métriques utiles à la caractérisation de la qualité de l'image.\nContenu de l'unité\n1- Techniques de reconstruction tomographique\nMéthodes analytiques\nMéthodes itératives\n2- Caractérisation de l'image\nIntroduction à l'acquisition d'images\nMesures de la qualité d'image\nContraste, évaluation des détails du contraste, rapport contraste/bruit (CNR)\nSignal, sensibilité, courbes de réponse du récepteur, plage dynamique\nRésolution spatiale (fonction d'étalement de point (PSF), fonction d'étalement de ligne (LSF), fonction de transfert de modulation (MTF))\nBruit, spectres de puissance de bruit (NPS)\nEfficacité quantique de détection (DQE)\n3- Travaux pratiques sur la qualité de l'image\n4- Reconstruction tomographique\nTravaux pratiques\nPrincipes fondamentaux de l'imagerie médicale\nRéférences bibliographiques\nGONZALEZ, R., and WOODS, R., Digital Image Processing. Prentice Hall, New Jersey, USA (2007).\nBUSHBERG, J.T., SEIBERT, J. A., LEIDHOLDT Jr, E.M. and BOONE, J. M., The Essential Physics of Medical Imaging, Wolters Kluwer, Philadelphia (2021)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

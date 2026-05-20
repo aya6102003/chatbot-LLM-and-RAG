@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S2-PP.html",
+      "title": "Plasma Physics",
+      "id": "f37fc3b9",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:58",
+      "hash": "130f2593af0dcff0",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nFondamentale (UEF 2)  |\nCrédits :\n4  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nNotions sur la physique du plasma et ses applications : Fusion thermonucléaire contrôlée, physique de l'ionosphère, physique de la magnétosphère, physique solaire, astrophysique, propulsion du plasma, développement des semiconducteurs, traitement des métaux.\nContenu de la matière\nChapitre 1 : Les concepts de base\nHistoire du terme \"plasma\"\nHistoire brève de la physique du plasma\nLes paramètres du plasma\nExemples des plasmas\nStructure logique de la physique du plasma\nEcran de Debye, quasi-neutralité\nCollisions dans les plasmas, fréquences de collision\nCollisions avec atome neutre\nLes phénomènes de transport simples\nChapitre 2 : Mouvement d'une particule chargée\nFormalisme Hamilton-Lagrange\nInvariant Adiabatique\nExtension de méthode WKB\nLes équations du mouvement\nMouvement non-adiabatique, mouvement de petite amplitude\nChapitre 3 : Dérivation des équations fluides – Vlasov\nEspace des phases, fonction de distribution et équation Vlasov\nMoments de la fonction de distribution\nEquations de deux fluides\nEquations Magnétohydrodynamique (MHD)\nPhysique de la gaine et Langmuir\nChapitre 4 : Ondes dans le plasma\nMéthode générale pour analyser des ondes de petite amplitude\nThéorie des ondes dans un plasma non magnétisé\nOnde d'Alfven, modes Alfvén\nChapitre 5 : Instabilités et le problème Landau\nLes instabilités\nLe problème Landau\nLe critère Penrose\nChapitre 6 : Plasma froid\n– Equation de Poisson, tenseur diélectrique, relation de dispersion\nChapitre 7 :\nThéorie de Vlasov\nChapitre 8 :\nEquilibre MHD\nChapitre 9 :\nThéorie de collisions de Fokker-Planck"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

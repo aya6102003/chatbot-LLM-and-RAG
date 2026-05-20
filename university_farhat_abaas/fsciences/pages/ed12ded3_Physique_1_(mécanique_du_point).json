@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_MATHEMATIQUES/S1-PHYSIQUE1.html",
+      "title": "Physique 1 (mécanique du point)",
+      "id": "ed12ded3",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:30",
+      "hash": "e8ede6fea94e09bc",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Physique 1 (mécanique du point)\nSemestre : 01\nUnité d'enseignement : Découverte\nMatière : Physique 1 (mécanique du point)\nCrédits : 3\nCoefficient : 2\nObjectifs de l'enseignement\nA la fin de ce cours, l'étudiant devrait acquérir les connaissances élémentaires en mécanique du point (Cinématique du point, dynamique du point, travail et énergie dans le cas d'un point matériel, forces non conservatives…), de façon à pouvoir analyser et interpréter les phénomènes qui y sont reliés.\nConnaissances préalables recommandées\nNotions élémentaires de Physique.\nContenu de la matière\nChapitre 1 : Cinématique du point\nMouvement rectiligne – Mouvement dans l'espace\nÉtude de mouvements particuliers\nÉtude de mouvements dans différents systèmes (polaires, cylindriques et sphériques)\nMouvements relatifs\nChapitre 2 : Dynamique du point\nLe principe d'inertie et les référentiels galiléens\nLe principe de conservation de la quantité de mouvement\nDéfinition Newtonienne de la force (3 lois de Newton) – Quelques lois de forces\nChapitre 3 : Travail et énergie dans le cas d'un point matériel\nÉnergie cinétique – Énergie potentielle de gravitation et élastique\nChamp de forces – Forces non conservatives\nMode d'évaluation\nExamen (60%), contrôle continu (40%)\nRéférences bibliographiques\nA. Thionne, Mécanique du point. 2008. Editions Ellipses.\nA. Gibaud, M. Henry. Mécanique du point. Cours de physique. 2007. Editions Dunod.\nS. khène, Mécanique du point matériel. 2015. Editions Sciences Physique."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

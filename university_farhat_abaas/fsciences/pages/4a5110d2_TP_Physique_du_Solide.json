@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L3/S6-TPPS.html",
+      "title": "TP Physique du Solide",
+      "id": "4a5110d2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:26",
+      "hash": "bbffbd9fabd7e1b6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Travaux Pratiques de Physique du Solide\nSemestre :\n6  |\nUnité d'enseignement :\nMéthodologie\nObjectifs de l'enseignement\nL'objectif de ces travaux pratiques est d'introduire quelques principes essentiels de la physique de la matière condensée.\nContenu de la matière\nCristallographie.\nÉlasticité d'un solide isotrope : Pendule de torsion.\nEffet Hall.\nÉmission thermoélectronique.\nConduction électrique dans un semiconducteur et caractéristique courant-tension d'une photopile solaire.\nMode d'évaluation\nContrôle continu : 50%\nExamen : 50%\nRéférences bibliographiques\n1- C. Kittel, Introduction à la physique des solides, (Dunod, 8ème édition).\n2- N.W. Ashcroft and N.D. Mermin, Solid State Physics, Holt-Rinehar-Winston.\n3- Y. Quéré : Physique des Matériaux (Ellipses 1988)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

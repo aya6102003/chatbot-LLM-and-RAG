@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_MATERIAUX/S3-OE.html",
+      "title": "Optoélectronique",
+      "id": "9e6498f8",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:16",
+      "hash": "7d7187310967e9ca",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière :\nOptoélectronique\nUnité d'Enseignement :\nUE Fondamentale (UEF 21)\nSemestre :\nSemestre 3\nCrédits :\n4\nCoefficient :\n2\nVHS (15 semaines) :\n55h00\nCours :\n1h30\nTD :\n1h30\nTP :\nMode d'évaluation :\nContinu : 33%  /  Examen : 67%\nSemestre 3\nUnité Fondamentale\nMatière : Optoélectronique\nObjectifs de l’enseignement :\nL'objectif de l'enseignement de l'optoélectronique est de donner une compréhension approfondie des dispositifs\nqui lient lumière et électricité (sources, détecteurs, modulateurs). Les étudiants apprendront les principes physiques\nde leur fonctionnement, leurs caractéristiques, leurs applications (communications optiques, affichage, détection,\netc.), et acquerront des bases pour leur analyse et conception.\nConnaissances préalables recommandées :\nPour aborder efficacement un cours d'optoélectronique, il est recommandé d'avoir des bases solides en physique\ndes semi-conducteurs (notions de bande interdite, jonctions PN, dopage), en optique fondamentale (lois de la\nréflexion et réfraction, interactions lumière-matière) et en électronique (principes de fonctionnement des\ncomposants optoélectroniques comme les LEDs et photodiodes).\nContenu de la matière :\nChapitre I : Introduction aux composants optoélectroniques\nI.1 Principaux composants optoélectroniques et leurs applications :\ncapteurs, émetteurs de lumière, disques optiques, fibres optiques\nI.2 Interaction électron/photon dans un semiconducteur :\nabsorption fondamentale, émission spontanée, émission stimulée\nChapitre II : Photodiodes et détecteurs\nFonctionnement des photodiodes : mécanismes de génération et de recombinaison.\nCaractéristiques des photodiodes : réponse spectrale, temps de réponse, bruit.\nChapitre III : Cellules solaires\nMécanismes de conversion de l'énergie lumineuse en électricité.\nTypes de cellules solaires : cellules à base de silicium, cellules à couches minces…..\nEfficacité et optimisation des cellules solaires.\nChapitre IV : Diodes électroluminescentes / Diodes laser\nPrincipes de fonctionnement: émission spontanée, émission stimulée et cavités résonnantes.\nCaractéristiques des diodes laser : seuil d'émission, courbe courant-énergie, applications.\nChapitre V : Phénomènes de transport dans les semi-conducteurs\nConcepts de transport de charge : mobilité, conductivité et diffusion.\nModèles de transport : équation de Boltzmann.\nEffets des gradients de température et de concentration sur le transport.\nChapitre VI : Applications et dispositifs avancés\nDispositifs à semi-conducteurs avancés : lasers à semi-conducteurs.\nÉtudes de cas sur l'impact des matériaux et des structures sur les performances des dispositifs.\nRéférences:\nOptoelectronics and Photonics: Principles and Practices par S.O. Kasap - 2001 (la 3ème édition date de 2017).\nSemiconductor Optoelectronic Devices par Pallab Bhattacharya - 1994 (la 2ème édition date de 1997).\nFundamentals of Photonics par Bahaa E. A. Saleh et Malvin Carl Teich - 1991 (la 2ème édition date de 2007).\nLaser Fundamentals par William T. Silfvast - 1996 (la 2ème édition date de 2004).\nOptical Fiber Communications par Gerd Keiser - 1983 (la 6ème édition date de 2017).\nDiode Lasers and Photonic Integrated Circuits par Larry A. Coldren, Scott W. Corzine et Milan L. Mašanović -\n1995 (la 2ème édition date de 2012).\n36"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

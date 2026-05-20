@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S2-ASI.html",
+      "title": "S2 Asi.Html",
+      "id": "6675a402",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:34",
+      "hash": "ebd6f792184d2649",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Information Systems Architecture\nSemester:\n2  |\nType:\nUEF21  |\nVHS:\n42h  |\nWeekly hours:\nC: 1h30 / TD: 1h30  |\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nUnderstand the fundamental concepts of information systems architecture\nAnalyse and design IS architectures for various contexts\nLearn about the technologies and tools used in architecture design and implementation\nEvaluate and improve information system performance\nRecommended prior knowledge:\nInformation systems.\nCourse Content (Lectures: 21h)\nIntroduction to IS Architecture\nDefinition and role of information systems: role in the enterprise, evolution of IS\nIS architecture: definition and key components (hardware, software, databases, networks)\nArchitecture types: centralised, distributed, client-server, N-tier, peer-to-peer, service-oriented, microservices, cloud computing\nRelationship between IS Architecture and IS Urbanisation\nChallenges and issues in IS architecture within enterprise strategy\nArchitecture Design and Modelling\nModels and notations (UML, SysML, BPMN)\nBusiness process architecture\nData architecture\nApplication and services architecture\nTechnical and infrastructure architecture\nInteraction models\nModelling and engineering tools (Enterprise Architect, Sparx Systems, Open Agile Architecture, etc.)\nArchitecture Governance and Evolution\nIS life cycle management: design, development, deployment, maintenance, obsolescence\nEnterprise architecture reference frameworks: TOGAF, Zachman, maturity models\nArchitecture evolution: trends, impact of new technologies (AI, Blockchain, IoT)\nArchitecture Evaluation and Optimisation\nIS quality (performance, security, scalability, etc.)\nEvaluation methods and tools\nPerformance and scalability optimisation\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous tests, personal work\nReferences\nTOGAF (2009).\nThe Open Group Architecture Framework\n. The Open Group.\nZachman, John A. (1987). A Framework of Information Systems Architecture.\nIBM Systems Journal\n, Vol. 26, no. 3.\nThomas Erl, Zaigham Mahmood, Ricardo Puttini (2013).\nCloud Computing: Concepts, Technology & Architecture\n. Pearson Education.\nJeanne W. Ross, Peter Weill, David Robertson (2006).\nEnterprise Architecture as Strategy\n."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

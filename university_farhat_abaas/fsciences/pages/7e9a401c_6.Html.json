@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/IQ/6.html",
+      "title": "6.Html",
+      "id": "7e9a401c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:38",
+      "hash": "900117f55299bf42",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI. Introduction to Network Engineering\nII. Enterprise Network Architecture\nRequirement analysis\nThree-layer architecture: access layer, distribution layer and network core layer.\nDesign of secure network architecture: Standards and best practices\nProtocol identification and network mapping tool\nHigh availability of services: protocols and mechanisms\nPre-Sales Engineering and Solution Costing\nIII. Network services engineering for enterprises\nCentralisation of identities and authentication with LDAP\nDNS service: performance and security recommendations for domain name acquisition.\nEnterprise web server design and hardening\nTCP or UDP: challenges and evolution of transport layer (QUIC)\nIV. Network Layer Engineering\nThe choices to make: IPv4 or IPv6?\nThe evolution of the IP protocol :\n1. IPv6 addressing\n2. Neighbourhood Discovery Mechanism\n3. SLAAC and DHCPv6 mechanism\n4. Migration from IPv4 to IPv6 (Dual Stack, Tunneling, Translation)\nSDN approach (Software Defined Networking)\n1. Control plan\n2. Data plan.\n3. Advantage of the SDN approach\nChoice of routing protocol :\n1. Classification of routing mechanisms: internal and external routing\n2. Internal routing: OSPF and EIGRP.\n3. External Routing: BGP and Policy Routing.\n4. Performance of routing protocols: convergence time and overhead\n5. Current internet architecture, IXP (Internet exchange point), Data Center,\nInternet Governance, etc.\nV. QoS, Multimedia and Network Convergence\nIntroduction to QoS\nThe models of the QoS\nQoS mechanisms (Shaping, Policing, Queue Management, etc.\nToIP: QoS constraints and protocols (SIP, RTP, RTCP\nVideo streaming protocols: DASH, RTSP, HTTP3, etc."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

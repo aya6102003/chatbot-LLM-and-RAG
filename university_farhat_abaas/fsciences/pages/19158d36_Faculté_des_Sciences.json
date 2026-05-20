@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/632",
+      "title": "Faculté des Sciences",
+      "id": "19158d36",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:49:25",
+      "hash": "d21ee3fd349b0e72",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "ZENBOUT Imene\nZENBOUT Imene\nGrade:Maitre assistant classe B\nGrade:Maitre assistant classe B\nEmail:imene.zenbout@univ-setif.dz\nEmail:imene.zenbout@univ-setif.dz\nDépartement:Informatique\nBureau:\nBureau:\n\nassistant professor in computer science and bioinformatics at University Ferhat Abbas Sétif 1. I earned my baccalaureate in 2011, followed by a licensed degree in computer science (2013–2014) and a master’s in software engineering (2014–2016). I completed my Ph.D. in bioinformatics in February 2020.\nMy research focuses on bioinformatics, AI, deep learning, generative models, and NGS, especially in cancer prediction and drug discovery.\nJournaux (3)\nLeveraging ChatGPT for Enhancing Arabic NLP: Application for Semantic Role Labeling and Cross-Lingual Annotation Projection\nF Senator, A Lakhfif, I Zenbout, H Boutouta, C Mediani\nIEEEAccess, 13 (2025), pp 3707–3725.\nEfficient Bioinspired Feature Selection and Machine Learning Based Framework Using Omics Data and Biological Knowledge Data Bases in Cancer Clinical Endpoint Prediction\n. Imene Zenbout, B Abdelkrim, S Meshoul, M Amrane.\nIEEEAccess, 11 (2023), pp 2674–2699.\nA Systematic Literature Review of the Current Status and Future Prospects of Machine Learning Methods and Techniques Applied to Novel Drug Discovery.\nA Abdelkrim, A Bouramoul, I Zenbout. “\nInternational Journal of Organizational and Collective Intelligence (IJOCI), 0 (2022), pp 2022\nConferences Internationales (6)\nEnhancing IoT Security Through Deep Learning and Evolutionary Bio-Inspired Intrusion Detection in IoT Systems\nIE Bouramoul, S Zertal, M Derdour, I Zenbout\n6th International Conference on Pattern Analysis and Intelligent Systems (PAIS),, Algeria, (2024)\nClustering Educational Items from Response Data Using Penalized Pearson Coefficient and Deep Autoencoders\nH Khadidja, S Nassima, Z Imene\n2022, Algeria, (2022)\nMachine Learning Methods in Drug Discovery: A Selective Review\nA Abdelkrim, A Bouramoul, I Zenbout.\nInternational Conference on Theoretical and Applicative Aspects of Computer Science (ICTAACS), 2021, Algeria, (2021)\nStacked Sparse Autoencoder for Unsupervised Features Learning in Pancancer miRNA Cancer Classification.\nI Zenbout, A Bouramoul, S Meshoul\nICTAS, Algeria, (2020)\nTargeted Unsupervised Features Learning for Gene Expression Data Analysis to Predict Cancer Stage.\nI Zenbout, A Bouramoul, S Meshoul.\nTenth International Conference on Computational Systems Biology and Bioinformatics, , France, (2019)\nAdvanced Machine Learning Models for Large Scale Gene Expression Analysis in Cancer Classification: Deep Learning Versus Classical Models.\nI Zenbout, S Meshoul\nBig Data, Cloud and Applications (BDCA), 2018., Morroco, (2018)"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/uploads/page_professionnelle/image/632/thumb_imene.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S1-PRI.html",
+      "title": "Physique des Radiations I",
+      "id": "1e5b641d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:47",
+      "hash": "b297051a41f4439d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nFondamentale (UEF 1)  |\nCrédits :\n6  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs pédagogiques\nConnaissance parfaite des interactions des particules chargées et des photons dans la matière dans différentes gammes d'énergie ; Notions d'énergie transférée, absorbée. Calcul des interactions indirectes des photons et des interactions directes des électrons. Les grandeurs représentant les différents types d'interactions des particules chargées et neutres.\nPrérequis recommandés\nConnaissances en physique générale ; en physique quantique et semi-classique ; de préférence connaissance de la physique atomique.\nContenu de l'unité\n1- Aperçu de la physique moderne\nAperçu historique\nStructure atomique et nucléaire\nDésintégration radioactive\nNotion de section efficace\nMécanique quantique élémentaire\n2- Notions sur la physique atomique\nModèles atomiques (multi-électrons)\nRègles de sélection des transitions\nRelaxation atomique et production de rayonnement\nProduction de rayonnement par charges accélérées\n3- Interaction rayonnement matière\nInteractions photoniques\nInteractions neutroniques\nInteractions particules chargées\nDiffusion élastique multiple\nPouvoir de diffusion massique\nPouvoir d'arrêt massique\nPouvoir d'arrêt électronique massique (restricted and unrestricted stopping power)\nTransfert d'énergie linéaire (LET)\nRéférences bibliographiques\nPODGORSAK, E. B., Radiation Physics for Medical Physicists (Biological and Medical Physics, Biomedical Engineering), Springer, New York, USA (2010).\nANDREO, P., BURNS, D.T., NAHUM, A.E., SEUNTJENS, J., ATTIX, F.H., Fundamentals of Ionizing Radiation Dosimetry. Wiley-VCH, Weinheim, GERMANY (2017)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

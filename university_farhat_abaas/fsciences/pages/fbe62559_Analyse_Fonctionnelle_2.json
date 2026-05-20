@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S2-AF2.html",
+      "title": "Analyse Fonctionnelle 2",
+      "id": "fbe62559",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:31",
+      "hash": "9e9bed317f7311c3",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Analyse Fonctionnelle 2\nSemestre :\n2  |\nUnité d'enseignement :\nFondamentale\nVolume Horaire Hebdomadaire :\nCours : 3h, TD : 1h30\nCrédits :\n6  |\nCoefficients :\n3\nObjectifs de l'enseignement\nIntroduire les concepts de dualité et de topologies faibles, essentiels pour l'analyse non linéaire et le calcul des variations. Comprendre la notion de réflexivité et son application à la compacité faible.\nConnaissances préalables recommandées\nAnalyse Fonctionnelle 1.\nContenu de la matière\nChapitre 1 : Dualité Topologique et Opérateur Adjoint.\nChapitre 2 : Convergence forte, convergence faible et convergence faible étoile.\nChapitre 3 : Compacité Faible et Théorème de Banach-Alaoglu.\nChapitre 4 : Espaces Réflexifs et leurs propriétés.\nMode d'évaluation\nExamen final (60%), Contrôle Continu (40%)\nRéférences bibliographiques\nH. Brezis,\nFunctional Analysis, Sobolev Spaces and Partial Differential Equations\n. Springer, 2011.\nW. Rudin,\nFunctional Analysis\n. McGraw-Hill, 1991."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

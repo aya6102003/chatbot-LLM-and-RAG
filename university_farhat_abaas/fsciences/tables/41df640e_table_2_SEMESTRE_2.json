@@ -1,0 +1,145 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Master_AMA.html",
+  "title": "SEMESTRE 2",
+  "headers": [
+    "Unité d'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS14 Semaines",
+    "Mode d'évaluation",
+    ""
+  ],
+  "rows": [
+    [
+      "Unité d'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS14 Semaines",
+      "Mode d'évaluation",
+      ""
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Autres",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE FondamentaleCode : UEF 2Crédits : 18Coefficients : 9",
+      "Analyse fonctionnelle 2",
+      "6",
+      "3",
+      "3h00",
+      "1h30",
+      "",
+      "",
+      "63h00",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Distributions et Analyse de Fourier 2",
+      "6",
+      "3",
+      "3h00",
+      "1h30",
+      "",
+      "",
+      "63h00",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Analyse complexe avancée",
+      "6",
+      "3",
+      "3h00",
+      "1h30",
+      "",
+      "",
+      "63h00",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "UE MéthodologiqueCode : UEM 2Crédits : 9Coefficients : 5",
+      "Optimisation convexe",
+      "5",
+      "3",
+      "3h00",
+      "1h30",
+      "",
+      "",
+      "63h00",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Optionnel Y",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "",
+      "42h00",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "UE DécouverteCode : UED 2Crédits : 2Coefficients : 2",
+      "Choisir entre : Calcul scientifique / Deep learning for approximation theory",
+      "2",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "",
+      "42h00",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "UE TransversaleCode : UET 2Crédits : 1Coefficients : 1",
+      "Outils de Simulation numériques",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "",
+      "21h00",
+      "",
+      "100%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Optionnel Y à choisir parmi : Calcul fractionnaire, Méthode des éléments finis, Théorie du contrôle, Inéquations variationnelles, Vision artificielle."
+    ],
+    [
+      "Total Semestre 2",
+      "30",
+      "17",
+      "16h30",
+      "7h30",
+      "1h30",
+      "",
+      "357h00",
+      ""
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 8
+}

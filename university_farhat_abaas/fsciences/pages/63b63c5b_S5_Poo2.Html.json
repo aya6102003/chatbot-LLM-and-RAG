@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ET_IMAGERIE_MEDICALE/S5-POO2.html",
+      "title": "S5 Poo2.Html",
+      "id": "63b63c5b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:19",
+      "hash": "cf107b47b7acb9e4",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Intitulé de l'UE :\nMéthodologique\nIntitulé de la matière :\nProgrammation Orientée Objet 2\nCrédits :\n2\nCoefficient :\n1\nObjectifs du cours :\nApprofondir les concepts de la POO (héritage, polymorphisme, encapsulation).\nIntroduire les structures de données arborescentes (arbres binaires).\nContenu du cours :\nChapitre 1 : Programmation avancée orientée objet en Python\nHéritage : Classes mères et classes filles, super().\nPolymorphisme.\nEncapsulation et gestion de la visibilité.\nChapitre 2 : Structures de données arborescentes (en Python)\nArbres binaires : concepts et terminologie.\nImplémentation des arbres binaires.\nParcours des arbres binaires (avant ordre, dans l'ordre, après ordre).\nMode d'évaluation :\nContrôle continu (50%) et Examen (50%)\nRéférences bibliographiques :\nLuciano Ramalho,\nFluent Python\n(covers advanced Python OOP concepts).\nRobert Sedgewick and Kevin Wayne,\nAlgorithms\n(for deeper insights into tree data structures)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

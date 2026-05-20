@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S4-MECAQ.html",
+      "title": "Mécanique Quantique 1",
+      "id": "4486444c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:22",
+      "hash": "114a515bcc385616",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Mécanique Quantique I\nSemestre :\n4  |\nUE :\nFondamentale  |\nCrédits :\n4  |\nCoefficient :\n2\nObjectifs de l'enseignement\nÉtant la base de la physique théorique, la mécanique quantique est construite sur le formalisme mathématique et les postulats de la mécanique quantique pour l'explication des phénomènes quantiques et la description des particules élémentaires.\nConnaissances préalables recommandées\nCours de physique du L1.\nMathématiques L1 (équations différentielles, intégrales et algèbre linéaire).\nNotions sur les ondes (Module VOM du L3).\nContenu de la matière\nChapitre 1. Introduction aux phénomènes quantiques\nLe rayonnement du corps noir et l'hypothèse de Planck.\nL'effet photoélectrique.\nL'effet Compton.\nL'hypothèse de de Broglie et la dualité onde-corpuscule.\nL'expérience de Franck & Hertz et la quantification de l'énergie.\nChapitre 2. La description des particules en mécanique quantique\nLa notion de fonction d'onde et la description probabiliste des systèmes physiques.\nDensité de probabilité de présence et condition de normalisation.\nValeur moyenne et écart quadratique moyen de la position et de l'impulsion.\nMesure et incertitude sur la mesure de la position et de l'impulsion.\nLe principe d'incertitude d'Heisenberg.\nChapitre 3. L'équation de Schrödinger et étude de potentiels élémentaires à une dimension\nL'équation de Schrödinger et ses propriétés.\nForme des solutions stationnaires.\nÉtude du cas de la particule libre enfermée dans une boite de volume fini.\nÉtude du puits de potentiel de profondeur infinie.\nÉtude de la marche et de la barrière carrée de potentiel.\nCoefficients de réflexion et de transmission, effet tunnel.\nChapitre 4. Le formalisme mathématique de la mécanique quantique\nEspace de Hilbert, espaces des fonctions d'onde, espace des états.\nNotation de Dirac, opérateurs linéaires, opérateurs hermétiques.\nÉquations aux valeurs propres, observables, ECCO.\nReprésentation x et p, produit tensoriel d'espaces et d'opérateurs.\nChapitre 5. Les postulats de la mécanique quantique\nDescription de l'état d'un système et des grandeurs physiques.\nMesures des grandeurs physiques.\nÉvolution temporelle des systèmes.\nValeur moyenne d'une observable, écart quadratique moyen.\nÉvolution de la valeur moyenne d'une observable, théorème d'Ehrenfest.\nSystèmes conservatifs, fréquence de Bohr.\nRelation d'incertitude temps-énergie.\nChapitre 6. Une petite introduction à l'étude de l'oscillateur harmonique\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\nPolycopié 2020 faculté physique USTHB : Document téléchargeable sur : http://perso.usthb.dz/~lbouzar\nJ.L. Basdevant,\nMécanique quantique\n, Ed. Ellipses\nC. et H. Ngô,\nPhysique quantique\n, Ed Dunod\nJ.L. Basdevant,\nIntroduction à la physique quantique\n, Ed. de boeck 2017 Bruxelles\nY. Ayant et E. Belorizky,\nCours de mécanique quantique\n, Dunod\nC. Cohen-Tannoudji et al,\nMécanique quantique\nT1 et 2, Ed. Hermann\nPerez, Coples et Pujol,\nQuantique-Fondements et applications\n, Ed. de boeck 2013 Bruxelles\nE.D. Commins,\nQuantum mechanics: An experimentalist's approach\n, Cambridge University Press 2014\nF. Schwabl,\nQuantum mechanics\n(Third edition), Springer 2002"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L3/S5-RR.html",
+      "title": "Relativité Restreinte",
+      "id": "970f384e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:22",
+      "hash": "15c53256f1077db2",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Relativité Restreinte\nSemestre :\n5  |\nUnité d'enseignement :\nFondamentale\nConnaissances préalables recommandées\n(Notions de mécanique classique et d'électromagnétisme)\nProgramme détaillé\nChapitre 1 : De la relativité galiléenne à Einstein (1h30)\nRappels sur la relativité de Galilée : principe d'inertie, composition des vitesses\nLimites de la mécanique classique face à l'électromagnétisme\nRôle de l'éther : hypothèse d'un repère absolu\nExpérience de Michelson & Morley : mise en évidence de l'invariance de la vitesse de la lumière\nPostulats d'Einstein pour la relativité restreinte\nInvariance des lois physiques et de la vitesse de la lumière\nSimultanéité, contraction des longueurs, dilatation du temps\nChapitre 2 : Transformation de Lorentz (4h30)\nÉtablissement des transformations de Lorentz\nTransformation des vitesses et des accélérations\nInvariance de l'intervalle spatio-temporel et causalité\nTemps propre\nApplications : effet Doppler relativiste, aberration de la lumière\nChapitre 3 : Espace-temps de Minkowski et quadrivecteurs (3h)\nIntroduction à l'espace de Minkowski\nQuadrivecteur position, déplacement, vitesse et d'onde\nPropriétés générales des quadrivecteurs\nReformulation des lois de la cinématique en 4D\nChapitre 4 : Dynamique relativiste (6h)\nRappels sur la dynamique newtonienne\nPostulats de la dynamique relativiste\nQuadrivecteurs impulsion et force\nÉnergie cinétique relativiste\nRelation énergie-impulsion\nApplications : Photons, effet Compton, effet Čerenkov, collisions relativistes (élastiques, inélastiques, choc mou)\nChapitre 5 : Relativité et électromagnétisme (4h30)\nRappel des lois classiques : Lorentz, Faraday, Ampère-Maxwell\nTenseur électromagnétique : formulation relativiste\nQuadrivecteurs : densité de courant, quadri-potentiel\nInvariance et transformation des équations de Maxwell\nÉquation de continuité, matrice du champ électromagnétique\nChapitre 6 : Approche variationnelle (facultatif ou avancé, 3h)\nLagrangien relativiste pour le champ électromagnétique\nHamiltonien relativiste\nApplication à la dynamique des particules chargées\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\nJ.D. Jackson, Classical Electrodynamics, John Wiley and sons 1998\nJ. A. Edminister, Électromagnétisme : Cours et Problèmes.\nC. Semay et B. Silvestre-Brac, Relativité restreinte Bases et applications, Dunod 2005\nC. Grossetete, Relativité restreinte, Ellipses 1985\nYvan Simon, Relativité restreinte, Librairie Amand Colin 1971\nJ. Hladik et M. Chryosos, Introduction à la relativité restreinte, Dunod 2001\nV. Faraoni, Special relativity, Springer 2013\nR. Reisnick, Introduction to special relativity, J. Wiley and sons 1968\nP. Deneves, Propagation d'ondes : Exercices et Problèmes."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

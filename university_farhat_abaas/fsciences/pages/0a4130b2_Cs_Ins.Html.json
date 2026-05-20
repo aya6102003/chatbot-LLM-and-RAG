@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-INS.html",
+      "title": "Cs Ins.Html",
+      "id": "0a4130b2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:54:59",
+      "hash": "6e938ea1176e8579",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nStudents will be able to learn about the numerous security standards established by the worldwide sector. The different types of security applications utilized in industry.\nContenu de la matière\nInternet Protocol Suite (IP, ARP, TCP, DHCP, DNS, HTTP)\nSecurity at Network Layer (IPSec)\nSecurity at Transport Layer (SSL/TLS)\nSecurity at Application Layer (PGP, S/MIME)\nVPN\nFirewalls\nIntrusion Detection\nWireless Network Security\nMode d’évaluation : Contrôle continu, examen\nRéférences\nNetwork Security and Cryptography: Bernard Menezes, CENGAGE Learning.\nNetwork Security - Private Communication in a Public World by CharlienKaufman, Radia\nPerlman and Mike Speciner, Pearson/PHI."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

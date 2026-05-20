@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING2EME/ADO2.html",
+      "title": "Ado2.Html",
+      "id": "3bcf389b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:51",
+      "hash": "0a618cb114b84389",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI- LES MEMOIRES\nIntroduction\nTechnologie des m�moires � semi-conducteurs\nLes m�moires mortes\nLes ROM (Read Only Memory)\nLes PROM (Programmable ROM)\nLes EPROM (Erasable PROM) et EEPROM (Electrically Erasable PROM)\nApplications des m�moires mortes\nLes m�moires vives � acc�s al�atoire\nLes RAM statiques\nLes RAM dynamiques\nLes m�moires � acc�s s�quentiel\nLes m�moires FIFO (First In First Out)\nLes m�moires LIFO (Last In First Out)\nLes m�moires associatives\nDescription d\u0019une m�moire associative\nOp�rations sur une m�moire associative\nApplications des m�moires associatives\nExemples d\u0019utilisation d\u0019une m�moire associative\nLes m�moires cache ou m�moires tampon\nPrincipe des m�moires cache\nPrincipe de calcul des adresses physiques\nRemplacement d\u0019une information\nEcriture en m�moire cache\nTaille de la m�moire cache\nII- ORGANES LIES A UNE OPERATION D\u0019ENTREE/ SORTIE\nIntroduction\nLe p�riph�rique\nPrincipaux types de p�riph�riques\nQuelques exemples de p�riph�riques\nLe contr�leur de p�riph�rique\nArchitecture d\u0019un contr�leur\nInterface de dialogue avec l\u0019unit� centrale\nInterface de dialogue avec le p�riph�rique\nOrdres ex�cut�s par un contr�leur\nIII- LES MODES D\u0019ENTREE / SORTIES\nIntroduction\nModes d\u0019entr�es / sorties\nLe mode programm�\nMode par test d\u0019�tat\nMode par interruption\nL\u0019acc�s direct m�moire (DMA)\nCanal d\u0019Entr�es/Sorties\nProgramme canal\nArchitecture du canal\nCanal s�lecteur et canal multiplexeur\nIV- LES SYSTEMES D\u0019INTERRUPTION\nIntroduction\nDiff�rentes causes d\u0019interruption\nLes interruptions internes ou d�routements\nLes interruptions d\u0019entr�es/sorties\nLes interruptions mat�riels\nD�tection et prise en compte d\u0019une interruption dans un syst�me simple\nD�tection d\u0019une interruption\nSauvegarde du contexte\nRecherche de la cause de l\u0019interruption\nAcquittement de l\u0019interruption\nTraitement de l\u0019interruption\nRestauration du contexte du programme interrompu\nLes syst�mes hi�rarchis�s d\u0019interruptions\nInhibition, masquage et validation\nD�tection et prise en compte d\u0019une interruption dans un syst�me hi�rarchis�\nCodage des niveaux\nInterruptions vectoris�es\nV- LE SEQUENCEUR\nIntroduction\nLe s�quenceur c�bl�\nLe s�quenceur micro-programm�"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

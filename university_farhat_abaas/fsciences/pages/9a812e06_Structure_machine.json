@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_MATHS_APPLIQUEES/S1-STRUCTMACHINE.html",
+      "title": "Structure machine",
+      "id": "9a812e06",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:42",
+      "hash": "4283cecdec3efc9f",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Structure machine\nSemestre :\n01\nUnité d'enseignement :\nMéthodologique\nMatière :\nStructure machine\nCrédits :\n5\nCoefficient :\n3\nObjectifs de l'enseignement :\nUn premier but de cette matière est de présenter et d'approfondir les notions concernant les différents systèmes de numération ainsi que la représentation de l'information qu'elle soit de type numérique ou caractère. Les bases de l'algèbre de Boole sont, eux aussi, abordés de façon approfondie.\nUn deuxième but de cette matière est de permettre aux étudiants de connaître les méthodes de synthèse des circuits logiques combinatoires et séquentiels et d'acquérir les connaissances de base sur l'architecture des ordinateurs et le principe de fonctionnement de chacun de ses composants. Ces connaissances vont servir de plateforme pour d'autres aspects en relation avec l'ordinateur (programmation, systèmes d'exploitation, réseaux, …).\nConnaissances préalables recommandées :\nMathématiques élémentaires\nContenu de la matière :\nChapitre 1 : Introduction générale\nChapitre 2 : Les systèmes de numération\nDéfinition\nPrésentation des systèmes décimal, binaire, octal et hexadécimal.\nConversion entre ces différents systèmes.\nOpérations de base dans le système binaire : Addition, Soustraction, Multiplication, Division.\nChapitre 3 : La représentation de l'information\nLe codage binaire : Le codage binaire pur, Le code binaire réfléchi (ou code DE GRAY), Le code DCB (Décimal codé binaire), Le code excède de trois.\nReprésentation des caractères : Code EBCDIC, Code ASCII, Code UTF.\nReprésentation des nombres entiers : Représentation non signée, Représentation avec signe et valeur absolue, Complément à 1 (ou Complément restreint), Complément à 2 (ou Complément Vrai).\nLes nombres fractionnaires : Virgule fixe, Virgule flottante (norme IEEE 754).\nChapitre 4 : L'algèbre de Boole binaire\nDéfinition et axiomes de l'algèbre de Boole.\nThéorèmes et propriétés de l'algèbre de Boole.\nLes opérateurs de base : ET, OU, négation logique. Représentation schématique.\nAutres opérateurs logiques : Circuits NAND et NOR, Ou exclusif, Implication, Représentation schématique.\nTable de vérité.\nExpressions et fonctions logiques.\nEcriture algébrique d'une fonction sous première et deuxième forme normale.\nExpression d'une fonction logique avec des circuits NANDs ou NOR exclusivement.\nSchéma logique d'une fonction.\nSimplification d'une fonction logique : Méthode algébrique, Tableaux de Karnaugh, Méthode de quine-mc cluskey.\nMode d'évaluation :\nExamen (60%), contrôle continu (40%)\nRéférences :\nJohn R. Gregg, Ones and Zeros: Understanding Boolean Algebra, Digital Circuits, and the Logic of Sets, 1st Edition, Wiley & sons Inc. publishing, 1998, ISBN: 978-0-7803-3426-7.\nBradford Henry Arnold, Logic and Boolean Algebra, Dover publication, Inc., Mineola, New York, 2011, ISBN-13: 978-0-486-48385-6.\nAlain Cazes, Joëlle Delacroix, Architecture Des Machines Et Des Systèmes Informatiques : Cours et exercices corrigés, 3° édition, Dunod 2008."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

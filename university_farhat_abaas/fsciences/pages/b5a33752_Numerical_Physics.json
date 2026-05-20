@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S3-PN.html",
+      "title": "Numerical Physics",
+      "id": "b5a33752",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:01",
+      "hash": "5ddccb39508d7c4e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n3  |\nUE :\nMéthodologie (UEM 3)  |\nCrédits :\n1  |\nCoefficient :\n1\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs de l'enseignement\nAssurer une formation dans la modélisation mathématique et des outils et méthodes de programmation.\nContenu de la matière\nChapitre 1 : Méthode de Monte Carlo\nIntégration\nPhysique statistique\nMécanique quantique\nInteraction ion matière\nChapitre 2 : Dynamique Moléculaire\nAlgorithme de Verlet\nEvolution des systèmes à plusieurs corps\nThéorie de la fonctionnelle densité (DFT)\nChapitre 3 : Analyse spectrale\nTransformée de Fourier (FFT)\nOndelettes\nChapitre 4 : Méthodes d'optimisation\nMéthode du gradient conjugué\nAlgorithmes génétiques\nRecuit simulé (Simulated Annealing)\nRéférences bibliographiques\nAn introduction to Computer Simulation Methods, H. Gould et J. Tobochnik, Addison Wesley\nComputational Physics, N.J. Giordano et H. Nakanishi"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

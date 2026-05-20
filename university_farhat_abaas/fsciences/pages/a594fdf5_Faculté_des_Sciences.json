@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9006",
+      "title": "Faculté des Sciences",
+      "id": "a594fdf5",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:49:36",
+      "hash": "c25db1e3954d5d4e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nPLANNING DES EXAMENS FILIÈRE INGÉNIEUR\nMAJ: Session Normale Semestre 2: 2025/2026"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "ING",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6478/ING.pdf",
+        "local_file": "pdfs/a594fdf5_ING.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

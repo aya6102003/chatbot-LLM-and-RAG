@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S1-NSE.html",
+      "title": "Nucléaire comme source d'énergie",
+      "id": "da1d01bf",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:09",
+      "hash": "1799df0b6ae1903d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Nucléaire comme source d'énergie\nSemestre 1 – UE Découverte\nMode d'évaluation :\nContinu 100%\nObjectifs de l’enseignement\nComprendre les principes fondamentaux de la physique nucléaire appliquée à la production d’énergie.\nAnalyser les différents types de réacteurs nucléaires et leurs fonctionnements.\nÉvaluer les aspects thermodynamiques, économiques et environnementaux de l’énergie nucléaire.\nIntégrer la place du nucléaire dans le mix énergétique actuel et futur, en comparaison avec les énergies renouvelables.\nÉtudier les problématiques liées à la sûreté, la gestion des déchets et le cycle du combustible.\nConnaissances préalables recommandées\nUne initiation à la physique nucléaire (fission, réactions en chaîne) est indispensable.\nDes connaissances de base sur le fonctionnement des réacteurs et la sûreté nucléaire sont nécessaires.\nContenu de la matière :\n1. Principes fondamentaux de la physique nucléaire (3 semaines)\nStructure du noyau atomique, radioactivité, types de désintégrations.\nFission nucléaire : mécanismes, énergie de liaison, neutrons et réactions en chaîne.\nActivation neutronique et réactions neutroniques (diffusion, absorption).\nConcepts de criticité et contrôle de la réaction.\n2. Technologies des réacteurs nucléaires (2 semaines)\nTypes de réacteurs : REP, RBMK, EPR, réacteurs rapides, réacteurs à sels fondus.\nFonctionnement et composants principaux d’un réacteur.\nTransfert thermique, refroidissement, cycles thermodynamiques associés.\nSystèmes de contrôle et sécurité des réacteurs.\n3. Cycle du combustible et gestion des déchets (2 semaines)\nExtraction, enrichissement, fabrication du combustible.\nCycle combustible : fonctionnement, retraitement, recyclage.\nGestion des déchets nucléaires : types, stockage, impact environnemental.\n4. Aspects thermodynamiques et rendement énergétique (3 semaines)\nBilan énergétique des centrales nucléaires.\nComparaison avec autres sources d’énergie (fossile, renouvelables).\nOptimisation des cycles thermiques couplés aux réacteurs.\n5. Sûreté nucléaire et risques associés (2 semaines)\nAnalyse des risques : accidents, fuites, impacts sanitaires.\nNormes et réglementations internationales.\nMéthodes d’analyse probabiliste de sûreté.\nGestion de crise et mesures de prévention.\n6. Intégration du nucléaire dans le mix énergétique (2 semaines)\nContribution de l’énergie nucléaire à la transition énergétique.\nInteractions avec les énergies renouvelables et stockage d’énergie.\nPerspectives technologiques : fusion, micro-réacteurs, réacteurs de 4ème génération.\nEnjeux économiques, politiques et sociaux.\nRéférences\n[1] Glasstone, Samuel & Sesonske, Alexander — Nuclear Reactor Engineering, Springer, 2004.\n[2] IAEA — Nuclear Energy Basic Principles, International Atomic Energy Agency publications.\n[3] Lamarsh, John R. & Baratta, Anthony J. — Introduction to Nuclear Engineering, Pearson, 2001.\n[4] Till, C. E. & Chang, Y. I. — Plentiful Energy: The Story of the Integral Fast Reactor, 2011."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

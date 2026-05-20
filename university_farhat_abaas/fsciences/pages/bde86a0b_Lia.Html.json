@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/LIA.html",
+      "title": "Lia.Html",
+      "id": "bde86a0b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:32",
+      "hash": "49e7c698e1659511",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nLinear Algebra (LIA) — Semester 2, Unit UFM2, Credits: 5, Coeff: 3\nCourse Objectives\nDevelop logical reasoning skills and understand algebraic structures like sets, functions, and rings.\nPerform matrix operations and solve systems of linear equations using Gaussian elimination.\nUnderstand vector spaces, their basis, dimension, and apply the rank-nullity theorem.\nAnalyze linear transformations and their matrix representations, including kernel and image.\nUse change of basis techniques to simplify vector and transformation problems.\nCourse Content\n1. Foundations of Discrete and Algebraic Mathematics\nLogic and Reasoning\nSets, Functions, and Relations\nAlgebraic Structures\nPolynomial Ring\n2. Matrices and Systems of Linear Equations\nMatrix operations (addition, multiplication, inverse)\nDeterminants and properties of determinants\nGaussian elimination and echelon forms\nSystems of linear equations: consistency and uniqueness\n3. Vector Spaces\nDefinition of vector spaces and subspaces\nBasis and dimension\nRow space, column space, and null space of a matrix\nRank-nullity theorem\n4. Linear Transformations\nDefinition and properties of linear transformations\nMatrix representation of linear transformations\nKernel and image of a linear transformation\nChange of basis\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\nLinear Algebra and Its Applications by Gilbert Strang\nLinear Algebra Done Right by Sheldon Axler"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

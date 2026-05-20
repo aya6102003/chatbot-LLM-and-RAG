@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_MATERIAUX/S3-ATAI.html",
+      "title": "Advanced Topics in AI and Materials Science",
+      "id": "a1fe08db",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:12",
+      "hash": "5c3f04cd2709b258",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière :\nAdvanced Topics in AI and Materials Science\nUnité d'Enseignement :\nUE Méthodologie (UEM 21)\nSemestre :\nSemestre 3\nCrédits :\n2\nCoefficient :\n1\nVHS (15 semaines) :\n27h50\nCours :\nTD :\nTP :\n1h30\nMode d'évaluation :\nContinu : 50%  /  Examen : 50%\nSemestre 3\nUnité Méthodologie\nMatière : Advanced Topics in AI and Materials Science\nCourse Objectives:\nIntroduce more advanced AI and ML techniques, with an emphasis on real-world in materials science. Students\nwill deepen their understanding of AI-driven material discovery and design.\nCourse Content:\nAdvanced ML Techniques\nEnsemble methods (Random Forests, XGBoost, LightGBM).\nAdvanced regression and classification methods.\nDimensionality reduction: PCA, t-SNE, UMAP.\nExplainable AI and Trustworthy Models\nTrust in AI for materials discovery: explainability, transparency.\nSHAP, LIME for model interpretability.\nAdvanced Applications in Materials Science\nInverse design for material discovery using AI.\nPredicting material properties (elastic moduli, superconductivity, etc.).\nMultiscale modeling: combining AI with molecular dynamics or density functional theory (DFT).\nCapstone Project\nStudents will complete a project where they apply AI/ML to solve a materials science problem, using the\nskills learned throughout the semester.\nRecommended Textbooks:\n\"Machine Learning for Materials Science\" by Jha et al. (directly relates to AI in materials science)\n\"Data Science for Materials Discovery\" by K. A. Persson, et al. (focused on machine learning applications\nin materials science)\n\"Materials Informatics: Methods, Tools, and Applications\" by Rajiv S. Mishra (further extends ML\ninto material discovery)\nTools & Libraries:\nPython, Jupyter Notebooks\nTensorFlow, PyTorch, Scikit-learn\nMatminer, Pymatgen, ASE, CGCNN\n41"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_MATERIAUX/S1-ELOS.html",
+      "title": "Exploration de logiciels libres et open source de la spécialité",
+      "id": "c29c2f92",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:17",
+      "hash": "8b23e68fe8c905f8",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière :\nExploration de logiciels libres et open source de la spécialité\nUnité d'Enseignement :\nUE Méthodologie (UEM 1)\nSemestre :\nSemestre 1\nCrédits :\n2\nCoefficient :\n1\nVHS (15 semaines) :\n27h30\nCours :\nTD :\nTP :\n1h30\nMode d'évaluation :\nContinu : 50%  /  Examen : 50%\nSemestre 1\nIntitulé de l’unité : Méthodologie\nIntitulé de la matière : Exploration de logiciels libres et open source en Physique des matériaux\nObjectifs de l’enseignement :\nInitier les étudiants à l’utilisation de logiciels libres et open source adaptés à la simulation, la modélisation\net l’analyse des matériaux.\nComprendre le rôle des outils numériques dans l’étude structurale, thermique, mécanique et\nspectroscopique des matériaux.\nDévelopper des compétences pratiques en visualisation, manipulation de structures, calculs ab initio et\ndynamique moléculaire.\nConnaissances préalables recommandées :\nConnaissances de base en structure de la matière, physique quantique et thermodynamique des matériaux\nFamiliarité souhaitée avec un environnement de type Linux ou Python\nProgramme pédagogique :\nChapitre I. Introduction aux logiciels open source en science des matériaux\nPhilosophie open source, licences logicielles (GNU, MIT, BSD)\nPrésentation générale des outils numériques libres en modélisation moléculaire et simulation de matériaux\nEnvironnement de travail recommandé : Ubuntu/Linux, gestion des packages\nChapitre II. Visualisation et manipulation de structures cristallines\nIntroduction à VESTA, Avogadro, ASE (Atomic Simulation Environment)\nConstruction de cellules cristallines, visualisation de défauts, supercellules\nReprésentation de polymères et structures amorphes\nChapitre III. Méthodes de calcul ab initio (DFT)\nPrincipes de la théorie de la fonctionnelle de la densité (DFT)\nIntroduction à Quantum ESPRESSO et ABINIT : fichiers d’entrée, paramètres, convergence\nCalculs SCF, relaxations, structure électronique\nChapitre IV. Dynamique moléculaire\nPrésentation de LAMMPS\nSimulation de l’évolution thermique d’un cristal ou polymère\nThermostats, barostats, champs de force : Lennard-Jones, EAM, OPLS\nChapitre V. Analyse de propriétés physiques des matériaux\nCalculs de propriétés mécaniques (module d’élasticité), thermiques (conductivité, Tg estimée)\nCorrélations structure-propriétés : visualisation des trajectoires (VMD, OVITO)\nChapitre VI. Spectroscopie numérique\nIntroduction à ORCA pour la simulation de spectres IR, Raman, UV-Vis\nSimulation de petites molécules, clusters ou monomères\nComparaison avec les spectres expérimentaux\nChapitre VII. Diffraction des rayons X et affinement cristallographique\nLogiciels : GSAS-II, FullProf\n15\nIndexation des pics, affinement de paramètres de maille, taille des cristallites\nChapitre VIII. Analyse et traitement de données scientifiques\nUtilisation de Python (numpy, matplotlib, pandas) pour analyser des données de simulation\nReprésentation de spectres, calculs de densité de probabilité, histogrammes\nIntroduction au scripting pour automatiser les traitements\nChapitre IX. Mini-projet de simulation ou de traitement numérique\nApplication individuelle ou en binôme sur un cas concret : structure, spectre ou propriété d’un matériau\nRapport de synthèse et présentation des résultats\nRéférences complémentaires recommandées :\nGiannozzi P. et al., \"Advanced capabilities for materials modelling with Quantum ESPRESSO\", J. Phys. Condens.\nMatter, 2017.\nFrenkel D., Smit B., \"Understanding Molecular Simulation\", Academic Press, 2002.\nLeach A.R., \"Molecular Modelling: Principles and Applications\", Pearson, 2001.\nDocumentation officielle : https://www.quantum-espresso.org, https://www.lammps.org,\nhttps://orcaforum.cec.mpg.de\nMaterials Project : https://materialsproject.org – base de données et ressources éducatives\n16"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

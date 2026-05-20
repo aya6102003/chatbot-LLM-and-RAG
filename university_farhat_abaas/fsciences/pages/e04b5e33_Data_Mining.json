@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S7-DATAMINING.html",
+      "title": "Data Mining",
+      "id": "e04b5e33",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:30",
+      "hash": "9a620d45d61373a9",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Data Mining\nSemestre : S7\nUnité d’enseignement : UEF2\nMatière : Data-Mining\nCrédits : 5\nCoefficient : 3\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement\nCe cours permettra aux étudiants de comprendre les concepts clés du data-mining et d'apprendre à\npréparer et explorer les données pour leur bonne exploitation.\nLes étudiants apprendront aussi les différentes techniques de data-mining telles que l'apprentissage\nsupervisé (régression, classification) et non supervisé (clustering et recherche des associations).\nLes étudiants apprendront également à évaluer les modèles et à choisir le modèle le plus approprié.\nLes travaux pratiques permettront aux étudiants d'appliquer les techniques de data-mining à des\nproblèmes réels dans divers domaines tels que la santé, la finance, le marketing, etc.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\nEntrepôts de données, Bases de données, Mathématiques (Analyse, Probabilités et statistiques).\nContenu de la matière\nChapitre 1 : Données, informations et connaissance\n• Définitions générales\n• Les types de connaissance\n• Les enjeux de la connaissance\nChapitre 2 : Introduction au data mining\n• Définitions et concepts clés\n• Domaines d'application du data mining\n• Les différentes étapes du processus de data mining\nChapitre 3 : Préparation des données\n• Collecte de données\n• Nettoyage des données\n• Sélection des données.\n• Transformation, normalisation des données\n• Détection d’outliers\n• Le fléau de la dimension\n• Les Principales techniques de la réduction\n• Etude de benchmarks de data mining\nChapitre 4 : Tâches et techniques du data mining\n• Apprentissage non supervisé\n▪ Extraction des règles d'association (A priori, Eclat, FPgrowth, Charm Mafia, GenMax, )\n▪ Clustering\n- Par partionnement : K-Means, PAM\n- Hiérarchique : AGNES, DIANA\n- Par densité : DBSCAN\n- Les mesures de performances du clustering\n• Apprentissage supervisé :\n▪ Méthodes de régression (uni et multivariée) et descente du gradient\n▪ Classification:\n- Régression logistique\n- Les plus proches voisins : K_NN\n- La méthode Naive Bayes\n- Les arbres de décision : C4.5, CART, CHAID\n• Évaluation des classificateurs\n- Mesures de performance\n- Validation croisée\n- Sur-apprentissage, régularisation\n- Interprétation des résultats\nChapitre 5 : Technologies avancées du datamining\n• SVM (Machines à vecteurs de support)\n• Random Forest\n• Réseaux de neurones\n- Perceptron\n- MLP (Multi layer Perceptron ) et Rétropropagation\n• Deep learning\n- RNN (Recurrent Neural Network) ET LSTM\n- CNN (Convolutional Neural network)\n- Transformers\nChapitre 6: Data mining distribué\n• Intérêt de la distribution\n• Distribution des données\n• Approches hybrides (Traitement distribué, multi-agent)\nChapitre 7 : Text mining\n• Analyse sémantique latente (LSA )\n• Topic modeling et LDA (Latent Dirichlet Allocation)\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nBibliographie\n1) Han, J., & Kamber, M. (2006). Data mining: Concepts and techniques (2nd ed.). Morgan Kaufmann\nPublishers.\n2) Han, J., Pei, J., & Kamber, M. (2011). Data mining: Concepts and techniques (3rd ed.). Morgan\nKaufmann Publishers.\n3) Grossman, R. L., & Horn, W. (2004). A survey of data mining software tools. SIGKDD Explorations,\n6(1), 20-33.\n4) Witten, I. H., & Frank, E. (2005). Data mining: Practical machine learning tools and techniques (2nd\ned.). Morgan Kaufmann Publishers.\n5) Tan, P. N., Steinbach, M., & Kumar, V. (2005). Introduction to data mining (1st ed.). Addison-\nWesley.\n6) Aggarwal, C. C. (2015). Data mining: The textbook (1st ed.). Springer.\n7) Daniel T.Larose, Chantal D. Larose, Data mining Découverte de connaissances dans les données,\n2ième Ed., Vuibet. 2018.\n8) Avrim Blum, John Hopcroft, and Ravindran Kannan, Foundations of Data Science, 2018.\n9) UCI machine learning repository https://archive.ics.uci.edu/ml/index.php\n."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

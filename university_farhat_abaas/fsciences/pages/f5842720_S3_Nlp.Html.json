@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S3-NLP.html",
+      "title": "S3 Nlp.Html",
+      "id": "f5842720",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:46",
+      "hash": "f0ae5a5f8af3ff01",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Natural Language Processing\nSemester:\n3  |\nType:\nUEM31  |\nVHS:\n63h  |\nWeekly hours:\n4h30  |\nLecture:\n1h30  |\nTutorial:\n1h30  |\nLab:\n1h30\nPersonal work VHS:\n42h  |\nCoefficient:\n2  |\nCredits:\n5\nTeaching Objectives\nNatural Language Processing (NLP) aims to develop tools and methods capable of apprehending the semantics of natural language to facilitate knowledge acquisition and exploitation. The objective of this module is to present the problems posed for NLP and the main models for analysing, synthesising, exploiting, and producing documents.\nCourse Content (21h)\nChapter I – Introduction to NLP\nBrief history and evolution of the field\nMajor NLP challenges: ambiguity, implicit meaning, linguistic variability\nApplication domains and current issues\nChapter II – Linguistic Processing Levels\nPresentation of different levels: from low-level to semantic processing\nImportance of modular processing structure\nChapter III – Lexical Level\nObjectives of lexical processing\nLexical access: dictionaries, lemmatisation, lexemes\nIntroduction to morphology: inflection, derivation, affixation\nChapter IV – Syntactic Level\nSyntax notions and formal grammars\nSyntactic constituents and sentence structures\nParaphrases and syntactic reductions\nSyntax trees and bottom-up/top-down analysis\nTypical problems in syntactic processing\nChapter V – Semantic Level\nConceptual representations of meaning\nLimitations of functional representations (frames, first-order logic)\nSyntax-semantics interface: meaning carriers, thematic roles\nChapter VI – Pragmatic Level\nIntention, context, speech acts\nContextual interpretation and implicit meaning management\nCoherence and pragmatic inference\nChapter VII – NLP Applications\nDocument processing: indexing, summarisation, classification\nAutomatic document production: text generation, synthesis\nNatural interfaces: conversational agents, chatbots, question-answering\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — written tests, personal work\nBibliography\nDaniel Jurafsky & James H. Martin (2000).\nSpeech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics and Speech Recognition\n. 1st Edition. ISBN-10: 0130950696."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

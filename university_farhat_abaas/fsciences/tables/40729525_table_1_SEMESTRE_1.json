@@ -1,0 +1,169 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/MCH.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n14 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n14 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale 1    \nCrédits : 12\nCoefficients : 6",
+      "Chimie physique moléculaire et quantique",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Cinétique et thermodynamique approfondies",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Electrochimie approfondie",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 2    \nCrédits : 6\nCoefficients : 3",
+      "Méthodes structurales d’analyse",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Méthodes d’élaboration des matériaux en couches minces",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie \nCrédits : 9Coefficients : 5",
+      "TP Chimie-physique",
+      "5",
+      "3",
+      "",
+      "",
+      "4h30",
+      "67h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "TP Chimie minérale",
+      "4",
+      "2",
+      "",
+      "",
+      "3h",
+      "45h",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE DécouverteCrédits : 1Coefficients : 1",
+      "Chimie organique approfondie",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversaleCrédits : 2Coefficients : 2",
+      "Analyse de données en chimie",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Anglais",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "17",
+      "12h",
+      "6h",
+      "7h30",
+      "382h30",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 13,
+  "col_count": 7
+}

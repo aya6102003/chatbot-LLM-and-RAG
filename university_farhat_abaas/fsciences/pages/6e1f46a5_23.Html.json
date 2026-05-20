@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/Chimie_Analytique_et_Qualite/23.html",
+      "title": "23.Html",
+      "id": "6e1f46a5",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:06",
+      "hash": "03a6577a03216763",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\n1. Bases thermodynamiques. Rappel de notions fondamentales sur le corps pur.\nClassification des solides.\n2. Les diff�rentes techniques calorim�triques.\n- Techniques individuelles\na- Analyse Thermique simple.\nb- Analyse Thermique diff�rentielle (ATD)\nc- Analyse enthalpique diff�rentielle (DSC), DSC modul�e MDSC\nd- Analyses thermogravimetries (ATG); ATG /DTG\ne- DMA, TMA : Analyse thermom�canique\nf- Microcalorim�trie\n-Techniques simultan�es : TG/ATD, TG/DSC, TG/DTG/ATD, TG/DTG /DSC\n- Techniques coupl�es : TG-IRTF, TG-DSC-MS, DSC-Chromatographie\n3. Applications :\n- D�termination de la temp�rature de cristallisation, de transition vitreuse, chaleur sp�cifique (Cp),\nde l'enthalpie de r�action et des transformations de phase des produits chimiques."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

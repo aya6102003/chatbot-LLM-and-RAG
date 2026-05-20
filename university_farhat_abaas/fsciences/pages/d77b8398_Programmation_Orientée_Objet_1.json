@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S4-POO1.html",
+      "title": "Programmation Orientée Objet 1",
+      "id": "d77b8398",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:23",
+      "hash": "09b38a44808f8fa3",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Programmation Orientée Objet 1\nSemestre :\n4  |\nUE :\nTransversale  |\nCrédits :\n1  |\nCoefficient :\n1\nObjectifs du cours\nÉtudier les structures de données avancées telles que les listes chaînées, les piles et les files d'attente.\nIntroduire les concepts fondamentaux de la programmation orientée objet (POO).\nContenu du cours\nChapitre 1 : Structures de données linéaires avancées (en Python)\nListes chaînées : Concepts et implémentation de base.\nPiles : Concepts et implémentation (LIFO).\nLes files d'attente : Concepts et implémentation (FIFO).\nChapitre 2 : Introduction à la programmation orientée objet (POO) en Python\nConcepts fondamentaux : Classes, objets, attributs, méthodes.\nClasses et objets : __init__, __str__, __repr__, __del__, etc. : définition, rôle et utilisation.\nCréation et utilisation de classes simples.\nMode d'évaluation\nExamen : 100%\nBibliographie\nThomas H. Cormen et al.,\nIntroduction to Algorithms\nMagnus Lie Hetland,\nPython Algorithms\n(great for learning advanced algorithms in Python)\nLuciano Ramalho,\nFluent Python\n(ideal for deep diving into OOP and Pythonic best practices)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

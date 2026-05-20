@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S3-MECA.html",
+      "title": "Mécanique Analytique",
+      "id": "8246f593",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:23",
+      "hash": "52e101172b6092c0",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Mécanique Analytique\nSemestre :\n3  |\nUE :\nFondamentale  |\nCrédits :\n6  |\nCoefficient :\n3\nConnaissances préalables recommandées\nAlgèbre des Vecteurs-Tenseurs\nGéométrie\nÉquations différentielles\nIntégrales\nObjectifs de l'enseignement\nLa connaissance des fondements de la mécanique classique, que ce soit à l'échelle du point matériel (mécanique du point) ou à l'échelle du solide (mécanique du solide), par l'enseignement des formalismes de Lagrange et d'Hamilton.\nContenu de la matière\nChapitre 1 : Rappels de mécanique classique\nCinématique d'une particule.\nDynamique d'une particule.\nTravail et énergie.\nSystèmes à N particules et forces extérieures.\nDegrés de liberté.\nChapitre 2 : Formalisme de Lagrange\nCoordonnées généralisées. Variation fonctionnelle.\nLe Lagrangien.\nCoordonnées curvilignes.\nContraintes holonomes et non holonomes.\nApplications : Particule dans un champ gravitationnel, particule liée à un ressort, problème à deux corps, le potentiel central.\nChapitre 3 : Formalisme de Hamilton\nTransformation de Legendre.\nL'Hamiltonien.\nVariables canoniques et crochets de Poisson.\nMoments généralisés. Transformations canoniques.\nLa méthode de Hamilton-Jacobi.\nL'espace des phases.\nVariables angle-action et fonction génératrice.\nSystèmes intégrables.\nChapitre 4 : Mouvement d'un solide indéformable\nDegrés de liberté d'un solide.\nÉnergie cinétique.\nAxes principaux et tenseur d'inertie.\nMoment cinétique d'un solide.\nApproche vectorielle et équations d'Euler.\nApproche Lagrangienne et angles d'Euler.\nToupie symétrique.\nChapitre 5 : Mécanique Lagrangienne des milieux continus\nLe passage à la limite continue.\nThéorie classique des champs.\nÉquations d'Euler-Lagrange du champ.\nChapitre 6 : Théorème de Liouville. Équation de Hamilton-Jacobi.\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\nWalter Greiner,\nClassical Mechanics Systems of Particles and Hamiltonian Dynamics\nL. Landau et E. Lifchitz,\nMécanique\nMurray R. Spiegel,\nSchaum's Outline of Theoretical Mechanics with an introduction to Lagrange's Equations and Hamiltonian Theory\nDonald T., Greenwood,\nAdvanced Dynamics"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

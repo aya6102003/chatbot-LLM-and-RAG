@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/493",
+      "title": "Faculté des Sciences",
+      "id": "081e8e65",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:47:30",
+      "hash": "137688473580e2a9",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "KEBICHE Zineddine\nKEBICHE Zineddine\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:zineddine.kebiche@univ-setif.dz\nEmail:zineddine.kebiche@univ-setif.dz\nDépartement:Physique\nBureau:\nBureau:\n\nTP Mécanique des fluides\nPolycopie de TP\nFluide non newtonien -cour-\nPolycopie de cours\nCour Physique\nPolycopie de cours\ncour mécanique des fluides L2 physique\nPolycopie de cours"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "473",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/473",
+        "type": "internal"
+      },
+      {
+        "text": "844",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/844",
+        "type": "internal"
+      },
+      {
+        "text": "845",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/845",
+        "type": "internal"
+      },
+      {
+        "text": "2312",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2312",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/081e8e65_table_1_untitled.json",
+        "rows": 4
+      }
+    ]
+  }
+}

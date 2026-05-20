@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-CS.html",
+      "title": "Cs Cs.Html",
+      "id": "75f5894d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:30",
+      "hash": "af7357cacaf244cb",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nCloud computing is an emerging revolution that provides computing and storage services of remote servers through a network. In this course, you will analyze possible security issues in the cloud environment and identify appropriate levels of security. You will gain experience with tools and techniques that prevent and mitigate the security threats and learn how to architect and configure security-related features in a cloud platform.\nContenu de la matière\nIntroduction to cloud security\nSecurity issues and requirements\nIdentity and access management (IAM)\nSecurity tools and services\nTPs\nIntroduction to OpenStack platform, management of resources, analysis of security flaws, and deployment of security policies.\nMode d’évaluation : Contrôle continu, examen Références\n• •\nDotson, C. Practical cloud security: a guide for secure design and deployment. O'Reilly Media.\nMishra, P., Pilli, E. S., & Joshi, R. C. Cloud Security: Attacks, Techniques, Tools, and Challenges."
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "blob:https://www.univ-setif.dz/442edc10-25cd-4719-8095-f275f27eefe9",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "blob:https://www.univ-setif.dz/fbcacb5c-9344-4f8a-8f92-452e086e9a14",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "blob:https://www.univ-setif.dz/e644296e-c4fa-4654-9b1b-d87f64482dfe",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

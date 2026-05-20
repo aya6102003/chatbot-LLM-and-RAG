@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIM_ANAL_CONTROLE_QUALITE/S2-MPCA2.html",
+      "title": "S2 Mpca2.Html",
+      "id": "0b0e2da5",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:21",
+      "hash": "aa2f4e398eb16369",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Méthodes Physico-Chimiques d'Analyse II\nSemestre :\n2  |\nUE :\nFondamentale  |\nCrédits :\n4  |\nCoefficients :\n2\nObjectifs de l'enseignement\nPermettre à l'étudiant d'opter pour la meilleure technique séparative et d'optimiser des conditions d'analyse\nConnaissances préalables recommandées\nL'étudiant doit avoir suivi les enseignements sur les méthodes physiques d'analyse\nContenu de la matière\n1. Chromatographie\nThéorie de la chromatographie : notions de facteur de rétention, sélectivité, résolution, efficacité, diffusions\nÉquation de van Deemter\nChromatographie en phase gazeuse : gaz vecteurs, colonnes et phases stationnaires, détecteurs, dérivation, mise au point et optimisation des conditions d'analyse. Exemples de séparation\nChromatographie liquide haute performance : instrumentation (solvants, pompes, injecteurs, colonnes, détecteurs). Modes de séparation : exclusion stérique, échange d'ions, adsorption, partage. Pour chaque mode de séparation : description des phases stationnaires, des phases mobiles et des facteurs à optimiser lors de l'analyse. Exemples de séparation\nIntroduction à d'autres méthodes séparatives : chromatographie en phase supercritique, électrophorèse capillaire\n2. Spectroscopie de Masse\nPrincipe\nTechniques d'ionisation moléculaires : EI, CI, FAB, ESI, MALDI\nInterprétation d'un spectre de masse par ionisation électronique (IE)\nSpectres de masse de quelques classes chimiques\nStructure d'un spectromètre de masse\nUtilité de la spectrométrie de masse\nApplications de la spectroscopie de masse à l'analyse moléculaire, la détection de trace, la composition isotopique\nCouplage GC/MS et LC/MS\nAnalyse quantitative en spectrométrie de masse\nMode d'évaluation\n33% Contrôle continu + 67% Examen\nRéférences bibliographiques\nMéthodes instrumentales d'analyse chimique et applications (4e éd.), BURGOT Gwenola, BURGOT Jean-Louis, LAVOISIER, 2006\nPrincipes d'analyse instrumentale, Douglas Arvid Skoog, F. James Holler, Timothy A. Nieman, De Boeck Supérieur, 2003\nLa spectrométrie de masse en couplage avec la chromatographie en phase gazeuse, BOUCHONNET Stéphane, LAVOISIER, 2009\nArdrey, Liquid chromatography Mass Spectrometry : An introduction, John Wiley & Sons, 2004\nJ. Cazes, Encyclopedia of Chromatography 2004 Update Supplement, CRC, 2004"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

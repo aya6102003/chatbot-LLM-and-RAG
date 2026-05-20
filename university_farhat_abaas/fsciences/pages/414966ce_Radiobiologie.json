@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S3-RB.html",
+      "title": "Radiobiologie",
+      "id": "414966ce",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:49",
+      "hash": "2a2a351da171faba",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n3  |\nUE :\nFondamentale (UEF 3)  |\nCrédits :\n6  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs pédagogiques\nAcquérir des connaissances sur les dommages et cassures au niveau de l'ADN. Effets des sources TLE élevées et faibles sur la matière vivante ; courbes de survie cellulaire, fractionnement et les 5Rs de la radiothérapie. L'EBR et son effet sur la thérapie. Courbes dose-réponse. Les expositions totales…\nContenu de l'unité\n1- Notions de base sur le cancer et le rôle de la radiothérapie\nCaractéristiques du cancer\nOncogènes, gènes de suppression tumorale et gardiens du génome\n2- Interaction des rayonnements ionisants avec les systèmes biologiques\nÉchelle temporelle des effets\nClassification des effets\nCycle cellulaire et radiosensibilité\nTransfert d'énergie linéaire (LET)\n3- Dommages induits par les radiations et réponse aux dommages à l'ADN\nRupture simple brin et ruptures double brin\nCapteurs de dommages à l'ADN\nSignalisation des dommages à l'ADN\nVoies effectrices\nMort cellulaire après irradiation : comment, quand et pourquoi les cellules meurent\nQuantification de la survie cellulaire : essais clonogènes\nCourbes de survie cellulaire\nModèles (modèle quadratique linéaire, potentiel léthal, etc.)\n4- Efficacité biologique relative (RBE)\nRBE et dose, débit de dose et LET\nRBE pour les tumeurs et les tissus normaux\nEffet de l'oxygène\n5- Modèles de dose radiobiologique\nProbabilité de contrôle des tumeurs (TCP)\nProbabilité de complications des tissus normaux (NTCP)\nDoses et volumes de tolérance (Analyse quantitative des effets sur les tissus normaux)\n6- Fractionnement\nL'approche quadratique linéaire\nDose équivalente en fractions de 2 Gy (EQD2)\nDose biologiquement efficace (BED)\nRéparation incomplète et irradiation continue\nHypo- et hyper-fractionnement en radiothérapie\nTravaux pratiques\nMesure d'une courbe de survie\nCourbes TCP et NTCP\nEffet de l'oxygène\nRéférences bibliographiques\nJOINER, M.C., VAN DER KOGEL, A.J., (Eds), Basic Clinical Radiobiology 5th edition, CRC Press (2019).\nHALL, E.J., AND GIACCIA, A. Radiobiology for the Radiologist, Lippincott Williams & Wilkins, Philadelphia, US, 8th Ed. (2018).\nLEHNERT, S., Biomolecular Action of Ionizing Radiation (Series in Medical Physics and Biomedical Engineering), Taylor and Francis, USA (2007).\nINTERNATIONAL ATOMIC ENERGY AGENCY, Radiation Biology: A Handbook for Teachers and Students, Training Course Series, No. 42, IAEA, Vienna (2010).\nICRP, 2007. The 2007 Recommendations of the International Commission on Radiological Protection. ICRP Publication 103. Ann. ICRP 37 (2-4)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

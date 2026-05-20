@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9110",
+      "title": "Faculté des Sciences",
+      "id": "be2915cc",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:48:14",
+      "hash": "63278de25c7451f5",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nPLANNING DES CONSULTATION DES COPIES D’EXAMENS-SEMESTRE 2\nFichier 1:\nFichier 2:"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Planning Consultations des copies d Exam L2 L3 M1 S2   2025 2026",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6527/Planning_Consultations_des_copies_d_Exam_L2_L3_M1_S2___2025-2026.pdf",
+        "local_file": "pdfs/be2915cc_Planning_Consultations_des_copies_d_Exam.pdf"
+      },
+      {
+        "title": "Planning Consultations des copies d Exam L2 L3 M1 S2   2025 2026",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6528/Planning_Consultations_des_copies_d_Exam_L2_L3_M1_S2___2025-2026.pdf",
+        "local_file": "pdfs/be2915cc_Planning_Consultations_des_copies_d_Exam.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

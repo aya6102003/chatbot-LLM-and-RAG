@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-DACS.html",
+      "title": "Cs Dacs.Html",
+      "id": "5054ec0d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:55:00",
+      "hash": "50dedbb15562fdcb",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nData Analytics for Cyber Security is for cybersecurity students and professionals interested in learning data science approaches that are crucial for addressing cybersecurity challenges, as well as data science students and professionals interested in learning about cybersecurity adaptations. Are you attempting to create a virus detector, a phishing email detector, or simply looking for trends in your datasets.\nContenu de la matière\nBasics and Security Analytics\nFundamental data analytics using Python\nStatistics for cyber security\nUnsupervised Learning for cyber security\nSupervised Learning for cyber security\nPacket analysis for security\nNetwork package analysis and DDoS attacks\nMode d’évaluation : Contrôle continu, examen Références\nSecurity Analytics A Data Centric Approach to Information Security, Mehak Khurana, Shilpa Mahajan\nCybersecurity Analytics, Rakesh M. Verma, David J. Marchette"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S2-TPTHERMO.html",
+      "title": "TP Thermodynamique",
+      "id": "a8505b86",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:09",
+      "hash": "06332b208a97539d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "TP Thermodynamique\nSemestre 2 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nRemarques : Le contenu de cette matière n'est pas exhaustif compte tenu du matériel disponible\nObjectifs de l’enseignement :\nPermettre aux étudiants de mettre en œuvre les lois fondamentales de la thermodynamique à travers des\nexpériences pratiques. Développer une compréhension approfondie des transformations thermiques, des\nmélanges gazeux et des cycles moteurs via des manipulations en laboratoire. Apprendre à concevoir un\nprotocole expérimental, collecter des données fiables, effectuer une analyse critique et les comparer aux\nmodèles théoriques.\nConnaissances préalables recommandées :\nNotions de base en thermodynamique (premier et deuxième principes)\nLois des gaz parfaits, enthalpie, entropie\nTransfert de chaleur (conduction, convection, rayonnement)\nBases en instrumentation scientifique et traitement de données\nContenu de la matière :\n1. Détermination de l’exposant adiabatique de l’air\nManipulation avec détente rapide d’un gaz\nMesure des variations de pression et température\nCalcul de γ = Cp/Cv pour l’air\n2. Vérification de la loi de Dalton sur le mélange des gaz\nMélange de deux gaz dans un volume commun\nMesure des pressions partielles et totale\nAnalyse de la validité de la loi de Dalton\n3. Détermination de la chaleur latente de vaporisation de l’eau\nMesure de la quantité de chaleur nécessaire à la vaporisation\nUtilisation d’un calorimètre ou montage équivalent\nInterprétation des pertes thermiques\n4. Étude expérimentale d’une turbine à gaz\nMontage simplifié d’un mini-cycle Brayton\nMesures des températures, pressions et puissance\nCalcul du rendement isentropique et du travail spécifique\n5. Étude des diagrammes thermodynamiques\nUtilisation du diagramme de Mollier et des tables de vapeur\nReprésentation des transformations sur ces diagrammes\n6. Étude du cycle frigorifique\nMesure des paramètres d’un compresseur\nCalcul de l’effet frigorifique et du COP (Coefficient of Performance)\n7. Calorimétrie et bilan énergétique\nBilans thermiques simples (échangeurs, réacteurs, etc.)\nUtilisation de capteurs de température et débitmètre\nComparaison entre valeurs théoriques et mesures\n8. Propriétés thermiques des matériaux\nMesure de la conductivité thermique\nCaractérisation expérimentale de la dilatation et de la capacité calorifique\nRéférences :\n[1] Van Wylen, G. J., Sonntag, R. E., & Desrochers, P. (1992). Thermodynamique appliquée . Éditions\ndu Renouveau pédagogique.\n[2] Incropera, F. P., & DeWitt, D. P. (2007). Fundamentals of Heat and Mass Transfer . John Wiley &\nSons.\n[3] Borel, L., & Favrat, D. (2005). Thermodynamique et énergétique (Vol. 1). PPUR presses\npolytechniques.\n[4] Çengel, Y. A., & Boles, M. A. (2014). Thermodynamics: An Engineering Approach (8th ed.).\nMcGraw-Hill Education."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Master_Science_des_Donnees.html",
+      "title": "Pedagogical Guide",
+      "id": "1ab12182",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:54",
+      "hash": "69f8e422682c392c",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Master Data Science\nResponsible:\nSEMESTER 1\nTeaching Unit\nSubject\nCredits\nCoefficient\nWeekly teaching hours\nVHS\n14 Weeks\nAssessment\nLecture\nTutorial\nLab\nOther\nContinuous\nExam\nFundamental UE\nCode: UEF11\nCredits: 10\nCoefficients: 6\nAdvanced Algorithmics and Complexity\n5\n3\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nLearn more\n×\nAdvanced Databases\n5\n3\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nLearn more\n×\nFundamental UE\nCode: UEF12\nCredits: 8\nCoefficients: 6\nAdvanced Statistics and Probability\n4\n3\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nMachine Learning\n4\n3\n3h\n1h30\n1h30\n63h\n40%\n60%\nLearn more\n×\nMethodological UE\nCode: UEM1\nCredits: 9\nCoefficients: 4\nProgramming for Data Science\n5\n2\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nData Analysis\n4\n2\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nTransversal UE\nCode: UET1\nCredits: 2\nCoefficients: 1\nAdvanced Networks\n2\n1\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nDiscovery UE\nCode: UED1\nCredits: 1\nCoefficients: 1\nElective Course\n1\n1\n1h30\n21h\n100%\nLearn more\n×\nTotal Semester 1\n30\n18\n13h30\n6h\n7h30\n13h30\n378h\nSEMESTER 2\nTeaching Unit\nSubject\nCredits\nCoefficient\nWeekly teaching hours\nVHS\n14 Weeks\nAssessment\nLecture\nTutorial\nLab\nOther\nContinuous\nExam\nFundamental UE\nCode: UEF21\nCredits: 9\nCoefficients: 6\nBig Data Analytics\n5\n3\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nDatabase Architecture and Administration\n4\n3\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nFundamental UE\nCode: UEF22\nCredits: 9\nCoefficients: 6\nData Warehousing and Data Preparation\n5\n3\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nDeep Learning\n4\n3\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nLearn more\n×\nMethodological UE\nCode: UEM2\nCredits: 9\nCoefficients: 4\nParallel and Distributed Algorithmics\n5\n2\n1h30\n1h30\n1h30\n1h30\n63h\n40%\n60%\nLearn more\n×\nVirtualization and Cloud Computing\n4\n2\n1h30\n3h\n3h\n63h\n40%\n60%\nLearn more\n×\nTransversal UE\nCode: UET2\nCredits: 2\nCoefficients: 1\nIT Project Management\n2\n1\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nDiscovery UE\nCode: UED2\nCredits: 1\nCoefficients: 1\nElective Course\n1\n1\n1h30\n21h\n100%\nLearn more\n×\nTotal Semester 2\n30\n18\n12h\n3h\n12h\n13h30\n378h\nSEMESTER 3\nTeaching Unit\nSubject\nCredits\nCoefficient\nWeekly teaching hours\nVHS\n14 Weeks\nAssessment\nLecture\nTutorial\nLab\nOther\nContinuous\nExam\nFundamental UE\nCode: UEF31\nCredits: 10\nCoefficients: 6\nData Security\n5\n3\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nLearn more\n×\nAdvanced Data Visualization\n5\n3\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nFundamental UE\nCode: UEF32\nCredits: 8\nCoefficients: 6\nDecision Support Systems\n4\n3\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nLearn more\n×\nModelling and Optimization\n4\n3\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nLearn more\n×\nMethodological UE\nCode: UEM3\nCredits: 9\nCoefficients: 4\nNatural Language Processing\n5\n2\n1h30\n1h30\n1h30\n3h\n63h\n40%\n60%\nLearn more\n×\nGPU Computing\n4\n2\n1h30\n1h30\n1h30\n42h\n40%\n60%\nLearn more\n×\nTransversal UE\nCode: UET3\nCredits: 2\nCoefficients: 1\nResearch Methodology\n2\n1\n1h30\n21h\n100%\nLearn more\n×\nDiscovery UE\nCode: UED3\nCredits: 1\nCoefficients: 1\nElective Course\n1\n1\n1h30\n21h\n100%\nLearn more\n×\nTotal Semester 3\n30\n18\n12h\n6h\n9h\n15h\n378h\nSEMESTER 4\nVHS\nCoeff\nCredits\nFinal Year Project with Dissertation\n750h\n18\n30\nCompany internship\nWorkshops\nPersonal work\nOther\nTotal Semester 4\n750h\n18\n30"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/1ab12182_table_1_SEMESTER_1.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/1ab12182_table_2_SEMESTER_2.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/1ab12182_table_3_SEMESTER_3.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/1ab12182_table_4_SEMESTER_4.json",
+        "rows": 7
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S1-RE.html",
+      "title": "S1 Re.Html",
+      "id": "00965dce",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:38",
+      "hash": "32bf0b8e8b927efc",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Requirements Engineering\nSemester:\n1  |\nType:\nUEF12  |\nVHS:\n42h  |\nWeekly hours:\nC: 1h30 / TD: 1h30  |\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nUnderstand the fundamental concepts of requirements engineering\nDiscover the different stages of the requirements engineering process: identification, analysis, specification, validation and management\nLearn to use the appropriate techniques and tools for each stage\nDevelop communication and collaboration skills to work effectively with stakeholders\nApply requirements engineering principles in software development projects\nRecommended prior knowledge:\nSoftware engineering, UML.\nCourse Content (Lectures: 21h)\nIntroduction to Requirements Engineering (RE)\nDefinition of RE\nRole of RE in the software life cycle\nKey concepts: needs, functional and non-functional requirements, constraints, etc.\nThe Requirements Engineering Process\nRequirements elicitation: needs gathering techniques\nRequirements analysis: needs modelling, conflict management, prioritisation\nRequirements specification: writing clear and unambiguous specifications (UML, use cases, etc.)\nRequirements validation: review, prototyping, testing\nRequirements management: version control, traceability, impact analysis\nTechniques and Tools\nNeeds gathering techniques: interviews, workshops, observations, document analysis\nNeeds modelling: use case diagrams (UML), class diagrams (UML), data models\nFormal specification: specification languages (Alloy, Z)\nRequirements management tools: DOORS, RequisitePro, etc.\nRequirements Quality\nQuality criteria: completeness, consistency, feasibility, etc.\nQuality assessment techniques\nRequirements quality management\nRequirements Engineering in Specific Contexts\nAgile development\nEmbedded systems\nWeb applications\nComplex systems engineering\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous tests, personal work\nReferences\nKarl Wiegers, Joy Beatty (2013).\nSoftware Requirements\n. Microsoft Press, 3rd ed.\nElizabeth Hull, Ken Jackson, Jeremy Dick (2017).\nRequirements Engineering\n. Springer, 4th ed.\nKlaus Pohl and P.A. Börstler (2010).\nRequirements Engineering: Processes and Techniques\n.\nStéphane Badreau, Jean-Louis Boulanger (2014).\nIngénierie des exigences\n. Dunod.\nMartin Fowler (2000).\nUML Distilled\n.\nSommerville I (2013).\nSoftware Engineering\n. Pearson Education.\nRoel Wieringa, Anne Persson (2010).\nRequirements Engineering: Foundation for Software Quality\n. Springer."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

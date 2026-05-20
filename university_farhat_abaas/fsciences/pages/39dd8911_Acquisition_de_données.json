@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L3/S5-ACQ.html",
+      "title": "Acquisition de données",
+      "id": "39dd8911",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:25",
+      "hash": "81d8deb0f3f4061b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Acquisition de données\nSemestre :\n5  |\nUnité d'enseignement :\nDécouverte\nObjectifs de l'enseignement\nÀ l'issue de cet enseignement l'étudiant sera apte à mettre en pratique ses acquis pour la mesure et l'acquisition de données physiques.\nContenu de la matière\nTP n°1 : Métrologie et prise d'une mesure (ex : pied à coulisse numérique et autres…)\nTP n°2 : Choix d'un instrument de mesure (Résolution, fidélité, étendue de mesure…)\nTP n°3 : Étude, étalonnage et conditionnement d'un capteur de température CTN (Linéarisation du signal, calculs des incertitudes, justesse de la mesure)\nTP n°4 : Initiation à l'instrumentation numérique\nApprentissage de l'acquisition d'un signal : conditionnement d'un capteur LM35\nApprentissage de l'acquisition d'un signal : conditionnement d'un capteur optique\nTP n°5 : Mesure d'une contrainte mécanique (étalonnage, mesures…)\nMode d'évaluation\nExamen : 100%"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

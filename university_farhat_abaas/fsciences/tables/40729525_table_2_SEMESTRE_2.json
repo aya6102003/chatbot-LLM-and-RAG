@@ -1,0 +1,167 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/MCH.html",
+  "title": "SEMESTRE 2",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n14 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n14 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale 1   \nCrédits : 12\nCoefficients : 6",
+      "Chimie physique des surfaces et interfaces",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Chimie de coordination",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Matériaux organiques conjugués",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 2   \nCrédits : 6\nCoefficients : 3",
+      "Méthodes électrochimiques d’analyse",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "33%",
+      "67%"
+    ],
+    [
+      "Energie et nanosciences",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie Crédits :9Coefficients : 5",
+      "TP Chimie-physique",
+      "5",
+      "3",
+      "",
+      "",
+      "4h30",
+      "67h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "TP Chimie-organique",
+      "4",
+      "2",
+      "",
+      "",
+      "3h",
+      "45h",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE DécouverteCrédits : 1Coefficients : 1",
+      "Chimie organométalliques",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversaleCrédits : 2Coefficients : 2",
+      "Informatique pour la chimie",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%"
+    ],
+    [
+      "Anglais",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 2",
+      "30",
+      "17",
+      "12h",
+      "6h",
+      "7h30",
+      "382h30",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 13,
+  "col_count": 7
+}

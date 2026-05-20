@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/Chimie_Analytique_et_Qualite/1.html",
+      "title": "1.Html",
+      "id": "2ec552ff",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:57",
+      "hash": "425e5f7e6b4d725a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nA.  Introduction aux m�thodes spectrochimiques :\nPropri�t�s du rayonnement �lectromagn�tique, le spectre\n�lectromagn�tique, l\u0019absorption d\u0019un rayonnement, l\u0019�mission d\u0019un rayonnement,\n1.  La spectroscopie d\u0019absorption et d\u0019�mission atomique : Principe, appareillage, etc\n2.  La spectroscopie d\u0019absorption mol�culaire : La spectroscopie d\u0019absorption mol�culaire dans les diff�rents\ndomaines du spectre de lumi�re : UV-VIS, IR, Raman : Principes, appareillages, etc\nB.  Spectrom�trie de Masse\n-     Introduction � la spectrom�trie de masse\n-     Techniques d'ionisation mol�culaires : EI, CI, LSIMS, FAB, ESI, APCI, MALDI\n-     Techniques  instrumentales  sp�cifiques  �  la  spectroscopie  de  masse  mol�culaire  : Analyseurs  (magn�to-\n�lectrostatiques,  quadripolaires,  trappes  ioniques,  TOF,  ICR)  MS/MS.  Sensibilit�,  r�solution,  limite  de\nd�tection.\n-     Interpr�tation spectrales, fragmentations mol�culaires,\n-     Applications  de  la  spectroscopie  de  masse  �  l'analyse  mol�culaire,  la  d�tection  de trace, la  composition\nisotopique.\n-     Couplage GC/MS et LC/MS\n-     Analyse quantitative en spectrom�trie de masse."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/NWT.html",
+      "title": "Nwt.Html",
+      "id": "e74509c3",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:35",
+      "hash": "6d40b6eea1fd477c",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nNetworks and Web Technologies (NWT) — Semester 4, Unit UFC4, Credits: 4, Coeff: 2\nPrerequisite Knowledge\nUnderstanding of internet protocols (HTTP/HTTPS), data transmission over networks; basic HTML, CSS, and JavaScript skills.\nCourse Objectives\nThe primary objectives are to equip students with a comprehensive understanding of the fundamental concepts and technologies that underpin modern networking and web development. Students will learn to design, implement, and manage computer networks, gaining hands-on experience with network configuration and troubleshooting.\nCourse Content\nChapter 1: Introduction to Computer Networks\nDefinition of computer networks\nTypes of networks (LAN, WAN, MAN)\nComponents of a network (servers, clients, routers, switches)\nOSI and TCP/IP reference models\nChapter 2: Network Protocols\nTCP/IP: operation and main protocols (TCP, UDP, IP)\nTransport protocols (TCP vs. UDP)\nRouting protocols (RIP, OSPF, BGP)\nOperation of the Ethernet protocol in the data link layer\nMAC addressing and operation of the Ethernet frame\nARP (Address Resolution Protocol)\nICMP (Internet Control Message Protocol)\nChapter 3: Basic Web Technologies\nOperation of the World Wide Web\nHTTP and HTTPS: web communication protocols\nStructure of a URL\nChapter 4: Server-Side Web Development\nIntroduction to server-side programming languages (PHP, Python, Node.js)\nIntroduction to databases (MySQL, MongoDB)\nImplementation of GET and POST methods in form handling and HTTP requests\nChapter 5: Client-Side Web Development\nHTML and CSS: structuring and presenting web pages\nJavaScript: client-side programming language\nJavaScript frameworks (React, Angular, Vue.js)\nChapter 6: Network and Web Application Security\nCommon threats and attacks\nSecurity mechanisms (firewalls, VPNs, encryption)\nBest security practices for web development\nChapter 7: Evolution of Web Technologies\nWeb 2.0 and beyond: interactive and social applications\nMobile web and responsive design\nEmerging trends (IoT, semantic web, AI in the web)\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\n“Computer Networking: A Top-Down Approach” (8th Edition) by James Kurose and Keith Ross (2021)\n“Web Development with Node and Express: Leveraging the JavaScript Stack” by Ethan Brown (2021)\n“Networking All-in-One For Dummies” by Doug Lowe (2020)\n“Learning Web Design” (5th Edition) by Jennifer Niederst Robbins (2018)\n“Modern Networking: An Introduction to Computer Networking” by Andrew McDonald (2022)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

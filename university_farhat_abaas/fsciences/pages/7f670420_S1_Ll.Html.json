@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_INFORMATIQUE/S1-LL.html",
+      "title": "S1 Ll.Html",
+      "id": "7f670420",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:04",
+      "hash": "b17818ab7b0c4fad",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Logiciels libres (Open source)\nSemestre :\n1  |\nUE :\nUEM11  |\nCrédits :\n2  |\nCoefficient :\n1\nObjectifs de l'enseignement\nFamiliarisation avec l'outil informatique et l'Internet.\nConnaissances préalables recommandées\nConnaissances générales en informatique.\nContenu de la matière\nChapitre 1 : Technologies de l'information\n1.1. Définitions\n1.2. Outils\nMatériels (Hardware) :\nOrdinateurs : PC de bureau, ordinateurs portables, serveurs, stations de travail\nRéseaux de communication : routeurs, commutateurs (switch), modems, fibres optiques, Wi-Fi\nPériphériques : imprimantes, scanners, claviers, souris, caméras, capteurs\nDispositifs mobiles : smartphones, tablettes, assistants numériques personnels (PDA)\nPuces intelligentes : RFID, NFC, processeurs embarqués, capteurs IoT (Internet of Things)\nLogiciels (Software) :\nSystèmes d'exploitation : Windows, Linux, macOS, Android, iOS\nApplications métiers : ERP (Enterprise Resource Planning), CRM (Customer Relationship Management), logiciels de gestion des ressources humaines, de comptabilité, etc.\nLogiciels de bureautique : traitement de texte (Word), tableurs (Excel), présentations (PowerPoint), outils de collaboration (Google Workspace, Microsoft 365)\n1.3. Applications :\nEspaces de communications : Internet, Intranet, Extranet\nMultimédia : Audioconférence, visioconférence\nEchange de données informatisées (EDI)\nWorkflows\nChapitre 2 : Outils Open source\nIntroduction (historique, avantages / inconvénients et licence)\nEnvironnement de développement (Introduction à Linux, Introduction aux éditeurs de code)\nBureautique (Suite bureautique LibreOffice)\nCollaboration (Stockage et partage)\nContribuer à un projet open source\nMode d'évaluation\nExamen (100%)\nRéférences bibliographiques\nCollectif Eni, Microsoft Office 2016 Word, Excel, PowerPoint, Outlook 2016 – Fonctions de base, Eni Collection : Référence bureautique, 2016.\nDan Gookin, Greg Harvey, Word et Excel 2016 pour les nuls, First, Collection : Pour les nuls – Poche (informatique), 2016.\nMyriam GRIS, Initiation à Internet, Eni éditions, 2009."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

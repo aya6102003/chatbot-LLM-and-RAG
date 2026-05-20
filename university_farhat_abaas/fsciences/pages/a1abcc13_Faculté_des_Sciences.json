@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/302",
+      "title": "Faculté des Sciences",
+      "id": "a1abcc13",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:31:12",
+      "hash": "5f7e422c1391ebc0",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "MOSBAH AMMAR\nMOSBAH AMMAR\nGrade:Professeur\nGrade:Professeur\nEmail:ammar.mosbah@univ-setif.dz\nEmail:ammar.mosbah@univ-setif.dz\nDépartement:Physique\nBureau:\nBureau:\n\nAmmar MOSBAH is Senior lecturer of physics at the University of Ferhat Abbas-Sétif1, Department of Physics.  His research interests include Transparent conducting thin films solar cells and sensors. In 2009, He received his PhD in Physics from the University of Constantine 1 and he was granted univesity habilitation  in 2013 from Ferhat ABBAS university. He published several  research papers and scientific works in various international journals and conference proceedings. He served also as reviewer  for many international journals.\nSérie N° 2 (Phys 2-MI)\nPolycopie de TD\nSérie N°3 (Phys 2-MI)\nPolycopie de TD"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "1634",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1634",
+        "type": "internal"
+      },
+      {
+        "text": "1635",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1635",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/a1abcc13_table_1_untitled.json",
+        "rows": 2
+      }
+    ]
+  }
+}

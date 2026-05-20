@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S2-TPCE.html",
+      "title": "TP Conversion d'Énergie",
+      "id": "3d0a3d1b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:09",
+      "hash": "ea9e29ea727e8ee9",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "TP Conversion d'Énergie\nSemestre 2 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nRemarques : Le contenu de cette matière n'est pas exhaustif compte tenu du matériel disponible\nObjectifs de l’enseignement :\nPermettre aux étudiants de mettre en œuvre les principes fondamentaux de la conversion d’énergie à travers\ndes travaux pratiques concrets. Cette matière vise à renforcer les compétences techniques dans les\ntechnologies de conversion solaire (photovoltaïque et thermique), de stockage énergétique et de production\nhybride. L’étudiant sera capable de mesurer, analyser et optimiser les performances énergétiques de\nsystèmes courants tels que les panneaux solaires, les modules Peltier et les systèmes PV-T.\nConnaissances préalables recommandées :\nNotions de base en thermodynamique et en transfert d’énergie\nCompréhension des principes de fonctionnement des cellules photovoltaïques et des capteurs thermiques\nBases en électricité et électronique (circuit électrique, lois d’Ohm, puissance)\nContenu de la matière\nTP 1 : Caractérisation électrique d’un panneau photovoltaïque\nObjectif : Mesurer les courbes I-V et P-V d’un panneau solaire sous différentes conditions d’éclairement et\nde température.\nTP 2 : Rendement d’un panneau photovoltaïque en fonction de la température\nObjectif : Quantifier la dépendance du rendement des cellules PV à leur température.\nTP 3 : Suivi du point de puissance maximale (MPPT)\nObjectif : Implémenter et tester un algorithme MPPT (ex. Perturb and Observe) pour optimiser la\npuissance extraite d’un panneau PV.\nTP 4 : Conversion thermique de l’énergie solaire\nObjectif : Étudier un capteur solaire thermique (ex. collecteur plat) et mesurer son rendement.\nTP 5 : Système hybride PV-T (Photovoltaïque-Thermique)\nObjectif : Évaluer un panneau hybride combinant production électrique et récupération thermique.\nTP 6 : Stockage d’énergie thermique\nObjectif : Tester un matériau de stockage thermique (ex. sel fondu ou paraffine) et mesurer sa capacité\ncalorifique.\nTP 7 : Générateur thermoelectrique (effet Seebeck)\nObjectif : Convertir un gradient thermique en électricité via un module Peltier.\nTP 8 : Analyse comparative de technologies PV\nObjectif : Comparer les performances de panneaux en silicium monocristallin, polycristallin et couche\nmince (CIGS ou CdTe).\nTP 9 : Modélisation et simulation de systèmes PV\nObjectif : Simuler un système photovoltaïque avec logiciel (ex. MATLAB/Simulink, PVsyst).\nTP 10 : Bilan énergétique d’un système solaire\nObjectif : Évaluer l’impact environnemental et énergétique d’un système PV ou PV-T.\nRéférences :\n[1] Convertisseurs photovoltaïques : Guide technique et pratique de Gérard Betton (2015)\n[2] Convertisseurs statiques pour l'énergie photovoltaïque de Daniel Roye (2006)\n[3] Systèmes photovoltaïques : Conception et dimensionnement de Antoine Bégueret (2016)\n[4] Convertisseurs de puissance : Cours et exercices corrigés de Xavier Roboam and Guy Sallé (2012)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

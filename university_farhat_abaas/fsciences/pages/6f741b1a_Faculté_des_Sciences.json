@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/269",
+      "title": "Faculté des Sciences",
+      "id": "6f741b1a",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:31:44",
+      "hash": "90335c002c1cfbd3",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "BENAIDJA Amira\nBENAIDJA Amira\nGrade:Maitre de conferences classe A\nGrade:Maitre de conferences classe A\nEmail:amira.benaidja@univ-setif.dz\nEmail:amira.benaidja@univ-setif.dz\nDépartement:Informatique\nBureau:20\nBureau:20\n\nIngénierie des Protocoles et Applications (APM)\nPolycopie de cours\nApplications Mobiles (APM)\nPolycopie de cours"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "2268",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2268",
+        "type": "internal"
+      },
+      {
+        "text": "2269",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2269",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/6f741b1a_table_1_untitled.json",
+        "rows": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S2-ARM.html",
+      "title": "Applications of Radiation in Medicine",
+      "id": "40ba3f84",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:58",
+      "hash": "c1a8bc65203440cd",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nDécouverte (UED 2)  |\nCrédits :\n1  |\nCoefficient :\n1\nMode d'évaluation :\nExamen : 100%\nObjectifs de l'enseignement\nMise en évidence des applications pratiques des rayonnements dans le domaine médical. Aspects principaux de la gestion des radioéléments : production, conditionnement et mise en œuvre. Applications médicales.\nConnaissances préalables recommandées\nLes notions de physique nucléaire et les différents types d'interaction rayonnements matière.\nContenu de la matière\nChapitre 1 :\nRappel des principes fondamentaux de physique nucléaire\nChapitre 2 : Radiodiagnostic et Imagerie nucléaire\nAppareils R.X, scanners (TomoDensitoMétrie), IRM (Imagerie par Résonance Magnétique)\nLa tomographie par émission monophotonique\nLa tomographie par émission de positrons (TEP)\nChapitre 3 : Radiothérapie\nLa radiothérapie externe\nLa téléradiothérapie\nLa curiethérapie ou la brachythérapie\nLa radiothérapie interne vectorisée\nChapitre 4 : Médecine nucléaire\nProduction de radio-isotopes médicaux\nLe générateur 99Mo/99mTe\nLe générateur de 82Sr/82Rb\nLes médicaments radio-pharmaceutiques\nLes radio-pharmaceutiques marqués au 18F\nLes radio-pharmaceutiques marqués au 99mTc\nRadio-isotopes pour l'exploration de l'organisme à usage biomédical\nLe Cyclotron et PET-Scan (Tomographie par Émission de Positons)\nChapitre 5 : Application des Lasers en Médecine\nChirurgie\nTraitement esthétique\nDiagnostic\nTraitements cosmétiques"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S2-RCR.html",
+      "title": "S2 Rcr.Html",
+      "id": "0d386d29",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:34",
+      "hash": "073a4f1ccd63b0bc",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Knowledge Representation and Reasoning\nSemester:\n2  |\nType:\nUEM2  |\nVHS:\n63h  |\nWeekly hours:\nC: 1h30 / TD: 1h30 / TP: 1h30  |\nPersonal work VHS:\n42h  |\nCoefficient:\n2  |\nCredits:\n4\nTeaching Objectives\nUnderstand the requirements of knowledge representation\nUse knowledge representation languages such as RDF, RDFS, OWL and query languages such as SPARQL\nUnderstand the logic behind representation techniques and reasoning to derive new knowledge\nPut acquired knowledge into practice\nRecommended prior knowledge:\nMathematical logic, foundations of Artificial Intelligence, programming, databases.\nCourse Content (Lectures: 21h)\nIntroduction to Knowledge Representation\nDefinition and challenges: what is knowledge representation? Interests and challenges\nHistorical development and classification of main approaches and paradigms\nApplication domains: AI, databases, expert systems, etc.\nDescription Logics\nPropositional Logic: syntax, semantics, decision methods (truth tables, normal forms)\nPredicate Logic: syntax, semantics, quantification, unification\nInference: natural deduction, resolution, forward/backward chaining\nKnowledge representation in logic: modelling concepts, relations, rules\nSymbolic Knowledge Representation\nSemantic networks: structure, relationship types, network-based inference\nConceptual graphs and Sowa graphs\nOntologies: structure, formalisms (OWL, RDF), modelling tools (Protégé)\nRule-Based Systems: production rules, inference engine, forward/backward chaining\nFrames and Scripts: representation of objects, situations and their behaviours\nManagement and querying of knowledge graphs with SPARQL\nProbabilistic Model-Based Representation\nProbability: foundations, Bayes' theorem, conditional probabilities\nBayesian Networks: structure, learning, inference\nMarkov chains and hidden Markov models: representation and inference in sequences\nApplications to speech recognition and time series analysis\nKnowledge Representation for the Semantic Web\nResource Description Framework (RDF): data structure, graph model, triples\nWeb Ontology Language (OWL): vocabulary, classes, properties, inference\nLinked Open Data: principles, best practices, linked open data\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): written tests, personal work, tests\nPractical work uses:\nProtégé, TopBraid Composer modelling tools; Prolog and Lisp programming languages; expert systems, decision support and information retrieval case studies.\nReferences\nRonald J. Brachman et Hector J. Levesque (2004).\nKnowledge representation and reasoning\n. Morgan Kaufmann Publishers Inc.\nFranz Baader, Ian Horrocks, Carsten Lutz, Uli Sattler (2017).\nAn Introduction to Description Logic\n. Cambridge University Press.\nJohn F. Sowa (2000).\nPrinciples of Knowledge Representation and reasoning\n. Morgan Kaufmann.\nDean Allemang, Jim Hendler, Fabien Gandon (2020).\nSemantic Web for the Working Ontologist\n. Third edition, ACM Books.\nStuart Russell et Peter Norvig (2020).\nArtificial Intelligence: A Modern Approach\n.\nBob DuCharme (2013).\nLearning SPARQL\n. Second Edition, O'Reilly."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

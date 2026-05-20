@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S1-PSQ1.html",
+      "title": "Physique Statistique Quantique 1",
+      "id": "6009743f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:54",
+      "hash": "d45b44de52d933d4",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Physique Statistique Quantique 1\nSemestre 1 – UE Fondamentale\nPrérequis\nThermodynamique et physique statistique\nMécanique quantique (notamment formalisme des opérateurs)\nBases mathématiques enseignées en Licence et M1\nObjectifs de l'enseignement\nLa physique statistique quantique est une méthode centrale pour modéliser les systèmes comportant un grand nombre de particules en interaction ou non, dans un cadre quantique. Ce cours fournit à l'étudiant les principes fondamentaux et outils mathématiques nécessaires pour décrire l'équilibre statistique des gaz de bosons et de fermions. Il constitue une base indispensable à la compréhension des phénomènes comme la condensation de Bose-Einstein ou la dégénérescence du gaz de Fermi.\nProgramme détaillé\nChapitre I : Rappels de Physique Statistique\nDéfinition des micro-états quantiques et espace de phase\nDensité de probabilité, fonctions de distribution\nEnsembles statistiques : micro-canonique, canonique, grand canonique\nFonction de partition : calculs et interprétations\nEntropie statistique, lien avec la thermodynamique\nThéorème de Liouville et conservation de la densité\nChapitre II : Formulation de la statistique quantique\nFormalisme de l'opérateur densité : cas pur et mélange\nSystèmes composites et entropie de von Neumann\nÉquilibre statistique en mécanique quantique\nEquation de Liouville quantique\nDifférences fondamentales avec la statistique classique\nChapitre III : Systèmes Quantiques en Équilibre\nGaz idéal de bosons : statistiques de Bose-Einstein\nGaz idéal de fermions : statistiques de Fermi-Dirac\nApplications :\nCondensation de Bose-Einstein\nPropriétés thermodynamiques du gaz de Fermi dégénéré\nDiscussion sur les transitions de phase quantiques\nMode d'évaluation\nContrôle continu : 33 %\nExamen : 67 %\nRéférences bibliographiques\nL. Landau, Physique statistique, Éditions ELLIPSES\nC. Ngo, H. Ngo, Physique statistique, Masson\nR. K. Pathria, Statistical Mechanics, Elsevier\nKerson Huang, Statistical Mechanics, Wiley\nSupports de cours, articles scientifiques et ressources en ligne (arXiv, Scholar)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

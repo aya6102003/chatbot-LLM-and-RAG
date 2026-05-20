@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S2-IAML2.html",
+      "title": "Intelligence artificielle et Machine Learning 2",
+      "id": "b48f56ce",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:08",
+      "hash": "cbd83c001f88d49d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Intelligence artificielle et Machine Learning 2\nSemestre 2 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nObjectifs de l’enseignement\nS'appuyer sur les techniques de base de l’apprentissage automatique (Machine Learning) pour introduire\nl'apprentissage profond, les réseaux neuronaux et les concepts avancés d’apprentissage automatique pour\nles applications en sciences de la matière.\nConnaissances préalables recommandées\nIl est nécessaire d’avoir suivi un premier cours de machine learning et d’avoir une solide maîtrise des outils\nnumériques associés. Une bonne expérience en programmation (notamment Python), statistiques et\nalgorithmique est attendue.\nContenu de la matière :\n1. Fondements de l'apprentissage profond (4 semaines)\nIntroduction aux réseaux neuronaux.\nPrincipaux cadres d'apprentissage profond : TensorFlow, Keras, PyTorch.\nApplication : Prédiction de la structure cristalline à l'aide de réseaux neuronaux.\n2 . Modèles basés sur les graphes dans les sciences de la matière (4 semaines)\nLes matériaux sont des graphes : atomes = nœuds, liaisons = arêtes.\nRéseaux convolutionnels de graphes de cristaux (CGCNN).\nÉtude de cas : Prévision des énergies de formation.\n3 . Modèles génératifs pour la conception de matériaux (4 semaines)\nIntroduction aux réseaux adversoriels génératifs (GAN) et aux auto-encodeurs variationnels (VAE).\nApplication : Conception de nouveaux matériaux et molécules.\n4 . Évaluation des modèles et interprétabilité (3 semaines)\nTechniques d'évaluation des modèles d'apprentissage profond : validation croisée, surajustement.\nInterprétation des modèles avec SHAP et LIME.\nRéférences:\n[1] Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville (a comprehensive introduction to\ndeep learning)\n[2] Deep Learning with Python by François Chollet (applies Keras for hands-on deep learning projects)\nOutils et bibliothèques :\n− Python, Jupyter Notebooks\n− TensorFlow, PyTorch\n− Matminer, Pymatgen"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

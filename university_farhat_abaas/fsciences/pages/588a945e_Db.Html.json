@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/DB.html",
+      "title": "Db.Html",
+      "id": "588a945e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:36",
+      "hash": "d5797b1712ccb266",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nDatabases (DB) — Semester 4, Unit UFC4, Credits: 5, Coeff: 3\nCourse Objectives\nThe course introduces foundational concepts in database management, including data modeling, relational database design, and SQL for data manipulation. Students learn to design normalized database schemas, ensure data integrity, and implement basic security measures.\nCourse Content\nChapter 1: Introduction to Databases\nDefinition and Purpose: What is a database? Why are databases important?\nDatabase Applications: Examples of database systems in real-world applications.\nDatabase Management Systems (DBMS): Overview of DBMS and its components.\nChapter 2: Entity-Relationship Model\nEntities and Attributes: Definition and examples.\nRelationships: Types of relationships (one-to-one, one-to-many, many-to-many).\nER Diagrams: Symbols and conventions.\nChapter 3: Relational Database Design\nNormalization: Concepts of 1NF, 2NF, 3NF, and BCNF.\nDenormalization: When and why to denormalize.\nPrimary Keys, Foreign Keys, and Indexes: Importance and usage.\nChapter 4: Structured Query Language (SQL)\nBasics of SQL: SELECT, INSERT, UPDATE, DELETE commands.\nJoins: Inner Join, Outer Join, Cross Join.\nSubqueries and Nested Queries.\nAggregations and Grouping: COUNT, SUM, AVG, etc.\nChapter 5: Database Integrity and Security\nConstraints: Primary key, Foreign key, Unique, Not null, Check.\nTransactions and ACID Properties.\nDatabase Security: Users, Roles, Privileges, and Authentication.\nChapter 6: Advanced SQL\nComplex Queries: Advanced subqueries, CTEs (Common Table Expressions), and window functions.\nAdvanced Joins: Self-joins, Natural joins, inner and outer join, and advanced use cases.\nSet Operations: UNION, INTERSECT, and EXCEPT.\nRecursive Queries: Working with hierarchical data.\nChapter 7: Query Optimization\nQuery Execution Plans: Understanding and interpreting execution plans.\nIndexing Strategies: Types of indexes (B-tree, hash, bitmap) and their impact on performance.\nCost-Based Optimization: How DBMS chooses the best execution plan.\nMaterialized Views: Usage, benefits, and maintenance.\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\nFundamentals of Database Systems, 7th Edition, by Ramez Elmasri, Shamkant Navathe\nDatabase Systems: The Complete Book, 2nd Edition, Hector Garcia-Molina, Jeffrey Ullman, Jennifer Widom"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S2-OSN.html",
+      "title": "Outils de Simulation numériques",
+      "id": "e11d56c0",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:33",
+      "hash": "f21e338f022be6a8",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Outils de Simulation numériques\nSemestre :\n2  |\nUnité d'enseignement :\nTransversale\nVolume Horaire Hebdomadaire :\nCours : 1h30\nCrédits :\n1  |\nCoefficients :\n1\nObjectifs de l'enseignement\nAcquérir une maîtrise pratique d'un logiciel de calcul scientifique (ex: FreeFEM++, COMSOL) pour résoudre des EDP par la méthode des éléments finis.\nContenu de la matière\nPrise en main d'un environnement de simulation.\nWorkflow d'une simulation : Pré-traitement (géométrie, maillage), définition du problème (EDP, C.L.), résolution, post-traitement (visualisation).\nProjet de simulation sur un problème concret.\nMode d'évaluation\nExamen (100%)\nRéférences bibliographiques\nLa documentation officielle du logiciel choisi (ex: FreeFEM++ documentation).\nA. Quarteroni,\nModélisation Mathématique et Calcul Scientifique\n. PPUR, 2012."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

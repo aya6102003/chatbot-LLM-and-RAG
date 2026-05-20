@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_MATERIAUX/S1-PSC.html",
+      "title": "Physique des Semi",
+      "id": "c0200f3e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:12",
+      "hash": "4d00d1e4eeacc544",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière :\nPhysique des Semi-conducteurs\nUnité d'Enseignement :\nUE Fondamentale (UEF 1)\nSemestre :\nSemestre 1\nCrédits :\n4\nCoefficient :\n2\nVHS (15 semaines) :\n55h00\nCours :\n1h30\nTD :\n1h30\nTP :\nMode d'évaluation :\nContinu : 33%  /  Examen : 67%\nSemestre 1\nUnité Fondamentale\nMatière : Physique des Semi-conducteurs\nObjectifs de l’enseignement :\nL'objectif principal est de donner aux étudiants une compréhension approfondie des semi-conducteurs et leurs propriétés\nfondamentales : Mécanismes physiques, structure de bandes, dopage et transport des charges.\nConnaissances préalables recommandées :\nPhysique générale (électricité/magnétisme, thermodynamique, ondes).\nMécanique quantique (équation de Schrödinger, quantification, spin, structure atomique).\nIntroduction à la physique du solide (structure cristalline, réseau réciproque, théorie des bandes, phonons).\nPhysique statistique (distributions statistiques, statistique de Fermi-Dirac).\nMathématiques (calcul différentiel/intégral, algèbre linéaire, équations différentielles, séries de Fourier).\nContenu de la matière :\nChapitre I : Structure de bandes\nI.1 Structure électronique des éléments\nI.2 Structure de bandes des matériaux solides :\nStructure et liaison cristallines. Distinction entre métal-semiconducteur-isolant. Modèle de l’électron libre.\nModèle de l’électron quasi-libre\nI.3 Notion de densité d’états\nI.4 Notion de trou et concept de masse effective\nI.5 Structure de bandes des principaux semi-conducteurs\nChapitre II : Les semi-conducteurs à l’équilibre thermodynamique\nII.1 Schéma de bandes simplifié et densité d’états d’énergie dans les bandes permises\nII.2 Les semi-conducteurs intrinsèques :\nFonction de distribution des électrons sur les états permis. Densité des porteurs libres : loi d’action de masse\nII.3 Calcul de la densité des porteurs libres et du niveau de Fermi dans les semi-conducteurs extrinsèques :\nDescription qualitative du dopant. Equation de neutralité. Comportement de la concentration des porteurs\nlibres avec la température\nChapitre III : Propriétés de transport de charge dans un semi-conducteur\nIII.1 Rappels sur la conduction électrique dans un métal\nIII.2 Courant d’entraînement dans un semi-conducteur :\nIntroduction. Conductivité électrique des principaux semi-conducteurs. Comportement de la conductivité\nélectrique d’un semi-conducteur avec la température. Comportement de la conductivité électrique d’un\nsemi-conducteur avec le dopage.\nIII.3 Courant de diffusion dans un semi-conducteur\nIII.4 Relation d’Einstein\nIII.5 Effet Hall dans un semi-conducteur\nChapitre IV : Phénomènes de génération et de recombinaison\nIV.1 Introduction\nIV.2 Mécanismes de recombinaison : Recombinaison bande à bande (directe). Recombinaison indirecte\n(assistée).\nIV.3 Les processus de recombinaison\nIV.5 Modèle de Hall Schockley et Read\nIV.6 Équation de continuité et durée de vie des porteurs de charge : Résolution dans le volume et dans l’espace :\nRégimes permanent et transitoire ; en présence et en l’absence de champ électrique appliqué.\nIV.7 Recombinaison de surface\nIV.8 Conclusions\nRéférences :\nSolid State Electronic Devices par Ben G. Streetman et Sanjay Banerjee - 1975 (de nombreuses éditions ont suivi, la 7ème édition date de\n2016).\nPhysics of Semiconductor Devices par S.M. Sze et Kwok K. Ng - 1969 (de nombreuses éditions ont suivi, la 4ème édition date de 2021).\nSemiconductor Physics and Devices par Donald A. Neamen - 1992 (de nombreuses éditions ont suivi, la 5ème édition date de 2012).\nFundamentals of Semiconductor Devices par Betty Lise Anderson et Richard L. Anderson - 2005\nQuantum Mechanics of Semiconductor Materials and Devices par Umesh K. Mishra et Jasprit Singh – 1995.\nSemiconductor Optoelectronic Devices par Pallab Bhattacharya - 1994 (la 2ème édition date de 1997).\nHigh-Speed Semiconductor Devices par S.M. Sze, Yu-Chi Li et Kwok K. Ng – 2002.\n10"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

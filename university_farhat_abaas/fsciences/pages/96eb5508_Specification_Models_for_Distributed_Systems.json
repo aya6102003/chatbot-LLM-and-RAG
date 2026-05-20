@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S2-MSDS.html",
+      "title": "Specification Models for Distributed Systems",
+      "id": "96eb5508",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:56",
+      "hash": "b3c34d4c795f91cb",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nSpecification Models for Distributed Systems  |\nSemester:\n2  |\nType:\nUEF22\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLectures:\n1h30  |\nTD:\n-  |\nTP:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nIntroduce students to the domain of formal design of parallel and distributed systems\nFocus on specification formalisms and semantic models of parallelism\nIntroduce students to formal specification tools applied to concurrent, parallel and distributed systems during practical sessions\nRecommended Prerequisites\nNotions of software engineering\nCourse Content (Lectures: 21h)\nChapter 1:\nFormal design methodology for parallel and distributed systems\nChapter 2:\nSemantics and model of Labelled Transition Systems\nChapter 3: Petri Net Model\nSyntax and semantics\nMain characteristics\nGeneral properties of Petri nets\nModelling ingredients\nClassic models (Producer-Consumer, Reader-Writer, Dining Philosophers)\nProperty analysis\nProperties of Petri nets\nAnalysis via strongly connected components\nStructural analysis of Petri nets\nChapter 3: The LOTOS Process Algebra\nBasic LOTOS syntax\nData specification in LOTOS\nInterleaved structured operational semantics of LOTOS\nClassic formal specification examples\nChapter 4:\nGeneral overview of formal verification methods\nAssessment\nExam: 60%\nContinuous assessment: 40%\nBibliographic References\nHoward Bowman and Rodolfo Gomez, Concurrency Theory: Calculi and Automata for Modelling Untimed and Timed Concurrent Systems, 2006.\nManfred Broy et al., Model-Based Testing of Reactive Systems, Lecture Notes in Computer Science, Springer Berlin / Heidelberg, 2005.\nSaidouni Djamel Eddine, Modèles du parallélisme, Polycopié (80 pages)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

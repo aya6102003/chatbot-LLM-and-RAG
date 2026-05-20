@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/CAA.html",
+      "title": "Guide pédagogique",
+      "id": "3f17f9a3",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:29",
+      "hash": "5cbf5b2243be9232",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "L’objectif de cette offre est de former des\nchimistes analystes qui maîtrisent les diverses techniques intervenant\ndans le domaine de la chimie analytique et de l’analyse, afin de de\nleur permettre d’occuper des postes à responsabilités dans des secteurs\nd’activité comme ceux de l’industrie pharmaceutiques,\nl’agroalimentaires, l’environnement, les cosmétiques, et la parachimie\nou encore en milieu académique.\nCette formation est basée sur l’ensemble des méthodes expérimentales\nd’analyse indispensable pour la détermination de la composition\nchimique d’échantillons de matière.\nL’enseignement dispensé porte sur deux axes complémentaires qui\npermettent à l’étudiant d’appréhender la chimie analytique dans son\nensemble :\n- Les méthodes de préparation de l’échantillon, d’acquisition et d’exploitation des résultats.\n- Les techniques courantes permettant de réaliser l’analyse chimique ainsi que leur développement.\nSemestre 3, la spécialisation est renforcée, en particulier par :\n- Des enseignements diversifiés permettant d’avoir une bonne\nconnaissance théorique de l’ensemble des méthodes d’analyses et de\ncaractérisation.\n- Une autonomie renforcée de l’étudiant par la présentation de\nrecherches bibliographiques et la mise en ouvres d’un projet\nexpérimental.\nLa formation est finalisée par un stage de fin d’étude en milieu\nindustriel ou académique. Il constitue un moyen à l’insertion\nprofessionnelle directe ou, pour ceux le souhaitent, à une poursuite en\nDoctorat.\nResponsable : L. KABOUB           lakhemici.kaboub@univ-setif.dz"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/3f17f9a3_table_1_SEMESTRE_1.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/3f17f9a3_table_2_SEMESTRE_2.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/3f17f9a3_table_3_SEMESTRE_3.json",
+        "rows": 11
+      },
+      {
+        "file": "tables/3f17f9a3_table_4_SEMESTRE_4.json",
+        "rows": 5
+      }
+    ]
+  }
+}

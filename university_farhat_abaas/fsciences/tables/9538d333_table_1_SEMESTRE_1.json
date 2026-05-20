@@ -1,0 +1,223 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Master_Physique_Energetique_ER.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n15 Semaines",
+    "Mode d'évaluation",
+    ""
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n15 Semaines",
+      "Mode d'évaluation",
+      ""
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Autres",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE FondamentaleCode : UEF 1Crédits : 18Coefficient : 9",
+      "Transfert de chaleur et de masse",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "55h00",
+      "45h00",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Physique des semi-conducteurs avancée",
+      "6",
+      "3",
+      "3h00",
+      "1h30",
+      "",
+      "82h30",
+      "67h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Aérodynamique",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "55h00",
+      "45h00",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Énergie de la biomasse et combustion",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "55h00",
+      "45h00",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE MéthodologieCode : UEM 1Crédits : 9Coefficient : 5",
+      "Intelligence artificielle et Machine Learning 1",
+      "1",
+      "1",
+      "",
+      "",
+      "1h00",
+      "10h00",
+      "15h00",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Choisir deux matières parmi :"
+    ],
+    [
+      "Échangeurs de Chaleur et de Masse",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "55h00",
+      "45h00",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Modélisation et Simulation Numérique",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "55h00",
+      "45h00",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "TP Aérodynamique",
+      "4",
+      "2",
+      "",
+      "",
+      "3h00",
+      "55h00",
+      "45h00",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Systèmes électriques pour les énergies renouvelables",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "55h00",
+      "45h00",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE DécouverteCode : UED 1Crédits : 2Coefficient : 2",
+      "Choisir deux matières parmi :"
+    ],
+    [
+      "Maîtrise de l'énergie et environnement",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "2h30",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Nucléaire comme source d'énergie",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "2h30",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Thermoélectricité",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "2h30",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversaleCode : UET 1Crédits : 1Coefficient : 1",
+      "Programmes open sources pour l'énergétique",
+      "1",
+      "1",
+      "",
+      "",
+      "1h30",
+      "2h30",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "17",
+      "13h30",
+      "4h30",
+      "7h00",
+      "7h00",
+      "375h"
+    ]
+  ],
+  "row_count": 18,
+  "col_count": 8
+}

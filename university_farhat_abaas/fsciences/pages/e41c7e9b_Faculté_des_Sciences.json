@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/320",
+      "title": "Faculté des Sciences",
+      "id": "e41c7e9b",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:46:24",
+      "hash": "4b654e0543ce803e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "MERIKHI Bachir\nMERIKHI Bachir\nGrade:Professeur\nGrade:Professeur\nEmail:bmerikhi@univ-setif.dz\nEmail:bmerikhi@univ-setif.dz\nDépartement:Mathématiques\nBureau:\nBureau:\n\nJournaux (5)\nStudy of a logarithmic barrier approach for linear semidefinite programming\nASmaa LEULMI, Bachir MERIKHI, Djamel BENTERKI.\nJ. Sib. Fed. Univ. Math. Phys., 0 (2018), pp Pages 300–312\na penalty method for nonlinear programming\nLarbi Bachir Cherif and BACHIR MERIKHI\nRAIRO Oper. Res. , 0 (2018), pp \"- \"\nA logarithm barrier method for semi-definite programming\nB. Merikhi & J.P. Crouzeix\nRAIRO, 42 (2008), pp 123-129\nnumerical feasible interior point method for linear semidefinite programs .\nDjamel Benterki, Jean-Pierre Crouzeix and Bachir Merikhi\nRAIRO Oper. Res. , 41 (2007)), pp 49-59\nmodified algorithm for the strict feasibility problem\nD. Benterki and B. Merikhi\nRAIRO Oper. Res. , 35 ( (2001)), pp 395-399"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

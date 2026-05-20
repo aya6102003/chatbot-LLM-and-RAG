@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/325",
+      "title": "Faculté des Sciences",
+      "id": "912a42fd",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:46:04",
+      "hash": "55923cd558d03392",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "DEGHOUL Djamel\nDEGHOUL Djamel\nGrade:Maitre assistant classe A\nGrade:Maitre assistant classe A\nEmail:djamel.deghoul@univ-setif.dz\nEmail:djamel.deghoul@univ-setif.dz\nDépartement:Mathématiques\nBureau:\nBureau:\n\nFirst Name. Djamel\nName. Deghoul\nBirth's date. 07-12-1964. Algeria.\nEspaces vectoriels normés\nPolycopie de TD\nEspaces vectoriels normés\nPolycopie de cours\nEspaces vectoriels normés\nPolycopie de cours\nEspaces vectoriels normés\nPolycopie de cours\nEspaces vectoriels normés\nPolycopie de TD\nEspaces vectoriels normés\nPolycopie de TD\nEspaces vectoriels normés\nPolycopie de cours\nSolutions des exercices 1-5 avec rappels de cours (INH) (EVN)\nPolycopie de TD\nExercice ( Inégalité de Minkowski)\nPolycopie de TD"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "2103",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2103",
+        "type": "internal"
+      },
+      {
+        "text": "2142",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2142",
+        "type": "internal"
+      },
+      {
+        "text": "2143",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2143",
+        "type": "internal"
+      },
+      {
+        "text": "2144",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2144",
+        "type": "internal"
+      },
+      {
+        "text": "2145",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2145",
+        "type": "internal"
+      },
+      {
+        "text": "2146",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2146",
+        "type": "internal"
+      },
+      {
+        "text": "2147",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2147",
+        "type": "internal"
+      },
+      {
+        "text": "2181",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2181",
+        "type": "internal"
+      },
+      {
+        "text": "2289",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2289",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/912a42fd_table_1_untitled.json",
+        "rows": 9
+      }
+    ]
+  }
+}

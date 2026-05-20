@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S1-MSN.html",
+      "title": "Modélisation et Simulation Numérique",
+      "id": "33bbda13",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:05",
+      "hash": "85b4a8a3fd8f5c71",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Modélisation et Simulation Numérique\nSemestre 1 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nObjectifs de l’enseignement\nMaîtriser les outils mathématiques essentiels pour modéliser des systèmes thermiques, fluidiques et énergétiques.\nComprendre et appliquer les méthodes de discrétisation pour résoudre des problèmes complexes\nApprendre à optimiser des systèmes énergétiques via des méthodes classiques et numériques.\nIntégrer la variabilité des ressources énergétiques via des outils statistiques et simulations.\nConnaissances préalables recommandées\nUne bonne compréhension des méthodes numériques et de la programmation (Python, Matlab) est\nconseillée.\nDes bases en discrétisation et en utilisation d’outils de simulation (OpenFOAM, COMSOL) sont utiles.\nContenu de la matière :\n1. Fondamentaux mathématiques appliquées (3 semaines)\nAnalyse vectorielle : gradient, divergence, rotationnel (important pour les champs de flux thermiques et fluides).\nÉquations différentielles ordinaires (EDO) : dynamiques thermiques, stockage énergétique.\nÉquations aux dérivées partielles (EDP) :\nÉquation de la chaleur (conduction thermique).\nÉquation de Navier-Stokes simplifiée (écoulements dans les systèmes hydrauliques ou éoliens).\nÉquations de transport d’énergie (convection, rayonnement).\n2. Méthodes numériques (3 semaines)\nMéthode des différences finies\nMéthode des éléments finis\nMéthodes des volumes finis\n3. Optimisation énergétique (2 semaines)\nOptimisation de systèmes énergétiques : rendement thermique, positionnement optimal des panneaux solaires, etc.\nIntroduction aux méthodes d’optimisation numérique (algorithmes classiques).\n4. Initiation à la modélisation stochastique (3 semaines)\nVariabilité des ressources (ex: vent, irradiation solaire).\nModèles statistiques et simulations Monte Carlo simples.\n5. Applications pratiques en énergies renouvelables (4 semaines)\nSolaire : modélisation du rendement d’un panneau photovoltaïque selon l'irradiation.\nÉolien : modèle simplifié de production d'une éolienne (puissance en fonction de la vitesse du vent).\nBiomasse : modélisation de la cinétique de combustion.\nSystèmes hybrides : couplage éolien/solaire + stockage. Travaux pratiques numériques (Python ou MATLAB/Octave) : 1-Simulation d’une cellule photovoltaïque. 2-Simulation thermique d’un bâtiment. 3-Résolution numérique de l’équation de la chaleur. 4-Projet de modélisation d’un micro-réseau énergétique.\nRéférences\n[1] Bakhvalov N., Méthodes numériques, Edition Mir, 1976.\n[2] Baranger J., Introduction à l’analyse numérique ; Hermann, Paris, 1977.\n[3] Baranger J., Analyse numérique ; Hermann, Paris, 1991.\n[4] Steven C. Chapra et Raymond P. Canale; Numerical methods for engineers (with personal\ncomputer applications) ; McGraw-Hill Book Company, U. S. A., 1985.\n[5] Vaissiere J. C. et Nougier J. P., Programmes et exercices sur les méthodes numériques ; Masson,\nParis, 1990.\n[6] Computational heat transfer, Y. JALURIA et K. E. TOTTANCE, Hemisphere publishing corporation,\nSpringer-Verlag, 1986."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S3-PE2.html",
+      "title": "Particules Élémentaires 2",
+      "id": "cbb2eaa1",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:52",
+      "hash": "8f15fa75d611d96f",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Particules Élémentaires 2\nSemestre 3 – UE Découverte\nPrérequis\nUnité Particules Élémentaires 1 (UET2.1.1)\nMécanique quantique relativiste (équation de Dirac)\nNotions de jauge, symétries internes et représentation de groupes\nBases en théorie quantique des champs (souhaitées)\nObjectifs de l'enseignement\nCe cours vise à approfondir la compréhension formelle et phénoménologique du Modèle Standard des interactions fondamentales. Il introduit les fondements de la dynamique de jauge, le mécanisme de Higgs, et la structure détaillée des interactions électrofaibles et fortes. Il prépare l'étudiant à aborder des questions ouvertes de la physique des hautes énergies et les pistes au-delà du Modèle Standard.\nProgramme simplifié\nChapitre 1 – Théorie quantique des champs en physique des particules\nMotivation et rappels : particules ↔ champs\nLagrangiens invariants de Lorentz et d'interaction\nQuantification des champs de bosons et de fermions (aperçu qualitatif)\nInterprétation physique des diagrammes de Feynman\nInteractions perturbatives : ordres, propagateurs, vertex\nChapitre 2 – Théories de jauge et invariance locale\nJauge U(1), QED comme théorie de jauge abélienne\nSymétries de jauge non-abéliennes : SU(2), SU(3)\nChamps de jauge, bosons médiateurs et couplages\nIntroduction à la chromodynamique quantique (QCD)\nConfinement et liberté asymptotique (éléments qualitatifs)\nChapitre 3 – Interaction électrofaible et unification\nStructure de SU(2) × U(1) et mélange des bosons\nLe neutrino et les courants faibles\nLe mécanisme de Higgs : brisure spontanée de symétrie\nMasse des bosons W et Z, propriétés du boson de Higgs\nTests expérimentaux : LEP, LHC, mesures de précision\nChapitre 4 – Le Modèle Standard en pratique\nLagrangien complet du Modèle Standard (structure et interprétation)\nGénérations, matrices CKM et PMNS (notions qualitatives)\nSources de violation de CP et implications cosmologiques\nLimites du Modèle Standard : matière noire, neutrinos massifs, gravité\nChapitre 5 – Ouvertures : au-delà du Modèle Standard\nSupersymétrie, grande unification, théories à dimensions supplémentaires\nModèles de neutrinos massifs (seesaw, neutrinos stériles)\nAxions, particules candidates pour la matière noire\nPerspectives expérimentales futures (FCC, ILC, neutrino factories)\nMode d'évaluation\nContrôle continu : 50 %\nExamen : 50 %\nRéférences bibliographiques\nM. E. Peskin, D. V. Schroeder, An Introduction to Quantum Field Theory, Addison-Wesley\nDavid Griffiths, Introduction to Elementary Particles, Wiley\nIan Aitchison, A.J.G. Hey, Gauge Theories in Particle Physics, CRC Press\nC. Quigg, Gauge Theories of the Strong, Weak, and Electromagnetic Interactions, Princeton University Press\nDavid Tong, Lectures on Quantum Field Theory → http://www.damtp.cam.ac.uk/user/tong/qft.html\nThe Particle Data Group (PDG) → https://pdg.lbl.gov\nCERN – Ressources pédagogiques avancées → https://home.cern/science/physics"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

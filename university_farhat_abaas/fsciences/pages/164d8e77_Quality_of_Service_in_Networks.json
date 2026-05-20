@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S2-QOS.html",
+      "title": "Quality of Service in Networks",
+      "id": "164d8e77",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:53",
+      "hash": "90a1772030bb888a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nQuality of Service in Networks  |\nSemester:\n2  |\nType:\nUEM2\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLectures:\n1h30  |\nTD:\n-  |\nTP:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n2  |\nCredits:\n4\nTeaching Objectives\nLearn the basic elements of QoS, the relationship between QoS and the network\nUnderstand basic queuing management models applied to networks\nLearn QoS policy models and mechanisms used to guarantee QoS in communication networks\nDiscover QoS implemented in next-generation networks\nRecommended Prerequisites\nDifferent types of networks and their protocols\nCourse Content (Lectures: 21h)\nIntroduction to QoS in IP Networks\nQoS criteria (Throughput, Jitter, packet loss rate...)\nTypes of QoS\nApplication taxonomy\nMultimedia and QoS (Streaming, Multicast...)\nTraffic Management\nScheduling\nTraffic shaping\nPolicing\nCongestion avoidance\nQoS Policies\nDiffServ\nIntServ\nRSVP\nMPLS\nQoS in networks\nAssessment\nExam: 60%\nContinuous assessment: 40%\nBibliographic References\nWendell Odom, Michael J. Cavanaugh, Cisco QOS Exam Certification Guide (IP Telephony Self-Study), Cisco Systems, 2005.\nJean François Susbielle, Internet, Multimedia et temps réel, Eyrolles, 2000.\nJean Louis Melin, Qualité de service sur IP, Eyrolles, 2001.\nR. Steinmetz, Multimedia: Computing, Communications and Applications, Prentice Hall, 1995."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

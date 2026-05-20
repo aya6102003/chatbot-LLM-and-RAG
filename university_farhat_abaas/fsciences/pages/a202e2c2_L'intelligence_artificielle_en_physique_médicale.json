@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S3-IAPM.html",
+      "title": "L'intelligence artificielle en physique médicale",
+      "id": "a202e2c2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:45",
+      "hash": "52b9132b017e80bf",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n3  |\nUE :\nMéthodologie (UEM 3)  |\nCrédits :\n5  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs pédagogiques\nCe cours vise à fournir une compréhension complète des méthodes statistiques avancées et des techniques d'apprentissage automatique essentielles à l'analyse des données et à la modélisation prédictive. À la fin de ce cours, les étudiants seront en mesure de :\nMaîtriser les techniques statistiques clés et acquérir une connaissance approfondie des statistiques multivariées, en comprenant leur application à la réduction de la dimensionnalité et à la simplification des données\nMettre en œuvre des méthodes avancées d'apprentissage automatique telles que l'analyse discriminante linéaire (LDA) et les machines à vecteurs de support (SVM) pour les tâches de classification et de régression\nComprendre et utiliser l'apprentissage profond et les réseaux neuronaux : architecture et fonctionnement des modèles d'apprentissage profond, y compris les réseaux de neurones convolutionnels et récurrents\nMettre en œuvre des réseaux neuronaux de pointe pour des tâches complexes telles que la reconnaissance d'images et de la parole, et l'analyse de données séquentielles\nParticiper à des sessions pratiques à l'aide d'outils tels que Python, R et diverses bibliothèques d'apprentissage automatique\nContenu de l'unité\n1- Analyse en composantes principales (ACP)\nIntroduction aux statistiques multivariées\nFondements théoriques de l'ACP\nL'algorithme de l'ACP\nAides à l'interprétation de l'ACP\nMise en œuvre de l'ACP\nSujets avancés en ACP\nComparaison de l'ACP avec d'autres techniques de réduction de dimensionnalité\n2- Analyse discriminante linéaire (LDA)\nFondements mathématiques\nCompréhension de la variance entre les classes et au sein d'une classe\nMaximisation du critère de Fisher\nÉvaluation du modèle et réduction de dimensionnalité\nÉtudes de cas et applications\n3- Machines à vecteurs de support (SVM)\nPrincipe général\nDiscrimination linéaire et hyperplan séparateur\nMarge maximale, recherche de l'hyperplan optimal\nCas non séparable : astuce du noyau\nExtensions\n4- Méthodes d'ensemble (Ensemble Learning)\nBoosting, Bagging\nAlgorithme AdaBoost et variantes (Logit Boost, AdaBoost-MG, Gx-Boost)\nForêts aléatoires\n5- Systèmes de recommandation\nIntroduction aux systèmes de recommandation\nFiltrage basé sur le contenu\nFiltrage collaboratif\nSystèmes de recommandation hybrides\nMise à l'échelle des systèmes de recommandation\nApplication médicale des systèmes de recommandation\n6- Techniques d'apprentissage profond\nRéseaux neuronaux profonds à rétroaction directe (architectures, fonctions de transfert, rétropropagation d'erreur, descente de gradient stochastique)\nRéseaux neuronaux profonds convolutionnels (CNN)\nSujets avancés sur les CNN et applications\nRéseaux neuronaux récurrents\nRéseaux neuronaux génératifs\nApprentissage par renforcement\nAutres architectures de réseaux neuronaux\nMises en œuvre et outils pratiques\nRéférences bibliographiques\nJAMES, G., WITTEN, D., HASTIE, T., TIBSHIRANI, R., An Introduction to Statistical Learning. Springer, New York (2013).\nHASTIE, T., TIBSHIRANI, R., FRIEDMAN, J.H., The Elements of Statistical Learning. Springer, New York (2009).\nFLACH, P., Machine Learning: The Art and Science of Algorithms that Make Sense of Data. Cambridge University Press (2012).\nGOODFELLOW, I., BENGIO, Y., COURVILLE, A., Deep learning, MIT Press (2016).\nBISHOP, C.M., NASRABADI, N.M., Pattern recognition and machine learning, Springer, New York (2006).\nBISHOP, C. M., Neural networks for pattern recognition. Oxford University Press (1995)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

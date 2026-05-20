@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/7396",
+      "title": "Faculté des Sciences",
+      "id": "2d8c0006",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:43:22",
+      "hash": "09d0d8b4d7eee7f7",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nARRÊTÉ 171"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Arrete 171 Ar",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/5422/Arrete-171-Ar.pdf",
+        "local_file": "pdfs/2d8c0006_Arrete_171_Ar.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

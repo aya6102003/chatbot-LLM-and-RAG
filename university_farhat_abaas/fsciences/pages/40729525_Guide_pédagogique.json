@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/MCH.html",
+      "title": "Guide pédagogique",
+      "id": "40729525",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:24",
+      "hash": "c39e928d7a12d0e4",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Aperçu sur ce master :\nLe\nMaster académique Chimie Physique garantit une formation académique dans le\ndomaine des Sciences des Matériaux. Tout l’intérêt est basé sur la conception,\nla synthèse, la caractérisation et le développement de nouveaux matériaux avec\ndes propriétés physico-chimiques optimales. L’objectif\nessentiel de cette formation est de fournir aux étudiants les fondements\nthéoriques et le savoir-faire expérimental dont ils ont besoin pour maitriser\nles sciences des matériaux\nà savoir :\nles précurseurs chimiques, leurs exploitations, leurs propriétés physico-chimiques\net catalytiques ainsi que leurs applications dans divers procédés économiques.\nLes\nsciences ciblées pour cette formation sont :\n-\nConception et synthèse de matériaux Organiques, inorganiques et composites.\n- Caractérisation\net détermination des propriétés physico-chimiques des matériaux,\n-\nCatalyse homogène, hétérogène et enzymatique\n-\nMise en œuvre des procédés catalytiques.\n- Electrochimie appliquée et corrosion.\nResponsable :  Dr S. AOUN       s.aoun@univ-setif.dz"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/40729525_table_1_SEMESTRE_1.json",
+        "rows": 13
+      },
+      {
+        "file": "tables/40729525_table_2_SEMESTRE_2.json",
+        "rows": 13
+      },
+      {
+        "file": "tables/40729525_table_3_SEMESTRE_3.json",
+        "rows": 13
+      },
+      {
+        "file": "tables/40729525_table_4_SEMESTRE_4.json",
+        "rows": 3
+      }
+    ]
+  }
+}

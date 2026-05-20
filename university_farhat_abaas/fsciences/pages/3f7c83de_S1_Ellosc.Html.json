@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIM_ANAL_CONTROLE_QUALITE/S1-ELLOSC.html",
+      "title": "S1 Ellosc.Html",
+      "id": "3f7c83de",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:19",
+      "hash": "c612ca3087655929",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Exploration de Logiciels Libres et Open Source en Chimie Analytique et Contrôle de Qualité\nSemestre :\n1  |\nUE :\nTransversale  |\nCrédits :\n1  |\nCoefficients :\n1\nObjectifs de l'enseignement\nInitier les étudiants à l'utilisation de logiciels libres en lien avec l'analyse chimique, le traitement de données, le suivi de qualité et la validation de méthodes\nDévelopper des compétences pratiques en spectroscopie, chromatographie, analyse statistique et exploitation de résultats analytiques\nS'approprier des outils numériques utiles en laboratoire d'analyse et dans le cadre de la qualité\nConnaissances préalables recommandées\nBases de chimie analytique (méthodes classiques et instrumentales)\nNotions de validation et contrôle de qualité en laboratoire\nNotions de base en traitement de données et tableurs\nProgramme pédagogique détaillé\nChapitre I. Introduction aux outils libres pour l'analyse chimique\nNotion de logiciel libre et communauté scientifique\nPanorama des outils utiles : Spectragryph, OpenChrom, R (Chemometrics), Python (SciPy, pandas)\nFormats de données courants : txt, csv, netCDF, JCAMP-DX\nChapitre II. Traitement et visualisation des données analytiques\nTraitement de spectres UV-Vis, IR, RMN : filtrage, baseline, débruitage\nSpectragryph : traitement, comparaisons, résolution spectrale\nOpenChrom : analyse de chromatogrammes GC/LC, intégration de pics\nChapitre III. Validation de méthodes analytiques\nConcepts : justesse, fidélité, LOD, LOQ, linéarité, robustesse\nOutils : R (packages \"chemometrics\", \"car\", \"ggplot2\"), Excel/LibreOffice Calc\nAnalyse de répétabilité, récupération, incertitudes\nChapitre IV. Statistiques appliquées au contrôle de qualité\nContrôles internes, étude de capabilité (Cp, Cpk)\nCartes de contrôle (Shewhart, CUSUM, EWMA)\nCorrélation, régression linéaire multiple\nR : modélisation, régression, résidus, tests statistiques\nChapitre V. Outils documentaires et traçabilité numérique\nUtilisation de Zotero pour la gestion de références\nOutils libres pour rapports et protocoles : LibreOffice, LaTeX, Jupyter\nNotion de LIMS (Laboratory Information Management System)\nChapitre VI. Projet intégrateur ou étude de cas\nAnalyse complète de données réelles (spectres, dosages, validation)\nDossier méthodologique et discussion critique\nMode d'évaluation\n100% Contrôle continu\nRéférences\nSpectragryph : https://www.effemm2.de/spectragryph/\nOpenChrom : https://www.openchrom.net/\nR for Chemometrics : https://cran.r-project.org/\nChemistry Data in Python : https://pandas.pydata.org/, https://scipy.org\nAnalytical Methods Validation, ICH Q2 (R1)\nISO 17025:2017 Quality management for laboratories"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_INFORMATIQUE/S1-ASD1.html",
+      "title": "S1 Asd1.Html",
+      "id": "902b158d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:07",
+      "hash": "0203c43669437bca",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Algorithmique et structure de données 1\nSemestre :\n1  |\nUE :\nUEF12  |\nCrédits :\n7  |\nCoefficient :\n5\nObjectifs de l'enseignement\nUn algorithme est une démarche méthodologique de résolution d'un problème étape par étape. Il définit une suite d'instructions à exécuter dans un certain ordre pour obtenir le résultat souhaité. Un algorithme est généralement créé indépendamment du langage de programmation, c'est-à-dire qu'un algorithme peut être implémenté dans plusieurs langages de programmation. Une structure des données est une manière particulière de stocker et d'organiser les informations dans la mémoire d'un ordinateur afin qu'elles puissent être récupérées et utilisées de manière efficace.\nL'objectif de ce module est d'introduire et de construire les bases de la conception d'algorithmes et de structures de données pour la résolution de problèmes. Le « langage C » est recommandé comme support d'implémentation des algorithmes.\nConnaissances préalables recommandées\nConnaissances de base en mathématiques.\nContenu de la matière\nChapitre 1 : Introduction\nBref historique de l'informatique\nLa structure fonctionnelle d'un ordinateur (mémoire, processeur, E/S)\nLe matériel (hardware) et le logiciel (software)\nLangage de programmation\nCycle de résolution d'un problème par ordinateur (Analyse, Algorithme, Programme, Exécution)\nChapitre 2 : Algorithme séquentiel simple\nExemples simples d'algorithmes de la vie courante\nDéfinition d'un algorithme\nStructuration d'un algorithme (titre de l'algorithme, déclarations, instructions, indentation)\nNotion de variable et de constante algorithmique\nLes types de bases (entier, réel, caractère)\nEtapes simples : lecture, affichage, affectation\nRésolution algorithmique de problèmes simples\nReprésentation graphique d'un algorithme : l'organigramme\nTraduction d'un algorithme simple en langage C\nChapitre 3 : Les structures conditionnelles\nL'importance de prise de décision lors de la résolution d'un problème\nStructure conditionnelle simple (Si … Alors …. FinSi)\nStructure conditionnelle double (Si … Alors … Sinon …. FinSi)\nImbrication de structures conditionnelles\nStructure conditionnelle de choix multiples\nInstructions conditionnelles en langage C\nChapitre 4 : Les structures répétitives\nImportance de la répétition dans la résolution de problèmes (exemples)\nNotion de compteur de boucle et de condition de répétition (ou d'arrêt)\nLa boucle (TantQue …. FinTQ)\nLa boucle (Répéter …. Jusqu'à ….)\nLa boucle (Pour …. FinPour)\nImbrication de boucles\nLes structures répétitives du langage C\nChapitre 5 : Les tableaux et les chaînes de caractères\nIntroduction : nécessité de données tabulaires (exemples)\nLe type tableau à une dimension (1D)\nNotion d'indice, accès à un élément du tableau, manipulation d'un tableau\nLe tableau à deux dimensions (2D), ou matrice\nQuelques applications des tableaux 1D et 2D\nLe type chaîne de caractères (cas particulier de tableau 1D)\nQuelques applications des chaînes de caractères\nLes tableaux 1D, 2D et les chaînes de caractères en langage C\nChapitre 6 : Les types personnalisés\nIntroduction : nécessité de définir des types personnalisés (exemples)\nLe type structure (enregistrement) et son utilisation\nLes énumérations\nApplication en langage C (struct, enum, union, typedef)\nRecommandations\nLa séance de TP est utilisée pour introduire le langage C au fur et à mesure en utilisant un IDE tel que CodeBlocks ou DevCpp.\nComme il s'agit d'un premier module d'algorithmique, les fiches de TD doivent comporter un nombre important d'exercices. Il faut encourager les étudiants à préparer les exercices et à traduire tous les algorithmes en programmes.\nInsister sur la présentation d'un algorithme et d'un programme (choix des variables, indentation, commentaires, …).\nMode d'évaluation\nExamen (60%), Contrôle continu en TD et test de TP (40%)\nRéférences bibliographiques\nT. H. Cormen, C. Leiserson, R. Rivest & C. Stein. Introduction to Algorithms. The MIT Press, 4th Edition, 2022. Disponible au format PDF.\nT. H. Cormen. Algorithmes, notions de base. Collection Sciences SUP, Dunod, 2013.\nS. Oualline. Practical C Programming. O'REILLY, 3rd Edition. Disponible au format PDF.\nCanteaut. Programmation en Langage C. INRIA projets CODES. Disponible au format PDF."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

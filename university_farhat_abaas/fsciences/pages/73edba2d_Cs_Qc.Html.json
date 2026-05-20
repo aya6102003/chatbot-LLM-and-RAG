@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-QC.html",
+      "title": "Cs Qc.Html",
+      "id": "73edba2d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:30",
+      "hash": "7ef92437f706bae1",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nTo get one's quantum moorings right, a basic introduction to quantum mechanics, linear algebra, and acquaintance with the Dirac notation is taught first. After that, there's an introduction to quantum processing and quantum information, which covers topics like quantum entanglement, quantum algorithms, and quantum channels. The IBM quantum computer and accompanying simulators are used to demonstrate rudimentary quantum computing.\nContenu de la matière\nIntroduction\nQuantum correlations\nQuantum cryptography\nQuantum gates and algorithms\nProgramming a quantum computer\nMode d’évaluation : Contrôle continu, examen Références\n• Chris Bernhardt, Quantum Computing for Everyone, The MIT Press,Cambridge, 2020"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

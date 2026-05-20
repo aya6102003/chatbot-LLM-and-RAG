@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S1-THE.html",
+      "title": "Thermoélectricité",
+      "id": "7a1e4c6c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:06",
+      "hash": "c8ab3d54823cb864",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Thermoélectricité\nSemestre 1 – UE Découverte\nMode d'évaluation :\nContinu 100%\nObjectifs de l’enseignement\nCe module vise à fournir une compréhension approfondie des principes physiques, des applications pratiques\net des avancées technologiques de la conversion d’énergie thermoélectrique. Il permettra aux apprenants :\nD’acquérir les bases théoriques (effets Seebeck, Peltier, Thomson) et les paramètres influençant le rendement (ZT).\nD’explorer les applications actuelles (récupération de chaleur, refroidissement, électronique portable) et les défis industriels .\nDe maîtriser la conception de modules thermoélectriques et l’optimisation des matériaux classiques et innovants.\nDe s’initier aux voies de recherche émergentes (nanostructuration, matériaux biosourcés, apprentissage automatique).\nConnaissances préalables recommandées\nUne bonne maîtrise des propriétés physiques des matériaux et des effets thermoélectriques est requise.\nDes notions sur le transport des charges et la conductivité thermique sont importantes.\nContenu de la matière :\n1. Aspects historiques (1 semaines)\nDécouverte des effets Seebeck, Peltier et Thomson - Premières applications historiques (XIXᵉ siècle)\n2. Applications potentielles (3 semaines)\nGénération d’électricité à partir de chaleur résiduelle - Refroidissement sans compresseur (effet Peltier)\nApplications spatiales (RTG - Radioisotope Thermoelectric Generators) -\nÉlectronique portable et capteurs autonomes\n3. Principes de base (3 semaines)\nEffet Seebeck : génération de tension par gradient thermique\nEffet Peltier : transfert de chaleur par courant électrique\nEffet Thomson : rôle du gradient de température dans un conducteur\n4. Principe de conversion d’énergie et rendement (2 semaines)\nCycle de conversion énergétique (chaleur → électricité) - Rendement (η) et figure de mérite (ZT) -\nParamètres clés : conductivité électrique, conductivité thermique, coefficient Seebeck\n5. Modules thermoélectriques (2 semaines)\nArchitecture des modules (couples p-n, soudure, substrats)\nDimensionnement (puissance électrique, ΔT, efficacité)\n6. Matériaux thermoélectriques (2 semaines)\nMatériaux classiques (Bi₂Te₃, PbTe, SiGe) - Alliages et composites- Optimisation : nanostructuration,\ndopage, multicouches\n7. Voies de recherche (2 semaines)\nStructures de basse dimensionnalité (nanofils, super-réseaux) - Nouveaux matériaux prometteurs (Zintl\nphases, half-Heusler, oxydes) - Méthodes d’optimisation (calcul ab initio, machine learning)\nRéférences\n[1] Thermoelectricity: An Introduction to the Principles ; Auteur : D.K.C. MacDonald; Éditeur : Dover\nPublications ; (2006)\n[2] Thermoelectric Materials: Emerging Research and Opportunities; Auteur : Terry M. Tritt\n[3] Éditeur : Momentum Press (2008)\n[4] Introduction to Thermoelectricity; Auteur : Julian Goldsmid; Éditeur : Springer (2010)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

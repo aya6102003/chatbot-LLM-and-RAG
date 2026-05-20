@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/7171",
+      "title": "Faculté des Sciences",
+      "id": "303f0d83",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:43:44",
+      "hash": "220b18966745f5cb",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nARRÊTÉ 1023"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Arrete 1023 ar fr",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/5270/Arrete-1023-ar-fr.pdf",
+        "local_file": "pdfs/303f0d83_Arrete_1023_ar_fr.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

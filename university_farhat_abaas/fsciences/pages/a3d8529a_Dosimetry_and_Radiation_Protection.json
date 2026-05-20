@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S3-DR.html",
+      "title": "Dosimetry and Radiation Protection",
+      "id": "a3d8529a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:58",
+      "hash": "1a6ae7fbe095f83e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n3  |\nUE :\nMéthodologie (UEM 3)  |\nCrédits :\n4  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nConnaître et utiliser correctement les grandeurs physiques de la dosimétrie\nMettre en pratique les méthodes employées pour déterminer, par le calcul et la mesure, les grandeurs dosimétriques associées\nConnaître les instruments de dosimétrie et la grandeur mesurée pour chacun\nInterpréter et exprimer correctement des résultats de mesure\nConnaissances préalables recommandées\nBases de l'interaction rayonnement-matière, détection des rayonnements.\nContenu de la matière\nChapitre 1 : Grandeurs radiométriques\nCaractéristiques d'un faisceau de rayonnement\nFluence particulière et fluence énergétique\nFlux de particule et flux énergétique\nSpectre particulaire et spectre énergétique\nChapitre 2 : Grandeurs dosimétriques\nL'exposition, le kerma, la dose absorbée, la dose équivalente, la dose efficace\nDose biologique relative, dose annuelle sur une population\nEquilibre électronique et relation dose-kerma\nPrincipe de Bragg-Gray\nChapitre 3 : Dosimétrie absolue\nCalorimétrie, Dosimétrie de Fricke, Chambre d'ionisation\nPrécision de mesure absolue des doses\nChapitre 4 : Dosimétrie de transfert\nDosimétrie active, Dosimétrie passive\nCalibration en dosimétrie de transfert\nChapitre 5 : Dosimétrie médicale\nDosimétrie in vivo et in vitro\nImportance de la précision de la mesure\nChapitre 6 : Dosimètres\nDosimètres pour les photons\nDosimètres pour particules chargées\nDosimètres pour neutron\nChapitre 7 : Réglementation de la radioprotection\nObjectifs et principes de la radioprotection\nGrandeurs et unités en radioprotection\nNormes internationales de radioprotection\nRéglementation Algérienne\nClassification des zones, types d'exposition\nPrincipes de base de la radioprotection (Justification, Optimisation, Limitation)\nChapitre 8 : Organisation de la radioprotection dans l'établissement\nRôle de la personne compétente en radioprotection (PCR)\nPersonne compétente et organismes extérieurs\nPersonne compétente en milieux médical (Radiodiagnostique, Radiothérapie, médecine nucléaire)\nChapitre 9 : Organisation de la radioprotection dans les laboratoires\nLaboratoires de faible et moyenne activité\nContrôles à effectuer, méthodologie des contrôles\nConduite à tenir en cas d'accident radiologique\nChapitre 10 :\nCalcul de blindage\nRéférences bibliographiques\nCalculs de doses générées par les rayonnements ionisants, Vivier, Alain ; Lopez, Gérald, EDP sciences, 2012\nIntroduction to Radiological Physics and Radiation Dosimetry, ATTIX, F.H. Wiley, New York (1986)\nFundamental Quantities and Units for Ionizing Radiation, Rep. 60, ICRU, Bethesda, MD (1998)\nDétection de rayonnements et instrumentation nucléaire, Abdallah Lyoussi, Ed EDP Sciences 2010\nPersonne compétente en radioprotection, Christine Jimonet, EDP Sciences 2007\nManuel pratique de radioprotection, D-J. Gambini et R. Granier\nRadionucléides & Radioprotection : guide pratique, D. Delacroix, J-P. Guerre, P. Leblanc\nAtoms, radiation and radiation protection, J. E. Turner\nRadioprotection en milieu médical : principes et mise en pratique, Yves-Sébastien Cordoliani, Hervé Foehrenbach, Elsevier Masson, 2008"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

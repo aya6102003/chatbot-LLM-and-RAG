@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S3-NDD.html",
+      "title": "Nanomatériaux pour le Développement Durable",
+      "id": "9df24150",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:09",
+      "hash": "48235c91c1ae6bfc",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Nanomatériaux pour le Développement Durable\nObjectifs de l'enseignement\nL'objectif de cet enseignement est de développer une expertise dans les nanomatériaux utilisés dans les domaines de l'énergie, l'environnement et la santé. À travers ce cours, l'étudiant acquerra des connaissances sur la conception, la caractérisation, la fabrication et les applications des nanomatériaux dans divers secteurs liés au développement durable.\nConnaissances préalables recommandées\nIl est recommandé d'avoir bien maîtrisé les bases des nanosciences et nanotechnologies, chimie des matériaux, électrochimie ainsi que les propriétés physico-chimiques des matériaux.\nContenu de la matière\nIntroduction – Contexte actuel (2 semaines)\nContexte énergétique\nContexte actuel des nanosciences et nanotechnologies dans le domaine des énergies\nMéthodes de réalisation de nanostructures (6 semaines)\nSynthèse et fonctionnalisation de nano-objets\nSynthèse par voie chimique en solution\nObtenir des nanoparticules individuelles – fonctionnalisation\nNano-objets organiques\nApproche bottom-up : Synthèses en solution par voie chimique ou électrochimique, avec ou sans template ; Synthèses en phase vapeur – réacteur sous vide ou atmosphère contrôlée\nApproche top-down : Nanostructuration de couches minces (techniques de lithographie, gravure) ; La lithographie (Haute technologie, miniaturisation des composants électroniques et informatiques…) ; La nanoélectronique au service de l'homme et la loi de Moore\nNanomatériaux pour l'énergie et le développement durable (10 semaines)\nIntroduction\nNanomatériaux pour la conversion de l'énergie : Conversion photovoltaïque de l'énergie solaire ; Matériaux semi-conducteurs – généralités ; Jonction P-N ; Cellule solaire photovoltaïque – principe de base ; Module photovoltaïque ; Différentes filières : silicium, couche mince, organique ; Apport des nanotechnologies ; Cellules solaires à multi-jonctions ou tandem ; Cellules solaires à niveaux intermédiaires ; Cellules solaires à multi-génération de charges ; Cellules à conversion photonique ; Cellules solaires à porteurs chauds\nNanomatériaux pour le stockage de l'énergie : Piles à combustible (différentes technologies, principes thermodynamiques de base, piles à membrane échangeuse de protons, piles à oxyde solide) ; L'hydrogène (hydrogène comme vecteur énergétique, production de l'hydrogène – différentes voies, stockage de l'hydrogène – matériaux solides et composites nanostructurés, avancées technologiques)\nNanomatériaux pour l'environnement : Applications pour le traitement de l'eau et de l'air ; Remplacement des filtres conventionnels par des nanomatériaux avancés\nNanomatériaux pour la santé\nRéférences bibliographiques\nAbdelilah Slaoui, Jean-François Guillemoles : Nanomatériaux pour la conversion photovoltaïque – L'Actualité Chimique, n° 331, juin 2009\nFlorent Bègue, Éric Pineault : L'hydrogène : énergie de transition ou nouveau mirage ? – Relations, été 2022\nAbdelilah SLAOUI : Nanostructures pour cellules photovoltaïques inorganiques – Techniques de l'Ingénieur, 10/08/2010\nDaniel Lincot, Ludovic Escoubas, Jean François Guillemoles, Jean-Jacques Simon, Abdelilah Slaoui : Nanomatériaux pour la conversion photovoltaïque de l'énergie solaire"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

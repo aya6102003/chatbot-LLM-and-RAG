@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Master_Maths.html",
+      "title": "Guide pédagogique",
+      "id": "adadf319",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:35",
+      "hash": "df22d6352d3d65d2",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Guide pédagogique\nMaster Mathématiques\n\nMathématiques Appliquées\nAlgèbre et Géométrie\nAnalyse Non Linéaire et Equations DP\nOptimisation et Contrôle\nAnalyse Mathématique et Applications\nEquations aux Dérivées Partielles et Applications"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "Guide pédagogique",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/index.html",
+        "type": "internal"
+      },
+      {
+        "text": "Maths.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Maths.html",
+        "type": "internal"
+      },
+      {
+        "text": "MAP.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/MAP.html",
+        "type": "internal"
+      },
+      {
+        "text": "AG.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/AG.html",
+        "type": "internal"
+      },
+      {
+        "text": "ANLDP.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/ANLDP.html",
+        "type": "internal"
+      },
+      {
+        "text": "OPC.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/OPC.html",
+        "type": "internal"
+      },
+      {
+        "text": "Master_AMA.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Master_AMA.html",
+        "type": "internal"
+      },
+      {
+        "text": "Master_EDP.html",
+        "url": "https://fsciences.univ-setif.dz/GP_FR/Master_EDP.html",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

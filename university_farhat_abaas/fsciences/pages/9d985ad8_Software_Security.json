@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S9-SECU-LOG.html",
+      "title": "Software Security",
+      "id": "9d985ad8",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:37",
+      "hash": "a41beb6937e0e3e5",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Software Security\nSemestre : S9\nUnité d’enseignement : UEM1\nMatière : Sécurité Logicielle\nCrédits : 3\nCoefficient : 2\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement\nLe module de sécurité logicielle a pour but de comprendre les risques de sécurité dus aux failles du\nsystème informatique et des applications d’une part et d’autre part de faire face aux différentes\nattaques possibles. De plus, proposer de bonnes pratiques de développement logiciel. Mais surtout de\ncomprendre les différentes couches de sécurité d’un système informatique, de l’authentification, du\ncontrôle d’accès et de confidentialité.\nAussi, les innovations technologiques influencent la sécurité des applications et augmentent leurs\nvulnérabilités. A l’heure actuelle, il est essentiel de concevoir des projtes et travaux en phase avec les\nbesoins d’apprentissage, tout en donnant aux étudiants les moyens de mettre efficacement leurs\nconnaissances en pratique.\nConnaissances préalables recommandées : Introduction à la sécurité d’Informatique (ISEC)\nContenu de la matière\nChapitre I : Rappel sur la cryptographie\n1- Introduction\n2- Objectifs de la sécurité\n3- Sécurité moderne\nChapitre II : Authentification\n1- Définitions\n2- Type d’authentification\n3- Authentification centralisée\n4- Authentification distribuée\n5- Authentification Multi-facteurs\n6- Les protocoles d’authentification de connexion\nChapitre III : Contrôle d’accès\n1. Définitions\n2. Caractéristiques des modèles de contrôle d’accès\n3. MAC\n4. DAC\n5. RBAC\n6. Modèles à base de XML\n7. Contrôle d’accès et applications\nChapitre IV : Confidentialité\n1. Définitions\n2. Modèles de confidentialité\n3. Partage de la donnée\nChapitre V : Attaques et moyens de défense / Cyber sécurité\n1. Définition d’une attaque\n2. Les vulnérabilités logicielles\n3. Classification des hackers\n4. Classification des attaques\n5. Scénarios d’attaques\n6. Les virus, chevaux de Troie\n7. Systèmes de détection ou de prévention d’intrusions\nChapitre V : Impact des nouveaux environnements sur la sécurité logicielle\n1. Sécurité des applications Web\n2. Sécurité dans les réseaux sociaux\n3. Sécurité dans le bigdata (IoT et Cloud computing)\n4. Blockchain\n5. Vie privée et anonymat\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences\n1. Salwa Alem, David Espes, Florent De Lamotte, Eric Martin, Laurent Nana. \"Hybrid Intrusion\nDetection System in Industry 4.0 based on ISA95 standard\", 16th ACS/IEEE International\nConference on Computer Systems and Applications (AICCSA 2019), Saoudi Arabia, 2019.\"\n2. CyberArk. URL https://www.cyberark.com/threat-research-blog/anatomy-triton-malware-attack/\n(accessed 5.2.18)\n3. Ashibani, Y., Mahmoud, Q.H., 2017. Cyber physical systems security: Analysis, challenges and\nsolutions. Computers & Security 68, 81–97. https://doi.org/10.1016/j.cose.2017.04.005"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

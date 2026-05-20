@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_MATHS_APPLIQUEES/S1-LOGICIELSLIBRES.html",
+      "title": "Logiciels libres (Open Source)",
+      "id": "3826daa3",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:43",
+      "hash": "377244293d8fa68b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Logiciels libres (Open Source)\nSemestre :\n01\nUnité d'enseignement :\nMéthodologique\nMatière :\nLogiciels libres (Open Source)\nCrédits :\n4\nCoefficient :\n2\nObjectifs de l'enseignement :\nFamiliarisation avec l'outil informatique et l'Internet.\nConnaissances préalables recommandées :\nConnaissances générales en informatique.\nContenu de la matière :\nChapitre 1 : Technologies de l'information\n1.1. Définitions\n1.2. Outils\nMatériels (Hardware) : Ordinateurs (PC de bureau, portables, serveurs, stations de travail), Réseaux de communication (routeurs, switch, modems, fibres optiques, Wi-Fi), Périphériques (imprimantes, scanners, claviers, souris, caméras, capteurs), Dispositifs mobiles (smartphones, tablettes, PDA), Puces intelligentes (RFID, NFC, processeurs embarqués, capteurs IoT).\nLogiciels (Software) : Systèmes d'exploitation (Windows, Linux, macOS, Android, iOS), Applications métiers (ERP, CRM, logiciels RH, comptabilité), Logiciels de bureautique (Word, Excel, PowerPoint, Google Workspace, Microsoft 365).\n1.3. Applications\n: Espaces de communications (Internet, Intranet, Extranet), Multimédia (Audioconférence, visioconférence), Echange de données informatisées (EDI), Workflows.\nChapitre 2 : Outils Open source\nIntroduction (historique, avantages / inconvénients et licence)\nEnvironnement de développement (Introduction à Linux, Introduction aux éditeurs de code)\nBureautique (Suite bureautique LibreOffice)\nCollaboration (Stockage et partage)\nContribuer à un projet open source\nMode d'évaluation :\nExamen (100%)\nRéférences :\nCollectif Eni, Microsoft Office 2016 Word, Excel, PowerPoint, Outlook 2016 - Fonctions de base, Eni Collection : Référence bureautique, 2016.\nDan Gookin, Greg Harvey, Word et Excel 2016 pour les nuls, First, Collection : Pour les nuls - Poche (informatique), 2016.\nMyriam GRIS, Initiation à Internet, Eni editions, 2009."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

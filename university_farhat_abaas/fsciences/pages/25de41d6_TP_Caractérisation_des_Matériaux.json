@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S3-TPCM.html",
+      "title": "TP Caractérisation des Matériaux",
+      "id": "25de41d6",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:11",
+      "hash": "b9ecc156a6bf591e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : TP Caractérisation des Matériaux\nObjectifs de l'enseignement\nL'objectif de ce travail pratique est de donner quelques éléments de base pour mieux comprendre les propriétés physiques et structurelles des matériaux nanostructurés et en couches minces déposées par électrodéposition.\nConnaissances préalables recommandées\nConnaissances avérées en électrochimie, électrodéposition, techniques d'élaborations des couches minces, techniques bain chimiques, techniques d'épitaxie par jet moléculaires.\nLa liste des TP citée ci-dessous n'est pas exhaustive. Elle constitue une orientation d'ordre général et dépendra des ressources disponibles pour chaque établissement.\nContenu de la matière\nTP 1 : Estimation de la concentration en porteurs de charges des oxydes conducteurs transparents par la technique de Mott-Schottky.\nTP 2 : Observation morphologique par microscopie à force atomique (AFM) des oxydes conducteurs transparents.\nTP 3 : Mesures optiques par UV-VIS-NIR\nTP 4 : Mesure du coefficient d'absorption et du gap optique.\nTP 5 : Mesure de la résistivité\nTP 6 : Mesure de l'épaisseur des dépôts\nTP 7 : Caractérisation structurale par diffraction de rayons X (DRX) des oxydes conducteurs transparents (ZnO et Cu₂O).\nTP 8 : Caractérisation de la photoactivité des oxydes métalliques transparents et semi-conducteurs\nTravaux pratiques avec des logiciels libres et open source\nTP 1 – Visualisation des structures cristallines avec VESTA : Lire un fichier CIF (Crystallographic Information File) ; Visualiser la maille cristalline, les plans cristallographiques (hkl) ; Calculer les distances interatomiques, angles, et volumes de maille ; Ouvrir plusieurs fichiers CIF (NaCl, graphite, quartz...) ; Afficher les plans (100), (110), (111) ; Représenter les polyèdres de coordination ; Exporter des images annotées.\nTP 2 – Interprétation d'un diffractogramme RX simulé : Comprendre les pics de diffraction ; Identifier les plans (hkl) associés aux pics ; Vérifier la loi de Bragg ; Utiliser des diffractogrammes simulés (ex. poudre de NaCl, graphite) ; Associer chaque pic à un plan cristallin ; Logiciels : WinPlotr, VESTA.\nTP 3 – Raffinement de structure avec FullProf (Rietveld) : Apprendre à utiliser FullProf pour raffiner une structure à partir de données expérimentales ; Obtenir les paramètres de maille, la qualité du fit (Rwp, χ²...) ; Charger un fichier expérimental de diffraction (poudre) ; Créer le fichier .pcr avec EdPCR ; Ajuster les paramètres de maille, facteur d'échelle, largeur des pics.\nTP 4 – Identification de phase à partir d'un diffractogramme inconnu : Identifier une phase inconnue à partir de données expérimentales ; Utiliser les bases de données de diffraction (ICSD, COD) ; Simuler des diffractogrammes de candidats avec FullProf ; Comparer les pics, trouver la meilleure correspondance.\nTP 5 – Influence de la structure cristalline sur le motif de diffraction : Comparer les diffractogrammes de différentes structures cristallines ; Comparer NaCl (cubique), graphite (hexagonal), rutile-TiO₂ (tétragonal) ; Simuler les diffractogrammes à partir des fichiers CIF.\nAutres TP Logiciels Libres\nTP1 : Introduction aux logiciels de visualisation cristalline (VESTA, Mercury) – Visualisation de structures cristallines, identification des éléments de symétrie, construction de plans réticulaires\nTP2 : Simulation de diagrammes de diffraction – Utilisation de logiciels comme PowderCell ou WinPlotr, Prédiction des pics de diffraction\nTP3 : Analyse de diagrammes de diffraction de poudres – Indexation des pics, Détermination du système cristallin, Calcul des paramètres de maille\nTP4 : Raffinement par la méthode de Rietveld – Utilisation de logiciels comme FullProf ou TOPAS\nTP5 : Manipulation sur diffractomètre de laboratoire – Préparation des échantillons (poudre), Acquisition du spectre de diffraction, Première analyse qualitative et quantitative\nTP6 : Étude comparative de deux matériaux cristallins – Comparaison de leurs diagrammes de diffraction, Analyse de leur structure et propriétés attendues, Rapport écrit avec interprétation structurale\nRessources communes à tous les TP\nLogiciels : VESTA, FullProf Suite (EdPCR, WinPlotr), PowderCell (optionnel)\nFichiers CIF : disponibles sur https://www.crystallography.net/cod/\nDonnées expérimentales ou simulées : fournies par l'enseignant"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

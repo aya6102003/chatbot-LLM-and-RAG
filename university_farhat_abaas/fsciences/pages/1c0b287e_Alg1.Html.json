@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING/ALG1.html",
+      "title": "Alg1.Html",
+      "id": "1c0b287e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:45",
+      "hash": "5ab94504392f82b6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la matière\nChapitre 1 : Logique et raisonnements\nMotivation\nLogique\nRaisonnements\nChapitre 2 : Ensembles, applications et relations\nEnsembles\nApplications\nInjection, surjection, bijection\nRelation d’équivalence\nRelation d’Ordre\nChapitre 3 : Structures algébriques\nLois de composition interne\nGroupe\nStructure d’anneau\nAnneaux intègres\nCorps\nChapitre 4 :\nAnneau de polynômes\nDéfinitions\nArithmétique des polynômes\nRacine d’un polynôme, factorisation\nFractions rationnelles"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

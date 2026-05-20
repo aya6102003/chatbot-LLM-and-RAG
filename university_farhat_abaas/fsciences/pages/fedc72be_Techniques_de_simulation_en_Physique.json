@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S3-TSP.html",
+      "title": "Techniques de simulation en Physique",
+      "id": "fedc72be",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:51",
+      "hash": "52151c256e5ba2d3",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Techniques de simulation en Physique\nSemestre 3 – UE Méthodologie\nPrérequis\nDiscrétisation par différences finies\nSymétries des systèmes physiques à différentes échelles\nMaîtrise de l'outil mathématique\nObjectifs de l'enseignement\nCe cours initie les étudiants aux techniques de simulation en physique, en mettant l'accent sur la modélisation dynamique de phénomènes physiques à différentes échelles (nano, méso). Il ne s'agit pas simplement de résoudre numériquement des équations, mais de faire \"vivre\" un événement physique sur un ordinateur à partir de modèles théoriques, en explorant aussi bien les méthodes déterministes que stochastiques.\nProgramme détaillé\nChapitre 1 : Introduction aux techniques de simulation\nDifférences entre simulations et résolutions numériques d'équations\nBoîtes de simulation, conditions aux bords, configurations initiales\nÉchelles de temps et de longueur\nTechniques déterministes et stochastiques\nChapitre 2 : Simulations à l'échelle nanoscopique\nSystèmes nanométriques et dynamique newtonienne\nPotentiels interatomiques et équations du mouvement\nRelaxation des systèmes\nChapitre 3 : Technique de Dynamique Moléculaire classique\nSimulation en 3D (bulk), 2D (surface), nanoparticules\nChoix du pas de temps, thermostats, distribution des vitesses\nPréparation et exploitation des fichiers Input/Output\nChapitre 4 : Simulations à l'échelle mésoscopique\nMicrostructures et interfaces dans les alliages binaires\nPhénomènes de diffusion, lois de Fick, interfaces de phases\nChapitre 5 : Modèle de champ de phases\nParamètres d'ordre (conservatif et non-conservatif)\nPotentiels chimiques, gradients, interface diffuse\nFonctionnelle d'énergie libre\nÉquations de Cahn-Hilliard et Allen-Cahn\nChapitre 6 : Simulation du champ de phases\nConfiguration initiale, stabilité numérique, croissance stationnaire\nContenu des Travaux pratiques\nTP1 : Installation des software open-source\nInstallation de Linux\nInstallation de LAMMPS pour les TP de Dynamique Moléculaire\nInstallation de OPEN-PHASE pour les TP de champs de phases\nTP2 (avec LAMMPS) : Simulations d'un système massif (3D)\nTP3 (avec LAMMPS) : Simulations de nanoparticules\nTP4 (avec OPEN-PHASE) : Simulation de la décomposition spinodale\nTP5 (avec OPEN-PHASE) : Simulation d'un phénomène de précipitation à partir d'une phase mère sur-saturée.\nMode d'évaluation\nContrôle continu : 50 %\nExamen : 50 %\nRéférences bibliographiques\nM. P. Allen, D. J. Tildesley, Computer Simulation of Liquids, Oxford Science Publications, 1989\nD. Frenkel & B. Smit, Understanding Molecular Simulation, Academic Press, 2nd ed., 2001\n\"OpenPhase\" – OpenPhase Academic, https://openphase.rub.de\nSteinbach, I., et al., \"A phase field concept for multiphase systems\", Physica D, 94(3), 135–147, 1996\nSteinbach, I., \"Phase-field models in materials science\", Modelling and Simulation in Materials Science and Engineering, 17(7), 073001, 2009\nLAMMPS documentation, https://docs.lammps.org/"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

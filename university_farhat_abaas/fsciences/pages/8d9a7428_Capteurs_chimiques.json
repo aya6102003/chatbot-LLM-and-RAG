@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_DE_L_EAU/S3-CC.html",
+      "title": "Capteurs chimiques",
+      "id": "8d9a7428",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:23",
+      "hash": "af4de99f89e74b8b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Capteurs chimiques\nSemestre :\n3  |\nUnité d'enseignement :\nDécouverte\nObjectifs pédagogiques\nComprendre les principes de fonctionnement des capteurs chimiques et leurs composants essentiels\nClasser les capteurs selon leur mode de détection (électrochimique, optique, massique, thermique, etc.) et connaître leurs spécificités analytiques\nMaîtriser les paramètres analytiques fondamentaux : sensibilité, sélectivité, limite de détection (LOD), limite de quantification (LOQ), linéarité, reproductibilité\nIdentifier les domaines d'application des capteurs chimiques : surveillance environnementale, analyses biomédicales, sécurité alimentaire, procédés industriels\nAnalyser et critiquer un capteur existant en termes de performances, de pertinence pour une matrice donnée et de contraintes d'utilisation (coût, robustesse, interférences)\nConcevoir ou sélectionner un capteur adapté à un problème analytique concret, en intégrant les aspects techniques, analytiques et pratiques\nContenu de la matière\nChapitre 1 – Introduction aux capteurs chimiques (2 semaines)\nDéfinitions\nIdentification des éléments constitutifs : récepteur, transducteur, signal\nClassifications : capteurs électrochimiques, optiques, thermiques, etc.\nApplications en environnement, santé, industrie\nChapitre 2 – Principes fondamentaux de détection chimique (2 semaines)\nNotions de sensibilité, sélectivité, temps de réponse, linéarité, durée de vie\nParamètres analytiques : limites de détection (LOD), de quantification (LOQ), réponse et bruit\nTraitement et interprétation des signaux analytiques : Électronique de lecture, amplification, bruit, Numérisation et interface avec des systèmes d'acquisition\nMéthodes de calibration des capteurs\nChapitre 3 – Capteurs électrochimiques (2 semaines)\nCapteurs ampérométriques, potentiométriques, conductimétriques\nÉlectrodes de référence et électrodes sélectives d'ions\nApplications : analyse de pH, ions métalliques, glucose\nChapitre 4 – Capteurs optiques (2 semaines)\nPrincipe de détection optique : absorption, fluorescence, luminescence\nFibres optiques et capteurs colorimétriques\nExemples : capteurs de gaz, capteurs biomédicaux\nChapitre 5 – Applications avancées et innovations (3 semaines)\nCapteurs dans l'environnement (polluants, pesticides, métaux lourds)\nCapteurs portables et connectés (lab-on-a-chip, IoT)\nBiosenseurs : hybridation avec éléments biologiques (enzymes, anticorps)\nPerspectives : capteurs intelligents, diagnostics in situ, capteurs miniaturisés\nMode d'évaluation\nExamen : 100%"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

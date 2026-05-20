@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING2EME/POO2.html",
+      "title": "Poo2.Html",
+      "id": "2b3322ed",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:51",
+      "hash": "ff2b8a7fa175fad2",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nRappels de programmation orient�e objets\nInterfaces\nDistribution gratuite d'objets : pour services rendus sur le r�seau\nMultithreading\nProgrammation �v�nementielle\nPersistance d'objets\nLes graphes\nLes exceptions\nLes flux d\u0019entr�es / sorties\nJava et r�flexivit�"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

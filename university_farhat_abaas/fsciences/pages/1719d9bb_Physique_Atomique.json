@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L3/S6-PA.html",
+      "title": "Physique Atomique",
+      "id": "1719d9bb",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:25",
+      "hash": "fbfae06669a7aecb",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Physique Atomique\nSemestre :\n6  |\nUnité d'enseignement :\nFondamentale\nConnaissances préalables recommandées\nCours de la mécanique quantique, Ondes, Optique et Électricité.\nObjectifs de l'enseignement\nIntroduction à l'étude de l'atome.\nContenu de la matière\nChapitre 1 : LES ATOMES HYDROGÉNOÏDES (6h)\nRappels des résultats du modèle de Bohr-Sommerfeld\nTraitement quantique de l'atome d'hydrogène\nLes fonctions propres des états stationnaires\nDistribution spatiale de la densité électronique\nValeurs moyennes des grandeurs d'espace\nParité d'un état hydrogénoïde\nChapitre 2 : LES ATOMES A PLUSIEURS ELECTRONS (9h)\nLe modèle en couches\nLes atomes alcalins\nL'atome d'hélium\nChapitre 3 : TRANSITIONS RADIATIVES (7h30)\nProbabilités de transition\nFormes des raies spectrales\nQuelques applications\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\n1- Physique Atomique, B. Held, OPU (1976).\n2- The Physics of Atoms and Quanta, H. Haken & Hans C. Wolf, Springer-Verlag, 3rd Edition, (1993).\n3- Physique atomique, B. Held, Ed. Masson.\n4- Physique atomique 2. L'atome : un édifice quantique 2ème édition, B. Cagnac, Ed. DUNOD."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

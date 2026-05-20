@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/371",
+      "title": "Faculté des Sciences",
+      "id": "d67d5cea",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:32:09",
+      "hash": "5ce7ed16a34bb51c",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "RADJEAI née KETTAB Samia\nRADJEAI née KETTAB Samia\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:kettab@univ-setif.dz\nEmail:kettab@univ-setif.dz\nDépartement:Mathématiques\nBureau:\nBureau:\n\nChapitre 1 : Généralités sur l'analyse numérique et le calcul scientifique\nPolycopie de cours\nChapitre 2 : Analyse matricielle\nPolycopie de cours\nTP N°1 Analyse matricielle\nPolycopie de TP\nSolution du TP1\nPolycopie de TP\nChapitre 3 : Méthodes directes de résolution des systèmes linéaires\nPolycopie de cours\nTP N°2 Résolution numérique des systèmes linéaires Ax=b méthodes directes.\nPolycopie de TP\nChapitre 4 : Méthodes itératives de résolution des systèmes linéaires\nPolycopie de cours\nExemple sur la convergence des méthodes itératives de résolution des systèmes linéaires\nPolycopie de cours\nCorrection d'examen MN 2019/2020\nPolycopie de cours\nTP N°3\nPolycopie de TP\nSolution du TP2 et TP3\nPolycopie de TP\nExemple sur la convergence des méthodes itératives de résolution des systèmes linéaire\nPolycopie de cours"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "1975",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1975",
+        "type": "internal"
+      },
+      {
+        "text": "2012",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2012",
+        "type": "internal"
+      },
+      {
+        "text": "2013",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2013",
+        "type": "internal"
+      },
+      {
+        "text": "2049",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2049",
+        "type": "internal"
+      },
+      {
+        "text": "2050",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2050",
+        "type": "internal"
+      },
+      {
+        "text": "2132",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2132",
+        "type": "internal"
+      },
+      {
+        "text": "2133",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2133",
+        "type": "internal"
+      },
+      {
+        "text": "2160",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2160",
+        "type": "internal"
+      },
+      {
+        "text": "2161",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2161",
+        "type": "internal"
+      },
+      {
+        "text": "2162",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2162",
+        "type": "internal"
+      },
+      {
+        "text": "2188",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2188",
+        "type": "internal"
+      },
+      {
+        "text": "2189",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2189",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/d67d5cea_table_1_untitled.json",
+        "rows": 12
+      }
+    ]
+  }
+}

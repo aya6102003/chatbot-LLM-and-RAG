@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/AG.html",
+      "title": "Guide pédagogique",
+      "id": "1cb0eb1e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:16",
+      "hash": "2176858db06d6fb0",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Les étudiants de ce master auront à suivre des enseignements qui\nportent essentiellement, mais pas que, sur l’algèbre et sur la\ngéométrie. Des cours en géométrie différentielle, en géométrie complexe\net en géométrie sous-riemannienne seront dispensés. Pour faciliter leur\ncompréhension, ils seront précédés par des cours en analyse complexe et\nun cours en algèbre et groupes de Lie. Des cours en théorie des\ngroupes, en théorie des anneaux, en théorie des modules et en théorie\ndes corps seront dispensés. Ces cours commencent à un niveau très\nélémentaire et finissent au bord de la recherche puisque la théorie de\nGalois ainsi que les groupes nilpotents généralisés y seront exposés.\nDes cours de méthodologie seront dispensés, notamment un cours sur les\nméthodes d’analyse fonctionnelle et un cours sur les méthodes d’analyse\nnon standard. Des cours d’anglais, d’éthique et de logiciels libres\ncomplètent cette formation. A l’issue de cette formation, les diplômés\npeuvent concourir pour un poste d’enseignant dans l’éducation nationale\nou concourir pour un poste de doctorant en algèbre, en théorie des\nnombres, en cryptographie ou en géométrie.\nResponsable : Pr N. BENSALEM       naceurdine.bensalem@univ-setif.dz"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/1cb0eb1e_table_1_SEMESTRE_1.json",
+        "rows": 9
+      },
+      {
+        "file": "tables/1cb0eb1e_table_2_SEMESTRE_2.json",
+        "rows": 9
+      },
+      {
+        "file": "tables/1cb0eb1e_table_3_SEMESTRE_3.json",
+        "rows": 9
+      },
+      {
+        "file": "tables/1cb0eb1e_table_4_SEMESTRE_4.json",
+        "rows": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S3-CI.html",
+      "title": "Capteurs et instrumentation",
+      "id": "48db53b9",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:08",
+      "hash": "b23a28ffede9a9c0",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Capteurs et instrumentation\nSemestre 3 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nObjectifs de l’enseignement :\nCe module vise à fournir aux étudiants les compétences pratiques nécessaires pour mesurer, surveiller et analyser les grandeurs physiques essentielles dans les systèmes énergétiques. Il prépare les étudiants à la mise en œuvre de solutions de mesure fiables pour l’optimisation, le diagnostic et la gestion de systèmes énergétiques. Connaissances préalables recommandées :\nNotions de base en physique des phénomènes énergétiques (transfert de chaleur, mécanique des fluides)\nConnaissances en électricité et électronique (tension, courant, résistance, circuits élémentaires)\nContenu de la matière :\n1. Notions fondamentales de l’instrumentation (3 semaines)\nChaîne de mesure, capteurs et actionneurs\nCaractéristiques techniques (plage, précision, bruit, etc.)\n2. Typologie des capteurs pour l’énergie (4 semaines)\nTempérature (thermocouple, RTD)\nPression, débit, irradiance, courant et tension\nCapteurs connectés (I2C, SPI, analogique)\n3. Acquisition et traitement (3 semaines)\nMicrocontrôleurs (Arduino, ESP32)\nAffichage local et communication sans fil\nLogiciels d’exploitation des données (IDE, Excel, Python)\n4. Applications pratiques (3 semaines)\nSuivi d’un système photovoltaïque\nSurveillance thermique d’un système énergétique\nMonitoring énergétique d’un bâtiment ou d’un appareil\nMode d’évaluation : control continu et Examen final\nRéférences :\n[1] L'énergie à découvert . Sous la direction de Rémy Mosseri et Catherine Jeandel. CNRS Éditions, 2013\n[2] Materials for Sustainable Energy Applications: Conversion, Storage, Transmission, and Consumption .\nDavid Munoz-Rojas, Xavier Moya. Jenny Stanford Publishing, 2016\n[3] Materials for Energy . Sam Zhang (éditeur). CRC Press, 2020\n[4] Introduction to Materials for Advanced Energy Systems . Colin Tong. Springer, 2018\n[5] Energy Materials: Fundamentals to Applications . Sanjay J. Dhoble, Amol Nande, N. Thejo Kalyani,\nAshish Tiwari. Elsevier, 2021\n[6] Matériaux pour l’ingénieur , Michel Dupeux , Éditeur : Dunod, 2019 (3e édition)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

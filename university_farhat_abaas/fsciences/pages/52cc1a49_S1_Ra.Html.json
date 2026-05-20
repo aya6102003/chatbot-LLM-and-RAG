@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S1-RA.html",
+      "title": "S1 Ra.Html",
+      "id": "52cc1a49",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:37",
+      "hash": "bba4690169584053",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Advanced Networking\nSemester:\n1  |\nType:\nUET1  |\nVHS:\n42h  |\nWeekly hours:\nC: 1h30 / TP: 1h30  |\nPersonal work VHS:\n21h  |\nCoefficient:\n1  |\nCredits:\n2\nTeaching Objectives\nThis module aims to consolidate and deepen students' knowledge of computer networks, addressing advanced topics such as dynamic routing, transmission protocols, application protocols and IPv6 configuration.\nRecommended prior knowledge:\nComputer networks (bachelor's degree).\nCourse Content (Lectures: 21h)\nNetwork Review\nOSI and TCP/IP models\nMAC/IP addressing (ARP Protocol)\nSubnet addressing (FLSM, VLSM, CIDR…)\nRouting Protocols\nStatic routing\nDynamic routing (RIP, OSPF, BGP): distance vectors; link state\nLocal and Wide Area Networks\nVirtual LANs (VLANs), VTP and DTP protocols\nInter-VLAN routing\nLAN redundancy (STP, EtherChannel, HSRP)\nPPP protocol\nVPN (GRE protocol)\nTransmission Protocols\nTCP/UDP protocols\nTCP connection state management\nFlow control, congestion control, error control\nApplication Protocols\nWeb protocols (HTTP and HTTPS)\nEmail protocols (SMTP, POP and IMAP)\nFile sharing services (FTP and SMB)\nDHCP, DNS, Telnet and SSH\nIPv6 Protocol\nAddressing\nIPv4/IPv6 transition\nIPv6 services\nNetwork Management\nLLDP, CDP, NTP\nSNMP\nQuality of Service (QoS)\nConfiguration management automation (Ansible…)\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous tests, personal work\nReferences\nTanenbaum, A., Feamster, N., & Witherall, D. (2021).\nComputer networks\n(6th ed.). Pearson Publisher.\nWhite, R., & Banks, E. (2017).\nComputer networking problems and solutions\n. Addison-Wesley Professional.\nEnglander, I., & Wong, W. (2021).\nThe architecture of computer hardware, systems software, and networking\n. John Wiley & Sons.\nBonaventure, O. (2021).\nComputer networking: Principles, protocols and practice\n.\nDordal, P. L. (2022).\nAn introduction to computer networks\n. Loyola University Chicago."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

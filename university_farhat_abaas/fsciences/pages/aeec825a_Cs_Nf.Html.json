@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-NF.html",
+      "title": "Cs Nf.Html",
+      "id": "aeec825a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:32",
+      "hash": "8e4b070d7aec472e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nNowadays, networks are increasingly large, vast, transporting large volumes of data, and developing very rapidly. These characteristics come with a great exposure to a wide variety of threats to the data carried in the networks. Today's threats require a better understanding of what data is in our networks, how we secure it, and the telltale signs left after an incident. So, it's more important now than ever to have the skills to investigate network attacks and vulnerabilities.\nContenu de la matière\nChapter 1:\nIntroduction to Network Forensics and Investigating Logs\nNetwork Traffic Investigations\nChapter 2:\nWeb Attack Investigations\nRouter Forensics\nChapter 3:\nDenial of Service Investigations Internet Crime Investigations Email Crime Investigations\nChapter 4:\nWireless Attack Investigations\nMobil Forensics\nChapter 6:\nCorporate Espionage Investigations Trademark and Copyright Investigations Investigating Sex Related Activities\nMode d’évaluation : Contrôle continu, examen Références\n• Network Forensics: Tracking Hackers through Cyberspace, Davidoff, Sherri, Ham, Jonathan"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

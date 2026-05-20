@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_MATERIAUX/S1-MDM.html",
+      "title": "Matériaux Diélectriques et magnétiques",
+      "id": "9c5feda0",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:16",
+      "hash": "0855934c5822d202",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière :\nMatériaux Diélectriques et magnétiques\nUnité d'Enseignement :\nUE Fondamentale (UEF 1)\nSemestre :\nSemestre 1\nCrédits :\n4\nCoefficient :\n2\nVHS (15 semaines) :\n55h00\nCours :\n1h30\nTD :\n1h30\nTP :\nMode d'évaluation :\nContinu : 33%  /  Examen : 67%\nSemestre 1\nUnité Fondamentale\nMatière : Matériaux Diélectriques et magnétiques\nObjectifs de l’enseignement :\nL'objectif de ce cours est de donner aux étudiants des notions sur la réaction de la matière à une excitation\nélectrique ou magnétique. Le contenu fondamental de ce cours tient au fait que cette réaction est complètement\nliée à la structure électronique de la matière. Les étudiants pourront ensuite relier ces fondements de la physique à\nquelques applications concrètes et intéressantes.\nConnaissances préalables recommandées :\nEnseignements de la licence: Outils mathématiques de base, notion d'électricité et de magnétisme, de\nthermodynamique, et de physique du solide\nContenu de la matière :\nI/ Les matériaux diélectriques\nRappels et Définitions : Equations de Mawell dans un milieu matériel, Définitions et mportaces des matériaux\ndiélectriques\nAspect macroscopique : Potentiel et champ électrique.,Polarisation et champ dépolarisant. Énergie\nélectrostatique.\nAspect microscopique : Champ électrique effectif local. Polarisabilité. Mécanismes de polarisation dans les\ndiélectriques : Polarisabilité électronique. Polarisabilité ionique. Polarisabilité orientationnelle. Relation de\nClausius Mossotti.\nThéorie de Langevin : Modèle statistique de la polarisation d'orientation. Fonction de Langevin et dépendance\nen température. Transition vers la théorie de Debye.\nDiélectrique placé dans un champ électrique variable : Phénomène des pertes diélectriques. Théorie de Debye\n: relaxation des dipôles .Cas d’une distribution des temps de relaxation . Modèles empiriques de la distribution\ndes temps de relaxation (Cole-Cole, Davidson-Cole, Havriliak-Negami). Résonance diélectrique (modèle de\nLorentz).\nQuelques comportements particuliers des diélectriques et applications : Ferroélectricité et pyroélectricité.\nÉlectrostriction et piézoélectricité. Applications technologiques.\nII/ Matériaux magnétiques\nRappels et définitions\nDiamagnétisme\nParamagnétisme\nIons terres rares, règle de Hund, ions du groupe du fer, décomposition due au champ cristallin,\nblocage du moment cinétique orbital, Paramagnétisme nucléaire.\nSusceptibilité paramagnétique des électrons de conduction\nRefroidissement par désaimantation adiabatique d’un sel magnétique.\nFerromagnétisme\nPropriétés des matériaux ferromagnétiques élémentaires, origine du ferromagnétisme, dépendance en\ntempérature de l’aimantation, relation entre énergie d’échange et température de Curie, cycle d’hystérésis et\ndomaines ferromagnétiques, applications\nAntiferromagnétisme et ferrimagnétisme\nDéfinition, Effet de la température sur la susceptibilité magnétique\nApplications\nDiffraction de neutrons par les corps magnétiques, Conductivité dans un champ magnétique externe\nRéférences :\nC. KITTEL: physique de l'état solide. Dunod Université Bordas (1983).\nM. BROUSSEAU : Physique du solide – Propriétés électroniques, Masson (1992).\nWERT AND THOMSON: Physics of solids International student edition.\nW. ASHCROFT AND N.D. MERMIN: Solid state physics, W.B. Saunders Company, Philadelphie, 1976.\nS. WANG: Solid state Electronics, Mc Graw-Hill Book Company, 1966.\nM. GAUDAIRE: Propriétés de la matière, Dunod (1968).\n9"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

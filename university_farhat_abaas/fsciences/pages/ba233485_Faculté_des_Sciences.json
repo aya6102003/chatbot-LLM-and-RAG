@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/574",
+      "title": "Faculté des Sciences",
+      "id": "ba233485",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:31:28",
+      "hash": "253a600c8c17a164",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "FOUDILI Djabir\nFOUDILI Djabir\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:djabir.foudili@univ-setif.dz\nEmail:djabir.foudili@univ-setif.dz\nDépartement:Physique\nBureau:\nBureau:\n\nCours de Méthodes de prospection Magnétotellurique\nPolycopie de cours\nCours de Diagraphie\nPolycopie de cours"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "2306",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2306",
+        "type": "internal"
+      },
+      {
+        "text": "2307",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2307",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/ba233485_table_1_untitled.json",
+        "rows": 2
+      }
+    ]
+  }
+}

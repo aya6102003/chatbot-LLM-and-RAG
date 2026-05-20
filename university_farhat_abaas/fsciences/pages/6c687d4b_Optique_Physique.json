@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L3/S6-OP.html",
+      "title": "Optique Physique",
+      "id": "6c687d4b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:22",
+      "hash": "3b343f9698958509",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Optique Physique\nSemestre :\n6  |\nUnité d'enseignement :\nMéthodologie\nObjectifs de l'enseignement\nConsolidation des connaissances théoriques sur les lois fondamentales de l'optique physique ainsi que les techniques et les instruments utilisés accompagnés de plusieurs applications.\nApprentissage et visualisation des phénomènes liés à l'optique.\nConnaissances préalables recommandées\nIl est recommandé de maîtriser les matières « Physique 1 & 2 » enseignées en 1ère année Sciences de la Matière ainsi que l'optique géométrique.\nContenu de la matière (Cours)\nChapitre 1 : Optique ondulatoire\nGénéralités\nPrincipe de superposition de deux ondes monochromatiques de même fréquence\nConditions d'interférence : Notion de cohérence\nInterférences de deux ondes cohérentes\nInterférences à ondes multiples : Interféromètres de Michelson et de Pérot-Fabry\nInterférences en lumière polychromatique\nChapitre 2 : Diffraction et ses Applications\nDiffraction de Fresnel et diffraction de Fraunhoffer\nDiffraction par une ouverture rectangulaire et diffraction par une ouverture circulaire\nChapitre 3 : Polarisation\nTransversalité des ondes\nStructure d'une onde polarisée rectilignement\nRéflexion et réfraction par les corps isotropes transparents\nChapitre 4 : Lasers et leurs applications\nPrincipe de fonctionnement\nÉmission stimulée\nInversion de populations\nCohérence spatiale et temporelle\nTravaux Pratiques\nTP 1 : Étude de la polarisation de la lumière\nTP 2 : Interférences : Trous d'Young, Miroirs de Fresnel et Biprisme de Fresnel\nTP 3 : Interféromètre de Michelson\nTP 4 : Anneaux de Newton\nTP 5 : Diffraction par les fentes\nTP 6 : Réseaux de diffraction\nMode d'évaluation\nContrôle continu : 50%\nExamen : 50%\nRéférences\n1. D. FIEL & P. COLIN, Optique - Cours et exercices corrigés, Ed. Ellipses, (1999)\n2. J-P. PEREZ, Optique - Fondements et Applications avec 250 exercices et problèmes résolus, Ed. Dunod, (2004)\n3. F. WELL, Optique Physique - Cours : Propagation de la lumière, Ed. Ellipses, (2005)\n4. T. BECHERRAWY, Optique Géométrique - Cours et exercices corrigés, Ed. Deboeck, (2006)\n5. E. AMZALLAG, La Physique en Fac - Optique - Cours et exercices corrigés, Ed. Dunod, (2006)\n6. R. TAILLET, Optique Physique - Interférences, Diffraction, Holographie - Cours et exercices corrigés, Ed. Deboeck, (2006)\nH. GAGNAIRE, Optique géométrique et physique, Ed. Casteilla, (2011)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

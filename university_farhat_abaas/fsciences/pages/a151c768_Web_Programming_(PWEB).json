@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S6-WEB.html",
+      "title": "Web Programming (PWEB)",
+      "id": "a151c768",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:36",
+      "hash": "1c36b58f904fd0dc",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Web Programming (PWEB)\nSemestre : S6\nUnité d’enseignement : UEF1\nMatière : Programmation WEB (PWEB)\nCrédits : 5\nCoefficient : 3\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement (Décrire ce que l’étudiant est censé avoir acquis comme compétences après le\nsuccès à cette matière – maximum 3 lignes).\n− Apprendre à créer des sites et applications Web.\n− Maîtriser les standards du Web\n− Maîtriser la programmation Web côté client et côté serveur.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\n− Algorithmique et programmation en C, Bases de données et Langage SQL.\nContenu de la matière :\nI. Chapitre I : Introduction au Web\n− Historique et évolution du Web.\n− Notions de bases du Web (HTTP, Client, Serveur, etc.).\nII. Chapitre II : Langage HTML 5\n− Historique et différentes versions\n− Syntaxe du Langage : document bien formé, document conforme, outils de validation\n− Présentation des éléments de base du Langage :\no Sauts de ligne et séparateurs, titres, paragraphes, listes, tableaux, ….\no Sections sémantiques (section, article, nav, …)\no Les formulaires\n− Les éléments multimédias (audio, vidéo,…) et les graphiques : Canvas et SVG\nIII. Chapitre III : Les feuilles de style CSS\n− Séparation entre contenu et mise en forme et avantages\n− Syntaxe de base de CSS :\no Sélecteurs\no Propriétés\n− Media Queries et responsive design\n− Gestion des conflits\nIV. Chapitre IV : Le langage JavaScript\n− Principe de la programmation web côté client\n− Syntaxe de JavaScript\n− Gestion des événements\n− Objets JS prédéfinis\n− Le DOM\n− Gestion des exceptions\nV. Chapitre V : Le Langage PHP 7\n− Aperçu sur les langages de programmation coté serveur.\n− Syntaxe du langage PHP.\n− Fonctions PHP prédéfinies\n− Traitement des formulaires en PHP\n− Interaction avec les bases de données (MySQL).\n− Sessions et cookies\n− Gestion des fichiers\nVI. AJAX\n− Présentation\n− Mode synchrone vs asynchrone\n− L’objet XMLHTTPRequest\n− Structure d’un code AJAX\n− Interaction avec PHP\nVII. Déploiement d'un Site/Application Web\n− Modes de déploiement (Serveur local, hébergement en ligne).\n− Etapes de déploiement\n− Outils de déploiement.\n− Notions de base sur la sécurisation d'un site Web (HTTPS)\n− Exemple de déploiement.\nVIII. Utilisation des Framework\n− Limites de la programmation traditionnelle\n− L'utilité des Framework\n− Exemples de Framework CSS (ex. BootStrap)\n− Exemples de Framework JavaScript (ex. JQuery ou Angular 2)\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences bibliographiques (Livres et polycopiés, sites internet, etc) :\nCiter au moins 3 à 4 références classiques et importantes.\n[1] World Wide Web Consortium, standards for web Design and applications :\nhttps://www.w3.org/standards/webdesign/\n[2] Site Web partenaire du consortium W3C destiné aux développeurs Web.\nhttps://www.w3schools.com/\n[3] Site Web officiel : Manuel du PHP. https://www.php.net/docs.php\n[4] Rodolphe Rimelé « HTML 5 Une référence pour le développeur web », éditions Eyrolles, 2017.\n[5] J. Engels « PHP 7 - Cours et exercices. », éditions Eyrolles, 2017.\n[6] Mat Marquis « JavaScript pour les web designers », éditions Eyrolles, 2017.\n[7] Michel Plasse « Développez en Ajax », éditions Eyrolles, 2006."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

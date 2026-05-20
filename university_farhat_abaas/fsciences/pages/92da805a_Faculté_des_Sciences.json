@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/8165",
+      "title": "Faculté des Sciences",
+      "id": "92da805a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:43:08",
+      "hash": "db61ae6f42834347",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nARRETÉ 1165"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Arr%C3%AAt%C3%A9 1165 du 04 octobre 2025",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/5966/Arr%C3%AAt%C3%A9_1165_du_04_octobre_2025.pdf",
+        "local_file": "pdfs/92da805a_Arr%C3%AAt%C3%A9_1165_du_04_octobre_2025.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

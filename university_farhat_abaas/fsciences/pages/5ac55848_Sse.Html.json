@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/SSE.html",
+      "title": "Sse.Html",
+      "id": "5ac55848",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:35",
+      "hash": "897fb1804cfafa32",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nSpecialized Software in Economy (SSE) — Semester 6, Unit UFC6, Credits: 4, Coeff: 2\nCourse Objectives\nThis course introduces students to specialized software used in economy research. It covers tools for qualitative and quantitative data analysis, as well as methods for visualizing and interpreting data. Students will gain hands-on experience with software that enhances research in fields such as economy, commerce and marketing.\nCourse Content\n1. Introduction to Specialized Software in Economy\nOverview of data types in economy (qualitative vs. quantitative)\nIntroduction to software applications in research\nImportance of software in modern research methodologies\n2. Qualitative Data Analysis Tools\nNVivo: Managing qualitative data, coding, text analysis, and report generation\nATLAS.ti: Qualitative data coding and analysis\nCase studies: Analyzing interviews, focus group discussions, and ethnographic data\n3. Quantitative Data Analysis Software\nSPSS: Statistical analysis, surveys, regression analysis, and hypothesis testing\nR: Statistical computing for complex data analysis in economy\nSTATA: Econometric analysis for social sciences\n4. Mixed-Methods Software\nMAXQDA: Integrating qualitative and quantitative data analysis\nCombining qualitative insights with quantitative metrics\n5. Survey and Questionnaire Tools\nQualtrics: Designing and distributing surveys, analyzing responses\nGoogle Forms: Simple survey tools for economy research\nUsing tools to gather data from diverse populations\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\nBazeley, P., & Jackson, K. (2013). Qualitative Data Analysis with NVivo.\nPallant, J. (2020). SPSS Survival Manual.\nLuke, D. A. (2015). A User’s Guide to Network Analysis in R."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

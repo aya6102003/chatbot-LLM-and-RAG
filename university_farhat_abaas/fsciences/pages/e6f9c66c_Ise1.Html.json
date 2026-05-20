@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING/ISE1.html",
+      "title": "Ise1.Html",
+      "id": "e6f9c66c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:57",
+      "hash": "fbd78741751f01fc",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la matière\nChapitre 1 : Introduction\nDéfinition et fonctions d'un système d'exploitation\nHistorique d'un système d'exploitation UNIX/LINUX\nChapitre 2 : Présentation du système UNIX\nLes utilisateurs UNIX\nLes principales fonctions\nStructure du système UNIX\nLe Shell\nChapitre 3 : Ouverture et fermeture de session\nOuverture de session\nCréation/ Changement de mot de passe\nFermeture de session\nChapitre 4 : Commandes UNIX\nSyntaxe d'une commande\nLes commandes de base\nChapitre 5 : Redirection et pipe\nLes entrées sorties\nRedirection des entrées sorties\nRedirection des erreurs\nLes pipes\nChapitre 6 : Répertoires et fichiers UNIX\nLes types de fichier\nAtteindre un fichier (Nommer un fichier, Le chemin d'accès)\nVisualiser les fichiers\nCommandes de gestion des répertoires et commandes de gestion des fichiers\nLes liens (physiques et symboliques)\nLes inodes\nLes métacaractères\nLes droits d'accès (Identification de l'utilisateur, Définition des droits d'utilisateur)\nCommandes associées (changer les droits : chmod, changer les droits par défaut : umask, changer le propriétaire et le groupe)\nChapitre 7 : Les filtres UNIX\nModifier les données d'un fichier\nEdition de fichiers avec critères\nComparaison des fichiers\nLes commandes grep et find\nGestion des processus\nIntroduction à l'administration"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

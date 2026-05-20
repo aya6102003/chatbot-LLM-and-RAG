@@ -1,0 +1,121 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/MAP.html",
+  "title": "SEMESTRE 2",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n15 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n15 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale 4    Crédits : 6\nCoefficients : 3",
+      "EDP et analyse\r\n            numérique des EDP",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 5    Crédits : 6\nCoefficients : 3",
+      "Mécanique des \r\n            milieux continus",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 6    Crédits : 6\nCoefficients : 3",
+      "Modélisation",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie Crédits : 9\nCoefficients : 5",
+      "Modélisation stochastique",
+      "9",
+      "5",
+      "3h",
+      "3h",
+      "1h",
+      "105h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Découverte\nCrédits : 2\nCoefficients : 2",
+      "Techniques d’enseignements et de recherche (TER2)",
+      "2",
+      "2",
+      "3h",
+      "",
+      "",
+      "45h",
+      "",
+      "100%"
+    ],
+    [
+      "UE Transversale\nCrédits : 1\nCoefficients : 1",
+      "Ethique",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 2",
+      "30",
+      "17",
+      "16h30",
+      "7h30",
+      "1h",
+      "375h",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 9,
+  "col_count": 7
+}

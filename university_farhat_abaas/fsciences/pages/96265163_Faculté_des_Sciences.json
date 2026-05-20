@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/462",
+      "title": "Faculté des Sciences",
+      "id": "96265163",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:47:30",
+      "hash": "51158673ecf1a4a6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "BOUKELKOUL Mebarek\nBOUKELKOUL Mebarek\nGrade:Professeur\nGrade:Professeur\nEmail:boukelkoul_mebarek@univ-setif.dz\nEmail:boukelkoul_mebarek@univ-setif.dz\nDépartement:Physique\nBureau:\nBureau:\n\nPhysique 1 (Mécanique du point matériel)\nPolycopie de cours\nPhysique 2 (Electricité)\nPolycopie de cours\nL'exposé oral\nPolycopie de cours\nMéthodologie de la recherche bibliographique\nPolycopie de cours"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "2284",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2284",
+        "type": "internal"
+      },
+      {
+        "text": "2285",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2285",
+        "type": "internal"
+      },
+      {
+        "text": "2286",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2286",
+        "type": "internal"
+      },
+      {
+        "text": "2287",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2287",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/uploads/page_professionnelle/image/462/thumb_photo-2021.JPG",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/96265163_table_1_untitled.json",
+        "rows": 4
+      }
+    ]
+  }
+}

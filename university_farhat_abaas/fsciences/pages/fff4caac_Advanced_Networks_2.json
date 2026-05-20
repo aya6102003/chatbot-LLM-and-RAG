@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S2-AN2.html",
+      "title": "Advanced Networks 2",
+      "id": "fff4caac",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:53",
+      "hash": "e9a24b4b215ee738",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nAdvanced Networks 2  |\nSemester:\n2  |\nType:\nUEF21\nVHS:\n63h  |\nWeekly hours:\n4h30  |\nLectures:\n1h30  |\nTD:\n1h30  |\nTP:\n1h30\nPersonal work VHS:\n42h  |\nCoefficient:\n3  |\nCredits:\n5\nTeaching Objectives\nContinuation of Advanced Networks 1, covering advanced IP network concepts and important data-link layer protocols\nCovers emerging network technologies such as SDN (Software Defined Networking) and NFV (Network Functions Virtualization)\nRecommended Prerequisites\nKnowledge acquired in Advanced Networks 1\nCourse Content (Lectures: 21h)\nChapter 1: Advanced IP Protocols and Mobility\nIPv6 and ICMPv6 protocols: structure, operation, comparison with IPv4\nIPv4 to IPv6 transition: coexistence techniques (dual stack, tunneling, gateways)\nIP Mobility: Mobile IP (MIP) protocol principle and operation\nIntroduction to Named Data Networking (NDN): content-based communication model\nChapter 2: Local Networks and Infrastructure Management\nSwitching and network segmentation: VLANs, VTP, DTP, STP (Spanning Tree Protocol)\nLocal addressing and media access: NAT, PAT, ARP, RARP, PPP, HDLC, CSMA/CD, LLDP\nNetwork supervision and management: NTP, SNMP\nIntroduction to MPLS (Multi-Protocol Label Switching)\nChapter 3: Programmable Networks and Virtualization\nSoftware Defined Networking (SDN): architecture, control/data plane separation, use cases\nNetwork Function Virtualization (NFV): principles, technologies, complementarity with SDN\nAssessment\nExam: 60%\nContinuous assessment: 40%\nBibliographic References\nKurose, J. F., & Ross, K. W. (2021). Computer Networking: A Top-Down Approach. Pearson Editions.\nBonaventure, O., Networking: Principles, Protocols and Practice, 3rd Edition, 2021.\nLannone, E., Telecommunication networks, O'Reilly Edition, 2017."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S1-MQA1.html",
+      "title": "Mécanique Quantique Approfondie 1",
+      "id": "0abe1393",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:52",
+      "hash": "a537e789ebd73a97",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Mécanique Quantique Approfondie 1\nSemestre 1 – UE Fondamentale\nPrérequis\nEnseignements de physique quantique et de mécanique quantique dispensés en Licence de Physique Fondamentale.\nObjectifs de l'enseignement\nIl s'agit d'inculquer à l'étudiant le formalisme mathématique de la mécanique quantique ainsi que les différentes techniques d'approximation utilisées en mécanique quantique. L'objectif est de renforcer sa compréhension des phénomènes quantiques et de le préparer à des applications avancées.\nProgramme détaillé\nChapitre 1 : Rappels de Mécanique Quantique de Licence\nNotions de base : états quantiques, opérateurs, fonctions d'onde\nValeurs propres et vecteurs propres\nComposition des moments cinétiques, coefficients de Clebsch-Gordan\nChapitre 2 : Potentiel Central et Problèmes à Trois Dimensions\nCompléments sur la mécanique quantique à 3 dimensions\nPropriétés générales du problème aux valeurs propres pour un potentiel central\nOscillateur harmonique à 3 dimensions : cas à symétrie sphérique et symétrie axiale\nChapitre 3 : Méthodes d'Approximation en Mécanique Quantique\nPerturbations stationnaires (premier et second ordre)\nPerturbations dépendant du temps : transitions induites, règle de Fermi d'or\nMéthode variationnelle : calcul d'états liés approximatifs\nChapitre 4 : Applications et Approfondissements\nÉtude de cas particuliers : effet Stark, effet Zeeman\nCouplage spin-orbite et structure fine\nMode d'évaluation\nContrôle continu : 33 %\nExamen : 67 %\nRéférences bibliographiques\nA. Messiah, Mécanique Quantique, tomes 1 & 2, Dunod, 1995.\nN. Zettili, Quantum Mechanics: Concepts and Applications, 2e éd., Wiley, 2009.\nC. Cohen-Tannoudji, B. Diu, F. Laloë, Mécanique Quantique, tomes 1 & 2, Hermann, 1973.\nMichel Le Bellac, Physique Quantique, EDP Sciences, 2007.\nD. J. Griffiths, D. F. Schroeter, Introduction to Quantum Mechanics, 3e éd., Cambridge University Press, 2018.\nJ. J. Sakurai, J. Napolitano, Modern Quantum Mechanics, 3e éd., Cambridge University Press, 2020."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

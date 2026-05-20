@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S3-PROGSCI.html",
+      "title": "Programmation scientifique",
+      "id": "22991f41",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:29",
+      "hash": "b1be0c2ac36242eb",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Programmation scientifique\nSemestre :\n3  |\nUE :\nMéthodologie  |\nCrédits :\n1  |\nCoefficient :\n1\nObjectifs du cours\nMaîtrise des structures de données plus complexes comme les dictionnaires et les ensembles.\nIntroduire les bases de NumPy pour la manipulation des tableaux.\nIntroduire les bases de la visualisation de données avec Matplotlib.\nApprendre à lire et à manipuler des données à partir de fichiers CSV.\nIntroduire la bibliothèque Pandas et le concept de DataFrames.\nPrésenter des statistiques descriptives simples et des fonctions mathématiques courantes.\nContenu du cours\nChapitre 1 : Dictionnaires et ensembles en Python\nDictionnaires : création, accès, manipulation (ajout, suppression, modification de paires clé-valeur).\nEnsembles : création, opérations sur les ensembles.\nUtilisations courantes des dictionnaires et des ensembles.\nChapitre 2 : Introduction aux outils scientifiques en Python\nNumPy : tableaux, création, indexation, opérations de base (arithmétique, comparaisons).\nIntroduction à Matplotlib : création de figures, tracés de base (points, lignes), affichage.\nManipulation de fichiers CSV : lecture de fichiers CSV simples à l'aide du module csv de Python.\nPandas : introduction aux DataFrames, création à partir de listes et de dictionnaires, affichage de base.\nStatistiques simples : calcul de la moyenne, de la médiane et de l'écart-type en utilisant Python (sans bibliothèques statistiques dédiées pour l'instant).\nFonctions mathématiques : utilisation du module mathématique pour les fonctions courantes (sin, cos, log, exp, sqrt).\nChapitre 3 : Algorithmes de recherche et de tri de base\nAlgorithmes de recherche : recherche linéaire, recherche binaire (introduction).\nAlgorithmes de tri : tri à bulles, tri par insertion, tri par sélection.\nMode d'évaluation\nContrôle continu : 50%\nExamen : 50%\nBibliographie\nWes McKinney,\nPython for Data Analysis\n(great for introducing Pandas and NumPy)\nJake VanderPlas,\nPython Data Science Handbook\n(covers NumPy, Matplotlib, Pandas, and data visualization)\nMatt T. Thompson,\nPython for Scientists and Engineers\n(introduces NumPy and Matplotlib in a scientific context)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/454",
+      "title": "Faculté des Sciences",
+      "id": "51aa66b7",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:47:44",
+      "hash": "d93d0875ba80080b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "KASSALI Kamel\nKASSALI Kamel\nGrade:Professeur\nGrade:Professeur\nEmail:kkassali@univ-setif.dz\nEmail:kkassali@univ-setif.dz\nDépartement:Physique\nBureau:\nBureau:\n\nBac Math Juin 84\nDES physique du solide Juin 88\nMagister physique et rayonnements  1996\nDoctorat d’état en physique 2004\nProfesseur depuis décembre 2009\nDomaine d’intérêt :\nphysique des matériaux, computationnal physics\ntp-sectroscopie\nPolycopie de TP\nTP4 3eme année physique atomique\nPolycopie de TP\nJournaux (3)\nHigh-pressure phase transition and thermodynamic properties from first-principles calculations: Application to cubic copper iodide\nNadhiraBiouda KamelKassali Xiao-WeiSun TingSong RabahKhenata SaadBin-Omranf\nMaterials Chemistry and Physics , 203 (2018), pp 362-373\nHigh pressure study of structural, electronic, elastic, and vibrational properties of NaNb3O8\nBabesse Khatir, Dalila Hammoutène, Placida Rodriguez, kamel kassali ...\nJournal of Alloys and Compounds, 725 (2017), pp 773-782\nThermodynamic Properties of Compressed CuX (X = Cl, Br) Compounds: Ab Initio Study\nNadhira Bioud Kamel Kassali and Nadir Bouarissa\nJournal of Electronic Materials 46(4), 46 (2017), pp 2521"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "2334",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2334",
+        "type": "internal"
+      },
+      {
+        "text": "2367",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2367",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/51aa66b7_table_1_Bac_Math_Juin_84DES_physique_d.json",
+        "rows": 2
+      }
+    ]
+  }
+}

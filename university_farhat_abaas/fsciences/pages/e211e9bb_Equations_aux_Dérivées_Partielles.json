@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S2-EDP.html",
+      "title": "Equations aux Dérivées Partielles",
+      "id": "e211e9bb",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:34",
+      "hash": "b473e45fa5af73c1",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Equations aux Dérivées Partielles\nSemestre :\n2  |\nUnité d'enseignement :\nFondamentale\nVolume Horaire Hebdomadaire :\nCours : 3h, TD : 1h30\nCrédits :\n6  |\nCoefficients :\n3\nObjectifs de l'enseignement\nÉtudier la théorie de base des trois grandes classes d'EDP linéaires, en utilisant l'analyse fonctionnelle pour leur résolution.\nConnaissances préalables recommandées\nModules fondamentaux du S1 et S2 (en parallèle).\nContenu de la matière\nChapitre 1 : Équations Elliptiques : Problème de Dirichlet, formulation variationnelle (Lax-Milgram), principe du maximum.\nChapitre 2 : Équations Paraboliques : Équation de la chaleur, résolution par séries de Fourier.\nChapitre 3 : Équations Hyperboliques : Équation des ondes, formule de d'Alembert.\nChapitre 4 : Introduction aux EDP du premier ordre.\nMode d'évaluation\nExamen final (60%), Contrôle Continu (40%)\nRéférences bibliographiques\nL. C. Evans,\nPartial Differential Equations\n. AMS, 2nd Ed., 2010.\nW. A. Strauss,\nPartial Differential Equations: An Introduction\n. Wiley, 2nd Ed., 2007."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S3-ACSI.html",
+      "title": "S3 Acsi.Html",
+      "id": "2fb30dd5",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:34",
+      "hash": "7c35413b8fb3a5ce",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "IS Audit and Control\nSemester:\n3  |\nType:\nUEM3  |\nVHS:\n42h  |\nWeekly hours:\nC: 1h30 / TD: 1h30  |\nPersonal work VHS:\n21h  |\nCoefficient:\n2  |\nCredits:\n4\nTeaching Objectives\nThis module provides basic notions on auditing and the general audit process, and in particular IS auditing in its strategic, tactical and operational dimensions, as well as the use of audit tools, reference frameworks and methods.\nRecommended prior knowledge:\nInformation systems, quality assurance.\nCourse Content (Lectures: 21h)\nIntroduction to IS Audit and Control\nDefinition and objectives of IS auditing\nImportance of auditing in risk management and compliance\nRegulatory framework and applicable standards (ISO, COBIT, etc.)\nTypes of audit (internal, external, suppliers)\nRoles and responsibilities of actors involved\nPlanning and Preparation of an Audit Mission\nDefining the objective and scope of the audit\nIdentifying information assets and associated risks\nDeveloping the audit plan and procedures\nBuilding the audit team and distributing tasks\nPlanning preparation meetings and interviews\nIS Audit Conduct Process\nCollection and analysis of information (interviews, documents, tests)\nEvaluation of existing controls and their effectiveness\nIdentification of weaknesses, non-conformities and potential risks\nTesting of IT controls and result analysis\nWriting finding sheets and recommendations\nRisk and Control Evaluation\nIdentification and analysis of IS/IT risks (cyber threats, human errors, etc.)\nImpact and probability assessment\nAnalysis of relevance and effectiveness of existing controls\nRisk mitigation plan proposal\nCommunication and Follow-Up of Results\nWriting the audit report\nPresenting results to governance bodies and stakeholders\nFollow-up on recommendation implementation\nEvaluating corrective action effectiveness\nSpecific Audit Aspects\nSecurity and data protection audit\nIS development and maintenance processes audit\nAccess and rights management audit\nRegulatory compliance audit\nIntegrated systems audit (ERP, CRM, etc.)\nTools and Methodologies\nUse of audit software and tools\nISO 27001, 27005 standards\nApplication of audit reference frameworks (COBIT, ITIL, CMMI, etc.)\nApplication of audit methods (MEHARI, EBIOS, …)\nCollaboration with internal and external experts\nAdapting the audit approach to organisational specificities\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): continuous tests, personal work\nReferences\nP. Jouffroy (2010).\nCOBIT : pour une meilleure gouvernance des systèmes d'information\n. 2ème édition, Eyrolles.\nG. Balantzian (2007).\nLe Plan de Gouvernance du S.I.\nDunod.\nC. Dumond (2007).\nITIL, pour un service informatique optimal\n. Eyrolles.\nM. Thorin (2000).\nAudit informatique\n. Hermès.\nISACA: www.isaca.org | ITIL: www.itil-officialsite.com | CMMI: www.sei.cmu.edu/cmmi/"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

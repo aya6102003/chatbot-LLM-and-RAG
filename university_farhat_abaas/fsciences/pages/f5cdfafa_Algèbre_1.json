@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_MATHEMATIQUES/S1-ALGEBRE1.html",
+      "title": "Algèbre 1",
+      "id": "f5cdfafa",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:30",
+      "hash": "2a61c96174865101",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Algèbre 1\nSemestre : 01\nUnité d'enseignement : Fondamentale\nMatière : Algèbre 1\nCrédits : 5\nCoefficient : 3\nObjectifs de l'enseignement\nLe but de cette matière est d'introduire les notions de base de l'algèbre et de la théorie des ensembles.\nConnaissances préalables recommandées\nNotions d'algèbre classique.\nContenu de la matière\nChapitre 1 : Notions de logique\nTable de vérité, quantificateurs, types de raisonnements\nChapitre 2 : Ensembles et applications\nDéfinitions et exemples\nApplications : injection, surjection, bijection, image directe, image réciproque, restriction et prolongement\nChapitre 3 : Relations binaires sur un ensemble\nDéfinitions de base : relation réflexive, symétrique, antisymétrique, transitive\nRelation d'ordre – Définition. Ordre total et partiel\nRelation d'équivalence : classe d'équivalence\nChapitre 4 : Structures algébriques\nLoi de composition interne. Partie stable. Propriétés d'une loi de composition interne\nGroupes : Définitions. Sous-groupes : Exemples – Homomorphisme de groupes – isomorphisme de groupes. Exemples de groupes finis Z/nZ (n= 1, 2, 3,…) et le groupe de permutations S₃\nAnneaux : Définition – Sous anneaux. Règles de calculs dans un anneau. Eléments inversibles, diviseurs de zéro – Homomorphisme d'anneaux – Idéaux\nCorps : Définitions – Traitement du cas d'un corps fini à travers l'exemple Z/pZ où p est premier, R et C\nChapitre 5 : Anneaux de polynômes\nPolynôme. Degré\nConstruction de l'anneau des polynômes\nArithmétique des polynômes : Divisibilité, Division euclidienne, Pgcd et ppcm de deux polynômes – Polynômes premiers entre eux, Décomposition en produit de facteurs irréductibles\nRacines d'un polynôme : Racines et degré, Multiplicité des racines\nMode d'évaluation\nExamen (60%), contrôle continu (40%)\nRéférences bibliographiques\nM. Mignotte et J. Nervi, Algèbre : licences sciences 1ère année, Ellipses, Paris, 2004.\nJ. Franchini et J. C. Jacquens, Algèbre : cours, exercices corrigés, travaux dirigés, Ellipses, Paris, 1996.\nC. Degrave et D. Degrave, Algèbre 1ère année : cours, méthodes, exercices résolus, Bréal, 2003.\nS. Balac et F. Sturm, Algèbre et analyse : cours de mathématiques de première année avec exercices corrigés, Presses Polytechniques et Universitaires romandes, 2003."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S3-TO.html",
+      "title": "Optical Telecommunications",
+      "id": "45011471",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:01",
+      "hash": "c98c16816a6b9c45",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n3  |\nUE :\nFondamentale (UEF 3)  |\nCrédits :\n4  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nEnseigner l'optique guidée en télécommunication vise à fournir aux étudiants une compréhension approfondie des principes physiques, technologiques et pratiques des systèmes optiques utilisés pour le transport de l'information :\nComprendre les fondements physiques de la propagation de la lumière dans des milieux guidés (fibre optique, guides d'ondes)\nMaîtriser les principes de fonctionnement des dispositifs optiques utilisés en télécommunications (fibres, coupleurs, multiplexeurs, lasers, photodiodes)\nAnalyser et concevoir des systèmes de transmission optique modernes\nAppliquer des modèles mathématiques pour modéliser la propagation, l'atténuation, et la dispersion dans les fibres\nEvaluer les performances d'un système optique (bande passante, pertes, budget de liaison)\nConnaissances préalables recommandées\nOptique géométrique et Physique – Ondes électromagnétiques – Optique non linéaire.\nContenu de la matière\nChapitre 1 :\nIntroduction à l'optique guidée – rappels, applications en télécoms\nChapitre 2 :\nPropagation de la lumière dans les guides d'ondes – Equation de Helmholtz, effets non linéaires (Kerr, Raman, Brillouin), modes guidés\nChapitre 3 :\nGuide planaire et fibres optiques – structures de guides plans\nChapitre 4 :\nModes dans les fibres optiques – monomodes vs multimodes, fibre à saut d'indice, fibre à gradient d'indice, condition de monomodalité\nChapitre 5 :\nDispersion dans les fibres – dispersion chromatique et modale, dispersion non linéaire\nChapitre 6 :\nAtténuation et pertes – mécanismes d'atténuation (absorption, diffusion, courbure), mesure de pertes\nChapitre 7 :\nCouplage et raccordement – connecteurs, épissures, pertes d'insertion\nChapitre 8 :\nFenêtres de transmission et sources optiques – LED vs laser pour les télécommunications\nChapitre 9 :\nRécepteurs et photo détecteurs – photodiodes PIN, avalanche, responsivité, bruit\nChapitre 10 :\nAmplificateurs optiques – EDFA, principes, gain, bruit ASE\nChapitre 11 :\nComposants passifs – coupleurs, multiplexeurs, filtres\nChapitre 12 :\nRéseaux optiques – WDM, TDM, architecture de transport optique\nRéférences bibliographiques\nFiber-Optic Communication Systems, Agrawal, Govind P. Ed : Wiley-Interscience, 4ème édition\nTheory of Dielectric Optical Waveguides, Marcuse, Dietrich. Ed : Academic Press\nOptical Waveguide Theory, Snyder, Allan W. & Love, John D. Ed : Chapman and Hall\nPrinciples of Optics, Born, Max & Wolf, Emil. Ed : Cambridge University Press\nFibre optique – Théorie et pratique, F. Garet, B. Boulanger, J. D. Berger, B. Bousquet. Ed : Dunod"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

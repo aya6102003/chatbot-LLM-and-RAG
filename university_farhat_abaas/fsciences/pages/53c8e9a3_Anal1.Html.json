@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING/ANAL1.html",
+      "title": "Anal1.Html",
+      "id": "53c8e9a3",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:55",
+      "hash": "0318a654da92ad18",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la matière\nChapitre 1 : Le Corps des Réels.\nL’ensemble des nombres rationnels Q.\nPropriétés de\nℝ\n.\nDensité de Q dans\nℝ\n.\nBorne supérieure.\nChapitre 2 : Suites de Nombres réels.\nDéfinitions.\nLimites.\nExemples remarquables.\nThéorèmes de convergence.\nSuites récurrentes.\nChapitre 3 : Limites et fonctions continues\nNotions de fonction.\nLimites.\nContinuité en un point.\nContinuité sur un intervalle.\nFonctions monotones et bijections.\nChapitre 4 :  Fonctions dérivables.\nDérivée.\nCalcul des dérivées.\nExtremum local, théorème de Rolle.\nThéorème des accroissements finis.\nChapitre 5 : Fonctions Élémentaires.\nFonctions circulaires inverses.\nFonctions hyperboliques et hyperboliques inverses."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

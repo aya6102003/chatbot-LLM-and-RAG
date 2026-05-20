@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S3-DAD.html",
+      "title": "Development of Distributed Applications",
+      "id": "6c00171d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:51",
+      "hash": "8ce95ceb7874356d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nDevelopment of Distributed Applications  |\nSemester:\n3  |\nType:\nUEF32\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLectures:\n1h30  |\nTD:\n-  |\nTP:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nFamiliarize students with distributed applications through an in-depth study of architectures, communication protocols and platforms used in distributed applications (message-based, procedure-based and object-based communication)\nFamiliarize students with key concepts related to distributed systems developed using middleware\nRecommended Prerequisites\nDistributed systems, networks\nCourse Content (Lectures: 21h)\nChapter 1: Introduction to Distributed Systems\nDefinition, roles and interests, characteristics and concepts, application domains\nChapter 2: Challenges in Distributed Application Development\nConcurrency challenges, deadlock and inconsistency challenges, security challenges\nChapter 3: The Client/Server Model\nDefinition, general principles, architecture, task distribution, different client/server models\nChapter 4: Multithreaded TCP and UDP Socket Programming\nConcurrent programming, threads, TCP and UDP sockets\nChapter 5: Introduction to Middleware\nDefinition, principles and characteristics, types of middleware, advantages and disadvantages\nChapter 6: The RPC Model\nPresentation, principle and objectives, IDL usage, client-server example with RPC\nChapter 7: Distributed Programming with Java RMI\nPresentation, RMI architecture, steps of a remote method call, application implementation\nChapter 8: Distributed Programming with Java CORBA\nCORBA bus architecture, interoperability, global object architecture, IDL language, programming principles, deployment example\nChapter 9: Web Programming\nWeb architecture, JavaScript language\nChapter 10: Web Services\nPrinciples, SOAP services (WSDL, UDDI, SOAP in Java), REST services\nAssessment\nExam: 60%\nContinuous assessment: 40%\nBibliographic References\nDistributed Systems: Concepts and Design (Fifth Edition), by George Coulouris, Jean Dollimore, Tim Kindberg and Gordon Blair, 2011.\nArno Puder, Kay Romer, and Frank Pilhofer. 2005. Distributed Systems Architecture: A Middleware Approach. Morgan Kaufmann Publishers Inc.\nDANIEL, J. – Les services web, concepts, outils et techniques – Vuibert, 2003.\nBAUER C. et King G. – Hibernate in action – Manning 2005 (ebook).\nHUSTED T. et All. – Struts in action. Building web applications with the leading Java framework – Manning 2003.\nObjects vs component vs web services: https://queue.acm.org/detail.cfm?id=1039533"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

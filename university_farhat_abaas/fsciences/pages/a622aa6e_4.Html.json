@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/IQ/4.html",
+      "title": "4.Html",
+      "id": "a622aa6e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:35",
+      "hash": "0f7b303869deff1a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI.   Linear System of equations\nII.  Vector spaces\nIII. Linear transformations\nIV. Cannonical forms and Jordan forms\nV.  Inner product spaces and different operators in it\nVI. Bilinear and Quadratic forms,Orthogonal projection and Spectral theory\nVII.  Singular value decomposition"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

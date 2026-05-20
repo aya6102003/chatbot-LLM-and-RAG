@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S1-SMQ1.html",
+      "title": "Symétries en Mécanique Quantique 1",
+      "id": "9763bf89",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:55",
+      "hash": "7c1302d0358a9122",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Symétries en Mécanique Quantique 1\nSemestre 1 – UE Transversal\nPrérequis\nMécanique quantique de niveau licence\nObjectifs de l'enseignement\nCe cours introduit les étudiants aux notions de base de la théorie des groupes et de leurs représentations. L'accent est mis sur les applications concrètes en physique, en évitant les aspects trop abstraits ou purement mathématiques.\nProgramme détaillé\nChapitre 1 : Introduction\nParticule sur un réseau unidimensionnel\nReprésentations des opérateurs de translation discrète\nConséquences physiques de la symétrie de translation\nFonctions de représentation et analyse de Fourier\nGroupes de symétrie en physique\nChapitre 2 : Représentations des groupes symétriques\nReprésentations unidimensionnelles\nPartitions et diagrammes de Young\nSymétrisateurs et antisymétrisateurs des tableaux de Young\nReprésentations irréductibles de Sn\nClasses de symétrie des tenseurs\nChapitre 3 : Groupes continus unidimensionnels\nLe groupe de rotation SO(2)\nLe générateur de SO(2)\nReprésentations irréductibles de SO(2)\nMesure d'intégration invariante, relations d'orthonormalité et de complétude\nReprésentations multivaluées\nGroupe de translation continue en une dimension\nVecteurs de base conjugués\nChapitre 4 : Rotations dans l'espace à 3 dimensions – Le groupe SO(3)\nDescription du groupe SO(3)\nParamétrisation par angle et axe\nLes angles d'Euler\nSous-groupes à un paramètre, générateurs et algèbre de Lie\nReprésentations irréductibles de l'algèbre de Lie de SO(3)\nPropriétés des matrices de rotation\nPropriétés de transformation des fonctions d'onde et des opérateurs\nReprésentations du produit direct et leur réduction\nTenseurs irréductibles et théorème de Wigner-Eckart\nMode d'évaluation\nExamen : 100 %\nRéférences bibliographiques\nW.K. Tung, Group Theory in Physics, World Scientific.\nH. Georgi, Lie Algebras in Particle Physics, Westview Press, 1999.\nJ.F. Cornwell, Group Theory in Physics, Volume 1–3, Academic Press, 1984.\nA.W. Joshi, Elements of Group Theory for Physicists, 4th Edition, New Age International, 2011.\nM. Tinkham, Group Theory and Quantum Mechanics, Dover Publications, 2003.\nJ. Taylor, Scattering Theory: The Quantum Theory of Nonrelativistic Collisions, Dover Publications, 2006.\nE. Wigner, Group Theory and its Application to the Quantum Mechanics of Atomic Spectra, Academic Press, 1959.\nL.H. Ryder, Quantum Field Theory, Cambridge University Press, 1996 (chapitres introductifs sur les symétries)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

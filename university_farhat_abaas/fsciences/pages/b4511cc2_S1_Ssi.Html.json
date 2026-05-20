@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ISI/S1-SSI.html",
+      "title": "S1 Ssi.Html",
+      "id": "b4511cc2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:37",
+      "hash": "e9f77e4b13d7c6ae",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Information Systems Security\nSemester:\n1  |\nType:\nUEM1  |\nVHS:\n42h  |\nWeekly hours:\nC: 1h30 / TD: 1h30  |\nPersonal work VHS:\n21h  |\nCoefficient:\n2  |\nCredits:\n5\nTeaching Objectives\nThis module covers the essential aspects of information systems security, from theory to practical and organisational aspects, as well as security management.\nRecommended prior knowledge:\nInformation systems, networks, basic mathematics.\nCourse Content (Lectures: 21h)\nIntroduction to Information Systems Security\nDefinitions and key concepts: information security, cybersecurity, ISS (Information Systems Security)\nSecurity pillars: confidentiality, integrity, availability, authenticity, non-repudiation\nThreats and attacks: malware, network attacks, social engineering, insider threats\nISS challenges for companies and organisations\nSecurity Principles and Techniques\nAccess control: authentication, authorisation, identity management, RBAC\nCryptography: symmetric and asymmetric encryption, hash functions, digital signatures, digital certificates\nNetwork security: firewalls, VPN, IDS/IPS, secure protocols (SSL/TLS, SSH)\nApplication security: secure development, vulnerability analysis, penetration testing\nPhysical and logical security\nSecurity Management and Compliance\nInformation security management systems (ISMS)\nRisk assessment and risk management\nSecurity policies and procedures\nCrisis management and business continuity plan\nRegulatory compliance: GDPR, ISO/IEC 27001 and 27002, etc.\nSecurity audits\nSpecific Security Topics\nCloud security\nIoT (Internet of Things) security\nDatabase security\nOperating system security\nSecurity and artificial intelligence\nAssessment\nIn-person semester exam (60%)\nContinuous assessment (CC) (40%): written tests, personal work, tests\nPractical work includes:\nAnalysis of security breach situations in information systems; simulation of various IS security techniques.\nReferences\nLudovic Mé, Yves Deswarte (2006).\nSécurité des systèmes d'information\n. Edition Hermès-Lavoisier.\nDonald L Pipkin (2000).\nSécurité des systèmes d'information\n. Pearson Education.\nISO/IEC Standards 27001 and 27002. www.iso.org/standard/75652.html\nJ. M. Stewart, M. Chapple, D. Gibson (2012).\nCISSP: Certified Information Systems Security Professional, Study Guide\n. John Wiley & Sons.\nM.Bennasar, A.Champenois, P. Arnould et T.Rivat (2007).\nManager la sécurité du SI\n. DUNOD Editions."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

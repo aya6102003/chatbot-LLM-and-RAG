@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S2-RG.html",
+      "title": "Relativité Générale",
+      "id": "4fe8a3b8",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:51",
+      "hash": "69a22ae550a9fc26",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Relativité Générale\nSemestre 2 – UE Fondamentale\nPrérequis\nRelativité restreinte\nCalcul différentiel et éléments de géométrie\nNotions de mécanique analytique (lagrangien, hamiltonien)\nObjectifs de l'enseignement\nCe cours vise à introduire les fondements physiques et géométriques de la relativité générale. L'étudiant apprendra à manipuler les outils de base du calcul tensoriel sur les variétés, à comprendre les géodésiques dans l'espace-temps courbe, et à résoudre les équations d'Einstein dans des cas simples. Le cours donne également un aperçu des applications modernes, notamment la cosmologie relativiste, les ondes gravitationnelles et les trous noirs.\nProgramme détaillé\nChapitre 1 – Principes fondamentaux de la relativité générale\nLimites de la relativité restreinte\nPrincipe d'équivalence et chute libre\nNotion d'espace-temps courbe\nIntroduction au concept de géodésique\nChapitre 2 – Géométrie de l'espace-temps\nNotion de métrique : rôle et interprétation\nCourbes, longueurs, intervalles d'espace-temps\nEspace tangent, vecteurs et bases coordonnées\nCalcul tensoriel élémentaire (produits, contractions, indices)\nChapitre 3 – Connexions et courbure\nConnexion de Levi-Civita : définition et propriétés\nTransport parallèle et dérivée covariante\nTenseur de courbure de Riemann : intuition et expressions\nNotions de courbure scalaire et tenseur de Ricci\nChapitre 4 – Équations d'Einstein et solutions simples\nFormulation des équations d'Einstein à partir du principe variationnel\nLe tenseur énergie-impulsion et son rôle dans la gravitation\nSolutions exactes dans le vide : métrique de Schwarzschild\nInterprétation physique : horizon, géodésiques, tests classiques de la RG\nChapitre 5 – Trous noirs : notions de base\nPropriétés de la solution de Schwarzschild : horizon et singularité\nNotions qualitatives sur les trous noirs chargés et en rotation\nConcepts fondamentaux : horizon des événements, causalité\nIntroduction à la thermodynamique des trous noirs\nChapitre 6 – Ondes gravitationnelles\nLinéarisation des équations d'Einstein : champ faible\nOndes gravitationnelles dans le vide, jauge transverse-traceless\nProduction d'ondes : quadripôle et applications astrophysiques\nDétection des ondes : principes des interféromètres LIGO/VIRGO\nMode d'évaluation\nContrôle continu : 33 %\nExamen : 67 %\nRéférences bibliographiques\nDavid Tong, Lectures on General Relativity, University of Cambridge.\nS. Carroll, Spacetime and Geometry: An Introduction to General Relativity, Addison-Wesley, 2004.\nB. Schutz, A First Course in General Relativity, Cambridge University Press, 2009.\nR.M. Wald, General Relativity, University of Chicago Press, 1984.\nL. Landau & E. Lifchitz, Théorie du champ, Éditions Mir.\nJ.M. Souriau, Géométrie et relativité, Hermann."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

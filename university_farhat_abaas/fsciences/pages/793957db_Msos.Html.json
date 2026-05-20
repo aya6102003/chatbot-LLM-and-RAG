@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/MSOS.html",
+      "title": "Msos.Html",
+      "id": "793957db",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:39",
+      "hash": "eccfc4dbba714c88",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nMachine Structure and Operating System Administration (MSOS) — Semester 1, Unit UFC1, Credits: 4, Coeff: 2\nCourse Objectives\nThe objective of these chapters is to provide a comprehensive introduction to the fundamentals of computing, including the history and architecture of computers, number systems, data representation, and basic Linux system management. This course aims to equip learners with a strong foundational understanding of computers and Linux systems, enabling them to handle tasks such as system configuration, file management, user and storage management, and data backup and restoration effectively.\nCourse Content\nChapter 1: General Introduction\nHistory and evolution of computers.\nBasic principles of Von Neumann architecture.\nComponents of a computer.\nChapter 2: Number Systems\nDefinition.\nOverview of decimal, binary, octal, and hexadecimal systems.\nConversion between these systems.\nBasic operations in the binary system: Addition, Subtraction.\nChapter 3: Information Representation\nBinary coding: Pure binary coding; Reflected binary code (Gray code); DCB code (Decimal Coded Binary).\nInteger numbers: Unsigned representation; Signed representation (SVA, 1’s complement, 2’s complement).\nFractional numbers: Fixed-point; Floating-point (IEEE 754 standard).\nCharacter representation: ASCII code; Unicode code.\nChapter 4: Introduction to Linux\nHistory and evolution of Linux.\nLinux operating system architecture.\nDifferences between Linux distributions.\nInstallation and initial configuration of Linux.\nChapter 5: Management and Manipulation\nCommand Line Usage.\nFile and directory management. Use of basic commands (ls, cd, mkdir, rm, etc.).\nUser and Group Management: Creating, modifying, and deleting users; Assigning permissions to files and directories; Managing user groups.\nStorage Management: Managing partitions and file systems; Creating and managing logical volumes (LVM); Use of fdisk, mkfs, mount commands, etc.\nBackup and Restoration: Planning and executing backups; Using backup tools (rsync, tar, etc.); Restoring data from backups.\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\n“Computer Organization and Design: The Hardware/Software Interface” by David A. Patterson and John L. Hennessy\n“The Linux Command Line: A Complete Introduction” by William Shotts"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

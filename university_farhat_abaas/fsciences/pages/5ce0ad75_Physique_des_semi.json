@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S1-PSC.html",
+      "title": "Physique des semi",
+      "id": "5ce0ad75",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:02",
+      "hash": "8e3186cdab755209",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Physique des semi-conducteurs avancée\nSemestre 1 – UE Fondamentale\nMode d'évaluation :\nContinu 33% / 67%\nObjectifs de l’enseignement\nCe module vise à fournir une compréhension approfondie des fondements théoriques et des propriétés\nphysiques des semi-conducteurs avancés, en couvrant les concepts quantiques, les modèles statistiques, les\nmécanismes de transport électrique, ainsi que les effets optiques. Il intègre également une exploration des\nmatériaux désordonnés et des applications industrielles (photovoltaïque, électronique). L’objectif est de\npermettre aux étudiants d’analyser, modéliser et appliquer ces connaissances à la conception et à\nl’optimisation de dispositifs technologiques.\nConnaissances préalables recommandées\nUne solide base en physique quantique élémentaire et en structure du solide est nécessaire.\nIl est conseillé d’avoir étudié les principes de base de l’électronique (jonction PN) et les statistiques\nquantiques\nContenu de la matière :\n1. Fondamentaux des semi-conducteurs (3 semaines)\nÉtats quantiques du cristal\nThéorème de Bloch, structure de bandes, distinction métal/isolant/semi-conducteur.\nSimplification : Éviter les calculs détaillés des bandes (ex : méthode LCAO ou DFT). Impuretés et trous\nNotion de trou, niveaux d’impuretés, semi-conducteurs dopés (n/p).\nApplication : Exemples concrets (diodes, transistors).\n2. Statistique et propriétés électroniques (3 semaines)\nStatistique des porteurs\nDistribution de Fermi-Dirac, potentiel chimique, semi-conducteurs purs vs dopés.\nSimplification : Se concentrer sur les ordres de grandeur (ex : concentration de porteurs à température ambiante).\n3. Transport électrique (3 semaines)\nTransport classique et semi-classique\nMobilité, effet du dopage, mécanismes de diffusion (phonons, défauts).\nApplication : Loi d’Ohm locale, conductivité.\n4. Effets optiques et lumière (2 semaines)\nAbsorption de la lumière\nTransitions interbandes, photoconductivité, recombinaison (directe/indirecte).\nApplication : Photovoltaïque (panneaux solaires), LED.\n5. Matériaux désordonnés (2 semaines)\nSemi-conducteurs non cristallins\nLocalisation d’Anderson, conduction par saut, silicium amorphe.\nSimplification : Se limiter aux concepts qualitatifs (ex : impact des défauts sur la mobilité).\n6. Synthèse et approfondissements (2 semaines)\nDensité des états et applications\nDensité d’états dans les bandes, pseudo-gap, applications en électrochimie ou optique.\nApprofondissement : Relier aux propriétés des matériaux réels (ex : graphène, pérovskites).\nRéférences\n[1] B. Sapoval et C. Hermann, Physique des semiconducteurs, Ellipse, 1991.\n[2] B. G. Streetman, Solid State Electronic devices, Prentice-Hall Inc 1990."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

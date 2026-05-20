@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S3-SEI.html",
+      "title": "Systèmes énergétiques intelligents",
+      "id": "2dd4c515",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:04",
+      "hash": "6901258bbd338ebc",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Systèmes énergétiques intelligents\nSemestre 3 – UE Découverte\nMode d'évaluation :\nContinu 100%\nObjectifs de l’enseignement :\nCe module vise à former les apprenants à la conception, la gestion et l’optimisation des réseaux électriques\nintelligents (Smart Grids) , en intégrant les énergies renouvelables décentralisées , les technologies de\ncapteurs et de communication , les systèmes de gestion de l’énergie (EMS) , ainsi que les solutions de stockage\net de mobilité électrique (V2G) . À travers des études de cas et projets pratiques, il prépare à répondre aux\ndéfis de la transition énergétique (fiabilité, cybersécurité, efficacité)\nConnaissances préalables recommandées :\nBases en électrotechnique et réseaux électriques\nNotions fondamentales en énergies renouvelables (solaire, éolien)\nContenu de la matière\n1. Introduction aux Smart Grids (2 semaines)\nDéfinition, architecture et composantes.\nDifférences entre réseaux classiques et réseaux intelligents.\nObjectifs : fiabilité, flexibilité, efficacité énergétique.\n2. Énergies renouvelables et décentralisation (2 semaines)\nProblèmes d’intermittence et de stockage.\nCouplage avec les réseaux intelligents.\nMicrogrids et nanogrids.\n3. Capteurs intelligents et systèmes embarqués (3 semaines)\nCapteurs de mesure de courant, tension, température, etc.\nProtocoles de communication (ZigBee, LoRa, Modbus, MQTT...).\nSystèmes embarqués pour la collecte et le traitement des données.\n4. Systèmes de gestion de l’énergie (EMS) (3 semaines)\nSupervision en temps réel.\nAlgorithmes d’optimisation (ex : programmation linéaire, intelligence artificielle).\nGestion de la charge, prévision de la demande, effacement.\n5. Intégration des TIC (Technologies de l'information et de la communication) (3 semaines)\nSCADA (Supervisory Control and Data Acquisition).\nIoT (Internet of Things) appliqué à l’énergie.\nCybersécurité dans les réseaux intelligents.\n6. Stockage et véhicules électriques (2 semaines)\nImpact des batteries sur le réseau.\nSmart charging (recharge intelligente).\nVehicle to Grid (V2G).\nRéférences :\n[1] Momoh, James A. Smart Grid: Fundamentals of Design and Analysis Wiley-IEEE Press, 2012.\n[2] Keyhani, Ali; Marwali, M. N.; Dai, Min Integration of Green and Renewable Energy in Electric Power\nSystems Wiley-IEEE Press, 2010.\n[3] Farhangi, H.\"The Path of the Smart Grid\" IEEE Power and Energy Magazine, vol. 8, no. 1, 2010, pp.\n18–28.\n[4] International Energy Agency (IEA) Smart Grids Technology Roadmap, IEA, 2011.\n[5] IEEE Smart Grid Resource Center"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S1-PPM.html",
+      "title": "Propriétés Physicochimiques des Matériaux",
+      "id": "e3eea96d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:12",
+      "hash": "286a6fa58ded5ce6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Propriétés Physicochimiques des Matériaux\nObjectifs de l'enseignement\nCe module vise à comprendre et analyser les propriétés physico-chimiques des matériaux, avec un accent particulier sur leurs comportements diélectriques, magnétiques, élastiques, mécaniques et optiques. À la fin du semestre, l'étudiant sera capable d'identifier, interpréter et relier ces propriétés aux structures atomiques et microstructurales des matériaux.\nConnaissances préalables recommandées\nPour suivre cette matière efficacement, l'étudiant doit avoir des bases en structure de la matière (structures cristallines, liaisons atomiques). Une compréhension des propriétés fondamentales des matériaux (conductivité, rigidité, comportement sous contrainte) est également recommandée, ainsi que des notions de mathématiques appliquées pour modéliser certains phénomènes.\nContenu de la matière\nDe l'atome au matériau (6 semaines)\nAtomes – Liaisons – Structure (cristaux – amorphes)\nClassification des matériaux : Métaux et alliages – Céramiques et verres – Polymères – Composites\nPropriétés électriques (6 semaines)\nConductivité – Métaux – Isolants – Semi-conducteurs\nPropriétés magnétiques (8 semaines)\nMoment magnétique – (dia, para, ferro, antiferro, ferri)-magnétisme\nGénéralités sur l'effet magnétostrictif\nMagnéto-électricité\nApplications\nPropriétés optiques (6 semaines)\nAbsorption, réflexion et transmission de la lumière\nMatériaux optiques : semi-conducteurs, verres, polymères\nApplications : photovoltaïque, optoélectronique\nPropriétés thermiques (6 semaines)\nDilatation\nConduction\nDiffusion\nRéférences bibliographiques\nC. Kittel : Introduction to Solid State Physics – Wiley, (2005)\nMichel Soustelle : Aide-mémoire Science des Matériaux – Dunod, Paris, (2004) (pp. 89–130)\nW. D. Callister : Materials Science and Engineering: An Introduction – Wiley, (2007)\nA. Moliton : Physique des matériaux pour l'électronique – Hermès-Lavoisier, (2007)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

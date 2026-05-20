@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/L1_SM_Common_Core/S1-CS1.html",
+      "title": "Computer Science 1",
+      "id": "49d179dc",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:38",
+      "hash": "9754daa10964906a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Computer Science 1\nSemester:\n1  |\nTeaching Unit:\nMethodology Unit (MU 1)  |\nCourse Code:\nMU 1\nFull Title:\nComputer Science 1 – Introduction to Algorithmic Thinking and Control Structures in Python\nCourse Objectives\nUnderstand the concept of algorithms and their importance in problem-solving.\nMaster the basics of Python syntax, data types, and fundamental operations.\nLearn to implement sequential algorithms and essential control structures (conditions and loops).\nSyllabus\nChapter 1 – Introduction to Computer Science and Algorithms\nWhat is a computer and a program?\nBrief history of computing.\nIntroduction to algorithms and their importance.\nProgramming languages and algorithmic languages.\nComponents of an algorithm.\nChapter 2 – Getting Started with Python\nInstalling and setting up a development environment.\nBasic Python syntax.\nVariables and constants.\nFundamental data types (integers, floats, booleans).\nOperators (arithmetic, comparison, logical).\nInput (input()) and output (print()) statements.\nAssignments and expressions.\nChapter 3 – Conditional Structures in Python\nIntroduction to control structures.\nSimple conditional (if).\nIf-else structures.\nNested conditionals (if-elif-else).\nChapter 4 – Loops in Python\nIntroduction to loops.\nWhile loop: syntax and behaviour.\nFor loop: syntax and iteration over sequences (strings and lists introduction).\nLoop control statements (break, continue).\nChapter 5 – Representing Algorithms\nSequential algorithms and their Python implementation.\nRepresenting algorithms using flowcharts.\nIntroduction to pseudocode.\nAssessment Method\nContinuous assessment: 50%\nFinal exam: 50%\nReferences\nCormen, T. H., Leiserson, C. E., Rivest, R. L., Stein, C. – Introduction to Algorithms.\nZelle, John – Python Programming: An Introduction to Computer Science."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

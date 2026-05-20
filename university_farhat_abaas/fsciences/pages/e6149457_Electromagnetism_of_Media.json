@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S2-EM.html",
+      "title": "Electromagnetism of Media",
+      "id": "e6149457",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:55",
+      "hash": "f702a910daefe322",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nDécouverte (UED 2)  |\nCrédits :\n1  |\nCoefficient :\n1\nMode d'évaluation :\nExamen : 100%\nObjectifs de l'enseignement\nAssurer des connaissances approfondies sur l'électromagnétisme des milieux continus.\nConnaissances préalables recommandées\nElectromagnétisme dans le vide.\nContenu de la matière\nChapitre 1 : Rappel de la théorie du champ électromagnétique\nÉquations de Maxwell dans le vide\nEnergie du champ électromagnétique\nVecteur de Poynting\nFormalisme complexe\nDécomposition spectrale du champ\nChapitre 2 : Polarisation des milieux matériels (régime stationnaire)\nPolarisation des milieux matériels, vecteur polarisation volumique\nÉquation de Maxwell-Gauss dans un milieu\nPotentiel et champ créés par un milieu polarisé\nMilieux diélectriques linéaires\nChapitre 3 : Aimantation des milieux matériels (régime stationnaire)\nAimantation des milieux matériels, vecteur aimantation volumique\nÉquation de Maxwell-Ampère dans un milieu\nPotentiel et champ créés par un milieu aimanté\nMilieux magnétiques linéaires\nChapitre 4 : Équations de Maxwell et énergie dans les milieux matériels (cas général)\nPolarisation et aimantation dans le cas général\nEquations de Maxwell dans un milieu matériel\nForces et énergie électromagnétiques dans un milieu matériel\nBilan d'énergie dans un milieu linéaire non dissipatif et dissipatif\nChapitre 5 : Réflexion et réfraction des ondes électromagnétiques\nPropagation dans un milieu matériel limité\nRéflexion sur un conducteur en incidence normale\nRéflexion et transmission entre deux diélectriques\nRéférences bibliographiques\nLANDAU et E. LIFCHITZ, Théorie du champ, Mir\nLANDAU et E. LIFCHITZ, Électrodynamique des milieux continus, Mir\nJ.D. JACKSON, Classical electrodynamics, John Wiley\nJ.Ph. PÉREZ, Electromagnétique, fondement et applications, Dunod"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

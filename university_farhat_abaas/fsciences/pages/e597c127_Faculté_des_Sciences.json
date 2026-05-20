@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/8198",
+      "title": "Faculté des Sciences",
+      "id": "e597c127",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:01",
+      "hash": "6f8484096e4075f4",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nBOURSES ERASMUS MUNDUS\nJoint Masters"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "ERASMUS MUNDUS Joint Masters",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/5989/ERASMUS_MUNDUS_Joint_Masters.pdf",
+        "local_file": "pdfs/e597c127_ERASMUS_MUNDUS_Joint_Masters.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

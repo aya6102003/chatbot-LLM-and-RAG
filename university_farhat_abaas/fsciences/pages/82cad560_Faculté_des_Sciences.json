@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/268",
+      "title": "Faculté des Sciences",
+      "id": "82cad560",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:48:52",
+      "hash": "80b766e2447bf193",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "AISSAOUA Habib\nAISSAOUA Habib\nGrade:Maitre de conferences classe A\nGrade:Maitre de conferences classe A\nEmail:habib.aissaoua@univ-setif.dz\nEmail:habib.aissaoua@univ-setif.dz\nDépartement:Informatique\nBureau:10\nBureau:10\n\nAssociate Professor, Department of Computer Science, University of Setif\nAn associate professor in the department of computer Science at university of Setif since January 2010. He obtained his doctorate in networks and distributed systems on October 24, 2018, from university of Bejaia . His research interests span distributed systems, wireless sensor networks, mobile ad hoc networks, cybersecurity, and quantum computing. He is passionate about advancing knowledge at the intersection of secure network architectures and emerging quantum technologies.\nRecommendation policy\nDue to the high number of recommendation letter requests I receive, I have implemented a policy to ensure that I can write truly meaningful and personalized recommendation letters. I provide recommendation letters only to requests from::\n- students whose final year project (PFE) or thesis I\nhave directly supervised,\n- Top of the year(\nmajors de promotion\n).\nJournaux (1)\nA Distributed Consensus-Based Clock Synchronization Protocol for Wireless Sensor Networks\nHabib Aissaoua, Makhlouf Aliouat, Ahcène Bounceur, Reinhardt Euler\nWireless Personal Communications - Springer -, 95 (2017), pp 4579-4600\nConferences Internationales (3)\nA distributed security protocol designed for the context of internet of things\nAbdelkader Laouid, Muath AlShaikh, Farid Lalem, Ahcène Bounceur, Reinhardt Euler, Madani Bezoui, Habib Aissaoua, Abdelkamel Tari\nInternational Conference on Future Networks and Distributed Systems ( ICFNDS), Amman, Jordan, (2018)\nA lightweight only receiver clock synchronization technique for wireless sensor networks\nHabib Aissaoua, Makhlouf Aliouat, Ahcène Bounceur, Reinhardt Euler, Abdelkader Laouid, Farid Lalem, Abdelkamel Tari\nInternational Conference on Future Networks and Distributed Systems ( ICFNDS), Amman, Jordan, (2018)\nClock Synchronization in Wireless Sensor Networks\nHabib Aissaoua, Ahcene Bounceur, Makhlouf Aliouat, Reinhardt Euler\n11eme Colloque du GDR SoC-SiP, Nantes, France, (2016)"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

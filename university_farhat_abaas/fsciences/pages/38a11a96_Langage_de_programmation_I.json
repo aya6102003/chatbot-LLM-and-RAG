@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S1-LP1.html",
+      "title": "Langage de programmation I",
+      "id": "38a11a96",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:45",
+      "hash": "ff15c5eba9d1a37a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nMéthodologie (UEM 1)  |\nCrédits :\n3  |\nCoefficient :\n1\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs pédagogiques\nMaîtriser les notions fondamentales de programmation avec le langage de programmation avancé Python. Fournir aux étudiants un outil de programmation performant leur permettant de résoudre les différents problèmes mathématiques rencontrés en physique en général.\nContenu de l'unité\n1- Introduction au langage de programmation Python\nDéclaration de variables, listes et opérations arithmétiques\nBoucles et comparaisons\nManipulation de fichiers\nDéclaration et utilisation de fonction\n2- Initiation aux classes\nIntroduction\nHéritage et polymorphisme\nRéférences bibliographiques\nGérard Swinnen. Apprendre à programmer avec Python 3. Publisher : Eyrolles, 2012.\nCasamayou Alexandre ; Chauvin Pascal ; Connan Guillaume ; Demailly Jean-Pierre. Programmation en Python pour les mathématiques : cours et exercices. Dunod, 2016."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

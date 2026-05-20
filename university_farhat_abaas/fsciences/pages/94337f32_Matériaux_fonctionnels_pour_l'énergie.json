@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S3-MFE.html",
+      "title": "Matériaux fonctionnels pour l'énergie",
+      "id": "94337f32",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:09",
+      "hash": "f2923ac6d6e5b7ca",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matériaux fonctionnels pour l'énergie\nSemestre 3 – UE Fondamentale\nMode d'évaluation :\nContinu 33% / 67%\nObjectifs de l’enseignement :\nCe module vise à former les apprenants aux matériaux fonctionnels pour l’énergie , en couvrant leurs\npropriétés physico-chimiques , leurs applications dans la conversion et le stockage d’énergie (photovoltaïque,\nthermoélectricité, batteries, hydrogène), ainsi que leur rôle dans l’efficacité énergétique (isolation, vitrage\nintelligent). Il intègre également les enjeux environnementaux (recyclage, durabilité) pour préparer à\nconcevoir des solutions innovantes et durables dans le contexte de la transition énergétique.\nConnaissances préalables recommandées :\nNotions fondamentales en physique des matériaux (structure atomique, liaisons chimiques, états de la\nmatière)\nBases en thermodynamique (premier et deuxième principes, enthalpie, entropie)\nContenu de la matière :\n1. Introduction aux matériaux fonctionnels (2 semaines)\nDéfinitions et classification : conducteurs, semi-conducteurs, diélectriques, céramiques, polymères, composites\nMatériaux fonctionnels vs matériaux structurels - Propriétés clés : thermique, électrique, optique, mécanique\n2. Matériaux pour la conversion d’énergie (4 semaines)\nMatériaux photovoltaïques : Silicium cristallin et amorphe - Couches minces : CdTe, CIGS, pérovskites\nCellules organiques\nMatériaux thermoélectriques : Principe Seebeck / Peltier - Alliages de tellurure de bismuth, skutterudites\nMatériaux piézoélectriques et électrostrictifs :\nApplications en récupération d’énergie vibratoire\n3. Matériaux pour le stockage de l’énergie (4 semaines)\nBatteries : Électrodes : LiCoO₂, graphite, LFP - Électrolytes liquides, solides, polymères\nSupercondensateurs :\nMatériaux poreux : carbone activé, graphène - Matériaux pseudocapacitifs : oxydes métalliques\nHydrogène et piles à combustible : Membranes échangeuses de protons (Nafion, etc.)\nMatériaux pour stockage solide (hydrures métalliques, MOF)\nMatériaux à changement de phase (PCM) : Stockage thermique - Paraffines, sels hydratés, composés eutectiques\n4. Matériaux pour l’efficacité énergétique (3 semaines)\nMatériaux isolants (thermiques et acoustiques)\nLaines minérales, aérogels, isolants biosourcés\nMatériaux sélectifs pour le vitrage et l’enveloppe du bâtiment\nVitrage à faible émissivité, matériaux à opacité variable\nMatériaux à mémoire de forme et intelligents\nApplications dans les systèmes adaptatifs\n5. Défis environnementaux et durabilité (1 semaines)\nImpact environnemental des matériaux\nRecyclabilité et cycle de vie\nSubstitution des matériaux critiques (terres rares, cobalt…)\nMode d’évaluation : Control continu et Examen Final\nRéférences :\n[1] D. S. Ginley & D. Cahen, Fundamentals of Materials for Energy and Environmental Sustainability,\nCambridge University Press, 2011.\n[2] Robert Huggins, Energy Storage: Fundamentals, Materials and Applications, Springer, 2016.\n[3] S.S. Kumar, Materials for Energy Conversion Devices, Woodhead Publishing, 2022.\n[4] L. F. Cabeza, Advances in Thermal Energy Storage Systems, Elsevier, 2020."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

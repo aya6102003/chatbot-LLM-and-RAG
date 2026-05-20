@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S1-CQR.html",
+      "title": "Chimie Quantique et Réactivité",
+      "id": "77204008",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:09",
+      "hash": "0391edb05ae1defa",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Chimie Quantique et Réactivité\nObjectifs de l'enseignement\nMaîtriser les fondements de la chimie quantique pour les systèmes moléculaires.\nComprendre les méthodes Hartree, Hartree-Fock et DFT.\nAnalyser la réactivité chimique à l'aide d'outils théoriques modernes.\nIntégrer la modélisation des solvants dans les calculs moléculaires.\nComprendre les principes, les limites et les usages de la dynamique moléculaire.\nConnaissances préalables recommandées\nL'étudiant doit avoir fait au préalable les modules de structure de la matière et d'introduction à la mécanique quantique de 2ème année licence chimie.\nContenu de la matière\nFondements de la chimie quantique\nPostulats de la mécanique quantique\nÉquation de Schrödinger\nFonctions d'onde, opérateurs, observables\nMéthodes Hartree et Hartree-Fock\nApproximation de Born-Oppenheimer\nMéthode de Hartree : produit d'orbitales indépendantes\nMéthode Hartree-Fock : antisymétrisation et déterminant de Slater ; Procédure auto-cohérente (SCF)\nÉnergie de corrélation\nThéorie de la DFT (Density Functional Theory)\nThéorèmes de Hohenberg-Kohn\nMéthode de Kohn-Sham\nFonctionnelles d'échange-corrélation\nComparaison HF vs. DFT\nApplication à la chimie organique et bioinorganique\nDescripteurs de réactivité quantique\nThéorie Cinétique de la Réactivité\nDescription en Théorie de la Fonctionnelle de la Densité\nDescripteurs de réactivité globaux\nDescripteurs de réactivité locaux\nThéorie HSAB\nModélisation des solvants\nImportance des effets de solvant en chimie computationnelle\nMéthodes implicites : Modèle PCM (Polarizable Continuum Model), COSMO, SMD\nMéthodes explicites : Ajout de molécules de solvant dans le champ quantique\nLimitations : coût de calcul, structure, dynamique\nDynamique moléculaire\nBases de la dynamique moléculaire classique :\nIntégration des équations de Newton\nPotentiels interatomiques (Lennard-Jones, Coulomb)\nIntégrateurs numériques : Verlet, Leapfrog\nApplications :\nÉtude du mouvement thermique\nSimulations de liquides, protéines, membranes\nLimites de la dynamique moléculaire\nRéférences bibliographiques\nSalem Lionel, The molecular orbital theory of conjugated systems, Ed. Benjamin, 1966.\nNguyen Trong Anh, Les règles de Woodward-Hoffmann, Ediscience, 1970.\nFukui K., Theory of orientation and stereoselection, Springer-Verlag, 1975.\nRivail J.-L., Eléments de chimie quantique à l'usage des chimistes, InterEditions du CNRS, 1989.\nNguyen Trong Anh, Introduction à la chimie moléculaire, Ed. Ellipses, 1994.\nAnh N.T., Orbitales frontières, InterEditions-CNRS Editions, Paris 1995.\nChaquin P., Manuel de Chimie théorique, Ellipses, Paris, 2000.\nJean Y., Volatron F., Structure électronique des molécules, Dunod, Paris, 2003.\nPascal Le Floch, Introduction à la chimie moléculaire par la théorie des orbitales frontières, Ed. Éditions École polytechnique, 2006.\nFleming I., Molecular Orbitals and Organic Chemical Reactions, John Wiley & Sons, New York, 2009.\nChaquin P. et Volatron F., Chimie Organique. Une approche orbitalaire, DeBoeck, 2015."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

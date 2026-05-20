@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S3-EP.html",
+      "title": "Étude des Plasmas",
+      "id": "2215d9bd",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:52",
+      "hash": "018370150963c350",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Étude des Plasmas\nSemestre 3 – UE Fondamentale\nPrérequis\nNotions basiques de mathématiques, mécanique des fluides, physique statistique, électromagnétisme, Dynamique des particules chargées.\nDescription et objectifs de l'unité\nCette unité approfondit les propriétés et phénomènes des plasmas (quatrième état de la matière), prolongeant le cours de dynamique des particules chargées du M1. Elle couvre les équations fondamentales, les effets collectifs et les applications en fusion, astrophysique et technologies spatiales.\nProgramme détaillé\nChapitre 1 : Définitions et propriétés des plasmas\nGaz ionisé et processus d'ionisation\nÉquation de Saha\nCaractéristiques générales des plasmas\nÉcrantage de Debye\nFréquence plasma\nClassification des plasmas\nRappel des différentes théories d'étude des plasmas\nChapitre 2 : Les Ondes\nOndes dans les plasmas\nOndes acoustiques\nOndes électromagnétiques\nApplications au chauffage radiofréquence\nChapitre 3 : Les effets non-linéaires\nIntroduction\nGaines charge-espace\nStructures localisées : solitons, double couches, pseudo-potentiel, équation KdV, équation de Schrödinger\nForce pondéromotrice\nSonde de plasmas (Sonde de Langmuir)\nChapitre 4 : Les instabilités\nTaux de croissance\nQuelques instabilités remarquables :\nInstabilité macroscopique\nInstabilité de Rayleigh–Taylor\nInstabilité de Weibel\nChapitre 5 : Notions sur l'étude des plasmas\nPlasmas de décharges\nPlasmas poussiéreux\nPlasmas denses\nPlasmas fortement couplés\nMode d'évaluation\nContrôle continu : 33 %\nExamen : 67 %\nRéférences bibliographiques\nF.F. Chen, Introduction to Plasma Physics, Plenum Press, New York, 1974.\nR.J. Goldston et P.H. Rutherford, Introduction to Plasma Physics, Institute of Physics Publishing, Bristol, 1995.\nJ.A. Bittencourt, Fundamentals of Plasma Physics, Pergamon Press, 1986.\nJ.-L. Delacroix et A. Bers, Physique des Plasmas : Tome 1, Savoirs Actuels, EDP Sciences / CNRS Éditions, 1994."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

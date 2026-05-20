@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/DA2.html",
+      "title": "Da2.Html",
+      "id": "365b0da7",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:38",
+      "hash": "b99f4689a26b96ad",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nData Analysis 2 (DA2) — Semester 4, Unit UM4, Credits: 3, Coeff: 2\nPrerequisite Knowledge\nAdvanced Statistics: Data Analysis 1.\nCourse Objectives\nStudents will be trained to use advanced regression techniques, time series data analysis, dimensionality reduction, and classification. They will also learn advanced clustering methods and sophisticated visualization techniques to interpret complex data.\nCourse Content\nChapter 1:\nAdvanced regression techniques: Polynomial regression, spline, quantile regression.\nChapter 2:\nDimensionality reduction and exploration methods: PCA, factor analysis.\nChapter 3:\nAdvanced models for dependent data: Time series, duration models.\nChapter 4:\nAdvanced classification techniques: Discriminant analysis, SVM.\nChapter 5:\nAdvanced clustering methods: K-means, hierarchical clustering, DBSCAN.\nChapter 6:\nAdvanced data visualization: Visualization techniques, software tools, interactive visualizations.\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\nReference books on advanced statistics, specialized online courses, and statistical software like R and Python."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

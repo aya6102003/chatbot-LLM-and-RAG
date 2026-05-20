@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S1-MM.html",
+      "title": "Modélisation mathématique",
+      "id": "3b7d3800",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:33",
+      "hash": "06a146e609bcd12d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Modélisation mathématique\nSemestre :\n1  |\nUnité d'enseignement :\nTransversale\nVolume Horaire Hebdomadaire :\nCours : 1h30\nCrédits :\n1  |\nCoefficients :\n1\nObjectifs de l'enseignement\nApprendre le processus de traduction d'un problème concret en un modèle mathématique, analyser qualitativement le modèle et interpréter les résultats.\nContenu de la matière\nPrincipes de la modélisation : Étapes, simplification, hypothèses.\nOutils de modélisation : Modèles discrets (suites), modèles continus (EDO).\nÉtude de cas : Dynamique des populations (Lotka-Volterra), physique (pendule), épidémiologie (SIR).\nAnalyse du modèle : Points d'équilibre, stabilité.\nMode d'évaluation\nExamen (100%)\nRéférences bibliographiques\nM. Braun,\nDifferential Equations and Their Applications\n. Springer, 1993.\nN. Bacaër,\nHistoires de mathématiques et de populations\n. Cassini, 2009."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

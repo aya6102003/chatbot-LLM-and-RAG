@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/635",
+      "title": "Faculté des Sciences",
+      "id": "028b8038",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:30:21",
+      "hash": "abe724732b9ea43b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "GRIMES Welid\nGRIMES Welid\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:welid.grimes@univ-setif.dz\nEmail:welid.grimes@univ-setif.dz\nDépartement:Mathématiques\nBureau:\nBureau:\n\nJournaux (4)\nA Newton descent logarithmic barrier interior-point algorithm for monotone LCP\nWelid Grimes, Mohamed Achache and Adnan Yassine\nRAIRO Operations Research, 58 (2024), pp 5537-5550\nA path-following interior-point algorithm for monotone LCP based on modified Newton search direction\nWelid Grimes and Mohamed Achache\nRAIRO Operations Research, 57 (2023), pp 1059-1073\nPath-following interior-point algorithm for monotone linear complementarity problems\nWelid Grimes\nAsian-European Journal of Mathematics, 15 (2022), pp 12\nAn Infeasible Interior Point Algorithm for Monotone Linear Complementarity Problems\nWelid Grimes and Mohamed Achache\nInternational Journal of Informatics and Applied Mathematics, 4 (2021), pp 53-59"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/uploads/page_professionnelle/image/635/thumb_pic.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

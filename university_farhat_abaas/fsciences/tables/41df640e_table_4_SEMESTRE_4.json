@@ -1,0 +1,56 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Master_AMA.html",
+  "title": "SEMESTRE 4",
+  "headers": [
+    "Intitulé",
+    "VHS",
+    "Coeff",
+    "Crédits"
+  ],
+  "rows": [
+    [
+      "Intitulé",
+      "VHS",
+      "Coeff",
+      "Crédits"
+    ],
+    [
+      "UEF 4.1 : PFE avec Mémoire",
+      "750h00",
+      "17",
+      "30"
+    ],
+    [
+      "Stage dans l'entreprise",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Ateliers",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Travail Personnel",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Autres",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Total Semestre 4",
+      "750h00",
+      "17",
+      "30"
+    ]
+  ],
+  "row_count": 7,
+  "col_count": 4
+}

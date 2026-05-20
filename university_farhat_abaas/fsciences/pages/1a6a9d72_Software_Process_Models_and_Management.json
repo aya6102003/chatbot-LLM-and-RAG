@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING_GENIE_LOGICIEL/S8-PROC-LOG.html",
+      "title": "Software Process Models and Management",
+      "id": "1a6a9d72",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:35",
+      "hash": "5fa1af954ff1a122",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Software Process Models and Management\nSemestre : S8\nUnité d’enseignement : UEF2\nMatière : Modèles et Gestion de Procédés Logiciels\nCrédits : 4\nCoefficient : 3\nMode d’enseignement : Présentiel\nObjectifs de l’enseignement\nLe module est conçu pour répondre aux besoins présents de la communauté tout en étant prospectif. Il\nse veut cependant simple et accessible pour les étudiants. Le module vise principalement la formation\ndes étudiants pour :\n• Comprendre les concepts de base des procédés de développement de logiciels.\n• Maitriser leur gestion en terme de modélisation, orchestration et exécution.\n• Maîtriser l'aspect automatisation relatif aux procédés de développement de logiciels.\n• Connaître les langages et/ou outils les plus courants en la matière.\n• Maitriser le volet collaboration et ses défis dans les procédés de développement de logiciels.\nConnaissances préalables recommandées (descriptif succinct des connaissances requises pour pouvoir\nsuivre cet enseignement – Maximum 2 lignes).\nModule Génie logiciel du tronc commun\nContenu de la matière\n• Chapitre I : Introduction aux procédés de développement de logiciels Définitions et\nobjectifs des procédés de développement de logiciels\nIntérêts pour les projets de développements\nLes différents types et granularité de procédés de développement de logiciels\n• Chapitre II : La modélisation des procédés de développement\nAspect IDM pour les procédés de développement\nTypes de modélisation : from-scratch, composants de procédés, patrons de procédés,\nframework de procédés (paramétrisation), ...\nModélisation de procédés par et pour la réutilisation\nLes langages de modélisation de procédés\n• Chapitre III : L'exécution et l'orchestration des procédés de développement\nIntroduction et définitions\nLes avantages de l'exécution automatique de procédés de développement\nL'orchestration de procédés de développement et ses objectifs\nLes langages pour l'automatisation dans les procédés de développement\n• Chapitre IV : La collaboration dans les procédés de développement\nBesoins et objectifs de la collaboration\nFusion de procédés et défis (optionnel)\nTâches collaboratives et principes de collaboration dans un projet de développement Les\noutils de collaboration\n• Chapitre V : Les tendances actuelles et futures des procédés de développement\nL'optimisation des procédés de développement (optionnel)\nLes méthodes agiles et leur application dans les procédés de développement (optionnel)\nLa qualité dans les procédés de développement (optionnel)\nL'intégration continue\nLes Procédés logiciels pour L'intelligence artificielle\nMode d’évaluation : (type d’évaluation et pondération)\nContrôle continu (40%), Examen (60%)\nRéférences\nQuaresma, José Augusto De Sena, and Sandro Ronaldo Bezerra Oliveira. \"Teaching and\nlearning strategies for software process subject.\" 2021 IEEE Frontiers in Education\nConference (FIE). IEEE, 2021.\nA. Hachemi et al. \"Software process patterns: a roadmap.\" in AICCSA. IEEE. 2017.\nAl-Saqqa S. et al. \"Agile software development: Methodologies and trends.\" International\nJournal of Interactive Mobile Technologies 14.11 (2020).\nKIM, Gene, HUMBLE, Jez, DEBOIS, Patrick, et al. The DevOps Handbook: How to Create\nWorld-Class Agility, Reliability, and Security in Technology Organizations. IT Revolution,\n2016.\nAgh, Halimeh, Félix García, and Mario Piattini. \"A checklist for the evaluation of software\nprocess line approaches.\" Information and Software Technology 146 (2022): 106864.\nRoger, S. Pressman, and R. Maxin Bruce. Software engineering: a practitioner’s approach.\nMcGraw-Hill Education, 2015.\nA. Hachemi et al. \"POEML: a Process Orchestration, Execution, and Modeling Language.\"\nJournal of Software: Evolution and Process 34.6 (2022): e2456.\nGarcía-García, Julián A., et al. \"Software process simulation modeling: systematic literature\nreview.\" Computer Standards & Interfaces 70 (2020): 103425.\nVan Der Aalst, Wil. Process mining: data science in action. Vol. 2. Heidelberg: Springer, 2016.\nXiaolong, He, et al. \"Soft computing and decision support system for software process\nimprovement: A systematic literature review.\" Scientific Programming 2021 (2021): 1-14."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S1-TCM.html",
+      "title": "Transfert de chaleur et de masse",
+      "id": "1e41fd8a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:11",
+      "hash": "765270c1d15e3b05",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Transfert de chaleur et de masse\nSemestre 1 – UE Fondamentale\nMode d'évaluation :\nContinu 33% / 67%\nObjectifs de l’enseignement\nComprendre les mécanismes de transfert thermique en régime transitoire et les méthodes mathématiques associées.\nMaîtriser les lois fondamentales du rayonnement thermique et les bilans radiatifs entre surfaces.\nÉtudier les phénomènes diffusifs et convectifs de transfert de masse, avec des applications concrètes.\nConnaissances préalables recommandées\nIl est recommandé d’avoir bien maîtrisé les bases de la thermodynamique et de la mécanique des fluides.\nUne bonne compréhension des modes de transfert thermique (conduction, convection, rayonnement) est\nessentielle.\nContenu de la matière :\n1 . Conduction en régime variable (5 semaines)\nSystèmes à température uniforme\nValidité de l’hypothèse du corps mince\nSolides semi-finis\nSolution générale pour le cas simplifié\nMéthode de séparation de variables\n2 . Rayonnement (3 semaines)\nRappels sur les notions et lois du rayonnement thermique\nRappels sur les propriétés radiatives d’une surface\nBilan radiatif entre surfaces séparées par un milieu transparent\n3 . Transfert de masse (6 semaines)\nLa définition du flux de matière\nTransport diffusif, Loi de Fick\nDescription du transfert de la matière dans un milieu stationnaire\nBilan de matière\nTransfert diffusif en régime permanant\nConditions aux limites et diffusion de matière à une interface\nEvaporation et sublimation\nSolubilité des gaz dans les liquides et solides\nRéaction des surfaces catalytiques (ou la catalyse)\nDescription de la catalyse\nTransfert diffusif en régime variable\nRéférences\n[1] Fundamentals of heat and mass transfer, Incropera, Wiley, 6 eme edition, USA, 2006\n[2] Heat transfer, Cengel, 2 eme edition, USA, 2002\n[3] Conduction of heat in solids, H. S. CARSLAW et J. C. JAEGER, Oxford, 1959.\n[4] Initiation aux transferts thermiques, J. F. SACADURA, Paris, 1978.\n[5] Maillet D., André A., Batsale J.-C., Degiovanni A., Moyne C., « Thermal quadrupoles »,John Wiley\n& Sons\n[6] Özisik M. N., « Heat conduction », John Wiley & Sons, Inc., 1993."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

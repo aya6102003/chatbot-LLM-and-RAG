@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S3-ADV.html",
+      "title": "S3 Adv.Html",
+      "id": "334f4c24",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:49",
+      "hash": "b6d5196c23119750",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Advanced Data Visualization\nSemester:\n3  |\nType:\nUEF31  |\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLecture:\n1h30  |\nLab:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n5\nTeaching Objectives\nKnow how to represent data in an effective and aesthetic way.\nCourse Content (21h)\nChapter I – Foundations of Data Visualization\nObjectives, principles, and issues of visualisation\nData types and associated representation types\nVisual perception and chart readability\nDesign rules (Tufte, Cairo, Few)\nChapter II – Univariate and Bivariate Visualisation\nCharts for quantitative variables: histograms, boxplots, density plots\nCharts for qualitative variables: bars, pie charts, Pareto diagrams\nScatter plots, trend curves, correlation matrices\nUsing colours, sizes, and shapes to enrich analysis\nChapter III – Multidimensional Visualisation\nParallel coordinates, scatter plot matrices\nt-SNE, UMAP for high-dimensional visualisation\nCluster, group, and class visualisation\nChapter IV – Visualisation Tools with Python\nMatplotlib: figure customisation, subplots\nSeaborn: enriched statistical visualisation\nPlotly: interactive visualisations (zoom, hover, filters)\nAltair / Bokeh: declarative and dynamic visualisation\nChapter V – Dashboards and Interactive Visualisation\nDashboard concept: objectives, structure, interactivity\nIntroduction to Streamlit, Dash (Python)\nData exploration links, filtering, and dynamic updates\nPractical case: creating a simple dashboard\nChapter VI – Geospatial Visualisation\nGeographic and cartographic data\nStatic and interactive maps: Folium, GeoPandas\nSpatial data visualisation on choropleth maps\nCase study: regional, logistical, or urban data\nChapter VII – Best Practices, Design, and Storytelling\nChoosing the right chart for the data type\nCommon mistakes to avoid (truncated axes, overload, etc.)\nVisualisation for persuasion: narration, data staging\nReal examples of data storytelling (journalism, marketing, sciences)\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — written tests, personal work\nBibliography\nEdward Tufte (2001).\nThe Visual Display of Quantitative Information\n. Graphics Press.\nAlberto Cairo (2016).\nThe Truthful Art: Data, Charts, and Maps for Communication\n. New Riders.\nStephen Few (2012).\nShow Me the Numbers: Designing Tables and Graphs to Enlighten\n. Analytics Press.\nColin Ware (2020).\nInformation Visualization: Perception for Design\n. Morgan Kaufmann."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

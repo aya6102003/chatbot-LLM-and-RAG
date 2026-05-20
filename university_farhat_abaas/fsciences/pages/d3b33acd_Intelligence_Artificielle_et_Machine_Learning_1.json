@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S1-IAML1.html",
+      "title": "Intelligence Artificielle et Machine Learning 1",
+      "id": "d3b33acd",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:48",
+      "hash": "6ee0a83b59a0eaf0",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nMéthodologie (UEM 1)  |\nCrédits :\n1  |\nCoefficient :\n1\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs pédagogiques\nIntroduire les bases de l'IA et de l'apprentissage automatique (Machine Learning), en se concentrant sur leurs applications dans les sciences de la matière. Les étudiants comprendront les concepts fondamentaux de la modélisation basée sur les données et comment appliquer les techniques de l'apprentissage automatique pour résoudre des problèmes du monde réel.\nConnaissances préalables recommandées\nProgrammation (Python, MATLAB…)\nContenu de la matière\n1- Introduction à l'IA et à l'apprentissage automatique\nAperçu de l'IA et de ses applications\nImportance des données dans l'IA et l'apprentissage automatique\n2- Concepts de base de l'apprentissage automatique\nApprentissage supervisé ou non supervisé\nAlgorithmes clés de l'apprentissage automatique : régression, classification, regroupement\nMesures d'évaluation (MAE, R², précision)\n3- Collecte et traitement des données\nIngénierie des caractéristiques et techniques de prétraitement des données\nTraitement de l'ajustement excessif et de l'ajustement insuffisant\nBases de données sur les matériaux : Materials Project, OQMD, AFLOW\n4- Apprentissage automatique pratique en sciences de la matière\nÉtude de cas : Prédiction des propriétés des matériaux (bande interdite, etc.)\nUtilisation de modèles d'apprentissage automatique pour des tâches simples de classification et de régression\n5- Révision approfondie des concepts clés\nRéférences bibliographiques\n\"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow\" by Aurélien Géron\n\"Pattern Recognition and Machine Learning\" by Christopher M. Bishop\nOutils et bibliothèques\nPython, Jupyter Notebooks\nScikit-learn, Pandas, Matplotlib\nMaterials science tools : Matminer, Pymatgen"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

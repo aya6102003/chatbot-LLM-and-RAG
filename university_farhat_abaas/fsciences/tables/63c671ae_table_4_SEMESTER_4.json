@@ -1,0 +1,56 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Master_ISI.html",
+  "title": "SEMESTER 4",
+  "headers": [
+    "",
+    "VHS",
+    "Coeff",
+    "Credits"
+  ],
+  "rows": [
+    [
+      "",
+      "VHS",
+      "Coeff",
+      "Credits"
+    ],
+    [
+      "Final Project with Dissertation (PFE)",
+      "750h",
+      "18",
+      "30"
+    ],
+    [
+      "Internship in enterprise",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Workshops",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Personal work",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Other",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Total Semester 4",
+      "750h",
+      "18",
+      "30"
+    ]
+  ],
+  "row_count": 7,
+  "col_count": 4
+}

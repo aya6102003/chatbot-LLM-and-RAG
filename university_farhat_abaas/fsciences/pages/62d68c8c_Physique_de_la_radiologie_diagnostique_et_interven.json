@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_MEDICALE/S1-PRDI1.html",
+      "title": "Physique de la radiologie diagnostique et interventionnelle I",
+      "id": "62d68c8c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:48",
+      "hash": "9c5a640c74f258e9",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nFondamentale (UEF 1)  |\nCrédits :\n6  |\nCoefficient :\n3\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs pédagogiques\nMaîtrise des principes physiques de production d'images médicales (imagerie à rayons X, IRM et échographie).\nAcquisition des outils nécessaires au contrôle qualité en imagerie médicale.\nCe cours permettra à l'étudiant de maîtriser les principes physiques de la tomodensitométrie et de la tomographie par résonance magnétique nucléaire ainsi que les principes de fonctionnement des machines utilisées et les rôles de leurs différentes parties. Il sera également doté des outils nécessaires qui lui permettront de réaliser le contrôle qualité sur toutes ces machines d'imagerie tomographique.\nMaîtrise des principes physiques et des méthodes de production d'images en échographie et ceux relatifs aux différentes parties nécessaires à la génération et à la détection des ultrasons ainsi qu'à la lecture et au stockage des images.\nContrôle qualité en imagerie médicale.\nContenu de l'unité\n1- Production de RX\nPhysique de la production de rayons X (y compris les spectres)\nTechnologie de la production de RX\nParamètres d'exposition et influence sur la qualité de l'image\n2- Imagerie à rayons X et reconstruction d'image\nRadiographie\nMammographie\nCT\nFluoroscopie et radiologie interventionnelle\nRadiographie numérique\nAbsorption des rayons X à double énergie\nImagerie panoramique et tomographique dentaire\nAmélioration du contraste\nDose patient et optimisation du système\n3- Imagerie par ultrasons\nGénération d'ultrasons\nInteraction ultrasonore\nPropriétés acoustiques des tissus biologiques\nOnde, mouvement et propagation, puissance acoustique\nArtefacts d'image et qualité d'image – Modes de balayage\nApplications thérapeutiques\nTransducteurs\nTechniques Doppler\nSécurité\n4- Évaluation du tube à rayons X\nDépendance du rendement du tube à rayons X par rapport au HVL, à la tension du tube, au courant du tube, au temps d'exposition, à la filtration du faisceau et à la distance\nÉvaluation de la qualité de l'image (contraste, résolution, fonction de transfert de modulation)\nTravaux pratiques\nPhysique de la radiologie interventionnelle et diagnostique\nRéférences bibliographiques\nINTERNATIONAL ATOMIC ENERGY AGENCY, Diagnostic Radiology Physics: A Handbook for Teachers and Students, IAEA, Vienna (2014).\nBUSHBERG, J.T., SEIBERT, J. A., LEIDHOLDT Jr, E.M. and BOONE, J. M., The Essential Physics of Medical Imaging, Wolters Kluwer, Philadelphia (2021).\nDENDY, P.P., HEATON, B., Physics for Diagnostic Radiology, CRC Press, USA (2011).\nSAMEI, E., PECK, D., Hendee's Physics of Medical Imaging, Wiley-Liss, New York (2019).\nSPRAWLS, P., Physical Principles of Medical Imaging, Medical Physics Pub Corp, Madison (1993).\nINTERNATIONAL ATOMIC ENERGY AGENCY, Radiation Protection and Safety in Medical Uses of Ionizing Radiation: Specific Safety Guide No. SSG46, IAEA, Vienna (2018)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

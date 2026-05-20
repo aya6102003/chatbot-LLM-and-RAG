@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L2/S4-ELECTROMAG.html",
+      "title": "Électromagnétisme",
+      "id": "bb68f368",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:23",
+      "hash": "e7b3e0d5bb6874fa",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Électromagnétisme\nSemestre :\n4  |\nUE :\nFondamentale  |\nCrédits :\n4  |\nCoefficient :\n2\nContenu de la matière\nChapitre 1 : Fondements de l'électromagnétisme (3 semaines)\nObjectif : Introduire les grandeurs fondamentales et établir les bases des équations de Maxwell.\n1.1 Champs électrique et magnétique : définitions, sources, lignes de champ\n1.2 Potentiel scalaire V et potentiel vecteur A\n1.3 Force de Lorentz et conditions de Lorentz\n1.4 Conservation de la charge électrique\n1.5 Courant de déplacement de Maxwell\n1.6 Équation de Maxwell-Ampère\nChapitre 2 : Équations de Maxwell (2 semaines)\nObjectif : Présenter les équations fondamentales et leurs formes selon les milieux.\n2.1 Équations de Maxwell – forme générale\n2.2 Équations dans le vide et en l'absence de sources\n2.3 Cas des milieux matériels : conducteurs, isolants, milieux polarisables\n2.4 Interprétation physique des termes – divergence et rotation\n2.5 Conditions aux limites et équations de continuité\nChapitre 3 : Propagation des ondes électromagnétiques (6 semaines)\nObjectif : Étudier la propagation des ondes EM dans différents milieux et les interactions aux interfaces.\n3.1 Ondes planes :\nPropagation dans le vide\nPropagation dans les isolants (indice de réfraction, polarisation)\nPropagation dans les conducteurs (atténuation, effet Joule)\nPropagation dans les gaz ionisés (fréquence de coupure (fréquence plasmon), réflexion)\n3.2 Interfaces et discontinuités :\nLois de la réflexion et de la réfraction\nÉquations de Fresnel\nAngle de Brewster\nRéflexion totale (isolant/isolant magnétique, bon conducteur)\n3.3 Ondes guidées :\nLigne coaxiale\nGuide d'onde rectangulaire\nPropagation en ligne droite et en guide creux\nChapitre 4 : Rayonnement électromagnétique (4 semaines)\nObjectif : Comprendre l'émission de champs EM par des sources localisées.\n4.1 Rayonnement d'un dipôle électrique\n4.2 Rayonnement d'un quadripôle électrique\n4.3 Rayonnement d'un dipôle magnétique\n4.4 Rayonnement d'un quadripôle magnétique\n4.5 Alignement et réseaux d'antennes\n4.6 Théorème de réciprocité\nMode d'évaluation\nContrôle continu : 33%\nExamen : 67%\nRéférences bibliographiques\nJoseph A. Edminister,\nÉlectromagnétisme : Cours et Problèmes\n.\nP. Deneves,\nPropagation d'ondes : Exercices et Problèmes\n.\nJ.D. Jackson,\nClassical Electrodynamics\n, John Wiley and sons 1998."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

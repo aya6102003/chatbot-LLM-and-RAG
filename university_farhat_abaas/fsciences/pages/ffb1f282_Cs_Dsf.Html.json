@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-DSF.html",
+      "title": "Cs Dsf.Html",
+      "id": "ffb1f282",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:54:59",
+      "hash": "c8f6c509e8eb99d2",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nOrganizations are desperately focusing on innovation in today's world. We're building products that are smarter, smaller, and quicker than ever before, and we're making services more accessible than ever before. What's the end result? Embedded computers can be found in a wide range of devices, from computer servers to refrigerators, and from energy meters to pacemakers. The majority of these systems must store and retrieve data from databases. Databases have always played a role in cyber investigations and will continue to do so in the future.\nContenu de la matière\nSecurity and Information technology\nAuthentication\nAccess Control\nQuerying Encrypted Data\nProtecting Database-to-Database Communications\nSecurity Auditing\nSecurity Testing\nReacting to an Incident\nForensics Analysis\nMode d’évaluation : Contrôle continu, examen\nRéférences\n• Database Security 1st Edition, by Alfred Basta"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_MATERIAUX/S3-TMM.html",
+      "title": "Théories et Modélisation des matériaux",
+      "id": "5b8eceb4",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:12",
+      "hash": "c812715119a2234a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière :\nThéories et Modélisation des matériaux\nUnité d'Enseignement :\nUE Fondamentale (UEF 21)\nSemestre :\nSemestre 3\nCrédits :\n6\nCoefficient :\n3\nVHS (15 semaines) :\n82h30\nCours :\n3h00\nTD :\n1h30\nTP :\nMode d'évaluation :\nContinu : 33%  /  Examen : 67%\nSemestre 3\nSemestre 3\nUnité Fondamentale\nMatière : Théories et Modélisation des matériaux\nObjectifs de l’enseignement :\nComprendre les différents concepts théoriques de base et différentes approches pour la description et\nmodélisation des matériaux à différentes échelles (atomique, mésoscopique, macroscopique).\nInitier à l’utilisation des méthodes de modélisation atomistique et mésoscopique\nUtiliser des logiciels de modélisation atomistique et ab initio.\nComprendre les liens entre structure, propriétés et performances des matériaux\nConnaissances préalables recommandées :\nUne base solide est nécessaire en :\nPhysique Fondamentale\nPhysique du solide\nMécanique quantique (bases)\nPhysique statistique\nThermodynamique (transitions de phase)\nSimulation Numérique\nLogiciels\nProgrammation (Python/Fortran)\nContenu de la matière :\nChapitre 1: Introduction générale à la modélisation des matériaux\nObjectifs de la modélisation en science des matériaux\nClassification des principales méthodes de modélisation: DFT, MC, MD\nChapitre 2:Bases de mécanique quantique appliquée aux matériaux\nRappels sur la mécanique quantique\nApproximation de Born-Oppenheimer\nFonction d’onde électronique, orbitale atomique\nChapitre 3:Modélisation quantique des matériaux\nIntroduction à la théorie de la fonctionnelle de la densité (DFT)\nThéorèmes de Hohenberg-Kohn, équations de Kohn-Sham.\nApproximations usuelles : LDA, GGA, +U.\nNotion de pseudo-potentiels, base onde plane.\nLogiciels de simulation : VASP, Quantum ESPRESSO, ABINIT\nÉtude de cas : calcul des propriétés structurales ( paramètres de maille, module de compressibilités, énergie\nde cohésion)\nChapitre 4 : Dynamique moléculaire\nPotentiels interatomiques : Lennard-Jones, EAM, MEAM\nIntégration des équations du mouvement (algorithme de Verlet)\nSimulation de l’évolution thermique et structurale des matériaux\nChapitre 5 : Méthodes statistiques et Monte Carlo\nEnsembles statistiques (microcanonique, canonique, grand canonique)\nAlgorithmes de Monte Carlo (Metropolis, échange de particules)\nApplication à l’ordre/désordre, transitions de phase\n34\nChapitre 6 : Liens entre structure et propriétés\nCalculs de propriétés mécaniques (constantes élastiques, modules)\nPropriétés électroniques (structure de bande, densité d’états)\nPropriétés magnétiques et thermodynamiques\nApplication à des matériaux réels : métaux, alliages, oxydes\nOutils recommandés :\nCodes libres : LAMMPS, Quantum ESPRESSO, VESTA, Xcrysden\nLangages : Bash, Python (post-traitement), gnuplot\nPlateforme : Linux / Windows avec WSL ou machines virtuelles\nRéférences :\nUnderstanding Molecular Simulation: From Algorithms to Applications par Daan Frenkel et Berend Smit - 1996\n(la 2ème édition date de 2002) : Un classique qui couvre les fondements théoriques et les algorithmes des\nsimulations de dynamique moléculaire et de Monte Carlo, avec des exemples d'applications.\nUnderstanding Molecular Simulation, by D. Frenkel & B. Smit (2023).\nElectronic Structure: Basic Theory and Practical Methods, by R. M. Martin (2020).\nP. Giannozzi et al., \"Quantum ESPRESSO toward the exascale\", The Journal of Chemical Physics (2020).\nA. P. Thompson et al., \"LAMMPS - a flexible simulation tool for particle-based materials modeling at the atomic,\nmeso, and continuum scales\", Computer Physics Communications (2022).\nDocumentation officielle de Quantum ESPRESSO, LAMMPS.\n35"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}
