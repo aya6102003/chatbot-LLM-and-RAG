@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepRAG · University Knowledge Base</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg-0: #06060a;
+            --bg-1: #0c0c12;
+            --bg-2: #111118;
+            --bg-3: #18181f;
+            --bg-4: #1f1f28;
+            --border: rgba(255,255,255,0.05);
+            --border-hover: rgba(255,255,255,0.1);
+            --text-0: #f2f2f7;
+            --text-1: #c8c8d4;
+            --text-2: #8888a0;
+            --text-3: #55556a;
+            --accent: #2dd4bf;
+            --accent-hover: #5eead4;
+            --accent-dim: rgba(45,212,191,0.08);
+            --accent-mid: rgba(45,212,191,0.18);
+            --user-bg: linear-gradient(135deg, #0d9488, #0f766e);
+            --green: #34d399;
+            --green-dim: rgba(52,211,153,0.1);
+            --amber: #fbbf24;
+            --amber-dim: rgba(251,191,36,0.1);
+            --red: #f87171;
+            --red-dim: rgba(248,113,113,0.1);
+            --blue: #60a5fa;
+            --blue-dim: rgba(96,165,250,0.1);
+            --shadow: 0 8px 32px rgba(0,0,0,0.5);
+            --r-sm: 8px;
+            --r-md: 12px;
+            --r-lg: 16px;
+            --r-xl: 22px;
+            --font-display: 'Space Grotesk', 'Noto Sans Arabic', sans-serif;
+            --font-body: 'IBM Plex Sans', 'Noto Sans Arabic', sans-serif;
+        }
+
+        body.light {
+            --bg-0: #f0f2f5;
+            --bg-1: #ffffff;
+            --bg-2: #f7f8fa;
+            --bg-3: #eef0f3;
+            --bg-4: #e4e6eb;
+            --border: rgba(0,0,0,0.07);
+            --border-hover: rgba(0,0,0,0.12);
+            --text-0: #111827;
+            --text-1: #374151;
+            --text-2: #6b7280;
+            --text-3: #9ca3af;
+            --accent-dim: rgba(13,148,136,0.06);
+            --accent-mid: rgba(13,148,136,0.12);
+            --shadow: 0 8px 32px rgba(0,0,0,0.08);
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-0);
+            color: var(--text-0);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            overflow: hidden;
+            transition: background 0.4s, color 0.4s;
+        }
+
+        body.ar { direction: rtl; }
+
+        /* ── Animated background ── */
+        .bg-mesh {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .bg-mesh .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(100px);
+            opacity: 0.12;
+            animation: orbFloat 20s ease-in-out infinite alternate;
+        }
+
+        body.light .bg-mesh .orb { opacity: 0.06; }
+
+        .bg-mesh .orb:nth-child(1) {
+            width: 500px; height: 500px;
+            background: #2dd4bf;
+            top: -10%; left: -5%;
+            animation-duration: 22s;
+        }
+        .bg-mesh .orb:nth-child(2) {
+            width: 400px; height: 400px;
+            background: #8b5cf6;
+            bottom: -15%; right: -8%;
+            animation-duration: 18s;
+            animation-delay: -5s;
+        }
+        .bg-mesh .orb:nth-child(3) {
+            width: 300px; height: 300px;
+            background: #f59e0b;
+            top: 50%; left: 60%;
+            animation-duration: 25s;
+            animation-delay: -10s;
+        }
+
+        @keyframes orbFloat {
+            0% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(40px, -30px) scale(1.05); }
+            66% { transform: translate(-20px, 20px) scale(0.95); }
+            100% { transform: translate(30px, -10px) scale(1.02); }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .bg-mesh .orb { animation: none; }
+            .msg { animation: none !important; }
+            .typing-dots span { animation: none !important; opacity: 0.5; }
+        }
+
+        /* ── App shell ── */
+        .app {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            max-width: 860px;
+            height: 92vh;
+            background: var(--bg-1);
+            border: 1px solid var(--border);
+            border-radius: var(--r-xl);
+            box-shadow: var(--shadow);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            backdrop-filter: blur(20px);
+        }
+
+        body.light .app { backdrop-filter: none; }
+
+        /* ── Header ── */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.75rem 1.1rem;
+            border-bottom: 1px solid var(--border);
+            flex-shrink: 0;
+            background: var(--bg-1);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+        }
+
+        .brand-logo {
+            width: 40px; height: 40px;
+            border-radius: var(--r-md);
+            background: linear-gradient(135deg, #2dd4bf 0%, #0d9488 50%, #065f46 100%);
+            display: grid;
+            place-items: center;
+            color: #fff;
+            font-size: 1.05rem;
+            box-shadow: 0 4px 14px rgba(45,212,191,0.25);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .brand-logo::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%, transparent 50%);
+            border-radius: inherit;
+        }
+
+        .brand-info h1 {
+            font-family: var(--font-display);
+            font-size: 1.15rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: var(--text-0);
+        }
+
+        .brand-info .sub {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 1px;
+        }
+
+        .brand-info .sub span {
+            font-size: 0.65rem;
+            color: var(--text-3);
+        }
+
+        .pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 0.58rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            background: var(--accent-dim);
+            color: var(--accent);
+            border: 1px solid rgba(45,212,191,0.12);
+        }
+
+        .pill.demo {
+            background: var(--amber-dim);
+            color: var(--amber);
+            border-color: rgba(251,191,36,0.15);
+        }
+
+        .pill i { font-size: 0.55rem; }
+
+        .header-actions {
+            display: flex;
+            gap: 5px;
+        }
+
+        .h-btn {
+            width: 36px; height: 36px;
+            border: 1px solid var(--border);
+            border-radius: var(--r-sm);
+            background: transparent;
+            color: var(--text-2);
+            cursor: pointer;
+            display: grid;
+            place-items: center;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+
+        .h-btn:hover {
+            background: var(--accent-dim);
+            color: var(--accent);
+            border-color: var(--accent-mid);
+            transform: translateY(-1px);
+        }
+
+        .h-btn:active { transform: translateY(0); }
+
+        /* ── Messages ── */
+        .messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.25rem 1.1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.9rem;
+            scroll-behavior: smooth;
+        }
+
+        .messages::-webkit-scrollbar { width: 4px; }
+        .messages::-webkit-scrollbar-track { background: transparent; }
+        .messages::-webkit-scrollbar-thumb {
+            background: var(--text-3);
+            border-radius: 10px;
+        }
+
+        /* ── Message ── */
+        .msg {
+            display: flex;
+            gap: 10px;
+            max-width: 100%;
+            animation: msgSlide 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+        }
+
+        .msg.user { flex-direction: row-reverse; }
+        body.ar .msg.user { flex-direction: row; }
+
+        @keyframes msgSlide {
+            from { opacity: 0; transform: translateY(12px) scale(0.98); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
+        .msg-avatar {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            flex-shrink: 0;
+            font-size: 0.82rem;
+            margin-top: 2px;
+        }
+
+        .msg.bot .msg-avatar {
+            background: var(--accent-dim);
+            color: var(--accent);
+            border: 1px solid var(--accent-mid);
+        }
+
+        .msg.user .msg-avatar {
+            background: var(--user-bg);
+            color: #fff;
+        }
+
+        .msg-body {
+            max-width: 82%;
+            min-width: 60px;
+        }
+
+        .msg-bubble {
+            padding: 0.65rem 0.95rem;
+            border-radius: var(--r-lg);
+            line-height: 1.65;
+            font-size: 0.88rem;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .msg.user .msg-bubble {
+            background: var(--user-bg);
+            color: #fff;
+            border-bottom-right-radius: var(--r-sm);
+        }
+
+        body.ar .msg.user .msg-bubble {
+            border-bottom-right-radius: var(--r-lg);
+            border-bottom-left-radius: var(--r-sm);
+        }
+
+        .msg.bot .msg-bubble {
+            background: var(--bg-2);
+            color: var(--text-0);
+            border: 1px solid var(--border);
+            border-bottom-left-radius: var(--r-sm);
+        }
+
+        body.ar .msg.bot .msg-bubble {
+            border-bottom-left-radius: var(--r-lg);
+            border-bottom-right-radius: var(--r-sm);
+        }
+
+        /* ── Typing ── */
+        .typing-indicator {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 0.4rem 0;
+        }
+
+        .typing-dots {
+            display: flex;
+            gap: 4px;
+        }
+
+        .typing-dots span {
+            width: 6px; height: 6px;
+            border-radius: 50%;
+            background: var(--text-3);
+            animation: dotPulse 1.4s ease-in-out infinite;
+        }
+
+        .typing-dots span:nth-child(2) { animation-delay: 0.16s; }
+        .typing-dots span:nth-child(3) { animation-delay: 0.32s; }
+
+        @keyframes dotPulse {
+            0%, 80%, 100% { transform: scale(0.6); opacity: 0.3; }
+            40% { transform: scale(1); opacity: 1; background: var(--accent); }
+        }
+
+        .typing-text {
+            font-size: 0.73rem;
+            color: var(--text-3);
+            font-weight: 500;
+        }
+
+        /* ── Answer content ── */
+        .ans {
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .ans p { margin-bottom: 0.55rem; }
+        .ans p:last-child { margin-bottom: 0; }
+
+        .ans strong { color: var(--text-0); font-weight: 600; }
+        .ans em { color: var(--text-1); font-style: italic; }
+
+        .ans code {
+            background: var(--bg-4);
+            padding: 0.12rem 0.4rem;
+            border-radius: 4px;
+            font-size: 0.84em;
+            font-family: 'JetBrains Mono', 'Fira Code', monospace;
+            color: var(--accent);
+        }
+
+        .no-result {
+            color: var(--text-2);
+            font-style: italic;
+            padding: 0.3rem 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .no-result i { color: var(--text-3); }
+
+        .err-block {
+            color: var(--red);
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            font-size: 0.85rem;
+        }
+
+        .err-block i { margin-top: 2px; flex-shrink: 0; }
+
+        /* ── Demo banner ── */
+        .demo-banner {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 0.6rem 0.85rem;
+            background: var(--amber-dim);
+            border: 1px solid rgba(251,191,36,0.15);
+            border-radius: var(--r-md);
+            margin-bottom: 0.4rem;
+            font-size: 0.78rem;
+            color: var(--amber);
+            line-height: 1.45;
+        }
+
+        .demo-banner i {
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+
+        .demo-banner strong {
+            color: var(--amber);
+        }
+
+        /* ── Sources ── */
+        .src-section {
+            margin-top: 0.75rem;
+            padding-top: 0.65rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .src-label {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--text-3);
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            margin-bottom: 0.55rem;
+        }
+
+        .src-label i { color: var(--accent); font-size: 0.72rem; }
+
+        .src-badge {
+            background: var(--accent-dim);
+            color: var(--accent);
+            padding: 1px 7px;
+            border-radius: 10px;
+            font-size: 0.62rem;
+            font-weight: 700;
+        }
+
+        .src-list { display: flex; flex-direction: column; gap: 5px; }
+
+        .src-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 9px;
+            padding: 0.55rem 0.7rem;
+            background: var(--bg-0);
+            border: 1px solid var(--border);
+            border-radius: var(--r-md);
+            transition: all 0.2s;
+            cursor: default;
+        }
+
+        .src-item:hover {
+            border-color: var(--accent-mid);
+            background: var(--accent-dim);
+            transform: translateX(3px);
+        }
+
+        body.ar .src-item:hover { transform: translateX(-3px); }
+
+        .src-idx {
+            width: 20px; height: 20px;
+            border-radius: 6px;
+            background: var(--accent);
+            color: #fff;
+            display: grid;
+            place-items: center;
+            font-size: 0.6rem;
+            font-weight: 700;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .src-detail { flex: 1; min-width: 0; }
+
+        .src-name {
+            font-size: 0.78rem;
+            font-weight: 500;
+            color: var(--text-0);
+            line-height: 1.35;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+
+        .src-url {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.68rem;
+            color: var(--accent);
+            text-decoration: none;
+            margin-top: 3px;
+            word-break: break-all;
+            opacity: 0.85;
+            transition: opacity 0.15s;
+        }
+
+        .src-url:hover { opacity: 1; text-decoration: underline; }
+        .src-url i { font-size: 0.58rem; }
+
+        .src-score {
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 0.65rem;
+            font-weight: 700;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .sc-hi { background: var(--green-dim); color: var(--green); }
+        .sc-md { background: var(--amber-dim); color: var(--amber); }
+        .sc-lo { background: var(--red-dim); color: var(--red); }
+
+        /* ── PDFs ── */
+        .pdf-section {
+            margin-top: 0.55rem;
+            padding-top: 0.5rem;
+            border-top: 1px dashed var(--border);
+        }
+
+        .pdf-label {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.68rem;
+            font-weight: 600;
+            color: var(--text-3);
+            margin-bottom: 0.45rem;
+        }
+
+        .pdf-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+
+        .pdf-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 0.3rem 0.65rem;
+            background: var(--red-dim);
+            color: var(--red);
+            border: 1px solid rgba(248,113,113,0.12);
+            border-radius: 20px;
+            font-size: 0.68rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.15s;
+        }
+
+        .pdf-chip:hover { background: rgba(248,113,113,0.18); }
+        .pdf-chip i { font-size: 0.62rem; }
+
+        /* ── Input ── */
+        .input-wrap {
+            padding: 0.75rem 1rem 1rem;
+            border-top: 1px solid var(--border);
+            background: var(--bg-1);
+            flex-shrink: 0;
+        }
+
+        .input-row {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            background: var(--bg-2);
+            border: 1.5px solid var(--border);
+            border-radius: var(--r-lg);
+            padding: 0.15rem 0.15rem 0.15rem 1.1rem;
+            transition: all 0.25s;
+        }
+
+        body.ar .input-row { padding: 0.15rem 1.1rem 0.15rem 0.15rem; }
+
+        .input-row:focus-within {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-dim), 0 0 20px rgba(45,212,191,0.06);
+        }
+
+        .input-row input {
+            flex: 1;
+            background: transparent;
+            border: none;
+            padding: 0.7rem 0;
+            font-size: 0.88rem;
+            font-family: var(--font-body);
+            color: var(--text-0);
+            outline: none;
+        }
+
+        .input-row input::placeholder { color: var(--text-3); }
+
+        .send {
+            background: linear-gradient(135deg, #2dd4bf, #0d9488);
+            border: none;
+            border-radius: var(--r-md);
+            padding: 0.5rem 1.15rem;
+            color: #fff;
+            font-weight: 600;
+            font-size: 0.8rem;
+            font-family: var(--font-body);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .send::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(255,255,255,0.15), transparent);
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .send:hover:not(:disabled)::before { opacity: 1; }
+
+        .send:hover:not(:disabled) {
+            box-shadow: 0 4px 18px rgba(45,212,191,0.3);
+            transform: translateY(-1px);
+        }
+
+        .send:active:not(:disabled) { transform: translateY(0); }
+
+        .send:disabled { opacity: 0.4; cursor: not-allowed; }
+        .send i { font-size: 0.75rem; }
+
+        .input-hint {
+            display: flex;
+            justify-content: center;
+            gap: 14px;
+            margin-top: 7px;
+            font-size: 0.62rem;
+            color: var(--text-3);
+        }
+
+        .input-hint span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .input-hint i { font-size: 0.58rem; }
+
+        /* ── Status bar ── */
+        .status {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.35rem 1.1rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.62rem;
+            color: var(--text-3);
+            background: var(--bg-1);
+            flex-shrink: 0;
+        }
+
+        .status-l {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .dot {
+            width: 6px; height: 6px;
+            border-radius: 50%;
+            background: var(--green);
+            transition: background 0.3s;
+        }
+
+        .dot.loading { background: var(--amber); animation: blink 1.2s infinite; }
+        .dot.error { background: var(--red); }
+        .dot.demo-dot { background: var(--amber); }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.25; }
+        }
+
+        /* ── Welcome ── */
+        .welcome {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            text-align: center;
+            padding: 2rem 1.5rem;
+            animation: fadeUp 0.5s ease both;
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(16px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .welcome-icon {
+            width: 68px; height: 68px;
+            border-radius: var(--r-xl);
+            background: linear-gradient(135deg, #2dd4bf 0%, #0d9488 60%, #065f46 100%);
+            display: grid;
+            place-items: center;
+            font-size: 1.7rem;
+            color: #fff;
+            margin-bottom: 1.2rem;
+            box-shadow: 0 10px 30px rgba(45,212,191,0.2);
+            position: relative;
+        }
+
+        .welcome-icon::after {
+            content: '';
+            position: absolute;
+            inset: -3px;
+            border-radius: inherit;
+            background: linear-gradient(135deg, rgba(45,212,191,0.3), transparent);
+            z-index: -1;
+            filter: blur(8px);
+        }
+
+        .welcome h2 {
+            font-family: var(--font-display);
+            font-size: 1.35rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 0.35rem;
+        }
+
+        .welcome > p {
+            color: var(--text-2);
+            font-size: 0.84rem;
+            max-width: 420px;
+            line-height: 1.55;
+            margin-bottom: 0.5rem;
+        }
+
+        .welcome-demo-note {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 0.35rem 0.8rem;
+            background: var(--amber-dim);
+            border: 1px solid rgba(251,191,36,0.12);
+            border-radius: 20px;
+            font-size: 0.72rem;
+            color: var(--amber);
+            margin-bottom: 1.4rem;
+            font-weight: 500;
+        }
+
+        .welcome-demo-note i { font-size: 0.68rem; }
+
+        .suggest-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 7px;
+            max-width: 460px;
+            width: 100%;
+        }
+
+        .sg {
+            padding: 0.6rem 0.8rem;
+            background: var(--bg-2);
+            border: 1px solid var(--border);
+            border-radius: var(--r-md);
+            font-size: 0.78rem;
+            color: var(--text-1);
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-family: var(--font-body);
+            line-height: 1.35;
+        }
+
+        body.ar .sg { text-align: right; }
+
+        .sg:hover {
+            border-color: var(--accent-mid);
+            background: var(--accent-dim);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        }
+
+        .sg:active { transform: translateY(0); }
+
+        .sg i {
+            color: var(--accent);
+            font-size: 0.82rem;
+            flex-shrink: 0;
+            width: 18px;
+            text-align: center;
+        }
+
+        /* ── Toast ── */
+        .toast {
+            position: fixed;
+            bottom: 1.5rem;
+            left: 50%;
+            transform: translateX(-50%) translateY(80px);
+            background: var(--bg-4);
+            color: var(--text-0);
+            border: 1px solid var(--border);
+            padding: 0.6rem 1.2rem;
+            border-radius: var(--r-md);
+            font-size: 0.8rem;
+            font-family: var(--font-body);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+            z-index: 999;
+            opacity: 0;
+            transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+            pointer-events: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .toast.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 640px) {
+            body { padding: 0; }
+            .app { height: 100vh; height: 100dvh; border-radius: 0; border: none; }
+            .header { padding: 0.65rem 0.85rem; }
+            .brand-logo { width: 36px; height: 36px; font-size: 0.95rem; }
+            .brand-info h1 { font-size: 1.02rem; }
+            .messages { padding: 0.8rem; }
+            .msg-body { max-width: 90%; }
+            .msg-bubble { font-size: 0.84rem; }
+            .suggest-grid { grid-template-columns: 1fr; }
+            .input-wrap { padding: 0.6rem 0.7rem 0.85rem; }
+            .input-row { padding-left: 0.85rem; }
+            body.ar .input-row { padding-right: 0.85rem; }
+            .send span { display: none; }
+            .send { padding: 0.55rem 0.7rem; }
+        }
+
+        @media (max-width: 380px) {
+            .brand-info .sub span:not(.pill) { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-mesh" aria-hidden="true">
+        <div class="orb"></div>
+        <div class="orb"></div>
+        <div class="orb"></div>
+    </div>
+
+    <div class="app" role="main">
+        <header class="header">
+            <div class="brand">
+                <div class="brand-logo" aria-hidden="true"><i class="fas fa-graduation-cap"></i></div>
+                <div class="brand-info">
+                    <h1>DeepRAG</h1>
+                    <div class="sub">
+                        <span class="pill" id="modePill"><i class="fas fa-brain"></i> RAG + LLM</span>
+                        <span>University Knowledge Base</span>
+                    </div>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button class="h-btn" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="h-btn" id="clearBtn" title="New chat" aria-label="New chat">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div>
+        </header>
+
+        <div class="messages" id="messages" role="log" aria-live="polite"></div>
+
+        <div class="status">
+            <div class="status-l">
+                <div class="dot" id="dot"></div>
+                <span id="statusLabel">Ready</span>
+            </div>
+            <span id="charInfo"></span>
+        </div>
+
+        <div class="input-wrap">
+            <div class="input-row">
+                <input type="text" id="queryInput" placeholder="Ask about courses, professors, policies..." autocomplete="off" aria-label="Question input">
+                <button class="send" id="sendBtn" disabled aria-label="Send question">
+                    <span>Send</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            <div class="input-hint">
+                <span><i class="fas fa-microchip"></i> Hybrid RAG</span>
+                <span><i class="fas fa-quote-left"></i> Grounded answers</span>
+                <span><i class="fas fa-link"></i> Source citations</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script>
+    (function () {
+        'use strict';
+
+        /* ── Elements ── */
+        const $messages  = document.getElementById('messages');
+        const $input     = document.getElementById('queryInput');
+        const $send      = document.getElementById('sendBtn');
+        const $clear     = document.getElementById('clearBtn');
+        const $theme     = document.getElementById('themeBtn');
+        const $dot       = document.getElementById('dot');
+        const $status    = document.getElementById('statusLabel');
+        const $chars     = document.getElementById('charInfo');
+        const $toast     = document.getElementById('toast');
+        const $modePill  = document.getElementById('modePill');
+
+        let busy = false;
+        let abortCtrl = null;
+        let streamEl = null;
+        let toastTimer = null;
+        let isDemo = false;   // True when backend is unreachable
+
+        /* ═══════════════════════════════════════════
+           Demo Knowledge Base — simulated responses
+        ═══════════════════════════════════════════ */
+        const DEMO_DB = [
+            {
+                keywords: ['computer science', 'cs courses', 'cs department', 'معلوماتية', 'حاسوب'],
+                answer: `The **Computer Science Department** offers a comprehensive range of undergraduate and graduate programs.\n\n**Undergraduate Core Courses:**\n- CS101 — Introduction to Computer Science (3 CR)\n- CS201 — Data Structures & Algorithms (4 CR)\n- CS301 — Operating Systems (3 CR)\n- CS305 — Database Systems (3 CR)\n- CS310 — Computer Networks (3 CR)\n- CS320 — Software Engineering (3 CR)\n- CS350 — Artificial Intelligence (3 CR)\n- CS360 — Machine Learning (3 CR)\n- CS370 — Computer Security (3 CR)\n\n**Electives include:** Cloud Computing, Computer Vision, Natural Language Processing, Blockchain Technology, and Mobile App Development.\n\nAll CS courses include both lecture and lab components. Students must maintain a minimum GPA of 2.5 in major courses to remain in good standing.`,
+                sources: [
+                    { title: 'CS Department Course Catalog 2024-2025', url: 'https://university.edu/cs/catalog', score: 0.94 },
+                    { title: 'Undergraduate Programs Handbook — College of Engineering', url: 'https://university.edu/engineering/handbook', score: 0.87 },
+                    { title: 'CS Curriculum Map & Prerequisite Tree', url: 'https://university.edu/cs/curriculum', score: 0.82 }
+                ],
+                pdfs: [
+                    { name: 'CS_Course_Catalog_2025.pdf', url: '#' },
+                    { name: 'CS_Curriculum_Map.pdf', url: '#' }
+                ]
+            },
+            {
+                keywords: ['machine learning', 'ml course', ' teaches ml', 'who teaches machine', 'التعلم الآلي'],
+                answer: `**CS360 — Machine Learning** is taught by **Dr. Sarah Al-Rashidi** in the Fall semester and **Dr. James Chen** in the Spring semester.\n\n**Course Details:**\n- **Credits:** 3 (2 lecture + 1 lab)\n- **Prerequisites:** CS201 (Data Structures), MATH201 (Linear Algebra), MATH301 (Probability & Statistics)\n- **Schedule:** Sun/Tue 10:00–11:30 AM (Fall), Mon/Wed 2:00–3:30 PM (Spring)\n- **Location:** Engineering Building, Room 412\n\n**Topics Covered:**\n1. Supervised Learning (Regression, Classification, SVM, Decision Trees)\n2. Unsupervised Learning (K-Means, PCA, DBSCAN)\n3. Neural Networks & Deep Learning Fundamentals\n4. Model Evaluation & Cross-Validation\n5. Feature Engineering & Selection\n\n**Office Hours:** Dr. Al-Rashidi — Wed 1:00–3:00 PM, Office EB-328. Dr. Chen — Thu 10:00–12:00 PM, Office EB-315.`,
+                sources: [
+                    { title: 'CS360 Syllabus — Fall 2024', url: 'https://university.edu/cs/cs360/syllabus', score: 0.96 },
+                    { title: 'Faculty Directory — Dr. Sarah Al-Rashidi', url: 'https://university.edu/faculty/alrashidi', score: 0.89 },
+                    { title: 'Spring 2025 Course Schedule', url: 'https://university.edu/registrar/spring2025', score: 0.85 }
+                ],
+                pdfs: [
+                    { name: 'CS360_Syllabus_F2024.pdf', url: '#' }
+                ]
+            },
+            {
+                keywords: ['academic calendar', 'spring 2025', 'fall 2025', 'semester dates', 'التقويم الأكاديمي', 'الفصل'],
+                answer: `**Academic Calendar — Spring 2025:**\n\n- **Registration Opens:** January 5, 2025\n- **Classes Begin:** January 19, 2025\n- **Add/Drop Deadline:** February 2, 2025\n- **Midterm Exams:** March 8–15, 2025\n- **Spring Break:** March 22–29, 2025\n- **Last Day of Classes:** May 10, 2025\n- **Final Exams:** May 15–28, 2025\n- **Grades Due:** June 2, 2025\n- **Commencement:** June 14, 2025\n\n**Important Notes:**\n- Students can withdraw with a "W" grade until April 5, 2025\n- Make-up exam requests must be submitted within 3 business days of the missed exam\n- The university follows a 16-week semester format including finals week`,
+                sources: [
+                    { title: 'Academic Calendar 2024-2025 — Office of the Registrar', url: 'https://university.edu/registrar/calendar', score: 0.98 },
+                    { title: 'Spring 2025 Important Dates Summary', url: 'https://university.edu/registrar/spring2025-dates', score: 0.91 }
+                ],
+                pdfs: [
+                    { name: 'Academic_Calendar_2024-2025.pdf', url: '#' }
+                ]
+            },
+            {
+                keywords: ['graduation', 'requirements', 'degree requirements', 'متطلبات التخرج', 'تخرج'],
+                answer: `**Bachelor of Science in Engineering — Graduation Requirements:**\n\n**Credit Requirements (Total: 132 CR):**\n- University General Education: 36 credits\n- College Core Requirements: 18 credits\n- Major Core Courses: 54 credits\n- Major Electives: 15 credits\n- Free Electives: 9 credits\n\n**Additional Requirements:**\n- Minimum cumulative GPA of **2.0** (some departments require 2.5)\n- Minimum major GPA of **2.5**\n- Successful completion of **Senior Capstone Project** (6 CR)\n- Minimum **2 semesters** of full-time residence\n- Completion of **English proficiency** requirements (TOEFL 550 / IELTS 6.0)\n- **Field training/internship** of at least 8 weeks (3 CR)\n- Clearance of all financial obligations\n\n**Note:** Students must apply for graduation at least one semester before their expected graduation date through the online portal.`,
+                sources: [
+                    { title: 'Undergraduate Academic Policies — Section 8: Degree Requirements', url: 'https://university.edu/policies/degrees', score: 0.95 },
+                    { title: 'Engineering College Graduation Checklist 2025', url: 'https://university.edu/engineering/graduation-checklist', score: 0.88 },
+                    { title: 'Senior Capstone Project Guidelines', url: 'https://university.edu/engineering/capstone', score: 0.76 }
+                ],
+                pdfs: [
+                    { name: 'Graduation_Requirements_Checklist.pdf', url: '#' },
+                    { name: 'Capstone_Project_Guidelines.pdf', url: '#' }
+                ]
+            },
+            {
+                keywords: ['library', 'library hours', 'where is library', 'المكتبة', 'ساعات المكتبة'],
+                answer: `**Main Library — Al-Quds Library:**\n\n**Location:** Central Campus, between the Science Building and Student Center (Building 15 on the campus map)\n\n**Operating Hours:**\n- **Sunday – Thursday:** 7:30 AM – 11:00 PM\n- **Friday:** 9:00 AM – 5:00 PM\n- **Saturday:** 10:00 AM – 8:00 PM\n- **During Exam Periods:** Extended to midnight (Sun–Thu)\n\n**Facilities:**\n- 4 floors with 2,500+ study seats\n- 50 group study rooms (bookable online)\n- 24/7 quiet study zone on the 4th floor\n- Computer lab with 80 workstations\n- Printing & scanning services (ground floor)\n- Café on the 2nd floor\n\n**Digital Resources:** Access to 45,000+ e-journals, 200+ databases, and 500,000+ e-books through the library portal using your university ID.`,
+                sources: [
+                    { title: 'Library Services & Hours — Official Page', url: 'https://university.edu/library/hours', score: 0.97 },
+                    { title: 'Campus Map — Building Locations', url: 'https://university.edu/campus/map', score: 0.83 },
+                    { title: 'Library Digital Resources Guide', url: 'https://university.edu/library/digital', score: 0.79 }
+                ],
+                pdfs: [
+                    { name: 'Library_Floor_Plan.pdf', url: '#' },
+                    { name: 'Library_Quick_Guide.pdf', url: '#' }
+                ]
+            },
+            {
+                keywords: ['tuition', 'fees', 'international students', 'cost', 'الرسوم', 'الرسوم الدراسية', 'الطلاب الدوليين'],
+                answer: `**Tuition Fees — 2024-2025 Academic Year:**\n\n**Undergraduate Programs (per credit hour):**\n- Local Students: **$85/CR**\n- GCC Students: **$120/CR**\n- International Students: **$250/CR**\n\n**Graduate Programs (per credit hour):**\n- Local Students: **$150/CR**\n- International Students: **$400/CR**\n\n**Estimated Total per Semester (Undergrad, 15 CR):**\n- Local: ~$1,275\n- International: ~$3,750\n\n**Additional Fees:**\n- Registration Fee: $200 (one-time)\n- Student Services Fee: $150/semester\n- Lab Fee: $50–$100/course (for courses with labs)\n- Health Insurance: $600/year (mandatory for international students)\n- Housing (optional): $2,000–$3,500/semester\n\n**Scholarships:** Merit-based scholarships covering 25–100% of tuition are available. Application deadline: March 1 for the following academic year.`,
+                sources: [
+                    { title: 'Tuition & Fees Schedule 2024-2025 — Bursar Office', url: 'https://university.edu/bursar/fees', score: 0.96 },
+                    { title: 'International Student Handbook — Chapter 3: Financial Information', url: 'https://university.edu/international/handbook', score: 0.91 },
+                    { title: 'Scholarship & Financial Aid Catalog', url: 'https://university.edu/financialaid/scholarships', score: 0.84 }
+                ],
+                pdfs: [
+                    { name: 'Fee_Schedule_2024-2025.pdf', url: '#' },
+                    { name: 'Scholarship_Guide.pdf', url: '#' }
+                ]
+            },
+            {
+                keywords: ['exchange', 'study abroad', 'international exchange', 'تبادل', 'دراسة خارجية'],
+                answer: `**Student Exchange Programs:**\n\nThe university has partnerships with **35+ institutions** across 18 countries for semester and year-long exchanges.\n\n**Popular Partner Universities:**\n- University of Edinburgh (UK)\n- TU Munich (Germany)\n- University of Toronto (Canada)\n- NUS Singapore\n- KAIST (South Korea)\n- University of Melbourne (Australia)\n\n**Eligibility Requirements:**\n- Completed at least **60 credit hours**\n- Minimum GPA of **3.0**\n- Good academic and disciplinary standing\n- Language proficiency in the host country's language (if applicable)\n\n**Application Process:**\n1. Attend the Exchange Program Info Session (held each October & February)\n2. Submit online application with transcript, personal statement, and faculty recommendation\n3. Interview with the International Programs Committee\n4. Nominations announced 6 weeks after the deadline\n\n**Deadlines:** March 15 for Fall exchange, October 1 for Spring exchange.\n\n**Financial:** Exchange students pay regular tuition to their home university. Travel and living costs are the student's responsibility, though partial stipends are available.`,
+                sources: [
+                    { title: 'International Exchange Program — Official Guide 2025', url: 'https://university.edu/international/exchange', score: 0.93 },
+                    { title: 'Partner Universities List & Profiles', url: 'https://university.edu/international/partners', score: 0.88 },
+                    { title: 'Exchange Application Form & Instructions', url: 'https://university.edu/international/apply', score: 0.80 }
+                ],
+                pdfs: [
+                    { name: 'Exchange_Program_Guide_2025.pdf', url: '#' }
+                ]
+            },
+            {
+                keywords: ['lab', 'labs', 'computer lab', 'مختبر', 'مختبرات'],
+                answer: `**Computer Science Labs — Engineering Building:**\n\n**Lab 1 (EB-101):** General Purpose Lab\n- 40 workstations (Intel i7, 16GB RAM, dual monitors)\n- Available: Sun–Thu 8:00 AM – 10:00 PM\n- Software: VS Code, IntelliJ, Python, MATLAB, AutoCAD\n\n**Lab 2 (EB-102):** Networking & Security Lab\n- 30 workstations + Cisco networking equipment (routers, switches)\n- Available during scheduled classes + open hours Wed & Thu\n- Software: Wireshark, GNS3, Kali Linux, Cisco Packet Tracer\n\n**Lab 3 (EB-201):** AI & ML Research Lab\n- 20 high-performance GPUs (NVIDIA RTX 4090)\n- Priority access for CS350/CS360 students and research groups\n- Software: PyTorch, TensorFlow, Jupyter Notebooks, CUDA toolkit\n\n**Lab 4 (EB-202):** Mobile & IoT Lab\n- 25 workstations with device testing stations\n- Arduino, Raspberry Pi, iOS/Android development kits\n\n**Access:** Use your university ID card for door access. Lab schedules are posted weekly on the CS department portal.`,
+                sources: [
+                    { title: 'CS Labs — Facilities & Equipment List', url: 'https://university.edu/cs/labs', score: 0.95 },
+                    { title: 'Lab Access Policy & Scheduling', url: 'https://university.edu/cs/lab-policy', score: 0.87 },
+                    { title: 'Engineering Building Room Directory', url: 'https://university.edu/facilities/eb-rooms', score: 0.72 }
+                ],
+                pdfs: [
+                    { name: 'CS_Labs_Equipment_List.pdf', url: '#' },
+                    { name: 'Lab_Schedule_Current_Semester.pdf', url: '#' }
+                ]
+            }
+        ];
+
+        /* Fuzzy keyword match for demo */
+        function findDemoAnswer(query) {
+            const q = query.toLowerCase();
+            let bestMatch = null;
+            let bestScore = 0;
+
+            for (const entry of DEMO_DB) {
+                let score = 0;
+                for (const kw of entry.keywords) {
+                    if (q.includes(kw.toLowerCase())) {
+                        score += kw.length; // Longer keyword matches = more relevant
+                    }
+                }
+                if (score > bestScore) {
+                    bestScore = score;
+                    bestMatch = entry;
+                }
+            }
+
+            if (bestMatch && bestScore > 0) {
+                return {
+                    answer: bestMatch.answer,
+                    sources: bestMatch.sources,
+                    pdfs: bestMatch.pdfs
+                };
+            }
+
+            return null;
+        }
+
+        /* ═══════════════════════════════════════════
+           Theme
+        ═══════════════════════════════════════════ */
+        const applyTheme = (dark) => {
+            document.body.classList.toggle('light', !dark);
+            $theme.innerHTML = dark
+                ? '<i class="fas fa-moon"></i>'
+                : '<i class="fas fa-sun"></i>';
+            localStorage.setItem('dr-theme', dark ? 'dark' : 'light');
+        };
+
+        const initTheme = () => {
+            const saved = localStorage.getItem('dr-theme');
+            if (saved) return applyTheme(saved === 'dark');
+            applyTheme(window.matchMedia('(prefers-color-scheme: dark)').matches);
+        };
+
+        $theme.addEventListener('click', () => {
+            const isDark = !document.body.classList.contains('light');
+            applyTheme(!isDark);
+        });
+
+        /* ═══════════════════════════════════════════
+           Toast
+        ═══════════════════════════════════════════ */
+        function toast(msg, icon = 'fa-info-circle', duration = 3000) {
+            clearTimeout(toastTimer);
+            $toast.innerHTML = `<i class="fas ${icon}"></i> ${esc(msg)}`;
+            $toast.classList.add('show');
+            toastTimer = setTimeout(() => $toast.classList.remove('show'), duration);
+        }
+
+        /* ═══════════════════════════════════════════
+           Helpers
+        ═══════════════════════════════════════════ */
+        function esc(s) {
+            if (!s) return '';
+            const d = document.createElement('div');
+            d.textContent = s;
+            return d.innerHTML;
+        }
+
+        function scrollDown() {
+            $messages.scrollTo({ top: $messages.scrollHeight, behavior: 'smooth' });
+        }
+
+        function setStatus(cls, text) {
+            $dot.className = 'dot' + (cls ? ' ' + cls : '');
+            $status.textContent = text;
+        }
+
+        function setDemoMode(on) {
+            isDemo = on;
+            if (on) {
+                $modePill.className = 'pill demo';
+                $modePill.innerHTML = '<i class="fas fa-flask"></i> Demo Mode';
+                setStatus('demo-dot', 'Demo — no backend');
+            } else {
+                $modePill.className = 'pill';
+                $modePill.innerHTML = '<i class="fas fa-brain"></i> RAG + LLM';
+                setStatus('', 'Connected');
+            }
+        }
+
+        function md(raw) {
+            if (!raw) return '';
+            let s = esc(raw);
+            s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+            s = s.replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '<em>$1</em>');
+            s = s.replace(/`(.+?)`/g, '<code>$1</code>');
+            s = s.replace(/\n{2,}/g, '</p><p>');
+            s = s.replace(/\n/g, '<br>');
+            return '<p>' + s + '</p>';
+        }
+
+        /* ═══════════════════════════════════════════
+           Message DOM
+        ═══════════════════════════════════════════ */
+        function addMsg(type, html) {
+            const div = document.createElement('div');
+            div.className = `msg ${type}`;
+            const icon = type === 'user' ? 'fa-user' : 'fa-robot';
+            div.innerHTML = `
+                <div class="msg-avatar"><i class="fas ${icon}"></i></div>
+                <div class="msg-body"><div class="msg-bubble">${html}</div></div>`;
+            $messages.appendChild(div);
+            scrollDown();
+            return div;
+        }
+
+        function showTyping() {
+            const div = document.createElement('div');
+            div.className = 'msg bot';
+            div.id = '_typing';
+            div.innerHTML = `
+                <div class="msg-avatar"><i class="fas fa-robot"></i></div>
+                <div class="msg-body">
+                    <div class="msg-bubble">
+                        <div class="typing-indicator">
+                            <div class="typing-dots"><span></span><span></span><span></span></div>
+                            <span class="typing-text">Retrieving & reasoning...</span>
+                        </div>
+                    </div>
+                </div>`;
+            $messages.appendChild(div);
+            scrollDown();
+        }
+
+        function hideTyping() {
+            const el = document.getElementById('_typing');
+            if (el) el.remove();
+        }
+
+        /* ═══════════════════════════════════════════
+           Streaming & Finalization
+        ═══════════════════════════════════════════ */
+        function updateStream(text) {
+            if (!streamEl) {
+                hideTyping();
+                streamEl = addMsg('bot', '<div class="ans" id="_stream"></div>');
+            }
+            const target = document.getElementById('_stream');
+            if (target) {
+                target.innerHTML = md(text);
+                scrollDown();
+            }
+        }
+
+        function buildSourcesHTML(sources) {
+            if (!sources || !sources.length) return '';
+            let html = '<div class="src-section">';
+            html += `<div class="src-label"><i class="fas fa-layer-group"></i> Sources <span class="src-badge">${sources.length}</span></div>`;
+            html += '<div class="src-list">';
+
+            sources.forEach((s, i) => {
+                const raw = s.score != null ? s.score * 100 : null;
+                const pct = raw != null ? Math.round(raw) : null;
+                let cls = 'sc-md';
+                if (pct !== null) {
+                    if (pct >= 70) cls = 'sc-hi';
+                    else if (pct < 40) cls = 'sc-lo';
+                }
+
+                const title = esc(s.title || s.chunk_text || 'Untitled');
+                const short = title.length > 130 ? title.slice(0, 130) + '\u2026' : title;
+                const url = s.url || s.source || '';
+
+                html += '<div class="src-item">';
+                html += `<div class="src-idx">${i + 1}</div>`;
+                html += '<div class="src-detail">';
+                html += `<div class="src-name">${short}</div>`;
+                if (url) {
+                    const display = url.length > 65 ? url.slice(0, 65) + '\u2026' : url;
+                    html += `<a class="src-url" href="${esc(url)}" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> ${esc(display)}</a>`;
+                }
+                html += '</div>';
+                if (pct !== null) html += `<span class="src-score ${cls}">${pct}%</span>`;
+                html += '</div>';
+            });
+
+            html += '</div></div>';
+            return html;
+        }
+
+        function buildPdfsHTML(pdfs) {
+            if (!pdfs || !pdfs.length) return '';
+            let html = '<div class="pdf-section">';
+            html += '<div class="pdf-label"><i class="fas fa-file-pdf"></i> Related Documents</div>';
+            html += '<div class="pdf-chips">';
+            pdfs.forEach(p => {
+                const name = esc(p.name || p.filename || 'Document');
+                const url  = esc(p.url || p.path || '#');
+                html += `<a class="pdf-chip" href="${url}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> ${name}</a>`;
+            });
+            html += '</div></div>';
+            return html;
+        }
+
+        function finalizeStream(text, meta) {
+            let html = '';
+
+            if (!text || !text.trim()) {
+                html = '<div class="no-result"><i class="fas fa-search"></i> No relevant information found in the knowledge base. Try rephrasing your question or ask about specific topics.</div>';
+            } else {
+                html = `<div class="ans">${md(text)}</div>`;
+            }
+
+            html += buildSourcesHTML(meta && meta.sources);
+            html += buildPdfsHTML(meta && meta.pdf_links);
+
+            hideTyping();
+
+            if (streamEl) {
+                const bubble = streamEl.querySelector('.msg-bubble');
+                if (bubble) bubble.innerHTML = html;
+                streamEl = null;
+            } else {
+                addMsg('bot', html);
+            }
+
+            scrollDown();
+        }
+
+        /* ═══════════════════════════════════════════
+           Demo Mode — simulated streaming
+        ═══════════════════════════════════════════ */
+        async function submitDemo(query) {
+            const result = findDemoAnswer(query);
+
+            /* Simulate retrieval delay */
+            setStatus('loading', 'Retrieving...');
+            showTyping();
+            await sleep(800 + Math.random() * 600);
+
+            if (!result) {
+                hideTyping();
+                const banner = '<div class="demo-banner"><i class="fas fa-flask"></i><span><strong>Demo Mode</strong> — This question has no matching entry in the demo database. With a live backend, DeepRAG would search all university documents to find an answer.</span></div>';
+                addMsg('bot', banner + '<div class="no-result"><i class="fas fa-search"></i> No relevant information found for this query in the demo knowledge base. Try asking about CS courses, professors, tuition, library, or graduation requirements.</div>');
+                setStatus('demo-dot', 'Demo — no backend');
+                return;
+            }
+
+            setStatus('loading', 'Generating...');
+
+            /* Simulate token-by-token streaming */
+            const chars = result.answer.split('');
+            let accumulated = '';
+            const meta = {
+                sources: result.sources,
+                pdf_links: result.pdfs
+            };
+
+            for (let i = 0; i < chars.length; i++) {
+                accumulated += chars[i];
+                if (i % 3 === 0 || i === chars.length - 1) {
+                    updateStream(accumulated);
+                    await sleep(12 + Math.random() * 8);
+                }
+            }
+
+            finalizeStream(accumulated, meta);
+            setStatus('demo-dot', 'Demo — no backend');
+        }
+
+        function sleep(ms) {
+            return new Promise(r => setTimeout(r, ms));
+        }
+
+        /* ═══════════════════════════════════════════
+           Live Backend — real SSE streaming
+        ═══════════════════════════════════════════ */
+        async function submitLive(query) {
+            setStatus('loading', 'Retrieving...');
+            showTyping();
+
+            try {
+                const res = await fetch('/ask/stream', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question: query }),
+                    signal: abortCtrl.signal,
+                });
+
+                if (!res.ok) throw new Error(`HTTP_${res.status}`);
+
+                const reader = res.body.getReader();
+                const dec = new TextDecoder('utf-8');
+                let buf = '';
+                let answer = '';
+                let meta = null;
+
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+
+                    buf += dec.decode(value, { stream: true });
+                    const lines = buf.split('\n');
+                    buf = lines.pop();
+
+                    for (const ln of lines) {
+                        if (!ln.startsWith('data: ')) continue;
+                        const raw = ln.slice(6).trim();
+                        if (!raw) continue;
+
+                        try {
+                            const d = JSON.parse(raw);
+
+                            if (d.type === 'metadata') {
+                                meta = d;
+                                setStatus('loading', 'Generating...');
+                                continue;
+                            }
+                            if (d.type === 'text') {
+                                answer += d.content || '';
+                                updateStream(answer);
+                                continue;
+                            }
+                            if (d.type === 'done') {
+                                finalizeStream(answer, meta);
+                                continue;
+                            }
+                            if (d.type === 'error') {
+                                hideTyping();
+                                addMsg('bot', `<div class="err-block"><i class="fas fa-exclamation-triangle"></i><span>${esc(d.content || 'Unknown error')}</span></div>`);
+                                setStatus('error', 'Error');
+                                continue;
+                            }
+                        } catch (_) { /* skip */ }
+                    }
+                }
+
+                if (answer && !document.getElementById('_stream')) {
+                    finalizeStream(answer, meta);
+                }
+
+            } catch (err) {
+                hideTyping();
+                streamEl = null;
+
+                if (err.name === 'AbortError') return;
+
+                /* If backend fails, auto-switch to demo */
+                if (err.message.includes('Failed to fetch') || err.message.startsWith('HTTP_')) {
+                    setDemoMode(true);
+                    toast('Backend unreachable — switched to Demo Mode', 'fa-flask', 4000);
+                    /* Retry with demo */
+                    return submitDemo(query);
+                }
+
+                addMsg('bot', `<div class="err-block"><i class="fas fa-exclamation-triangle"></i><span>${esc(err.message)}</span></div>`);
+                setStatus('error', 'Error');
+            }
+        }
+
+        /* ═══════════════════════════════════════════
+           Submit dispatcher
+        ═══════════════════════════════════════════ */
+        async function submit() {
+            const q = $input.value.trim();
+            if (!q || busy) return;
+
+            busy = true;
+            $send.disabled = true;
+            $input.value = '';
+            $chars.textContent = '';
+            streamEl = null;
+
+            addMsg('user', esc(q));
+
+            if (abortCtrl) abortCtrl.abort();
+            abortCtrl = new AbortController();
+
+            try {
+                if (isDemo) {
+                    await submitDemo(q);
+                } else {
+                    await submitLive(q);
+                }
+            } finally {
+                busy = false;
+                $send.disabled = !$input.value.trim();
+                if (!isDemo) setStatus('', 'Ready');
+            }
+        }
+
+        /* ═══════════════════════════════════════════
+           Welcome
+        ═══════════════════════════════════════════ */
+        function showWelcome() {
+            const pool = [
+                { i: 'fa-book',              t: 'What courses are offered in the Computer Science department?' },
+                { i: 'fa-chalkboard-teacher', t: 'Who teaches the Machine Learning course?' },
+                { i: 'fa-calendar-check',     t: 'What is the academic calendar for Spring 2025?' },
+                { i: 'fa-clipboard-check',    t: 'What are the graduation requirements for engineering?' },
+                { i: 'fa-building-columns',   t: 'Where is the main library and what are its hours?' },
+                { i: 'fa-money-check-dollar',  t: 'What are the tuition fees for international students?' },
+                { i: 'fa-user-graduate',      t: 'How do I apply for student exchange programs?' },
+                { i: 'fa-laptop-code',        t: 'What labs are available for CS students?' },
+            ];
+
+            const pick = pool.sort(() => Math.random() - 0.5).slice(0, 4);
+
+            let demoNote = '';
+            if (isDemo) {
+                demoNote = '<div class="welcome-demo-note"><i class="fas fa-flask"></i> Running in Demo Mode — responses are simulated</div>';
+            }
+
+            let html = `<div class="welcome">
+                <div class="welcome-icon"><i class="fas fa-graduation-cap"></i></div>
+                <h2>University Knowledge Base</h2>
+                <p>Ask about courses, professors, schedules, policies, and more. Every answer is grounded in verified university documents with full source citations.</p>
+                ${demoNote}
+                <div class="suggest-grid">`;
+
+            pick.forEach(s => {
+                html += `<button class="sg" data-q="${esc(s.t)}"><i class="fas ${s.i}"></i>${esc(s.t)}</button>`;
+            });
+
+            html += '</div></div>';
+            $messages.innerHTML = html;
+
+            $messages.querySelectorAll('.sg').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    $input.value = btn.dataset.q;
+                    $send.disabled = false;
+                    submit();
+                });
+            });
+        }
+
+        /* ═══════════════════════════════════════════
+           Reset
+        ═══════════════════════════════════════════ */
+        function resetChat() {
+            if (busy && abortCtrl) abortCtrl.abort();
+            busy = false;
+            streamEl = null;
+            $messages.innerHTML = '';
+            $input.value = '';
+            $chars.textContent = '';
+            $send.disabled = true;
+            if (isDemo) setStatus('demo-dot', 'Demo — no backend');
+            else setStatus('', 'Ready');
+            showWelcome();
+            $input.focus();
+            toast('New conversation started', 'fa-check-circle', 2000);
+        }
+
+        /* ═══════════════════════════════════════════
+           Events
+        ═══════════════════════════════════════════ */
+        $input.addEventListener('input', () => {
+            const v = $input.value;
+            $send.disabled = !v.trim() || busy;
+            $chars.textContent = v.length ? `${v.length} chars` : '';
+        });
+
+        $input.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) {
+                e.preventDefault();
+                if (!busy && $input.value.trim()) submit();
+            }
+        });
+
+        $send.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (!busy && $input.value.trim()) submit();
+        });
+
+        $clear.addEventListener('click', resetChat);
+
+        document.querySelector('.input-wrap').addEventListener('click', (e) => {
+            if (!e.target.closest('button')) $input.focus();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key === '/') {
+                e.preventDefault();
+                $input.focus();
+            }
+        });
+
+        /* ═══════════════════════════════════════════
+           Health check — auto-fallback to demo
+        ═══════════════════════════════════════════ */
+        async function ping() {
+            try {
+                const r = await fetch('/health', { signal: AbortSignal.timeout(5000) });
+                if (r.ok) {
+                    setDemoMode(false);
+                    return;
+                }
+            } catch {
+                /* Backend not reachable */
+            }
+            /* Fallback to demo */
+            setDemoMode(true);
+            toast('No backend detected — running in Demo Mode', 'fa-flask', 4000);
+        }
+
+        /* ═══════════════════════════════════════════
+           Init
+        ═══════════════════════════════════════════ */
+        initTheme();
+        showWelcome();
+        $input.focus();
+        ping();
+
+    })();
+    </script>
+</body>
+</html>
