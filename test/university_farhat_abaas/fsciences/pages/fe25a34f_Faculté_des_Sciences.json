@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/291",
+      "title": "Faculté des Sciences",
+      "id": "fe25a34f",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:32:10",
+      "hash": "d71cc4fb267910c3",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "SEMCHEDINE Moussa\nSEMCHEDINE Moussa\nGrade:Maitre de conferences classe A\nGrade:Maitre de conferences classe A\nEmail:moussa.semchedine@univ-setif.dz\nEmail:moussa.semchedine@univ-setif.dz\nDépartement:Informatique\nBureau:19\nBureau:19\n\nProgrammation orientée Objet\nPolycopie de cours\nInitiation à l'algorithmique\nPolycopie de cours\nLangages évolués (C)\nPolycopie de cours\nChapitre 1: Structure Machine 1\nPolycopie de cours\nChapitre 2: Structure Machine 1\nPolycopie de cours\nChapitre 3: Structure Machine 1\nPolycopie de cours\nChapitre 4: Structure Machine 4\nPolycopie de cours"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "44",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/44",
+        "type": "internal"
+      },
+      {
+        "text": "45",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/45",
+        "type": "internal"
+      },
+      {
+        "text": "46",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/46",
+        "type": "internal"
+      },
+      {
+        "text": "489",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/489",
+        "type": "internal"
+      },
+      {
+        "text": "490",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/490",
+        "type": "internal"
+      },
+      {
+        "text": "535",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/535",
+        "type": "internal"
+      },
+      {
+        "text": "625",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/625",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/uploads/page_professionnelle/image/291/thumb_photosemchedine_2025.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/fe25a34f_table_1_untitled.json",
+        "rows": 7
+      }
+    ]
+  }
+}

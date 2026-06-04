@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S3-SVP.html",
+      "title": "Specification and Verification of Protocols",
+      "id": "c7575e2e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:54",
+      "hash": "91d72f16d139a634",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nSpecification and Verification of Protocols  |\nSemester:\n3  |\nType:\nUEM3\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLectures:\n1h30  |\nTD:\n-  |\nTP:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n2  |\nCredits:\n4\nTeaching Objectives\nKnow the importance of formal techniques in the development of communication protocols\nDescribe the use of such techniques in the lifecycle of communication protocols (Protocol Engineering)\nRecommended Prerequisites\nNotions of the software engineering lifecycle\nCourse Content (Lectures: 21h)\nIntroduction\nReview: communication protocol development lifecycle\nLimitations of protocol implementation testing\nFormal Modelling and Verification\nIntroduction to formal methods\nSystem specification and property specification\nSpecification languages: Automata, Petri Nets, Algebra\nVerification techniques: model-checking, verifiable properties, decidability problem\nCase studies: Alternating Bit Protocol, CSMA/CA, CSMA/CD\nDiagnosis of protocol implementations\nFormal Verification Tools\nQualitative vs quantitative verification and statistical model-checking\nVerification tools: Uppaal, SPIN, ProVerif\nAssessment\nExam: 60%\nContinuous assessment: 40%\nBibliographic References\nGregor v. Bochmann: Protocol Engineering: An Historical Perspective. Hartmut König: \"Protocol Engineering\", Springer, 2003.\nCarl. A. Sunschine: \"Formal Methods for communication protocol: specification and Verification\", The Rand Publication Series, 1979.\nCarl. A. Sunschine et al.: \"Specification and Verification of Communication Protocols in AFFIRM Using State Transition Models\", IEEE TRANSACTIONS ON SOFTWARE ENGINEERING, VOL. SE-8, NO. 5, pp: 460-489, SEPTEMBER 1982.\nS. Htite, R. Dssouli et A.R. Ghedamsi: \"Diagnostic Automatique avec l'outil MFDT\", Actes de CFIP'97, pp. 287-300, Editions Hermès, 1997."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

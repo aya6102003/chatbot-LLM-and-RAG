@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S3-SAM.html",
+      "title": "Atomic and Molecular Spectroscopy",
+      "id": "fc34f366",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:55",
+      "hash": "0563ba925a361f6d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n3  |\nUE :\nFondamentale (UEF 3)  |\nCrédits :\n4  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nLe cours vise à présenter quelques aspects fondamentaux de la physique des systèmes moléculaires polyatomiques : structures et propriétés, dynamique et évolution.\nConnaissances préalables recommandées\nL'étudiant est censé avoir suivi en licence une introduction à la physique atomique.\nContenu de la matière\nChapitre 1 : Introduction et définition de la spectroscopie\nEtude du spectre électromagnétique\nMatière et quantification\nReprésentation d'un spectre\nChapitre 2 : Spectre de l'atome d'Hydrogène (Rappels)\nEnergies des Orbitales atomiques et règles de sélection\nEtude du spectre de l'Hydrogène (sans couplage)\nStructure fine du spectre de l'Hydrogène (couplage Spin-Orbite)\nChapitre 3 : Spectre des atomes à plusieurs électrons\nRègles de remplissage des électrons dans les niveaux électroniques\nStructure électronique des atomes\nTermes atomiques et spectres des alcalins (Li et Na)\nSpectre de l'atome d'Hélium\nChapitre 4 : Rotation des molécules diatomiques\nUtilisation du modèle du Rotateur Rigide\nRègles de sélections et spectre théorétique de rotation\nEtude du spectre expérimental de rotation\nIntroduction du modèle du Rotateur non Rigide\nChapitre 5 : Vibration des molécules diatomiques\nRésultat de l'oscillateur harmonique\nEtude des Polynômes d'Hermite\nRègles de sélections pour ce modèle\nEtude du spectre de vibration\nEtude des harmoniques et population des niveaux\nChapitre 6 : Spectre de Rotation-Vibration des molécules diatomiques\nUtilisation du rotateur rigide et de l'oscillateur harmonique\nEtude théorique et expérimentale de la bande fondamentale de vibration\nIntensité des raies par la statistique de Boltzmann\nChapitre 7 : Introduction à la spectroscopie Raman\nPrincipe de la spectroscopie Raman\nMolécules apolaires et polarisabilité\nEtude Raman de la rotation pure, vibration pure, et Rotation-Vibration de la molécule A-A\nChapitre 8 : Spectroscopie RMN et RPE\nPrincipe de la spectroscopie de résonance\nConstantes d'écran et déplacement chimique\nCouplage Spin-Spin\nEtude du spectre RMN de molécules simples"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

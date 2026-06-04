@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S3-AOSE.html",
+      "title": "Analyse et optimisation des systèmes énergétiques",
+      "id": "ce7fac30",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:08",
+      "hash": "0eff108d59d17763",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Analyse et optimisation des systèmes énergétiques\nSemestre 3 – UE Méthodologie\nMode d'évaluation :\nContinu 50% / 50%\nObjectifs de l’enseignement :\nCe module vise à former les étudiants à analyser, modéliser et optimiser les systèmes énergétiques\n(renouvelables, hybrides, thermiques) en intégrant les aspects techniques, économiques et environnementaux\n. À travers des outils logiciels (HOMER, MATLAB), des algorithmes d’optimisation (IA, programmation linéaire)\net des études de cas, les apprenants seront capables de concevoir des solutions énergétiques durables et\nefficientes, en adéquation avec les enjeux de la transition énergétique\nConnaissances préalables recommandées :\nBases en énergies renouvelables (solaire, éolien, stockage)\nNotions fondamentales en thermodynamique et transfert d’énergie\nFamiliarité avec les outils numériques scientifiques (MATLAB, Python, Excel avancé)\nContenu de la matière\n1. Introduction à l’analyse des systèmes énergétiques (1 semaine)\nDéfinition d’un système énergétique (composants, flux énergétiques) - Objectifs de l’analyse : performance, efficacité, durabilité. - Indicateurs clés : rendement, TCO (Total Cost of Ownership), empreinte carbone.\n2. Thermodynamique appliquée aux systèmes énergétiques (2 semaine)\nPremier et deuxième principes : bilan énergétique, entropie, exergie. - Analyse des cycles thermodynamiques (Rankine, Brayton, Otto). - Rendement et pertes dans les systèmes énergétiques (ex. centrales électriques).\n3. Énergies renouvelables et systèmes hybrides (1 semaine)\nTechnologies solaires (photovoltaïque, thermique), éoliennes, géothermie. - Systèmes hybrides : couplage solaire/éolien + stockage. - Étude de cas : intégration des renouvelables dans un réseau électrique.\n4. Systèmes thermiques et transferts d’énergie (1 semaine)\nTransferts thermiques : conduction, convection, rayonnement. - Optimisation des échangeurs de chaleur et des réseaux de distribution. - Application : cogénération (CHP), systèmes de chauffage urbain.\n5. Technologies de stockage d’énergie (1 semaine)\nTypes de stockage : batterie (Li-ion, Na-ion), pompage-turbinage, hydrogène. - Modélisation du cycle de charge/décharge et efficacité énergétique. - Étude de cas : intégration du stockage dans un microgrid.\n6. Modélisation des systèmes énergétiques (2 semaine)\nOutils logiciels : MATLAB/Simulink, HOMER, TRNSYS. - Création de modèles dynamiques (production, consommation, stockage). - Simulation d’un système énergétique (résidentiel ou industriel).\n7. Optimisation linéaire et non linéaire (2 semaine)\nMéthodes classiques : programmation linéaire (LP), programmation quadratique (QP). - Optimisation sous contraintes : gestion des pics de demande. - Exercice pratique : optimiser un mix énergétique avec Excel Solver.\n8. Études de cas – Systèmes solaires et éoliens- Réseaux intelligents (Smart Grids) (2 semaines)\n9. Analyse économique et environnementale (1 semaine)\nAnalyse coût-bénéfice et seuil de rentabilité (LCOE, ROI). - Analyse du cycle de vie (ACV) et impact carbone. - Étude de cas : Comparaison économique des énergies fossiles vs. renouvelables.\n10. Réglementation et politiques énergétiques (1 semaine)\nCadres réglementaires (ex. RE2020, directives européennes). - Mécanismes de financement (subventions, certificats verts). - Impact des politiques sur la transition énergétique.\n11. Innovations et tendances futures (1 semaine)\nÉmergence de l’hydrogène vert, matériaux à changement de phase (PCM).\nIA et jumeaux numériques pour la gestion énergétique.\nDéfis : intermittence, recyclage des batteries, sécurité énergétique.\nRéférences :\n[1] Energy Systems Engineering; Auteur(s) : Vanek, F.M., Albright, L.D. ; McGraw-Hill Education 2021\n[2] Optimization of Energy Systems; Auteur(s) : Kanoglu, M., Dincer, I., Rosen, M.A. Éd : Wiley 2022"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

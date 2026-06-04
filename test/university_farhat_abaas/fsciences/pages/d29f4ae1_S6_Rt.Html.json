@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ET_IMAGERIE_MEDICALE/S6-RT.html",
+      "title": "S6 Rt.Html",
+      "id": "d29f4ae1",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:20",
+      "hash": "2a5dace0729ecb62",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Intitulé de l'UE :\nFondamentale\nIntitulé de la matière :\nRadiologie et Tomodensitométrie\nCrédits :\n6\nCoefficient :\n3\nObjectifs de l'enseignement :\nMaîtrise des principes physiques de production d'image en radiologie et ceux relatives aux différentes parties nécessaires à la génération et à la détection des rayons X.\nFormation sur les outils nécessaires pour le contrôle qualité des machines radiologiques à rayons X et gamma.\nMaîtrise des principes physiques de la tomographie tomodensitométrique (TDM) ainsi que le principe de fonctionnement d'un scanner TDM.\nFormation sur les outils nécessaires pour le contrôle qualité autour des scanners TDM.\nConnaissances préalables recommandées :\nPhysique atomique\nInteractions rayonnement/matière\nNotions de bases en mathématique (Transformée de Fourier, Convolution, Calcul matriciel…)\nContenu de la matière :\nRadiologie X\nPrincipes physiques de base de la radiologie X\nAcquisition d'image en radiologie X\nMachine de Radiologie X\nContrôle qualité en radiologie X\nTomographie X\nPrincipe physique de la tomographie tomodensitométrique (TDM)\nReconstruction d'image en tomographie TDM\nCritère de choix des scanners\nContrôle qualité des scanners CT\nOrganisation d'un service de radiologie et de scannographie TDM\nOrganisation d'un service de radiologie\nOrganisation d'un service de scannographie TDM\nAspects médico-économiques\nProduits de contraste en imagerie médicale à rayons X\nProduits de contraste en radiologie X\nProduit de contraste en TDM\nMode d'évaluation :\nExamen (2/3) et TP (1/3)\nRéférences bibliographiques :\nJerrold T. Bushberg,\nThe Essential Physics of Medical Imaging\n, 2nd ed, Lippincott Williams & Wilkins, 2001. ISBN: 0-683-30118-7\nChristophe CHELLE,\nGuide de radiologie pour l'étudiant\n, Editoo. ISBN: 9780982001660\nConstance de Margerie-Mellon,\nImagerie médicale pratique\n, Estem, 2011.\nFANET Hervé,\nImagerie médicale à base de photons\n, Hermes, 2010.\nA. C. Kak and Malcolm Slaney,\nPrinciples of Computerized Tomographic Imaging\n, IEEE Press, 1988.\nA. C. Kak and Malcolm Slaney,\nPrinciples of Computerized Tomographic Imaging\n, Society of Industrial and Applied Mathematics, 2001.\nJ. Darcourt, « Méthodes itératives de reconstruction ».\nRevue de l'ACOMEN\n, vol.4 N°2, 1998.\nJ. Aylor, « Principles of computerized tomography imaging ». IEEE press, 1987.\nBruno Kastler, Daniel Vetter,\nComprendre l'IRM\n, Elsevier Masson, 2011."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

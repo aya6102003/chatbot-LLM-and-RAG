@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S2-MQA2.html",
+      "title": "Mécanique Quantique Approfondie 2",
+      "id": "b38d51e4",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:51",
+      "hash": "dca3af23bd124b7e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Mécanique Quantique Approfondie 2\nSemestre 2 – UE Fondamentale\nPrérequis\nEnseignements de physique quantique et de mécanique quantique dispensés en licence de physique fondamentale\nUnité – Mécanique Quantique Approfondie 1\nObjectifs de l'enseignement\nCet enseignement approfondit les méthodes et concepts avancés de la mécanique quantique. Il introduit les techniques d'approximation essentielles, le traitement des particules identiques et les bases de la seconde quantification, préparant ainsi les étudiants à l'étude de la physique quantique des systèmes à plusieurs corps.\nProgramme détaillé\nChapitre 1 : Méthodes d'approximation approfondies\nMéthode variationnelle pour les états liés\nMéthode de Born-Kramers-Wentzel (BKW)\nThéorie des perturbations stationnaires (cas non dégénéré et dégénéré)\nPerturbations dépendant du temps\nChapitre 2 : Théorie de la diffusion par un potentiel central\nSection efficace de diffusion – Amplitude de diffusion\nDécomposition en ondes partielles – Applications\nThéorie générale de la diffusion – Approximation de Born\nChapitre 3 : Particules identiques\nOpérateurs de permutation\nPrincipe de symétrisation – Fermions et bosons\nNotion de spin isotopique\nChapitre 4 : Seconde quantification\nA – Systèmes de fermions en interaction\nOpérateurs de création et d'annihilation\nOpérateurs à un corps et à deux corps\nThéorème de Wick appliqué aux fermions\nB – Systèmes de bosons en interaction\nOpérateurs de création et d'annihilation\nOpérateur nombre de particules\nMode d'évaluation\nContrôle continu : 33 %\nExamen : 67 %\nRéférences bibliographiques\nA. Messiah, Mécanique quantique, Tomes 1 & 2, Dunod, 1995.\nN. Zettili, Quantum Mechanics: Concepts and Applications, 2ᵉ éd., Wiley, 2009.\nC. Cohen-Tannoudji, B. Diu, F. Laloë, Mécanique quantique, Tomes 1 & 2, Hermann, 1973.\nMichel Le Bellac, Physique quantique, EDP Sciences, Paris, 2007.\nD.J. Griffiths, D.F. Schroeter, Introduction to Quantum Mechanics, 3ᵉ éd., Cambridge University Press, 2018.\nJ.J. Sakurai, J. Napolitano, Modern Quantum Mechanics, 3ᵉ éd., Cambridge University Press, 2020."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

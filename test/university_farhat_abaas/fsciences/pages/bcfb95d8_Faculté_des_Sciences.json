@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/7653",
+      "title": "Faculté des Sciences",
+      "id": "bcfb95d8",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:41:52",
+      "hash": "00bb27957b2d3a6d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nPARCOURS PÉDAGOGIQUES"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "parcours p%C3%A9dagogiques",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/5592/parcours_p%C3%A9dagogiques.pdf",
+        "local_file": "pdfs/bcfb95d8_parcours_p%C3%A9dagogiques.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

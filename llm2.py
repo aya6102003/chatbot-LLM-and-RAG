@@ -699,194 +699,312 @@ class LLMAnswerEngine:
                 intent="no_context",
                 confidence="low",
                 raw_chunks_used=0,
-            )
+            )#!/usr/bin/env python3
+"""
+LLM Generation Layer — Farhat Abbas University Sétif 1
+======================================================
+Production-ready answer generation using the RAG retrieval pipeline (rag.py)
+and Ollama for multilingual, context-grounded responses.
 
-        # ── Step 4: Route to document or text answer ──────────
-        is_document, doc_links = detect_document_answer(chunks)
+Features:
+- Query pre-processing (clean noise, clarify intent) without semantic drift
+- Language detection (FR/AR/EN) and consistent response language
+- Retrieval call integration via rag.retrieve_for_llm
+- Intelligent context handling (text, files, mixed)
+- Strict grounding in retrieved data; no hallucination
+- Translation of context into query language when needed
+- Ollama configuration (temperature, model selection)
+"""
 
-        if is_document:
-            answer_text = build_document_answer(clean_query, chunks, doc_links, lang)
-            return LLMResult(
-                answer=answer_text,
-                language=lang,
-                intent="document_lookup",
-                sources=chunks,
-                has_document=True,
-                document_links=doc_links,
-                confidence="high",
-                raw_chunks_used=len(chunks),
-            )
+import json
+import logging
+import re
+import sys
+from typing import Any, Dict, List, Optional
 
-        # ── Step 5: Build prompt for text answer ──────────────
-        context_to_use = llm_context if llm_context else _build_fallback_context(chunks)
-        prompt = self._prompt_builder.build(
-            query=clean_query,
-            context=context_to_use,
-            lang=lang,
-        )
+import requests
 
-        # ── Step 6: Generate with Ollama ──────────────────────
-        if not self._ollama.is_available():
-            log.error("Ollama is not available")
-            return LLMResult(
-                answer=self._post_processor.standardize_no_answer(lang),
-                language=lang,
-                intent="llm_unavailable",
-                sources=chunks,
-                confidence="low",
-                raw_chunks_used=len(chunks),
-            )
+# ─── Import RAG pipeline components ───────────────────────────
+try:
+    from rag import retrieve_for_llm, QueryUnderstanding
+except ImportError:
+    logging.error("Cannot import from rag.py – ensure it is in the same directory.")
+    sys.exit(1)
 
-        try:
-            raw_answer = self._ollama.generate(
-                system=prompt["system"],
-                user=prompt["user"],
-            )
-        except Exception as exc:
-            log.error("LLM generation failed: %s", exc)
-            return LLMResult(
-                answer=self._post_processor.standardize_no_answer(lang),
-                language=lang,
-                intent="generation_error",
-                sources=chunks,
-                confidence="low",
-                raw_chunks_used=len(chunks),
-            )
+# ─────────────────────────────────────────────────────────────
+# LOGGING
+# ─────────────────────────────────────────────────────────────
+logging.basicConfig(level=logging.INFO,
+                    format="%(asctime)s [%(levelname)s] %(message)s")
+log = logging.getLogger(__name__)
 
-        # ── Step 7: Post-process & validate ───────────────────
-        validated_answer, is_valid = self._post_processor.validate(
-            raw_answer, lang, has_context=True,
-        )
+# ─────────────────────────────────────────────────────────────
+# CONFIG
+# ─────────────────────────────────────────────────────────────
+OLLAMA_URL   = "http://localhost:11434"
+OLLAMA_MODEL = "llama3.1:8b"          # Strong multilingual model
+TEMPERATURE  = 0.3                    # Factual accuracy
+MAX_TOKENS   = 1024
 
-        extracted_links = self._post_processor.extract_links(validated_answer)
+# ─────────────────────────────────────────────────────────────
+# QUERY PREPROCESSING (no semantic drift)
+# ─────────────────────────────────────────────────────────────
 
-        confidence = "high" if is_valid else "low"
-        # Boost confidence if rerank_cal is high on top chunk
-        if chunks and chunks[0].get("rerank_cal", 0) > 0.7:
-            confidence = "high"
+def preprocess_query(raw: str) -> str:
+    """
+    Clean and lightly normalise the user query for optimal retrieval.
+    Preserves meaning exactly – no expansion or reformulation.
+    """
+    # Remove excessive whitespace
+    q = " ".join(raw.strip().split())
 
-        return LLMResult(
-            answer=validated_answer,
-            language=lang,
-            intent="text_answer",
-            sources=chunks,
-            has_document=bool(extracted_links),
-            document_links=extracted_links,
-            confidence=confidence,
-            raw_chunks_used=len(chunks),
-        )
+    # Normalise some common French contractions (optional)
+    # e.g., "c'est" → "c est" (keep words intact for BM25)
+    q = re.sub(r"(?i)\b(c')", r"c ", q)
+
+    # Remove trailing punctuation that may confuse intent
+    q = q.rstrip(".?!,;: ")
+
+    # Keep the original if too short after cleaning
+    return q if q else raw.strip()
 
 
-def _build_fallback_context(chunks: List[Dict]) -> str:
-    """Build a simple context string when llm_context is not available."""
-    parts = []
-    for i, chunk in enumerate(chunks, 1):
-        title = chunk.get("title", "Unknown")
-        text = chunk.get("text", "")
-        parts.append(f"[{i}] {title}\n{text.strip()}")
-    return "\n\n".join(parts)
+# ─────────────────────────────────────────────────────────────
+# LANGUAGE DETECTION (reusing rag.py logic)
+# ─────────────────────────────────────────────────────────────
+
+def detect_query_language(text: str) -> str:
+    """
+    Lightweight wrapper using the existing QueryUnderstanding class.
+    Returns 'ar', 'fr', or 'en'.
+    """
+    qa = QueryUnderstanding()
+    return qa.detect_language(text)
 
 
-# ══════════════════════════════════════════════════════════════
-# PUBLIC API
-# ══════════════════════════════════════════════════════════════
+# ─────────────────────────────────────────────────────────────
+# FILE / LINK DETECTION HELPER
+# ─────────────────────────────────────────────────────────────
 
-_engine: Optional[LLMAnswerEngine] = None
+def _extract_sources(chunks: List[Dict]) -> List[Dict[str, str]]:
+    """Collect unique URLs / PDF links from the retrieved chunks."""
+    seen = set()
+    sources = []
+    for chunk in chunks:
+        url = chunk.get("pdf_url") or chunk.get("url")
+        if url and url not in seen:
+            seen.add(url)
+            sources.append({
+                "title": chunk.get("title", "Document"),
+                "url": url
+            })
+    return sources
 
 
-def _get_engine() -> LLMAnswerEngine:
-    global _engine
-    if _engine is None:
-        _engine = LLMAnswerEngine()
-    return _engine
+# ─────────────────────────────────────────────────────────────
+# PROMPT CONSTRUCTION
+# ─────────────────────────────────────────────────────────────
 
+_SYSTEM_PROMPT = """You are an AI assistant for a university knowledge base.
+Your task is to answer the user's question using ONLY the context provided below.
+Follow these rules strictly:
+
+1. **Language**: Reply in the SAME language as the user's question ({detected_language}).
+2. **Grounded**: Use ONLY the context. If the context is insufficient, say:
+   "No reliable information found in the available data."
+3. **Files / Links**: If the context clearly indicates the answer is a document
+   (e.g., a PDF, form, or official file), provide the direct link (URL) with a
+   short sentence like: "You can access the document here: <link>".
+   Do NOT add extra explanation.
+4. **Mixed answer**: If both text and a link are relevant, give a brief explanation
+   AND include the link at the end.
+5. **Translation**: If the context is in a different language, translate ONLY the
+   necessary information into the response language. Never alter the meaning.
+6. **No invention**: Never add information, names, dates, or links that are not
+   present in the context.
+"""
+
+
+def build_prompt(query: str, context: str, language: str) -> str:
+    """Create the full chat prompt for Ollama."""
+    system = _SYSTEM_PROMPT.format(detected_language=language.upper())
+
+    # If no context, we still provide the instruction, but the context block is empty.
+    context_block = context if context else "No relevant context available."
+
+    user_message = f"""Context:
+{context_block}
+
+User question: {query}
+
+Answer:"""
+
+    return system, user_message
+
+
+# ─────────────────────────────────────────────────────────────
+# OLLAMA API CALL
+# ─────────────────────────────────────────────────────────────
+
+def call_ollama(system: str, user: str,
+                model: str = OLLAMA_MODEL,
+                temperature: float = TEMPERATURE) -> str:
+    """Send a chat completion request to Ollama and return the answer."""
+    payload = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": system},
+            {"role": "user", "content": user}
+        ],
+        "stream": False,
+        "options": {
+            "temperature": temperature,
+            "num_predict": MAX_TOKENS,
+        }
+    }
+    try:
+        resp = requests.post(f"{OLLAMA_URL}/api/chat", json=payload, timeout=60)
+        resp.raise_for_status()
+        data = resp.json()
+        answer = data.get("message", {}).get("content", "")
+        return answer.strip()
+    except Exception as e:
+        log.error("Ollama call failed: %s", e)
+        return ""
+
+# ─────────────────────────────────────────────────────────────
+# ANSWER POST-PROCESSING
+# ─────────────────────────────────────────────────────────────
+
+def postprocess_answer(raw_answer: str, sources: List[Dict]) -> str:
+    """
+    Ensure the answer is complete, add links if the LLM omitted them,
+    and handle the fallback message.
+    """
+    answer = raw_answer.strip()
+
+    # If the answer indicates no info, keep it as is.
+    if "no reliable information found" in answer.lower():
+        return answer
+
+    # If we have source links and the answer doesn't contain them,
+    # append the first link as a convenience.
+    if sources:
+        link = sources[0]["url"]
+        # Avoid duplication: check if link already appears in the answer.
+        if link not in answer:
+            answer += f"\n\nRelevant document: {link}"
+
+    return answer
+
+
+# ─────────────────────────────────────────────────────────────
+# MAIN ASK FUNCTION
+# ─────────────────────────────────────────────────────────────
 
 def ask(
     query: str,
-    top_k: int = 8,
     faculty: Optional[str] = None,
     department: Optional[str] = None,
-) -> Dict:
+    top_k: int = 8
+) -> Dict[str, Any]:
     """
-    Primary public API for getting an LLM-generated answer.
+    Process a user query through the RAG pipeline and generate an answer.
 
-    Returns a dict with:
-        answer:          str  — the generated answer
-        language:        str  — detected query language
-        confidence:      str  — low | medium | high
-        has_document:    bool — whether answer references a document
-        document_links:  List[str] — extracted URLs
-        sources_count:   int  — number of chunks used
-        sources:         List[Dict] — raw chunk data (optional, for debugging)
+    Returns a dict with keys:
+        - "answer" (str): The final generated answer.
+        - "language" (str): Detected query language.
+        - "sources" (list): List of source dicts (title, url).
+        - "chunks" (list): The raw retrieved chunks (for debugging).
+        - "no_answer" (bool): True if no reliable answer was possible.
     """
-    result = _get_engine().answer(
-        query=query,
+
+    # Preprocess query
+    clean_query = preprocess_query(query)
+
+    # Detect language
+    lang = detect_query_language(clean_query)
+    log.info("Detected language: %s", lang)
+
+    # Retrieve relevant chunks
+    chunks = retrieve_for_llm(
+        query=clean_query,
         top_k=top_k,
         faculty=faculty,
-        department=department,
+        department=department
     )
 
+    # Extract sources
+    sources = _extract_sources(chunks)
+
+    # Build context string from the first chunk's llm_context (if available)
+    context = ""
+    if chunks and chunks[0].get("llm_context"):
+        context = chunks[0]["llm_context"]
+
+    # Fallback: if no llm_context, construct a simple context from chunk texts
+    if not context and chunks:
+        ctx_parts = []
+        for i, c in enumerate(chunks[:5], 1):
+            title = c.get("title", "?")
+            text = c.get("text", "")[:300]
+            ctx_parts.append(f"[{i}] {title}: {text}")
+        context = "\n".join(ctx_parts)
+
+    # Build prompt
+    system, user_msg = build_prompt(clean_query, context, lang)
+
+    # Call LLM
+    raw_answer = call_ollama(system, user_msg)
+
+    # Post-process
+    if not context or not chunks:
+        # Force fallback message if retrieval failed completely
+        final_answer = "No reliable information found in the available data."
+        no_answer = True
+    else:
+        final_answer = postprocess_answer(raw_answer, sources)
+        no_answer = ("no reliable information" in final_answer.lower())
+
     return {
-        "answer": result.answer,
-        "language": result.language,
-        "confidence": result.confidence,
-        "has_document": result.has_document,
-        "document_links": result.document_links,
-        "sources_count": result.raw_chunks_used,
-        "sources": result.sources,
+        "answer": final_answer,
+        "language": lang,
+        "sources": sources,
+        "chunks": chunks,
+        "no_answer": no_answer
     }
 
 
-def ask_simple(query: str) -> str:
-    """
-    Simplified API that returns just the answer string.
-    """
-    return ask(query).get("answer", "")
-
-
-# ══════════════════════════════════════════════════════════════
-# CLI
-# ══════════════════════════════════════════════════════════════
+# ─────────────────────────────────────────────────────────────
+# CLI (for testing)
+# ─────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print('Usage: python llm.py "your question here" '
-              '[--faculty FAC] [--department DEPT] [--top-k N] [--debug]')
+        print('Usage: python llm.py "your question" [--faculty FAC] [--department DEPT]')
         sys.exit(1)
 
     query = sys.argv[1]
     faculty = None
     department = None
-    top_k = 8
-
     i = 2
     while i < len(sys.argv):
-        arg = sys.argv[i]
-        if arg == "--faculty" and i + 1 < len(sys.argv):
-            faculty = sys.argv[i + 1]
-            i += 2
-        elif arg == "--department" and i + 1 < len(sys.argv):
-            department = sys.argv[i + 1]
-            i += 2
-        elif arg == "--top-k" and i + 1 < len(sys.argv):
-            top_k = int(sys.argv[i + 1])
-            i += 2
-        elif arg == "--debug":
-            logging.getLogger().setLevel(logging.DEBUG)
-            i += 1
+        if sys.argv[i] == "--faculty" and i+1 < len(sys.argv):
+            faculty = sys.argv[i+1]; i += 2
+        elif sys.argv[i] == "--department" and i+1 < len(sys.argv):
+            department = sys.argv[i+1]; i += 2
         else:
             i += 1
 
-    result = ask(query, top_k=top_k, faculty=faculty, department=department)
+    result = ask(query, faculty=faculty, department=department)
 
     print("\n" + "=" * 64)
-    print(f"QUERY      : {query}")
-    print(f"LANGUAGE   : {result['language']}")
-    print(f"CONFIDENCE : {result['confidence']}")
-    print(f"SOURCES    : {result['sources_count']}")
-    if result['has_document']:
-        print(f"DOCUMENTS  : {', '.join(result['document_links'])}")
-    print("=" * 64)
-    print("\nANSWER:\n")
+    print(f"QUERY: {query}")
+    print(f"DETECTED LANGUAGE: {result['language']}")
+    print(f"ANSWER:")
     print(result["answer"])
-    print("\n" + "=" * 64)
+    if result["sources"]:
+        print("\nSOURCES:")
+        for src in result["sources"]:
+            print(f" - {src['title']}: {src['url']}")
+    print("=" * 64)

@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/487",
+      "title": "Faculté des Sciences",
+      "id": "c7576669",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:48:16",
+      "hash": "326f66ed5b40cc41",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "MEDKOUR Youcef\nMEDKOUR Youcef\nGrade:Maitre de conferences classe A\nGrade:Maitre de conferences classe A\nEmail:you_med2000@univ-setif.dz\nEmail:you_med2000@univ-setif.dz\nDépartement:Physique\nBureau:\nBureau:\n\nPHYSIQUE1\nPolycopie de cours\nJournaux (11)\nFirst principle study of structural, elastic and electronic properties of APt3 (A=Mg, Sc, Y and Zr)\nA. Benamer, A. Roumili, Y. Medkour & Z. Charifi\nPhilosophical Magazine, 98 (2018), pp 408\nContribution to the study of structural and elastic properties of wüstite under pressure up to 140 GPa by pseudopotential calculations\nSalah Tlili, Layachi Louail, Abdellah Bouguera, Khelifa Haddadi & Youcef Medkour\nPHASE TRANSITIONS, 90 (2017), pp 1229\nFirst-principles study of the structural, electronic, and magnetic properties of InCCo3 and InNCo3\nY. Medkour, A. Roumili, D. Maouche, M. Maamache\nSolid State Communications , 151 (2011), pp 1916\nFirst principles study of structural, elastic and electronic properties of ACY3 (A= Al, In and Tl)\nY. Medkour, A. Roumili, D. Maouche, M. Reffas and A. Saoudi\nComputational Materials Science, 47 (2010), pp 973\nElectronic properties and pressure effect on the structural behaviour of M2AC (M=V, Nb and A= P, As)\nY. Medkour, A. Roumili, M. Boudissa, D. Maouche, L. Louail and A. Gamoura\nComputational Materials Science , 48 (2010), pp 174\nElastic and electronic properties of Hf2SnC and Hf2SnN\nRoumili, Y. Medkour, D. Maouche\nInternational Journal of Modern Physics B., 23 (2009), pp 18\nAb-initio study of structural, electronic, and elastic properties of M2SbP (M= Ti, Zr, and Hf)\nY. Medkour, A. Roumili, D. Maouche, L. Louail, and K. Haddadi\nEuropean Physical Journal-B-, 68 (2009), pp 193\nStructural, elastic and electronic properties of ACTi3 (A= Al, In, and Tl) antiperovskite\nY. Medkour, A. Roumili, M. Boudissa, D. Maouche\nSolid State Communications, 149 (2009), pp 919\nA first-principles study on the structural, elastic and electronic properties of AlCSc3 and AlNSc3\nY. Medkour, A. Roumili, D. Maouche, A. Saoudi\nSolid State Communications, 149 (2009), pp 1840\nStructural and electronic properties of M2InC (M= Ti, Zr, and Hf)\nY. Medkour, A. Bouhemadou, A. Roumili\nSolid State Communications, 148 (2008), pp 459\nPressure effect on the structural and elastic properties of ternary compounds M2AlC (M=Ti, V, Nb, and Ta); ab-initio study\nY. Medkour, A. Roumili, D. Maouche\nEuropean Physical Journal - Applied Physics , 44 (2008), pp 125"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "803",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/803",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/c7576669_table_1_untitled.json",
+        "rows": 1
+      }
+    ]
+  }
+}

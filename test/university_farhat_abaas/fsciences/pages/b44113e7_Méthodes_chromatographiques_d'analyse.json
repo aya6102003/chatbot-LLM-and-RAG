@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_DE_L_EAU/S1-MCA.html",
+      "title": "Méthodes chromatographiques d'analyse",
+      "id": "b44113e7",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:25",
+      "hash": "c83b3ec0ad5a8c6f",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Méthodes chromatographiques d'analyse\nSemestre :\n1\nUE :\nMéthodologie\nCrédits :\n4\nCoefficient :\n2\nObjectifs de l'enseignement\nAcquisition des connaissances sur la chromatographie et les différentes techniques de séparation chromatographiques.\nConnaissances préalables recommandées\nNotions de base sur les phénomènes de surface, le transfert de matière, la chimie générale et la chimie organique.\nContenu de la matière\nChapitre I. Généralités et Analyse qualitative et quantitative en Chromatographie (3 h)\nGénéralités : principe, aspect thermodynamique, grandeurs de rétention et de séparation, efficacité des colonnes\nMéthodes d'analyse qualitative et de caractérisation des phases stationnaires (comparaison des temps de rétention et des indices de rétention, indice de Kovats, couplage aux appareils spectroscopiques, constante de Mc Reynold)\nMéthodes d'analyse quantitatives : principe (relation quantité ou concentration d'analyte – aire du pic), méthode de l'étalonnage externe, méthode des ajouts dosés, méthode de l'étalonnage interne, méthode de normalisation des aires\nChapitre II. Chromatographie planaire : sur couche mince et sur papier (2 h)\nPrincipe et applications de la chromatographie planaire\nNature des phases stationnaire et mobile\nProcédure d'analyse\nParamètres de séparation (rapport frontal, facteur de rétention, facteur de résolution, facteur de sélectivité, efficacité)\nChromatographie sur couche mince bidimensionnelle\nChapitre III. Chromatographie en phase gazeuse (CPG) (3 h)\nPrincipe et applications de la CPG\nTypes de chromatographie gazeuse\nFacteurs affectant la séparation par CPG (température, débit de gaz vecteur, longueur de la colonne, nature de la phase stationnaire)\nAppareillage de la CPG (gaz vecteur, chambre d'injection, colonne et les constituants d'une colonne, les détecteurs en CPG)\nChapitre IV. Chromatographie liquide classique (1 h)\nPrincipe\nProcédures de mise en œuvre de la CPL classique\nApplications et inconvénients\nChapitre V. Chromatographie liquide à haute performance (HPLC) (3 h)\nPrincipe et applications\nAppareillage de la HPLC\nLes phases stationnaires et mobiles utilisées en chromatographie liquide d'adsorption et en chromatographie liquide de partage, aperçu sur les phases utilisées dans les autres techniques de chromatographie liquide\nChapitre VI. Chromatographie d'exclusion stérique (CES) (2 h)\nPrincipe et applications de la CES\nTypes de chromatographies d'exclusion\nThéorie de la chromatographie d'exclusion\nAppareillage spécifique de la CES\nLes phases stationnaires et mobiles de la CES\nChapitre VII. Chromatographie ionique (2 h)\nPrincipe et applications\nAppareillage\nLes phases stationnaires et mobiles\nMécanisme de séparation en chromatographie ionique\nChapitre VIII. Chromatographie en phase supercritique (2 h)\nPrincipe et applications\nLes fluides supercritiques\nAppareillage\nLes phases stationnaires et mobiles\nChapitre IX. Autres techniques chromatographiques (3 h)\nPrincipe et applications, phases stationnaire et mobile des techniques de :\nChromatographie d'affinité\nChromatographie chirale\nElectrochromatographie capillaire\nTravaux pratiques\nDes travaux pratiques utilisant les diverses techniques chromatographiques :\nChromatographie sur couche mince CCM\nChromatographie sur colonne\nChromatographie en phase gazeuse CPG\nChromatographie liquide à haute performance HPLC\nMode d'évaluation\nContrôle continu : 50%\nExamen : 50%\nRéférences bibliographiques\nDouglas A. Skoog, Donald M. West et F. James Holler, « Chimie analytique », Edition de boeck, Bruxelles, Belgique, (1997)\nFrancis Rouessac, Annick Rouessac et Daniel Cruché, « Analyse Chimique / Méthodes et Techniques instrumentales modernes », 6ème édition, DUNOD, Paris, France, (2004)\nFrancis Rouessac et Annick Rouessac, « Analyse Chimique / Méthodes et Techniques instrumentales modernes », 7ème édition, DUNOD, Paris, France, (2009)\nG. Mahuzier et M. Hamon, « Abrégé de chimie analytique – Méthodes de séparation », Tome 2, Edition Masson, Paris, France, (1990)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

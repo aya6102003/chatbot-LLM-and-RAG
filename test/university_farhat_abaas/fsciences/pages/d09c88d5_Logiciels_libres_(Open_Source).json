@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_MATHEMATIQUES/S1-LOGICIELS-LIBRES.html",
+      "title": "Logiciels libres (Open Source)",
+      "id": "d09c88d5",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:30",
+      "hash": "9f0eb6f300279bb5",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Logiciels libres (Open Source)\nSemestre : 01\nUnité d'enseignement : Méthodologique\nMatière : Logiciels libres (Open Source)\nCrédits : 4\nCoefficient : 2\nObjectifs de l'enseignement\nFamiliarisation avec l'outil informatique et l'Internet.\nConnaissances préalables recommandées\nConnaissances générales en informatique.\nContenu de la matière\nChapitre 1 : Technologies de l'information\n1.1. Définitions\n1.2. Outils\n1.2.1. Matériels (Hardware)\nOrdinateurs : PC de bureau, ordinateurs portables, serveurs, stations de travail\nRéseaux de communication : routeurs, commutateurs (switch), modems, fibres optiques, Wi-Fi\nPériphériques : imprimantes, scanners, claviers, souris, caméras, capteurs\nDispositifs mobiles : smartphones, tablettes, assistants numériques personnels (PDA)\nPuces intelligentes : RFID, NFC, processeurs embarqués, capteurs IoT (Internet of Things)\n1.2.2. Logiciels (Software)\nSystèmes d'exploitation : Windows, Linux, macOS, Android, iOS\nApplications métiers : ERP (Enterprise Resource Planning), CRM (Customer Relationship Management), logiciels de gestion des ressources humaines, de comptabilité, etc.\nLogiciels de bureautique : traitement de texte (Word), tableurs (Excel), présentations (PowerPoint), outils de collaboration (Google Workspace, Microsoft 365)\n1.3. Applications\nEspaces de communications : Internet, Intranet, Extranet\nMultimédia : Audioconférence, visioconférence\nEchange de données informatisées (EDI)\nWorkflows\nChapitre 2 : Outils Open source\nIntroduction (historique, avantages / inconvénients et licence)\nEnvironnement de développement (Introduction à Linux, Introduction aux éditeurs de code)\nBureautique (Suite bureautique LibreOffice)\nCollaboration (Stockage et partage)\nContribuer à un projet open source\nMode d'évaluation\nExamen (100%)\nRéférences bibliographiques\nCollectif Eni, Microsoft Office 2016 Word, Excel, PowerPoint, Outlook 2016 – Fonctions de base, Eni Collection : Référence bureautique, 2016.\nDan Gookin, Greg Harvey, Word et Excel 2016 pour les nuls, First, Collection : Pour les nuls – Poche (informatique), 2016.\nMyriam GRIS, Initiation à Internet, Eni editions, 2009."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

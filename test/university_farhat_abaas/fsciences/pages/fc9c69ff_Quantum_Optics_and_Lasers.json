@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S1-OQL.html",
+      "title": "Quantum Optics and Lasers",
+      "id": "fc9c69ff",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:57",
+      "hash": "ddb485150a5735d6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nFondamentale (UEF 1)  |\nCrédits :\n4  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nEtude des principes fondamentaux de l'optique quantique et du fonctionnement des lasers.\nContenu de la matière\nChapitre 1 : Rappels et généralités sur les interactions rayonnement-matière\nIntroduction\nSources optiques\nInteraction rayonnement matière\nChapitre 2 : Cavités résonnantes et modes propres\nCavités laser et stabilité\nModes propres de propagation dans une cavité laser, condition de résonance\nChapitre 3 : Milieu Amplificateur\nAbsorption et émission de rayonnements\nCoefficients d'absorption et probabilités de transitions\nSections efficaces\nFormes de raie et élargissement spectral (homogène et inhomogène)\nExcitation optique et Inversion de population\nChapitre 4 : Oscillation Laser\nSystème laser\nThéorie des bilans\nConditions d'oscillation et amorçage\nDifférents types de lasers et classification\nChapitre 5 : Traitement Semi Classique\nEquations de Maxwell-Bloch\nRégime stationnaire\nChapitre 6 : Régimes de fonctionnement des Lasers\nRégimes relaxé\nFonctionnement déclenché, Q-switching et différents modes de déclenchement et de modulations (modèles, caractérisation et propriétés)\nFonctionnement en modes bloqués. Cas du laser à néodyme (mode locking par différentes méthodes, modélisation et cinétique de fonctionnement par absorbant saturable, caractérisation et propriétés)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

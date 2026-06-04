@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_MATERIAUX/S1-IAML1.html",
+      "title": "Intelligence artificielle et Machine Learning 1",
+      "id": "ce63c647",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:13",
+      "hash": "021b85db261761cd",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière :\nIntelligence artificielle et Machine Learning 1\nUnité d'Enseignement :\nUE Transversale (UET 1)\nSemestre :\nSemestre 1\nCrédits :\n1\nCoefficient :\n1\nVHS (15 semaines) :\n2h30\nCours :\nTD :\nTP :\n1h30\nMode d'évaluation :\nExamen : 100%\nSemestre 1\nUnité Découverte\nMatière : Intelligence artificielle et Machine Learning 1\nObjectifs du cours :\nIntroduire les bases de l'IA et de l'apprentissage automatique (Machine Learning), en se concentrant sur leurs\napplications dans les sciences de la matière. Les étudiants comprendront les concepts fondamentaux de la\nmodélisation basée sur les données et comment appliquer les techniques de l'apprentissage automatique pour\nrésoudre des problèmes du monde réel.\nContenu du cours :\nChapitre 1 : Introduction à l'IA et à l'apprentissage automatique\no Aperçu de l'IA et de ses applications.\no Importance des données dans l'IA et l'apprentissage automatique.\nChapitre 2 : Concepts de base de l'apprentissage automatique\no Apprentissage supervisé ou non supervisé.\no Algorithmes clés de l'apprentissage automatique : régression, classification, regroupement.\no Mesures d'évaluation (MAE, R², précision).\nChapitre 3 : Collecte et traitement des données\no Ingénierie des caractéristiques et techniques de prétraitement des données.\no Traitement de l'ajustement excessif et de l'ajustement insuffisant.\no Bases de données sur les matériaux : Materials Project, OQMD, AFLOW.\nChapitre 4 : Apprentissage automatique (Machine Learning) pratique en sciences de la matière\no Étude de cas : Prédiction des propriétés des matériaux (bande interdite, etc.).\no Utilisation de modèles d'apprentissage automatique pour des tâches simples de classification et de\nrégression.\nChapitre 5 : Fondements de l'apprentissage profond\no Introduction aux réseaux neuronaux.\no Principaux cadres d'apprentissage profond : TensorFlow, Keras, PyTorch.\no Application : Prédiction de la structure cristalline à l'aide de réseaux neuronaux.\nBibliographie :\n\"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow\" by Aurélien Géron (focuses on\npractical applications of machine learning)\n\"Pattern Recognition and Machine Learning\" by Christopher M. Bishop (provides theoretical foundations of\nML)\nOutils et bibliothèques :\nPython, Jupyter Notebooks\nScikit-learn, Pandas, Matplotlib\nMaterials science tools: Matminer, Pymatgen\n19"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

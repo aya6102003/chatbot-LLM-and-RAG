@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING2EME/SFSD.html",
+      "title": "Sfsd.Html",
+      "id": "c4849ba4",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:58",
+      "hash": "937451dbb13b8d2f",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "concepts de base\nfichier, enregistrement, zone, caract�re\nactivit� d\u0019un fichier, taux de consultation, taux de renouvellement, stabilit�\ntypologie des fichiers (permanent ou de base, mouvement, manSuvre,\ninterm�diaire, archive, historique, fichier mono volume, multi volume,\nvolume multi fichiers, table,\nop�rations fondamentales sur les fichiers (cr�ation, mise � jour, r�union, �clatement, tri, fusion, extraction, copie)\ndiff�rence entre Ram et M�moire secondaire fichiers physique et fichier logique\nenregistrement logique et enregistrement physique\ntypes d\u0019enregistrements (longueur fixe, variable, ind�finie) le facteur de blocage, son int�r�t\nfichiers statiques et dynamiques"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/Chimie_Analytique_et_Qualite/9.html",
+      "title": "9.Html",
+      "id": "d12cc3a5",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:03",
+      "hash": "f0aa4d0896594b4e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI. Cin�tique de transfert de charge en r�gime stationnaire d\u0019un syst�me Ox/Red r�versible\n1. Introduction\n2. Relation entre la vitesse v d\u0019une r�action �lectrochimique en r�gime de transfert de charge et\nl\u0019intensit� du courant faradique 5<59\n3. Expression de la densit� de vitesse v de transfert de charge\n4. Constante de vitesse standard k� :  Syst�me rapide ou r�versible\n5. Loi du courant de transfert de charge d\u0019un syst�me r�versible\n6. Courant d\u0019�change standard I�\n7. Loi de la surtension �\n8. Lois limites du courant de transfert de charge d\u0019un syst�me r�versible\nII. Cin�tique de diffusion semi-infinie � une micro�lectrode plane\n1. Mise en oeuvre du processus de diffusion\n2. Condition exp�rimentale\n3. R�gime de diffusion transitoire\n4. R�solution de l\u0019�quation de diffusion de l\u0019esp�ce oxyd�e\n5. Profil de concentration de l\u0019esp�ce oxyd�e\n6. Expression du courant limite de diffusion Il,c(t) en fonction du temps 6.1 Equation de Cottrell\nIII. R�gime de diffusion stationnaire\n1.Voltamp�rom�trie hydrodynamique : �quation E = f(I)\n2. Forme des courbes intensit�-potentiel\n3. D�placement des courbes intensit�-potentiel\n4. Applications\nIV.  Electrolyses exhaustives\n1. G�n�ralit�s\n2. Avancement d\u0019un processus interfacial.\n3. Rendement faradique\n4. Electrolyse � potentiel constant\n5. Application : �lectrogravim�trie.\n6. Electrolyse � courant constant\n7. Application : Coulom�trie\n8. Technique de d�tection de fin de r�action\nIV. Electrochimie des Semi-conducteur et des r�actions photo�lectrochimiques\nM�thodes �lectrochimiques d\u0019analyse dans les laboratoires de recherche (Votamp�rom�trie -Chrono\npotentiom�trie - Chronoamp�rom�trie- Imp�dance �lectrochimique. Corrosion �lectrochimique)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

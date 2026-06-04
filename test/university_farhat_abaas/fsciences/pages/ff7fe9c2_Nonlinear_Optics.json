@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S2-ONL.html",
+      "title": "Nonlinear Optics",
+      "id": "ff7fe9c2",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:01",
+      "hash": "54a036d22caa01f0",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n2  |\nUE :\nFondamentale (UEF 2)  |\nCrédits :\n4  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nCe cours complète l'enseignement donné en licence dans le module d'optique et ondes électromagnétiques. Dans la première partie, il permet à l'étudiant de comprendre la propagation des ondes dans les milieux anisotropes et particulièrement dans les cristaux uniaxes qui constituent l'essentiel des composants optoélectroniques utilisés dans la modulation de la lumière. Ensuite sont introduites les notions fondamentales de l'optique non linéaire qui lui permettront de comprendre comment sont conçus tous les dispositifs non linéaires (transistor optique, amplificateur optique, modulation de la lumière, phénomène des solitons optiques, etc.) dans la perspective de réaliser dans un avenir proche l'ordinateur tout optique.\nConnaissances préalables recommandées\nOptique et ondes électromagnétiques.\nContenu de la matière\nChapitre 1 : Propagation d'ondes planes dans un milieu linéaire, homogène et anisotrope\nStructure de l'onde plane dans le milieu anisotrope\nRelation de dispersion\nEquations aux indices\nSurface des indices et surface des vecteurs d'ondes\nCas des milieux uniaxes\nChapitre 2 : Introduction à l'optique non linéaire\nEquations d'onde non linéaires\nApproximation des amplitudes lentement variables\nSusceptibilités électriques non linéaires\nChapitre 3 : Effets optiques non linéaires du second ordre\nRelation de Manley-Rowe\nPropagation du second harmonique (interaction faible et forte)\nProcessus paramétriques (amplification et oscillation)\nChapitre 4 : Effets optiques non linéaires du troisième ordre\nConjugaison de phase optique\nBistabilité optique\nDiffusion Raman stimulée\nDiffusion Brillouin stimulée\nChapitre 5 : Introduction aux applications\nAuto action de la lumière\nAuto focalisation et auto piégeage de la lumière\nAuto modulation de phase\nPropagation de solitons dans les fibres optiques\nRéférences bibliographiques\nJ.P. Mathieu et M. Rousseau, Problèmes d'optique, 2 (Dunod)\nBorn et Wolf, Principles of Optics (Pergamon)\nJ.Y. Courtois, Optique non linéaire\nGovind and Agrawal: Nonlinear Fiber Optics (Academic Press, 1995)\nD.L. Mills, Nonlinear Optics Basic Concept (Springer)\nR. Shen, The principles of Nonlinear Optics (Wiley-Interscience)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

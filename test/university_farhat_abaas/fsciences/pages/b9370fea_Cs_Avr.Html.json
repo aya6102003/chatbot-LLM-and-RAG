@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/INFO/CS-AVR.html",
+      "title": "Cs Avr.Html",
+      "id": "b9370fea",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:54:59",
+      "hash": "12dd01c531af054b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Objectifs de l’enseignement\nThis course teaches the technical and experiential design foundations needed to create immersive environments in current and future virtual, augmented, and mixed reality platforms. Starting with the original Computer Science and HCI concepts and progressing through the evolution of all supporting technologies such as visual displays for VR, AR, and MR, motion tracking, interactive 3D graphics, multimodal sensory integration, immersive audio, user interfaces, IoT, games, and experience design, the curriculum covers a wide range of literature and practice.\nContenu de la matière\nIntroduction to Immersive Technologies\nMotion tracking, navigation and controllers\nThe Human behind the lenses\nThe present and the future of xR\nCamera tracking and 3D Rendering for Immersive Environments\nModeling the Physical world\nPresence, Agency and Interactivity\nSound in Immersive Environments\nXR: Privacy and Security in an xR\nMode d’évaluation : Contrôle continu, examen Références\nThe VR Book: Human-Centered Design for Virtual Reality. Association for Computing Machinery and Morgan & Claypool Publishers\nReal Virtuality: A Code of Ethical Conduct. Recommendations for Good Scientific Practice and the Consumers of VR-Technology. Frontiers in Robotics and AI 3\nTony Parisi. Learning Virtual Reality"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

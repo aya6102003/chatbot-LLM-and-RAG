@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S3-DMR.html",
+      "title": "Radiation Detection and Measurement",
+      "id": "c1741e5a",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:58",
+      "hash": "749befe6cbe7be12",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n3  |\nUE :\nFondamentale (UEF 3)  |\nCrédits :\n4  |\nCoefficient :\n2\nMode d'évaluation :\nContrôle continu : 33%\nExamen : 67%\nObjectifs de l'enseignement\nProcessus physiques de la détection des particules et des rayonnements\nDescription et fonctionnement des détecteurs et accélérateurs de particules électrostatiques, circulaires et linéaires\nDescription et rôle des éléments constituant une chaîne d'analyse\nUtilisation en recherche scientifique et dans les différents secteurs (industrie, médecine, agriculture...)\nConnaissances préalables recommandées\nL'étudiant est censé avoir suivi en licence une introduction à la physique nucléaire.\nContenu de la matière\nChapitre 1 :\nCompteur à gaz\nChapitre 2 :\nDétecteur à scintillation\nChapitre 3 :\nDétecteurs semi-conducteurs\nChapitre 4 :\nDétecteurs de neutrons\nChapitre 5 :\nStatistique de comptage\nChapitre 6 :\nMesure de l'énergie\nChapitre 7 :\nMesure des coïncidences et résolution en temps\nChapitre 8 :\nMesure des temps de vie nucléaires\nChapitre 9 : Accélérateurs de particules\nElectrostatiques\nLinéaires\nCyclotrons\nSynchrotrons\nChapitre 10 :\nAnneaux de collision\nRéférences bibliographiques\nDétection de rayonnements et instrumentation nucléaire, Abdallah Lyoussi, Ed EDP Sciences 2010\nRadiation detection and measurement, G.F. Knoll, Ed John Wiley and Sons, 1979\nTechniques for Nuclear and Particle Physics Experiment, A How-to Approach, W.R. Leo, Ed. Springer-Verlag\nExperimental Techniques in High-Energy Nuclear and Particle, T. Ferbel, Ed. World Scientific\nElectronique associée aux détecteurs de rayonnements, Hervé FANET, BN3485, technique de l'ingénieur 2002"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

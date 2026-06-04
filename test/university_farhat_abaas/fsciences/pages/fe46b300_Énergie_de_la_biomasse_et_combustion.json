@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S1-EBC.html",
+      "title": "Énergie de la biomasse et combustion",
+      "id": "fe46b300",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:11",
+      "hash": "6fc127c8e57409ca",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Énergie de la biomasse et combustion\nSemestre 1 – UE Fondamentale\nMode d'évaluation :\nContinu 33% / 67%\nObjectifs de l’enseignement\nComprendre les bases de l’aérodynamique et les équations fondamentales.\nÉtudier les phénomènes de couche limite et leur impact sur les forces aérodynamiques.\nMaîtriser la géométrie des profils et les forces qu’ils génèrent.\nApprofondir les théories mathématiques expliquant la portance.\nAppliquer les concepts à l’ingénierie civile et environnementale.\nConnaissances préalables recommandées\nIl est recommandé de connaître les bases de la chimie organique et de la thermochimie.\nUne compréhension des réactions de combustion et des enjeux environnementaux est importante.\nContenu de la matière :\n1. Introduction générale (2 semaines)\nDéfinition de la biomasse\nRessources de biomasse : lignocellulosique, résidus agricoles, forestiers, déchets organiques…\nImportance et place de la biomasse dans le mix énergétique\nAvantages et inconvénients de l'énergie de la biomasse\n2. Caractérisation de la biomasse (4 semaines)\nPropriétés physiques : humidité, densité, granulométrie\nAnalyse chimique\nPouvoir calorifique : PCI et PCS\nMéthodes de caractérisation (thermogravimétrie, analyse élémentaire…)\n3. Filières de conversion énergétique de la biomasse (2 semaines)\nConversion thermochimique :\nConversion biologique :\n4. Combustion de la biomasse (3 semaines)\nRéactions chimiques fondamentales\nConditions de la combustion complète/incomplète\nDiagramme de combustion\nFacteurs influençant la combustion : humidité, air comburant, température\nRendement de combustion\n5. Technologies de combustion (4 semaines)\nFoyers domestiques\nChaudières à biomasse\nTurbines à vapeur avec biomasse\nCogénération (CHP) à partir de la biomasse\nÉmissions polluantes (CO, NOx, particules…) et traitement des fumées\nRéférences\n[1] Demirbaş, A. Biomass and Bioenergy: Processing and Properties Springer, 2021.\n[2] Saidur, R., BoroumandJazi, G., et al. A review on biomass as a fuel for boilers Renewable and\nSustainable Energy Reviews, 15(5), 2011, pp. 2262-2289.\n[3] Bridgwater, A.V. Biomass for Energy International Energy Agency (IEA) Bioenergy Report,\n2018.\n[4] Martin, J. Énergie de la biomasse – Production, valorisation et applications énergétiques\nEditions Technip, 2009.\n[5] Lora, E.S., Andrade, R.V. Biomass for Energy: From Production to Application CRC Press, 2020.\n[6] Kondepudi, S.N. Introduction to Energy and Climate: Developing a Sustainable Environment\nWiley, 2021"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

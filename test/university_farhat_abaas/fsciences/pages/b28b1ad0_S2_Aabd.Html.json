@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S2-AABD.html",
+      "title": "S2 Aabd.Html",
+      "id": "b28b1ad0",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:49",
+      "hash": "70c66581bf98fdc3",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Database Architecture and Administration\nSemester:\n2  |\nType:\nUEF21  |\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLecture:\n1h30  |\nLab:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nUnderstand the architecture of a DBMS and how it manages a database. Acquire the skills and know-how of a Database Administrator.\nPrerequisites:\nInitial notions of databases: design, creation, and use of a database.\nCourse Content (21h)\nChapter 1 – DBMS Architecture\nSoftware architecture: layers, components\nInternal processes of a DBMS\nClient-server and multi-user model\nCentralised vs distributed architecture\nChapter 2 – Installation and Configuration\nDBMS selection (Oracle, PostgreSQL, MySQL...)\nInstallation and environment configuration\nDatabase creation and initialisation\nManagement of data and control files\nChapter 3 – Storage Management\nPhysical and logical structures\nTablespaces, data files, segments\nIndexing and performance management\nChapter 4 – Security and Access Control\nUser accounts, roles, privileges\nAuthentication, logging, audit\nConnection security and encryption\nChapter 5 – Concurrency and Transactions\nACID transactions\nLocking, isolation, anomalies\nOptimistic and pessimistic concurrency control\nChapter 6 – Backup and Recovery\nLogical vs physical backup\nFull, incremental, differential backup\nRecovery from partial or total failure\nChapter 7 – Optimisation and Tuning\nExecution plan and query analysis\nIndex and join optimisation\nStatistics, performance analysis\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — tests, personal work\nBibliography\nElmasri, R., & Navathe, S. B. (2017).\nFundamentals of Database Systems\n(7th ed.). Pearson.\nSilberschatz, A., Korth, H. F., & Sudarshan, S. (2020).\nDatabase System Concepts\n(7th ed.). McGraw-Hill.\nGarcia-Molina, H., Ullman, J. D., & Widom, J. (2008).\nDatabase Systems: The Complete Book\n(2nd ed.). Pearson.\nConnolly, T., & Begg, C. (2015).\nDatabase Systems: A Practical Approach\n(6th ed.). Pearson.\nDesai, B. C. (2012).\nAn Introduction to Database Systems\n. Galgotia Publications."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

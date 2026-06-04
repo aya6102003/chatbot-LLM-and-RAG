@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/319",
+      "title": "Faculté des Sciences",
+      "id": "ca627e89",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:46:32",
+      "hash": "86a2b4575775e61d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "BACHMAR Aziza\nBACHMAR Aziza\nGrade:Maitre de conferences classe A\nGrade:Maitre de conferences classe A\nEmail:aziza.bachmar@univ-setif.dz\nEmail:aziza.bachmar@univ-setif.dz\nDépartement:Mathématiques\nBureau:\nBureau:\n\nchapitr2+série2\nPolycopie de cours\nchapitre3+série3\nPolycopie de cours\nsérie1\nPolycopie de TD\nchapitre4\nPolycopie de cours\nsérie4\nPolycopie de TD\ncorrige type de série4\nPolycopie de TD\nsolution d'exo6 série4\nPolycopie de TD"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "2037",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2037",
+        "type": "internal"
+      },
+      {
+        "text": "2038",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2038",
+        "type": "internal"
+      },
+      {
+        "text": "2039",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2039",
+        "type": "internal"
+      },
+      {
+        "text": "2097",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2097",
+        "type": "internal"
+      },
+      {
+        "text": "2098",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2098",
+        "type": "internal"
+      },
+      {
+        "text": "2099",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2099",
+        "type": "internal"
+      },
+      {
+        "text": "2100",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2100",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/ca627e89_table_1_untitled.json",
+        "rows": 7
+      }
+    ]
+  }
+}

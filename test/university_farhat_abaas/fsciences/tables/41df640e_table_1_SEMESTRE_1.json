@@ -1,0 +1,145 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Master_AMA.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité d'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS14 Semaines",
+    "Mode d'évaluation",
+    ""
+  ],
+  "rows": [
+    [
+      "Unité d'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS14 Semaines",
+      "Mode d'évaluation",
+      ""
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Autres",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE FondamentaleCode : UEF 1Crédits : 18Coefficients : 9",
+      "Analyse fonctionnelle 1",
+      "6",
+      "3",
+      "3h00",
+      "1h30",
+      "",
+      "",
+      "63h00",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Distributions et Analyse de Fourier 1",
+      "6",
+      "3",
+      "3h00",
+      "1h30",
+      "",
+      "",
+      "63h00",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Calcul différentiel",
+      "6",
+      "3",
+      "3h00",
+      "1h30",
+      "",
+      "",
+      "63h00",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "UE MéthodologiqueCode : UEM 1Crédits : 9Coefficients : 5",
+      "Analyse convexe",
+      "5",
+      "3",
+      "3h00",
+      "1h30",
+      "",
+      "",
+      "63h00",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Optionnel X",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "",
+      "42h00",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "UE DécouverteCode : UED 1Crédits : 4Coefficients : 2",
+      "Modélisation mathématique",
+      "2",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "",
+      "42h00",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "UE TransversaleCode : UET 1Crédits : 1Coefficients : 1",
+      "Choisir parmi : Entrepreneuriat et Ateliers de créativité / Éthique de l'intelligence artificielle",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "",
+      "21h00",
+      "",
+      "100%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Optionnel X à choisir parmi : Théorie de l'approximation, Analyse multivoque, Analyse matricielle, Introduction au traitement d'image, Fonctions spéciales et applications."
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "17",
+      "16h30",
+      "9h00",
+      "",
+      "",
+      "357h00",
+      ""
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 8
+}
