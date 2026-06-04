@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S1-DS1.html",
+      "title": "Distributed Systems 1",
+      "id": "cee0f322",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:50",
+      "hash": "f9aad9d8661801a1",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nDistributed Systems 1  |\nSemester:\n1  |\nType:\nUEF12\nVHS:\n63h  |\nWeekly hours:\n4h30  |\nLectures:\n1h30  |\nTD:\n1h30  |\nTP:\n1h30\nPersonal work VHS:\n42h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nIntroduce the fundamental principles of distributed systems\nUnderstand communication models, classical problems and the basics of synchronization\nRecommended Prerequisites\nAlgorithmics, operating systems and networks\nCourse Content (Lectures: 21h)\nChapter 1: Introduction to Distributed Systems\nDefinitions, objectives, expected properties\nApplication examples (Cloud, P2P, Blockchain, etc.)\nChallenges of distributed systems\nMiddleware and software abstraction\nTheoretical fundamentals: network, concurrency, scalability\nChapter 2: Distributed System Architectures\nTaxonomies (hardware, OS, network, software)\nClient-Server, Multi-tier, P2P, Proxy/Cache models\nMicroservices and containers (Docker, Kubernetes — intro)\nChapter 3: Distributed Communication Paradigms\nSynchronous and asynchronous message passing\nRemote Procedure Calls (RPC)\nRemote Method Invocation (RMI)\nEvent-based and shared-memory communication\nGroup communication (basics)\nChapter 4: Time, Scheduling and Synchronization\nConcurrency and causality\nPhysical time and synchronization (Cristian, Berkeley)\nLogical clocks (Lamport, vector clocks)\nGlobal and causal ordering\nApplication: Mutual exclusion (centralized and distributed)\nChapter 5: Fundamental Problems and Coordination\nNaming and service discovery\nDistributed coordination: deadlocks, synchronization, state management\nTermination detection (Dijkstra's algorithm and related)\nAssessment\nContinuous assessment: 40%\nExam: 60%\nBibliographic References\nG. Coulouris, J. Dollimore, and T. Kindberg, Distributed Systems - Concepts and Design, 3rd ed., Addison-Wesley, 2003.\nA. S. Tanenbaum, M. van Steen, Distributed Systems - Principles and Paradigms, Prentice Hall, 2002.\nMichel Raynal, Synchronisation et état global dans les systèmes répartis et Gestion des données réparties, Éditions Eyrolles, 1992.\nM. Singhal, N. G. Shivaratri, Advanced Concepts in Operating Systems, McGraw-Hill, 1994.\nNancy Lynch, Distributed Algorithms, Elsevier, 1996.\nAjay D. Kshemkalyani, Mukesh Singhal, Distributed Computing: Principles, Algorithms, and Systems, Cambridge University Press, 2008.\nNicola Santoro, Design and Analysis of Distributed Algorithms, John Wiley & Sons, 2007.\nAlexandre Duret-Lutz, Algorithmique Distribuée, Notes de cours.\nCyril Gavoille, Algorithmes distribués, Master 1&2, Université de Bordeaux, 2015.\nJie Wu, Distributed System Design, CRC Press LLC, 1999."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

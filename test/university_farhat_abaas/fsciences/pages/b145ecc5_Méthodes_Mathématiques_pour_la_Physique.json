@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S1-MMP.html",
+      "title": "Méthodes Mathématiques pour la Physique",
+      "id": "b145ecc5",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:51",
+      "hash": "ae3de5604494a371",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Méthodes Mathématiques pour la Physique\nSemestre 1 – UE Méthodologie\nPrérequis\nMathématiques classiques dispensées en licence de physique fondamentale\nObjectifs de l'enseignement\nL'objectif est de fournir aux étudiants les outils mathématiques fondamentaux pour aborder et résoudre les problèmes de la physique théorique et de la physique mathématique.\nProgramme détaillé\nChapitre 1 : Fonctions spéciales\nÉquations différentielles des fonctions spéciales\nFonctions sphériques, cylindriques, hypergéométriques\nApplications en mécanique quantique et en physique mathématique\nTravaux dirigés :\nRésolution de problèmes physiques utilisant les fonctions spéciales\nChapitre 2 : Calcul tensoriel\nVecteurs et tenseurs euclidiens\nChangement de base et opérations sur les tenseurs\nTenseurs en physique et rôle de la symétrie\nChapitre 3 : Théorie des distributions\nDéfinitions et propriétés générales\nDérivation, limites, séries et régularisation\nConvolution, transformations de Fourier et de Laplace\nChapitre 4 : Calcul des variations\nPrincipe fondamental\nCas à une et plusieurs variables\nÉquation d'Euler, multiplicateurs de Lagrange\nVariations avec contraintes\nChapitre 5 : Équations intégrales et fonctions de Green\nFonctions de Green (1D, 2D, 3D)\nTransformations intégrales et fonctions génératrices\nÉquations intégrales de Volterra et de Fredholm\nMéthodes de résolution\nMode d'évaluation\nContrôle continu : 50 %\nExamen : 50 %\nRéférences bibliographiques\nY. Ayant et M. Borg, Fonctions spéciales à l'usage des étudiants en physique, Dunod.\nA. Nikiforov et V. Ouvarov, Fonctions spéciales de la physique mathématique, Éditions Mir.\nL. Schwartz, Théorie des distributions, Hermann.\nJ. Hladik, Le calcul tensoriel en physique, Dunod.\nI.M. Gel'fand & G.E. Shilov, Generalized Functions, Vol. 1, Academic Press, 1964.\nM. Abramowitz & I.A. Stegun, Handbook of Mathematical Functions, Dover Publications.\nG. Arfken, Mathematical Methods for Physicists, Academic Press.\nR. Courant & D. Hilbert, Methods of Mathematical Physics, Wiley-VCH.\nL.D. Landau & E.M. Lifshitz, Théorie des champs, Éditions MIR (sections mathématiques fondamentales)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

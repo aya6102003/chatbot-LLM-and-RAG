@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ENERGETIQUE_ER/S3-BIOE.html",
+      "title": "Bioénergétique",
+      "id": "ce2e290e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:09",
+      "hash": "25763d082009ddc5",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Bioénergétique\nSemestre 3 – UE Fondamentale\nMode d'évaluation :\nContinu 33% / 67%\nObjectifs de l’enseignement :\nComprendre les principes fondamentaux et les mécanismes de la conversion et du transfert d’énergie dans les systèmes biologiques.\nAnalyser les processus énergétiques au niveau cellulaire et organique.\nÉtudier les technologies et méthodes pour exploiter l’énergie bioénergétique (biomasse, biocarburants, bioénergie).\nMaîtriser les modèles physiques et chimiques appliqués aux systèmes bioénergétiques. Connaissances préalables recommandées :\nBases en biologie cellulaire (structures cellulaires, métabolisme énergétique)\nNotions fondamentales en biochimie (réactions enzymatiques, oxydation-réduction)\nConnaissances en thermodynamique appliquée aux systèmes biologiques\nCompréhension des transferts d’énergie dans les systèmes complexes\nFamiliarité avec les processus de conversion d’énergie (combustion, fermentation, respiration, photosynthèse)\nContenu de la matière :\n1. Introduction à la bioénergétique (2 semaines)\nDéfinitions et portée de la bioénergétique.\nFlux d’énergie dans les systèmes vivants : notions de métabolisme énergétique.\nPrincipes thermodynamiques appliqués aux processus biologiques.\nBases de la thermodynamique des systèmes ouverts et vivants.\n2. Biophysique des réactions énergétiques cellulaires (3 semaines)\nMécanismes de production d’ATP.\nChaînes de transport d’électrons et phosphorylation oxydative.\nGlycolyse, cycle de Krebs, et autres voies métaboliques énergétiques.\nThermodynamique et cinétique des réactions enzymatiques.\nConcepts d’efficacité énergétique biologique.\n3. Bioénergie : sources et conversion (4 semaines)\nBiomasse : composition chimique, potentiel énergétique.\nMéthodes de conversion : fermentation, digestion anaérobie, gazéification, pyrolyse, combustion.\nBiocarburants solides, liquides (biodiesel, bioéthanol) et gazeux.\nThermodynamique et rendement des procédés bioénergétiques.\nImpacts environnementaux et durabilité.\n4. Modélisation et analyse des systèmes bioénergétiques (3 semaines)\nModèles mathématiques des processus énergétiques biologiques.\nBilan énergétique et gestion des flux dans les systèmes biologiques.\nTechniques d’analyse spectroscopique et calorimétrie.\nApproches multiphysiques : couplage thermique, chimique et biologique.\n5. Applications et perspectives (2 semaines)\nProduction d’énergie renouvelable à partir de ressources biologiques.\nUtilisation des microalgues et biomasse non alimentaire.\nBioénergie et technologies innovantes (biopiles, biohydrogène).\nIntégration des systèmes bioénergétiques dans les réseaux énergétiques.\nEnjeux socio-économiques et énergétiques mondiaux.\nRéférences :\n[1] Nicholas C. Price, Lewis Stevens — Fundamentals of Bioenergetics, 2000.\n[2] Donald G. Castellan — Physical Chemistry, 4th Edition, 2004 (chapitres thermodynamiques et\ncinétiques appliqués à la bioénergétique).\n[3] David G. Nicholls & Stuart J. Ferguson — Bioenergetics, 4th Edition, Academic Press, 2013.\n[4] Y.K. Rao et al. — Biomass Conversion Technology, CRC Press, 2018."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

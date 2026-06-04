@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/SCIENCE_DES_DONNEES/S2-BDA.html",
+      "title": "S2 Bda.Html",
+      "id": "fd2854ee",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:46",
+      "hash": "52714ff75a94c3e0",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Big Data Analytics\nSemester:\n2  |\nType:\nUEF21  |\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLecture:\n1h30  |\nLab:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n5\nTeaching Objectives\nThis course aims to introduce students to the different types of big data analytics that organisations can use: how big data analysis can help make predictions, understand practices, and operate large-scale analyses.\nPrerequisites:\nLinear algebra\nCourse Content (21h)\nChapter 1 – Big Data Fundamentals\nDefinitions and the \"5Vs\" (Volume, Variety, Velocity, Veracity, Value)\nBusiness challenges and use cases\nData lifecycle (collection → storage → analysis → visualisation)\nChapter 2 – Architectures and Ecosystems\nDistributed storage (HDFS, S3, Data Lake, Lakehouse)\nNoSQL databases (key-value, column, document, graph)\nIntroduction to Hadoop vs Spark vs Flink\nChapter 3 – Data Ingestion and Pipelines\nETL / ELT (Sqoop, NiFi)\nStreaming (Kafka, Flume, Kinesis)\nLambda vs Kappa architectures\nChapter 4 – Massive Data Processing\nMapReduce paradigm\nSpark Core (RDD, DataFrame, Dataset) and Spark Streaming\nOptimisations (partitioning, persistence, broadcast)\nChapter 5 – Analytics and Machine Learning at Scale\nMLlib / Spark ML\nDistributed ML pipelines\nPractical cases: clustering (K-means), regression, recommendation\nChapter 6 – Visualisation and Dashboards\nOpen-source tools (Kibana, Grafana)\nCommercial solutions (Tableau, Power BI)\nData storytelling and real-time dashboards\nAssessment\nFinal examination (in person): 60%\nContinuous assessment (CC): 40% — tests, personal work\nBibliography\nKleppmann, M. (2017).\nDesigning data-intensive applications\n. O'Reilly Media.\nDavenport, T. H., Barth, P., and Bean, R. (2012). How 'big data' is different.\nMIT Sloan Management Review\n.\nMarz, N., and Warren, J. (2015).\nBig Data: Principles and best practices of scalable realtime data systems\n. Manning Publications.\nReynolds, V. (2016).\nBig Data for Beginners\n. CreateSpace Independent Publishing Platform."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

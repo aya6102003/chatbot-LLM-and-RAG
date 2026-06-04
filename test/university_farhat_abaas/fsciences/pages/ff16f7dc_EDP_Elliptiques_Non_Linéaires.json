@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/EDP_ET_APPLICATIONS/S3-EDPNL.html",
+      "title": "EDP Elliptiques Non Linéaires",
+      "id": "ff16f7dc",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:33",
+      "hash": "12d3f56f6d2eec2f",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "EDP Elliptiques Non Linéaires\nSemestre :\n3  |\nUnité d'enseignement :\nFondamentale\nVolume Horaire Hebdomadaire :\nCours : 3h, TD : 1h30\nCrédits :\n6  |\nCoefficients :\n3\nObjectifs de l'enseignement\nIntroduire les méthodes fondamentales de l'analyse non linéaire pour prouver l'existence de solutions aux EDP elliptiques non linéaires.\nConnaissances préalables recommandées\nAnalyse Fonctionnelle 1 & 2, Espaces de Sobolev, EDP.\nContenu de la matière\nChapitre 1 : Méthodes Topologiques (Point Fixe de Schauder, Degré Topologique).\nChapitre 2 : Méthodes Variationnelles (Minimisation directe via compacité faible).\nChapitre 3 : Théorie des Points Critiques (Théorème du col de Min-Max).\nChapitre 4 : Méthodes de Monotonie (Théorème de Minty-Browder).\nMode d'évaluation\nExamen final (60%), Contrôle Continu (40%)\nRéférences bibliographiques\nL. C. Evans,\nPartial Differential Equations\n. AMS, 2010 (Chapitre 9).\nM. Struwe,\nVariational Methods\n. Springer, 4th Ed., 2008."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

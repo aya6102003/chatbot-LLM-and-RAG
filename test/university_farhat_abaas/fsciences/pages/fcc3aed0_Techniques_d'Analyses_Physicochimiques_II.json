@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S2-TAP2.html",
+      "title": "Techniques d'Analyses Physicochimiques II",
+      "id": "fcc3aed0",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:12",
+      "hash": "0948ba2471469db8",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Techniques d'Analyses Physicochimiques II\nObjectifs de l'enseignement\nConnaître le principe et la mise en application de différentes méthodes chromatographiques liquides et gazeuses.\nConnaître le principe et le fonctionnement des principaux spectromètres de masse.\nSavoir interpréter des spectres de masses MS.\nAborder la spectrométrie de masse à plusieurs dimensions.\nConnaissances préalables recommandées\nNotions données en Licence. Avoir les techniques de séparation.\nContenu de la matière\nChromatographie\nThéorie de la chromatographie. Notions de facteur de rétention, sélectivité, résolution, efficacité, diffusions.\nEquation de van Deemter.\nChromatographie en phase gazeuse : gaz vecteurs, colonnes et phases stationnaires, détecteurs, dérivation, mise au point et optimisation des conditions d'analyse. Exemples de séparation.\nChromatographie liquide haute performance : instrumentation (solvants, pompes, injecteurs, colonnes, détecteurs). Modes de séparation : exclusion stérique, échange d'ions, adsorption, partage. Description des phases stationnaires, des phases mobiles et des facteurs à optimiser lors de l'analyse. Exemples de séparation.\nIntroduction à d'autres méthodes séparatives : chromatographie en phase supercritique, électrophorèse capillaire.\nSpectroscopie de Masse\nPrincipe\nTechniques d'ionisation moléculaires : EI, CI, FAB, ESI, MALDI\nInterprétation d'un spectre de masse par ionisation électronique (IE)\nSpectres de masse de quelques classes chimiques\nStructure d'un spectromètre de masse\nUtilité de la spectrométrie de masse\nApplications de la spectroscopie de masse à l'analyse moléculaire, la détection de trace, la composition isotopique.\nCouplage GC/MS et LC/MS\nAnalyse quantitative en spectrométrie de masse.\nLes techniques d'analyse chimique locale – Microanalyse X\nLa microsonde de Castaing (instrument essentiellement destiné à la microanalyse)\nLa microanalyse, accessoire des microscopes électroniques à balayage et en transmission.\nLa spectrométrie par dispersion de longueur d'onde (WDS) pour la microsonde\nLa spectrométrie par sélection en énergie (EDS) pour le MEB et le TEM\nTechniques de Caractérisation de Surface\nSpectrométrie de photo-électrons (ESCA ou XPS) et d'électrons Auger (Analyse élémentaire et chimique)\nSpectrométrie à décharge luminescente (SDL)\nSpectrométrie d'émission ionique secondaire (SIMS)\nRéférences bibliographiques\nMéthodes instrumentales d'analyse chimique et applications (4° Éd.) – BURGOT Gwenola, BURGOT Jean-Louis – LAVOISIER 2006\nPrincipes d'analyse instrumentale – Douglas Arvid Skoog, F. James Holler, Timothy A. Nieman – De Boeck Supérieur 2003.\nLa spectrométrie de masse en couplage avec la chromatographie en phase gazeuse, BOUCHONNET Stéphane – LAVOISIER 2009."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

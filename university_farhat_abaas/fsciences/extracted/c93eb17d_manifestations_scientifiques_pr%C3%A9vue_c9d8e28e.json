@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\sana bureau\\SANA UNIVERSITY\\M2 IDTW\\S2\\Data\\github\\chatbot-LLM-and-RAG\\university_farhat_abaas\\fsciences\\pdfs\\c93eb17d_manifestations_scientifiques_pr%C3%A9vue.pdf",
+      "name": "c93eb17d_manifestations_scientifiques_pr%C3%A9vue.pdf",
+      "type": "pdf",
+      "size_bytes": 240260,
+      "id": "c9d8e28e"
+    },
+    "extracted_at": "2026-06-03T16:42:38.827753",
+    "filter_reason": "schedule detected (score=100)"
+  },
+  "content": {
+    "text": " \n \n‏ الجمهورية الجزائرية الديمقراطية الشعبية‏\n \n \n \n‏ وزارة التعليــم العالــي والبحــث العلمــي‏\n                    Faculty of Sciences\nPlanning des conférences et journées d’études prévues pour l’année 2025\nDate\nDépartement\nType \nIntitulé\n29 avril \nChimie\nJournée \n1st day of organic chemistry and its medicinal and \nindustrial applications \nResponsable : Dr N. Ziani\nnouara.ziani@univ-setif.dz\n12 mai \nMaths\nJournée \nFirst Day on Mathematical Modeling of Ecosystems: \nPopulation Dynamics and Chemostat Theory (1st \nDMME’2025) \n      Responsable : Dr N. Beroual\nn.beroual@univ-setif.dz\n15 mai 20\nInformatique\nJournée \nRecent Advances in Arabic Natural Language Processing \nResponsable : Dr A. Lakhfif\nabdelaziz.lakhfif@univ-setif.dz\n12-16 octobre\nPhysique\nConférence\n‏ الندوة‏\n‏العلمية الدولية و المدرسة التكوينية الثالثة حول التصوير اإلشعاعي و الطب ‏\n‏النووي‏\nResponsable : Pr F. Kharfi\n     \nkharfifaycal@univ-setif.dz\n      \n5-6 novembre \nPhysique\nConférence\n1st International Conference on Innovative Materials \nand their technological Applications (ICIMTA 2025)\nResponsable : Pr K. Haddadi\nk.haddadi@univ-setif.dz\n16-17 novembre \nInformatique\nJournées\nInternational Smart AgriHealth Days’ 2025: AI Innovations \nin Agri-Food and Healthcare \nResponsable : Pr A.Moussaoui\nabdelouahab.moussaoui@univ-setif.dz\n3-4 décembre\nMaths\nConférence\n2nd International Study Days on Continuous and \nCombinatorial Optimization (2nd ISDCCO’2025) \n    Responsable : Pr B. Merikhi\nbmerikhi@univ-setif.dz\n9-10 décembre\nChimie\nConférence\nConférence Internationale sur la Chimie des Matériaux et \nDéveloppement durable CM2D'25\n Responsable : Pr M. F. Haroun\nmohamed.haroun@univ-setif.dz\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "الجمهورية الجزائرية الديمقراطية الشعبية\n \n \n \n وزارة التعليــم العالــي والبحــث العلمــي\n                    Faculty of Sciences\nPlanning des conférences et journées d’études prévues pour l’année 2025\nDate\nDépartement\nType \nIntitulé\n29 avril \nChimie\nJournée \n1st day of organic chemistry and its medicinal and \nindustrial applications \nResponsable : Dr N. Ziani\nnouara.ziani@univ-setif.dz\n12 mai \nMaths\nJournée \nFirst Day on Mathematical Modeling of Ecosystems: \nPopulation Dynamics and Chemostat Theory (1st \nDMME’2025) \n      Responsable : Dr N. Beroual\nn.beroual@univ-setif.dz\n15 mai 20\nInformatique\nJournée \nRecent Advances in Arabic Natural Language Processing \nResponsable : Dr A. Lakhfif\nabdelaziz.lakhfif@univ-setif.dz\n12-16 octobre\nPhysique\nConférence\n الندوة\nالعلمية الدولية و المدرسة التكوينية الثالثة حول التصوير اإلشعاعي و الطب \nالنووي\nResponsable : Pr F. Kharfi\n     \nkharfifaycal@univ-setif.dz\n      \n5-6 novembre \nPhysique\nConférence\n1st International Conference on Innovative Materials \nand their technological Applications (ICIMTA 2025)\nResponsable : Pr K. Haddadi\nk.haddadi@univ-setif.dz\n16-17 novembre \nInformatique\nJournées\nInternational Smart AgriHealth Days’ 2025: AI Innovations \nin Agri-Food and Healthcare \nResponsable : Pr A.Moussaoui\nabdelouahab.moussaoui@univ-setif.dz\n3-4 décembre\nMaths\nConférence\n2nd International Study Days on Continuous and \nCombinatorial Optimization (2nd ISDCCO’2025) \n    Responsable : Pr B. Merikhi\nbmerikhi@univ-setif.dz\n9-10 décembre\nChimie\nConférence\nConférence Internationale sur la Chimie des Matériaux et \nDéveloppement durable CM2D'25\n Responsable : Pr M. F. Haroun\nmohamed.haroun@univ-setif.dz"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "ةيبعشلا ةيطارقميدلا ةيرئازجلا ةيروهمجلا"
+        ],
+        "rows": [
+          {
+            "ةيبعشلا ةيطارقميدلا ةيرئازجلا ةيروهمجلا": "يــملعلا ثــحبلاو يــلاعلا مــيلعتلا ةرازو"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 1,
+        "headers": [
+          "Date",
+          "Département",
+          "Type",
+          "Intitulé"
+        ],
+        "rows": [
+          {
+            "Date": "29 avril",
+            "Département": "Chimie",
+            "Type": "Journée",
+            "Intitulé": "1st day of organic chemistry and its medicinal and\nindustrial applications\nResponsable: Dr N. Ziani\nnouara.ziani@univ-setif.dz"
+          },
+          {
+            "Date": "12 mai",
+            "Département": "Maths",
+            "Type": "Journée",
+            "Intitulé": "First Day on Mathematical Modeling of Ecosystems:\nPopulation Dynamics and Chemostat Theory (1st\nDMME’2025)\nResponsable: Dr N. Beroual\nn.beroual@univ-setif.dz"
+          },
+          {
+            "Date": "15 mai 20",
+            "Département": "Informatique",
+            "Type": "Journée",
+            "Intitulé": "Recent Advances in Arabic Natural Language Processing\nResponsable: Dr A. Lakhfif\nabdelaziz.lakhfif@univ-setif.dz"
+          },
+          {
+            "Date": "12-16 octobre",
+            "Département": "Physique",
+            "Type": "Conférence",
+            "Intitulé": "بطلا و يعاعشلإا ريوصتلا لوح ةثلاثلا ةينيوكتلا ةسردملا و ةيلودلا ةيملعلا ةودنلا\nيوونلا\nResponsable: Pr F. Kharfi\nkharfifaycal@univ-setif.dz"
+          },
+          {
+            "Date": "5-6 novembre",
+            "Département": "Physique",
+            "Type": "Conférence",
+            "Intitulé": "1st International Conference on Innovative Materials\nand their technological Applications (ICIMTA 2025)\nResponsable: Pr K. Haddadi\nk.haddadi@univ-setif.dz"
+          },
+          {
+            "Date": "16-17 novembre",
+            "Département": "Informatique",
+            "Type": "Journées",
+            "Intitulé": "International Smart AgriHealth Days’ 2025: AI Innovations\nin Agri-Food and Healthcare\nResponsable: Pr A.Moussaoui\nabdelouahab.moussaoui@univ-setif.dz"
+          },
+          {
+            "Date": "3-4 décembre",
+            "Département": "Maths",
+            "Type": "Conférence",
+            "Intitulé": "2nd International Study Days on Continuous and\nCombinatorial Optimization (2nd ISDCCO’2025)\nResponsable: Pr B. Merikhi\nbmerikhi@univ-setif.dz"
+          },
+          {
+            "Date": "9-10 décembre",
+            "Département": "Chimie",
+            "Type": "Conférence",
+            "Intitulé": "Conférence Internationale sur la Chimie des Matériaux et\nDéveloppement durable CM2D'25\nResponsable: Pr M. F. Haroun\nmohamed.haroun@univ-setif.dz"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 7,
+        "headers": [
+          "Responsable",
+          ": Pr M. F. Haroun"
+        ],
+        "rows": [
+          {
+            "Responsable": "mohamed.haroun@univ-setif.dz",
+            ": Pr M. F. Haroun": "mohamed.haroun@univ-setif.dz"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

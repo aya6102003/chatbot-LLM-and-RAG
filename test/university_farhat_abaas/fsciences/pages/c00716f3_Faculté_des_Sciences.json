@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/544",
+      "title": "Faculté des Sciences",
+      "id": "c00716f3",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:32:48",
+      "hash": "b6f6cff75ef98297",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Bouras Ikram\nBouras Ikram\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:ikram.bouras@univ-setif.dz\nEmail:ikram.bouras@univ-setif.dz\nDépartement:Informatique\nBureau:32\nBureau:32\n\nAssociate\nProfessor in Computer science at University of Setif 1 since December, 2020.\nGoogle Scholar:\nhttps://scholar.google.fr/citations?user=9BBKSScAAAAJ&hl=fr\ndblp:\nhttps://dblp.org/pid/242/4346.html\nResearchgate;\nhttps://www.researchgate.net/profile/Ikram-Bouras\nLinkedIn:\nhttps://www.linkedin.com/in/ikram-bouras-a7bb19128/\nMain research interest:\nMy research consists of developing and implementing efficient resolution methods for combinatorial optimization problems with real applications as: Valid inequalities, cut and branch algorithms, strong formulations.\nThe problems I have studied so far are motivated by applications in transport and logistics (Hazmat transportation), influence in social networks, telecommunication networks, and electric vehicle charging station design.\nKeywords: Operation research, Network design, Bi-level programming, Integer programming, Transportation networks, Telecommunication networks, Social networks, Electric vehicles, Energy-aware engineering,\nResearch experience:\nJan .2020 – Oct 2020: Postdoc researcher at INRIA (Institut national de recherche en sciences et technologies du numérique) Lille, France.\nProject: Integrated optimal pricing, sizing, and location of electric vehicle charging stations.\nFounded by: PGMO Programme Gaspard Monge pour l'optimisation\nCollaborators: Luce Brotcorne: INRIA Lille, France\nMiguel F. Anjos, Alemseged G. Weldeyesus: University of Edinburgh, UK\nClémence Alasseur, Riadh Zorgati: EDF R&D, France.\nEducation:\n- Oct.2016 – Dec.2019: Ph.D. in computer sciences\nLIRMM laboratory, MAORE team, University of Montpellier, France.\nLIA laboratory, University of Avignon, France.\n• Title: Fixed-charge Network design problem with User-Optimal Flows.\n• Supervisors: Michael Poss (Lirmm, Montpellier) and Rosa Figueiredo (Lia, Avignon)\n• Collaborators: Fen Zhou (Lia, Avignon), Cristina Requejo (University of Aveiro)\n• Scholarships: (September 2016 - September 2019) Algerian government excellence scholarship.\n- 2014 – 2016: Master’s degree in applied mathematics.\nSpecialization: Optimization and control, University of Sétif 1, Algeria (ranked 2nd)\n- 2011 – 2014: Licence degree in Mathematics\n, University of Sétif1, Algeria\nJournaux (2)\nMinimizing energy and link utilization in ISP backbone networks with multi-path routing: a bi-level approach\nIkram Bouras, Rosa Figueiredo, Michael Poss, Fen Zhou\nOptimization letters , 14 (2020), pp 209-227\nOn two new formulations for the fixed charge network design problem with shortest path constraints\nIkram Bouras, Rosa Figueiredo, Michael Poss, Fen Zhou\nComputers & operation research, 108 (2019), pp 226-237\nConferences Internationales (4)\nBi-level formulation for Minimizing Energy and Link Utilization in ISP Backbone Networks with Multipath Routing Protocol\nIkram Bouras, Rosa Figueiredo, Michael Poss, Fen Zhou\nROADEF: Recherche Opérationnelle et d'Aide à la Décision, Feb 2019, , Le havre, France, (2019)\nBi-level approach for Minimizing Energy and Link Utilization in ISP Backbone Networks with Multi-path Routing Protocol\nIkram Bouras, Rosa Figueiredo, Michael Poss, Fen Zhou\nInternational Network Optimization Conference, INOC, Jun 2019, Avignon, France, (2019)\nExact Algorithms for Fixed Charge Network Design Problem with User-Optimal Flows\nIkram Bouras, Rosa Figueiredo, Michael Poss, Fen Zhou\nIWOBIP: International Workshop on Bilevel Programming, Jun 2018, Lille, France, (2018)\nExact Algorithms for Fixed Charge Network Design Problem with User Optimal Flow\nIkram Bouras, Rosa Figueiredo, Michael Poss, Fen Zhou\nROADEF: Recherche Opérationnelle et d'Aide à la Décision, Feb 2018, , Lorient, France, (2018)"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "https://scholar.google.fr/citations?user=9BBKSScAAAAJ&hl=fr",
+        "url": "https://scholar.google.fr/citations?hl=fr&user=9BBKSScAAAAJ",
+        "type": "external"
+      },
+      {
+        "text": "https://dblp.org/pid/242/4346.html",
+        "url": "https://dblp.org/pid/242/4346.html",
+        "type": "external"
+      },
+      {
+        "text": "https://www.researchgate.net/profile/Ikram-Bouras",
+        "url": "https://www.researchgate.net/profile/Ikram-Bouras",
+        "type": "external"
+      },
+      {
+        "text": "https://www.linkedin.com/in/ikram-bouras-a7bb19128/",
+        "url": "https://www.linkedin.com/in/ikram-bouras-a7bb19128",
+        "type": "external"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

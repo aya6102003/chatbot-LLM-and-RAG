@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_INFORMATIQUE/S2-ANL2.html",
+      "title": "S2 Anl2.Html",
+      "id": "fe623922",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:06",
+      "hash": "c31eadd25bb574ad",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Analyse 2\nSemestre :\n2  |\nUE :\nUEF21  |\nCrédits :\n6  |\nCoefficient :\n4\nObjectifs de l'enseignement\nPrésenter les applications des développements limités : utilisation des DL pour simplifier des expressions complexes dans les algorithmes et évaluer les erreurs dans les calculs numériques et les approximations.\nPrésenter aux étudiants les différents aspects du calcul intégral : intégrale de Riemann, différentes techniques de calcul des primitives.\nInitiation à la résolution des équations différentielles de premier et deuxième ordre.\nGénéraliser la notion de continuité et de dérivabilité à des fonctions définies sur un ensemble de vecteurs (IRⁿ).\nConnaissances préalables recommandées\nAnalyse Mathématique 1, Algèbre 2 (espaces vectoriels).\nContenu de la matière\nChapitre 1 : Développements limités\nDéveloppements limités polynomiaux (D.L), et opérations sur les D.L.\nGénéralisation des développements limités.\nApplication au calcul de limites et à l'étude des branches infinies.\nChapitre 2 : Intégrales indéfinies\nIntégrale indéfinie, Quelques propriétés de l'intégrale indéfinie\nMéthodes d'intégration, Intégration par changement de variable, Intégration par parties\nIntégration d'expressions rationnelles, Intégration de fonctions irrationnelles\nChapitre 3 : Intégrales définies\nIntégrale de Riemann, Intégrale définie, Propriétés des intégrales définies\nIntégrale fonction de sa borne supérieure, Formule de Newton-Leibniz\nInégalité Cauchy-Schwarz, Sommes de Darboux\nConditions de l'existence de l'intégrale, Propriétés des sommes de Darboux\nIntégrabilité des fonctions continues et monotones\nChapitre 4 : Équations différentielles du premier ordre\nGénéralités, Classification des équations différentielles du premier ordre\nÉquation à variables séparables, Équations homogènes, Équations linéaires\nMéthode de Bernoulli, Méthode de la variation de la constante de Lagrange\nÉquation de Bernoulli, Équation différentielle totale, Équation de Riccati\nChapitre 5 : Équations différentielles du second ordre à coefficients constants\nÉquations différentielles du second ordre homogènes à coefficients constants\nÉquations différentielles du second ordre non homogènes à coefficients constants\nMéthodes de résolutions des équations différentielles du second ordre à coefficients constants\nChapitre 6 : Fonctions de plusieurs variables\nGénéralités, normes sur IRⁿ (euclidienne, d'ordre p, infinie), distance induite par une norme, propriétés\nBoules ouvertes, fermées, sphères sur un espace vectoriel normé\nDérivées partielles, gradient, des fonctions de deux variables\nDifférentiabilité, continuité, accroissement finis\nPoints critiques : maximum et minimum locaux\nRecommandation\nPour une meilleure compréhension du chapitre 6, il est recommandé de traiter des exemples dans IR².\nMode d'évaluation\nExamen (60%), Contrôle continu (40%)\nRéférences bibliographiques\nK. Allab, Eléments d'Analyse, OPU, Alger, 1984.\nJ.-M. Monier, Analyse PCSI-PTSI, Dunod, Paris 2003.\nY. Bougrov et S. Nikolski, Cours de Mathématiques Supérieures, Editions Mir, Moscou, 1983.\nN. Piskounov, Calcul différentiel et intégral, Tome 1, Editions Mir, Moscou, 1980.\nRobert G. Bartle, Donald R. Sherbert, Introduction to Real Analysis (4th Edition), 2011.\nJiri Lebel, Basic Analysis II; Introduction to Real Analysis, Volume II (2023) (6th Edition).\nG. B. Thomas, M. D. Weir, and Joel Hass, Calculus and Analytic Geometry, Pearson 2014 (13ème édition)."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

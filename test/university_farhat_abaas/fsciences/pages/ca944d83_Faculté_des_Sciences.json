@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/sites_departements/mi",
+      "title": "Faculté des Sciences",
+      "id": "ca944d83",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:43:34",
+      "hash": "d0fb7ee3d66a7ec2",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "مستجدات\nإعــلان للطلبة\nمكتبة الكلية\nقراءة المزيد\nاالامتحانات التعويضية (السداسي الثاني)\nالسنة الأولى رياضيات وإعلام آلي\nقراءة المزيد\nتوزيع الطلبة حسب مكان الامتحان – السداسي الثاني 2026/2025\nليسانس – السنة الأولى رياضيات\nقراءة المزيد\nتوزيع الطلبة حسب مكان الامتحان – السداسي الثاني 2026/2025\nليسانس – السنة الأولى إعلام آلي\nقراءة المزيد\nتوزيع الطلبة حسب مكان الامتحان – السداسي الثاني 2026/2025\nالسنة الأولى – مهندس دولة في الإعلام الآلي\nقراءة المزيد\nتوزيع الطلبة حسب مكان الامتحان – السداسي الثاني 2026/2025\nMédecine - Big Data\nقراءة المزيد\nجدول الامتحانات – الفصل الثاني (دورة: ماي 2026)\nالسنة الأولى رياضيات وإعلام آلي (03/05/2026)\nقراءة المزيد\nإعلان لفائدة الطلبة المعيدين\nالسنة الأولى ل.م.د رياضيات و ل.م.د إعلام آلي\nقراءة المزيد\nالتوزيعات الاسبوعية\nاللجان البيداغوجية\nمواقيت الامتحانات"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "قراءة المزيد",
+        "url": "http://fsciences.univ-setif.dz/annonces/9118",
+        "type": "internal"
+      },
+      {
+        "text": "قراءة المزيد",
+        "url": "http://fsciences.univ-setif.dz/annonces/9116",
+        "type": "internal"
+      },
+      {
+        "text": "قراءة المزيد",
+        "url": "http://fsciences.univ-setif.dz/annonces/9094",
+        "type": "internal"
+      },
+      {
+        "text": "قراءة المزيد",
+        "url": "http://fsciences.univ-setif.dz/annonces/9093",
+        "type": "internal"
+      },
+      {
+        "text": "قراءة المزيد",
+        "url": "http://fsciences.univ-setif.dz/annonces/9092",
+        "type": "internal"
+      },
+      {
+        "text": "قراءة المزيد",
+        "url": "http://fsciences.univ-setif.dz/annonces/9091",
+        "type": "internal"
+      },
+      {
+        "text": "قراءة المزيد",
+        "url": "http://fsciences.univ-setif.dz/annonces/9063",
+        "type": "internal"
+      },
+      {
+        "text": "قراءة المزيد",
+        "url": "http://fsciences.univ-setif.dz/annonces/8440",
+        "type": "internal"
+      },
+      {
+        "text": "mi",
+        "url": "http://fsciences.univ-setif.dz/sites_departements/mi",
+        "type": "internal"
+      },
+      {
+        "text": "التوزيعات الاسبوعية",
+        "url": "http://fsciences.univ-setif.dz/pedagogie/edt",
+        "type": "internal"
+      },
+      {
+        "text": "اللجان البيداغوجية",
+        "url": "http://fsciences.univ-setif.dz/pedagogie/cp",
+        "type": "internal"
+      },
+      {
+        "text": "مواقيت الامتحانات",
+        "url": "http://fsciences.univ-setif.dz/uploads/article/fichier/3060/Planning_Examens_MI_S2-2025.pdf",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "مواقيت الامتحانات",
+        "url": "http://fsciences.univ-setif.dz/uploads/article/fichier/3060/Planning_Examens_MI_S2-2025.pdf",
+        "local_file": "pdfs/ca944d83_مواقيت_الامتحانات.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

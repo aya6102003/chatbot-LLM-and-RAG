@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_FONDAMENTALE_L3/S5-POO2.html",
+      "title": "Programmation Orientée Objet 2",
+      "id": "d4c94466",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:26",
+      "hash": "2fb3672212d0924e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Programmation Orientée Objet 2\nSemestre :\n5  |\nUnité d'enseignement :\nMéthodologie\nObjectifs du cours\nApprofondir les concepts de la POO (héritage, polymorphisme, encapsulation).\nIntroduire les structures de données arborescentes (arbres binaires).\nContenu du cours\nChapitre 1 : Programmation avancée orientée objet en Python\nHéritage : Classes mères et classes filles, super().\nPolymorphisme.\nEncapsulation et gestion de la visibilité.\nChapitre 2 : Structures de données arborescentes (en Python)\nArbres binaires : concepts et terminologie.\nImplémentation des arbres binaires.\nParcours des arbres binaires (avant ordre, dans l'ordre, après ordre).\nMode d'évaluation\nContrôle continu : 50%\nExamen : 50%\nBibliographie\nLuciano Ramalho, \"Fluent Python\" (covers advanced Python OOP concepts)\nRobert Sedgewick and Kevin Wayne, \"Algorithms\" (for deeper insights into tree data structures)"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S2-TPCP2.html",
+      "title": "TP Chimie",
+      "id": "bcad6ca3",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:15",
+      "hash": "be75eb3e9d0c8542",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : TP Chimie-Physique II / TP Cinétique Chimique\nObjectifs de l'enseignement – TP Chimie-Physique II\nApprendre à l'étudiant à manipuler ou à effectuer des analyses spectrales et chromatographiques.\nConnaissances préalables recommandées\nNotions acquises dans l'unité fondamentale et en licence.\nLa liste des TP citée ci-dessous n'est pas exhaustive. Elle constitue une orientation d'ordre général et dépendra des ressources disponibles pour chaque établissement.\nContenu TP Chimie-Physique II (selon disponibilité)\nTP sur la spectroscopie de masse\nTP sur la spectroscopie d'absorption et d'émission atomique\nAnalyse par CPG\nAnalyse par HPLC\nAnalyse en SAA ou en Colorimétrie\nRéférences bibliographiques – TP Chimie-Physique II\nSpectrométrie d'absorption atomique : Applications à l'analyse chimique, Maurice Pinta et Coll, ÉDITEURS MASSON et Cie, Paris, 1971.\nCours de Chimie Analytique et caractérisation des matériaux. La spectrométrie. Steve Gillet, D. Sc., Website : http://perso.latribu.com/shagar.\nL'analyse thermique, A P Rollet ; R Bouaziz, Editeur : Paris, Gauthier-Villars, 1972.\nChimie Analytique (SKOOG, WEST, HOLLER) – Edition de Boeck 1997.\nObjectifs de l'enseignement – TP Cinétique Chimique\nCes TP permettent de relier « théorie et pratique », en couvrant les concepts clés du programme : lois de vitesse, mécanismes, catalyse et méthodes expérimentales.\nConnaissances préalables recommandées\nBases de thermodynamique chimique : notions d'enthalpie libre (ΔG, constante d'équilibre).\nBase de la cinétique chimique : loi de vitesse, ordre de réaction et temps de demi-réaction (t₁/₂), loi d'Arrhenius…\nContenu TP Cinétique\nTP 1 : Les facteurs influant sur la vitesse d'une réaction chimique (Température et concentration)\nTP 2 : Mécanisme réactionnel et approximation de l'état quasi stationnaire (AEQS)\nTP 3 : Cinétique de la décomposition du peroxyde d'hydrogène (H₂O₂) catalysée par des ions métalliques (Fe³⁺/Cu²⁺)\nTP 4 : Cinétique de la réaction de décomposition du bleu de méthylène (BM) en présence de glucose et catalyseur (NaOH) – Étude par spectrophotométrie\nTP 5 : Cinétique des réactions en chaîne\nTP 6 : Catalyse homogène (enzymatique ou acido-basique)\nTP 7 : Suivi de la cinétique d'une réaction chimique par titrage\nTP 8 : Suivi de la cinétique d'une réaction chimique par conductimétrie\nTP 9 : Suivi de la cinétique d'une réaction chimique par spectrophotométrie"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

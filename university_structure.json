@@ -1,0 +1,246 @@
+{
+  "faculte": "Sciences",
+  "general": {},
+  "departements": [
+    {
+      "nom": "Tronc Commun Sciences de la Matière",
+      "filieres": [
+        {
+          "nom": "Chimie",
+          "niveaux": [
+            {
+              "nom": "Licence",
+              "specialites": [
+                {
+                  "nom": "Sciences de la Matière (Tronc Commun)",
+                  "annees": [{ "nom": "L1" }]
+                },
+                {
+                  "nom": "Chimie Générale",
+                  "annees": [{ "nom": "L2" }, { "nom": "L3" }]
+                }
+              ]
+            },
+            {
+              "nom": "Master",
+              "specialites": [
+                {
+                  "nom": "Chimie de l'Environnement",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                },
+                {
+                  "nom": "Chimie Physique",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                },
+                {
+                  "nom": "Chimie Pharmaceutique",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                },
+                {
+                  "nom": "Chimie Analytique et Analyse",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                },
+                {
+                  "nom": "Chimie Analytique et Contrôle Qualité",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                },
+                {
+                  "nom": "Chimie de l'Environnement et de l'Eau",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                }
+              ]
+            },{ "nom": "Doctorat" }
+          ]
+        },
+        {
+          "nom": "Physique",
+          "niveaux": [
+            {
+              "nom": "Licence",
+              "specialites": [
+                {
+                  "nom": "Sciences de la Matière (Tronc Commun)",
+                  "annees": [{ "nom": "L1" }]
+                },
+                {
+                  "nom": "Licence en Physique Fondamentale",
+                  "annees": [{ "nom": "L2" }, { "nom": "L3" }]
+                },
+                {
+                  "nom": "Licence en Physique et Imagerie Médicale",
+                  "annees": [{ "nom": "L2" }, { "nom": "L3" }]
+                },
+                {
+                  "nom": "Licence en Physique Appliquée",
+                  "annees": [{ "nom": "L2" }, { "nom": "L3" }]
+                }
+              ]
+            },
+            {
+              "nom": "Master",
+              "specialites": [
+                {
+                  "nom": "Physique des Matériaux",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                },
+                {
+                  "nom": "Physique Energétique et Energies Renouvelables",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                },
+                {
+                  "nom": "Physique Médicale",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                },
+                {
+                  "nom": "Physique des Rayonnements",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                },
+                {
+                  "nom": "Physique Théorique",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                }
+              ]
+            },{ "nom": "Doctorat" }
+          ]
+        }
+      ]
+    },
+    {
+      "nom": "Informatique",
+      "niveaux": [
+        {
+          "nom": "Ingénieur",
+          "specialites": [
+            {
+              "nom": "Ingénieur Informatique Tronc commun",
+              "annees": [{ "nom": "I1" }, { "nom": "I2" }]
+            },
+            {
+              "nom": "Ingénieur Informatique option Intelligence Artificielle",
+              "annees": [{ "nom": "I3" }, { "nom": "I4" }, { "nom": "I5" }]
+            },
+            {
+              "nom": "Ingénieur Informatique option Génie Logiciel",
+              "annees": [{ "nom": "I3" }, { "nom": "I4" }, { "nom": "I5" }]
+            }
+          ]
+        },
+        {
+          "nom": "Licence",
+          "specialites": [
+            {
+              "nom": "1ère année Informatique LMD",
+              "annees": [{ "nom": "L1" }]
+            },
+            {
+              "nom": "Licence Informatique (Systèmes Informatiques)",
+              "annees": [{ "nom": "L2" }, { "nom": "L3" }]
+            },
+            {
+              "nom": "Licence Médecine et Big Data",
+              "annees": [{ "nom": "L2" }, { "nom": "L3" }]
+            },
+            {
+              "nom": "Licence Mathématiques et Informatiques appliquées aux Sciences Économiques",
+              "annees": [{ "nom": "L2" }, { "nom": "L3" }]
+            }
+          ]
+        },
+        {
+          "nom": "Master",
+          "parcours": [
+            {
+              "nom": "Académique",
+              "specialites": [
+                {
+                  "nom": "Ingénierie des Données et Technologie Web",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                },
+                {
+                  "nom": "Réseaux et Systèmes Distribués",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                },
+                {
+                  "nom": "Fondements et Ingénierie de l'Information et de l'Image",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                },
+                {
+                  "nom": "Ingénierie des Systèmes d'Information",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                },
+                {
+                  "nom": "Science des Données",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                }
+              ]
+            },
+            {
+              "nom": "Professionnel",
+              "specialites": [
+                {
+                  "nom": "Cyber Security",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                },
+                {
+                  "nom": "Informatique Quantique",
+                  "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+                }
+              ]
+            }
+          ]
+        },{ "nom": "Doctorat" }
+      ]
+    },
+    {
+      "nom": "Mathématiques",
+      "niveaux": [
+        {
+          "nom": "Licence",
+          "specialites": [
+            {
+              "nom": "1ère année Mathématiques LMD",
+              "annees": [{ "nom": "L1" }]
+            },
+            {
+              "nom": "1ère année Mathématiques Appliquées LMD",
+              "annees": [{ "nom": "L1" }]
+            },
+            {
+              "nom": "Licence de Mathématiques",
+              "annees": [{ "nom": "L2" }, { "nom": "L3" }]
+            }
+          ]
+        },
+        {
+          "nom": "Master",
+          "specialites": [
+            {
+              "nom": "Mathématiques Appliquées",
+              "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+            },
+            {
+              "nom": "Algèbre et Géométrie",
+              "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+            },
+            {
+              "nom": "Analyse Non Linéaire et Equations DP",
+              "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+            },
+            {
+              "nom": "Optimisation et Contrôle",
+              "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+            },
+            {
+              "nom": "Analyse Mathématique et Applications",
+              "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+            },
+            {
+              "nom": "Equations aux Dérivées Partielles et Applications",
+              "annees": [{ "nom": "M1" }, { "nom": "M2" }]
+            }
+          ]
+        },{ "nom": "Doctorat" }
+      ]
+    }
+  ]
+}

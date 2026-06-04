@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_DES_RAYONNEMENTS/S1-LOS.html",
+      "title": "Open Source Software for Radiation Physics",
+      "id": "cdd21efd",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:01",
+      "hash": "5e693d26534cd7db",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Semestre :\n1  |\nUE :\nMéthodologie (UEM 1)  |\nCrédits :\n1  |\nCoefficient :\n1\nMode d'évaluation :\nContrôle continu : 50%\nExamen : 50%\nObjectifs de l'enseignement\nInitier les étudiants à l'utilisation d'outils logiciels libres pour la simulation, la visualisation et l'analyse des phénomènes liés aux rayonnements ionisants.\nFamiliariser les étudiants avec les codes Monte Carlo et outils de visualisation pour les applications en radioprotection, physique nucléaire et imagerie.\nDévelopper des compétences pratiques en simulation numérique, interprétation des résultats et traitement des données expérimentales.\nConnaissances préalables recommandées\nBases solides en interaction rayonnement-matière et physique nucléaire\nConnaissances préalables en calcul numérique\nFamiliarité avec Linux et la programmation scientifique (Python ou C++)\nContenu de la matière\nChapitre I : Introduction aux logiciels open source en physique des rayonnements\nPhilosophie open source et outils communautaires\nPrésentation des codes Monte Carlo : (PHITS et/ou FLUKA), Geant4, OpenMC\nEnvironnements de simulation : Linux, scripts Bash, Visualisation 3D\nChapitre II : Modélisation Monte Carlo avec OpenMC\nStructure d'un fichier d'entrée : géométrie, matériaux, sources\nMéthodes de transport neutronique, photonique et particules chargées\nParamètres de calcul, résultats et convergence statistique\nChapitre III : Simulations Geant4 ou PHITS appliquées aux rayonnements\nArchitecture des codes Geant4 et PHITS ou FLUKA, classes et initialisation\nDéfinition des matériaux, géométries, générateurs de particules\nApplications aux détecteurs et interactions complexes\nChapitre IV : Visualisation et analyse des résultats\nUtilisation de ParaView, VisIt, ROOT pour l'analyse des trajectoires et flux\nVisualisation des spectres et histogrammes\nExportation et traitement de données\nChapitre V : Radioprotection et dosimétrie\nÉtudes de blindage : modélisation d'un mur, caisson, enceinte\nEstimation de doses absorbées et équivalentes\nCas d'application : salles de radiologie, installations nucléaires\nChapitre VI : Analyse de données expérimentales\nPython pour l'analyse de données (NumPy, Pandas, Matplotlib)\nTraitement de spectres gamma expérimentaux\nAjustement de courbes, calibration d'énergie\nChapitre VII : Mini-projet thématique\nProjet en binôme sur une application spécifique (blindage, spectrométrie, dosimétrie)\nRédaction d'un rapport synthétique et présentation orale\nRéférences bibliographiques\nPHITS particle and heavy ion transport code system, User's Manual, Ver 3.35\nhttps://fluka.cern/documentation\nAllison J. et al., \"Recent developments in Geant4\", NIM A, 2016\nRomano P.K. et al., \"OpenMC: A state-of-the-art Monte Carlo code for nuclear applications\", Annals of Nuclear Energy, 2015\nROOT CERN : https://root.cern.ch\nGeant4 : https://geant4.web.cern.ch\nOpenMC : https://openmc.org\nVisualisation : https://www.paraview.org, https://wci.llnl.gov/simulation/computer-codes/visit"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

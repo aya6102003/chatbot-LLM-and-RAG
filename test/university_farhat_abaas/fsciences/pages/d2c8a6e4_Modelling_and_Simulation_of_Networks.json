@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S1-MSN.html",
+      "title": "Modelling and Simulation of Networks",
+      "id": "d2c8a6e4",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:53",
+      "hash": "c4b347f6cf6ac2f6",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nModelling and Simulation of Networks  |\nSemester:\n1  |\nType:\nUEM1\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLectures:\n1h30  |\nTD:\n0  |\nTP:\n1h30\nPersonal work VHS:\n21h  |\nCoefficient:\n2  |\nCredits:\n5\nTeaching Objectives\nIntroduce students to the problems of modelling and performance evaluation of computer systems and communication networks\nProvide methods and tools essential for the dimensioning of any network architecture or protocol\nTeach discrete-event simulation techniques as design and performance analysis aids\nStudents will practice simulation software used in academic and industrial environments such as NS2 and OMNET++\nRecommended Prerequisites\nBasic concepts of computer networks\nCourse Content (Lectures: 21h)\nPerformance issues related to computer systems and networks\nAnalytical performance modelling methods (queuing theory, Petri Nets, stochastic processes)\nSimulation tools (discrete-event simulations)\nSimulation software, e.g., NS2, OMNET++\nRandom number generation\nSimulation data analysis\nCase studies: cache performance; traffic engineering concepts; bandwidth management; modelling and impact of traffic on network performance\nAssessment\nExam: 60%\nContinuous assessment: 40%\nBibliographic References\nM. A. Niazi, \"Modeling and Simulation of Complex Communication Networks\", Institution of Engineering and Technology, 2019.\nK. Chen, \"Évaluation de performances par simulation et analyse - applications aux réseaux informatiques\", Editions iSTE, 2014.\nR. M. Fujimoto, G. Riley et K. Perumalla, \"Network Simulation\", Morgan and Claypool Publishers, 2006."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_INFORMATIQUE/S1-ELEC.html",
+      "title": "S1 Elec.Html",
+      "id": "b2086ee8",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:45:06",
+      "hash": "cf4a02d23635685e",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Electricité générale\nSemestre :\n1  |\nUE :\nUED11  |\nCrédits :\n4  |\nCoefficient :\n2\nObjectifs de l'enseignement\nA la fin de ce cours, l'étudiant devra acquérir les connaissances élémentaires en électricité et magnétisme (Calcul des champs et Potentiels électrique et magnétique, Calcul des courants, …), de façon à pouvoir analyser et interpréter les phénomènes qui y sont reliés.\nConnaissances préalables recommandées\nNotions élémentaires de Physique.\nContenu de la matière\nChapitre 1 : Electrostatique\nForces électrostatiques\nChamps\nPotentiel\nDipôle électrique\nThéorème de Gauss\nChapitre 2 : Les conducteurs\nInfluence totale et partielle\nCalcul des capacités – Résistances – Lois\nLoi d'Ohm généralisée\nChapitre 3 : Electrocinétique\nLoi d'Ohm\nLoi de Kirchoff\nLoi de Thévenin – Norton\nChapitre 4 : Magnétostatique\nForce magnétostatique (Lorentz et Laplace)\nChamps magnétiques\nLoi de Biot et Savart\nMode d'évaluation\nExamen (60%), Contrôle continu (40%)\nRéférences bibliographiques\nT. Neffati. Electricité générale. 2008. Editions Dunod.\nD. Bohn. Electricité générale. 2009. Editions SAEP.\nY. Granjon. Electricité générale. 2009. Editions Dunod."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

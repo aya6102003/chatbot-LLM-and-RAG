@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/RESEAUX_ET_SYSTEMES_DISTRIBUES/S2-DS2.html",
+      "title": "Distributed Systems 2",
+      "id": "bddddd1b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:53",
+      "hash": "a95d951b3fa23c74",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Module:\nDistributed Systems 2  |\nSemester:\n2  |\nType:\nUEF22\nVHS:\n42h  |\nWeekly hours:\n3h  |\nLectures:\n1h30  |\nTD:\n1h30  |\nTP:\n-\nPersonal work VHS:\n21h  |\nCoefficient:\n3  |\nCredits:\n4\nTeaching Objectives\nDeepen distributed algorithms, fault tolerance and data consistency\nStudy concrete systems: distributed files, object management, quorums, P2P\nRecommended Prerequisites\nDistributed Systems 1\nCourse Content (Lectures: 21h)\nChapter 1: Advanced Distributed Algorithms\nElection algorithms (Bully, Ring)\nVirtual rings and insertion/removal protocols\nTermination detection (algorithms, applications)\nChapter 2: Fault Tolerance\nFailure assumptions and fault models\nCheckpointing and log-based recovery\nReliable broadcast\nConsensus and quorums (Paxos, Raft — overview)\nChapter 3: Data Consistency and Replication\nConsistency models (strong, sequential, causal, eventual)\nReplication protocols (primary copy, active/passive duplication)\nOrdered group communication (reliable multicast, atomic broadcast)\nChapter 4: Distributed Information Management\nDistributed objects, distributed virtual memory\nCache management, replication and consistency\nLarge-scale dissemination (multicast, pub-sub)\nChapter 5: P2P Systems and Quorums\nP2P architectures: unstructured vs DHT (Chord, Kademlia)\nQuorum systems for tolerance and consistency\nApplications: Blockchain, BitTorrent (examples)\nChapter 6: Case Studies & Modern Technologies\nDistributed files: NFS, AFS, HDFS\nMiddleware and frameworks: Zookeeper, Kafka, gRPC\nMicroservices and service-oriented architecture examples\nAssessment\nContinuous assessment: 40%\nExam: 60%\nBibliographic References\nRachid Guerraoui and Luis Rodrigues, Introduction to Reliable Distributed Programming, Springer, 2010.\nA. S. Tanenbaum, M. van Steen, Distributed Systems - Principles and Paradigms, Prentice Hall, 2002.\nMichel Raynal, Synchronisation et état global dans les systèmes répartis, Éditions Eyrolles, 1992.\nM. Singhal, N. G. Shivaratri, Advanced Concepts in Operating Systems, McGraw-Hill, 1994.\nAjay D. Kshemkalyani, Mukesh Singhal, Distributed Computing: Principles, Algorithms, and Systems, Cambridge University Press, 2008.\nSukumar Ghosh, Distributed Systems: An Algorithmic Approach, Taylor & Francis Group, 2007.\nNancy Lynch, Distributed Algorithms, Elsevier, 1996.\nNicola Santoro, Design and Analysis of Distributed Algorithms, John Wiley & Sons, 2007.\nWeijia Jia and Wanlei Zhou, Distributed Network Systems - From Concepts to Implementations, Springer, 2005.\nRichard John Anthony, Systems Programming: Designing and Developing Distributed Applications, Elsevier, 2016."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

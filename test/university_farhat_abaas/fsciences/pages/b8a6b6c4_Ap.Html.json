@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/AP.html",
+      "title": "Ap.Html",
+      "id": "b8a6b6c4",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:39",
+      "hash": "d6b58f0c45290471",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nAdvanced Programming (AP) — Semester 3, Unit UFC3, Credits: 5, Coeff: 3\nCourse Objectives\nThis course provides an in-depth exploration of advanced Python programming concepts. It covers efficient algorithms, data structures, object-oriented design, functional programming, and concurrency. It also touches on Python's applications in systems programming, web development, data analysis, and machine learning.\nCourse Content\n1. Advanced Python Data Structures\nReview of Core Python Data Types: Lists, sets, dictionaries, and tuples.\nCollections Module: Namedtuples, defaultdicts, Counters, OrderedDicts.\nCustom Data Structures: Implementing stacks, queues, trees, and graphs in Python.\nMemory-efficient Structures: Arrays, deques, and generators.\n2. Object-Oriented Programming in Python\nDeep Dive into Classes and Objects: __init__, __str__, __repr__, __del__, etc.\nInheritance, Encapsulation, and Polymorphism: Method resolution order (MRO), super().\nAbstract Classes and Interfaces: Using abc module.\nDesign Patterns in Python: Singleton, Factory, Observer, Decorator, etc.\nMetaprogramming: Dynamic creation of classes, attributes, and methods using type(), getattr(), setattr().\n3. Functional Programming in Python\nHigher-Order Functions: map(), filter(), reduce(), lambda expressions.\nComprehensions: List, dictionary, and set comprehensions.\nDecorators and Closures: Understanding decorators, function factories, functools module.\nImmutable Data Structures: Namedtuples, frozensets.\nIntroduction to itertools and functools: Efficient iteration, memoization, and lazy evaluation.\n4. Concurrency and Parallelism in Python\nMulti-threading and Multi-processing: Using threading, multiprocessing, and concurrent.futures.\nAsynchronous Programming: asyncio, await, event loops, coroutines.\nConcurrency Control: Locking mechanisms, semaphores, and deadlock prevention.\nParallel Computation: Using Python with GPUs (CUDA, PyCUDA).\n5. Python for Systems Programming\nFile I/O and System Interaction: Working with files, directories, and the OS using os and shutil modules.\nNetwork Programming with Python: Sockets, HTTP requests using socket and requests modules.\nInter-process Communication (IPC): Pipes, queues, and shared memory.\nSignal Handling and Process Control: Managing processes, signals, and system interrupts.\n6. Memory Management and Performance Optimization\nPython Memory Model: Reference counting, garbage collection, and memory leaks.\nProfiling and Optimization: Using cProfile, line_profiler, and memory profilers.\nOptimizing with NumPy: Vectorized operations and array manipulation for performance.\nEfficient Iteration and Lazy Evaluation: Using generators, coroutines, and the yield statement.\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\n“Fluent Python” by Luciano Ramalho\n“Python Cookbook” by David Beazley, Brian K. Jones\n“Effective Python: 90 Specific Ways to Write Better Python” by Brett Slatkin\nOfficial Python Documentation and Libraries"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

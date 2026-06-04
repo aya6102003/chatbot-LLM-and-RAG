@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_ET_IMAGERIE_MEDICALE/S5-ASB.html",
+      "title": "S5 Asb.Html",
+      "id": "b4117b8b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:52:19",
+      "hash": "2ba6a499911bc030",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Intitulé de l'UE :\nMéthodologique\nIntitulé de la matière :\nAutomatique des Systèmes Biomédicaux\nCrédits :\n3\nCoefficient :\n2\nObjectifs de l'enseignement :\nFormer les étudiants sur l'automatisme des équipements utilisés dans le secteur de santé afin qu'ils puissent prendre en charge efficacement la planification de la maintenance ainsi que le contrôle qualité de ces équipements.\nConnaissances préalables recommandées :\nÉlectronique générale ; Électronique Numérique.\nContenu de la matière :\nTraitement de signal\nIntroduction aux systèmes asservis linéaires\nModélisation des systèmes linéaires du 1er et 2ème ordre\nSystème en boucle fermée\nLes problèmes de rétroaction/asservissement\nMode d'évaluation :\nExamen (2/3) et TP (1/3)\nRéférences bibliographiques :\nP. Clerc,\nAutomatique continue et échantillonnée\n, Masson, 1996.\nM. Szafarczyk,\nAutomatic Supervision in Manufacturing\n, Springer-Verlag, 1994.\nKatsuhiko Ogata,\nModern Control Engineering\n, Pearson, 2009."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/PHYSIQUE_THEORIQUE/S2-PSQ2.html",
+      "title": "Physique Statistique Quantique 2",
+      "id": "b6478401",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:51:51",
+      "hash": "07955fd8a146e7ba",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Physique Statistique Quantique 2\nSemestre 2 – UE Fondamentale\nPrérequis\nPhysique statistique quantique 1\nMécanique quantique\nObjectifs de l'enseignement\nCe cours approfondit les bases de la physique statistique quantique acquises dans le module Physique Statistique Quantique 1. Il introduit l'étudiant aux phénomènes hors équilibre, aux équations cinétiques quantiques, ainsi qu'à une première approche de la théorie de la renormalisation appliquée aux systèmes statistiques. L'objectif est d'apporter les outils conceptuels et techniques nécessaires à la compréhension des phénomènes irréversibles et de la dynamique des systèmes quantiques complexes.\nProgramme détaillé\nChapitre 1 : Systèmes quantiques hors équilibre\nEffets de perturbations extérieures sur un système quantique\nÉquation de Liouville et équation de von Neumann\nThéorie de la réponse linéaire : relations de fluctuation-dissipation\nApplications à des systèmes ouverts et modèles de relaxation\nChapitre 2 : Équations cinétiques quantiques\nFonction de distribution quantique\nÉquation de Boltzmann quantique : dérivation, approximations, collisions\nÉquation de Vlasov quantique : dynamique collective et couplage champ moyen\nChapitre 3 : Théorie de la renormalisation\nIntroduction à la renormalisation dans les systèmes statistiques\nApproximation du champ moyen (Mean Field Theory)\nChangement d'échelle et transformation de groupe de renormalisation\nApplications à la transition de phase et à la physique critique\nChapitre 4 : Révisions et approfondissements\nRetour sur les concepts clés du cours\nAnalyse de cas concrets hors équilibre\nMode d'évaluation\nContrôle continu : 33 %\nExamen : 67 %\nRéférences bibliographiques\nL. Landau & E.M. Lifshitz, Physique statistique, Éditions ELLIPSES\nNoëlle Pottier, Physique statistique hors d'équilibre, CNRS Éditions\nW.C. Schieve & L.P. Horwitz, Quantum Statistical Mechanics, Cambridge University Press"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

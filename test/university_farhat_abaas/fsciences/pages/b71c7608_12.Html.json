@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/IQ/12.html",
+      "title": "12.Html",
+      "id": "b71c7608",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:57:33",
+      "hash": "c31cf0c0238f3202",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI.   Mathematical tools: basic number theory\nII.  Block ciphers - DES and Rijndael\nIII. Public key cryptography - RSA and discrete log systems\nIV. Hash functions\nV.  Authentication and signature schemes\nVI. Cryptographic protocols"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

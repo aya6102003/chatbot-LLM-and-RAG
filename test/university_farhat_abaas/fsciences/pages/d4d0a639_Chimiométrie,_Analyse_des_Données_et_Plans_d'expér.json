@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/CHIMIE_PHYSIQUE/S2-CADPE.html",
+      "title": "Chimiométrie, Analyse des Données et Plans d'expériences",
+      "id": "d4d0a639",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:53:15",
+      "hash": "6c0379fcac5a93de",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Matière : Chimiométrie, Analyse des Données et Plans d'expériences\nObjectifs de l'enseignement\nComprendre les principes de la chimiométrie appliquée aux données expérimentales\nExtraire des informations pertinentes et fiables à partir de données chimiques complexes et multivariées\nMaîtriser les outils statistiques et mathématiques nécessaires pour exploiter efficacement les résultats expérimentaux\nConnaître les différents plans d'expériences et savoir choisir ou concevoir le plan le plus approprié pour modéliser et optimiser un système chimique\nConnaissances préalables recommandées\nIl est recommandé d'avoir des bases solides en statistiques de base, en analyse de données et en chimie analytique.\nContenu de la matière\nFondamentaux de la statistique appliquée à la chimie (3 semaines)\nStatistiques descriptives : moyenne, médiane, variance, écart-type, coefficient de variation\nLois de distribution : loi normale, histogrammes, boxplots\nTests d'hypothèses : Student, chi², ANOVA simple\nIntervalles de confiance et niveau de signification (p-value)\nRégression et modélisation statistique (3 semaines)\nPrétraitements des données : centrage, réduction, normalisation\nRégression linéaire simple et multiple\nAjustement de courbes, évaluation du modèle (R², RMSE, résidus)\nSélection de variables : méthodes pas à pas, VIF, critère d'information (AIC)\nValidation croisée\nPlanification des expériences – Design of Experiments (DoE) (2 semaines)\nDéfinitions et historique\nClassification des plans d'expériences\nConcepts fondamentaux : facteur, réponse, interaction, répétabilité\nIntroduction aux plans factoriels complets et fractionnaires (2k)\nPlans factoriels complets à 2 niveaux (2k) (2 semaines)\nConstruction : Matrice d'expériences.\nTraitement : Matrice de calcul des effets.\nÉtude statistique : Régression linéaire, erreurs, tests des effets, analyse de variance (ANOVA) & construction de modèles empiriques.\nOptimisation & Validation.\nExemples d'applications en TP – Logiciels : JMP, Statgraphics, Modde…\nPlans centraux composites à 2 niveaux (2 semaines)\nConstruction : matrice d'expériences\nTraitement : matrice de calcul des effets\nÉtude statistique : régression, erreurs, tests des effets, ANOVA\nModélisation empirique, optimisation et validation\nExemples d'applications en TP avec logiciels (JMP, Statgraphics, Modde, etc.)\nAutres plans d'expériences (3 semaines)\nPlan fractionnaire / Plan de criblage.\nPlan de mélange.\nExemples d'applications en TP : Analyse de données réelles de chimie des matériaux (formulation, …) ; Choix d'un plan d'expérience, collecte/simulation de données, modélisation, interprétation.\nRédaction d'un rapport synthétique des résultats des plans d'expériences.\nRéférences bibliographiques\nJacques Goupy : Les plans d'expériences : Optimisation du choix des essais et de l'interprétation des résultats – Dunod, 5ème édition, 2017\nSado, G., & Sado, M. C. : Les plans d'expériences – De l'expérimentation à l'assurance qualité – Afnor, 2000\nTinsson, W. : Plans d'expériences : constructions et analyses statistiques – Springer Science & Business Media, 2010\nGoupy, J., & Creighton, L. : Introduction aux plans d'expériences – Hachette, 3ème édition, 2006\nDroesbeke, J. J., Fine, J., & Saporta, G. (Eds.) : Plans d'expériences : applications à l'entreprise – Editions Technip, 1997\nLinder, R. : Les plans d'expériences : un outil indispensable à l'expérimentateur – Presses des Ponts, 2005"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

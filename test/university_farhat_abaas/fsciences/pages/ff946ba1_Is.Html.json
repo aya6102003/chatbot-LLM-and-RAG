@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/MIAGE/IS.html",
+      "title": "Is.Html",
+      "id": "ff946ba1",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-05-19T12:44:31",
+      "hash": "5e86ea023a2c6c70",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Course:\nInformation Systems (IS) — Semester 3, Unit UFC3, Credits: 4, Coeff: 2\nCourse Objectives\nThis course provides students with a foundational understanding of Information Systems (IS) and their role in organizations. Students will explore various techniques for information representation, methods for capturing and controlling information, and comprehensive IS development methodologies. The course also integrates additional essential topics such as IS strategy and planning, ethics and security in IS, and emerging trends in the field.\nCourse Content\nChapter 1: Introduction to Information Systems\nDefinition and Importance of IS; Components of IS: People, Process, Technology; Role and importance of IS in organizations.\nTypes of IS: Transaction Processing Systems (TPS), Management Information Systems (MIS), Decision Support Systems (DSS), Executive Information Systems (EIS).\nEvolution of IS: Historical Development, Impact on business processes and decision-making, Trends (Cloud Computing, Mobile Computing, IoT).\nChapter 2: Information Representation Techniques\nData vs. Information vs. Knowledge; Binary and Decimal Systems; Data Encoding Techniques.\nInformation Modeling: Conceptual, logical, and physical data models; Flowcharts; Entity-Relationship Diagrams (ERDs); UML Basics.\nAdvanced Representation Techniques: Semantic Representation (Ontologies, Taxonomies); Knowledge Representation (Concept Maps, Frame-Based Systems).\nChapter 3: Information Capture and Control\nInput Devices and Techniques (Scanners, Sensors, RFID, OCR); Data Entry Methods; Data Quality and Validation.\nAccess Control Mechanisms (Authentication, Authorization, Encryption); Audit Trails and Logging; Information Lifecycle Management.\nChapter 4: IS Development Methodologies\nTraditional vs. Modern Approaches (Waterfall, Agile); Role of Prototyping.\nMERISE Methodology: Introduction, Phases (Conceptual, Organizational, Logical Levels), Case Studies.\nSSADM: Overview, Key Stages, Comparison with MERISE.\nObject-Oriented Methodologies: OOAD, Unified Process (UP).\nAgile Methodologies: Scrum and Extreme Programming (XP).\nEmerging IS Methodologies: Model-Driven Architecture (MDA), Domain-Driven Design (DDD).\nChapter 5: Integration and Future Directions in Information Systems\nSystems Integration Approaches (Middleware, Web Services, API Management).\nFuture Trends: Artificial Intelligence in IS; Quantum Computing and its Impact on IS.\nTeaching Mode\nFace to face mode (100%)\nAssessment Mode\nExam (60%), Continuous assessment (40%)\nRecommended Textbooks\nLaudon, Kenneth C., & Laudon, Jane P. (2022). Management Information Systems: Managing the Digital Firm (17th ed.). Pearson.\nAlter, Steven. (2023). Information Systems: Foundations of E-Business (5th ed.). Pearson.\nGalliers, Robert D., & Leidner, Dorothy E. (2024). Strategic Information Management (5th ed.). Routledge.\nO’Brien, James A., & Marakas, George M. (2023). Introduction to Information Systems (17th ed.). McGraw-Hill Education.\nBeynon-Davies, Paul. (2022). Business Information Systems (4th ed.). Palgrave Macmillan.\nRainer, R. Kelly, Prince, Brad, & Cegielski, Casey. (2023). Introduction to Information Systems (8th ed.). Wiley.\nHirschheim, Rudy, Heinzl, Armin, & Dibbern, Jens. (2024). Information Systems Outsourcing (3rd ed.). Springer."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

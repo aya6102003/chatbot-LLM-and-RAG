@@ -1,0 +1,152 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Master_Chimie_Pharmaceutique.html",
+  "title": "SEMESTRE 2",
+  "headers": [
+    "Unité d'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS15 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité d'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS15 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Autres",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale Code : UEF 2 Crédits : 18 Coefficient : 9",
+      "Synthèse asymétrique",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "55h00",
+      "45h00",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Pharmacognosie et phytochimie",
+      "4",
+      "2",
+      "3h00",
+      "",
+      "",
+      "55h00",
+      "45h00",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Méthodes séparatives chromatographiques et électrophorétiques",
+      "6",
+      "3",
+      "3h00",
+      "1h30",
+      "",
+      "82h30",
+      "67h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Chimie inorganique pharmaceutique",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "55h00",
+      "45h00",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie Code : UEM 2 Crédits : 9 Coefficient : 5",
+      "Contrôle qualité des formes pharmaceutiques et technique separatives",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "55h00",
+      "45h00",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Modélisation moléculaire - Drug Design & IA",
+      "5",
+      "3",
+      "1h30",
+      "1h30",
+      "1h00",
+      "65h00",
+      "60h30",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Découverte Code : UED 2 Crédits : 2 Coefficient : 2",
+      "Catalyse organométallique",
+      "2",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "05h00",
+      "45h00",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Transversale Code : UET 2 Crédits : 1 Coefficient : 1",
+      "Intelligence artificielle et Machine Learning 2",
+      "1",
+      "1",
+      "",
+      "",
+      "1h30",
+      "2h30",
+      "22h30",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 2",
+      "30",
+      "17",
+      "13h30",
+      "7h30",
+      "4h00",
+      "375h",
+      "375h"
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 7
+}
