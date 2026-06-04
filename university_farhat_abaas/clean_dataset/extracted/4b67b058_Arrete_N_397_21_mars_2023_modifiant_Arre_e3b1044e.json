@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\pdfs\\4b67b058_Arrete_N_397_21_mars_2023_modifiant_Arre.pdf",
+      "name": "4b67b058_Arrete_N_397_21_mars_2023_modifiant_Arre.pdf",
+      "type": "pdf",
+      "size_bytes": 1983490,
+      "id": "e3b1044e"
+    },
+    "extracted_at": "2026-06-04T15:18:09.481546"
+  },
+  "content": {
+    "text": "\n\n\n\n\n\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      },
+      {
+        "page": 4,
+        "text": ""
+      },
+      {
+        "page": 5,
+        "text": ""
+      },
+      {
+        "page": 6,
+        "text": ""
+      },
+      {
+        "page": 7,
+        "text": ""
+      },
+      {
+        "page": 8,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/416",
+      "title": "Faculté des Sciences",
+      "id": "2782d01e",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:23:46",
+      "hash": "7b5c28af2c8d5296",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "RAHMOUNI Samra\nRAHMOUNI Samra\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:samra.rahmouni@univ-setif.dz\nEmail:samra.rahmouni@univ-setif.dz\nDépartement:Chimie\nBureau:\nBureau:\n\nPolycopie pédagogique Travaux dirigés « TD » Cristallographie 3ème\nPolycopie de TD"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "2368",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2368",
+        "type": "internal"
+      }
+    ],
+    "images": [],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/2782d01e_table_1_untitled.json",
+        "rows": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\pdfs\\92885450_parcours_p%C3%A9dagogiques.pdf",
+      "name": "92885450_parcours_p%C3%A9dagogiques.pdf",
+      "type": "pdf",
+      "size_bytes": 67566,
+      "id": "66714fb4"
+    },
+    "extracted_at": "2026-06-04T15:19:00.503392"
+  },
+  "content": {
+    "text": "1ère \nannée\n2ème \nannée\n3ème \nannée\nmaster\nLMD Sciences de \nla Matière\nlicence en physique\nparcours LMD en Sciences de la Matière\nles programmes détaillés des parcours sont dans la rubrique guide pédagogique au niveau du site\nlicence physique \nfondamentale\nphysique théorique\nphysique des \nmatériaux\nchimie physique\nchimie de \nl'environnement\nlicence en chimie\nlicence physique \nappliquée\nphysique des \nrayonnements\nphysique \nénergétique et \nénergies \nrenouvelables\nphysique médicale\nchimie \npharmaceutique\nchimie analytique  \net analyse\nlicence en chimie\n\n1ère \nannée\n2ème \nannée\n3ème \nannée\nmaster\nLMD \nmathématiques\nlicence en \nmathématiques\nparcours LMD en mathématiques\nles programmes détaillés des parcours sont dans la rubrique guide pédagogique au niveau du site\nlicence en \nmathématiques\nmathématiques \nappliquées\nanalyse non linéaire \net équations \ndifférentielles \npartielles\nalgèbre et \ngéomètrie\noptimisation et\ncontrôle\n\n1ère \nannée\n2ème \nannée\n3ème \nannée\nmaster\nLMD informatique\nlicence en \nsystèmes \ninformatiques\nparcours LMD en informatique\nles programmes détaillés des parcours sont dans la rubrique guide pédagogique au niveau du site\nlicence en \nsystèmes \ninformatiques\ningénierie des \ndonnées et \ntechnologie web\nréseaux et \nsystèmes distribués\nfondement et \ningénierie de \nl'information et de \nl'image\ncyber security\ninformatique \nquantique\n\n1ère \nannée\n2ème \nannée\n3ème \nannée\n4ème \nannée\ningéniorat en \ninformatique\ningéniorat en \ninformatique\ningéniorat en \nintélligence \nartificielle\ningéniorat en \ngénie logiciel\ningéniorat en \nintélligence \nartificielle\nigéniorat en \ngénie logiciel\n5ème \nannée\ningéniorat en \nintélligence \nartificielle\ningéniorat en \ngénie logiciel\nparcours ingéniorat en informatique\nles programmes détaillés des parcours sont dans la rubrique guide pédagogique au niveau du site\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "1ère \nannée\n2ème \nannée\n3ème \nannée\nmaster\nLMD Sciences de \nla Matière\nlicence en physique\nparcours LMD en Sciences de la Matière\nles programmes détaillés des parcours sont dans la rubrique guide pédagogique au niveau du site\nlicence physique \nfondamentale\nphysique théorique\nphysique des \nmatériaux\nchimie physique\nchimie de \nl'environnement\nlicence en chimie\nlicence physique \nappliquée\nphysique des \nrayonnements\nphysique \nénergétique et \nénergies \nrenouvelables\nphysique médicale\nchimie \npharmaceutique\nchimie analytique  \net analyse\nlicence en chimie"
+      },
+      {
+        "page": 2,
+        "text": "1ère \nannée\n2ème \nannée\n3ème \nannée\nmaster\nLMD \nmathématiques\nlicence en \nmathématiques\nparcours LMD en mathématiques\nles programmes détaillés des parcours sont dans la rubrique guide pédagogique au niveau du site\nlicence en \nmathématiques\nmathématiques \nappliquées\nanalyse non linéaire \net équations \ndifférentielles \npartielles\nalgèbre et \ngéomètrie\noptimisation et\ncontrôle"
+      },
+      {
+        "page": 3,
+        "text": "1ère \nannée\n2ème \nannée\n3ème \nannée\nmaster\nLMD informatique\nlicence en \nsystèmes \ninformatiques\nparcours LMD en informatique\nles programmes détaillés des parcours sont dans la rubrique guide pédagogique au niveau du site\nlicence en \nsystèmes \ninformatiques\ningénierie des \ndonnées et \ntechnologie web\nréseaux et \nsystèmes distribués\nfondement et \ningénierie de \nl'information et de \nl'image\ncyber security\ninformatique \nquantique"
+      },
+      {
+        "page": 4,
+        "text": "1ère \nannée\n2ème \nannée\n3ème \nannée\n4ème \nannée\ningéniorat en \ninformatique\ningéniorat en \ninformatique\ningéniorat en \nintélligence \nartificielle\ningéniorat en \ngénie logiciel\ningéniorat en \nintélligence \nartificielle\nigéniorat en \ngénie logiciel\n5ème \nannée\ningéniorat en \nintélligence \nartificielle\ningéniorat en \ngénie logiciel\nparcours ingéniorat en informatique\nles programmes détaillés des parcours sont dans la rubrique guide pédagogique au niveau du site"
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

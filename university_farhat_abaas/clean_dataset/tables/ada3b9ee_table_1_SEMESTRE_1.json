@@ -1,0 +1,157 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/CS.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n14 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n14 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale  1.1  Crédits : 9Coefficients : 5",
+      "DMSS: Designing and Managing Secure Systems",
+      "5",
+      "3",
+      "1h30",
+      "",
+      "1h30",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "AC: Advanced Cryptography",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale  1.2  Crédits : 9Coefficients : 5",
+      "A2CS: Artificial Intelligence for Cyber Security",
+      "5",
+      "3",
+      "1h30",
+      "",
+      "1h30",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "QC: Quantum Computing",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "42h00",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie 1.1Crédits : 5Coefficients : 3",
+      "USA: Unix System Administration",
+      "3",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "CAV: Computer-Aided Verification",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "1h30",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie 1.2 Crédits : 4Coefficients : 2",
+      "AVR: Augmented and Virtual Reality",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "1h30",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "CC: Cybercrime",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "1h30",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversaleCrédits : 3Coefficients : 2",
+      "CE 1: Communication skills in English 1",
+      "3",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "42h00",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "17",
+      "13h30",
+      "1h30",
+      "12h00",
+      "378h",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 12,
+  "col_count": 7
+}

@@ -1,0 +1,139 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Licence_Mathematiques_Appliquees.html",
+  "title": "SEMESTRE 2",
+  "headers": [
+    "Unité d'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS14 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité d'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS14 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Travail personnel",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE FondamentaleCode : UEF 2Crédits : 18Coefficients : 11",
+      "Analyse 2",
+      "6",
+      "4",
+      "3h00",
+      "3h",
+      "",
+      "3h",
+      "84h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Algèbre 2",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "3h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Algorithmique et structure de données 2",
+      "4",
+      "3",
+      "1h30",
+      "1h30",
+      "1h30",
+      "3h",
+      "63h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Introduction aux probabilités et statistique descriptive",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "2h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "UE MéthodologieCode : UEM 2Crédits : 9Coefficients : 5",
+      "Introduction à l'intelligence artificielle",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "",
+      "2h",
+      "21h",
+      "",
+      "100%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Fondements de programmation et calcul scientifique avec Python",
+      "5",
+      "3",
+      "1h30",
+      "",
+      "1h30",
+      "2h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "UE TransversaleCode : UET 2Crédits : 3Coefficients : 2",
+      "Physique 2 (électricité générale)",
+      "3",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "2h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Total Semestre 2",
+      "30",
+      "18",
+      "12h00",
+      "9h00",
+      "3h",
+      "17h",
+      "336h",
+      ""
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 7
+}

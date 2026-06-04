@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\pdfs\\7ca6898d_sm.pdf",
+      "name": "7ca6898d_sm.pdf",
+      "type": "pdf",
+      "size_bytes": 329083,
+      "id": "8a02105d"
+    },
+    "extracted_at": "2026-06-04T15:18:43.887174"
+  },
+  "content": {
+    "text": "N° \nN°inscription \nNom \nPrénom \n1 \n252535411715 \nBAHLOULI \nYasmine \n2 \n252535428108 \nBOUIBAOUNE \nImene \n3 \n252535428215 \nKEBOUR \nBouchra \n4 \n252535362603 \nKHERFIA \nZinebayeterrahmane \n5 \n252535515312 \nLARABA \nRiyadh \n6 \n252535389908 \nTABET \nSadjeda Ibtihal  \n7 \n222235434905     \nBOUDABA \nMaria \n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "N° \nN°inscription \nNom \nPrénom \n1 \n252535411715 \nBAHLOULI \nYasmine \n2 \n252535428108 \nBOUIBAOUNE \nImene \n3 \n252535428215 \nKEBOUR \nBouchra \n4 \n252535362603 \nKHERFIA \nZinebayeterrahmane \n5 \n252535515312 \nLARABA \nRiyadh \n6 \n252535389908 \nTABET \nSadjeda Ibtihal  \n7 \n222235434905     \nBOUDABA \nMaria"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "N°",
+          "N°inscription",
+          "Nom",
+          "Prénom"
+        ],
+        "rows": [
+          {
+            "N°": "1",
+            "N°inscription": "252535411715",
+            "Nom": "BAHLOULI",
+            "Prénom": "Yasmine"
+          },
+          {
+            "N°": "2",
+            "N°inscription": "252535428108",
+            "Nom": "BOUIBAOUNE",
+            "Prénom": "Imene"
+          },
+          {
+            "N°": "3",
+            "N°inscription": "252535428215",
+            "Nom": "KEBOUR",
+            "Prénom": "Bouchra"
+          },
+          {
+            "N°": "4",
+            "N°inscription": "252535362603",
+            "Nom": "KHERFIA",
+            "Prénom": "Zinebayeterrahmane"
+          },
+          {
+            "N°": "5",
+            "N°inscription": "252535515312",
+            "Nom": "LARABA",
+            "Prénom": "Riyadh"
+          },
+          {
+            "N°": "6",
+            "N°inscription": "252535389908",
+            "Nom": "TABET",
+            "Prénom": "Sadjeda Ibtihal"
+          },
+          {
+            "N°": "7",
+            "N°inscription": "222235434905",
+            "Nom": "BOUDABA",
+            "Prénom": "Maria"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

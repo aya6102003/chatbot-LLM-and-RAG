@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9125",
+      "title": "Faculté des Sciences",
+      "id": "1aa69306",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:39:30",
+      "hash": "a1873b5ffa9d802d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nELECTION DES INSTANCES SCIENTIFIQUES\nCalendrier"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Annonce election instances scientifiques",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6540/Annonce_election_instances_scientifiques.pdf",
+        "local_file": "pdfs/1aa69306_Annonce_election_instances_scientifiques.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

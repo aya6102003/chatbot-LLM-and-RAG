@@ -1,0 +1,150 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/IDTW.html",
+  "title": "SEMESTRE 3",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n15 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n15 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Autres",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale 1\nCrédits : 10\nCoefficients : 5",
+      "EDD: Entrepôts de données",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "3h",
+      "90h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "AA2:Apprentissage automatique 2",
+      "6",
+      "3",
+      "1h30",
+      "",
+      "1h30",
+      "6h",
+      "135h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 2\nCrédits : 8\nCoefficients : 4",
+      "WM: Web mining",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "3h",
+      "90h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "RIW: Recherche d’informations sur le web",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "4h",
+      "90h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie Crédits : 9Coefficients : 5",
+      "W3D:Web 3D",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "3h",
+      "90h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "SMA: Systèmes multi-agents",
+      "5",
+      "3",
+      "1h30",
+      "",
+      "1h30",
+      "5h",
+      "120h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversaleCrédits : 3Coefficients : 3",
+      "Anglais3",
+      "2",
+      "2",
+      "1h30",
+      "",
+      "",
+      "1h30",
+      "45h",
+      "",
+      "100%"
+    ],
+    [
+      "MR: Méthodologie de recherche",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "",
+      "23h30",
+      "",
+      "100%"
+    ],
+    [
+      "Total Semestre 3",
+      "30",
+      "17",
+      "12h",
+      "",
+      "9h",
+      "25h30",
+      "682h30"
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 7
+}

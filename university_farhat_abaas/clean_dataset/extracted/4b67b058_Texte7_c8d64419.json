@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\pdfs\\4b67b058_Texte7.pdf",
+      "name": "4b67b058_Texte7.pdf",
+      "type": "pdf",
+      "size_bytes": 680312,
+      "id": "c8d64419"
+    },
+    "extracted_at": "2026-06-04T15:18:14.343432"
+  },
+  "content": {
+    "text": "\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

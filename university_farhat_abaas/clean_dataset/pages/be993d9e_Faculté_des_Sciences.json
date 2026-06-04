@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9123",
+      "title": "Faculté des Sciences",
+      "id": "be993d9e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:47:45",
+      "hash": "7e629d085b3b5b43",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nAUX ÉTUDIANTS L2. L3 ET MASTER PHYSIQUE\nيرجى من الطلبة المرفقة اسماءهم بالقائمة الاتصال بمكتبة الكلية لتسوية وضعيتهم"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [
+      {
+        "title": "physique",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6538/physique.pdf",
+        "local_file": "pdfs/be993d9e_physique.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

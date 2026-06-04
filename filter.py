@@ -18,7 +18,7 @@ PDFS_DIR   = BASE_DIR / "pdfs"
 IMAGES_DIR = BASE_DIR / "images"
 TABLES_DIR = BASE_DIR / "tables"
 
-OUTPUT_DIR = BASE_DIR / "clean_dataset"
+OUTPUT_DIR = Path("./university_farhat_abaas/clean_dataset")
 
 OUT_PAGES  = OUTPUT_DIR / "pages"
 OUT_DOCS   = OUTPUT_DIR / "docs"
@@ -51,12 +51,12 @@ def normalize_text(text: str) -> str:
 
     text = re.sub(r"[_\.\-/\\]+", " ", text)
 
-    text = re.sub(r"([a-z])([A-Z])", r"\\1 \\2", text)
+    # FIX: use single backslash for backreferences (was \\1 \\2)
+    text = re.sub(r"([a-z])([A-Z])", r"\1 \2", text)
+    text = re.sub(r"(\d)([a-z])", r"\1 \2", text)
+    text = re.sub(r"([a-z])(\d)", r"\1 \2", text)
 
-    text = re.sub(r"(\\d)([a-z])", r"\\1 \\2", text)
-    text = re.sub(r"([a-z])(\\d)", r"\\1 \\2", text)
-
-    text = re.sub(r"\\s+", " ", text)
+    text = re.sub(r"\s+", " ", text)
 
     return text.strip()
 
@@ -150,7 +150,7 @@ COMMON_SUBSTRINGS = [
 ]
 
 NUMBERED_KEYWORD_RE = re.compile(
-    r"\\b(td|tp|serie|series|exam|chapitre|chap|seance|module|partie|part|niveau)\\s*\\d+\\b"
+    r"\b(td|tp|serie|series|exam|chapitre|chap|seance|module|partie|part|niveau)\s*\d+\b"
 )
 
 # ─────────────────────────────────────────────────────────────
@@ -171,7 +171,7 @@ DAY_WORDS = re.compile(
 )
 
 TIME_PATTERN = re.compile(
-    r"\\b\\d{1,2}[:h]\\d{0,2}\\b",
+    r"\b\d{1,2}[:h]\d{0,2}\b",
     re.IGNORECASE,
 )
 
@@ -208,13 +208,10 @@ def is_schedule(text: str, tables: list, file_name: str = ""):
 
     if has_schedule_word:
         score += 4
-
     if has_days:
         score += 2
-
     if has_times:
         score += 2
-
     if has_tables:
         score += 1
 
@@ -222,17 +219,20 @@ def is_schedule(text: str, tables: list, file_name: str = ""):
 
 
 def should_keep_document(text, tables, file_name=""):
-
+    # Always keep schedules (timetables, exam schedules, etc.)
     if is_schedule(text, tables, file_name):
         return True
 
+    # FIX: keep documents that match course keywords (was: return False)
     if has_course_keywords(text, file_name):
-        return False
+        return True
 
+    # Drop if there's not enough text to judge content
     if len(normalize_text(text)) < MIN_TEXT_CHARS:
         return False
 
-    return False
+    # FIX: keep anything else with sufficient text (was: return False)
+    return True
 
 
 # ─────────────────────────────────────────────────────────────
@@ -240,18 +240,9 @@ def should_keep_document(text, tables, file_name=""):
 # ─────────────────────────────────────────────────────────────
 
 def image_has_text(image_meta):
-    """
-    SIMPLE VERSION:
-    keep images only if alt/desc contain text.
-    
-    Later you can upgrade with OCR.
-    """
-
     alt  = image_meta.get("alt", "")
     desc = image_meta.get("desc", "")
-
     text = normalize_text(f"{alt} {desc}")
-
     return len(text) > 5
 
 
@@ -259,14 +250,7 @@ def image_has_text(image_meta):
 # OUTPUT FOLDERS
 # ─────────────────────────────────────────────────────────────
 
-for folder in [
-    OUT_PAGES,
-    OUT_DOCS,
-    OUT_PDFS,
-    OUT_IMAGES,
-    OUT_TABLES,
-    OUT_LOGS,
-]:
+for folder in [OUT_PAGES, OUT_DOCS, OUT_PDFS, OUT_IMAGES, OUT_TABLES, OUT_LOGS]:
     folder.mkdir(parents=True, exist_ok=True)
 
 # ─────────────────────────────────────────────────────────────
@@ -283,96 +267,60 @@ json_files = list(PAGES_DIR.glob("*.json"))
 
 print(f"FOUND {len(json_files)} JSON FILES")
 
+kept_docs_count   = 0
+dropped_docs_count = 0
+
 for json_file in json_files:
-
     try:
-
         with open(json_file, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        page_url = (
-            data.get("metadata", {})
-                .get("page", {})
-                .get("url", "")
-        )
+        page_url     = data.get("metadata", {}).get("page", {}).get("url", "")
+        content_text = data.get("content", {}).get("text", "")
+        resources    = data.get("resources", {})
+        tables       = resources.get("tables", [])
 
-        content_text = (
-            data.get("content", {})
-                .get("text", "")
-        )
-
-        resources = data.get("resources", {})
-
-        tables = resources.get("tables", [])
-
-        # ─────────────────────────────────────────
-        # DROP production pedagogiques pages
-        # ─────────────────────────────────────────
-
+        # ── Drop blocked pages ────────────────────────────────
         if BLOCKED_URL in page_url:
-
             print(f"DROP PAGE: {json_file.name}")
 
-            # track docs
             for doc in resources.get("documents", []):
                 local_file = doc.get("local_file")
-
                 if local_file:
                     dropped_files.add(Path(local_file).name)
 
-            # track tables
             for table in tables:
                 table_file = table.get("file")
-
                 if table_file:
                     dropped_files.add(Path(table_file).name)
 
             continue
 
-        # ─────────────────────────────────────────
-        # CLEAN IMAGES
-        # ─────────────────────────────────────────
+        # ── Clean images ──────────────────────────────────────
+        resources["images"] = [
+            img for img in resources.get("images", [])
+            if image_has_text(img)
+        ]
 
-        clean_images = []
-
-        for image in resources.get("images", []):
-
-            if image_has_text(image):
-                clean_images.append(image)
-
-        resources["images"] = clean_images
-
-        # ─────────────────────────────────────────
-        # CLEAN DOCUMENTS
-        # ─────────────────────────────────────────
-
+        # ── Clean documents ───────────────────────────────────
         clean_docs = []
 
         for doc in resources.get("documents", []):
-
             title = doc.get("title", "")
 
-            if should_keep_document(
-                text=content_text,
-                tables=tables,
-                file_name=title,
-            ):
+            if should_keep_document(text=content_text, tables=tables, file_name=title):
                 clean_docs.append(doc)
+                kept_docs_count += 1
             else:
                 local_file = doc.get("local_file")
-
                 if local_file:
                     dropped_files.add(Path(local_file).name)
+                dropped_docs_count += 1
 
         resources["documents"] = clean_docs
 
-        # ─────────────────────────────────────────
-        # SAVE CLEAN PAGE
-        # ─────────────────────────────────────────
-
-        output_json = OUT_PAGES / json_file.name
-
-        with open(output_json, "w", encoding="utf-8") as f:
+        # ── Save cleaned page ─────────────────────────────────
+        with open(OUT_PAGES / json_file.name, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
     except Exception as e:
@@ -383,21 +331,27 @@ for json_file in json_files:
 # ─────────────────────────────────────────────────────────────
 
 def copy_valid_files(src_dir, dst_dir):
-
     if not src_dir.exists():
+        print(f"SKIP (not found): {src_dir}")
         return
 
-    for file in src_dir.iterdir():
+    copied = 0
+    dropped = 0
 
+    for file in src_dir.iterdir():
         if file.name in dropped_files:
             print(f"DROP FILE: {file.name}")
-            continue
+            dropped += 1
+        else:
+            shutil.copy2(file, dst_dir / file.name)
+            copied += 1
 
-        shutil.copy2(file, dst_dir / file.name)
+    print(f"  {src_dir.name}: {copied} copied, {dropped} dropped")
 
 
-copy_valid_files(DOCS_DIR, OUT_DOCS)
-copy_valid_files(PDFS_DIR, OUT_PDFS)
+print("\n── Copying files ──")
+copy_valid_files(DOCS_DIR,   OUT_DOCS)
+copy_valid_files(PDFS_DIR,   OUT_PDFS)
 copy_valid_files(IMAGES_DIR, OUT_IMAGES)
 copy_valid_files(TABLES_DIR, OUT_TABLES)
 
@@ -408,10 +362,11 @@ copy_valid_files(TABLES_DIR, OUT_TABLES)
 log_file = OUT_LOGS / "dropped_files.txt"
 
 with open(log_file, "w", encoding="utf-8") as f:
-
     for item in sorted(dropped_files):
-        f.write(item + "\\n")
+        f.write(item + "\n")
 
-print("\\nFILTERING FINISHED")
-print(f"DROPPED FILES: {len(dropped_files)}")
-print(f"CLEAN DATASET SAVED TO: {OUTPUT_DIR}")
+print("\nFILTERING FINISHED")
+print(f"DOCUMENTS KEPT:    {kept_docs_count}")
+print(f"DOCUMENTS DROPPED: {dropped_docs_count}")
+print(f"FILES DROPPED:     {len(dropped_files)}")
+print(f"CLEAN DATASET:     {OUTPUT_DIR}")

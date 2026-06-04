@@ -1,0 +1,152 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Licence Chimie.html",
+  "title": "SEMESTRE 5",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n15 Semaines",
+    "Autre*",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n15 Semaines",
+      "Autre*",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "CC*",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale\nCrédits : 18\nCoefficients : 9",
+      "Chimie organique III",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "82h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Thermodynamique des solutions",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "82h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Spectroscopie Moleculaire",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "82h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie \nCrédits : 9\nCoefficients : 5",
+      "Chimie analytique II",
+      "5",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "57h30",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Choisir une matière parmi:\r\n        - TP Synthèse organique\r\n        - TP Chimie analytique II",
+      "2",
+      "1",
+      "",
+      "",
+      "1h30",
+      "22h30",
+      "27h30",
+      "100%",
+      "",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Choisir une matière parmi: \r\n        - TP Thermodynamique des solutions\r\n        - TP Modélisation moléculaire",
+      "2",
+      "1",
+      "",
+      "",
+      "1h30",
+      "22h30",
+      "27h30",
+      "100%",
+      "",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Découverte\nCrédits : 2\nCoefficients : 1",
+      "Choisir une matière parmi:\r\n        - Chimie des matériaux\r\n        - Chimie macromolécualire\r\n        - Chimie de l'environnement",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "27h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Transversale\nCrédits : 1\nCoefficients : 1",
+      "Entreprenariat",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "2h30",
+      "",
+      "100%"
+    ],
+    [
+      "Total Semestre 5",
+      "30",
+      "16",
+      "15h",
+      "6h",
+      "3h",
+      "360h",
+      "390h"
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 8
+}

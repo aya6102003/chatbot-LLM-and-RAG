@@ -1,0 +1,139 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Licence_Mathematiques.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n14 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n14 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Travail personnel",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE FondamentalesCode : UEF11(O/P)Crédits : 11Coefficients : 7",
+      "UEF111 : Analyse 1",
+      "6",
+      "4",
+      "3h00",
+      "3h00",
+      "",
+      "3h",
+      "84h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UEF112 : Algèbre 1",
+      "5",
+      "3",
+      "1h30",
+      "1h30",
+      "",
+      "3h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UEF121 : Algorithmique et structure de données 1",
+      "6",
+      "4",
+      "3h00",
+      "1h30",
+      "3h",
+      "3h",
+      "105h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE MéthodologieCode : UEM11(O/P)Crédits : 9Coefficients : 5",
+      "UEM111 : Structure machine",
+      "5",
+      "3",
+      "1h30",
+      "1h30",
+      "",
+      "3h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UEM112 : Logiciels libres (Open source)",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "",
+      "2h",
+      "21h",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversaleCode : UET11(O/P)Crédits : 2Coefficients : 1",
+      "UET111 : Langue étrangère",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "",
+      "2h",
+      "21h",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE DécouverteCode : UED11(O/P)Crédits : 2Coefficients : 1",
+      "UED111 : Choisir une Matière parmi :- Physique 1 (mécanique du point)- Electronique et composants des systèmes",
+      "2",
+      "1",
+      "1h30",
+      "1h30",
+      "",
+      "2h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×\n\n\n\n\n\n Electronique \n\n\n ×"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "18",
+      "13h30",
+      "9h",
+      "3h",
+      "18h",
+      "357h"
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 7
+}

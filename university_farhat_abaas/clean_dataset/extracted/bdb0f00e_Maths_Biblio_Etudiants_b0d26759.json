@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\pdfs\\bdb0f00e_Maths_Biblio_Etudiants.pdf",
+      "name": "bdb0f00e_Maths_Biblio_Etudiants.pdf",
+      "type": "pdf",
+      "size_bytes": 412471,
+      "id": "b0d26759"
+    },
+    "extracted_at": "2026-06-04T15:19:26.317983"
+  },
+  "content": {
+    "text": "1\n232435517305\nKAMEL\nMalak\n2\n242435358812\nLAGGOUNE\nHind \n3\n242435345216\nMADANI\nMalak\n4\n232335399513\nNOURI\nHana\n5\n232335389111\nOUARET\nHadjer\n6\n232335341209\nRIGHI\nChahd\n7\n232435533411\nTARCHOUNE\nDouaa\n8\n242435379711\nTOUMIAT\nKhalil errahmane\n9\n232435515004\nZELLAGUI\nZahia ranine\n10\n202035060972    \nDEBBIHI\nYASSER\n11\n222235347320\nCHAKER\nKheireddine\n12\n232335409805\nDJABER\nYasmine\n13\n232335383903\nHERBADJI\nNour elhouda\n14\n232335383720\nKALOUL\nAbderrahmane\n15\n232335375120\nSAGHIRI\nImane\n16\n232335406107\nSEBIA\nSelma\n17\n212135074905\nLAYADI\nAyet-errahmane\n18\n222235381217\nZINAI\nTaghrid ala erahmene \n19\n222235374501\nNAAMANE\nAlâ  \n20\n202035055787\nBELTAS\nKhaoula\n21\n202035059781\nBENYAYA\nSelsabil\n22\n212135060213\nZAIOU\nAhed\n23\n192031054559\nCHOUACHE\nCharihene\n24\n212135056862\nHARZALLAOUI\nFatima\n25\n212135064321\nBADECHE\nNassim\n26\n212135059790\nDRIDI\nMostafa\n27\n212135054508\nKAMEL\nAbderrahmane\n28\n212135076449\nKHANNOUS\nKatia\n29\n202035052300\nBENDJEDDOU\nIbtihal\n30\n212135060117\nLAIB\nSara\n31\n2,02035E+11\nHADDAR\nHAMAME\nN°\nN°inscription\nNom\nPrénom\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "1\n232435517305\nKAMEL\nMalak\n2\n242435358812\nLAGGOUNE\nHind \n3\n242435345216\nMADANI\nMalak\n4\n232335399513\nNOURI\nHana\n5\n232335389111\nOUARET\nHadjer\n6\n232335341209\nRIGHI\nChahd\n7\n232435533411\nTARCHOUNE\nDouaa\n8\n242435379711\nTOUMIAT\nKhalil errahmane\n9\n232435515004\nZELLAGUI\nZahia ranine\n10\n202035060972    \nDEBBIHI\nYASSER\n11\n222235347320\nCHAKER\nKheireddine\n12\n232335409805\nDJABER\nYasmine\n13\n232335383903\nHERBADJI\nNour elhouda\n14\n232335383720\nKALOUL\nAbderrahmane\n15\n232335375120\nSAGHIRI\nImane\n16\n232335406107\nSEBIA\nSelma\n17\n212135074905\nLAYADI\nAyet-errahmane\n18\n222235381217\nZINAI\nTaghrid ala erahmene \n19\n222235374501\nNAAMANE\nAlâ  \n20\n202035055787\nBELTAS\nKhaoula\n21\n202035059781\nBENYAYA\nSelsabil\n22\n212135060213\nZAIOU\nAhed\n23\n192031054559\nCHOUACHE\nCharihene\n24\n212135056862\nHARZALLAOUI\nFatima\n25\n212135064321\nBADECHE\nNassim\n26\n212135059790\nDRIDI\nMostafa\n27\n212135054508\nKAMEL\nAbderrahmane\n28\n212135076449\nKHANNOUS\nKatia\n29\n202035052300\nBENDJEDDOU\nIbtihal\n30\n212135060117\nLAIB\nSara\n31\n2,02035E+11\nHADDAR\nHAMAME\nN°\nN°inscription\nNom\nPrénom"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "N°",
+          "N°inscription",
+          "Nom",
+          "Prénom"
+        ],
+        "rows": [
+          {
+            "N°": "1",
+            "N°inscription": "232435517305",
+            "Nom": "KAMEL",
+            "Prénom": "Malak"
+          },
+          {
+            "N°": "2",
+            "N°inscription": "242435358812",
+            "Nom": "LAGGOUNE",
+            "Prénom": "Hind"
+          },
+          {
+            "N°": "3",
+            "N°inscription": "242435345216",
+            "Nom": "MADANI",
+            "Prénom": "Malak"
+          },
+          {
+            "N°": "4",
+            "N°inscription": "232335399513",
+            "Nom": "NOURI",
+            "Prénom": "Hana"
+          },
+          {
+            "N°": "5",
+            "N°inscription": "232335389111",
+            "Nom": "OUARET",
+            "Prénom": "Hadjer"
+          },
+          {
+            "N°": "6",
+            "N°inscription": "232335341209",
+            "Nom": "RIGHI",
+            "Prénom": "Chahd"
+          },
+          {
+            "N°": "7",
+            "N°inscription": "232435533411",
+            "Nom": "TARCHOUNE",
+            "Prénom": "Douaa"
+          },
+          {
+            "N°": "8",
+            "N°inscription": "242435379711",
+            "Nom": "TOUMIAT",
+            "Prénom": "Khalil errahmane"
+          },
+          {
+            "N°": "9",
+            "N°inscription": "232435515004",
+            "Nom": "ZELLAGUI",
+            "Prénom": "Zahia ranine"
+          },
+          {
+            "N°": "10",
+            "N°inscription": "202035060972",
+            "Nom": "DEBBIHI",
+            "Prénom": "YASSER"
+          },
+          {
+            "N°": "11",
+            "N°inscription": "222235347320",
+            "Nom": "CHAKER",
+            "Prénom": "Kheireddine"
+          },
+          {
+            "N°": "12",
+            "N°inscription": "232335409805",
+            "Nom": "DJABER",
+            "Prénom": "Yasmine"
+          },
+          {
+            "N°": "13",
+            "N°inscription": "232335383903",
+            "Nom": "HERBADJI",
+            "Prénom": "Nour elhouda"
+          },
+          {
+            "N°": "14",
+            "N°inscription": "232335383720",
+            "Nom": "KALOUL",
+            "Prénom": "Abderrahmane"
+          },
+          {
+            "N°": "15",
+            "N°inscription": "232335375120",
+            "Nom": "SAGHIRI",
+            "Prénom": "Imane"
+          },
+          {
+            "N°": "16",
+            "N°inscription": "232335406107",
+            "Nom": "SEBIA",
+            "Prénom": "Selma"
+          },
+          {
+            "N°": "17",
+            "N°inscription": "212135074905",
+            "Nom": "LAYADI",
+            "Prénom": "Ayet-errahmane"
+          },
+          {
+            "N°": "18",
+            "N°inscription": "222235381217",
+            "Nom": "ZINAI",
+            "Prénom": "Taghrid ala erahmene"
+          },
+          {
+            "N°": "19",
+            "N°inscription": "222235374501",
+            "Nom": "NAAMANE",
+            "Prénom": "Alâ"
+          },
+          {
+            "N°": "20",
+            "N°inscription": "202035055787",
+            "Nom": "BELTAS",
+            "Prénom": "Khaoula"
+          },
+          {
+            "N°": "21",
+            "N°inscription": "202035059781",
+            "Nom": "BENYAYA",
+            "Prénom": "Selsabil"
+          },
+          {
+            "N°": "22",
+            "N°inscription": "212135060213",
+            "Nom": "ZAIOU",
+            "Prénom": "Ahed"
+          },
+          {
+            "N°": "23",
+            "N°inscription": "192031054559",
+            "Nom": "CHOUACHE",
+            "Prénom": "Charihene"
+          },
+          {
+            "N°": "24",
+            "N°inscription": "212135056862",
+            "Nom": "HARZALLAOUI",
+            "Prénom": "Fatima"
+          },
+          {
+            "N°": "25",
+            "N°inscription": "212135064321",
+            "Nom": "BADECHE",
+            "Prénom": "Nassim"
+          },
+          {
+            "N°": "26",
+            "N°inscription": "212135059790",
+            "Nom": "DRIDI",
+            "Prénom": "Mostafa"
+          },
+          {
+            "N°": "27",
+            "N°inscription": "212135054508",
+            "Nom": "KAMEL",
+            "Prénom": "Abderrahmane"
+          },
+          {
+            "N°": "28",
+            "N°inscription": "212135076449",
+            "Nom": "KHANNOUS",
+            "Prénom": "Katia"
+          },
+          {
+            "N°": "29",
+            "N°inscription": "202035052300",
+            "Nom": "BENDJEDDOU",
+            "Prénom": "Ibtihal"
+          },
+          {
+            "N°": "30",
+            "N°inscription": "212135060117",
+            "Nom": "LAIB",
+            "Prénom": "Sara"
+          },
+          {
+            "N°": "31",
+            "N°inscription": "2,02035E+11",
+            "Nom": "HADDAR",
+            "Prénom": "HAMAME"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

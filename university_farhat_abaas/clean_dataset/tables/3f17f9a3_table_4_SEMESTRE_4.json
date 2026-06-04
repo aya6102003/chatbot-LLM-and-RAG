@@ -1,0 +1,37 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/CAA.html",
+  "title": "SEMESTRE 4",
+  "headers": [
+    "Unité  d'Enseignement",
+    "Crédits"
+  ],
+  "rows": [
+    [
+      "Unité  d'Enseignement",
+      "Crédits",
+      "Coeff"
+    ],
+    [
+      "Stage en entreprise sanctionné par un mémoire et une soutenance.",
+      "17",
+      "9"
+    ],
+    [
+      "Séminaires",
+      "2",
+      "1"
+    ],
+    [
+      "Travail Personnel",
+      "11",
+      "5"
+    ],
+    [
+      "Total Semestre 4",
+      "30",
+      "15"
+    ]
+  ],
+  "row_count": 5,
+  "col_count": 2
+}

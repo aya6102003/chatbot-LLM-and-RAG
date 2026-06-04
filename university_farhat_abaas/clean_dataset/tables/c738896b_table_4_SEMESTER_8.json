@@ -1,0 +1,153 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/ING_GENIE_LOGICIEL.html",
+  "title": "SEMESTER 8",
+  "headers": [
+    "Teaching Unit",
+    "Subject",
+    "Credits",
+    "Coefficient",
+    "Weekly Teaching Hours",
+    "VHS14 weeks",
+    "Assessment",
+    "Details"
+  ],
+  "rows": [
+    [
+      "Teaching Unit",
+      "Subject",
+      "Credits",
+      "Coefficient",
+      "Weekly Teaching Hours",
+      "VHS14 weeks",
+      "Assessment",
+      "Details"
+    ],
+    [
+      "Lecture",
+      "Tutorial",
+      "Lab",
+      "Other",
+      "Continuous",
+      "Exam"
+    ],
+    [
+      "UE FundamentalsCode: UEF1Credits: 8Coefficients: 6",
+      "Architecture and Management of Advanced Information Systems",
+      "4",
+      "3",
+      "1h30",
+      "1h30",
+      "1h30",
+      "",
+      "63h",
+      "40%",
+      "60%",
+      "Learn more×"
+    ],
+    [
+      "Big Data and NoSQL Databases",
+      "4",
+      "3",
+      "1h30",
+      "1h30",
+      "1h30",
+      "",
+      "63h",
+      "40%",
+      "60%",
+      "Learn more×"
+    ],
+    [
+      "UE FundamentalsCode: UEF2Credits: 12Coefficients: 7",
+      "Software Architectures",
+      "4",
+      "2",
+      "1h30",
+      "-",
+      "1h30",
+      "",
+      "42h",
+      "40%",
+      "60%",
+      "Learn more×"
+    ],
+    [
+      "Software Process Models and Management",
+      "4",
+      "3",
+      "1h30",
+      "1h30",
+      "1h30",
+      "",
+      "63h",
+      "40%",
+      "60%",
+      "Learn more×"
+    ],
+    [
+      "Software Testing and Quality Assurance",
+      "4",
+      "2",
+      "1h30",
+      "-",
+      "1h30",
+      "",
+      "42h",
+      "40%",
+      "60%",
+      "Learn more×"
+    ],
+    [
+      "UE MethodologyCode: UEM1Credits: 6Coefficients: 4",
+      "Modelling and Performance Evaluation of Systems",
+      "3",
+      "2",
+      "1h30",
+      "1h30",
+      "-",
+      "",
+      "42h",
+      "40%",
+      "60%",
+      "Learn more×"
+    ],
+    [
+      "Mobile Operating Systems",
+      "3",
+      "2",
+      "01h30",
+      "-",
+      "1h30",
+      "",
+      "42h",
+      "40%",
+      "60%",
+      "Learn more×"
+    ],
+    [
+      "UE TransversalCode: UET1Credits: 4Coefficients: 3",
+      "Multidisciplinary Project",
+      "4",
+      "3",
+      "-",
+      "-",
+      "03H00",
+      "",
+      "42h",
+      "100% Soutenance",
+      "Learn more×"
+    ],
+    [
+      "Total Semester 8",
+      "30",
+      "20",
+      "10h30",
+      "6h00",
+      "12h00",
+      "",
+      "399h"
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 8
+}

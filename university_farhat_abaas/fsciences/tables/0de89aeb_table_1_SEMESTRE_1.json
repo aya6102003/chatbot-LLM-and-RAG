@@ -1,0 +1,148 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/info_quant.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n14-16\r\nSemaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n14-16\r\nSemaines",
+      "Mode d'évaluation",
+      ""
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen",
+      ""
+    ],
+    [
+      "UE Fondamentale 1\nCrédits : 10\nCoefficients : 7",
+      "Algorithms and Parallel Architectures",
+      "6",
+      "4",
+      "3h",
+      "",
+      "1h30",
+      "63h",
+      "40%",
+      "60%",
+      "Savoir plus"
+    ],
+    [
+      "Advanced Algorithms and complexity",
+      "4",
+      "3",
+      "1h30",
+      "",
+      "1h30",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 2\nCrédits : 9\nCoefficients : 5",
+      "Quantum Mechanics",
+      "5",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "63h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Advanced Linear Algebra",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus"
+    ],
+    [
+      "UE Méthodologie 1 \nCrédits : 6\nCoefficients : 4",
+      "Artificial Intelligence",
+      "3",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Advanced Networking",
+      "3",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Découverte\nCrédits : 3\nCoefficients : 1",
+      "Nano Electronics",
+      "3",
+      "1",
+      "1h30",
+      "",
+      "1h30",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Transversale\nCrédits : 2\nCoefficients : 1",
+      "Communication in English",
+      "2",
+      "1",
+      "",
+      "3h",
+      "",
+      "42h",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "18",
+      "13h30",
+      "6h",
+      "7h30",
+      "320h",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 7
+}

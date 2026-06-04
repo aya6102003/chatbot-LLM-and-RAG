@@ -1,0 +1,128 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/ING_GENIE_LOGICIEL.html",
+  "title": "SEMESTER 5",
+  "headers": [
+    "Teaching Unit",
+    "Subject",
+    "Credits",
+    "Coefficient",
+    "Weekly Teaching Hours",
+    "VHS14 weeks",
+    "Assessment",
+    "Details"
+  ],
+  "rows": [
+    [
+      "Teaching Unit",
+      "Subject",
+      "Credits",
+      "Coefficient",
+      "Weekly Teaching Hours",
+      "VHS14 weeks",
+      "Assessment",
+      "Details"
+    ],
+    [
+      "Lecture",
+      "Tutorial",
+      "Lab",
+      "Other",
+      "Continuous",
+      "Exam"
+    ],
+    [
+      "UE FundamentalsCode: UEF1Credits: 11Coefficients: 8",
+      "Advanced Algorithmics and Complexity",
+      "6",
+      "4",
+      "03H00",
+      "01H30",
+      "01H30",
+      "",
+      "84H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Software Engineering (GL)",
+      "6",
+      "4",
+      "03H00",
+      "01H30",
+      "01H30",
+      "",
+      "84H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE FundamentalsCode: UEF2Credits: 10Coefficients: 7",
+      "Database Administration and Architecture",
+      "5",
+      "4",
+      "01H30",
+      "-",
+      "03H00",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Operating Systems: Synchronization and Communication",
+      "5",
+      "3",
+      "03H00",
+      "01H30",
+      "01H30",
+      "",
+      "84H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE MethodologyCode: UEM1Credits: 5Coefficients: 3",
+      "Optimisation Techniques (TOp)",
+      "5",
+      "3",
+      "01H30",
+      "01H30",
+      "-",
+      "",
+      "42H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE DiscoveryCode: UED1Credits: 3Coefficients: 2",
+      "Foundations of Artificial Intelligence (FIA)",
+      "3",
+      "2",
+      "01H30",
+      "-",
+      "01H30",
+      "",
+      "42H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Total Semester 5",
+      "30",
+      "20",
+      "13H30",
+      "06H00",
+      "09H00",
+      "",
+      "399H"
+    ]
+  ],
+  "row_count": 9,
+  "col_count": 8
+}

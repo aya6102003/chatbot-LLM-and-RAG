@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9119",
+      "title": "Faculté des Sciences",
+      "id": "712b914e",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:45:07",
+      "hash": "554b3b9f2dcace13",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nLES ÉTUDIANTS DONT LES NOMS FIGURENT DANS LE TABLEAU CI-JOINT SONT PRIÉS DE SE PRÉSENTER À LA BIBLIOTHÈQUE DE LA FACULTÉ AFIN DE RÉGULARISER LEUR SITUATION CONCERNANT LES OUVRAGES EMPRUNTÉS.\nDans les plus brefs délais."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [
+      {
+        "title": "Maths Biblio Etudiants",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6534/Maths_Biblio_Etudiants.pdf",
+        "local_file": "pdfs/712b914e_Maths_Biblio_Etudiants.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

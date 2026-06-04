@@ -1,0 +1,138 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Licence_MIAGE.html",
+  "title": "SEMESTER 6",
+  "headers": [
+    "TeachingUnit",
+    "Course",
+    "Credits",
+    "Coefficient",
+    "Weekly Teaching Hours",
+    "Assessment Mode",
+    "Teaching Mode",
+    "Details"
+  ],
+  "rows": [
+    [
+      "TeachingUnit",
+      "Course",
+      "Credits",
+      "Coefficient",
+      "Weekly Teaching Hours",
+      "Assessment Mode",
+      "Teaching Mode",
+      "Details"
+    ],
+    [
+      "Lecture",
+      "TD",
+      "Lab",
+      "Exam",
+      "Continuous",
+      "Mode",
+      "FTF%/EL%"
+    ],
+    [
+      "CoreComputerScience UnitCode: UFC6Credits: 9Coeff: 5",
+      "E-Commerce",
+      "5",
+      "3",
+      "1H30",
+      "1H30",
+      "",
+      "60%",
+      "40%",
+      "FTF",
+      "100",
+      "Learn more\n\n\n×"
+    ],
+    [
+      "Specialized Software in Economy",
+      "4",
+      "2",
+      "1H30",
+      "1H30",
+      "",
+      "60%",
+      "40%",
+      "FTF",
+      "100",
+      "Learn more\n\n\n×"
+    ],
+    [
+      "FundamentalEconomics UnitCode: UFE6Credits: 9Coeff: 5",
+      "Wage Management",
+      "4",
+      "2",
+      "1H30",
+      "1H30",
+      "",
+      "60%",
+      "40%",
+      "FTF",
+      "100",
+      "Learn more\n\n\n×"
+    ],
+    [
+      "Applied Numerical Methods for Economics",
+      "5",
+      "3",
+      "1H30",
+      "1H30",
+      "",
+      "60%",
+      "40%",
+      "FTF",
+      "100",
+      "Learn more\n\n\n×"
+    ],
+    [
+      "MethodologicalUnitCode: UM6Credits: 9Coeff: 6",
+      "Final Project",
+      "9",
+      "6",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Learn more\n\n\n×"
+    ],
+    [
+      "TransversalUnitCode: UT6Credits: 3Coeff: 2",
+      "Business Criminal Law",
+      "1",
+      "1",
+      "1H30",
+      "",
+      "",
+      "100%",
+      "",
+      "H",
+      "20/80",
+      "Learn more\n\n\n×"
+    ],
+    [
+      "Business Ethics",
+      "2",
+      "1",
+      "1H30",
+      "",
+      "",
+      "100%",
+      "",
+      "H",
+      "20/80",
+      "Learn more\n\n\n×"
+    ],
+    [
+      "Total Semester 6",
+      "30",
+      "18",
+      ""
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 8
+}

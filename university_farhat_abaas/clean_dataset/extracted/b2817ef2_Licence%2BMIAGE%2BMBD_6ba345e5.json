@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\pdfs\\b2817ef2_Licence%2BMIAGE%2BMBD.pdf",
+      "name": "b2817ef2_Licence%2BMIAGE%2BMBD.pdf",
+      "type": "pdf",
+      "size_bytes": 491212,
+      "id": "6ba345e5"
+    },
+    "extracted_at": "2026-06-04T15:19:18.863626"
+  },
+  "content": {
+    "text": " \n \n \n \n \nLicense 2+3 + MIAGE2+MBD2 \n08h00---------09h30\n09h30-------11h00\n11h00----- 12h30\n12h30---------14h00\n14h00-------15h30\n15h30-------17h00\nDimanche\n31/05/26 \nL4+L5+L6+L7 (G1-6): L2 TL\nL10+L11+L12 (G1-5): L3 DSS \nL14: MIAGE2 Fin Math \nL15: MBD2 Data Vis \nL4+L5+L6+L7 (G7-12): L2 TL\nL10+L11+L12 (G6-10): L3 DSS \nL14: MIAGE2 Into Mark \nL15: MBD2  Cloud C \nA1: EXM R L2 ANG\nL08: EXM R L3 RS \nL14: EXM R MIAGE2  Fin Math \nA1: EXM R L2 TL\nL8: EXM R L3 DSS \nL14: EXM R MIAGE+MBD ANG \nLundi\n01/06/26 \nA2: EXM R L2 BD\nL08: EXM R L3 IA \nL14: EXM R MIAGE2  Into Mark  \nL6: EXM R MBD2  Cloud C \nA2: EXM R L2 POO\nL08: EXM R L3 APM \nL14: EXM R MIAGE2 B Iinf Sys \nL6: EXM R MBD2 Big Data T-A \nL4+L5+L6+L7 (G1-6): L2 BD\nL10+L11+L12 (G1-5): L3 IA  \nL14: MIAGE2 EXM R DB \nL15: MBD2  BDTA \nL4+L5+L6+L7 (G7-12): L2 BD\nL10+L11+L12 (G6-10): L3 IA \nL14: MIAGE2  B Iinf Sys \nL7+L8+L9 (G1-5): L3 APM\nL10+L11+L12 (G6-10): L3 APM \nMardi\n02/06/26 \nL4+L5+L6+L7 (G1-6): L2 DAW\nL10+L11+L12 (G1-5): L3 SINF  \nL14: MIAGE2 AD 2 \nL15: MBD2  Know Rep \nL4+L5+L6+L7 (G7-12): L2  DAW \nL10+L11+L12 (G5-10): L3 SINF  \nL14: MIAGE2  MACRO  \nL15: EXM R MBD2 Web Mob App\nL14: EXM R MIAGE2 AD 2\nL15: EXM R MBD2 Know Rep \nA2: EXM R L2 DAW \nA1: EXM R L3 Startup \nL14: EXM R MIAGE2 MACRO\nA1: EXM R L3 SINF \nMercredi\n03/06/26 \nA2: EXM R L2 RES\nL14: MIAGE2 Net Web Tech \nL15: EXM R MBD2 ML 1 \nA2: EXM R L2 SE1\nL14: MIAGE2 IMA \nL15: MBD2  ML 1 \nL4+L5+L6+L7 (G1-6): L2 RES\nL8+L9+L10+L11 (G7-12): L2 SE1 \nL14: MIAGE2 DataBase \nL4+L5+L6+L7 (G7-12): L2 RES\nL8+L9+L10+L11 (G1-6): L2 SE1 \nL14: EXM R MIAGE2  Net Web Tech\nL14:  EXM R MIAGE2 IMA \nL1 (G3,4,7,10,11,12): L2 POO \nL2 (G1,2,5,6,8,9): L2 POO \nL1 (G3,4,7,10,11,12): L2 POO\nL2 (G1,2,5,6,8,9): L2 POO \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "License 2+3 + MIAGE2+MBD2 \n08h00---------09h30\n09h30-------11h00\n11h00----- 12h30\n12h30---------14h00\n14h00-------15h30\n15h30-------17h00\nDimanche\n31/05/26 \nL4+L5+L6+L7 (G1-6): L2 TL\nL10+L11+L12 (G1-5): L3 DSS \nL14: MIAGE2 Fin Math \nL15: MBD2 Data Vis \nL4+L5+L6+L7 (G7-12): L2 TL\nL10+L11+L12 (G6-10): L3 DSS \nL14: MIAGE2 Into Mark \nL15: MBD2  Cloud C \nA1: EXM R L2 ANG\nL08: EXM R L3 RS \nL14: EXM R MIAGE2  Fin Math \nA1: EXM R L2 TL\nL8: EXM R L3 DSS \nL14: EXM R MIAGE+MBD ANG \nLundi\n01/06/26 \nA2: EXM R L2 BD\nL08: EXM R L3 IA \nL14: EXM R MIAGE2  Into Mark  \nL6: EXM R MBD2  Cloud C \nA2: EXM R L2 POO\nL08: EXM R L3 APM \nL14: EXM R MIAGE2 B Iinf Sys \nL6: EXM R MBD2 Big Data T-A \nL4+L5+L6+L7 (G1-6): L2 BD\nL10+L11+L12 (G1-5): L3 IA  \nL14: MIAGE2 EXM R DB \nL15: MBD2  BDTA \nL4+L5+L6+L7 (G7-12): L2 BD\nL10+L11+L12 (G6-10): L3 IA \nL14: MIAGE2  B Iinf Sys \nL7+L8+L9 (G1-5): L3 APM\nL10+L11+L12 (G6-10): L3 APM \nMardi\n02/06/26 \nL4+L5+L6+L7 (G1-6): L2 DAW\nL10+L11+L12 (G1-5): L3 SINF  \nL14: MIAGE2 AD 2 \nL15: MBD2  Know Rep \nL4+L5+L6+L7 (G7-12): L2  DAW \nL10+L11+L12 (G5-10): L3 SINF  \nL14: MIAGE2  MACRO  \nL15: EXM R MBD2 Web Mob App\nL14: EXM R MIAGE2 AD 2\nL15: EXM R MBD2 Know Rep \nA2: EXM R L2 DAW \nA1: EXM R L3 Startup \nL14: EXM R MIAGE2 MACRO\nA1: EXM R L3 SINF \nMercredi\n03/06/26 \nA2: EXM R L2 RES\nL14: MIAGE2 Net Web Tech \nL15: EXM R MBD2 ML 1 \nA2: EXM R L2 SE1\nL14: MIAGE2 IMA \nL15: MBD2  ML 1 \nL4+L5+L6+L7 (G1-6): L2 RES\nL8+L9+L10+L11 (G7-12): L2 SE1 \nL14: MIAGE2 DataBase \nL4+L5+L6+L7 (G7-12): L2 RES\nL8+L9+L10+L11 (G1-6): L2 SE1 \nL14: EXM R MIAGE2  Net Web Tech\nL14:  EXM R MIAGE2 IMA \nL1 (G3,4,7,10,11,12): L2 POO \nL2 (G1,2,5,6,8,9): L2 POO \nL1 (G3,4,7,10,11,12): L2 POO\nL2 (G1,2,5,6,8,9): L2 POO"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "column_0",
+          "08h00---------09h30",
+          "09h30-------11h00",
+          "11h00----- 12h30",
+          "12h30---------14h00",
+          "14h00-------15h30",
+          "15h30-------17h00"
+        ],
+        "rows": [
+          {
+            "column_0": "Dimanche\n31/05/26",
+            "08h00---------09h30": "L4+L5+L6+L7 (G1-6): L2 TL\nL10+L11+L12 (G1-5): L3 DSS\nL14: MIAGE2 Fin Math\nL15: MBD2 Data Vis",
+            "09h30-------11h00": "L4+L5+L6+L7 (G7-12): L2 TL\nL10+L11+L12 (G6-10): L3 DSS\nL14: MIAGE2 Into Mark\nL15: MBD2 Cloud C",
+            "11h00----- 12h30": "A1: EXM R L2 ANG\nL08: EXM R L3 RS\nL14: EXM R MIAGE2 Fin Math",
+            "12h30---------14h00": "A1: EXM R L2 TL\nL8: EXM R L3 DSS\nL14: EXM R MIAGE+MBD ANG",
+            "14h00-------15h30": "A1: EXM R L2 TL\nL8: EXM R L3 DSS\nL14: EXM R MIAGE+MBD ANG",
+            "15h30-------17h00": "A1: EXM R L2 TL\nL8: EXM R L3 DSS\nL14: EXM R MIAGE+MBD ANG"
+          },
+          {
+            "column_0": "Lundi\n01/06/26",
+            "08h00---------09h30": "A2: EXM R L2 BD\nL08: EXM R L3 IA\nL14: EXM R MIAGE2 Into Mark\nL6: EXM R MBD2 Cloud C",
+            "09h30-------11h00": "A2: EXM R L2 POO\nL08: EXM R L3 APM\nL14: EXM R MIAGE2 B Iinf Sys\nL6: EXM R MBD2 Big Data T-A",
+            "11h00----- 12h30": "L4+L5+L6+L7 (G1-6): L2 BD\nL10+L11+L12 (G1-5): L3 IA\nL14: MIAGE2 EXM R DB\nL15: MBD2 BDTA",
+            "12h30---------14h00": "L4+L5+L6+L7 (G7-12): L2 BD\nL10+L11+L12 (G6-10): L3 IA\nL14: MIAGE2 B Iinf Sys",
+            "14h00-------15h30": "L7+L8+L9 (G1-5): L3 APM\nL10+L11+L12 (G6-10): L3 APM",
+            "15h30-------17h00": "L7+L8+L9 (G1-5): L3 APM\nL10+L11+L12 (G6-10): L3 APM"
+          },
+          {
+            "column_0": "Mardi\n02/06/26",
+            "08h00---------09h30": "L4+L5+L6+L7 (G1-6): L2 DAW\nL10+L11+L12 (G1-5): L3 SINF\nL14: MIAGE2 AD 2\nL15: MBD2 Know Rep",
+            "09h30-------11h00": "L4+L5+L6+L7 (G7-12): L2 DAW\nL10+L11+L12 (G5-10): L3 SINF\nL14: MIAGE2 MACRO\nL15: EXM R MBD2 Web Mob App",
+            "11h00----- 12h30": "L14: EXM R MIAGE2 AD 2\nL15: EXM R MBD2 Know Rep\nA2: EXM R L2 DAW\nA1: EXM R L3 Startup",
+            "12h30---------14h00": "L14: EXM R MIAGE2 MACRO\nA1: EXM R L3 SINF",
+            "14h00-------15h30": "L14: EXM R MIAGE2 MACRO\nA1: EXM R L3 SINF",
+            "15h30-------17h00": "L14: EXM R MIAGE2 MACRO\nA1: EXM R L3 SINF"
+          },
+          {
+            "column_0": "Mercredi\n03/06/26",
+            "08h00---------09h30": "A2: EXM R L2 RES\nL14: MIAGE2 Net Web Tech\nL15: EXM R MBD2 ML 1",
+            "09h30-------11h00": "A2: EXM R L2 SE1\nL14: MIAGE2 IMA\nL15: MBD2 ML 1",
+            "11h00----- 12h30": "L4+L5+L6+L7 (G1-6): L2 RES\nL8+L9+L10+L11 (G7-12): L2 SE1\nL14: MIAGE2 DataBase",
+            "12h30---------14h00": "L4+L5+L6+L7 (G7-12): L2 RES\nL8+L9+L10+L11 (G1-6): L2 SE1\nL14: EXM R MIAGE2 Net Web Tech",
+            "14h00-------15h30": "L14: EXM R MIAGE2 IMA\nL1 (G3,4,7,10,11,12): L2 POO\nL2 (G1,2,5,6,8,9): L2 POO",
+            "15h30-------17h00": "L1 (G3,4,7,10,11,12): L2 POO\nL2 (G1,2,5,6,8,9): L2 POO"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/ING_GENIE_LOGICIEL.html",
+  "title": "SEMESTER 6",
+  "headers": [
+    "Teaching Unit",
+    "Subject",
+    "Credits",
+    "Coefficient",
+    "Weekly Teaching Hours",
+    "VHS14 weeks",
+    "Assessment",
+    "Details"
+  ],
+  "rows": [
+    [
+      "Teaching Unit",
+      "Subject",
+      "Credits",
+      "Coefficient",
+      "Weekly Teaching Hours",
+      "VHS14 weeks",
+      "Assessment",
+      "Details"
+    ],
+    [
+      "Lecture",
+      "Tutorial",
+      "Lab",
+      "Other",
+      "Continuous",
+      "Exam"
+    ],
+    [
+      "UE FundamentalsCode: UEF1Credits: 10Coefficients: 7",
+      "Software Design",
+      "5",
+      "4",
+      "01H30",
+      "01H30",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Web Programming (PWEB)",
+      "5",
+      "3",
+      "01H30",
+      "-",
+      "03H00",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE FundamentalsCode: UEF2Credits: 11Coefficients: 7",
+      "Database: Optimisation and Concurrent Access",
+      "5",
+      "3",
+      "01H30",
+      "01H30",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Compilation 1 (COMPIL1)",
+      "6",
+      "4",
+      "03H00",
+      "01H30",
+      "01H30",
+      "",
+      "84H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE MethodologyCode: UEM1Credits: 5Coefficients: 4",
+      "Numerical Analysis",
+      "5",
+      "4",
+      "03H00",
+      "01H30",
+      "-",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE DiscoveryCode: UED1Credits: 4Coefficients: 2",
+      "Introduction to Computer Security (ISEC)",
+      "4",
+      "2",
+      "01H30",
+      "01H30",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Total Semester 6",
+      "30",
+      "20",
+      "12H00",
+      "07H30",
+      "9H00",
+      "",
+      "399H"
+    ]
+  ],
+  "row_count": 9,
+  "col_count": 8
+}

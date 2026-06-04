@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING2EME/PS2.html",
+      "title": "Ps2.Html",
+      "id": "8c1485e0",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:43:16",
+      "hash": "4a75428fa93996fb",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nPartie (A) :\n1 : Propri�t�s de l\u0019'esp�rance\nIntroduction\nEsp�rance d\u0019une somme de variables al�atoires\nCovariance, variance de somme, corr�lation\nEsp�rance conditionnelle\nEsp�rance conditionnelle et pr�diction (*)\nFonctions g�n�ratrice des moments (*)\nAutres propri�t�s des variables al�atoires normales\n2 : Convergence\nIn�galit�s,\nconvergence en probabilit�, loi faible des grands nombres, convergence\nen loi, th�or�me de limite centrale, approximations\nPartie (B) : La statistique inf�rentielle\nTh�orie de l\u0019�chantillonnage\nEstimation\nTests\nQuelques th�mes choisis de probabilit�\nL\u0019enqu�te statistique\nTechniques de sondage\nEsp�rance conditionnelle et pr�diction\nFonctions g�n�ratrice des moments\nProcessus de poisson\nChaines de Markov\nSurprise, incertitude, entropie\nTh�orie du codage et entropie\nSimulation"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

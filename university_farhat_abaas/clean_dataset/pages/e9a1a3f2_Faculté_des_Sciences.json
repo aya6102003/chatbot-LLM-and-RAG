@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/314",
+      "title": "Faculté des Sciences",
+      "id": "e9a1a3f2",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:27:02",
+      "hash": "f409511cecbcc86d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "BENSEGHIR Aissa\nBENSEGHIR Aissa\nGrade:Maitre de conferences classe A\nGrade:Maitre de conferences classe A\nEmail:aissa.benseghir@univ-setif.dz\nEmail:aissa.benseghir@univ-setif.dz\nDépartement:Mathématiques\nBureau:\nBureau:\n\nSéries et équations différentielles\nPolycopie de cours\nSéries de Fourier, Transformée de Fourier, Transformée de Laplace\nPolycopie de cours\nLECTURE NOTES Maths1 Analysis and Algebra1\nPolycopie de cours"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "1283",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1283",
+        "type": "internal"
+      },
+      {
+        "text": "2357",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2357",
+        "type": "internal"
+      },
+      {
+        "text": "2358",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2358",
+        "type": "internal"
+      }
+    ],
+    "images": [],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/e9a1a3f2_table_1_untitled.json",
+        "rows": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9163",
+      "title": "Faculté des Sciences",
+      "id": "1e4fbc51",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:44:49",
+      "hash": "2025f7bd2a31fd44",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nPLANNING DES EXAMENS DE RATTRAPAGE_S2_L2-L3-M1\nDu 4 au 10 Juin 2026"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Planning examen de Rattrapage S2 L2 L3 M1 V2",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6556/Planning_examen_de_Rattrapage_S2_L2-L3-M1_V2.pdf",
+        "local_file": "pdfs/1e4fbc51_Planning_examen_de_Rattrapage_S2_L2_L3_M.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

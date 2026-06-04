@@ -1,0 +1,50 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Master_Physique_Rayonnements.html",
+  "title": "SEMESTRE 4",
+  "headers": [
+    "",
+    "VHS",
+    "Coeff",
+    "Crédits"
+  ],
+  "rows": [
+    [
+      "",
+      "VHS",
+      "Coeff",
+      "Crédits"
+    ],
+    [
+      "Travail Personnel",
+      "450h00",
+      "09",
+      "18"
+    ],
+    [
+      "Stage en entreprise",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Séminaires",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Mémoire (Projet PFE)",
+      "300h00",
+      "07",
+      "12"
+    ],
+    [
+      "Total Semestre 4",
+      "750h00",
+      "16",
+      "30"
+    ]
+  ],
+  "row_count": 6,
+  "col_count": 4
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING2EME/ALG3.html",
+      "title": "Alg3.Html",
+      "id": "2c230f40",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:43:12",
+      "hash": "fcbcf6285881b250",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la mati�re\nI- D�terminants\nD�finitions et propri�t�s.\nD�terminant d\u0019une matrice carr�e et propri�t�s.\nM�thodes de calcul du d�terminant.\nQuelques applications : inversion d\u0019une matrice et r�solution du syst�me de Cramer.\nII- R�solution des syst�mes lin�aires\nD�finitions et propri�t�s.\nSyst�me de n �quations � m inconnues\nEtude au moyen de vecteurs colonnes\nEtude au moyen de vecteurs lignes.\nEtude au moyen des d�terminants.\nIII- R�duction des endomorphismes\nD�finition d\u0019une valeur propre et d\u0019un vecteur propre.\nPolyn�me caract�ristique et propri�t�s\nR�duction d\u0019un endomorphisme.\nApplication � la r�solution des syst�mes diff�rentiels.\nIV- Alg�bre  bilin�aire\nFormes  bilin�aires et formes quadratiques\nEspaces euclidiens, espaces hermitiens, et notion d\u0019espace de Hilbert.\nOrthogonalit� et bases orthogonales\nMatrices orthogonales et groupe orthogonal\nMatrices unitaires et groupe unitaire"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

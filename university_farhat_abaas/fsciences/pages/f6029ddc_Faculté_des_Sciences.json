@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/9131",
+      "title": "Faculté des Sciences",
+      "id": "f6029ddc",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:22:43",
+      "hash": "fa530f77ac42ac8f",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nCONCOURS DE ROBOTIQUE ET ÉLIMINATOIRES DE WILAYA"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Competition robotique merged",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6544/Competition_robotique_merged.pdf",
+        "local_file": "pdfs/f6029ddc_Competition_robotique_merged.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

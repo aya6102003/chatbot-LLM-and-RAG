@@ -1,0 +1,119 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/AG.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n14-16 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n14-16 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale    \nCrédits : 18\nCoefficients : 9",
+      "Groupes finis",
+      "8",
+      "4",
+      "3h",
+      "3h",
+      "",
+      "90h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Anneaux et modules",
+      "10",
+      "5",
+      "4h30",
+      "3h",
+      "",
+      "112h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie Crédits : 9\nCoefficients : 5",
+      "Méthodes d’analyse fonctionnelles",
+      "5",
+      "3",
+      "3h",
+      "1h",
+      "",
+      "60h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Analyse complexe 1",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE DécouverteCrédits : 2Coefficients : 2",
+      "Analyse non standard",
+      "2",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversaleCrédits : 1Coefficients : 1",
+      "Anglais 1",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "17",
+      "15h",
+      "10h",
+      "",
+      "375h",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 9,
+  "col_count": 7
+}

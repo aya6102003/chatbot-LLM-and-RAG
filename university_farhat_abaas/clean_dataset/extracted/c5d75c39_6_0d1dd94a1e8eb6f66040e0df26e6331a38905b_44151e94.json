@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\images\\c5d75c39_6_0d1dd94a1e8eb6f66040e0df26e6331a38905b.jpg",
+      "name": "c5d75c39_6_0d1dd94a1e8eb6f66040e0df26e6331a38905b.jpg",
+      "type": "image",
+      "size_bytes": 3701619,
+      "id": "44151e94"
+    },
+    "extracted_at": "2026-06-04T15:21:15.554868"
+  },
+  "content": {
+    "text": "\\\n\\\nN\n\\",
+    "pages": [],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

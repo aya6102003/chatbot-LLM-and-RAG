@@ -1,0 +1,38 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/RSD.html",
+  "title": "SEMESTRE 4",
+  "headers": [
+    "Unité d'Enseignement",
+    "Crédits",
+    "Coefficient",
+    "VHS"
+  ],
+  "rows": [
+    [
+      "Unité d'Enseignement",
+      "Crédits",
+      "Coefficient",
+      "VHS"
+    ],
+    [
+      "Stage dans un laboratoire de recherche ou dans une entreprise sanctionné par un mémoire de fin d'études et une soutenance.",
+      "25",
+      "5",
+      ""
+    ],
+    [
+      "Séminaires",
+      "5",
+      "1",
+      "125h"
+    ],
+    [
+      "Total Semestre 4",
+      "30",
+      "6",
+      ""
+    ]
+  ],
+  "row_count": 4,
+  "col_count": 4
+}

@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/363",
+      "title": "Faculté des Sciences",
+      "id": "584947b9",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:27:09",
+      "hash": "0ebfb21f6796d56d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "CHEURFA Rachid\nCHEURFA Rachid\nGrade:Professeur\nGrade:Professeur\nEmail:rcheurfa@univ-setif.dz\nEmail:rcheurfa@univ-setif.dz\nDépartement:Mathématiques\nBureau:\nBureau:\n\nAnalysis III\nPolycopie de cours\nIntroduction to Normed and Hilbert Spaces\nPolycopie de cours"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "2359",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2359",
+        "type": "internal"
+      },
+      {
+        "text": "2360",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/2360",
+        "type": "internal"
+      }
+    ],
+    "images": [],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/584947b9_table_1_untitled.json",
+        "rows": 2
+      }
+    ]
+  }
+}

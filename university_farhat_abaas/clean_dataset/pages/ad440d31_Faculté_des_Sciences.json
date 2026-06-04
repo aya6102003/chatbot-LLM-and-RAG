@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/8440",
+      "title": "Faculté des Sciences",
+      "id": "ad440d31",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:45:19",
+      "hash": "abe31dcc94af2f38",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nANNONCE AUX ÉTUDIANTS REDOUBLANTS\n1ère année LMD Mathématiques & LMD Informatique"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [
+      {
+        "title": "Redoublants 1",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6112/Redoublants_1.pdf",
+        "local_file": "pdfs/ad440d31_Redoublants_1.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

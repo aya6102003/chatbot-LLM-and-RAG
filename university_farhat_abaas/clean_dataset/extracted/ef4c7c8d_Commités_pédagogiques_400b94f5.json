@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\pdfs\\ef4c7c8d_Commités_pédagogiques.pdf",
+      "name": "ef4c7c8d_Commités_pédagogiques.pdf",
+      "type": "pdf",
+      "size_bytes": 201107,
+      "id": "400b94f5"
+    },
+    "extracted_at": "2026-06-04T15:19:34.524906"
+  },
+  "content": {
+    "text": "‏ امجلهورية‏\n‏اجلزائرية ادلميقراطية الشعبية‏\n‏وزارة التعليــم العالــي والبحــث العلمــي‏\n‏ جـامـعـة سـطيف1 – فـرحـات عـبـاس‏\n‏كـلـيـة الـعـلـــوم‏\n‏الـجــذع املــشـتـرك عـلــوم املــادة ‏\nFACULTY OF SCIENCES\nMattER Sciences Common Core\n                                                                                                                                                                                               \nPlanning des Comités Pédagogiques N°2_Semestre 2_SM \n (2024-2025) \nMatière\nSection\nDate\nHoraire\nLieu\nTP Physique 2\nA, B, C\nDimanche 20/04/2025\n 12h30 - 13h15\nSalle SM\nTP Chimie 2\nA, B, C\n13h15 - 14h00\nMaths 2\nA, B, C\nLundi 21/04/2025\n 13h00 - 13h30\nSalle SM\n Informatique 2\nA, B, C\n13h30 - 14h00\n Chimie 2\nA, B, C\nMardi 22/04/2025\n13h00 - 13h30\nSalle SM\nPhysique 2 \nA, B, C\n13h30 - 14h00\nO  rdre\n \n   du\n   j our\n \n  :\n- Etat d'avancement des Cours, TD, TP et assiduité.\n- Examens.\n- Divers.\nRemarque  : La présence de tous les enseignants chargés de Cours, TD et TP, et \nles étudiants délégués des groupes, est obligatoire.\nSétif, le 11/04/2025\nLe Responsable du Tronc-commun SM\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "امجلهورية\nاجلزائرية ادلميقراطية الشعبية\nوزارة التعليــم العالــي والبحــث العلمــي\n جـامـعـة سـطيف1 – فـرحـات عـبـاس\nكـلـيـة الـعـلـــوم\nالـجــذع املــشـتـرك عـلــوم املــادة \nFACULTY OF SCIENCES\nMattER Sciences Common Core\n                                                                                                                                                                                               \nPlanning des Comités Pédagogiques N°2_Semestre 2_SM \n (2024-2025) \nMatière\nSection\nDate\nHoraire\nLieu\nTP Physique 2\nA, B, C\nDimanche 20/04/2025\n 12h30 - 13h15\nSalle SM\nTP Chimie 2\nA, B, C\n13h15 - 14h00\nMaths 2\nA, B, C\nLundi 21/04/2025\n 13h00 - 13h30\nSalle SM\n Informatique 2\nA, B, C\n13h30 - 14h00\n Chimie 2\nA, B, C\nMardi 22/04/2025\n13h00 - 13h30\nSalle SM\nPhysique 2 \nA, B, C\n13h30 - 14h00\nO  rdre\n \n   du\n   j our\n \n  :\n- Etat d'avancement des Cours, TD, TP et assiduité.\n- Examens.\n- Divers.\nRemarque  : La présence de tous les enseignants chargés de Cours, TD et TP, et \nles étudiants délégués des groupes, est obligatoire.\nSétif, le 11/04/2025\nLe Responsable du Tronc-commun SM"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Matière",
+          "Section",
+          "Date",
+          "Horaire",
+          "Lieu"
+        ],
+        "rows": [
+          {
+            "Matière": "TP Physique 2",
+            "Section": "A, B, C",
+            "Date": "Dimanche 20/04/2025",
+            "Horaire": "12h30 - 13h15",
+            "Lieu": "Salle SM"
+          },
+          {
+            "Matière": "TP Chimie 2",
+            "Section": "A, B, C",
+            "Date": "A, B, C",
+            "Horaire": "13h15 - 14h00",
+            "Lieu": "13h15 - 14h00"
+          },
+          {
+            "Matière": "Maths 2",
+            "Section": "A, B, C",
+            "Date": "Lundi 21/04/2025",
+            "Horaire": "13h00 - 13h30",
+            "Lieu": "Salle SM"
+          },
+          {
+            "Matière": "Informatique 2",
+            "Section": "A, B, C",
+            "Date": "A, B, C",
+            "Horaire": "13h30 - 14h00",
+            "Lieu": "13h30 - 14h00"
+          },
+          {
+            "Matière": "Chimie 2",
+            "Section": "A, B, C",
+            "Date": "Mardi 22/04/2025",
+            "Horaire": "13h00 - 13h30",
+            "Lieu": "Salle SM"
+          },
+          {
+            "Matière": "Physique 2",
+            "Section": "A, B, C",
+            "Date": "A, B, C",
+            "Horaire": "13h30 - 14h00",
+            "Lieu": "13h30 - 14h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

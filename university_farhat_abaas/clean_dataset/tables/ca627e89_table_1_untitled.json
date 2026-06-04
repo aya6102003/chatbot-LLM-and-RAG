@@ -1,0 +1,48 @@
+{
+  "source_url": "http://fsciences.univ-setif.dz/page_professionnelles/319",
+  "title": "",
+  "headers": [
+    "chapitr2+série2",
+    "Polycopie de cours",
+    ""
+  ],
+  "rows": [
+    [
+      "chapitr2+série2",
+      "Polycopie de cours",
+      ""
+    ],
+    [
+      "chapitre3+série3",
+      "Polycopie de cours",
+      ""
+    ],
+    [
+      "série1",
+      "Polycopie de TD",
+      ""
+    ],
+    [
+      "chapitre4",
+      "Polycopie de cours",
+      ""
+    ],
+    [
+      "série4",
+      "Polycopie de TD",
+      ""
+    ],
+    [
+      "corrige type de série4",
+      "Polycopie de TD",
+      ""
+    ],
+    [
+      "solution d'exo6 série4",
+      "Polycopie de TD",
+      ""
+    ]
+  ],
+  "row_count": 7,
+  "col_count": 3
+}

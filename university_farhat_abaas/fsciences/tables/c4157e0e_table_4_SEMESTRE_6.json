@@ -1,0 +1,151 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Licence Chimie.html",
+  "title": "SEMESTRE 6",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n15 Semaines",
+    "Autre*",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n15 Semaines",
+      "Autre*",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "CC*",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale\nCrédits : 18\nCoefficients : 9",
+      "Cristallographie",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "82h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Chimie des surfaces",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "82h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Chimie quantique II",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "82h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie\nCrédits : 9\nCoefficients : 5",
+      "Electrochimie",
+      "5",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "57h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Choisir une matière parmi:\r\n        - TP Electrochimie\r\n        - TP Chimie de ssurfaces",
+      "2",
+      "1",
+      "",
+      "",
+      "1h30",
+      "22h30",
+      "27h30",
+      "100%",
+      "",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Choisir une matière parmi:\r\n        - TP Cristallographie\r\n        - TP méthodes physique d'analyses",
+      "2",
+      "1",
+      "",
+      "",
+      "1h30",
+      "22h30",
+      "27h30",
+      "100%",
+      "",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Découverte\nCrédits : 2\nCoefficients : 1",
+      "Choisir une matière parmi:\r\n        - Ethique et Déontologie\r\n        - Chimie Thérapeutique\r\n        - Chimie Bio-organique",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "27h30",
+      "",
+      "100%"
+    ],
+    [
+      "UE Transversale\nCrédits : 1\nCoefficients : 1",
+      "Anglais scientifique II",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "2h30",
+      "",
+      "100%"
+    ],
+    [
+      "Total Semestre 6",
+      "30",
+      "16",
+      "15h",
+      "6h",
+      "3h",
+      "360h",
+      "390h"
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 8
+}

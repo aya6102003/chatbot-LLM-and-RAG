@@ -1,0 +1,132 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Licence_Informatique.html",
+  "title": "SEMESTRE 3",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n14 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n14 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale 1\nCrédits : 11\nCoefficients : 6",
+      "Architecture des ordinateurs",
+      "5",
+      "3",
+      "1h30",
+      "1h30",
+      "1h30",
+      "63h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n ×"
+    ],
+    [
+      "Algorithmique et structure de \r\n      données 3",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "1h30",
+      "84h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 2\nCrédits : 9\nCoefficients : 5",
+      "Systèmes d'information",
+      "5",
+      "3",
+      "1h30",
+      "1h30",
+      "1h30",
+      "63h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Théorie des graphes",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie \nCrédits : 8\nCoefficients : 4",
+      "Méthodes numériques",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Logique mathématique",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Tranversale\nCrédits : 2\nCoefficients : 1",
+      "Langue étrangère 2",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "",
+      "21h",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 3",
+      "30",
+      "18",
+      "12h",
+      "7h30",
+      "6h",
+      "357h",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 7
+}

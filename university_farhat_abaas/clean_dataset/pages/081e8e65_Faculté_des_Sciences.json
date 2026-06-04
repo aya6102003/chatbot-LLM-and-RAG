@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/493",
+      "title": "Faculté des Sciences",
+      "id": "081e8e65",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:47:26",
+      "hash": "137688473580e2a9",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "KEBICHE Zineddine\nKEBICHE Zineddine\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:zineddine.kebiche@univ-setif.dz\nEmail:zineddine.kebiche@univ-setif.dz\nDépartement:Physique\nBureau:\nBureau:\n\nTP Mécanique des fluides\nPolycopie de TP\nFluide non newtonien -cour-\nPolycopie de cours\nCour Physique\nPolycopie de cours\ncour mécanique des fluides L2 physique\nPolycopie de cours"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "473",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/473",
+        "type": "internal"
+      },
+      {
+        "text": "844",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/844",
+        "type": "internal"
+      },
+      {
+        "text": "845",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/845",
+        "type": "internal"
+      },
+      {
+        "text": "2312",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2312",
+        "type": "internal"
+      }
+    ],
+    "images": [],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/081e8e65_table_1_untitled.json",
+        "rows": 4
+      }
+    ]
+  }
+}

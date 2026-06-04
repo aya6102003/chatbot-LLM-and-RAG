@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/445",
+      "title": "Faculté des Sciences",
+      "id": "0d935f8b",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:47:26",
+      "hash": "2e2db411c5d610e1",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "AMARDJIA Née BELILITA Fairouz\nAMARDJIA Née BELILITA Fairouz\nGrade:Maitre de conferences classe A\nGrade:Maitre de conferences classe A\nEmail:fairouz.amardjia@univ-setif.dz\nEmail:fairouz.amardjia@univ-setif.dz\nDépartement:Physique\nBureau:\nBureau:\n\nSignaux discrets et Echantillonnage\nPolycopie de cours"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "2227",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2227",
+        "type": "internal"
+      }
+    ],
+    "images": [],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/0d935f8b_table_1_untitled.json",
+        "rows": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/9124",
+      "title": "Faculté des Sciences",
+      "id": "c818495c",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:24:05",
+      "hash": "fa15636e299ce2cc",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nAUX ÉTUDIANTS SM\nيرجى من الطلبة المرفقة اسماءهم بالقائمة الاتصال بمكتبة الكلية لتسوية وضعيتهم"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "sm",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6539/sm.pdf",
+        "local_file": "pdfs/c818495c_sm.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

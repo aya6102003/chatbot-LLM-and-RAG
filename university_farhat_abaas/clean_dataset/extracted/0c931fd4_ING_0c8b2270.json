@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\pdfs\\0c931fd4_ING.pdf",
+      "name": "0c931fd4_ING.pdf",
+      "type": "pdf",
+      "size_bytes": 412149,
+      "id": "0c8b2270"
+    },
+    "extracted_at": "2026-06-04T15:17:54.756440"
+  },
+  "content": {
+    "text": " \n \nIngénieurs 2+3+4 \n \n \n08h00---------09h30\n09h30-------11h00\n11h00----- 12h30\n12h30---------14h00\n14h00-------15h30\n15h30-------17h00\nDimanche\n31/05/26 \nL1+L2+L3 (G1-4) : ING2 OOP2\nL8 : ING3 GL AN \nL9:  ING3 IA SE  \nL13: ING4 IA DL \nL1+L2+L3 (G5-8): ING2 OOP2\nL8 : ING3 GL CMP \nL9: ING3 IA AN2  \nL13: ING4 IA TCD \nA1: EXM R ING2 OOP2\nA1:  EXM R ING3 GL AN \nA1:  EXM R ING3 IA SE \nL15: EXM R ING4 DL \nA1: EXM R ING2 TL \nA1:  EXM R ING3 GL CMP \nA1:  EXM R ING3 IA AN2 \nL15: EXM R ING4 TCD \nL1+L2+L3 (G1-4) : ING2 TL\nL4+L5+L6 (G5-8) : ING2 TL \nLundi\n01/06/26 \nA2: EXM R ING2 IRI\nA1:  EXM R ING3 GL PWEB \nA1:  EXM R ING3 IA PWEB \nL15: EXM R ING4 ATI  \nA2:  EXM R  ING2 TG\nA1:  EXM R ING3 GL OGAC \nA1:  EXM R ING3 IA ETH IA \nL15: EXM R ING4 TALN \nL1+L2+L3 (G1-4): ING2 IRI\nL9 : ING3 GL PWEB \nL13: ING4 IA  ATI \nL1+L2+L3 (G5-8) : ING2 IRI\nL8 : ING3 GL  OGAC \nL9:  ING3 IA PWEB \nL13: ING4 IA TALN \nL1+L2+L3 (G1-4) : ING2 TG\nL4+L5+L6 (G5-8) : ING2 TG \nMardi\n02/06/26 \nL1+L2+L3 (G1-4) : ING2 IBD\nL8 : ING3 GL CL \nL9:  ING3 IA ISI \nL13: ING4 IA SD \nL1+L2+L3 (G5-8) : ING2  IBD\nL8 : ING3 GL ISI \nL9:  ING3 IA GP \nL13: ING4 IA TDM \nA2: EXM R ING2 IBD\nA1: EXM R ING3 GL CL \nA1: EXM R ING3 IA GP \nA1: EXM R ING4 IA SD \nA2: EXM R ING2 DI\nA2: EXM R ING3 GL ISI \nA2: EXM R ING3 IA ISI \nA1: EXM R ING4 IA TDM \nMercredi\n03/06/26 \nA2: EXM R ING2 ISE\nA1: EXM R ING3 IA RA \nL1+L2+L3 (G1-4) : ING2 ISE\nL13:  ING3 IA RA \nL1+L2+L3 (G5-8) : ING2 ISE\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Ingénieurs 2+3+4 \n \n \n08h00---------09h30\n09h30-------11h00\n11h00----- 12h30\n12h30---------14h00\n14h00-------15h30\n15h30-------17h00\nDimanche\n31/05/26 \nL1+L2+L3 (G1-4) : ING2 OOP2\nL8 : ING3 GL AN \nL9:  ING3 IA SE  \nL13: ING4 IA DL \nL1+L2+L3 (G5-8): ING2 OOP2\nL8 : ING3 GL CMP \nL9: ING3 IA AN2  \nL13: ING4 IA TCD \nA1: EXM R ING2 OOP2\nA1:  EXM R ING3 GL AN \nA1:  EXM R ING3 IA SE \nL15: EXM R ING4 DL \nA1: EXM R ING2 TL \nA1:  EXM R ING3 GL CMP \nA1:  EXM R ING3 IA AN2 \nL15: EXM R ING4 TCD \nL1+L2+L3 (G1-4) : ING2 TL\nL4+L5+L6 (G5-8) : ING2 TL \nLundi\n01/06/26 \nA2: EXM R ING2 IRI\nA1:  EXM R ING3 GL PWEB \nA1:  EXM R ING3 IA PWEB \nL15: EXM R ING4 ATI  \nA2:  EXM R  ING2 TG\nA1:  EXM R ING3 GL OGAC \nA1:  EXM R ING3 IA ETH IA \nL15: EXM R ING4 TALN \nL1+L2+L3 (G1-4): ING2 IRI\nL9 : ING3 GL PWEB \nL13: ING4 IA  ATI \nL1+L2+L3 (G5-8) : ING2 IRI\nL8 : ING3 GL  OGAC \nL9:  ING3 IA PWEB \nL13: ING4 IA TALN \nL1+L2+L3 (G1-4) : ING2 TG\nL4+L5+L6 (G5-8) : ING2 TG \nMardi\n02/06/26 \nL1+L2+L3 (G1-4) : ING2 IBD\nL8 : ING3 GL CL \nL9:  ING3 IA ISI \nL13: ING4 IA SD \nL1+L2+L3 (G5-8) : ING2  IBD\nL8 : ING3 GL ISI \nL9:  ING3 IA GP \nL13: ING4 IA TDM \nA2: EXM R ING2 IBD\nA1: EXM R ING3 GL CL \nA1: EXM R ING3 IA GP \nA1: EXM R ING4 IA SD \nA2: EXM R ING2 DI\nA2: EXM R ING3 GL ISI \nA2: EXM R ING3 IA ISI \nA1: EXM R ING4 IA TDM \nMercredi\n03/06/26 \nA2: EXM R ING2 ISE\nA1: EXM R ING3 IA RA \nL1+L2+L3 (G1-4) : ING2 ISE\nL13:  ING3 IA RA \nL1+L2+L3 (G5-8) : ING2 ISE"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "column_0",
+          "08h00---------09h30",
+          "09h30-------11h00",
+          "11h00----- 12h30",
+          "12h30---------14h00",
+          "14h00-------15h30",
+          "15h30-------17h00"
+        ],
+        "rows": [
+          {
+            "column_0": "Dimanche\n31/05/26",
+            "08h00---------09h30": "L1+L2+L3 (G1-4) : ING2 OOP2\nL8 : ING3 GL AN\nL9: ING3 IA SE\nL13: ING4 IA DL",
+            "09h30-------11h00": "L1+L2+L3 (G5-8): ING2 OOP2\nL8 : ING3 GL CMP\nL9: ING3 IA AN2\nL13: ING4 IA TCD",
+            "11h00----- 12h30": "A1: EXM R ING2 OOP2\nA1: EXM R ING3 GL AN\nA1: EXM R ING3 IA SE\nL15: EXM R ING4 DL",
+            "12h30---------14h00": "A1: EXM R ING2 TL\nA1: EXM R ING3 GL CMP\nA1: EXM R ING3 IA AN2\nL15: EXM R ING4 TCD",
+            "14h00-------15h30": "L1+L2+L3 (G1-4) : ING2 TL\nL4+L5+L6 (G5-8) : ING2 TL",
+            "15h30-------17h00": "L1+L2+L3 (G1-4) : ING2 TL\nL4+L5+L6 (G5-8) : ING2 TL"
+          },
+          {
+            "column_0": "Lundi\n01/06/26",
+            "08h00---------09h30": "A2: EXM R ING2 IRI\nA1: EXM R ING3 GL PWEB\nA1: EXM R ING3 IA PWEB\nL15: EXM R ING4 ATI",
+            "09h30-------11h00": "A2: EXM R ING2 TG\nA1: EXM R ING3 GL OGAC\nA1: EXM R ING3 IA ETH IA\nL15: EXM R ING4 TALN",
+            "11h00----- 12h30": "L1+L2+L3 (G1-4): ING2 IRI\nL9 : ING3 GL PWEB\nL13: ING4 IA ATI",
+            "12h30---------14h00": "L1+L2+L3 (G5-8) : ING2 IRI\nL8 : ING3 GL OGAC\nL9: ING3 IA PWEB\nL13: ING4 IA TALN",
+            "14h00-------15h30": "L1+L2+L3 (G1-4) : ING2 TG\nL4+L5+L6 (G5-8) : ING2 TG",
+            "15h30-------17h00": "L1+L2+L3 (G1-4) : ING2 TG\nL4+L5+L6 (G5-8) : ING2 TG"
+          },
+          {
+            "column_0": "Mardi\n02/06/26",
+            "08h00---------09h30": "L1+L2+L3 (G1-4) : ING2 IBD\nL8 : ING3 GL CL\nL9: ING3 IA ISI\nL13: ING4 IA SD",
+            "09h30-------11h00": "L1+L2+L3 (G5-8) : ING2 IBD\nL8 : ING3 GL ISI\nL9: ING3 IA GP\nL13: ING4 IA TDM",
+            "11h00----- 12h30": "A2: EXM R ING2 IBD\nA1: EXM R ING3 GL CL\nA1: EXM R ING3 IA GP\nA1: EXM R ING4 IA SD",
+            "12h30---------14h00": "A2: EXM R ING2 DI\nA2: EXM R ING3 GL ISI\nA2: EXM R ING3 IA ISI\nA1: EXM R ING4 IA TDM",
+            "14h00-------15h30": "A2: EXM R ING2 DI\nA2: EXM R ING3 GL ISI\nA2: EXM R ING3 IA ISI\nA1: EXM R ING4 IA TDM",
+            "15h30-------17h00": "A2: EXM R ING2 DI\nA2: EXM R ING3 GL ISI\nA2: EXM R ING3 IA ISI\nA1: EXM R ING4 IA TDM"
+          },
+          {
+            "column_0": "Mercredi\n03/06/26",
+            "08h00---------09h30": "A2: EXM R ING2 ISE\nA1: EXM R ING3 IA RA",
+            "09h30-------11h00": "A2: EXM R ING2 ISE\nA1: EXM R ING3 IA RA",
+            "11h00----- 12h30": "L1+L2+L3 (G1-4) : ING2 ISE\nL13: ING3 IA RA",
+            "12h30---------14h00": "L1+L2+L3 (G5-8) : ING2 ISE",
+            "14h00-------15h30": "L1+L2+L3 (G5-8) : ING2 ISE",
+            "15h30-------17h00": "L1+L2+L3 (G5-8) : ING2 ISE"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/271",
+      "title": "Faculté des Sciences",
+      "id": "a7920ba4",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:24:38",
+      "hash": "e7310360d9c7f858",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "KHARCHI Samia\nKHARCHI Samia\nGrade:Maitre assistant classe A\nGrade:Maitre assistant classe A\nEmail:samia.kharchi@univ-setif.dz\nEmail:samia.kharchi@univ-setif.dz\nDépartement:Informatique\nBureau:\nBureau:\n\nSUPPORT DU COURS RESEAUX\nPolycopie de cours\nSERIE DE TD N 1\nPolycopie de TD\nTP 1\nPolycopie de TP\nTP 2\nPolycopie de TP"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "1525",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1525",
+        "type": "internal"
+      },
+      {
+        "text": "1526",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1526",
+        "type": "internal"
+      },
+      {
+        "text": "1527",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1527",
+        "type": "internal"
+      },
+      {
+        "text": "1585",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1585",
+        "type": "internal"
+      }
+    ],
+    "images": [],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/a7920ba4_table_1_untitled.json",
+        "rows": 4
+      }
+    ]
+  }
+}

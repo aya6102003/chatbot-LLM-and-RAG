@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/287",
+      "title": "Faculté des Sciences",
+      "id": "d45d872e",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:23:54",
+      "hash": "cff312ffbdd886d1",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "GOUDJIL Lakhdar\nGOUDJIL Lakhdar\nGrade:Maitre assistant classe A\nGrade:Maitre assistant classe A\nEmail:lakhdar.goudjil@univ-setif.dz\nEmail:lakhdar.goudjil@univ-setif.dz\nDépartement:Informatique\nBureau:10\nBureau:10\n\nABD_TP1\nPolycopie de TP\nSérie ABD_TP1\nPolycopie de TP"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "1579",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1579",
+        "type": "internal"
+      },
+      {
+        "text": "1580",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1580",
+        "type": "internal"
+      }
+    ],
+    "images": [],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/d45d872e_table_1_untitled.json",
+        "rows": 2
+      }
+    ]
+  }
+}

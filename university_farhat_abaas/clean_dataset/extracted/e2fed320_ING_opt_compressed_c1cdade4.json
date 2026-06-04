@@ -1,0 +1,412 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\pdfs\\e2fed320_ING_opt_compressed.pdf",
+      "name": "e2fed320_ING_opt_compressed.pdf",
+      "type": "pdf",
+      "size_bytes": 396199,
+      "id": "c1cdade4"
+    },
+    "extracted_at": "2026-06-04T15:19:31.160032"
+  },
+  "content": {
+    "text": "République Algérienne Démocratique et Populaire\nMinistère de l'Enseignement Supérieur et de la Recherche Scientifique\nDate\nCréneau\nModule\nSalles / Amphis\n04/06/2026\n15:00–16:30\nThéorie des graphes\nResp: Bouamama Salim\nL01-08\n06/06/2026\n13:15–14:45\nThéorie des langages\nResp: Mechta Djamila\nL01-08\n07/06/2026\n08:00–09:30\nIntroduction aux réseaux\ninformatiques\nResp: Aissaoui Mohammed\nL01-08\n08/06/2026\n11:30–13:00\nProgrammation orientée objet 2\nResp: Nasri Khaled\nL01-08\n09/06/2026\n09:45–11:15\nIntroduction aux bases de\ndonnées\nResp: Belbal Samir\nL01-08\n10/06/2026\n09:45–11:15\nIntroduction aux systèmes\nd'exploitation 2\nResp: Maati Bouchera\nS11-16, S21, S22\n10/06/2026\n13:15–14:45\nDéontologie de l'informatique\nResp: Kouachi Wahiba\nL01-08\nFait le 02/06/2026\nPage 1 sur 2\n\nGroupe\nEmplacement\nGroupe G1\nL01\nGroupe G2\nL02\nGroupe G3\nL03\nGroupe G4\nL04\nGroupe G5\nL05\nGroupe G6\nL06\nGroupe G7\nL07\nGroupe G8\nL08\nGroupe\nEmplacement\nGroupe G1\nS11\nGroupe G2\nS12\nGroupe G3\nS13\nGroupe G4\nS14\nGroupe G5\nS15\nGroupe G6\nS16\nGroupe G7\nS21\nGroupe G8\nS22\nFait le 02/06/2026\nPage 2 sur 2\n\nRépublique Algérienne Démocratique et Populaire\nMinistère de l'Enseignement Supérieur et de la Recherche Scientifique\nDate\nCréneau\nModule\nSalles / Amphis\n04/06/2026\n09:45–11:15\nAnalyse numérique\nResp: Kettab Samia\n06/06/2026\n15:00–16:30\nCompilation 1\nResp: Hammouche Yassine\n07/06/2026\n13:15–14:45\nOptimisation et gestion des\naccès concurrents\nResp: Bettayeb Sami\n08/06/2026\n15:00–16:30\nProgrammation WEB\nResp: Hamdi Skander\n09/06/2026\n08:00–09:30\nConception de Logiciels\nResp: Bouamari Abdelakader\n10/06/2026\n15:00–16:30\nIntroduction à la sécurité\nInformatique\nResp: Benaidja Amira\nFait le 02/06/2026\nPage 1 sur 1\nA6\nA6\nA6\nA6\nA6\nA6\n\nRépublique Algérienne Démocratique et Populaire\nMinistère de l'Enseignement Supérieur et de la Recherche Scientifique\nDate\nCréneau\nModule\nSalles / Amphis\n04/06/2026\n09:45–11:15\nS-E  Synch Com\nResp: Kacha Linda\nA6\n06/06/2026\n15:00–16:30\nAnalyse numérique 2\nResp: Hechaichi Hadjer\nA6\n07/06/2026\n08:00–09:30\nRéseaux avancés\nResp: Hebal Sara\nL14, L15\n07/06/2026\n13:15–14:45\nEthique de l'IA\nResp: drif Ahlem\nA6\n08/06/2026\n15:00–16:30\nProgrammation WEB\nResp: Hamdi Skander\nA6\n09/06/2026\n08:00–09:30\nGestion de projets\nResp: khababa Abdallah\nA6\n10/06/2026\n15:00–16:30\nIntroduction à la sécurité\ninformatique\nResp: Benaidja Amira\nA6\nFait le 02/06/2026\nPage 1 sur 2\n\nGroupe\nEmplacement\nGroupes G1, G2\nA6\nGroupe\nEmplacement\nGroupe G1\nL14\nGroupe G2\nL15\nFait le 02/06/2026\nPage 2 sur 2\n\nRépublique Algérienne Démocratique et Populaire\nMinistère de l'Enseignement Supérieur et de la Recherche Scientifique\nDate\nCréneau\nModule\nSalles / Amphis\n04/06/2026\n15:00–16:30\nDeep Learning\nResp: Moussaoui Abdelouahab\nL11-13\n06/06/2026\n13:15–14:45\nTechnologies de Calcul Distribué\nResp: Zenbout Imene\nL11-13\n07/06/2026\n08:00–09:30\nAnalyse et Traitement d'image\nResp: Semchedine Moussa\nL11-13\n08/06/2026\n11:30–13:00\nSécurité des données\nResp: Cherbal Sarra\nL11-13\n09/06/2026\n09:45–11:15\nTraitément Automatique du\nLangage Naturel\nResp: Harrag Fouzi\nL11-13\n10/06/2026\n13:15–14:45\nTraitement de données massives\nResp: Nasri Khaled\nL11-13\nFait le 02/06/2026\nPage 1 sur 2\n\nGroupe\nEmplacement\nGroupe G1\nL11\nGroupe G2\nL12\nGroupe G3\nL13\nFait le 02/06/2026\nPage 2 sur 2\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "République Algérienne Démocratique et Populaire\nMinistère de l'Enseignement Supérieur et de la Recherche Scientifique\nDate\nCréneau\nModule\nSalles / Amphis\n04/06/2026\n15:00–16:30\nThéorie des graphes\nResp: Bouamama Salim\nL01-08\n06/06/2026\n13:15–14:45\nThéorie des langages\nResp: Mechta Djamila\nL01-08\n07/06/2026\n08:00–09:30\nIntroduction aux réseaux\ninformatiques\nResp: Aissaoui Mohammed\nL01-08\n08/06/2026\n11:30–13:00\nProgrammation orientée objet 2\nResp: Nasri Khaled\nL01-08\n09/06/2026\n09:45–11:15\nIntroduction aux bases de\ndonnées\nResp: Belbal Samir\nL01-08\n10/06/2026\n09:45–11:15\nIntroduction aux systèmes\nd'exploitation 2\nResp: Maati Bouchera\nS11-16, S21, S22\n10/06/2026\n13:15–14:45\nDéontologie de l'informatique\nResp: Kouachi Wahiba\nL01-08\nFait le 02/06/2026\nPage 1 sur 2"
+      },
+      {
+        "page": 2,
+        "text": "Groupe\nEmplacement\nGroupe G1\nL01\nGroupe G2\nL02\nGroupe G3\nL03\nGroupe G4\nL04\nGroupe G5\nL05\nGroupe G6\nL06\nGroupe G7\nL07\nGroupe G8\nL08\nGroupe\nEmplacement\nGroupe G1\nS11\nGroupe G2\nS12\nGroupe G3\nS13\nGroupe G4\nS14\nGroupe G5\nS15\nGroupe G6\nS16\nGroupe G7\nS21\nGroupe G8\nS22\nFait le 02/06/2026\nPage 2 sur 2"
+      },
+      {
+        "page": 3,
+        "text": "République Algérienne Démocratique et Populaire\nMinistère de l'Enseignement Supérieur et de la Recherche Scientifique\nDate\nCréneau\nModule\nSalles / Amphis\n04/06/2026\n09:45–11:15\nAnalyse numérique\nResp: Kettab Samia\n06/06/2026\n15:00–16:30\nCompilation 1\nResp: Hammouche Yassine\n07/06/2026\n13:15–14:45\nOptimisation et gestion des\naccès concurrents\nResp: Bettayeb Sami\n08/06/2026\n15:00–16:30\nProgrammation WEB\nResp: Hamdi Skander\n09/06/2026\n08:00–09:30\nConception de Logiciels\nResp: Bouamari Abdelakader\n10/06/2026\n15:00–16:30\nIntroduction à la sécurité\nInformatique\nResp: Benaidja Amira\nFait le 02/06/2026\nPage 1 sur 1\nA6\nA6\nA6\nA6\nA6\nA6"
+      },
+      {
+        "page": 4,
+        "text": "République Algérienne Démocratique et Populaire\nMinistère de l'Enseignement Supérieur et de la Recherche Scientifique\nDate\nCréneau\nModule\nSalles / Amphis\n04/06/2026\n09:45–11:15\nS-E  Synch Com\nResp: Kacha Linda\nA6\n06/06/2026\n15:00–16:30\nAnalyse numérique 2\nResp: Hechaichi Hadjer\nA6\n07/06/2026\n08:00–09:30\nRéseaux avancés\nResp: Hebal Sara\nL14, L15\n07/06/2026\n13:15–14:45\nEthique de l'IA\nResp: drif Ahlem\nA6\n08/06/2026\n15:00–16:30\nProgrammation WEB\nResp: Hamdi Skander\nA6\n09/06/2026\n08:00–09:30\nGestion de projets\nResp: khababa Abdallah\nA6\n10/06/2026\n15:00–16:30\nIntroduction à la sécurité\ninformatique\nResp: Benaidja Amira\nA6\nFait le 02/06/2026\nPage 1 sur 2"
+      },
+      {
+        "page": 5,
+        "text": "Groupe\nEmplacement\nGroupes G1, G2\nA6\nGroupe\nEmplacement\nGroupe G1\nL14\nGroupe G2\nL15\nFait le 02/06/2026\nPage 2 sur 2"
+      },
+      {
+        "page": 6,
+        "text": "République Algérienne Démocratique et Populaire\nMinistère de l'Enseignement Supérieur et de la Recherche Scientifique\nDate\nCréneau\nModule\nSalles / Amphis\n04/06/2026\n15:00–16:30\nDeep Learning\nResp: Moussaoui Abdelouahab\nL11-13\n06/06/2026\n13:15–14:45\nTechnologies de Calcul Distribué\nResp: Zenbout Imene\nL11-13\n07/06/2026\n08:00–09:30\nAnalyse et Traitement d'image\nResp: Semchedine Moussa\nL11-13\n08/06/2026\n11:30–13:00\nSécurité des données\nResp: Cherbal Sarra\nL11-13\n09/06/2026\n09:45–11:15\nTraitément Automatique du\nLangage Naturel\nResp: Harrag Fouzi\nL11-13\n10/06/2026\n13:15–14:45\nTraitement de données massives\nResp: Nasri Khaled\nL11-13\nFait le 02/06/2026\nPage 1 sur 2"
+      },
+      {
+        "page": 7,
+        "text": "Groupe\nEmplacement\nGroupe G1\nL11\nGroupe G2\nL12\nGroupe G3\nL13\nFait le 02/06/2026\nPage 2 sur 2"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Date",
+          "Créneau",
+          "Module",
+          "Salles / Amphis"
+        ],
+        "rows": [
+          {
+            "Date": "04/06/2026",
+            "Créneau": "15:00–16:30",
+            "Module": "Théorie des graphes\nResp: Bouamama Salim",
+            "Salles / Amphis": "L01-08"
+          },
+          {
+            "Date": "06/06/2026",
+            "Créneau": "13:15–14:45",
+            "Module": "Théorie des langages\nResp: Mechta Djamila",
+            "Salles / Amphis": "L01-08"
+          },
+          {
+            "Date": "07/06/2026",
+            "Créneau": "08:00–09:30",
+            "Module": "Introduction aux réseaux\ninformatiques\nResp: Aissaoui Mohammed",
+            "Salles / Amphis": "L01-08"
+          },
+          {
+            "Date": "08/06/2026",
+            "Créneau": "11:30–13:00",
+            "Module": "Programmation orientée objet 2\nResp: Nasri Khaled",
+            "Salles / Amphis": "L01-08"
+          },
+          {
+            "Date": "09/06/2026",
+            "Créneau": "09:45–11:15",
+            "Module": "Introduction aux bases de\ndonnées\nResp: Belbal Samir",
+            "Salles / Amphis": "L01-08"
+          },
+          {
+            "Date": "10/06/2026",
+            "Créneau": "09:45–11:15",
+            "Module": "Introduction aux systèmes\nd'exploitation 2\nResp: Maati Bouchera",
+            "Salles / Amphis": "S11-16, S21, S22"
+          },
+          {
+            "Date": "10/06/2026",
+            "Créneau": "13:15–14:45",
+            "Module": "Déontologie de l'informatique\nResp: Kouachi Wahiba",
+            "Salles / Amphis": "L01-08"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Groupe",
+          "Emplacement"
+        ],
+        "rows": [
+          {
+            "Groupe": "Groupe G1",
+            "Emplacement": "L01"
+          },
+          {
+            "Groupe": "Groupe G2",
+            "Emplacement": "L02"
+          },
+          {
+            "Groupe": "Groupe G3",
+            "Emplacement": "L03"
+          },
+          {
+            "Groupe": "Groupe G4",
+            "Emplacement": "L04"
+          },
+          {
+            "Groupe": "Groupe G5",
+            "Emplacement": "L05"
+          },
+          {
+            "Groupe": "Groupe G6",
+            "Emplacement": "L06"
+          },
+          {
+            "Groupe": "Groupe G7",
+            "Emplacement": "L07"
+          },
+          {
+            "Groupe": "Groupe G8",
+            "Emplacement": "L08"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 1,
+        "headers": [
+          "Groupe",
+          "Emplacement"
+        ],
+        "rows": [
+          {
+            "Groupe": "Groupe G1",
+            "Emplacement": "S11"
+          },
+          {
+            "Groupe": "Groupe G2",
+            "Emplacement": "S12"
+          },
+          {
+            "Groupe": "Groupe G3",
+            "Emplacement": "S13"
+          },
+          {
+            "Groupe": "Groupe G4",
+            "Emplacement": "S14"
+          },
+          {
+            "Groupe": "Groupe G5",
+            "Emplacement": "S15"
+          },
+          {
+            "Groupe": "Groupe G6",
+            "Emplacement": "S16"
+          },
+          {
+            "Groupe": "Groupe G7",
+            "Emplacement": "S21"
+          },
+          {
+            "Groupe": "Groupe G8",
+            "Emplacement": "S22"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 3,
+        "table_index": 0,
+        "headers": [
+          "Date",
+          "Créneau",
+          "Module",
+          "Salles / Amphis"
+        ],
+        "rows": [
+          {
+            "Date": "04/06/2026",
+            "Créneau": "09:45–11:15",
+            "Module": "Analyse numérique\nResp: Kettab Samia",
+            "Salles / Amphis": "Analyse numérique\nResp: Kettab Samia"
+          },
+          {
+            "Date": "06/06/2026",
+            "Créneau": "15:00–16:30",
+            "Module": "Compilation 1\nResp: Hammouche Yassine",
+            "Salles / Amphis": "Compilation 1\nResp: Hammouche Yassine"
+          },
+          {
+            "Date": "07/06/2026",
+            "Créneau": "13:15–14:45",
+            "Module": "Optimisation et gestion des\naccès concurrents\nResp: Bettayeb Sami",
+            "Salles / Amphis": "Optimisation et gestion des\naccès concurrents\nResp: Bettayeb Sami"
+          },
+          {
+            "Date": "08/06/2026",
+            "Créneau": "15:00–16:30",
+            "Module": "Programmation WEB\nResp: Hamdi Skander",
+            "Salles / Amphis": "Programmation WEB\nResp: Hamdi Skander"
+          },
+          {
+            "Date": "09/06/2026",
+            "Créneau": "08:00–09:30",
+            "Module": "Conception de Logiciels\nResp: Bouamari Abdelakader",
+            "Salles / Amphis": "Conception de Logiciels\nResp: Bouamari Abdelakader"
+          },
+          {
+            "Date": "10/06/2026",
+            "Créneau": "15:00–16:30",
+            "Module": "Introduction à la sécurité\nInformatique\nResp: Benaidja Amira",
+            "Salles / Amphis": "Introduction à la sécurité\nInformatique\nResp: Benaidja Amira"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 4,
+        "table_index": 0,
+        "headers": [
+          "Date",
+          "Créneau",
+          "Module",
+          "Salles / Amphis"
+        ],
+        "rows": [
+          {
+            "Date": "04/06/2026",
+            "Créneau": "09:45–11:15",
+            "Module": "S-E Synch Com\nResp: Kacha Linda",
+            "Salles / Amphis": "A6"
+          },
+          {
+            "Date": "06/06/2026",
+            "Créneau": "15:00–16:30",
+            "Module": "Analyse numérique 2\nResp: Hechaichi Hadjer",
+            "Salles / Amphis": "A6"
+          },
+          {
+            "Date": "07/06/2026",
+            "Créneau": "08:00–09:30",
+            "Module": "Réseaux avancés\nResp: Hebal Sara",
+            "Salles / Amphis": "L14, L15"
+          },
+          {
+            "Date": "07/06/2026",
+            "Créneau": "13:15–14:45",
+            "Module": "Ethique de l'IA\nResp: drif Ahlem",
+            "Salles / Amphis": "A6"
+          },
+          {
+            "Date": "08/06/2026",
+            "Créneau": "15:00–16:30",
+            "Module": "Programmation WEB\nResp: Hamdi Skander",
+            "Salles / Amphis": "A6"
+          },
+          {
+            "Date": "09/06/2026",
+            "Créneau": "08:00–09:30",
+            "Module": "Gestion de projets\nResp: khababa Abdallah",
+            "Salles / Amphis": "A6"
+          },
+          {
+            "Date": "10/06/2026",
+            "Créneau": "15:00–16:30",
+            "Module": "Introduction à la sécurité\ninformatique\nResp: Benaidja Amira",
+            "Salles / Amphis": "A6"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 5,
+        "table_index": 0,
+        "headers": [
+          "Groupe",
+          "Emplacement"
+        ],
+        "rows": [
+          {
+            "Groupe": "Groupes G1, G2",
+            "Emplacement": "A6"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 5,
+        "table_index": 1,
+        "headers": [
+          "Groupe",
+          "Emplacement"
+        ],
+        "rows": [
+          {
+            "Groupe": "Groupe G1",
+            "Emplacement": "L14"
+          },
+          {
+            "Groupe": "Groupe G2",
+            "Emplacement": "L15"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 6,
+        "table_index": 0,
+        "headers": [
+          "Date",
+          "Créneau",
+          "Module",
+          "Salles / Amphis"
+        ],
+        "rows": [
+          {
+            "Date": "04/06/2026",
+            "Créneau": "15:00–16:30",
+            "Module": "Deep Learning\nResp: Moussaoui Abdelouahab",
+            "Salles / Amphis": "L11-13"
+          },
+          {
+            "Date": "06/06/2026",
+            "Créneau": "13:15–14:45",
+            "Module": "Technologies de Calcul Distribué\nResp: Zenbout Imene",
+            "Salles / Amphis": "L11-13"
+          },
+          {
+            "Date": "07/06/2026",
+            "Créneau": "08:00–09:30",
+            "Module": "Analyse et Traitement d'image\nResp: Semchedine Moussa",
+            "Salles / Amphis": "L11-13"
+          },
+          {
+            "Date": "08/06/2026",
+            "Créneau": "11:30–13:00",
+            "Module": "Sécurité des données\nResp: Cherbal Sarra",
+            "Salles / Amphis": "L11-13"
+          },
+          {
+            "Date": "09/06/2026",
+            "Créneau": "09:45–11:15",
+            "Module": "Traitément Automatique du\nLangage Naturel\nResp: Harrag Fouzi",
+            "Salles / Amphis": "L11-13"
+          },
+          {
+            "Date": "10/06/2026",
+            "Créneau": "13:15–14:45",
+            "Module": "Traitement de données massives\nResp: Nasri Khaled",
+            "Salles / Amphis": "L11-13"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 7,
+        "table_index": 0,
+        "headers": [
+          "Groupe",
+          "Emplacement"
+        ],
+        "rows": [
+          {
+            "Groupe": "Groupe G1",
+            "Emplacement": "L11"
+          },
+          {
+            "Groupe": "Groupe G2",
+            "Emplacement": "L12"
+          },
+          {
+            "Groupe": "Groupe G3",
+            "Emplacement": "L13"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

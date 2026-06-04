@@ -1,0 +1,141 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/ING_INTELLIGENCE_ARTIFICIELLE.html",
+  "title": "SEMESTER 9",
+  "headers": [
+    "Teaching Unit",
+    "Subject",
+    "Credits",
+    "Coefficient",
+    "Weekly Teaching Hours",
+    "VHS14 weeks",
+    "Assessment",
+    "Details"
+  ],
+  "rows": [
+    [
+      "Teaching Unit",
+      "Subject",
+      "Credits",
+      "Coefficient",
+      "Weekly Teaching Hours",
+      "VHS14 weeks",
+      "Assessment",
+      "Details"
+    ],
+    [
+      "Lecture",
+      "Tutorial",
+      "Lab",
+      "Other",
+      "Continuous",
+      "Exam"
+    ],
+    [
+      "UE FundamentalsCode: UEF1Credits: 11Coefficients: 7",
+      "Data Visualization",
+      "6",
+      "4",
+      "01H30",
+      "",
+      "03H00",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Computer Vision",
+      "5",
+      "3",
+      "01H30",
+      "",
+      "01H30",
+      "",
+      "42H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE FundamentalsCode: UEF2Credits: 11Coefficients: 7",
+      "Generative AI",
+      "6",
+      "4",
+      "01H30",
+      "",
+      "03H00",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Bio-inspired Methods",
+      "5",
+      "3",
+      "03H00",
+      "",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE DiscoveryCode: UED1Credits: 6Coefficients: 4",
+      "Blockchain Architectures and Technologies",
+      "3",
+      "2",
+      "01H30",
+      "",
+      "01H30",
+      "",
+      "42H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Information Retrieval",
+      "3",
+      "2",
+      "01H30",
+      "01H30",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE TransversalCode: UET1Credits: 2Coefficients: 2",
+      "Seminars &amp; Workshops",
+      "2",
+      "2",
+      "01H30",
+      "",
+      "",
+      "",
+      "21H",
+      "",
+      "100",
+      "Learn more×"
+    ],
+    [
+      "Total Semester 9",
+      "30",
+      "20",
+      "12H00",
+      "01H30",
+      "12H00",
+      "",
+      "357H"
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 8
+}

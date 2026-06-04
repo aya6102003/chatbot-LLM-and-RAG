@@ -1,0 +1,159 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/CP.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n14-16\r\nSemaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n14-16\r\nSemaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale 1\nCrédits : 10\nCoefficients : 5",
+      "Chimie des substances naturelles",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Chimie thérapeutique  1",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 2\nCrédits : 4\nCoefficients : 2",
+      "Grandes réactions en chimie organique",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 3\nCrédits : 4\nCoefficients : 2",
+      "Chromatographie et spectroscopie 1",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie 1 \nCrédits :5\nCoefficients : 3",
+      "TP : synthèse organique (1)",
+      "5",
+      "3",
+      "",
+      "",
+      "4h30",
+      "67h30",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie 2 \nCrédits : 4\nCoefficients : 2",
+      "TP : Chromato et Spectro",
+      "4",
+      "2",
+      "",
+      "",
+      "3h",
+      "45h",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Découverte\nCrédits : 1\nCoefficients : 1",
+      "Pharmacie galénique 1",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Transversale\nCrédits : 2\nCoefficients : 2",
+      "Anglais scientifique",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Cristallographie",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "17",
+      "12h",
+      "6h",
+      "7h30",
+      "382h30",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 12,
+  "col_count": 7
+}

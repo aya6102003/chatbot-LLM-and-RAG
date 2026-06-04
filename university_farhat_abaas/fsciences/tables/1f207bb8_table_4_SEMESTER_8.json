@@ -1,0 +1,140 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/ING_INTELLIGENCE_ARTIFICIELLE.html",
+  "title": "SEMESTER 8",
+  "headers": [
+    "Teaching Unit",
+    "Subject",
+    "Credits",
+    "Coefficient",
+    "Weekly Teaching Hours",
+    "VHS14 weeks",
+    "Assessment",
+    "Details"
+  ],
+  "rows": [
+    [
+      "Teaching Unit",
+      "Subject",
+      "Credits",
+      "Coefficient",
+      "Weekly Teaching Hours",
+      "VHS14 weeks",
+      "Assessment",
+      "Details"
+    ],
+    [
+      "Lecture",
+      "Tutorial",
+      "Lab",
+      "Other",
+      "Continuous",
+      "Exam"
+    ],
+    [
+      "UE FundamentalsCode: UEF1Credits: 10Coefficients: 7",
+      "Natural Language Processing (NLP)",
+      "5",
+      "3",
+      "03H00",
+      "",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Deep Learning",
+      "5",
+      "4",
+      "03H00",
+      "",
+      "03H00",
+      "",
+      "84H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE FundamentalsCode: UEF2Credits: 10Coefficients: 6",
+      "Data Security",
+      "5",
+      "3",
+      "01H30",
+      "01H30",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Image Analysis and Processing",
+      "5",
+      "3",
+      "01H30",
+      "01H30",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE MethodologyCode: UEM1Credits: 6Coefficients: 4",
+      "Distributed Computing Technologies",
+      "3",
+      "2",
+      "01H30",
+      "",
+      "01H30",
+      "",
+      "42H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Big Data Processing",
+      "3",
+      "2",
+      "01H30",
+      "",
+      "01H30",
+      "",
+      "42H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE TransversalCode: UET1Credits: 4Coefficients: 3",
+      "Multidisciplinary Project",
+      "4",
+      "3",
+      "",
+      "",
+      "3H",
+      "",
+      "3H",
+      "100% Defence",
+      "Learn more×"
+    ],
+    [
+      "Total Semester 8",
+      "30",
+      "20",
+      "12H00",
+      "03H00",
+      "13H30",
+      "",
+      "399H"
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 8
+}

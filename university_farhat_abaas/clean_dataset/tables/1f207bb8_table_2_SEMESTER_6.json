@@ -1,0 +1,141 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/ING_INTELLIGENCE_ARTIFICIELLE.html",
+  "title": "SEMESTER 6",
+  "headers": [
+    "Teaching Unit",
+    "Subject",
+    "Credits",
+    "Coefficient",
+    "Weekly Teaching Hours",
+    "VHS14 weeks",
+    "Assessment",
+    "Details"
+  ],
+  "rows": [
+    [
+      "Teaching Unit",
+      "Subject",
+      "Credits",
+      "Coefficient",
+      "Weekly Teaching Hours",
+      "VHS14 weeks",
+      "Assessment",
+      "Details"
+    ],
+    [
+      "Lecture",
+      "Tutorial",
+      "Lab",
+      "Other",
+      "Continuous",
+      "Exam"
+    ],
+    [
+      "UE FundamentalsCode: UEF1Credits: 16Coefficients: 11",
+      "Advanced Networks",
+      "6",
+      "3",
+      "01H30",
+      "01H30",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Operating Systems: Synchronization and Communication",
+      "6",
+      "4",
+      "03H00",
+      "01H30",
+      "01H30",
+      "",
+      "84H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Project Management",
+      "4",
+      "4",
+      "01H30",
+      "01H30",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE FundamentalsCode: UEF2Credits: 8Coefficients: 5",
+      "Web Programming",
+      "4",
+      "3",
+      "01H30",
+      "",
+      "01H30",
+      "",
+      "42H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "Numerical Analysis 2",
+      "4",
+      "2",
+      "01H30",
+      "01H30",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE DiscoveryCode: UED1Credits: 4Coefficients: 2",
+      "Introduction to Computer Security",
+      "4",
+      "2",
+      "01H30",
+      "01H30",
+      "01H30",
+      "",
+      "63H",
+      "40",
+      "60",
+      "Learn more×"
+    ],
+    [
+      "UE TransversalCode: UET1Credits: 2Coefficients: 2",
+      "AI Ethics",
+      "2",
+      "2",
+      "01H30",
+      "",
+      "",
+      "",
+      "21H",
+      "",
+      "100",
+      "Learn more×"
+    ],
+    [
+      "Total Semester 6",
+      "30",
+      "20",
+      "12H00",
+      "07H30",
+      "09H00",
+      "",
+      "399H"
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 8
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9158",
+      "title": "Faculté des Sciences",
+      "id": "4235de15",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:44:22",
+      "hash": "672c2f01751e4a5f",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nPLANNING DES EXAMENS DE REMPLACEMENT DU 2ᵉ SEMESTRE POUR LES L2, L3 ET M1\nVersion rectifiée (voir les zones surlignées en jaune)"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Planning remplacements S2 licence master V2",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6552/Planning_remplacements_S2_licence_master_V2.pdf",
+        "local_file": "pdfs/4235de15_Planning_remplacements_S2_licence_master.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

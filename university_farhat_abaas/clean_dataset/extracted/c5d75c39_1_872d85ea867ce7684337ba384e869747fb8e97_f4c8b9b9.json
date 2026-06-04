@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\images\\c5d75c39_1_872d85ea867ce7684337ba384e869747fb8e97.jpg",
+      "name": "c5d75c39_1_872d85ea867ce7684337ba384e869747fb8e97.jpg",
+      "type": "image",
+      "size_bytes": 3533630,
+      "id": "f4c8b9b9"
+    },
+    "extracted_at": "2026-06-04T15:21:05.442968"
+  },
+  "content": {
+    "text": "LEYBOLD",
+    "pages": [],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

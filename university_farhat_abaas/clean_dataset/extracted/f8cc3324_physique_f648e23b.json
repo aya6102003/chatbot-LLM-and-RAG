@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\pdfs\\f8cc3324_physique.pdf",
+      "name": "f8cc3324_physique.pdf",
+      "type": "pdf",
+      "size_bytes": 403635,
+      "id": "f648e23b"
+    },
+    "extracted_at": "2026-06-04T15:19:37.204774"
+  },
+  "content": {
+    "text": "N° \nN°inscription \nNom \nPrénom \n1 \n242435405107 \nSIARI \nMarouane abdelghafour \n2 \n232335371908 \nBELALEM \nMi ayat errahmane \n3 \n222235346412 \nCHELAL \nYanis mustapha \n4 \n242435415119 \nBOUHZILA \nAmina \n5 \n232335340912 \nBOUROUBA \nSelsabil \n6 \n222235369719 \nHATTABI \nRacha \n7 \n232335344113 \nBENGHEDFA \nOuissal \n8 \n212135061795 \nMAKHLOUFI \nSif eddine \n9 \n222235400611 \nNECHNECHE \nTakwa errhmane \n10 \n232335368714 \nBOUZENNACHA \nRayene \n11 \n232335484517 \nKETFI \nAya \n12 \n222233380408 \nBELHOUCHET \nKHADIDJA \n13 \n222235411204 \nKOUCEM \nLyna \n14 \n222235368719 \nBOUKERRA \nImane \n15 \n222235407020 \nKHAMMOUM \nAdja \n16 \n232335374003 \nSAADOUNE \nAya \n17 \n212235477611 \nZABOUB \nRoukaya \n18 \n212135055490 \nBERARMA \nOiam rayane \n19 \n212135074714 \nBOUDENNE \nIslam \n20 \n232335394207 \nNEFNAF \nAbderrahmane \n21 \n222235385013 \nMEDJIR \nZina \n22 \n222235410603 \nSABRI \nAdem \n23 \n202035048355 \nBOUKHRISSA \nYoucef chakib \n24 \n202035054745 \nZEGHBACHE \nCheima \n25 \n212135054457 \nBOUSSAHA \nAdel \n26 \n202035067303 \nCHAABNA \nMohamed \n27 \n222235383013 \nDJERBOUA \nNour el hayet \n28 \n222235416001 \nOUADAH \nAsma \n29 \n212135054950 \nSOUALHI \nMohamed-sadek \n30 \n222235397719 \nBOUSSAHOUL \nKhedidja \n31 \n222235358101 \nDIF \nAllaa \n32 \n181835053479 \nKADDED \nYasmine \n33 \n212135062401 \nGHELLAB \nMeriem \n34 \n2,02035E+11 \nLITIM \nAFKAR \n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "N° \nN°inscription \nNom \nPrénom \n1 \n242435405107 \nSIARI \nMarouane abdelghafour \n2 \n232335371908 \nBELALEM \nMi ayat errahmane \n3 \n222235346412 \nCHELAL \nYanis mustapha \n4 \n242435415119 \nBOUHZILA \nAmina \n5 \n232335340912 \nBOUROUBA \nSelsabil \n6 \n222235369719 \nHATTABI \nRacha \n7 \n232335344113 \nBENGHEDFA \nOuissal \n8 \n212135061795 \nMAKHLOUFI \nSif eddine \n9 \n222235400611 \nNECHNECHE \nTakwa errhmane \n10 \n232335368714 \nBOUZENNACHA \nRayene \n11 \n232335484517 \nKETFI \nAya \n12 \n222233380408 \nBELHOUCHET \nKHADIDJA \n13 \n222235411204 \nKOUCEM \nLyna \n14 \n222235368719 \nBOUKERRA \nImane \n15 \n222235407020 \nKHAMMOUM \nAdja \n16 \n232335374003 \nSAADOUNE \nAya \n17 \n212235477611 \nZABOUB \nRoukaya \n18 \n212135055490 \nBERARMA \nOiam rayane \n19 \n212135074714 \nBOUDENNE \nIslam \n20 \n232335394207 \nNEFNAF \nAbderrahmane \n21 \n222235385013 \nMEDJIR \nZina \n22 \n222235410603 \nSABRI \nAdem \n23 \n202035048355 \nBOUKHRISSA \nYoucef chakib \n24 \n202035054745 \nZEGHBACHE \nCheima \n25 \n212135054457 \nBOUSSAHA \nAdel \n26 \n202035067303 \nCHAABNA \nMohamed \n27 \n222235383013 \nDJERBOUA \nNour el hayet \n28 \n222235416001 \nOUADAH \nAsma \n29 \n212135054950 \nSOUALHI \nMohamed-sadek \n30 \n222235397719 \nBOUSSAHOUL \nKhedidja \n31 \n222235358101 \nDIF \nAllaa \n32 \n181835053479 \nKADDED \nYasmine \n33 \n212135062401 \nGHELLAB \nMeriem \n34 \n2,02035E+11 \nLITIM \nAFKAR"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "N°",
+          "N°inscription",
+          "Nom",
+          "Prénom"
+        ],
+        "rows": [
+          {
+            "N°": "1",
+            "N°inscription": "242435405107",
+            "Nom": "SIARI",
+            "Prénom": "Marouane abdelghafour"
+          },
+          {
+            "N°": "2",
+            "N°inscription": "232335371908",
+            "Nom": "BELALEM",
+            "Prénom": "Mi ayat errahmane"
+          },
+          {
+            "N°": "3",
+            "N°inscription": "222235346412",
+            "Nom": "CHELAL",
+            "Prénom": "Yanis mustapha"
+          },
+          {
+            "N°": "4",
+            "N°inscription": "242435415119",
+            "Nom": "BOUHZILA",
+            "Prénom": "Amina"
+          },
+          {
+            "N°": "5",
+            "N°inscription": "232335340912",
+            "Nom": "BOUROUBA",
+            "Prénom": "Selsabil"
+          },
+          {
+            "N°": "6",
+            "N°inscription": "222235369719",
+            "Nom": "HATTABI",
+            "Prénom": "Racha"
+          },
+          {
+            "N°": "7",
+            "N°inscription": "232335344113",
+            "Nom": "BENGHEDFA",
+            "Prénom": "Ouissal"
+          },
+          {
+            "N°": "8",
+            "N°inscription": "212135061795",
+            "Nom": "MAKHLOUFI",
+            "Prénom": "Sif eddine"
+          },
+          {
+            "N°": "9",
+            "N°inscription": "222235400611",
+            "Nom": "NECHNECHE",
+            "Prénom": "Takwa errhmane"
+          },
+          {
+            "N°": "10",
+            "N°inscription": "232335368714",
+            "Nom": "BOUZENNACHA",
+            "Prénom": "Rayene"
+          },
+          {
+            "N°": "11",
+            "N°inscription": "232335484517",
+            "Nom": "KETFI",
+            "Prénom": "Aya"
+          },
+          {
+            "N°": "12",
+            "N°inscription": "222233380408",
+            "Nom": "BELHOUCHET",
+            "Prénom": "KHADIDJA"
+          },
+          {
+            "N°": "13",
+            "N°inscription": "222235411204",
+            "Nom": "KOUCEM",
+            "Prénom": "Lyna"
+          },
+          {
+            "N°": "14",
+            "N°inscription": "222235368719",
+            "Nom": "BOUKERRA",
+            "Prénom": "Imane"
+          },
+          {
+            "N°": "15",
+            "N°inscription": "222235407020",
+            "Nom": "KHAMMOUM",
+            "Prénom": "Adja"
+          },
+          {
+            "N°": "16",
+            "N°inscription": "232335374003",
+            "Nom": "SAADOUNE",
+            "Prénom": "Aya"
+          },
+          {
+            "N°": "17",
+            "N°inscription": "212235477611",
+            "Nom": "ZABOUB",
+            "Prénom": "Roukaya"
+          },
+          {
+            "N°": "18",
+            "N°inscription": "212135055490",
+            "Nom": "BERARMA",
+            "Prénom": "Oiam rayane"
+          },
+          {
+            "N°": "19",
+            "N°inscription": "212135074714",
+            "Nom": "BOUDENNE",
+            "Prénom": "Islam"
+          },
+          {
+            "N°": "20",
+            "N°inscription": "232335394207",
+            "Nom": "NEFNAF",
+            "Prénom": "Abderrahmane"
+          },
+          {
+            "N°": "21",
+            "N°inscription": "222235385013",
+            "Nom": "MEDJIR",
+            "Prénom": "Zina"
+          },
+          {
+            "N°": "22",
+            "N°inscription": "222235410603",
+            "Nom": "SABRI",
+            "Prénom": "Adem"
+          },
+          {
+            "N°": "23",
+            "N°inscription": "202035048355",
+            "Nom": "BOUKHRISSA",
+            "Prénom": "Youcef chakib"
+          },
+          {
+            "N°": "24",
+            "N°inscription": "202035054745",
+            "Nom": "ZEGHBACHE",
+            "Prénom": "Cheima"
+          },
+          {
+            "N°": "25",
+            "N°inscription": "212135054457",
+            "Nom": "BOUSSAHA",
+            "Prénom": "Adel"
+          },
+          {
+            "N°": "26",
+            "N°inscription": "202035067303",
+            "Nom": "CHAABNA",
+            "Prénom": "Mohamed"
+          },
+          {
+            "N°": "27",
+            "N°inscription": "222235383013",
+            "Nom": "DJERBOUA",
+            "Prénom": "Nour el hayet"
+          },
+          {
+            "N°": "28",
+            "N°inscription": "222235416001",
+            "Nom": "OUADAH",
+            "Prénom": "Asma"
+          },
+          {
+            "N°": "29",
+            "N°inscription": "212135054950",
+            "Nom": "SOUALHI",
+            "Prénom": "Mohamed-sadek"
+          },
+          {
+            "N°": "30",
+            "N°inscription": "222235397719",
+            "Nom": "BOUSSAHOUL",
+            "Prénom": "Khedidja"
+          },
+          {
+            "N°": "31",
+            "N°inscription": "222235358101",
+            "Nom": "DIF",
+            "Prénom": "Allaa"
+          },
+          {
+            "N°": "32",
+            "N°inscription": "181835053479",
+            "Nom": "KADDED",
+            "Prénom": "Yasmine"
+          },
+          {
+            "N°": "33",
+            "N°inscription": "212135062401",
+            "Nom": "GHELLAB",
+            "Prénom": "Meriem"
+          },
+          {
+            "N°": "34",
+            "N°inscription": "2,02035E+11",
+            "Nom": "LITIM",
+            "Prénom": "AFKAR"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

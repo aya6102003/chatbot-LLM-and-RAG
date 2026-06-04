@@ -1,0 +1,140 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Licence_Mathematiques_Appliquees.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité d'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS14 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité d'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS14 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Travail personnel",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE FondamentaleCode : UEF 1Crédits : 17Coefficients : 11",
+      "Analyse 1",
+      "6",
+      "4",
+      "3h00",
+      "3h00",
+      "",
+      "3h",
+      "84h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Algèbre 1",
+      "5",
+      "3",
+      "1h30",
+      "1h30",
+      "",
+      "3h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Algorithmique et structure de données 1",
+      "6",
+      "4",
+      "3h00",
+      "1h30",
+      "3h",
+      "3h",
+      "105h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "UE MéthodologieCode : UEM 1Crédits : 9Coefficients : 5",
+      "Structure machine",
+      "5",
+      "3",
+      "1h30",
+      "1h30",
+      "",
+      "3h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "Logiciels libres (Open source)",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "",
+      "2h",
+      "21h",
+      "",
+      "100%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "UE TransversaleCode : UET 1Crédits : 2Coefficients : 1",
+      "Langue étrangère",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "",
+      "2h",
+      "21h",
+      "",
+      "100%",
+      "Savoir plus\n\n\n×"
+    ],
+    [
+      "UE DécouverteCode : UED 1Crédits : 2Coefficients : 1",
+      "Choisir une matière parmi :- Physique 1 (mécanique du point)- Electronique et composants des systèmes",
+      "2",
+      "1",
+      "1h30",
+      "1h30",
+      "",
+      "2h",
+      "42h",
+      "40%",
+      "60%",
+      "Physique 1\n\n\n×\n\n\n\n\n\nElectronique\n\n\n×"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "18",
+      "13h30",
+      "9h",
+      "3h",
+      "18h",
+      "357h",
+      ""
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 7
+}

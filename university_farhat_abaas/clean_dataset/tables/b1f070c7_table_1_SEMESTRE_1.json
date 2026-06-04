@@ -1,0 +1,120 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/ANLDP.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n15 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n15 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale 1    Crédits : 6\nCoefficients : 3",
+      "Méthode d’analyse\r\n            fonctionnelle",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 2   Crédits : 6\nCoefficients : 3",
+      "Optimisation",
+      "6",
+      "3",
+      "1h30",
+      "1h30",
+      "1h30",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 3   Crédits : 6\nCoefficients : 3",
+      "Statistiques",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie Crédits : 9\nCoefficients : 5",
+      "Méthodes d’analyse complexe",
+      "9",
+      "5",
+      "3h",
+      "3h",
+      "1h",
+      "105h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Découverte\nCrédits : 2\nCoefficients : 2",
+      "Techniques d’enseignements et de recherche (TER1)",
+      "2",
+      "2",
+      "3h",
+      "",
+      "",
+      "45h",
+      "",
+      "100%"
+    ],
+    [
+      "UE Transversale\nCrédits : 1\nCoefficients : 1",
+      "Anglais",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "17",
+      "16h30",
+      "6h",
+      "2h30",
+      "375h",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 9,
+  "col_count": 7
+}

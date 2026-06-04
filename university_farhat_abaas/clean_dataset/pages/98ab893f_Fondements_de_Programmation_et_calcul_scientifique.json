@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/LICENCE_MATHEMATIQUES/S2-PYTHON.html",
+      "title": "Fondements de Programmation et calcul scientifique avec Python",
+      "id": "98ab893f",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:42:53",
+      "hash": "e74c06ba172a57f8",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Fondements de Programmation et calcul scientifique avec Python\nSemestre : 02\nUnité d'enseignement : Méthodologique\nMatière : Fondements de Programmation et calcul scientifique avec Python\nCrédits : 5\nCoefficient : 3\nObjectifs de l'enseignement\nMaîtriser la programmation en Python\nDécouvrir les bibliothèques scientifiques de base (NumPy, Matplotlib) pour des applications mathématiques simples\nAppliquer Python à des problèmes introductifs en algèbre linéaire, calcul différentiel, et probabilités/statistiques\nConnaissances préalables recommandées\nConnaissances de base en mathématiques (niveau lycée)\nAucune expérience préalable en programmation n'est requise\nContenu de la matière\nChapitre 1 : Introduction à Python\n1.1 Installation de Python : installation de Python et gestion des environnements (Anaconda, pip)\n1.2 Configuration de l'environnement : configuration des outils (éditeurs de code : VS code, Pycharm, gestion des packages)\n1.3 Prise en main de Jupyter Notebooks : interface, intégration de texte et code, exécution de scripts simples\nChapitre 2 : Syntaxe de Base\n2.1 Variables et types de données : types de données : entiers, flottants, chaînes, booléens\n2.2 Opérations de base : opérations arithmétiques, logiques et de comparaison\n2.3 Structures de contrôle : conditions (if, elif, else), boucles (for, while)\nChapitre 3 : Fonctions et Modules\n3.1 Définition de fonctions : syntaxe, paramètres, valeurs de retour\n3.2 Utilisation de fonctions : appels de fonctions, gestion des arguments (par défaut, nommés)\n3.3 Importation de modules et création de modules : importation de modules standards, création de modules personnalisés\nChapitre 4 : Structures de Données\n4.1 Listes et tuples : création, indexation, opérations (slicing, concaténation)\n4.2 Dictionnaires et ensembles : création, manipulation, cas d'usage\n4.3 Opérations sur les structures de données : tri, filtrage, compréhension de listes\nChapitre 5 : Introduction aux Bibliothèques de Python\n5.1 Présentation de NumPy : création et manipulation de tableaux (ndarray), opérations vectorielles de base\n5.2 Présentation de Matplotlib : création de graphiques simples (courbes, points, histogrammes), personnalisation de base (titres, légendes, axes)\nChapitre 6 : Applications en Algèbre Linéaire, Calcul différentiel et Probabilités\n6.1 Algèbre linéaire de base : vecteurs et matrices avec NumPy (création, addition, multiplication), résolution de systèmes d'équations linéaires simples\n6.2 Calcul différentiel introductif : calcul numérique de dérivées simples avec NumPy, introduction aux gradients\n6.3 Probabilités et statistiques de base : variables aléatoires et simulations simples avec NumPy (numpy.random), calcul de statistiques descriptives (moyenne, médiane, variance)\n6.4 Projets pratiques : mini-projets intégrant programmation Python, NumPy, et Matplotlib\nMode d'évaluation\nContrôle continu (40%) : exercices, mini-projets. Examen final (60%) : évaluation écrite ou projet intégratif.\nRéférences bibliographiques\nGérard Swinnen, Apprendre à programmer avec Python (disponible gratuitement).\nDocumentation officielle de Python : www.python.org.\nNumPy Documentation : numpy.org.\nMatplotlib Documentation : matplotlib.org.\nWes McKinney, Python for Data Analysis.\nAl Sweigart, Automate the Boring Stuff with Python."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

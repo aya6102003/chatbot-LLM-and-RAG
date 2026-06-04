@@ -1,0 +1,120 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/AG.html",
+  "title": "SEMESTRE 2",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n14-16 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n14-16 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale    \nCrédits : 18\nCoefficients : 9",
+      "Groupes nilpotents et résolubles",
+      "8",
+      "4",
+      "3h",
+      "3h",
+      "",
+      "90h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Corps et modules",
+      "10",
+      "5",
+      "4h30",
+      "3h",
+      "",
+      "112h30",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie Crédits : 9\nCoefficients : 5",
+      "Groupes et algèbre de Lie",
+      "5",
+      "3",
+      "3h",
+      "1h",
+      "",
+      "60h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Analyse complexe 2",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE DécouverteCrédits : 2Coefficients : 2",
+      "Techniques d’analyse non standard en géométrie différentielle",
+      "2",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversaleCrédits : 1Coefficients : 1",
+      "Ethique et déontologie",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 2",
+      "30",
+      "17",
+      "15h",
+      "10h",
+      "",
+      "375h",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 9,
+  "col_count": 7
+}

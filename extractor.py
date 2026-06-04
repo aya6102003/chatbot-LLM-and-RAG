@@ -601,12 +601,6 @@ def build_json(file_path: Path, archive_source: Optional[str] = None) -> Optiona
     elif file_type == "xlsx":
         text, tables = extract_xlsx(file_path)
 
-    # ── Filter decision ───────────────────────────────────────────────────────
-    keep, reason = should_keep(text, tables, file_path.name)
-    if not keep:
-        log.warning("  ✗ DROPPED %s — %s", file_path.name, reason)
-        return None
-    log.info("  ✓ KEPT    %s — %s", file_path.name, reason)
 
     file_meta = {
         "path": str(file_path),
@@ -622,7 +616,6 @@ def build_json(file_path: Path, archive_source: Optional[str] = None) -> Optiona
         "metadata": {
             "file": file_meta,
             "extracted_at": datetime.now().isoformat(),
-            "filter_reason": reason,
         },
         "content": {"text": text, "pages": pages, "tables": tables},
         "resources": {"links": [], "images": images_list, "documents": []},
@@ -719,7 +712,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Extract content from documents of a single faculty (no deletion)."
     )
-    parser.add_argument("--input",     "-i", default="./university_farhat_abaas")
+    parser.add_argument("--input",     "-i", default="./university_farhat_abaas/clean_dataset")
     parser.add_argument("--output",    "-o", default="extracted")
     parser.add_argument("--min-chars", type=int, default=MIN_TEXT_CHARS)
     args = parser.parse_args()
@@ -730,10 +723,7 @@ def main():
         print(f"Error: Input folder does not exist: {root_dir}")
         sys.exit(1)
 
-    for subfolder in root_dir.iterdir():
-        if subfolder.is_dir():
-            print(f"\n🚀 Processing: {subfolder.name}")
-            run_pipeline_single(subfolder, subfolder / args.output)
+    run_pipeline_single(root_dir, root_dir / args.output)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,152 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/IDTW.html",
+  "title": "SEMESTRE 2",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n15 Semaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n15 Semaines",
+      "Mode d'évaluation"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Autres",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE Fondamentale 1\nCrédits : 10\nCoefficients : 5",
+      "AA1: Apprentissage automatique 1",
+      "6",
+      "3",
+      "1h30",
+      "",
+      "1h30",
+      "6h",
+      "135h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "MPR: Méthodes de résolution de problème",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "3h",
+      "90h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 2\nCrédits : 9\nCoefficients : 5",
+      "WS: Web Sémantique et Ontologies",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "3h",
+      "90h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "SAW : Sécurité des Applications Web",
+      "5",
+      "3",
+      "1h30",
+      "",
+      "1h30",
+      "4h",
+      "105h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Méthodologie Crédits : 8Coefficients : 4",
+      "CM : Contenu multimédias",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "3h",
+      "90h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "CC : Cloud computing",
+      "4",
+      "2",
+      "1h30",
+      "",
+      "1h30",
+      "3h",
+      "90h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE TransversaleCrédits : 3Coefficients : 3",
+      "ANG2 : Anglais 2",
+      "2",
+      "2",
+      "1h30",
+      "",
+      "",
+      "1h30",
+      "45h",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "PEDAG: Pédagogie",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 2",
+      "30",
+      "17",
+      "12h",
+      "",
+      "9h",
+      "22h30",
+      "667h30"
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 7
+}

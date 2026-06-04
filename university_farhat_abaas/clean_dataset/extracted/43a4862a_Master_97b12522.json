@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\pdfs\\43a4862a_Master.pdf",
+      "name": "43a4862a_Master.pdf",
+      "type": "pdf",
+      "size_bytes": 483255,
+      "id": "97b12522"
+    },
+    "extracted_at": "2026-06-04T15:18:06.980698"
+  },
+  "content": {
+    "text": " \nMaster 1 \n \n08h00---------09h30\n09h30-------11h00\n11h00----- 12h30\n12h30---------14h00\n14h00-------15h30\n15h30-------17h00\nDimanche\n31/05/26 \nL1: M1-SD BDA\nL2: M1-RSD  RA2 \nL3: M1-ISI MCSI \nL4: M1-CS CC+ EHSD \nL1: M1-SD VCC\nL2: M1-RSD  SD2  \nL3: M1-ISI RCR \nL4: M1-CS BLK CHN \nL10: EXM R M1-SD VCC \nL8: EXM R M1-RSD  RA2  \nL9: EXM R M1-ISI MCSI \nL10: EXM R M1-CS CC+ EHSD   \nL7: EXM R M1-SD BDA\nL8: EXM R M1-RSD  SD2 \nL9: EXM R M1-ISI RCR \nL10: EXM R M1-CS BLK CH \nLundi\n01/06/26 \nL2: M1-RSD QSR\nL3: M1-ISI ASI \nL1: M1-SD AABD\nL3: EXM R M1-ISI ASI  \nL4: M1-CS MLCS \nA2: EXM R M1-SD+RSD+ISI QC \n \nA2: EXM R M1-SD AABD \nA2: EXM R M1-RSD  QSR \nA2: EXM R M1-ISI ASI \nA2: EXM R M1-CS MLCS \nMardi\n02/06/26 \nL1: M1-SD DL \nL2: M1-RSD  GPI \nL3: M1-ISI SIC \nL4: M1-CS SSD \nL1: M1-SD GPI \nL2: M1-RSD  RSF \nL3: M1-ISI TD \nL4: M1-CS INS \nL3: M1-ISI GPI\nL4: EXM R M1-CS SSD \nL1: EXM R SD DL \nL2: EXM R RSD RSF \nL1: M1 EXM R SD+ISI+RSD GPI\nMercredi\n03/06/26 \nL3: EXM R M1-ISI TD\nL1: EXM R M1-SD EPD \nL4: EXM R M1-CS OSF \nL2: EXM R M1-RSD MSSD \nL3: EXM R M1-ISI SIC\nL1: EXM R M1-SD APD \nL4: EXM R M1-CS WAS+INS \nL2:M1-RSD MSSD \nL12: EXM R M1-ISI-RSD ML\nL15: M1-SD EPD \nL12: M1-ISI SIC ML\nL15: M1-SD APD \nL13: M1-CS OSF \nL12: M1-RSD ML\nL13: M1-CS WAS \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Master 1 \n \n08h00---------09h30\n09h30-------11h00\n11h00----- 12h30\n12h30---------14h00\n14h00-------15h30\n15h30-------17h00\nDimanche\n31/05/26 \nL1: M1-SD BDA\nL2: M1-RSD  RA2 \nL3: M1-ISI MCSI \nL4: M1-CS CC+ EHSD \nL1: M1-SD VCC\nL2: M1-RSD  SD2  \nL3: M1-ISI RCR \nL4: M1-CS BLK CHN \nL10: EXM R M1-SD VCC \nL8: EXM R M1-RSD  RA2  \nL9: EXM R M1-ISI MCSI \nL10: EXM R M1-CS CC+ EHSD   \nL7: EXM R M1-SD BDA\nL8: EXM R M1-RSD  SD2 \nL9: EXM R M1-ISI RCR \nL10: EXM R M1-CS BLK CH \nLundi\n01/06/26 \nL2: M1-RSD QSR\nL3: M1-ISI ASI \nL1: M1-SD AABD\nL3: EXM R M1-ISI ASI  \nL4: M1-CS MLCS \nA2: EXM R M1-SD+RSD+ISI QC \n \nA2: EXM R M1-SD AABD \nA2: EXM R M1-RSD  QSR \nA2: EXM R M1-ISI ASI \nA2: EXM R M1-CS MLCS \nMardi\n02/06/26 \nL1: M1-SD DL \nL2: M1-RSD  GPI \nL3: M1-ISI SIC \nL4: M1-CS SSD \nL1: M1-SD GPI \nL2: M1-RSD  RSF \nL3: M1-ISI TD \nL4: M1-CS INS \nL3: M1-ISI GPI\nL4: EXM R M1-CS SSD \nL1: EXM R SD DL \nL2: EXM R RSD RSF \nL1: M1 EXM R SD+ISI+RSD GPI\nMercredi\n03/06/26 \nL3: EXM R M1-ISI TD\nL1: EXM R M1-SD EPD \nL4: EXM R M1-CS OSF \nL2: EXM R M1-RSD MSSD \nL3: EXM R M1-ISI SIC\nL1: EXM R M1-SD APD \nL4: EXM R M1-CS WAS+INS \nL2:M1-RSD MSSD \nL12: EXM R M1-ISI-RSD ML\nL15: M1-SD EPD \nL12: M1-ISI SIC ML\nL15: M1-SD APD \nL13: M1-CS OSF \nL12: M1-RSD ML\nL13: M1-CS WAS"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "column_0",
+          "08h00---------09h30",
+          "09h30-------11h00",
+          "11h00----- 12h30",
+          "12h30---------14h00",
+          "14h00-------15h30",
+          "15h30-------17h00"
+        ],
+        "rows": [
+          {
+            "column_0": "Dimanche\n31/05/26",
+            "08h00---------09h30": "Dimanche\n31/05/26",
+            "09h30-------11h00": "Dimanche\n31/05/26",
+            "11h00----- 12h30": "L1: M1-SD BDA\nL2: M1-RSD RA2\nL3: M1-ISI MCSI\nL4: M1-CS CC+ EHSD",
+            "12h30---------14h00": "L1: M1-SD VCC\nL2: M1-RSD SD2\nL3: M1-ISI RCR\nL4: M1-CS BLK CHN",
+            "14h00-------15h30": "L10: EXM R M1-SD VCC\nL8: EXM R M1-RSD RA2\nL9: EXM R M1-ISI MCSI\nL10: EXM R M1-CS CC+ EHSD",
+            "15h30-------17h00": "L7: EXM R M1-SD BDA\nL8: EXM R M1-RSD SD2\nL9: EXM R M1-ISI RCR\nL10: EXM R M1-CS BLK CH"
+          },
+          {
+            "column_0": "Lundi\n01/06/26",
+            "08h00---------09h30": "L2: M1-RSD QSR\nL3: M1-ISI ASI",
+            "09h30-------11h00": "L1: M1-SD AABD\nL3: EXM R M1-ISI ASI\nL4: M1-CS MLCS",
+            "11h00----- 12h30": "L1: M1-SD AABD\nL3: EXM R M1-ISI ASI\nL4: M1-CS MLCS",
+            "12h30---------14h00": "L1: M1-SD AABD\nL3: EXM R M1-ISI ASI\nL4: M1-CS MLCS",
+            "14h00-------15h30": "A2: EXM R M1-SD+RSD+ISI QC",
+            "15h30-------17h00": "A2: EXM R M1-SD AABD\nA2: EXM R M1-RSD QSR\nA2: EXM R M1-ISI ASI\nA2: EXM R M1-CS MLCS"
+          },
+          {
+            "column_0": "Mardi\n02/06/26",
+            "08h00---------09h30": "Mardi\n02/06/26",
+            "09h30-------11h00": "Mardi\n02/06/26",
+            "11h00----- 12h30": "L1: M1-SD DL\nL2: M1-RSD GPI\nL3: M1-ISI SIC\nL4: M1-CS SSD",
+            "12h30---------14h00": "L1: M1-SD GPI\nL2: M1-RSD RSF\nL3: M1-ISI TD\nL4: M1-CS INS",
+            "14h00-------15h30": "L3: M1-ISI GPI\nL4: EXM R M1-CS SSD\nL1: EXM R SD DL\nL2: EXM R RSD RSF",
+            "15h30-------17h00": "L1: M1 EXM R SD+ISI+RSD GPI"
+          },
+          {
+            "column_0": "Mercredi\n03/06/26",
+            "08h00---------09h30": "L3: EXM R M1-ISI TD\nL1: EXM R M1-SD EPD\nL4: EXM R M1-CS OSF\nL2: EXM R M1-RSD MSSD",
+            "09h30-------11h00": "L3: EXM R M1-ISI SIC\nL1: EXM R M1-SD APD\nL4: EXM R M1-CS WAS+INS\nL2:M1-RSD MSSD",
+            "11h00----- 12h30": "L12: EXM R M1-ISI-RSD ML\nL15: M1-SD EPD",
+            "12h30---------14h00": "L12: M1-ISI SIC ML\nL15: M1-SD APD\nL13: M1-CS OSF",
+            "14h00-------15h30": "L12: M1-RSD ML\nL13: M1-CS WAS",
+            "15h30-------17h00": "L12: M1-RSD ML\nL13: M1-CS WAS"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/CAA.html",
+  "title": "SEMESTRE 1",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume horaire hebdomadaire",
+    "VHS\n14-16\r\nSemaines",
+    "Mode d'évaluation"
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume horaire hebdomadaire",
+      "VHS\n14-16\r\nSemaines",
+      "Mode d'évaluation",
+      ""
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP",
+      "Continu",
+      "Examen",
+      ""
+    ],
+    [
+      "UE Fondamentale 1\nCrédits : 10\nCoefficients : 6",
+      "Méthodes Spectrales d’analyses I",
+      "6",
+      "3",
+      "3h",
+      "1h30",
+      "",
+      "67h30",
+      "33%",
+      "67%",
+      "Savoir plus"
+    ],
+    [
+      "Chimie    analytique    et    réactions    en \r\nsolutions aqueuses",
+      "4",
+      "3",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Fondamentale 2\nCrédits : 8\nCoefficients :  4",
+      "Méthodes d’analyse quantitative",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Analyse et Caractérisation par DRX",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "45h",
+      "33%",
+      "67%",
+      "Savoir plus"
+    ],
+    [
+      "UE Méthodologie 1 \nCrédits : 9\nCoefficients : 4",
+      "TP Techniques        physicochimiques \r\nd’analyse I",
+      "5",
+      "2",
+      "",
+      "",
+      "3h00",
+      "45h",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "TP Chimie Analytique",
+      "4",
+      "2",
+      "",
+      "",
+      "3h00",
+      "45h",
+      "50%",
+      "50%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Découverte\nCrédits : 2\nCoefficients : 2",
+      "Chimie organique",
+      "2",
+      "2",
+      "1h30",
+      "1h",
+      "",
+      "37h30",
+      "33%",
+      "67%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE Transversale\nCrédits : 1\nCoefficients : 1",
+      "Analyse de données en chimie",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "",
+      "100%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 1",
+      "30",
+      "17",
+      "",
+      "",
+      "",
+      "352h30",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 7
+}

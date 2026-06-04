@@ -1,0 +1,142 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Licence_Informatique_SI.html",
+  "title": "SEMESTRE 2",
+  "headers": [
+    "Unité \nd'Enseignement",
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "V.H hebdomadaire",
+    "VHS\n14 sem",
+    "Mode d'évaluation",
+    ""
+  ],
+  "rows": [
+    [
+      "Unité \nd'Enseignement",
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "V.H hebdomadaire",
+      "VHS\n14 sem",
+      "Mode d'évaluation",
+      ""
+    ],
+    [
+      "C",
+      "TD",
+      "TP",
+      "Autres",
+      "Continu",
+      "Examen"
+    ],
+    [
+      "UE FondamentaleCode : UEF21Crédits : 10Coefficients : 6",
+      "Analyse 2",
+      "6",
+      "4",
+      "3h",
+      "1h30",
+      "",
+      "3h",
+      "63h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Algèbre 2",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "3h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE FondamentaleCode : UEF22Crédits : 12Coefficients : 8",
+      "Algorithmique et structure de données 2",
+      "7",
+      "5",
+      "1h30",
+      "1h30",
+      "3h",
+      "3h",
+      "84h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Structure machine 2",
+      "5",
+      "3",
+      "1h30",
+      "1h30",
+      "",
+      "3h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE MéthodologieCode : UEM21Crédits : 4Coefficients : 2",
+      "Logique Mathématique",
+      "2",
+      "1",
+      "1h30",
+      "1h30",
+      "",
+      "2h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Introduction à l'intelligence artificielle",
+      "2",
+      "1",
+      "1h30",
+      "",
+      "1h30",
+      "2h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "UE DécouverteCode : UED21Crédits : 4Coefficients : 2",
+      "Electronique fondamentale",
+      "4",
+      "2",
+      "1h30",
+      "1h30",
+      "",
+      "2h",
+      "42h",
+      "40%",
+      "60%",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total Semestre 2",
+      "30",
+      "18",
+      "12h",
+      "9h",
+      "4h30",
+      "18H",
+      "357h",
+      ""
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 8
+}

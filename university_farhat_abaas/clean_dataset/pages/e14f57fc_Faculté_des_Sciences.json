@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/291",
+      "title": "Faculté des Sciences",
+      "id": "e14f57fc",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:45:12",
+      "hash": "d71cc4fb267910c3",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "SEMCHEDINE Moussa\nSEMCHEDINE Moussa\nGrade:Maitre de conferences classe A\nGrade:Maitre de conferences classe A\nEmail:moussa.semchedine@univ-setif.dz\nEmail:moussa.semchedine@univ-setif.dz\nDépartement:Informatique\nBureau:19\nBureau:19\n\nProgrammation orientée Objet\nPolycopie de cours\nInitiation à l'algorithmique\nPolycopie de cours\nLangages évolués (C)\nPolycopie de cours\nChapitre 1: Structure Machine 1\nPolycopie de cours\nChapitre 2: Structure Machine 1\nPolycopie de cours\nChapitre 3: Structure Machine 1\nPolycopie de cours\nChapitre 4: Structure Machine 4\nPolycopie de cours"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "44",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/44",
+        "type": "internal"
+      },
+      {
+        "text": "45",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/45",
+        "type": "internal"
+      },
+      {
+        "text": "46",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/46",
+        "type": "internal"
+      },
+      {
+        "text": "489",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/489",
+        "type": "internal"
+      },
+      {
+        "text": "490",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/490",
+        "type": "internal"
+      },
+      {
+        "text": "535",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/535",
+        "type": "internal"
+      },
+      {
+        "text": "625",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/625",
+        "type": "internal"
+      }
+    ],
+    "images": [],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/e14f57fc_table_1_untitled.json",
+        "rows": 7
+      }
+    ]
+  }
+}

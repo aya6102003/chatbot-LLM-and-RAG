@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/GP_FR/Savoirplus/ING/ASD1.html",
+      "title": "Asd1.Html",
+      "id": "4f23324d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:43:13",
+      "hash": "21285972e0689def",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Contenu de la matière\nChapitre 1 : Eléments de base (03h)\nAlgorithme, processeur, action\nProgrammes et langages de programmation\nAnalyse d'un problème\nChapitre 2 : Présentation du formalisme algorithmique (07h)\nNécessite d'un formalisme algorithmique\nPrésentation du formalisme algorithmique adopté\nStructure d'un algorithme\nL'environnement - Objets élémentaires\nLe corps de l'algorithme\nLes structures de contrôle : autres actions de base (L'affectation, Les expressions arithmétiques, Logiques, relationnelles et mixte, La lecture, L'écriture)\nChapitre 3 : Eléments de base du langage C\nStructure d'un programme\nLe corps du programme\nDocumentations des programmes\nL'environnement du programme\nListe des mots réserves\nExemple de programme en C\nChapitre 4 : La modularité (15h)\nConcepts fondamentaux et avantages de la modularité\nTypes des modules\nExemples\nMécanismes de communication\nPassage de paramètres\nLes fonctions\nLes fonctions utilisateurs\nLes fonctions standards\nLes fonctions dans le langage C\nComment cataloguer un module en C\nLes procédures\nLes procédures utilisateurs\nLes procédures standards\nLes procédures dans le langage C\nModules internes et modules externes\nObjets locaux et objets globaux\nLes effets de bord\ndémarche modulaire et formalisme\nConcept de bibliothèque (application au langage C)\nChapitre 5 : Les structures de données statiques (05h)\nTableaux à une dimension\nLes tris (sélection,  transposition, bulles, par comptage, Shell)\nTableaux à deux dimensions\nLes chaines des caractères , Les ensembles, Les enregistrements\nTRAVAUX PERSONNELS\nTrois TPs devront être réalisés dont deux sur la modularité\nLes TPs consistent la mise en œuvre de la démarche étudiée et en la confection de dossiers de TPs comprenant : l'énoncé, le découpage modulaire éventuel, les analyses et algorithme des différents modules, le jeu d'essai,  les listings des programmes et les résultats."
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [],
+    "tables": []
+  }
+}

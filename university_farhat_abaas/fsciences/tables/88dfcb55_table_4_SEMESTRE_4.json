@@ -1,0 +1,116 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/IngInfoTC.html",
+  "title": "SEMESTRE 4",
+  "headers": [
+    "Matière",
+    "Crédits",
+    "Coefficient",
+    "Volume\n      horaire hebdomadaire",
+    "VHS\n15 Semaines"
+  ],
+  "rows": [
+    [
+      "Matière",
+      "Crédits",
+      "Coefficient",
+      "Volume\n      horaire hebdomadaire",
+      "VHS\n15 Semaines"
+    ],
+    [
+      "Cours",
+      "TD",
+      "TP"
+    ],
+    [
+      "Programmation Orientée Objet 2",
+      "6",
+      "6",
+      "3h00",
+      "",
+      "3h00",
+      "90h00",
+      "Savoir\n      plus \n\n\n ×"
+    ],
+    [
+      "Introduction aux Systèmes d'Information",
+      "3",
+      "3",
+      "1h30",
+      "",
+      "1h30",
+      "45h00",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Introduction aux Réseaux Informatiques",
+      "5",
+      "4",
+      "1h30",
+      "1h30",
+      "1h30",
+      "67h30",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Introduction aux Bases de Données",
+      "3",
+      "3",
+      "1h30",
+      "1h30",
+      "",
+      "45h00",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Théorie des Langages",
+      "3",
+      "3",
+      "1h30",
+      "1h30",
+      "",
+      "45h00",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Théorie des Graphes",
+      "3",
+      "3",
+      "1h30",
+      "1h30",
+      "",
+      "45h00",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Projet Pluridisciplinaire",
+      "6",
+      "6",
+      "",
+      "",
+      "6h00",
+      "90h00",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Anglais 2",
+      "1",
+      "1",
+      "1h30",
+      "",
+      "",
+      "22h30",
+      "Savoir plus \n\n\n ×"
+    ],
+    [
+      "Total\n      Semestre 4",
+      "30",
+      "29",
+      "12h00",
+      "6h00",
+      "12h00",
+      "450h00"
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 5
+}

@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/page_professionnelles/507",
+      "title": "Faculté des Sciences",
+      "id": "d8720e10",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:27:13",
+      "hash": "649d2eebf555f5d9",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Belaib  Mohamed Tahar\nBelaib  Mohamed Tahar\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:mohamedtahar.belaib@univ-setif.dz\nEmail:mohamedtahar.belaib@univ-setif.dz\nDépartement:Mathématiques\nBureau:\nBureau:\n\nChapitre1 Partie1 Rappels sur la théorie des ensembles\nPolycopie de cours\nChapitre1 Partie 2 Mesures positives\nPolycopie de cours\nTD1\nPolycopie de TD"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "1957",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1957",
+        "type": "internal"
+      },
+      {
+        "text": "1958",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1958",
+        "type": "internal"
+      },
+      {
+        "text": "1959",
+        "url": "https://fsciences.univ-setif.dz/production_pedagogiques/1959",
+        "type": "internal"
+      }
+    ],
+    "images": [],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/d8720e10_table_1_untitled.json",
+        "rows": 3
+      }
+    ]
+  }
+}

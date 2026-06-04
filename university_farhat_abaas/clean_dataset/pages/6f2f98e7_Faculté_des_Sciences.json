@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9179",
+      "title": "Faculté des Sciences",
+      "id": "6f2f98e7",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:46:48",
+      "hash": "f3323cf90f4fb310",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nPLANNING DES EXAMENS DE RATTRAPAGE DU SEMESTRE 2 (MASTER 1)\nMaster1: RSD+SD+ISI+CS"
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": [
+      {
+        "title": "Master opt compressed",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6563/Master_opt_compressed.pdf",
+        "local_file": "pdfs/6f2f98e7_Master_opt_compressed.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/530",
+      "title": "Faculté des Sciences",
+      "id": "eb6a0c60",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:45:40",
+      "hash": "dff7f529cb0b532c",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Frihia hamza\nFrihia hamza\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:hamza.frihia@univ-setif.dz\nEmail:hamza.frihia@univ-setif.dz\nDépartement:Informatique\nBureau:\nBureau:\n\nTp POO Série 1\nPolycopie de TP"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "1561",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/1561",
+        "type": "internal"
+      }
+    ],
+    "images": [],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/eb6a0c60_table_1_untitled.json",
+        "rows": 1
+      }
+    ]
+  }
+}

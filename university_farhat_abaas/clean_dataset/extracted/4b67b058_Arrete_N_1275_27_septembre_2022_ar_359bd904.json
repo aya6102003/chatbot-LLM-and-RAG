@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\pdfs\\4b67b058_Arrete_N_1275_27_septembre_2022_ar.pdf",
+      "name": "4b67b058_Arrete_N_1275_27_septembre_2022_ar.pdf",
+      "type": "pdf",
+      "size_bytes": 60716,
+      "id": "359bd904"
+    },
+    "extracted_at": "2026-06-04T15:18:09.297040"
+  },
+  "content": {
+    "text": "\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/page_professionnelles/574",
+      "title": "Faculté des Sciences",
+      "id": "6a0ef0e9",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:48:06",
+      "hash": "253a600c8c17a164",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "FOUDILI Djabir\nFOUDILI Djabir\nGrade:Maitre de conferences classe B\nGrade:Maitre de conferences classe B\nEmail:djabir.foudili@univ-setif.dz\nEmail:djabir.foudili@univ-setif.dz\nDépartement:Physique\nBureau:\nBureau:\n\nCours de Méthodes de prospection Magnétotellurique\nPolycopie de cours\nCours de Diagraphie\nPolycopie de cours"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "2306",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2306",
+        "type": "internal"
+      },
+      {
+        "text": "2307",
+        "url": "http://fsciences.univ-setif.dz/production_pedagogiques/2307",
+        "type": "internal"
+      }
+    ],
+    "images": [],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/6a0ef0e9_table_1_untitled.json",
+        "rows": 2
+      }
+    ]
+  }
+}

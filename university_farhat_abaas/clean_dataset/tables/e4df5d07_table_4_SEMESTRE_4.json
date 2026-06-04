@@ -1,0 +1,50 @@
+{
+  "source_url": "https://fsciences.univ-setif.dz/GP_FR/Master_Chimie_Analytique_Controle_Qualite.html",
+  "title": "SEMESTRE 4",
+  "headers": [
+    "",
+    "VHS",
+    "Coeff",
+    "Crédits"
+  ],
+  "rows": [
+    [
+      "",
+      "VHS",
+      "Coeff",
+      "Crédits"
+    ],
+    [
+      "Travail Personnel",
+      "225h",
+      "17",
+      "30"
+    ],
+    [
+      "Stage en entreprise sanctionné par un mémoire et une soutenance",
+      "150h",
+      "",
+      ""
+    ],
+    [
+      "Séminaires",
+      "20h",
+      "",
+      ""
+    ],
+    [
+      "Autre (préciser)",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Total Semestre 4",
+      "395h",
+      "17",
+      "30"
+    ]
+  ],
+  "row_count": 6,
+  "col_count": 4
+}

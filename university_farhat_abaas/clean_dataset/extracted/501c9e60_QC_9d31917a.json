@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\chatbot-LLM-and-RAG\\university_farhat_abaas\\clean_dataset\\pdfs\\501c9e60_QC.pdf",
+      "name": "501c9e60_QC.pdf",
+      "type": "pdf",
+      "size_bytes": 356162,
+      "id": "9d31917a"
+    },
+    "extracted_at": "2026-06-04T15:18:14.462114"
+  },
+  "content": {
+    "text": "‏الجمهورية الجزائرية الديمقراطية الشعبية ‏\n‏وزارة التعليــم العالــي والبحــث العلمــي ‏\n‏ جامعة فرحات عباس سطيف1‏\n  \n‏كليــــــــــة العلـــــــــــــــــــــوم ‏\nUniversity of Setif 1 – Faculty of Sciences \nPlanning Complémentaire des Examens  \nSemestre 2  \nMaster 1 Spécialité QC \nModule \nResponsable \nDate \nHoraire \nLocaux \nPL for QC \nNOUIOUA T \n31/05/2026 \n12:30-14:00 \nA1 \nSpintronic \nBouguerra Y \n01/06/2026 \n09:30-11:00 \nA2 \nQCA \nGHARBI  A  \n02/06/2026 \n12:30-14:00 \nA2 \nBQC \nMme Zaoua \n03/06/2026 \n09:30-11:00 \nA2 \n \n \n \n\n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "الجمهورية الجزائرية الديمقراطية الشعبية \nوزارة التعليــم العالــي والبحــث العلمــي \n جامعة فرحات عباس سطيف1\n  \nكليــــــــــة العلـــــــــــــــــــــوم \nUniversity of Setif 1 – Faculty of Sciences \nPlanning Complémentaire des Examens  \nSemestre 2  \nMaster 1 Spécialité QC \nModule \nResponsable \nDate \nHoraire \nLocaux \nPL for QC \nNOUIOUA T \n31/05/2026 \n12:30-14:00 \nA1 \nSpintronic \nBouguerra Y \n01/06/2026 \n09:30-11:00 \nA2 \nQCA \nGHARBI  A  \n02/06/2026 \n12:30-14:00 \nA2 \nBQC \nMme Zaoua \n03/06/2026 \n09:30-11:00 \nA2"
+      },
+      {
+        "page": 2,
+        "text": ""
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "ةيبعشلا ةيطارقميدلا ةيرئازجلا ةيروهمجلا"
+        ],
+        "rows": [
+          {
+            "ةيبعشلا ةيطارقميدلا ةيرئازجلا ةيروهمجلا": "يــملعلا ثــحبلاو يــلاعلا مــيلعتلا ةرازو"
+          },
+          {
+            "ةيبعشلا ةيطارقميدلا ةيرئازجلا ةيروهمجلا": "1 فيطس سابع تاحرف ةعماج"
+          },
+          {
+            "ةيبعشلا ةيطارقميدلا ةيرئازجلا ةيروهمجلا": "موـــــــــــــــــــــلعلا ةــــــــــيلك"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 1,
+        "headers": [
+          "Module",
+          "Responsable",
+          "Date",
+          "Horaire",
+          "Locaux"
+        ],
+        "rows": [
+          {
+            "Module": "PL for QC",
+            "Responsable": "NOUIOUA T",
+            "Date": "31/05/2026",
+            "Horaire": "12:30-14:00",
+            "Locaux": "A1"
+          },
+          {
+            "Module": "Spintronic",
+            "Responsable": "Bouguerra Y",
+            "Date": "01/06/2026",
+            "Horaire": "09:30-11:00",
+            "Locaux": "A2"
+          },
+          {
+            "Module": "QCA",
+            "Responsable": "GHARBI A",
+            "Date": "02/06/2026",
+            "Horaire": "12:30-14:00",
+            "Locaux": "A2"
+          },
+          {
+            "Module": "BQC",
+            "Responsable": "Mme Zaoua",
+            "Date": "03/06/2026",
+            "Horaire": "09:30-11:00",
+            "Locaux": "A2"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}
