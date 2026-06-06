@@ -1358,5 +1358,3 @@ def main():
         log.info("\nStopped."); updater.state.save()
 
 if __name__=="__main__": main()
-
-# it was 1000 line 

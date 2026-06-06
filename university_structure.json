@@ -4,13 +4,21 @@
     "departments": [
 
       {
-        "name": "Département Informatique",
+        "name": "Informatique",
         "levels": [
           {
             "name": "Licence",
             "programs": [
               {
-                "name": "Licence Informatique",
+                "name": "Licence Systèmes Informatiques",
+                "years": ["L1", "L2", "L3"]
+              },
+              {
+                "name": "Licence Médecine et Big Data",
+                "years": ["L1", "L2", "L3"]
+              },
+              {
+                "name": "Licence Mathématiques et Informatique Appliquées aux Sciences Economiques",
                 "years": ["L1", "L2", "L3"]
               }
             ]
@@ -35,6 +43,10 @@
                   },
                   {
                     "name": "Ingénierie des Systèmes d'Information",
+                    "years": ["M1", "M2"]
+                  },  
+                  {
+                    "name": "Sciences de données",
                     "years": ["M1", "M2"]
                   }
                 ]
@@ -74,16 +86,12 @@
                 "years": ["ING3", "ING4", "ING5"]
               }
             ]
-          },
-          {
-            "name": "Médecine Informatique",
-            "programs": []
           }
         ]
       },
 
       {
-        "name": "Tronc Commun Sciences de la Matière",
+        "name": "Chimie",
         "levels": [
           {
             "name": "Licence",
@@ -91,18 +99,7 @@
               {
                 "name": "Tronc Commun Sciences de la Matière",
                 "years": ["L1"]
-              }
-            ]
-          }
-        ]
-      },
-
-      {
-        "name": "Chimieque",
-        "levels": [
-          {
-            "name": "Licence",
-            "programs": [
+              },
               {
                 "name": "Chimie Générale",
                 "years": ["L2", "L3"]
@@ -111,10 +108,7 @@
           },
           {
             "name": "Master",
-            "categories": [
-              {
-                "type": "Spécialités",
-                "specializations": [
+            "specializations": [
                   {
                     "name": "Chimie de l'Environnement",
                     "years": ["M1", "M2"]
@@ -140,8 +134,6 @@
                     "years": ["M1", "M2"]
                   }
                 ]
-              }
-            ]
           },
           {
             "name": "Doctorat",
@@ -156,6 +148,10 @@
           {
             "name": "Licence",
             "programs": [
+              {
+                "name": "Tronc Commun Sciences de la Matière",
+                "years": ["L1"]
+              },
               {
                 "name": "Licence en Physique Fondamentale",
                 "years": ["L2", "L3"]
