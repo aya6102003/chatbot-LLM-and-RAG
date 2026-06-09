@@ -333,68 +333,7 @@
         "type": "internal"
       }
     ],
-    "images": [
-      {
-        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
-        "alt": "",
-        "desc": "",
-        "local_file": "images/c5d75c39_Logo_Ferhat_Abbas_University.png"
-      },
-      {
-        "url": "https://fsciences.univ-setif.dz/assets/1-872d85ea867ce7684337ba384e869747fb8e97afeec5e28f224532293c6ebc85.jpg",
-        "alt": "",
-        "desc": "",
-        "local_file": "images/c5d75c39_1_872d85ea867ce7684337ba384e869747fb8e97.jpg"
-      },
-      {
-        "url": "https://fsciences.univ-setif.dz/assets/2-07a6e0304defa6a1f980ce577e80f6ef0075aa02017029d3d7ff19840a815f6c.jpg",
-        "alt": "",
-        "desc": "",
-        "local_file": "images/c5d75c39_2_07a6e0304defa6a1f980ce577e80f6ef0075aa.jpg"
-      },
-      {
-        "url": "https://fsciences.univ-setif.dz/assets/3-4c97d271e84d4ef9b0eaeff76cb82f01b382d3f4f56f330e1530e9eb93678685.jpg",
-        "alt": "",
-        "desc": "",
-        "local_file": "images/c5d75c39_3_4c97d271e84d4ef9b0eaeff76cb82f01b382d3.jpg"
-      },
-      {
-        "url": "https://fsciences.univ-setif.dz/assets/4-24defa7ed28e81dcaa20f2bb6b45de30f61c115da6a643d5ee3692d5fa63aadc.jpg",
-        "alt": "",
-        "desc": "",
-        "local_file": "images/c5d75c39_4_24defa7ed28e81dcaa20f2bb6b45de30f61c11.jpg"
-      },
-      {
-        "url": "https://fsciences.univ-setif.dz/assets/5-0fa13c471091ff8a86e20ba5f0b66e0cad41810bc86c7661cbfa142d38104d2e.jpg",
-        "alt": "",
-        "desc": "",
-        "local_file": "images/c5d75c39_5_0fa13c471091ff8a86e20ba5f0b66e0cad4181.jpg"
-      },
-      {
-        "url": "https://fsciences.univ-setif.dz/assets/6-0d1dd94a1e8eb6f66040e0df26e6331a38905ba5ccf45e7d17008b6824fb62eb.jpg",
-        "alt": "",
-        "desc": "",
-        "local_file": "images/c5d75c39_6_0d1dd94a1e8eb6f66040e0df26e6331a38905b.jpg"
-      },
-      {
-        "url": "https://fsciences.univ-setif.dz/assets/7-3fdb9533de6a24a030c1b25f5ad61d6259a001bce08a04fa6180ae88c89dd607.jpg",
-        "alt": "",
-        "desc": "",
-        "local_file": "images/c5d75c39_7_3fdb9533de6a24a030c1b25f5ad61d6259a001.jpg"
-      },
-      {
-        "url": "https://fsciences.univ-setif.dz/assets/8-d18b0cb5b88ebda077ff5d3d296e07b71ff367233b5ef9d34a8b7201f461510c.jpg",
-        "alt": "",
-        "desc": "",
-        "local_file": "images/c5d75c39_8_d18b0cb5b88ebda077ff5d3d296e07b71ff367.jpg"
-      },
-      {
-        "url": "https://fsciences.univ-setif.dz/assets/9-2f09f3813a1b0401ead7ef70cd3523612d25b1bc23308735a41d88596d738608.jpg",
-        "alt": "",
-        "desc": "",
-        "local_file": "images/c5d75c39_9_2f09f3813a1b0401ead7ef70cd3523612d25b1.jpg"
-      }
-    ],
+    "images": [],
     "documents": [],
     "tables": []
   }

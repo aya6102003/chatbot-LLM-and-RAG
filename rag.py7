@@ -1,0 +1,1063 @@
+#!/usr/bin/env python3
+"""
+RAG Retrieval Pipeline v15.0 — Farhat Abbas University Sétif 1
+===============================================================
+Complete rewrite with automatic graph-aware retrieval:
+  - Automatically detects academic entities in queries
+  - Traverses the matched node + all descendants
+  - Boosts chunks under matched nodes for better relevance
+  - Falls back to global search when no node match found
+
+Requires:
+  pip install sentence-transformers neo4j numpy rank-bm25 rapidfuzz requests
+  export GROQ_API_KEY="gsk_..."
+"""
+
+import atexit
+import hashlib
+import json
+import logging
+import os
+import re
+import sys
+import threading
+from collections import deque
+from dataclasses import dataclass, field
+from functools import lru_cache
+from typing import Dict, List, Optional, Set, Tuple
+
+import numpy as np
+import requests
+from sentence_transformers import SentenceTransformer, CrossEncoder
+from neo4j import GraphDatabase
+
+try:
+    from rank_bm25 import BM25Okapi
+    _BM25_OK = True
+except ImportError:
+    _BM25_OK = False
+    logging.warning("rank_bm25 not installed — BM25 disabled. pip install rank-bm25")
+
+try:
+    from rapidfuzz import process as fuzz_process, fuzz as _fuzz
+    _FUZZ_OK = True
+except ImportError:
+    _FUZZ_OK = False
+    logging.warning("rapidfuzz not installed — fuzzy search disabled.")
+
+# ─────────────────────────────────────────────────────────────
+# LOGGING
+# ─────────────────────────────────────────────────────────────
+logging.basicConfig(level=logging.INFO,
+                    format="%(asctime)s [%(levelname)s] %(message)s")
+log = logging.getLogger(__name__)
+
+# ─────────────────────────────────────────────────────────────
+# CONFIG
+# ─────────────────────────────────────────────────────────────
+NEO4J_URI      = os.getenv("NEO4J_URI", "bolt://127.0.0.1:7687")
+NEO4J_USER     = os.getenv("NEO4J_USER", "neo4j")
+NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "password")
+NEO4J_TIMEOUT  = int(os.getenv("NEO4J_TIMEOUT", "30"))
+NEO4J_VECTOR_INDEX = "chunk_embedding"
+
+EMBED_MODEL_NAME  = "sentence-transformers/LaBSE"
+VECTOR_DIMENSIONS = 768
+RERANK_MODEL      = "BAAI/bge-reranker-v2-m3"
+
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODEL   = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+
+TOP_K_VECTOR = 40
+TOP_K_BM25   = 20
+TOP_K_RERANK = 15
+TOP_K_FINAL  = 8
+TOP_K_FUZZY  = 10
+FUZZY_MIN_SCORE = 65
+
+W_SEM   = 0.70
+W_BM25  = 0.10
+W_TITLE = 0.20
+W_FUSED = 0.50
+W_RERANK = 0.50
+
+RERANK_POWER   = 0.75
+RERANK_MIN_CAL = 0.25
+
+DYN_TOP_K_MIN = 3
+DYN_TOP_K_MAX = 8
+DYNAMIC_SCORE_MARGIN = 0.25
+
+LANG_MATCH_BOOST    = 0.04
+ACADEMIC_BOOST_CAP  = 0.04
+AUTHORITY_BOOST_CAP = 0.03
+
+ANSWER_THRESHOLD = 0.35
+DEDUP_CHARS = 200
+
+NEIGHBOR_COUNT          = 3
+NEIGHBOR_WINDOW         = 2
+NEIGHBOR_SEED_MIN_SCORE = 0.40
+NEIGHBOR_SCORE_INHERIT  = 0.80
+NBR_SEM_FLOOR = 0.30
+NBR_KW_FLOOR  = 0.15
+CONTEXT_WINDOW_SIZE = 1
+
+ENTITY_FUZZ_THRESHOLD = 72
+ENTITY_MIN_TOKEN_LEN  = 3
+EMBED_CACHE_SIZE = 256
+
+# ── Graph boost weights ───────────────────
+GRAPH_NODE_BOOST       = 0.20   # Exact node match
+GRAPH_CHILD_BOOST      = 0.15   # Direct children
+GRAPH_DESCENDANT_BOOST = 0.10   # Deeper descendants
+GRAPH_SIBLING_BOOST    = 0.05   # Sibling nodes
+
+# ── Auto-detect keywords for academic entities ─
+_ACADEMIC_ENTITY_TRIGGERS = [
+    # French triggers
+    r"\b(facult[ée]\s*(des?\s*)?(sciences?|m[ée]decine|technologie|lettres?|droit|economie|g[ée]nie|informatique)?)\b",
+    r"\b(d[ée]partement\s*(d['\s]?)?(informatique|math[ée]matiques|physique|chimie|biologie|g[ée]nie|mi|sm|st|svt|snv)?)\b",
+    r"\b(fili[èe]re\s*(d['\s]?)?\w+)\b",
+    r"\b(sp[ée]cialit[ée]\s*\w*)\b",
+    r"\b(licence|master|doctorat)\s*(en\s+)?(\w+)?\b",
+    # Arabic triggers
+    r"\b(كلية|قسم|شعبة|تخصص|ليسانس|ماستر|دكتوراه)\s*\w*\b",
+    # English triggers
+    r"\b(faculty|department|program|specialization|bachelor|master|phd|doctorate)\s*(of\s+)?\w*\b",
+    # Direct department/program names
+    r"\b(informatique|informatique\s*industrielle|isi|g[ée]nie\s*logiciel|gl|rsd|r[ée]seaux)\b",
+    r"\b(math[ée]matiques|math[ée]matiques\s*et\s*informatique|mi|maths?)\b",
+    r"\b(physique|chimie|biologie|g[ée]nie\s*(civil|m[ée]canique|electrique|des\s*proc[ée]d[ée]s)?)\b",
+    r"\b(sciences?\s*(de\s*la\s*)?(mati[èe]re|vie|nature|technologie|commerciales?|[ée]conomiques?)|sm|sv|st|sn|snv|svt)\b",
+]
+
+_STOPWORDS: Set[str] = {
+    "le","la","les","de","du","des","et","en","un","une","pour","avec",
+    "dans","sur","par","est","ce","qui","que","quoi","comment","quel",
+    "je","tu","il","elle","nous","vous","ils","elles","mon","ton","son",
+    "mes","tes","ses","nos","vos","leurs","au","aux","ou","si","ne","pas",
+    "the","a","an","and","or","of","in","to","for","is","are","was","were",
+    "it","its","this","that","with","by","on","at","from","be","been","has",
+    "have","had","do","does","did","will","would","could","should","may",
+    "في","من","إلى","على","عن","مع","هو","هي","هم","هن","أنا","نحن",
+    "أنت","أنتم","كان","كانت","يكون","التي","الذي","الذين","اللتي","ما",
+    "لا","هذا","هذه","ذلك","تلك","قد","لقد","إن","أن","لكن","أو",
+    "who","what","where","when","why","how","which",
+    "qui","que","quoi","comment","où","quand","quel","quelle",
+    "من","ماذا","أين","متى","كيف","أي",
+}
+
+# ─────────────────────────────────────────────────────────────
+# DATA CLASSES
+# ─────────────────────────────────────────────────────────────
+
+@dataclass
+class RetrievedChunk:
+    chunk_id:     str
+    text:         str
+    score:        float
+    metadata:     Dict = field(default_factory=dict)
+    is_neighbor:  bool = False
+    sem_score:    float = 0.0
+    bm25_score:   float = 0.0
+    title_score:  float = 0.0
+    fused_score:  float = 0.0
+    rerank_raw:   float = 0.0
+    rerank_cal:   float = 0.0
+    graph_boost:  float = 0.0
+    node_level:   int = 0
+
+
+@dataclass
+class AcademicNode:
+    node_id: str
+    name: str
+    label: str
+    parent_id: Optional[str] = None
+    children_ids: List[str] = field(default_factory=list)
+    aliases: List[str] = field(default_factory=list)
+
+
+# ══════════════════════════════════════════════════════════════
+# NEO4J CONNECTION
+# ══════════════════════════════════════════════════════════════
+
+_neo4j_driver = None
+_neo4j_lock = threading.Lock()
+
+def _get_driver():
+    global _neo4j_driver
+    if _neo4j_driver is None:
+        with _neo4j_lock:
+            if _neo4j_driver is None:
+                _neo4j_driver = GraphDatabase.driver(
+                    NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD),
+                    connection_timeout=NEO4J_TIMEOUT)
+                with _neo4j_driver.session() as sess:
+                    sess.run("RETURN 1")
+                log.info("✓ Neo4j connected")
+    return _neo4j_driver
+
+def _close_driver():
+    global _neo4j_driver
+    if _neo4j_driver:
+        _neo4j_driver.close()
+        _neo4j_driver = None
+
+atexit.register(_close_driver)
+
+# ══════════════════════════════════════════════════════════════
+# ACADEMIC GRAPH TRAVERSAL (COMPLETELY REWRITTEN)
+# ══════════════════════════════════════════════════════════════
+
+class AcademicGraph:
+    """
+    Complete academic tree with auto-detection of entities in queries.
+    """
+    
+    def __init__(self):
+        self.nodes: Dict[str, AcademicNode] = {}
+        self.children_map: Dict[str, List[str]] = {}
+        self.parent_map: Dict[str, str] = {}
+        self.url_to_node: Dict[str, str] = {}
+        self.url_to_chunks: Dict[str, List[str]] = {}
+        self.node_to_urls: Dict[str, List[str]] = {}
+        self.name_index: Dict[str, List[str]] = {}  # lowercase name → [node_ids]
+        self._loaded = False
+        self._load_graph()
+    
+    def _load_graph(self):
+        """Load complete academic tree from Neo4j."""
+        try:
+            driver = _get_driver()
+            with driver.session() as sess:
+                # Load nodes
+                result = sess.run("""
+                    MATCH (n)
+                    WHERE n:Faculty OR n:Department OR n:Program OR n:Specialization OR n:General
+                    OPTIONAL MATCH (parent)-[:HAS_CHILD]->(n)
+                    OPTIONAL MATCH (n)-[:HAS_CHILD]->(child)
+                    RETURN 
+                        n.id AS id,
+                        n.name AS name,
+                        labels(n) AS labels,
+                        parent.id AS parent_id,
+                        collect(DISTINCT child.id) AS children
+                """)
+                
+                for rec in result:
+                    nid = rec["id"]
+                    if not nid:
+                        continue
+                    
+                    # Determine label
+                    label = "General"
+                    for lbl in (rec["labels"] or []):
+                        if lbl in ("Faculty","Department","Program","Specialization","General"):
+                            label = lbl
+                            break
+                    
+                    name = rec["name"] or nid
+                    children = [c for c in (rec["children"] or []) if c]
+                    
+                    node = AcademicNode(
+                        node_id=nid,
+                        name=name,
+                        label=label,
+                        parent_id=rec["parent_id"],
+                        children_ids=children,
+                        aliases=self._generate_aliases(name)
+                    )
+                    self.nodes[nid] = node
+                    self.children_map[nid] = children
+                    if rec["parent_id"]:
+                        self.parent_map[nid] = rec["parent_id"]
+                    
+                    # Index by name
+                    name_lower = name.lower().strip()
+                    if name_lower not in self.name_index:
+                        self.name_index[name_lower] = []
+                    self.name_index[name_lower].append(nid)
+                    
+                    # Index aliases
+                    for alias in node.aliases:
+                        alias_lower = alias.lower().strip()
+                        if alias_lower not in self.name_index:
+                            self.name_index[alias_lower] = []
+                        if nid not in self.name_index[alias_lower]:
+                            self.name_index[alias_lower].append(nid)
+                
+                # Load URL → Node mappings
+                result2 = sess.run("""
+                    MATCH (u:URL)-[:CLASSIFIED_AS]->(n)
+                    WHERE n:Faculty OR n:Department OR n:Program OR n:Specialization OR n:General
+                    RETURN n.id AS node_id, u.id AS url_id
+                """)
+                for rec in result2:
+                    nid = rec["node_id"]
+                    uid = rec["url_id"]
+                    self.url_to_node[uid] = nid
+                    if nid not in self.node_to_urls:
+                        self.node_to_urls[nid] = []
+                    self.node_to_urls[nid].append(uid)
+                
+                # Load URL → Chunks mappings
+                result3 = sess.run("""
+                    MATCH (u:URL)-[:HAS_CHUNK]->(c:Chunk)
+                    RETURN u.id AS url_id, collect(c.id) AS chunk_ids
+                """)
+                for rec in result3:
+                    self.url_to_chunks[rec["url_id"]] = rec["chunk_ids"] or []
+                
+                self._loaded = True
+                log.info(f"✓ Academic graph loaded: {len(self.nodes)} nodes, {len(self.url_to_node)} URLs")
+                
+        except Exception as e:
+            log.error(f"Failed to load academic graph: {e}")
+            self._loaded = False
+    
+    def _generate_aliases(self, name: str) -> List[str]:
+        """Generate alternative names/abbreviations for a node."""
+        aliases = []
+        name_lower = name.lower().strip()
+        
+        # Common abbreviations mapping
+        abbr_map = {
+            "informatique": ["info", "isi", "cs", "computer science", "informatique industrielle", "gl", "génie logiciel", "rsd"],
+            "mathématiques": ["maths", "math", "mathematiques", "mi"],
+            "mathématiques et informatique": ["mi", "maths info", "math info"],
+            "physique": ["phys", "phys1", "sm"],
+            "chimie": ["chim", "chim1", "sm"],
+            "biologie": ["bio", "sv", "svt", "snv", "sciences de la vie", "sciences naturelles"],
+            "sciences de la matière": ["sm", "physique chimie"],
+            "sciences et technologie": ["st"],
+            "sciences de la vie": ["sv", "svt", "snv", "biologie"],
+            "génie logiciel": ["gl", "software engineering"],
+            "réseaux et systèmes distribués": ["rsd", "networks"],
+            "faculté des sciences": ["fs", "fac science", "faculté science"],
+            "faculté de technologie": ["ft", "fac technologie"],
+            "faculté de médecine": ["fm", "fac médecine"],
+            "département informatique": ["dept info", "dept informatique"],
+            "département mathématiques": ["dept maths", "dept math"],
+            "département physique": ["dept phys", "dept physique"],
+            "licence": ["l1", "l2", "l3"],
+            "master": ["m1", "m2"],
+        }
+        
+        # Check exact match
+        if name_lower in abbr_map:
+            aliases.extend(abbr_map[name_lower])
+        
+        # Check partial matches
+        for key, vals in abbr_map.items():
+            if key in name_lower or name_lower in key:
+                aliases.extend(vals)
+        
+        # Add acronym
+        words = name_lower.split()
+        if len(words) > 1:
+            acronym = "".join(w[0] for w in words if w)
+            if len(acronym) >= 2:
+                aliases.append(acronym)
+        
+        # Remove duplicates and self
+        aliases = list(set(a.lower() for a in aliases if a.lower() != name_lower))
+        return aliases
+    
+    def detect_nodes_in_query(self, query: str) -> List[AcademicNode]:
+        """
+        Auto-detect academic entities mentioned in a query.
+        Returns list of matching nodes sorted by relevance.
+        """
+        query_lower = query.lower().strip()
+        matched_nodes: Dict[str, float] = {}  # node_id → score
+        
+        # Strategy 1: Direct name match (highest priority)
+        for name_lower, node_ids in self.name_index.items():
+            if name_lower in query_lower:
+                # Score based on how much of the query the name covers
+                score = len(name_lower) / len(query_lower)
+                for nid in node_ids:
+                    current = matched_nodes.get(nid, 0)
+                    matched_nodes[nid] = max(current, score * 2.0)
+        
+        # Strategy 2: Word-by-word matching
+        query_words = set(query_lower.split())
+        for name_lower, node_ids in self.name_index.items():
+            name_words = set(name_lower.split())
+            overlap = query_words & name_words
+            if overlap:
+                score = len(overlap) / max(len(name_words), 1)
+                for nid in node_ids:
+                    current = matched_nodes.get(nid, 0)
+                    matched_nodes[nid] = max(current, score * 1.0)
+        
+        # Strategy 3: Fuzzy matching for short queries
+        if _FUZZ_OK and len(query_lower.split()) <= 3:
+            for name_lower, node_ids in self.name_index.items():
+                ratio = _fuzz.partial_ratio(query_lower, name_lower)
+                if ratio >= 75:
+                    score = ratio / 100.0 * 0.7
+                    for nid in node_ids:
+                        current = matched_nodes.get(nid, 0)
+                        matched_nodes[nid] = max(current, score)
+        
+        # Strategy 4: Check for academic trigger patterns
+        for pattern in _ACADEMIC_ENTITY_TRIGGERS:
+            matches = re.findall(pattern, query_lower, re.IGNORECASE)
+            for match in matches:
+                match_str = match if isinstance(match, str) else match[0] if match else ""
+                if match_str:
+                    # Search for this extracted term in our name index
+                    for name_lower, node_ids in self.name_index.items():
+                        if match_str.lower() in name_lower or name_lower in match_str.lower():
+                            for nid in node_ids:
+                                current = matched_nodes.get(nid, 0)
+                                matched_nodes[nid] = max(current, 0.5)
+        
+        # Sort by score and return nodes
+        sorted_matches = sorted(matched_nodes.items(), key=lambda x: x[1], reverse=True)
+        result = []
+        for nid, score in sorted_matches[:5]:  # Top 5 matches
+            if score > 0.3:  # Minimum threshold
+                node = self.nodes.get(nid)
+                if node:
+                    result.append(node)
+                    log.info(f"  🎯 Detected node: '{node.name}' [{node.label}] score={score:.2f}")
+        
+        return result
+    
+    def get_all_chunks_for_nodes(self, node_ids: List[str], include_descendants: bool = True) -> Set[str]:
+        """Get all chunk IDs under given nodes + optionally descendants."""
+        all_chunks: Set[str] = set()
+        visited_nodes: Set[str] = set()
+        
+        for nid in node_ids:
+            # BFS to collect all nodes
+            queue = deque([nid])
+            while queue:
+                current = queue.popleft()
+                if current in visited_nodes:
+                    continue
+                visited_nodes.add(current)
+                
+                # Add chunks from this node
+                for url_id in self.node_to_urls.get(current, []):
+                    all_chunks.update(self.url_to_chunks.get(url_id, []))
+                
+                # Add children if requested
+                if include_descendants:
+                    for child_id in self.children_map.get(current, []):
+                        if child_id not in visited_nodes:
+                            queue.append(child_id)
+        
+        return all_chunks
+    
+    def get_chunks_by_level(self, node_ids: List[str]) -> Dict[int, Set[str]]:
+        """
+        Get chunks organized by tree level:
+          0: exact nodes
+          1: direct children
+          2: deeper descendants
+        """
+        result: Dict[int, Set[str]] = {0: set(), 1: set(), 2: set()}
+        
+        for nid in node_ids:
+            # Level 0: exact node
+            for url_id in self.node_to_urls.get(nid, []):
+                result[0].update(self.url_to_chunks.get(url_id, []))
+            
+            # Collect all descendants
+            descendants = set()
+            queue = deque([(nid, 0)])
+            visited = {nid}
+            while queue:
+                current, depth = queue.popleft()
+                for child_id in self.children_map.get(current, []):
+                    if child_id not in visited:
+                        visited.add(child_id)
+                        descendants.add((child_id, depth + 1))
+                        queue.append((child_id, depth + 1))
+            
+            # Level 1 and 2
+            direct_children = set(self.children_map.get(nid, []))
+            for desc_id, depth in descendants:
+                urls = self.node_to_urls.get(desc_id, [])
+                chunks = set()
+                for u in urls:
+                    chunks.update(self.url_to_chunks.get(u, []))
+                
+                if desc_id in direct_children:
+                    result[1].update(chunks)
+                else:
+                    result[2].update(chunks)
+        
+        return result
+    
+    def get_node_path(self, node_id: str) -> List[AcademicNode]:
+        """Get path from root to node."""
+        path = []
+        current = node_id
+        while current:
+            node = self.nodes.get(current)
+            if node:
+                path.append(node)
+                current = node.parent_id
+            else:
+                break
+        return list(reversed(path))
+    
+    def get_node_info(self, node_id: str) -> Optional[Dict]:
+        """Get detailed node information."""
+        node = self.nodes.get(node_id)
+        if not node:
+            return None
+        
+        path = self.get_node_path(node_id)
+        children = [self.nodes[c] for c in self.children_map.get(node_id, []) if c in self.nodes]
+        
+        direct_chunks = 0
+        for url_id in self.node_to_urls.get(node_id, []):
+            direct_chunks += len(self.url_to_chunks.get(url_id, []))
+        
+        all_chunks = len(self.get_all_chunks_for_nodes([node_id], include_descendants=True))
+        
+        return {
+            "node_id": node.node_id,
+            "name": node.name,
+            "label": node.label,
+            "parent_id": node.parent_id,
+            "path": [{"id": n.node_id, "name": n.name, "label": n.label} for n in path],
+            "children": [{"id": c.node_id, "name": c.name, "label": c.label} for c in children],
+            "direct_chunks": direct_chunks,
+            "total_chunks": all_chunks,
+        }
+
+
+# ══════════════════════════════════════════════════════════════
+# QUERY ANALYZER
+# ══════════════════════════════════════════════════════════════
+
+class QueryAnalyzer:
+    _RE_AR = re.compile(r"[\u0600-\u06FF]")
+    _RE_FR = re.compile(r"\b(le|la|les|de|du|des|et|en|un|une|pour|avec|dans|sur|par|est|comment|quoi|qui|quel|quelle)\b", re.IGNORECASE)
+    
+    def analyze(self, query: str) -> Dict:
+        lang = self._detect_language(query)
+        intent = self._detect_intent(query)
+        keywords = self._extract_keywords(query)
+        return {
+            "query": query,
+            "language": lang,
+            "intent": intent,
+            "keywords": keywords,
+            "normalized": self._normalize(query),
+        }
+    
+    def _detect_language(self, text: str) -> str:
+        s = text[:300]
+        if len(self._RE_AR.findall(s)) >= max(1, len(s.strip()) // 10):
+            return "ar"
+        if len(self._RE_FR.findall(s)) > 2:
+            return "fr"
+        return "en"
+    
+    def _detect_intent(self, query: str) -> str:
+        q = query.lower()
+        if any(w in q for w in ["tradui", "translat", "ترجم", "translate"]):
+            return "translation"
+        if any(w in q for w in ["prof", "dr", "enseignant", "teacher", "استاذ", "دكتور", "email", "contact"]):
+            return "person_lookup"
+        if any(w in q for w in ["liste", "list", "tableau", "table", "tous", "all", "قائمة"]):
+            return "table_query"
+        if any(w in q for w in ["cours", "course", "module", "matière", "td", "tp", "semestre", "مقياس"]):
+            return "course_query"
+        if any(w in q for w in ["inscription", "registration", "examen", "exam", "résultat", "result", "تسجيل"]):
+            return "admin_query"
+        if any(w in q for w in ["spécialité", "specialization", "filière", "département", "department", "faculté", "faculty", "تخصص", "قسم", "كلية"]):
+            return "node_query"
+        return "general_info"
+    
+    def _extract_keywords(self, query: str) -> List[str]:
+        norm = self._normalize(query)
+        tokens = norm.split()
+        keywords = []
+        for t in tokens:
+            if len(t) >= 2 and t not in _STOPWORDS:
+                keywords.append(t)
+        return keywords if keywords else tokens
+    
+    def _normalize(self, text: str) -> str:
+        import unicodedata
+        text = unicodedata.normalize("NFC", text)
+        text = re.sub(r"[^\w\s]", " ", text, flags=re.UNICODE)
+        text = re.sub(r"\s+", " ", text).strip().lower()
+        return text
+
+
+# ══════════════════════════════════════════════════════════════
+# RETRIEVERS
+# ══════════════════════════════════════════════════════════════
+
+class SemanticRetriever:
+    def __init__(self):
+        log.info(f"Loading {EMBED_MODEL_NAME}...")
+        try:
+            import torch
+            dev = "cuda" if torch.cuda.is_available() else "cpu"
+        except ImportError:
+            dev = "cpu"
+        self._model = SentenceTransformer(EMBED_MODEL_NAME, device=dev)
+        self._cache: Dict[str, np.ndarray] = {}
+        log.info("Embedder ready")
+    
+    def encode(self, texts: List[str]) -> np.ndarray:
+        results = []
+        miss_idx, miss_texts = [], []
+        for i, t in enumerate(texts):
+            if t in self._cache:
+                results.append(self._cache[t])
+            else:
+                results.append(None)
+                miss_idx.append(i)
+                miss_texts.append(t)
+        if miss_texts:
+            embs = self._model.encode(miss_texts, normalize_embeddings=True, convert_to_numpy=True, show_progress_bar=False)
+            for local_i, global_i in enumerate(miss_idx):
+                vec = embs[local_i]
+                if len(self._cache) >= EMBED_CACHE_SIZE:
+                    self._cache.pop(next(iter(self._cache)))
+                self._cache[miss_texts[local_i]] = vec
+                results[global_i] = vec
+        return np.vstack([r for r in results if r is not None])
+    
+    def search(self, variants: List[str], top_k: int, chunk_filter: Optional[Set[str]] = None) -> Dict[str, RetrievedChunk]:
+        if not variants:
+            return {}
+        
+        embeddings = self.encode(variants)
+        candidates: Dict[str, RetrievedChunk] = {}
+        driver = _get_driver()
+        
+        filter_clause = ""
+        filter_params = {}
+        if chunk_filter:
+            filter_clause = "AND c.id IN $chunk_ids"
+            filter_params["chunk_ids"] = list(chunk_filter)
+        
+        for vec_idx, vec in enumerate(embeddings):
+            query = f"""
+                CALL db.index.vector.queryNodes($index, $k, $vec)
+                YIELD node AS c, score
+                MATCH (u:URL)-[:HAS_CHUNK]->(c)
+                WHERE 1=1 {filter_clause}
+                OPTIONAL MATCH (page:URL)-[:HAS_FILE]->(u)
+                RETURN c.id AS cid, c.text AS text, c.chunk_index AS ci, c.language AS lang,
+                       score AS sim, u.url AS url, u.title AS title, u.source_type AS st,
+                       page.url AS page_url
+            """
+            try:
+                with driver.session() as sess:
+                    for rec in sess.run(query, {"index": NEO4J_VECTOR_INDEX, "k": top_k, "vec": vec.tolist(), **filter_params}):
+                        cid = rec["cid"]
+                        sim = float(rec["sim"])
+                        if cid not in candidates or sim > candidates[cid].sem_score:
+                            candidates[cid] = RetrievedChunk(
+                                chunk_id=cid,
+                                text=rec["text"] or "",
+                                score=sim,
+                                metadata={
+                                    "title": rec["title"] or "",
+                                    "url": rec["url"] or "",
+                                    "page_url": rec["page_url"] or "",
+                                    "source_type": rec["st"] or "",
+                                    "language": rec["lang"] or "",
+                                    "chunk_index": rec["ci"],
+                                    "pdf_url": rec["url"] if rec["st"] == "pdf" else "",
+                                },
+                                sem_score=sim,
+                            )
+            except Exception as e:
+                log.warning(f"Vector search error: {e}")
+        
+        return candidates
+
+
+class BM25Retriever:
+    def __init__(self):
+        self._chunk_ids = []
+        self._texts = []
+        self._meta = {}
+        self._bm25 = None
+        if not _BM25_OK:
+            return
+        
+        log.info("Building BM25 index...")
+        qa = QueryAnalyzer()
+        tokenized = []
+        
+        try:
+            driver = _get_driver()
+            with driver.session() as sess:
+                for rec in sess.run("""
+                    MATCH (u:URL)-[:HAS_CHUNK]->(c:Chunk)
+                    OPTIONAL MATCH (page:URL)-[:HAS_FILE]->(u)
+                    RETURN c.id AS cid, c.text AS text, c.language AS lang, c.chunk_index AS ci,
+                           u.url AS url, u.title AS title, u.source_type AS st, page.url AS page_url
+                """):
+                    cid = rec["cid"]
+                    text = rec["text"] or ""
+                    if not cid or not text.strip():
+                        continue
+                    self._chunk_ids.append(cid)
+                    self._texts.append(text)
+                    self._meta[cid] = {
+                        "title": rec["title"] or "", "url": rec["url"] or "",
+                        "page_url": rec["page_url"] or "", "source_type": rec["st"] or "",
+                        "language": rec["lang"] or "en", "chunk_index": rec["ci"],
+                        "pdf_url": rec["url"] if rec["st"] == "pdf" else "", "chunk": text,
+                    }
+                    tokenized.append(qa._normalize(text).split())
+        except Exception as e:
+            log.error(f"BM25 load failed: {e}")
+            return
+        
+        if tokenized:
+            self._bm25 = BM25Okapi(tokenized)
+            log.info(f"BM25 ready: {len(tokenized)} chunks")
+    
+    def search(self, keywords: List[str], top_k: int, chunk_filter: Optional[Set[str]] = None) -> List[Tuple[str, str, float]]:
+        if self._bm25 is None or not keywords:
+            return []
+        raw = self._bm25.get_scores(keywords)
+        mx = raw.max()
+        if mx <= 0:
+            return []
+        norm = raw / mx
+        results = []
+        for i in np.argsort(norm)[::-1][:top_k * 3]:
+            if norm[i] <= 0:
+                continue
+            cid = self._chunk_ids[i]
+            if chunk_filter and cid not in chunk_filter:
+                continue
+            results.append((cid, self._texts[i], float(norm[i])))
+            if len(results) >= top_k:
+                break
+        return results
+    
+    def get_meta(self, cid: str) -> Optional[Dict]:
+        return self._meta.get(cid)
+
+
+# ══════════════════════════════════════════════════════════════
+# FUSION + RERANKING
+# ══════════════════════════════════════════════════════════════
+
+def _fingerprint(text: str) -> str:
+    return hashlib.md5(re.sub(r"\s+", " ", text[:DEDUP_CHARS]).strip().lower().encode()).hexdigest()
+
+
+def fuse_results(
+    semantic: Dict[str, RetrievedChunk],
+    bm25: List[Tuple[str, str, float]],
+    graph_boost_map: Dict[str, Tuple[float, int]],
+    query_lang: str,
+) -> List[RetrievedChunk]:
+    pool: Dict[str, Dict] = {}
+    
+    for cid, chunk in semantic.items():
+        pool[cid] = {"sem": chunk.sem_score, "bm25": 0.0, "text": chunk.text, "meta": chunk.metadata}
+    
+    for cid, text, score in bm25:
+        if cid not in pool:
+            pool[cid] = {"sem": 0.0, "bm25": score, "text": text, "meta": {}}
+        else:
+            pool[cid]["bm25"] = max(pool[cid]["bm25"], score)
+    
+    fused = []
+    seen = {}
+    for cid, d in pool.items():
+        sem = float(d["sem"])
+        bm = float(d["bm25"])
+        if sem == 0.0 and bm == 0.0:
+            continue
+        
+        score = W_SEM * sem + W_BM25 * bm
+        
+        meta = d["meta"] if isinstance(d["meta"], dict) else {}
+        if meta.get("language") == query_lang:
+            score += LANG_MATCH_BOOST
+        
+        # Graph boost
+        gb, level = graph_boost_map.get(cid, (0.0, -1))
+        score += gb
+        
+        fp = _fingerprint(d["text"])
+        if fp in seen and score <= seen[fp]:
+            continue
+        seen[fp] = score
+        
+        fused.append(RetrievedChunk(
+            chunk_id=cid, text=d["text"], score=score, metadata=meta,
+            sem_score=sem, bm25_score=bm, fused_score=score,
+            graph_boost=gb, node_level=level,
+        ))
+    
+    fused.sort(key=lambda c: c.score, reverse=True)
+    return fused
+
+
+class Reranker:
+    def __init__(self):
+        log.info(f"Loading reranker: {RERANK_MODEL}")
+        self._model = CrossEncoder(RERANK_MODEL)
+    
+    def rerank(self, query: str, chunks: List[RetrievedChunk], top_k: int, min_cal: float = RERANK_MIN_CAL) -> List[RetrievedChunk]:
+        if not chunks:
+            return []
+        pairs = [(query, c.text) for c in chunks]
+        logits = self._model.predict(pairs)
+        
+        kept = []
+        for chunk, logit in zip(chunks, logits):
+            raw = 1.0 / (1.0 + float(np.exp(-float(logit))))
+            cal = raw ** RERANK_POWER
+            chunk.rerank_raw = raw
+            chunk.rerank_cal = cal
+            if cal < min_cal:
+                continue
+            chunk.score = W_FUSED * chunk.fused_score + W_RERANK * cal
+            kept.append(chunk)
+        
+        kept.sort(key=lambda c: c.score, reverse=True)
+        return kept[:top_k]
+
+
+# ══════════════════════════════════════════════════════════════
+# MAIN RAG RETRIEVER
+# ══════════════════════════════════════════════════════════════
+
+class RAGRetriever:
+    def __init__(self):
+        log.info("═" * 50)
+        log.info("Initializing RAGRetriever v15.0 — Graph-Aware")
+        log.info("═" * 50)
+        
+        self.analyzer = QueryAnalyzer()
+        self.graph = AcademicGraph()
+        self.semantic = SemanticRetriever()
+        self.bm25 = BM25Retriever()
+        self.reranker = Reranker()
+        
+        log.info("✅ RAGRetriever v15.0 ready")
+    
+    def retrieve(self, query: str, top_k: int = TOP_K_FINAL) -> List[RetrievedChunk]:
+        log.info(f"\n🔍 QUERY: {query[:100]}")
+        
+        # Step 1: Analyze query
+        analysis = self.analyzer.analyze(query)
+        lang = analysis["language"]
+        intent = analysis["intent"]
+        keywords = analysis["keywords"]
+        
+        log.info(f"   Language: {lang}  Intent: {intent}")
+        
+        # Step 2: Auto-detect academic entities in query
+        detected_nodes = self.graph.detect_nodes_in_query(query)
+        
+        # Step 3: Build graph filter and boost map
+        chunk_filter: Optional[Set[str]] = None
+        boost_map: Dict[str, Tuple[float, int]] = {}
+        
+        if detected_nodes:
+            node_ids = [n.node_id for n in detected_nodes]
+            chunk_filter = self.graph.get_all_chunks_for_nodes(node_ids, include_descendants=True)
+            
+            # Build boost map by level
+            level_chunks = self.graph.get_chunks_by_level(node_ids)
+            for cid in level_chunks.get(0, set()):
+                boost_map[cid] = (GRAPH_NODE_BOOST, 0)
+            for cid in level_chunks.get(1, set()):
+                if cid not in boost_map:
+                    boost_map[cid] = (GRAPH_CHILD_BOOST, 1)
+            for cid in level_chunks.get(2, set()):
+                if cid not in boost_map:
+                    boost_map[cid] = (GRAPH_DESCENDANT_BOOST, 2)
+            
+            log.info(f"   📊 Graph filter: {len(chunk_filter)} chunks from {len(detected_nodes)} node(s)")
+            log.info(f"   📈 Boost map: {len(boost_map)} chunks (L0={len(level_chunks.get(0,set()))}, L1={len(level_chunks.get(1,set()))}, L2={len(level_chunks.get(2,set()))})")
+        else:
+            log.info("   🌐 No specific node detected — searching globally")
+        
+        # Step 4: Semantic search
+        variants = [query, f"{query} {intent}"]
+        semantic_hits = self.semantic.search(variants, TOP_K_VECTOR, chunk_filter)
+        
+        # Step 5: BM25 search
+        bm25_hits = self.bm25.search(keywords, TOP_K_BM25, chunk_filter)
+        
+        log.info(f"   Results — semantic:{len(semantic_hits)}  BM25:{len(bm25_hits)}")
+        
+        # Step 6: Fusion
+        fused = fuse_results(semantic_hits, bm25_hits, boost_map, lang)
+        
+        if not fused:
+            log.warning("   ⚠️ No results after fusion — trying without graph filter")
+            semantic_hits = self.semantic.search(variants, TOP_K_VECTOR, None)
+            bm25_hits = self.bm25.search(keywords, TOP_K_BM25, None)
+            fused = fuse_results(semantic_hits, bm25_hits, boost_map, lang)
+        
+        if not fused:
+            return []
+        
+        # Step 7: Rerank
+        rerank_floor = 0.10 if intent in ("person_lookup", "node_query") or len(query.split()) <= 2 else RERANK_MIN_CAL
+        reranked = self.reranker.rerank(query, fused, top_k=TOP_K_RERANK, min_cal=rerank_floor)
+        
+        if not reranked:
+            log.warning("   ⚠️ Reranker dropped all chunks")
+            return []
+        
+        # Step 8: Dynamic top-k
+        best = reranked[0].score
+        floor = best - DYNAMIC_SCORE_MARGIN
+        final = [c for c in reranked if c.score >= floor][:DYN_TOP_K_MAX]
+        if len(final) < DYN_TOP_K_MIN:
+            final = reranked[:DYN_TOP_K_MIN]
+        
+        # Step 9: Answerability gate
+        ans_threshold = 0.20 if intent in ("person_lookup", "node_query") or len(query.split()) <= 2 else ANSWER_THRESHOLD
+        if not final or final[0].score < ans_threshold:
+            log.warning(f"   ❌ Below threshold: {final[0].score if final else 0:.3f} < {ans_threshold}")
+            return []
+        
+        log.info(f"   ✅ Final: {len(final)} chunks  scores={[round(c.score,3) for c in final]}")
+        return final
+    
+    def search_nodes(self, query: str, node_type: Optional[str] = None) -> List[Dict]:
+        nodes = self.graph.detect_nodes_in_query(query)
+        if node_type:
+            nodes = [n for n in nodes if n.label == node_type]
+        return [{"node_id": n.node_id, "name": n.name, "label": n.label, "parent_id": n.parent_id} for n in nodes]
+    
+    def get_node_info(self, node_id: str) -> Optional[Dict]:
+        return self.graph.get_node_info(node_id)
+    
+    def close(self):
+        _close_driver()
+
+
+# ══════════════════════════════════════════════════════════════
+# SINGLETON + PUBLIC API
+# ══════════════════════════════════════════════════════════════
+
+_retriever = None
+_lock = threading.Lock()
+
+def _get_retriever() -> RAGRetriever:
+    global _retriever
+    if _retriever is None:
+        with _lock:
+            if _retriever is None:
+                _retriever = RAGRetriever()
+    return _retriever
+
+def retrieve_for_llm(query: str, top_k: int = TOP_K_FINAL) -> List[Dict]:
+    chunks = _get_retriever().retrieve(query, top_k)
+    result = [{
+        "chunk_id": c.chunk_id, "text": c.text, "score": round(c.score, 4),
+        "sem_score": round(c.sem_score, 4), "bm25_score": round(c.bm25_score, 4),
+        "fused_score": round(c.fused_score, 4), "rerank_cal": round(c.rerank_cal, 4),
+        "graph_boost": round(c.graph_boost, 4), "node_level": c.node_level,
+        "url": c.metadata.get("url", ""), "title": c.metadata.get("title", ""),
+        "source_type": c.metadata.get("source_type", ""), "language": c.metadata.get("language", ""),
+        "pdf_url": c.metadata.get("pdf_url", ""), "chunk_index": c.metadata.get("chunk_index"),
+    } for c in chunks]
+    if result:
+        result[0]["llm_context"] = _format_context(chunks)
+    return result
+
+def search_nodes(query: str, node_type: Optional[str] = None) -> List[Dict]:
+    return _get_retriever().search_nodes(query, node_type)
+
+def get_node_info(node_id: str) -> Optional[Dict]:
+    return _get_retriever().get_node_info(node_id)
+
+def _format_context(chunks: List[RetrievedChunk]) -> str:
+    sep = "\n" + "─" * 55 + "\n"
+    blocks = []
+    for i, c in enumerate(chunks, 1):
+        meta = c.metadata or {}
+        title = meta.get("title", "Unknown")
+        url = meta.get("page_url") or meta.get("url") or ""
+        header = f"[{i}] {title}"
+        if c.node_level > 0:
+            header += f" [tree_depth={c.node_level}]"
+        lines = [header, c.text.strip()]
+        if url:
+            lines.append(f"Source: {url}")
+        blocks.append("\n".join(lines))
+    return sep.join(blocks)
+
+
+# ══════════════════════════════════════════════════════════════
+# CLI
+# ══════════════════════════════════════════════════════════════
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python rag_pipeline.py \"query\" [--top-k N] [--search-nodes term] [--node-info ID]")
+        sys.exit(1)
+    
+    query = sys.argv[1] if sys.argv[1] not in ("--search-nodes", "--node-info") else None
+    top_k = TOP_K_FINAL
+    search_nodes_query = None
+    node_info_id = None
+    
+    i = 1
+    while i < len(sys.argv):
+        if sys.argv[i] == "--top-k" and i+1 < len(sys.argv):
+            top_k = int(sys.argv[i+1]); i += 2
+        elif sys.argv[i] == "--search-nodes" and i+1 < len(sys.argv):
+            search_nodes_query = sys.argv[i+1]; i += 2
+        elif sys.argv[i] == "--node-info" and i+1 < len(sys.argv):
+            node_info_id = sys.argv[i+1]; i += 2
+        else:
+            i += 1
+    
+    if node_info_id:
+        info = get_node_info(node_info_id)
+        print(json.dumps(info, indent=2, ensure_ascii=False))
+        sys.exit(0)
+    
+    if search_nodes_query:
+        nodes = search_nodes(search_nodes_query)
+        for n in nodes:
+            print(f"  {n['name']} [{n['label']}] — {n['node_id']}")
+        sys.exit(0)
+    
+    if query:
+        results = retrieve_for_llm(query, top_k)
+        print(f"\n{'='*60}")
+        print(f"QUERY: {query}")
+        print(f"RESULTS: {len(results)}")
+        print(f"{'='*60}")
+        
+        if not results:
+            print("\nNO_ANSWER")
+            sys.exit(0)
+        
+        for rank, r in enumerate(results, 1):
+            tag = f" [L{r['node_level']}]" if r.get("node_level", 0) > 0 else ""
+            print(f"\n{rank}. {r['chunk_id']}{tag}")
+            print(f"   Score: {r['score']:.4f} (fused={r['fused_score']:.3f} rerank={r['rerank_cal']:.3f} graph_boost={r['graph_boost']:.3f})")
+            print(f"   Title: {(r['title'] or 'N/A')[:80]}")
+            print(f"   URL: {r['url'] or 'N/A'}")
+            print(f"   Text: {r['text'][:200]}…")
+        
+        if results[0].get("llm_context"):
+            print(f"\n{'═'*60}\nLLM CONTEXT PREVIEW\n{'═'*60}")
+            print(results[0]["llm_context"][:1000])

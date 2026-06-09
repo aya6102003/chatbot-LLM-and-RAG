@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/9184",
+      "title": "Faculté des Sciences",
+      "id": "2112cd2d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:19:45",
+      "hash": "bd5df36939380799",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Dépôt de mémoire à la bibliothèque\nIl est porté\nà la connaissance de tous les étudiants de Master 2 que le dépôt des mémoires\nde fin d’études au niveau de la bibliothèque de la faculté se fera uniquement\nsous format électronique sur DVD, sans nécessité de déposer une version papier.\nLe DVD doit\ncontenir les éléments suivants :\nUn fichier au format PDF\ncontenant le mémoire complet.\nUn fichier PDF contenant la\npage de garde, la table des matières et les résumés en anglais, français\net arabe.\nUn fichier Word contenant la\npage de garde, la table des matières et les résumés en anglais, français\net arabe.\nUne copie papier de la page de\ngarde, cachetée par l’administration du département.\nUn boîtier plastique pour le\nDVD."
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Biblio",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6566/Biblio.pdf",
+        "local_file": "pdfs/2112cd2d_Biblio.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

@@ -53,14 +53,7 @@
         "type": "internal"
       }
     ],
-    "images": [
-      {
-        "url": "https://fsciences.univ-setif.dz/GP_FR/images/back.png",
-        "alt": "",
-        "desc": "",
-        "local_file": "images/f7ed03df_back.png"
-      }
-    ],
+    "images": [],
     "documents": [],
     "tables": []
   }

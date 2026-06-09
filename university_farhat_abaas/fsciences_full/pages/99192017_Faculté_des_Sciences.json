@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/annonces/9159",
+      "title": "Faculté des Sciences",
+      "id": "99192017",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:44:12",
+      "hash": "12e472f492845047",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nPLANNING DES CONSULTATIONS DES COPIES D'EXAMENS_S2\nVersion rectifiée (voir les zones surlignées en jaune)"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Consultations  S2 2025 2026 V2",
+        "url": "http://fsciences.univ-setif.dz/uploads/document/document/6553/Consultations__S2_2025-2026_V2.pdf",
+        "local_file": "pdfs/99192017_Consultations_S2_2025_2026_V2.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

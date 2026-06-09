@@ -17,23 +17,7 @@
   },
   "resources": {
     "links": [],
-    "images": [
-      {
-        "url": "blob:https://www.univ-setif.dz/442edc10-25cd-4719-8095-f275f27eefe9",
-        "alt": "",
-        "desc": ""
-      },
-      {
-        "url": "blob:https://www.univ-setif.dz/fbcacb5c-9344-4f8a-8f92-452e086e9a14",
-        "alt": "",
-        "desc": ""
-      },
-      {
-        "url": "blob:https://www.univ-setif.dz/e644296e-c4fa-4654-9b1b-d87f64482dfe",
-        "alt": "",
-        "desc": ""
-      }
-    ],
+    "images": [],
     "documents": [],
     "tables": []
   }

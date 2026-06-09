@@ -17,20 +17,8 @@
   },
   "resources": {
     "links": [],
-    "images": [
-      {
-        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
-        "alt": "",
-        "desc": ""
-      }
-    ],
-    "documents": [
-      {
-        "title": "Arr%C3%AAt%C3%A9 1164 du 04 octobre 2025",
-        "url": "https://fsciences.univ-setif.dz/uploads/document/document/5965/Arr%C3%AAt%C3%A9_1164_du_04_octobre_2025.pdf",
-        "local_file": "pdfs/bd7daee1_Arr%C3%AAt%C3%A9_1164_du_04_octobre_2025.pdf"
-      }
-    ],
+    "images": [],
+    "documents": [],
     "tables": []
   }
 }

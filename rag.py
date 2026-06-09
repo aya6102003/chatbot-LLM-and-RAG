@@ -1,44 +1,6 @@
-#!/usr/bin/env python3
-"""
-RAG Retrieval Pipeline v13.2 — Farhat Abbas University Sétif 1
-===============================================================
-Fully Neo4j-native retrieval — no ChromaDB, no metadata.json.
 
-Changes vs v13.1
-──────────────────
-  Translation nodes (HAS_TRANSLATION / Translation) are NO LONGER used
-  during retrieval. Instead, translation is done on-the-fly at index/lookup
-  time by inspecting the `is_french` flag on every Chunk node:
+from __future__ import annotations
 
-    • c.is_french = True  → text is already French; use as-is, zero translation cost
-    • c.is_french = False → translate on-the-fly via translate_to_french()
-                            before BM25 indexing / metadata enrichment
-
-  Affected components (all others are unchanged):
-    1. BM25Retriever.__init__()  — removed HAS_TRANSLATION OPTIONAL MATCH;
-       branching now purely on c.is_french.
-    2. MetadataStore.get()       — removed t.text / Translation OPTIONAL MATCH;
-       french_text now computed on-the-fly from c.text when not French.
-    3. MetadataStore.preload()   — same as above for bulk preload path.
-    4. SemanticRetriever.search() — removed has_translation from RETURN clause
-       (no longer a meaningful signal without Translation nodes).
-
-  Query processing is completely unchanged.
-
-Architecture (matches test_data_generator.py):
-  Hierarchy ──HAS_CONTENT──→ URL (page/pdf)
-                              ├──HAS_CHUNK──→ Chunk  {text, embedded_text, embedding, is_french}
-                              └──HAS_FILE──→  URL (pdf)
-                                              └──HAS_CHUNK──→ Chunk
-
-Install
-───────
-  pip install sentence-transformers neo4j numpy rank-bm25 rapidfuzz argostranslate
-"""
-
-# ─────────────────────────────────────────────────────────────
-# STDLIB
-# ─────────────────────────────────────────────────────────────
 import atexit
 import hashlib
 import json
@@ -48,17 +10,13 @@ import re
 import sys
 import threading
 import unicodedata
+from collections import deque
 from dataclasses import dataclass, field
-from functools import lru_cache
-from typing import Dict, List, Optional, Set, Tuple
+from typing import Any, Dict, List, Optional, Set, Tuple
 
-# ─────────────────────────────────────────────────────────────
-# THIRD-PARTY
-# ─────────────────────────────────────────────────────────────
 import numpy as np
-import requests
-from sentence_transformers import SentenceTransformer, CrossEncoder
 from neo4j import GraphDatabase
+from sentence_transformers import CrossEncoder, SentenceTransformer
 
 try:
     from rank_bm25 import BM25Okapi
@@ -68,201 +26,70 @@ except ImportError:
     logging.warning("rank_bm25 not installed — BM25 disabled.  pip install rank-bm25")
 
 try:
-    from rapidfuzz import process as fuzz_process, fuzz as _fuzz
+    from rapidfuzz import fuzz as _fuzz
     _FUZZ_OK = True
 except ImportError:
     _FUZZ_OK = False
-    logging.warning("rapidfuzz not installed — fuzzy title search disabled.")
-
-try:
-    import argostranslate.translate as _argos_translate_mod
-    import argostranslate.package as _argos_package
-    _ARGOS_OK = True
-except ImportError:
-    _ARGOS_OK = False
-    
+    logging.warning("rapidfuzz not installed — fuzzy matching disabled.")
 
 # ─────────────────────────────────────────────────────────────
 # LOGGING
 # ─────────────────────────────────────────────────────────────
-logging.basicConfig(level=logging.INFO,
-                    format="%(asctime)s [%(levelname)s] %(message)s")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+)
 log = logging.getLogger(__name__)
-
-# ─────────────────────────────────────────────────────────────
-# TRANSLATION LAYER (French pivot)
-# ─────────────────────────────────────────────────────────────
-
-_translator_cache: Dict[str, any] = {}
-_translation_str_cache: Dict[Tuple[str, str], Optional[str]] = {}
-
-
-def _get_translator(src_lang: str):
-    if not _ARGOS_OK or src_lang == "fr":
-        return None
-    if src_lang in _translator_cache:
-        return _translator_cache[src_lang]
-    try:
-        translator = _argos_translate_mod.get_translation_from_codes(src_lang, "fr")
-        if translator is None:
-            log.warning("No argostranslate translator for %s→fr. "
-                        "Run: python -c \"import argostranslate.package as p; "
-                        "p.update_package_index(); packs = p.get_available_packages(); "
-                        "[p.install_from_path(pk.download()) for pk in packs "
-                        "if pk.from_code=='%s' and pk.to_code=='fr']\"", src_lang, src_lang)
-        _translator_cache[src_lang] = translator
-        return translator
-    except Exception as e:
-        log.warning("Failed to get translator for %s→fr: %s", src_lang, e)
-        _translator_cache[src_lang] = None
-        return None
-
-
-def translate_to_french(text: str, src_lang: str) -> Optional[str]:
-    """
-    Translate text to French.
-    Returns None (not the original) if translation is unavailable or fails,
-    so callers can distinguish a real translation from a fallback.
-    """
-    if src_lang == "fr" or not text.strip():
-        return text
-    key = (text, src_lang)
-    if key in _translation_str_cache:
-        return _translation_str_cache[key]
-    translator = _get_translator(src_lang)
-    if translator is None:
-        _translation_str_cache[key] = None
-        return None
-    try:
-        result = translator.translate(text)
-        if not result or result.strip() == text.strip():
-            _translation_str_cache[key] = None
-            return None
-        _translation_str_cache[key] = result
-        return result
-    except Exception as e:
-        log.warning("Translation failed (%s→fr): %s", src_lang, e)
-        _translation_str_cache[key] = None
-        return None
-
-
-def translate_to_french_with_fallback(text: str, src_lang: str) -> str:
-    """
-    Like translate_to_french but falls back to the original text.
-    Use this only when you need a string (e.g. query expansion) and a None
-    would break the flow.  Do NOT use this for BM25 indexing.
-    """
-    result = translate_to_french(text, src_lang)
-    return result if result is not None else text
-
 
 # ─────────────────────────────────────────────────────────────
 # CONFIG
 # ─────────────────────────────────────────────────────────────
-NEO4J_URI      = "bolt://127.0.0.1:7687"
-NEO4J_USER     = "neo4j"
-NEO4J_PASSWORD = "password"
+NEO4J_URI           = os.getenv("NEO4J_URI",      "bolt://127.0.0.1:7687")
+NEO4J_USER          = os.getenv("NEO4J_USER",     "neo4j")
+NEO4J_PASSWORD      = os.getenv("NEO4J_PASSWORD", "password")
+NEO4J_TIMEOUT       = int(os.getenv("NEO4J_TIMEOUT", "30"))
+NEO4J_VECTOR_INDEX  = "chunk_embedding"
 
-NEO4J_VECTOR_INDEX = "chunk_embedding"
-VECTOR_DIMENSIONS  = 1024
+EMBED_MODEL_NAME  = "sentence-transformers/LaBSE"
+VECTOR_DIMENSIONS = 768
+RERANK_MODEL      = "BAAI/bge-reranker-v2-m3"
 
-EMBED_MODEL  = "BAAI/bge-m3"
-RERANK_MODEL = "BAAI/bge-reranker-v2-m3"
+TOP_K_VECTOR  = 60     # wider net for soft-boost approach
+TOP_K_BM25    = 30
+TOP_K_RERANK  = 20
+TOP_K_FINAL   = 8
 
-OLLAMA_URL   = os.getenv("OLLAMA_URL",   "http://localhost:11434")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1:8b")
-
-# ── Retrieval pool sizes ──────────────────────────────────────
-TOP_K_VECTOR = 40
-TOP_K_BM25   = 20
-TOP_K_RERANK = 15
-TOP_K_FINAL  = 8
-
-TOP_K_FUZZY     = 10
-FUZZY_MIN_SCORE = 65
-
-# ── Fusion weights ────────────────────────────────────────────
-W_SEM   = 0.70
-W_BM25  = 0.10
-W_TITLE = 0.20
-
-W_FUSED  = 0.50
-W_RERANK = 0.50
+W_SEM    = 0.65
+W_BM25   = 0.15
+W_FUSED  = 0.45
+W_RERANK = 0.55
 
 RERANK_POWER   = 0.75
-RERANK_MIN_CAL = 0.25
+RERANK_MIN_CAL = 0.20   # lower floor — reranker decides, not hard filter
 
 DYN_TOP_K_MIN        = 3
 DYN_TOP_K_MAX        = 8
-DYNAMIC_SCORE_MARGIN = 0.25
+DYNAMIC_SCORE_MARGIN = 0.28
 
-LANG_MATCH_BOOST    = 0.04
-ACADEMIC_BOOST_CAP  = 0.04
-AUTHORITY_BOOST_CAP = 0.03
+# ── Language boost (stronger than v15) ───────────────────────
+LANG_EXACT_BOOST  = 0.10   # same language as query
+LANG_MISMATCH_PEN = 0.05   # penalise opposite language
 
-ANSWER_THRESHOLD = 0.35
-DEDUP_CHARS      = 200
+# ── Graph boost — soft scoring by depth ──────────────────────
+GRAPH_BOOST_L0 = 0.25   # exact matched node
+GRAPH_BOOST_L1 = 0.18   # direct children
+GRAPH_BOOST_L2 = 0.12   # grandchildren
+GRAPH_BOOST_L3 = 0.07   # deeper descendants
+GRAPH_BOOST_GENERAL = 0.04  # GENERAL fallback layer
+GRAPH_BOOST_SIBLING = 0.06  # sibling nodes (same parent)
 
-NEIGHBOR_COUNT          = 3
-NEIGHBOR_WINDOW         = 2
-NEIGHBOR_SEED_MIN_SCORE = 0.40
-NEIGHBOR_SCORE_INHERIT  = 0.80
+# ── Answerability gates ───────────────────────────────────────
+ANSWER_THRESHOLD_STRICT = 0.38   # normal queries
+ANSWER_THRESHOLD_LOOSE  = 0.20   # person_lookup / node_query / short queries
 
-NBR_SEM_FLOOR = 0.30
-NBR_KW_FLOOR  = 0.15
-
-CONTEXT_WINDOW_SIZE = 1
-
-ENTITY_FUZZ_THRESHOLD = 72
-ENTITY_MIN_TOKEN_LEN  = 3
+DEDUP_CHARS = 200
 
 EMBED_CACHE_SIZE = 256
-
-# ── University abbreviation expansion ────────────────────────
-_UNI_ABBREVS: Dict[str, List[str]] = {
-    "s1": ["semestre 1", "semester 1", "الفصل 1"],
-    "s2": ["semestre 2", "semester 2", "الفصل 2"],
-    "s3": ["semestre 3", "semester 3", "الفصل 3"],
-    "s4": ["semestre 4", "semester 4", "الفصل 4"],
-    "s5": ["semestre 5", "semester 5", "الفصل 5"],
-    "s6": ["semestre 6", "semester 6", "الفصل 6"],
-    "l1": ["licence 1", "première année licence", "السنة الأولى ليسانس"],
-    "l2": ["licence 2", "deuxième année licence", "السنة الثانية ليسانس"],
-    "l3": ["licence 3", "troisième année licence", "السنة الثالثة ليسانس"],
-    "m1": ["master 1", "première année master", "السنة الأولى ماستر"],
-    "m2": ["master 2", "deuxième année master", "السنة الثانية ماستر"],
-    "d":  ["doctorat", "doctorate", "دكتوراه"],
-    "mi": ["mathématiques et informatique", "mathematics and computer science", "رياضيات وإعلام آلي"],
-    "st": ["sciences et technologie", "science and technology", "علوم وتكنولوجيا"],
-    "sm": ["sciences de la matière", "material sciences", "علوم المادة"],
-    "sv": ["sciences de la vie", "life sciences", "علوم الحياة"],
-    "sn": ["sciences de la nature", "natural sciences", "علوم الطبيعة"],
-    "gl": ["génie logiciel", "software engineering", "هندسة البرمجيات"],
-    "rsd": ["réseaux et systèmes distribués", "networks and distributed systems", "شبكات وأنظمة موزعة"],
-    "tp":  ["travaux pratiques", "practical work", "أعمال تطبيقية"],
-    "td":  ["travaux dirigés", "tutorial", "أعمال موجهة"],
-    "cc":  ["contrôle continu", "continuous assessment", "تقييم مستمر"],
-    "em":  ["examen final", "final exam", "امتحان نهائي"],
-}
-
-_AR_TRANSLIT: Dict[str, str] = {
-    "ا": "a", "أ": "a", "إ": "i", "آ": "a",
-    "ب": "b", "ت": "t", "ث": "th",
-    "ج": "dj", "ح": "h", "خ": "kh",
-    "د": "d", "ذ": "dh", "ر": "r", "ز": "z",
-    "س": "s", "ش": "ch", "ص": "s", "ض": "d",
-    "ط": "t", "ظ": "dh", "ع": "a", "غ": "gh",
-    "ف": "f", "ق": "k", "ك": "k", "ل": "l",
-    "م": "m", "ن": "n", "ه": "h", "و": "ou",
-    "ي": "i", "ى": "a", "ة": "e",
-    "ّ": "", "َ": "", "ُ": "", "ِ": "",
-    "ً": "", "ٌ": "", "ٍ": "", "ْ": "",
-}
-
-_NAME_TRIGGERS = re.compile(
-    r"\b(dr|pr|prof|professeur|docteur|mr|mme|mlle|أستاذ|دكتور|أ\.د|د\.)\s*\.?\s*",
-    re.IGNORECASE | re.UNICODE,
-)
 
 _STOPWORDS: Set[str] = {
     "le","la","les","de","du","des","et","en","un","une","pour","avec",
@@ -280,27 +107,38 @@ _STOPWORDS: Set[str] = {
     "من","ماذا","أين","متى","كيف","أي",
 }
 
+# ─────────────────────────────────────────────────────────────
+# DATA CLASSES
+# ─────────────────────────────────────────────────────────────
 
-# ─────────────────────────────────────────────────────────────
-# DATA CLASS
-# ─────────────────────────────────────────────────────────────
 @dataclass
 class RetrievedChunk:
-    chunk_id:     str
-    text:         str
-    score:        float
-    metadata:     Dict  = field(default_factory=dict)
-    is_neighbor:  bool  = False
-    sem_score:    float = 0.0
-    bm25_score:   float = 0.0
-    title_score:  float = 0.0
-    fused_score:  float = 0.0
-    rerank_raw:   float = 0.0
-    rerank_cal:   float = 0.0
+    chunk_id:    str
+    text:        str
+    score:       float
+    metadata:    Dict = field(default_factory=dict)
+    is_neighbor: bool = False
+    sem_score:   float = 0.0
+    bm25_score:  float = 0.0
+    fused_score: float = 0.0
+    rerank_raw:  float = 0.0
+    rerank_cal:  float = 0.0
+    graph_boost: float = 0.0
+    node_level:  int   = -1   # -1 = not in graph, 0-3 = depth level
+
+
+@dataclass
+class AcademicNode:
+    node_id:      str
+    name:         str
+    label:        str
+    parent_id:    Optional[str]        = None
+    children_ids: List[str]            = field(default_factory=list)
+    aliases:      List[str]            = field(default_factory=list)
 
 
 # ══════════════════════════════════════════════════════════════
-# SHARED NEO4J DRIVER (singleton)
+# NEO4J CONNECTION — singleton with safe teardown
 # ══════════════════════════════════════════════════════════════
 
 _neo4j_driver = None
@@ -313,1384 +151,1390 @@ def _get_driver():
         with _neo4j_lock:
             if _neo4j_driver is None:
                 _neo4j_driver = GraphDatabase.driver(
-                    NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD)
+                    NEO4J_URI,
+                    auth=(NEO4J_USER, NEO4J_PASSWORD),
+                    connection_timeout=NEO4J_TIMEOUT,
                 )
-                log.info("Neo4j driver initialized")
+                with _neo4j_driver.session() as sess:
+                    sess.run("RETURN 1")
+                log.info("✓ Neo4j connected")
     return _neo4j_driver
 
 
 def _close_driver():
     global _neo4j_driver
-    if _neo4j_driver is not None:
+    if _neo4j_driver:
         _neo4j_driver.close()
         _neo4j_driver = None
-        log.info("Neo4j driver closed")
 
 
 atexit.register(_close_driver)
 
 
 # ══════════════════════════════════════════════════════════════
-# LAYER 1 — QUERY UNDERSTANDING  (unchanged from v13.1)
+# QUERY ANALYZER  — language + intent + keywords
 # ══════════════════════════════════════════════════════════════
 
-class QueryUnderstanding:
+class QueryAnalyzer:
     _RE_AR = re.compile(r"[\u0600-\u06FF]")
     _RE_FR = re.compile(
         r"\b(le|la|les|de|du|des|et|en|un|une|pour|avec|dans|sur|par|est|"
-        r"comment|quoi|qui|quel|quelle|mon|ton|son|leur|nos|vos)\b",
+        r"comment|quoi|qui|quel|quelle|où|quand|pourquoi)\b",
         re.IGNORECASE,
     )
-    _BARE_NAME_RE = re.compile(
-        r"^[A-ZÀ-Ö][a-zà-ö]+$|^[\u0600-\u06FF]{2,}$", re.UNICODE
-    )
-    _SIGNALS: Dict[str, re.Pattern] = {
-        "translation": re.compile(
-            r"translat|traduir|ترجم|translate to|en arabe|in french|in arabic|"
-            r"بالفرنسية|بالعربية|بالإنجليزية|en anglais|in english",
-            re.IGNORECASE),
-        "person_lookup": re.compile(
-            r"mail|email|contact|phone|téléphone|bureau|office|"
-            r"prof\b|professeur|docteur|dr\.|mr\.|mme\.|"
-            r"بريد|هاتف|مكتب|أستاذ|دكتور|"
-            r"\bwho\s+is\b|\bwho's\b|\bc'est\s+qui\b|\bqui\s+est\b|"
-            r"\bمن\s+هو\b|\bمن\s+هي\b|\bمن\s+هم\b|"
-            r"\bprofil\b|\bfiche\b|\bbiographie\b",
-            re.IGNORECASE),
-        "table_query": re.compile(
-            r"liste|list|tableau|table|tous les|all|كل|قائمة|جدول",
-            re.IGNORECASE),
-        "course_query": re.compile(
-            r"cours|course|module|matière|syllabus|td\b|tp\b|"
-            r"semestre|semester|programme|filière|licence|master|doctorat|"
-            r"\b[SsLlMm][1-6]\b|مقياس|فصل|برنامج|تخصص",
-            re.IGNORECASE),
-        "admin_query": re.compile(
-            r"inscription|registration|calendrier|deadline|scolarité|"
-            r"examen|exam|résultat|result|تسجيل|امتحان|نتيجة|إدارة",
-            re.IGNORECASE),
-    }
 
-    def detect_language(self, text: str) -> str:
+    # Intent detection — ordered by specificity
+    _INTENT_RULES: List[Tuple[str, List[str]]] = [
+        ("graph_query",    ["hiérarchie","hierarchy","arbre","tree","structure","organigramme","graph","schéma","هيكل","شجرة"]),
+        ("person_lookup",  ["prof","dr ","docteur","enseignant","teacher","professeur","مدرس","أستاذ","دكتور","email","contact","responsable"]),
+        ("course_query",   ["cours","course","module","matière","td","tp","semestre","semester","programme","مقياس","مادة","برنامج"]),
+        ("admin_query",    ["inscription","registration","examen","exam","résultat","result","calendrier","emploi du temps","تسجيل","امتحان","نتيجة"]),
+        ("node_query",     ["spécialité","specialization","filière","département","department","faculté","faculty","تخصص","قسم","كلية","شعبة"]),
+        ("general_info",   []),  # fallback
+    ]
+
+    def analyze(self, query: str) -> Dict:
+        lang     = self._detect_language(query)
+        intent   = self._detect_intent(query)
+        keywords = self._extract_keywords(query)
+        return {
+            "query":      query,
+            "language":   lang,
+            "intent":     intent,
+            "keywords":   keywords,
+            "normalized": self._normalize(query),
+        }
+
+    def _detect_language(self, text: str) -> str:
         s = text[:300]
         ar_chars = len(self._RE_AR.findall(s))
-        ar_threshold = 1 if len(s.strip()) <= 15 else 5
-        if ar_chars >= ar_threshold:
+        fr_words = len(self._RE_FR.findall(s))
+        total    = max(len(s.split()), 1)
+        if ar_chars >= max(1, len(s.strip()) // 8):
             return "ar"
-        if len(self._RE_FR.findall(s)) > 2:
+        if fr_words / total >= 0.15:
             return "fr"
         return "en"
 
-    def get_french_query(self, query: str) -> str:
-        """Return query in French; falls back to original if translation fails."""
-        lang = self.detect_language(query)
-        if lang == "fr":
-            return query
-        return translate_to_french_with_fallback(query, lang)
-
-    def detect_intent(self, query: str) -> str:
+    def _detect_intent(self, query: str) -> str:
         q = query.lower()
-        for intent, pat in self._SIGNALS.items():
-            if pat.search(q):
+        for intent, keywords in self._INTENT_RULES:
+            if any(kw in q for kw in keywords):
                 return intent
-        if self._is_bare_name(query):
-            return "person_lookup"
         return "general_info"
 
-    def _is_bare_name(self, query: str) -> bool:
-        tokens = query.strip().split()
-        if not (1 <= len(tokens) <= 3):
-            return False
-        return sum(1 for t in tokens if self._BARE_NAME_RE.match(t)) >= max(1, len(tokens) - 1)
-
-    def normalize_for_bm25(self, text: str) -> str:
-        text = unicodedata.normalize("NFC", text)
-        text = re.sub(r"[ًٌٍَُِّْـ]", "", text)
-        text = re.sub(r"[أإآٱ]", "ا", text)
-        text = text.replace("ة", "ه").replace("ى", "ي")
-        text = (text.replace("é", "e").replace("è", "e").replace("ê", "e")
-                    .replace("à", "a").replace("â", "a").replace("ù", "u")
-                    .replace("û", "u").replace("î", "i").replace("ô", "o")
-                    .replace("ç", "c"))
-        text = text.lower()
-        text = re.sub(r"[^\w\s]", " ", text, flags=re.UNICODE)
-        return re.sub(r"\s+", " ", text).strip()
-
-    def extract_keywords(self, norm_query: str) -> List[str]:
-        tokens = norm_query.split()
-        kws: List[str] = []
-        for t in tokens:
-            if re.match(r"^[a-zA-Z\u0600-\u06FF]{1,3}\d+$", t):
-                kws.append(t)
-                continue
-            if len(t) >= 3 and t not in _STOPWORDS:
-                kws.append(t)
-        return kws if kws else tokens
-
-    def extract_entity_tokens(self, query: str) -> List[str]:
-        clean = re.sub(
-            r"(?i)^(who\s+is|qui\s+est|c'est\s+qui|من\s+هو|من\s+هي|"
-            r"quel\s+est|what\s+is|tell\s+me\s+about|parle[rz]?\s+moi\s+de|"
-            r"give\s+me\s+info\s+(on|about)|informations?\s+sur)\s+",
-            "", query.strip()
-        )
-        tokens = clean.split()
-        entity = [
-            t for t in tokens
-            if (len(t) >= ENTITY_MIN_TOKEN_LEN and
-                t not in _STOPWORDS and
-                (t[0].isupper() or bool(re.search(r"[\u0600-\u06FF]", t))))
-        ]
-        return entity if entity else []
-
-    def analyze(self, query: str) -> Dict:
-        norm = self.normalize_for_bm25(query)
-        return {
-            "query":         query,
-            "language":      self.detect_language(query),
-            "intent":        self.detect_intent(query),
-            "norm":          norm,
-            "keywords":      self.extract_keywords(norm),
-            "entity_tokens": self.extract_entity_tokens(query),
-        }
-
-
-# ── ArgosTranslate helper ─────────────────────────────────────
-
-def _argos_translate(text: str, from_code: str, to_code: str) -> Optional[str]:
-    if not _ARGOS_OK:
-        return None
-    try:
-        translator = _argos_translate_mod.get_translation_from_codes(from_code, to_code)
-        if translator is None:
-            return None
-        result = translator.translate(text)
-        if result and result.strip() and result.strip() != text.strip():
-            return result.strip()
-    except Exception as exc:
-        log.debug("ArgosTranslate %s→%s failed: %s", from_code, to_code, exc)
-    return None
-
-
-# ══════════════════════════════════════════════════════════════
-# LAYER 2 — QUERY EXPANDER  (unchanged from v13.1)
-# ══════════════════════════════════════════════════════════════
-
-def _arabic_to_latin(text: str) -> str:
-    result = []
-    for ch in text:
-        result.append(_AR_TRANSLIT.get(ch, ch))
-    latin = "".join(result).lower().strip()
-    latin = re.sub(r"\s+", "", latin)
-    latin = re.sub(r"[^\w]", "", latin)
-    return latin if latin else text
-
-
-def _is_proper_name_query(query: str, intent: str) -> bool:
-    if intent == "person_lookup":
-        return True
-    if _NAME_TRIGGERS.search(query):
-        return True
-    return False
-
-
-def _expand_abbreviations(query: str) -> List[str]:
-    tokens = query.lower().strip().split()
-    expansions_per_lang: List[List[str]] = [[], [], []]
-    found_any = False
-    for token in tokens:
-        clean = re.sub(r"[^\w]", "", token)
-        if clean in _UNI_ABBREVS:
-            found_any = True
-            for i, expanded in enumerate(_UNI_ABBREVS[clean]):
-                expansions_per_lang[i].append(expanded)
-        else:
-            for i in range(3):
-                expansions_per_lang[i].append(token)
-    if not found_any:
-        return []
-    return [
-        " ".join(parts).strip()
-        for parts in expansions_per_lang
-        if any(p.strip() for p in parts)
-    ]
-
-
-class QueryExpander:
-    _SPLIT_RE = re.compile(r"[.!?؟،,;:\n]+")
-    _SYS = (
-        "You are a multilingual search query generator for a university "
-        "knowledge base that contains documents in Arabic, French, and English.\n"
-        "Given a user query, output ONLY a JSON array of exactly 5 search queries:\n"
-        "  [0] Semantically equivalent query in FRENCH\n"
-        "  [1] Semantically equivalent query in ENGLISH\n"
-        "  [2] Semantically equivalent query in ARABIC\n"
-        "  [3] Alternative phrasing in the SAME language as the input query\n"
-        "  [4] A more specific or detailed version of the query (any language)\n"
-        "Rules:\n"
-        "  - Output ONLY the JSON array. No explanation. No markdown.\n"
-        "  - Each element must be a non-empty string.\n"
-    )
-
-    def __init__(self, base_url: str = OLLAMA_URL, model: str = OLLAMA_MODEL):
-        self._url         = base_url.rstrip("/") + "/api/chat"
-        self._model       = model
-        self._last_intent = "general_info"
-        self._ok          = self._ping()
-
-    def _ping(self) -> bool:
-        try:
-            r = requests.get(self._url.replace("/api/chat", "/api/tags"), timeout=3)
-            return r.status_code == 200
-        except Exception:
-            return False
+    def _extract_keywords(self, query: str) -> List[str]:
+        normalized = self._normalize(query)
+        tokens     = normalized.split()
+        keywords   = [t for t in tokens if len(t) >= 2 and t not in _STOPWORDS]
+        return keywords if keywords else tokens
 
     @staticmethod
-    @lru_cache(maxsize=128)
-    def _cached_expand(query: str, lang: str, intent: str, ollama_ok: bool,
-                       ollama_url: str, ollama_model: str) -> Tuple[str, ...]:
-        variants = [query]
-        if ollama_ok:
-            tmp = QueryExpander(ollama_url, ollama_model)
-            for v in tmp._llm_expand(query):
-                if v and v.strip() and v.strip() not in variants:
-                    variants.append(v.strip())
-        tmp = QueryExpander(ollama_url, ollama_model)
-        tmp._last_intent = intent
-        for v in tmp._struct_expand(query, lang):
-            if v not in variants:
-                variants.append(v)
-        return tuple(variants[:8])
+    def _normalize(text: str) -> str:
+        text = unicodedata.normalize("NFC", text)
+        text = re.sub(r"[^\w\s]", " ", text, flags=re.UNICODE)
+        text = re.sub(r"\s+", " ", text).strip().lower()
+        return text
 
-    def expand(self, analysis: Dict) -> List[str]:
-        query  = analysis["query"]
-        lang   = analysis.get("language", "en")
-        intent = analysis.get("intent", "general_info")
-        self._last_intent = intent
-        variants_tuple = self._cached_expand(
-            query, lang, intent, self._ok, self._url, self._model
-        )
-        return list(variants_tuple)
-
-    def _llm_expand(self, query: str) -> List[str]:
-        payload = {
-            "model":    self._model,
-            "messages": [
-                {"role": "system", "content": self._SYS},
-                {"role": "user",   "content": f'Query: "{query}"'},
-            ],
-            "stream":  False,
-            "options": {"temperature": 0.3, "num_predict": 300, "repeat_penalty": 1.2},
-        }
-        try:
-            r = requests.post(self._url, json=payload, timeout=12)
-            r.raise_for_status()
-            content = r.json().get("message", {}).get("content", "")
-            m = re.search(r"\[.*?\]", content, re.DOTALL)
-            if not m:
-                return []
-            vs = json.loads(m.group())
-            return [str(v).strip() for v in vs if v and str(v).strip()]
-        except Exception as exc:
-            log.debug("LLM expansion failed: %s", exc)
-        return []
-
-    def _struct_expand(self, query: str, lang: str) -> List[str]:
-        vs: List[str] = []
-        parts = [p.strip() for p in self._SPLIT_RE.split(query) if p.strip()]
-        if len(parts) > 1:
-            vs += [p for p in parts if len(p.split()) >= 3]
-        clean = re.sub(r"[^\w\s]", " ", query, flags=re.UNICODE).strip()
-        if clean != query:
-            vs.append(clean)
-        for exp in _expand_abbreviations(query):
-            if exp and exp not in vs:
-                vs.append(exp)
-        intent = self._last_intent
-        if _is_proper_name_query(query, intent):
-            name_part = _NAME_TRIGGERS.sub("", query).strip()
-            if re.search(r"[\u0600-\u06FF]", name_part):
-                latin = _arabic_to_latin(name_part)
-                if latin and latin != name_part:
-                    vs.append(latin)
-                    vs.append(f"dr {latin}")
-                    vs.append(f"prof {latin}")
-            return vs
-        targets = [code for code in ("ar", "fr", "en") if code != lang]
-        for tgt in targets:
-            translated = _argos_translate(query, lang, tgt)
-            if translated and translated not in vs:
-                vs.append(translated)
-            else:
-                fallback_map = {
-                    "fr": f"en français : {query}",
-                    "en": f"in English: {query}",
-                    "ar": f"بالعربية: {query}",
-                }
-                vs.append(fallback_map[tgt])
-        return vs
 
 
 # ══════════════════════════════════════════════════════════════
-# LAYER 3A — SEMANTIC RETRIEVER (Neo4j vector index)
+# QUERY ROUTER — decides retrieval strategy before search
+# ══════════════════════════════════════════════════════════════
+
+@dataclass
+class RetrievalStrategy:
+    mode:            str            # "graph_first" | "graph_only" | "hybrid" | "semantic_first" | "wide_search"
+    use_soft_boost:  bool   = True  # always true except graph_only
+    expand_siblings: bool   = False
+    expand_general:  bool   = True
+    graph_depth_max: int    = 3
+    top_k_multiplier: float = 1.0
+    min_score_override: Optional[float] = None
+
+
+class QueryRouter:
+    """
+    Maps intent → retrieval strategy.
+    This runs BEFORE any retrieval so the pipeline knows how to proceed.
+    """
+
+    _STRATEGY_MAP: Dict[str, RetrievalStrategy] = {
+        "graph_query":   RetrievalStrategy(mode="graph_only",    use_soft_boost=False, graph_depth_max=6),
+        "node_query":    RetrievalStrategy(mode="graph_first",   use_soft_boost=True,  graph_depth_max=4, expand_siblings=True),
+        "course_query":  RetrievalStrategy(mode="hybrid",        use_soft_boost=True,  graph_depth_max=3, top_k_multiplier=1.5),
+        "admin_query":   RetrievalStrategy(mode="hybrid",        use_soft_boost=True,  graph_depth_max=2),
+        "person_lookup": RetrievalStrategy(mode="wide_search",   use_soft_boost=True,  graph_depth_max=1,
+                                           expand_siblings=True, min_score_override=ANSWER_THRESHOLD_LOOSE),
+        "general_info":  RetrievalStrategy(mode="semantic_first",use_soft_boost=True,  graph_depth_max=2),
+    }
+
+    def route(self, analysis: Dict) -> RetrievalStrategy:
+        intent   = analysis.get("intent", "general_info")
+        strategy = self._STRATEGY_MAP.get(intent, self._STRATEGY_MAP["general_info"])
+        log.info(f"   🗺  Router: intent={intent}  mode={strategy.mode}  depth={strategy.graph_depth_max}")
+        return strategy
+
+
+# ══════════════════════════════════════════════════════════════
+# ACADEMIC GRAPH — loads tree, detects entities, builds boosts
+# ══════════════════════════════════════════════════════════════
+
+class AcademicGraph:
+    """
+    Full academic tree from Neo4j.
+    Provides:
+      - Entity detection in queries (multi-strategy)
+      - Soft boost map by BFS depth
+      - GENERAL node as explicit fallback layer
+      - Sibling expansion
+      - graph_query → direct hierarchy traversal
+    """
+
+    def __init__(self):
+        self.nodes:           Dict[str, AcademicNode] = {}
+        self.children_map:    Dict[str, List[str]]    = {}
+        self.parent_map:      Dict[str, str]          = {}
+        self.node_to_urls:    Dict[str, List[str]]    = {}
+        self.url_to_chunks:   Dict[str, List[str]]    = {}
+        self.name_index:      Dict[str, List[str]]    = {}  # lower name → [node_ids]
+        self.general_ids:     List[str]               = []
+        self._loaded          = False
+        self._load_graph()
+
+    # ── Loading ───────────────────────────────────────────────
+
+    def _load_graph(self):
+        try:
+            driver = _get_driver()
+            with driver.session() as sess:
+                self._load_nodes(sess)
+                self._load_url_mappings(sess)
+                self._load_chunk_mappings(sess)
+            self._loaded = True
+            log.info(
+                f"✓ Academic graph loaded: {len(self.nodes)} nodes  "
+                f"{len(self.url_to_chunks)} URLs  "
+                f"GENERAL={self.general_ids}"
+            )
+        except Exception as e:
+            log.error(f"Failed to load academic graph: {e}")
+            self._loaded = False
+
+    def _load_nodes(self, sess):
+        """Load all hierarchy nodes and build indexes."""
+        result = sess.run("""
+            MATCH (n)
+            WHERE n:Faculty OR n:Department OR n:Program
+               OR n:Specialization OR n:General OR n:Level
+               OR n:Category OR n:Year
+            RETURN
+                n.id     AS id,
+                n.name   AS name,
+                labels(n) AS lbls
+        """)
+        for rec in result:
+            nid  = rec["id"]
+            name = rec["name"] or nid
+            if not nid:
+                continue
+
+            label = "General"
+            priority = {"Faculty":0,"Department":1,"Level":2,"Category":3,
+                        "Program":4,"Specialization":5,"Year":6,"General":7}
+            best_p = 99
+            for lbl in (rec["lbls"] or []):
+                p = priority.get(lbl, 99)
+                if p < best_p:
+                    best_p = p
+                    label = lbl
+
+            node = AcademicNode(
+                node_id=nid,
+                name=name,
+                label=label,
+                aliases=self._generate_aliases(name, label),
+            )
+            self.nodes[nid]       = node
+            self.children_map[nid] = []
+
+            if label == "General":
+                self.general_ids.append(nid)
+
+            # Index by canonical name
+            self._index_name(name.lower().strip(), nid)
+            # Index aliases
+            for alias in node.aliases:
+                self._index_name(alias.lower().strip(), nid)
+
+        # Load parent→child relationships
+        rel_result = sess.run("""
+            MATCH (parent)-[r]->(child)
+            WHERE type(r) IN ['HAS_DEPARTMENT','HAS_LEVEL','HAS_PROGRAM',
+                              'HAS_CATEGORY','HAS_SPECIALIZATION','HAS_YEAR',
+                              'HAS_CHILD']
+              AND parent.id IS NOT NULL AND child.id IS NOT NULL
+            RETURN parent.id AS pid, child.id AS cid
+        """)
+        for rec in rel_result:
+            pid = rec["pid"]
+            cid = rec["cid"]
+            if pid and cid:
+                if pid not in self.children_map:
+                    self.children_map[pid] = []
+                if cid not in self.children_map[pid]:
+                    self.children_map[pid].append(cid)
+                self.parent_map[cid] = pid
+                if cid in self.nodes:
+                    self.nodes[cid].parent_id = pid
+
+
+    def _load_url_mappings(self, sess):
+        """Load node → URL mappings using CLASSIFIED_AS relationship."""
+        # Try CLASSIFIED_AS first (direction: URL → Node)
+        result = sess.run("""
+            MATCH (u:URL)-[:CLASSIFIED_AS]->(n)
+            WHERE n.id IS NOT NULL AND u.id IS NOT NULL
+            RETURN n.id AS nid, u.id AS uid
+        """)
+        
+        records = list(result)
+        
+        # Fallback: if CLASSIFIED_AS returns nothing, try HAS_CONTENT (legacy)
+        if not records:
+            log.warning("   ⚠️ No CLASSIFIED_AS relationships found, trying HAS_CONTENT...")
+            result = sess.run("""
+                MATCH (n)-[:HAS_CONTENT]->(u:URL)
+                WHERE n.id IS NOT NULL AND u.id IS NOT NULL
+                RETURN n.id AS nid, u.id AS uid
+            """)
+            records = list(result)
+        
+        for rec in records:
+            nid = rec["nid"]
+            uid = rec["uid"]
+            if nid and uid:
+                if nid not in self.node_to_urls:
+                    self.node_to_urls[nid] = []
+                self.node_to_urls[nid].append(uid)
+        
+        log.info(f"   Loaded {len(records)} node→URL mappings")
+        def _load_chunk_mappings(self, sess):
+            """Load URL → chunk IDs."""
+            result = sess.run("""
+                MATCH (u:URL)-[:HAS_CHUNK]->(c:Chunk)
+                WHERE u.id IS NOT NULL AND c.id IS NOT NULL
+                RETURN u.id AS uid, collect(c.id) AS cids
+            """)
+            for rec in result:
+                self.url_to_chunks[rec["uid"]] = rec["cids"] or []
+
+
+    def _load_chunk_mappings(self, sess):
+        """Load URL → chunk IDs."""
+        result = sess.run("""
+            MATCH (u:URL)-[:HAS_CHUNK]->(c:Chunk)
+            WHERE u.id IS NOT NULL AND c.id IS NOT NULL
+            RETURN u.id AS uid, collect(c.id) AS cids
+        """)
+        for rec in result:
+            self.url_to_chunks[rec["uid"]] = rec["cids"] or []
+
+    def _index_name(self, name: str, nid: str):
+        if not name:
+            return
+        if name not in self.name_index:
+            self.name_index[name] = []
+        if nid not in self.name_index[name]:
+            self.name_index[name].append(nid)
+
+    # ── Alias generation ──────────────────────────────────────
+
+    _ABBR_MAP: Dict[str, List[str]] = {
+        "informatique":                            ["info","isi","cs","gl","génie logiciel","rsd"],
+        "informatique industrielle":               ["isi","ii"],
+        "mathématiques":                           ["maths","math","mi"],
+        "mathématiques et informatique":           ["mi","maths info","math info"],
+        "physique":                                ["phys","sm"],
+        "chimie":                                  ["chim","sm"],
+        "biologie":                                ["bio","sv","svt","snv"],
+        "sciences de la matière":                  ["sm","physique chimie"],
+        "sciences et technologie":                 ["st"],
+        "sciences de la vie et de la nature":      ["svt","snv","sv"],
+        "sciences de la nature et de la vie":      ["snv","svt","sv"],
+        "génie logiciel":                          ["gl","software engineering"],
+        "réseaux et systèmes distribués":          ["rsd","networks","réseaux"],
+        "faculté des sciences":                    ["fs","fac science"],
+        "faculté de technologie":                  ["ft","fac technologie"],
+        "faculté de médecine":                     ["fm","fac médecine"],
+        "licence":                                 ["l1","l2","l3","bachelor"],
+        "master":                                  ["m1","m2"],
+        "doctorat":                                ["phd","doctorate","doc"],
+        "ingénieur":                               ["ing","ingenieur","ing1","ing2","ing3"],
+        "general":                                 ["général","générale","commun"],
+    }
+
+    def _generate_aliases(self, name: str, label: str) -> List[str]:
+        name_lower = name.lower().strip()
+        aliases: Set[str] = set()
+
+        # Direct lookup
+        if name_lower in self._ABBR_MAP:
+            aliases.update(self._ABBR_MAP[name_lower])
+
+        # Partial matches
+        for key, vals in self._ABBR_MAP.items():
+            if key != name_lower and (key in name_lower or name_lower in key):
+                aliases.update(vals)
+
+        # Acronym
+        words = name_lower.split()
+        if len(words) > 1:
+            acronym = "".join(w[0] for w in words if w)
+            if len(acronym) >= 2:
+                aliases.add(acronym)
+
+        # Remove self
+        aliases.discard(name_lower)
+        return list(aliases)
+
+    # ── Entity detection ──────────────────────────────────────
+
+    def detect_nodes_in_query(self, query: str, strategy: Optional[RetrievalStrategy] = None) -> List[AcademicNode]:
+        """
+        Multi-strategy entity detection.
+        Returns matched nodes ordered by confidence.
+        Does NOT apply hard filtering — soft boost map is built later.
+        """
+        if not self._loaded:
+            return []
+
+        query_lower = query.lower().strip()
+        scores: Dict[str, float] = {}  # node_id → score
+
+        # Strategy 1: Exact substring match (highest confidence)
+        for name_lower, node_ids in self.name_index.items():
+            if len(name_lower) < 3:
+                continue
+            if name_lower in query_lower:
+                coverage = len(name_lower) / max(len(query_lower), 1)
+                s = min(2.0, coverage * 3.0)
+                for nid in node_ids:
+                    scores[nid] = max(scores.get(nid, 0.0), s)
+
+        # Strategy 2: Word overlap
+        query_words = set(query_lower.split()) - _STOPWORDS
+        for name_lower, node_ids in self.name_index.items():
+            name_words = set(name_lower.split()) - _STOPWORDS
+            if not name_words:
+                continue
+            overlap = query_words & name_words
+            if overlap:
+                s = len(overlap) / len(name_words) * 0.8
+                for nid in node_ids:
+                    scores[nid] = max(scores.get(nid, 0.0), s)
+
+        # Strategy 3: Fuzzy (for short queries / typos)
+        if _FUZZ_OK and len(query_lower.split()) <= 4:
+            for name_lower, node_ids in self.name_index.items():
+                if len(name_lower) < 4:
+                    continue
+                ratio = _fuzz.partial_ratio(query_lower, name_lower)
+                if ratio >= 78:
+                    s = (ratio / 100.0) * 0.65
+                    for nid in node_ids:
+                        scores[nid] = max(scores.get(nid, 0.0), s)
+
+        # Filter by threshold, sort by score
+        DETECTION_THRESHOLD = 0.35
+        sorted_matches = sorted(
+            [(nid, sc) for nid, sc in scores.items() if sc >= DETECTION_THRESHOLD],
+            key=lambda x: x[1],
+            reverse=True,
+        )
+
+        # Don't return GENERAL nodes from detection — they are fallback layer
+        result: List[AcademicNode] = []
+        for nid, sc in sorted_matches[:6]:
+            node = self.nodes.get(nid)
+            if node and node.label != "General":
+                result.append(node)
+                log.info(f"   🎯 Detected: '{node.name}' [{node.label}] score={sc:.2f}")
+
+        return result
+
+    # ── Soft boost map construction ───────────────────────────
+
+    def build_boost_map(
+        self,
+        matched_nodes: List[AcademicNode],
+        strategy: RetrievalStrategy,
+    ) -> Dict[str, Tuple[float, int]]:
+        """
+        Returns {chunk_id: (boost_value, depth_level)}.
+        Soft scoring: ALL chunks remain candidates; matched ones get boosted.
+        """
+        boost_map: Dict[str, Tuple[float, int]] = {}
+
+        if not matched_nodes:
+            # No match → add GENERAL boost as soft signal
+            return self._boost_general_nodes(boost_map)
+
+        depth_boosts = {
+            0: GRAPH_BOOST_L0,
+            1: GRAPH_BOOST_L1,
+            2: GRAPH_BOOST_L2,
+            3: GRAPH_BOOST_L3,
+        }
+
+        for node in matched_nodes:
+            nid = node.node_id
+            # BFS with depth tracking
+            queue:   deque = deque([(nid, 0)])
+            visited: Set[str] = set()
+
+            while queue:
+                current_id, depth = queue.popleft()
+                if current_id in visited or depth > strategy.graph_depth_max:
+                    continue
+                visited.add(current_id)
+
+                boost = depth_boosts.get(depth, GRAPH_BOOST_L3)
+
+                # Apply boost to all chunks under this node
+                for url_id in self.node_to_urls.get(current_id, []):
+                    for cid in self.url_to_chunks.get(url_id, []):
+                        existing_boost, existing_level = boost_map.get(cid, (0.0, 99))
+                        if boost > existing_boost:
+                            boost_map[cid] = (boost, depth)
+
+                # Enqueue children
+                for child_id in self.children_map.get(current_id, []):
+                    if child_id not in visited:
+                        queue.append((child_id, depth + 1))
+
+            # Sibling expansion (optional per strategy)
+            if strategy.expand_siblings:
+                parent_id = self.parent_map.get(nid)
+                if parent_id:
+                    for sibling_id in self.children_map.get(parent_id, []):
+                        if sibling_id == nid or sibling_id in visited:
+                            continue
+                        for url_id in self.node_to_urls.get(sibling_id, []):
+                            for cid in self.url_to_chunks.get(url_id, []):
+                                existing_boost, _ = boost_map.get(cid, (0.0, 99))
+                                if GRAPH_BOOST_SIBLING > existing_boost:
+                                    boost_map[cid] = (GRAPH_BOOST_SIBLING, 99)
+
+        # Always add GENERAL as background signal
+        if strategy.expand_general:
+            boost_map = self._boost_general_nodes(boost_map)
+
+        log.info(
+            f"   📈 Boost map: {len(boost_map)} chunks  "
+            f"L0={sum(1 for _,l in boost_map.values() if l==0)}  "
+            f"L1={sum(1 for _,l in boost_map.values() if l==1)}  "
+            f"L2={sum(1 for _,l in boost_map.values() if l==2)}  "
+            f"L3+={sum(1 for _,l in boost_map.values() if l>=3)}"
+        )
+        return boost_map
+
+    def _boost_general_nodes(self, boost_map: Dict[str, Tuple[float, int]]) -> Dict[str, Tuple[float, int]]:
+        for gid in self.general_ids:
+            for url_id in self.node_to_urls.get(gid, []):
+                for cid in self.url_to_chunks.get(url_id, []):
+                    existing_boost, _ = boost_map.get(cid, (0.0, 99))
+                    if GRAPH_BOOST_GENERAL > existing_boost:
+                        boost_map[cid] = (GRAPH_BOOST_GENERAL, 99)
+        return boost_map
+
+    def get_all_chunks_for_nodes(
+        self,
+        node_ids: List[str],
+        max_depth: int = 4,
+    ) -> Set[str]:
+        """Collect ALL chunk IDs under given nodes up to max_depth."""
+        all_chunks: Set[str] = set()
+        visited:    Set[str] = set()
+        queue: deque = deque([(nid, 0) for nid in node_ids])
+
+        while queue:
+            current, depth = queue.popleft()
+            if current in visited or depth > max_depth:
+                continue
+            visited.add(current)
+
+            for url_id in self.node_to_urls.get(current, []):
+                all_chunks.update(self.url_to_chunks.get(url_id, []))
+
+            for child_id in self.children_map.get(current, []):
+                if child_id not in visited:
+                    queue.append((child_id, depth + 1))
+
+        return all_chunks
+
+    # ── graph_query mode: direct hierarchy traversal ──────────
+
+    def traverse_for_graph_query(self, query: str) -> Dict:
+        """
+        For queries about structure/hierarchy: directly traverse Neo4j.
+        Returns hierarchy tree without semantic search.
+        """
+        matched = self.detect_nodes_in_query(query)
+        if not matched:
+            # Return full faculty tree
+            return self._get_faculty_tree()
+
+        results = []
+        for node in matched[:3]:
+            results.append({
+                "node":     {"id": node.node_id, "name": node.name, "label": node.label},
+                "path":     self._get_node_path(node.node_id),
+                "children": self._get_children(node.node_id),
+            })
+        return {"graph_results": results, "query": query}
+
+    def _get_node_path(self, node_id: str) -> List[Dict]:
+        path, current = [], node_id
+        depth = 0
+        while current and depth < 10:
+            node = self.nodes.get(current)
+            if not node:
+                break
+            path.append({"id": node.node_id, "name": node.name, "label": node.label})
+            current = self.parent_map.get(current)
+            depth += 1
+        return list(reversed(path))
+
+    def _get_children(self, node_id: str) -> List[Dict]:
+        result = []
+        for cid in self.children_map.get(node_id, []):
+            node = self.nodes.get(cid)
+            if node:
+                grandchildren = [
+                    {"id": gc, "name": self.nodes[gc].name, "label": self.nodes[gc].label}
+                    for gc in self.children_map.get(cid, [])
+                    if gc in self.nodes
+                ]
+                result.append({
+                    "id":       node.node_id,
+                    "name":     node.name,
+                    "label":    node.label,
+                    "children": grandchildren,
+                })
+        return result
+
+    def _get_faculty_tree(self) -> Dict:
+        roots = [n for n in self.nodes.values() if n.label == "Faculty"]
+        tree = []
+        for root in roots:
+            tree.append({
+                "node":     {"id": root.node_id, "name": root.name, "label": root.label},
+                "children": self._get_children(root.node_id),
+            })
+        return {"graph_results": tree, "query": "full_faculty_tree"}
+
+    def get_node_info(self, node_id: str) -> Optional[Dict]:
+        node = self.nodes.get(node_id)
+        if not node:
+            return None
+        direct_chunks = sum(
+            len(self.url_to_chunks.get(uid, []))
+            for uid in self.node_to_urls.get(node_id, [])
+        )
+        total_chunks = len(self.get_all_chunks_for_nodes([node_id]))
+        return {
+            "node_id":       node.node_id,
+            "name":          node.name,
+            "label":         node.label,
+            "parent_id":     node.parent_id,
+            "path":          self._get_node_path(node_id),
+            "children":      self._get_children(node_id),
+            "direct_chunks": direct_chunks,
+            "total_chunks":  total_chunks,
+        }
+
+
+# ══════════════════════════════════════════════════════════════
+# SEMANTIC RETRIEVER — global (no hard filter)
 # ══════════════════════════════════════════════════════════════
 
 class SemanticRetriever:
-    _QUERY_PREFIX   = "query: "
-    _PASSAGE_PREFIX = "passage: "
-
-    def __init__(self, model_name: str = EMBED_MODEL):
-        log.info("Loading embedding model: %s", model_name)
+    def __init__(self):
+        log.info(f"Loading {EMBED_MODEL_NAME}...")
         try:
             import torch
             dev = "cuda" if torch.cuda.is_available() else "cpu"
         except ImportError:
             dev = "cpu"
-        log.info("Embedder device: %s", dev)
-        self._model  = SentenceTransformer(model_name, device=dev)
+        self._model  = SentenceTransformer(EMBED_MODEL_NAME, device=dev)
         self._cache: Dict[str, np.ndarray] = {}
+        log.info("Embedder ready")
 
-    def _encode_with_prefix(self, texts: List[str], prefix: str) -> np.ndarray:
-        results: List[Optional[np.ndarray]] = [None] * len(texts)
-        miss_idx: List[int] = []
+    def encode(self, texts: List[str]) -> np.ndarray:
+        results: List[Optional[np.ndarray]] = []
+        miss_idx:   List[int] = []
         miss_texts: List[str] = []
+
         for i, t in enumerate(texts):
-            key = prefix + t
-            if key in self._cache:
-                results[i] = self._cache[key]
+            if t in self._cache:
+                results.append(self._cache[t])
             else:
+                results.append(None)
                 miss_idx.append(i)
                 miss_texts.append(t)
+
         if miss_texts:
             embs = self._model.encode(
-                [prefix + t for t in miss_texts],
+                miss_texts,
                 normalize_embeddings=True,
                 convert_to_numpy=True,
                 show_progress_bar=False,
             )
             for local_i, global_i in enumerate(miss_idx):
                 vec = embs[local_i]
-                key = prefix + miss_texts[local_i]
                 if len(self._cache) >= EMBED_CACHE_SIZE:
                     self._cache.pop(next(iter(self._cache)))
-                self._cache[key] = vec
+                self._cache[miss_texts[local_i]] = vec
                 results[global_i] = vec
-        return np.vstack(results)
 
-    def encode(self, texts: List[str]) -> np.ndarray:
-        """Encode query texts with the 'query: ' prefix (bge-m3 asymmetric)."""
-        return self._encode_with_prefix(texts, self._QUERY_PREFIX)
-
-    def encode_passage(self, texts: List[str]) -> np.ndarray:
-        """Encode passage texts with the 'passage: ' prefix — used for title similarity."""
-        return self._encode_with_prefix(texts, self._PASSAGE_PREFIX)
+        valid = [r for r in results if r is not None]
+        return np.vstack(valid) if valid else np.empty((0, VECTOR_DIMENSIONS))
 
     def search(
         self,
-        variants:     List[str],
-        top_k:        int,
-        where_filter: Optional[Dict] = None,
+        variants: List[str],
+        top_k: int,
     ) -> Dict[str, RetrievedChunk]:
+        """
+        Always searches the FULL corpus (no chunk_filter).
+        Graph boost is applied during fusion, not here.
+        """
         if not variants:
             return {}
 
         embeddings = self.encode(variants)
-        try:
-            import torch
-            if torch.cuda.is_available():
-                torch.cuda.empty_cache()
-        except ImportError:
-            pass
+        if embeddings.shape[0] == 0:
+            return {}
 
         candidates: Dict[str, RetrievedChunk] = {}
         driver = _get_driver()
-        for vec in embeddings:
-            filter_clause = ""
-            filter_params: Dict = {}
-            if where_filter and "source_type" in where_filter:
-                filter_clause = "WHERE u.source_type = $src_type"
-                filter_params["src_type"] = where_filter["source_type"]
 
-            # ── v13.2 change: removed has_translation from RETURN ──────────
-            # Translation nodes are no longer stored; is_french is the sole
-            # indicator of whether the chunk is already in French.
-            query = f"""
+        for vec in embeddings:
+            cypher = """
                 CALL db.index.vector.queryNodes($index, $k, $vec)
                 YIELD node AS c, score
                 MATCH (u:URL)-[:HAS_CHUNK]->(c)
-                {filter_clause}
                 OPTIONAL MATCH (page:URL)-[:HAS_FILE]->(u)
                 RETURN
-                    c.id           AS chunk_id,
+                    c.id           AS cid,
                     c.text         AS text,
-                    c.chunk_index  AS chunk_index,
-                    c.language     AS language,
-                    c.is_french    AS is_french,
-                    score          AS similarity,
+                    c.chunk_index  AS ci,
+                    c.language     AS lang,
+                    score          AS sim,
                     u.url          AS url,
                     u.title        AS title,
-                    u.source_type  AS source_type,
-                    page.url       AS page_url
+                    u.source_type  AS st,
+                    page.url       AS page_url,
+                    u.id           AS url_id
             """
-            params = {"index": NEO4J_VECTOR_INDEX, "k": top_k,
-                      "vec": vec.tolist(), **filter_params}
             try:
                 with driver.session() as sess:
-                    for rec in sess.run(query, params):
-                        cid = rec["chunk_id"]
-                        sim = float(rec["similarity"])
-                        meta = {
-                            "title":       rec["title"]       or "",
-                            "url":         rec["url"]         or "",
-                            "page_url":    rec["page_url"]    or "",
-                            "source_type": rec["source_type"] or "",
-                            "language":    rec["language"]    or "",
-                            "chunk_index": rec["chunk_index"],
-                            "is_french":   rec["is_french"]   or False,
-                            # has_translation removed — on-the-fly only
-                            "pdf_url": rec["url"] if rec["source_type"] == "pdf" else "",
-                        }
-                        if cid not in candidates or sim > candidates[cid].sem_score:
+                    for rec in sess.run(cypher, {"index": NEO4J_VECTOR_INDEX, "k": top_k, "vec": vec.tolist()}):
+                        cid = rec["cid"]
+                        sim = float(rec["sim"])
+                        if cid and (cid not in candidates or sim > candidates[cid].sem_score):
                             candidates[cid] = RetrievedChunk(
                                 chunk_id=cid,
                                 text=rec["text"] or "",
                                 score=sim,
-                                metadata=meta,
+                                metadata={
+                                    "title":       rec["title"]    or "",
+                                    "url":         rec["url"]      or "",
+                                    "page_url":    rec["page_url"] or rec["url"] or "",
+                                    "source_type": rec["st"]       or "",
+                                    "language":    rec["lang"]     or "",
+                                    "chunk_index": rec["ci"],
+                                    "url_id":      rec["url_id"]   or "",
+                                    "pdf_url":     rec["url"] if rec["st"] == "pdf" else "",
+                                },
                                 sem_score=sim,
                             )
-            except Exception as exc:
-                log.warning("Neo4j vector search failed: %s", exc)
-                log.warning("Ensure the vector index exists: "
-                            "CREATE VECTOR INDEX chunk_embedding IF NOT EXISTS "
-                            "FOR (c:Chunk) ON (c.embedding) "
-                            "OPTIONS {indexConfig: {`vector.dimensions`: 1024, "
-                            "`vector.similarity_function`: 'cosine'}}")
+            except Exception as e:
+                log.warning(f"Vector search error: {e}")
+
         return candidates
 
 
 # ══════════════════════════════════════════════════════════════
-# LAYER 3B — BM25 RETRIEVER (French-pivot, on-the-fly translation)
+# BM25 RETRIEVER — global index, no hard filter
 # ══════════════════════════════════════════════════════════════
 
 class BM25Retriever:
     def __init__(self):
-        self._chunk_ids: List[str] = []
-        self._texts: List[str] = []
-        self._meta: Dict[str, Dict] = {}
+        self._chunk_ids: List[str]       = []
+        self._texts:     List[str]       = []
+        self._meta:      Dict[str, Dict] = {}
         self._bm25 = None
+
         if not _BM25_OK:
             return
 
-        log.info("BM25: loading chunks from Neo4j …")
-        qu = QueryUnderstanding()
+        log.info("Building BM25 index...")
+        qa        = QueryAnalyzer()
         tokenized: List[List[str]] = []
-        skipped = 0
 
         try:
             driver = _get_driver()
             with driver.session() as sess:
-                # ── v13.2 change: no OPTIONAL MATCH on Translation nodes ───
-                # We rely solely on c.is_french to decide whether to translate.
-                records = sess.run("""
+                for rec in sess.run("""
                     MATCH (u:URL)-[:HAS_CHUNK]->(c:Chunk)
                     OPTIONAL MATCH (page:URL)-[:HAS_FILE]->(u)
                     RETURN
-                        c.id          AS chunk_id,
-                        c.text        AS original_text,
-                        c.is_french   AS is_french,
-                        c.language    AS language,
-                        c.chunk_index AS chunk_index,
-                        u.url         AS url,
-                        u.title       AS title,
-                        u.source_type AS source_type,
-                        page.url      AS page_url
-                """)
-                for rec in records:
-                    cid       = rec["chunk_id"]
-                    is_french = rec["is_french"] or False
-                    orig_text = rec["original_text"] or ""
-                    lang      = rec["language"] or "en"
-
-                    if is_french:
-                        # ── Already French: index directly, no translation ──
-                        index_text = orig_text
-                    else:
-                        # ── Not French: translate on-the-fly ─────────────
-                        translated = translate_to_french(orig_text, lang)
-                        if translated is not None:
-                            index_text = translated
-                        else:
-                            log.warning(
-                                "BM25: skipping chunk %s (lang=%s) — "
-                                "on-the-fly translation unavailable",
-                                cid, lang,
-                            )
-                            skipped += 1
-                            continue
-
-                    if not cid or not index_text.strip():
+                        c.id           AS cid,
+                        c.text         AS text,
+                        c.language     AS lang,
+                        c.chunk_index  AS ci,
+                        u.url          AS url,
+                        u.title        AS title,
+                        u.source_type  AS st,
+                        page.url       AS page_url,
+                        u.id           AS url_id
+                """):
+                    cid  = rec["cid"]
+                    text = rec["text"] or ""
+                    if not cid or not text.strip():
                         continue
-
                     self._chunk_ids.append(cid)
-                    self._texts.append(index_text)
+                    self._texts.append(text)
                     self._meta[cid] = {
-                        "title":         rec["title"]       or "",
-                        "url":           rec["url"]         or "",
-                        "page_url":      rec["page_url"]    or "",
-                        "source_type":   rec["source_type"] or "",
-                        "language":      lang,
-                        "chunk_index":   rec["chunk_index"],
-                        "pdf_url":       rec["url"] if rec["source_type"] == "pdf" else "",
-                        "is_french":     is_french,
-                        "original_text": orig_text,
+                        "title":       rec["title"]    or "",
+                        "url":         rec["url"]      or "",
+                        "page_url":    rec["page_url"] or rec["url"] or "",
+                        "source_type": rec["st"]       or "",
+                        "language":    rec["lang"]     or "fr",
+                        "chunk_index": rec["ci"],
+                        "url_id":      rec["url_id"]   or "",
+                        "pdf_url":     rec["url"] if rec["st"] == "pdf" else "",
                     }
-                    tokenized.append(qu.normalize_for_bm25(index_text).split())
-
-        except Exception as exc:
-            log.error("BM25: Neo4j load failed: %s", exc)
+                    tokenized.append(qa._normalize(text).split())
+        except Exception as e:
+            log.error(f"BM25 load failed: {e}")
             return
 
-        if skipped:
-            log.warning("BM25: skipped %d chunks — on-the-fly translation failed.", skipped)
         if tokenized:
             self._bm25 = BM25Okapi(tokenized)
-            log.info("BM25 index built: %d chunks (%d skipped)", len(tokenized), skipped)
+            log.info(f"BM25 ready: {len(tokenized)} chunks")
 
-    def search(self, keywords: List[str], top_k: int = TOP_K_BM25) -> List[Tuple[str, str, float]]:
+    def search(
+        self,
+        keywords: List[str],
+        top_k: int,
+    ) -> List[Tuple[str, str, float]]:
+        """Always searches full corpus (no hard filter)."""
         if self._bm25 is None or not keywords:
             return []
+
         raw = self._bm25.get_scores(keywords)
-        mx = raw.max()
+        mx  = raw.max()
         if mx <= 0:
             return []
-        norm = raw / mx
-        top_idx = np.argsort(norm)[::-1][:top_k]
-        return [(self._chunk_ids[i], self._texts[i], float(norm[i])) for i in top_idx if norm[i] > 0]
 
-    def get_meta(self, chunk_id: str) -> Optional[Dict]:
-        return self._meta.get(chunk_id)
+        normed = raw / mx
+        results: List[Tuple[str, str, float]] = []
 
-
-# ══════════════════════════════════════════════════════════════
-# LAYER 3C — FUZZY TITLE RETRIEVER  (unchanged from v13.1)
-# ══════════════════════════════════════════════════════════════
-
-class FuzzyRetriever:
-    def __init__(self):
-        self._entries: List[Tuple[str, str, str]] = []
-        self._cid_text: Dict[str, str] = {}
-        self._cid_meta: Dict[str, Dict] = {}
-        if not _FUZZ_OK:
-            return
-
-        log.info("Fuzzy: loading URL titles from Neo4j …")
-        try:
-            driver = _get_driver()
-            with driver.session() as sess:
-                records = sess.run("""
-                    MATCH (u:URL)-[:HAS_CHUNK]->(c:Chunk)
-                    OPTIONAL MATCH (page:URL)-[:HAS_FILE]->(u)
-                    RETURN
-                        u.title       AS title,
-                        c.id          AS chunk_id,
-                        c.text        AS text,
-                        c.language    AS language,
-                        u.url         AS url,
-                        u.source_type AS source_type,
-                        c.chunk_index AS chunk_index,
-                        page.url      AS page_url
-                """)
-                for rec in records:
-                    title_orig = rec["title"] or ""
-                    if not title_orig:
-                        continue
-                    lang      = rec["language"] or "en"
-                    title_fr  = translate_to_french_with_fallback(title_orig, lang)
-                    cid       = rec["chunk_id"]
-                    text      = rec["text"] or ""
-                    self._entries.append((title_fr.lower(), cid, text))
-                    self._cid_text[cid] = text
-                    self._cid_meta[cid] = {
-                        "title":       title_orig,
-                        "url":         rec["url"]         or "",
-                        "page_url":    rec["page_url"]    or "",
-                        "source_type": rec["source_type"] or "",
-                        "language":    lang,
-                        "chunk_index": rec["chunk_index"],
-                        "pdf_url":     rec["url"] if rec["source_type"] == "pdf" else "",
-                    }
-        except Exception as exc:
-            log.error("Fuzzy: Neo4j load failed: %s", exc)
-            return
-        log.info("Fuzzy index: %d chunk-title pairs", len(self._entries))
-
-    def search(self, query: str, top_k: int = TOP_K_FUZZY) -> List[Tuple[str, str, float]]:
-        if not _FUZZ_OK or not self._entries:
-            return []
-        q = query.lower().strip()
-        titles = [e[0] for e in self._entries]
-        hits = fuzz_process.extract(q, titles, scorer=_fuzz.token_set_ratio, limit=top_k * 2)
-        seen: Dict[str, float] = {}
-        for _, raw, idx in hits:
-            if raw < FUZZY_MIN_SCORE:
+        for i in np.argsort(normed)[::-1][: top_k * 2]:
+            if normed[i] <= 0:
                 continue
-            _, cid, _ = self._entries[idx]
-            norm = raw / 100.0
-            if cid not in seen or norm > seen[cid]:
-                seen[cid] = norm
-        return sorted(
-            [(cid, self._cid_text.get(cid, ""), s) for cid, s in seen.items()],
-            key=lambda x: x[2], reverse=True
-        )[:top_k]
+            cid = self._chunk_ids[i]
+            results.append((cid, self._texts[i], float(normed[i])))
+            if len(results) >= top_k:
+                break
 
-    def get_meta(self, chunk_id: str) -> Optional[Dict]:
-        return self._cid_meta.get(chunk_id)
+        return results
+
+    def get_meta(self, cid: str) -> Optional[Dict]:
+        return self._meta.get(cid)
 
 
 # ══════════════════════════════════════════════════════════════
-# METADATA STORE (on-demand Neo4j lookups, on-the-fly translation)
-# ══════════════════════════════════════════════════════════════
-
-class MetadataStore:
-    def __init__(self):
-        self._cache: Dict[str, Dict] = {}
-
-    def get(self, chunk_id: str) -> Optional[Dict]:
-        if chunk_id in self._cache:
-            return self._cache[chunk_id]
-        try:
-            driver = _get_driver()
-            with driver.session() as sess:
-                # ── v13.2 change: removed OPTIONAL MATCH on Translation ────
-                # french_text is computed on-the-fly below using is_french.
-                rec = sess.run("""
-                    MATCH (u:URL)-[:HAS_CHUNK]->(c:Chunk {id: $cid})
-                    OPTIONAL MATCH (page:URL)-[:HAS_FILE]->(u)
-                    RETURN
-                        c.text        AS text,
-                        c.chunk_index AS chunk_index,
-                        c.language    AS language,
-                        c.is_french   AS is_french,
-                        u.url         AS url,
-                        u.title       AS title,
-                        u.source_type AS source_type,
-                        page.url      AS page_url
-                """, cid=chunk_id).single()
-                if rec is None:
-                    return None
-
-                orig_text = rec["text"] or ""
-                is_french = rec["is_french"] or False
-                lang      = rec["language"] or "en"
-
-                # ── On-the-fly translation ────────────────────────────────
-                if is_french:
-                    french_text = orig_text          # already French, zero cost
-                else:
-                    french_text = translate_to_french(orig_text, lang) or ""
-
-                data = {
-                    "chunk":       orig_text,
-                    "text":        orig_text,
-                    "french_text": french_text,      # empty string if translation failed
-                    "title":       rec["title"]       or "",
-                    "url":         rec["url"]         or "",
-                    "page_url":    rec["page_url"]    or "",
-                    "source_type": rec["source_type"] or "",
-                    "language":    lang,
-                    "chunk_index": rec["chunk_index"],
-                    "is_french":   is_french,
-                    # has_translation removed — callers check french_text != ""
-                    "pdf_url":     rec["url"] if rec["source_type"] == "pdf" else "",
-                }
-                self._cache[chunk_id] = data
-                return data
-        except Exception as exc:
-            log.warning("MetadataStore.get(%s) failed: %s", chunk_id, exc)
-            return None
-
-    def preload(self, chunk_ids: List[str]):
-        missing = [cid for cid in chunk_ids if cid not in self._cache]
-        if not missing:
-            return
-        try:
-            driver = _get_driver()
-            with driver.session() as sess:
-                # ── v13.2 change: removed OPTIONAL MATCH on Translation ────
-                records = sess.run("""
-                    UNWIND $ids AS cid
-                    MATCH (u:URL)-[:HAS_CHUNK]->(c:Chunk {id: cid})
-                    OPTIONAL MATCH (page:URL)-[:HAS_FILE]->(u)
-                    RETURN
-                        c.id          AS chunk_id,
-                        c.text        AS text,
-                        c.chunk_index AS chunk_index,
-                        c.language    AS language,
-                        c.is_french   AS is_french,
-                        u.url         AS url,
-                        u.title       AS title,
-                        u.source_type AS source_type,
-                        page.url      AS page_url
-                """, ids=missing)
-                for rec in records:
-                    cid       = rec["chunk_id"]
-                    orig_text = rec["text"] or ""
-                    is_french = rec["is_french"] or False
-                    lang      = rec["language"] or "en"
-
-                    # ── On-the-fly translation ────────────────────────────
-                    if is_french:
-                        french_text = orig_text
-                    else:
-                        french_text = translate_to_french(orig_text, lang) or ""
-
-                    self._cache[cid] = {
-                        "chunk":       orig_text,
-                        "text":        orig_text,
-                        "french_text": french_text,
-                        "title":       rec["title"]       or "",
-                        "url":         rec["url"]         or "",
-                        "page_url":    rec["page_url"]    or "",
-                        "source_type": rec["source_type"] or "",
-                        "language":    lang,
-                        "chunk_index": rec["chunk_index"],
-                        "is_french":   is_french,
-                        "pdf_url":     rec["url"] if rec["source_type"] == "pdf" else "",
-                    }
-        except Exception as exc:
-            log.warning("MetadataStore.preload failed: %s", exc)
-
-
-# ══════════════════════════════════════════════════════════════
-# TITLE SIMILARITY  (unchanged from v13.1)
-# ══════════════════════════════════════════════════════════════
-
-def _title_sim(query_vec: np.ndarray, meta: Dict, retriever: SemanticRetriever) -> float:
-    t = meta.get("title", "")
-    if not t:
-        return 0.0
-    title_vec = retriever.encode_passage([t])
-    return float((title_vec @ query_vec).max())
-
-
-# ══════════════════════════════════════════════════════════════
-# FINGERPRINT  (unchanged)
+# FUSION — hybrid scoring with language-aware boost
 # ══════════════════════════════════════════════════════════════
 
 def _fingerprint(text: str) -> str:
-    norm = re.sub(r"\s+", " ", text[:DEDUP_CHARS]).strip().lower()
-    return hashlib.md5(norm.encode("utf-8")).hexdigest()
+    return hashlib.md5(
+        re.sub(r"\s+", " ", text[:DEDUP_CHARS]).strip().lower().encode()
+    ).hexdigest()
 
 
-# ══════════════════════════════════════════════════════════════
-# LAYER 4 — SCORE FUSION  (unchanged from v13.1)
-# ══════════════════════════════════════════════════════════════
-
-def fuse_scores(
-    semantic:   Dict[str, RetrievedChunk],
-    bm25_hits:  List[Tuple[str, str, float]],
-    fuzz_hits:  List[Tuple[str, str, float]],
-    meta_store: MetadataStore,
-    bm25_retr:  BM25Retriever,
-    fuzz_retr:  FuzzyRetriever,
-    query_vec:  np.ndarray,
-    retriever:  SemanticRetriever,
-    query_lang: str,
-    intent:     str,
+def fuse_results(
+    semantic:    Dict[str, RetrievedChunk],
+    bm25:        List[Tuple[str, str, float]],
+    boost_map:   Dict[str, Tuple[float, int]],
+    query_lang:  str,
+    bm25_retriever: Optional[BM25Retriever] = None,
 ) -> List[RetrievedChunk]:
-    pool: Dict[str, Dict] = {}
+    """
+    Merge semantic + BM25, apply:
+      - Graph soft boost
+      - Language match boost / mismatch penalty
+    No hard filtering.
+    """
+    pool: Dict[str, Dict[str, Any]] = {}
 
     for cid, chunk in semantic.items():
-        pool[cid] = {"sem": chunk.sem_score, "bm25": 0.0, "text": chunk.text, "meta": chunk.metadata}
+        pool[cid] = {
+            "sem":  chunk.sem_score,
+            "bm25": 0.0,
+            "text": chunk.text,
+            "meta": chunk.metadata,
+        }
 
-    for cid, text, score in bm25_hits:
+    for cid, text, score in bm25:
         if cid not in pool:
-            rec = bm25_retr.get_meta(cid) or meta_store.get(cid)
-            if rec is None:
-                continue
-            pool[cid] = {"sem": 0.0, "bm25": score, "text": rec.get("chunk", text), "meta": rec}
+            meta = (bm25_retriever.get_meta(cid) or {}) if bm25_retriever else {}
+            pool[cid] = {"sem": 0.0, "bm25": score, "text": text, "meta": meta}
         else:
             pool[cid]["bm25"] = max(pool[cid]["bm25"], score)
 
-    for cid, text, score in fuzz_hits:
-        fuzzy_contrib = score * 0.8
-        if cid not in pool:
-            rec = fuzz_retr.get_meta(cid) or meta_store.get(cid)
-            if rec is None:
-                continue
-            pool[cid] = {"sem": 0.0, "bm25": fuzzy_contrib, "text": rec.get("chunk", text), "meta": rec}
-        else:
-            pool[cid]["bm25"] = max(pool[cid]["bm25"], fuzzy_contrib)
+    fused:  List[RetrievedChunk] = []
+    seen_fp: Dict[str, float]   = {}
 
-    fused_chunks: List[RetrievedChunk] = []
-    seen_fp: Dict[str, float] = {}
     for cid, d in pool.items():
-        sem  = float(d["sem"])
-        bm25 = float(d["bm25"])
-        text = d["text"]
+        sem = float(d["sem"])
+        bm  = float(d["bm25"])
+        if sem == 0.0 and bm == 0.0:
+            continue
+
+        score = W_SEM * sem + W_BM25 * bm
+
+        # Language-aware scoring (stronger than v15)
         meta = d["meta"] if isinstance(d["meta"], dict) else {}
-        if sem == 0.0 and bm25 == 0.0:
+        chunk_lang = meta.get("language", "")
+        if chunk_lang and chunk_lang == query_lang:
+            score += LANG_EXACT_BOOST
+        elif chunk_lang and chunk_lang != query_lang and query_lang in ("ar", "fr", "en"):
+            # Only penalise if chunk has a clear different language
+            if chunk_lang in ("ar", "fr", "en") and chunk_lang != query_lang:
+                score -= LANG_MISMATCH_PEN
+
+        # Soft graph boost
+        gb, level = boost_map.get(cid, (0.0, -1))
+        score += gb
+
+        fp = _fingerprint(d["text"])
+        if fp in seen_fp and score <= seen_fp[fp]:
             continue
-        t_sim = _title_sim(query_vec, meta, retriever)
-        fused = W_SEM * sem + W_BM25 * bm25 + W_TITLE * t_sim
-        if meta.get("language") == query_lang:
-            fused += LANG_MATCH_BOOST
-        acad = float(meta.get("academic_score", 0.0) or 0.0)
-        fused += min(ACADEMIC_BOOST_CAP, acad * ACADEMIC_BOOST_CAP)
-        if intent == "admin_query":
-            auth = float(meta.get("authority_score", 0.0) or 0.0)
-            fused += min(AUTHORITY_BOOST_CAP, auth * AUTHORITY_BOOST_CAP)
-        fp = _fingerprint(text)
-        if fp in seen_fp and fused <= seen_fp[fp]:
-            continue
-        seen_fp[fp] = fused
-        fused_chunks.append(RetrievedChunk(
-            chunk_id=cid, text=text, score=fused, metadata=meta,
-            sem_score=sem, bm25_score=bm25, title_score=t_sim, fused_score=fused,
+        seen_fp[fp] = score
+
+        fused.append(RetrievedChunk(
+            chunk_id=cid,
+            text=d["text"],
+            score=score,
+            metadata=meta,
+            sem_score=sem,
+            bm25_score=bm,
+            fused_score=score,
+            graph_boost=gb,
+            node_level=level,
         ))
 
-    fused_chunks.sort(key=lambda c: c.score, reverse=True)
-    return fused_chunks
+    fused.sort(key=lambda c: c.score, reverse=True)
+    return fused
 
 
 # ══════════════════════════════════════════════════════════════
-# ANSWERABILITY GATE  (unchanged)
-# ══════════════════════════════════════════════════════════════
-
-def _passes_answerability(chunks: List[RetrievedChunk]) -> bool:
-    return bool(chunks and chunks[0].score >= ANSWER_THRESHOLD)
-
-
-# ══════════════════════════════════════════════════════════════
-# LAYER 5 — CROSS-ENCODER RERANKER  (unchanged)
+# RERANKER — language-consistent cross-encoder
 # ══════════════════════════════════════════════════════════════
 
 class Reranker:
-    def __init__(self, model_name: str = RERANK_MODEL):
-        log.info("Loading reranker: %s", model_name)
-        self._model = CrossEncoder(model_name)
+    def __init__(self):
+        log.info(f"Loading reranker: {RERANK_MODEL}")
+        self._model = CrossEncoder(RERANK_MODEL)
 
-    @staticmethod
-    def _sigmoid(x: float) -> float:
-        return 1.0 / (1.0 + float(np.exp(-float(x))))
-
-    @staticmethod
-    def _calibrate(raw: float) -> float:
-        return raw ** RERANK_POWER
-
-    def rerank(self, query: str, chunks: List[RetrievedChunk],
-               top_k: int, min_cal: float = RERANK_MIN_CAL) -> List[RetrievedChunk]:
+    def rerank(
+        self,
+        query:      str,
+        chunks:     List[RetrievedChunk],
+        top_k:      int,
+        min_cal:    float = RERANK_MIN_CAL,
+        query_lang: str   = "",
+    ) -> List[RetrievedChunk]:
         if not chunks:
             return []
-        pairs = [(query, c.text) for c in chunks]
+
+        pairs  = [(query, c.text) for c in chunks]
         logits = self._model.predict(pairs)
-        kept: List[RetrievedChunk] = []
+
         for chunk, logit in zip(chunks, logits):
-            raw = self._sigmoid(logit)
-            cal = self._calibrate(raw)
+            raw = 1.0 / (1.0 + float(np.exp(-float(logit))))
+            cal = raw ** RERANK_POWER
+
+            # Language-aware reranker adjustment
+            chunk_lang = chunk.metadata.get("language", "")
+            if query_lang and chunk_lang == query_lang:
+                cal = min(1.0, cal + 0.05)   # reward language match
+            elif query_lang and chunk_lang and chunk_lang != query_lang:
+                cal = max(0.0, cal - 0.04)   # soft penalise mismatch
+
             chunk.rerank_raw = raw
             chunk.rerank_cal = cal
-            if cal < min_cal:
-                continue
-            chunk.score = W_FUSED * chunk.fused_score + W_RERANK * cal
-            kept.append(chunk)
-        kept.sort(key=lambda c: c.score, reverse=True)
+            chunk.score      = W_FUSED * chunk.fused_score + W_RERANK * cal
+
+        kept = sorted(
+            [c for c in chunks if c.rerank_cal >= min_cal],
+            key=lambda c: c.score,
+            reverse=True,
+        )
         return kept[:top_k]
 
 
 # ══════════════════════════════════════════════════════════════
-# DYNAMIC TOP-K  (unchanged)
+# FALLBACK MANAGER — staged fallback strategy
 # ══════════════════════════════════════════════════════════════
 
-def _apply_dynamic_topk(chunks: List[RetrievedChunk]) -> List[RetrievedChunk]:
-    if not chunks:
-        return []
-    best  = chunks[0].score
-    floor = best - DYNAMIC_SCORE_MARGIN
-    kept  = [c for c in chunks if c.score >= floor]
-    result = kept[:DYN_TOP_K_MAX]
-    if len(result) < DYN_TOP_K_MIN:
-        result = chunks[:DYN_TOP_K_MIN]
-    return result
+class FallbackManager:
+    """
+    Implements multi-stage fallback:
+      Stage 1: detected nodes (already done in main pipeline)
+      Stage 2: GENERAL nodes only
+      Stage 3: global corpus (no boost, pure semantic+BM25)
+    """
 
+    def __init__(
+        self,
+        semantic:   SemanticRetriever,
+        bm25:       BM25Retriever,
+        reranker:   Reranker,
+        graph:      AcademicGraph,
+    ):
+        self.semantic  = semantic
+        self.bm25      = bm25
+        self.reranker  = reranker
+        self.graph     = graph
 
-# ══════════════════════════════════════════════════════════════
-# ENTITY FILTER  (unchanged)
-# ══════════════════════════════════════════════════════════════
+    def fallback_general(
+        self,
+        query:    str,
+        keywords: List[str],
+        lang:     str,
+        top_k:    int,
+    ) -> List[RetrievedChunk]:
+        """Stage 2: search only within GENERAL nodes."""
+        log.info("   🔄 Fallback Stage 2: GENERAL nodes")
+        boost_map = self.graph._boost_general_nodes({})
+        if not boost_map:
+            return []
 
-def _entity_filter(chunks: List[RetrievedChunk], entity_tokens: List[str],
-                   intent: str) -> List[RetrievedChunk]:
-    if intent != "person_lookup" or not entity_tokens or not _FUZZ_OK:
-        return chunks
+        variants     = [query]
+        semantic_hits = self.semantic.search(variants, TOP_K_VECTOR)
+        bm25_hits     = self.bm25.search(keywords, TOP_K_BM25)
+        fused         = fuse_results(semantic_hits, bm25_hits, boost_map, lang, self.bm25)
 
-    def _chunk_contains_entity(text: str) -> bool:
-        text_low = text.lower()
-        for token in entity_tokens:
-            if len(token) < ENTITY_MIN_TOKEN_LEN:
-                continue
-            if token.lower() in text_low:
-                return True
-            if _fuzz.partial_ratio(token.lower(), text_low) >= ENTITY_FUZZ_THRESHOLD:
-                return True
-        return False
+        # Keep only chunks that have any GENERAL boost
+        general_cids = set(boost_map.keys())
+        fused = [c for c in fused if c.chunk_id in general_cids]
+        return fused
 
-    kept = [c for c in chunks if _chunk_contains_entity(c.text)]
-    if not kept and chunks:
-        kept = [chunks[0]]
-    return kept
-
-
-# ══════════════════════════════════════════════════════════════
-# NEIGHBOUR HELPERS  (unchanged)
-# ══════════════════════════════════════════════════════════════
-
-def _keyword_overlap(text: str, keywords: List[str]) -> float:
-    if not keywords:
-        return 0.0
-    tl = text.lower()
-    return sum(1 for kw in keywords if kw in tl) / len(keywords)
-
-
-def _filter_neighbours_by_relevance(
-    candidates: List[Tuple[str, str]], query_vec: np.ndarray,
-    retriever: SemanticRetriever, keywords: List[str],
-) -> List[str]:
-    if not candidates:
-        return []
-    accepted_ids: List[str] = []
-    texts = [text for _, text in candidates]
-    ids   = [cid  for cid, _ in candidates]
-    lexical_pass = {
-        cid for cid, text in candidates
-        if keywords and _keyword_overlap(text, keywords) >= NBR_KW_FLOOR
-    }
-    sem_needed_idx = [i for i, cid in enumerate(ids) if cid not in lexical_pass]
-    if sem_needed_idx:
-        try:
-            sem_texts    = [texts[i] for i in sem_needed_idx]
-            passage_vecs = retriever.encode_passage(sem_texts)
-            sims         = passage_vecs @ query_vec
-        except Exception as exc:
-            log.debug("Batch neighbour encoding failed: %s", exc)
-            sims = None
-        for local_i, global_i in enumerate(sem_needed_idx):
-            cid = ids[global_i]
-            if sims is not None and float(sims[local_i]) >= NBR_SEM_FLOOR:
-                lexical_pass.add(cid)
-    for cid in ids:
-        if cid in lexical_pass:
-            accepted_ids.append(cid)
-    return accepted_ids
-
-
-def _same_doc_prefix(cid_a: str, cid_b: str) -> bool:
-    prefix_a = cid_a.rsplit("_c", 1)[0] if "_c" in cid_a else cid_a
-    prefix_b = cid_b.rsplit("_c", 1)[0] if "_c" in cid_b else cid_b
-    return prefix_a == prefix_b
+    def fallback_global(
+        self,
+        query:    str,
+        keywords: List[str],
+        lang:     str,
+        top_k:    int,
+    ) -> List[RetrievedChunk]:
+        """Stage 3: full corpus retrieval, no graph boost."""
+        log.info("   🔄 Fallback Stage 3: Global corpus")
+        variants     = [query]
+        semantic_hits = self.semantic.search(variants, TOP_K_VECTOR)
+        bm25_hits     = self.bm25.search(keywords, TOP_K_BM25)
+        fused         = fuse_results(semantic_hits, bm25_hits, {}, lang, self.bm25)
+        return fused
 
 
 # ══════════════════════════════════════════════════════════════
-# LAYER 6 — GRAPH EXPANDER  (unchanged)
-# ══════════════════════════════════════════════════════════════
-
-class GraphExpander:
-    def get_neighbors(
-        self, chunk_ids: List[str], window: int = NEIGHBOR_WINDOW
-    ) -> Dict[str, Tuple[List[str], List[str]]]:
-        result: Dict[str, Tuple[List[str], List[str]]] = {cid: ([], []) for cid in chunk_ids}
-        if not chunk_ids:
-            return result
-        try:
-            driver = _get_driver()
-            with driver.session() as sess:
-                records = sess.run(
-                    """
-                    UNWIND $ids AS cid
-                    MATCH (c:Chunk {id: cid})
-                    OPTIONAL MATCH (p:Chunk)-[:NEXT_CHUNK*1..%(w)d]->(c)
-                    OPTIONAL MATCH (c)-[:NEXT_CHUNK*1..%(w)d]->(n:Chunk)
-                    RETURN
-                        cid,
-                        [x IN collect(DISTINCT p.id) WHERE x IS NOT NULL] AS prev_ids,
-                        [x IN collect(DISTINCT n.id) WHERE x IS NOT NULL] AS next_ids
-                    """ % {"w": window},
-                    ids=chunk_ids,
-                )
-                for rec in records:
-                    cid = rec["cid"]
-                    result[cid] = (
-                        list(rec["prev_ids"] or []),
-                        list(rec["next_ids"] or []),
-                    )
-        except Exception as exc:
-            log.warning("Neo4j expansion failed: %s", exc)
-        return result
-
-
-# ══════════════════════════════════════════════════════════════
-# BOILERPLATE FILTER  (unchanged)
-# ══════════════════════════════════════════════════════════════
-
-_BOILERPLATE = frozenset([
-    "call for papers", "قراءة المزيد", "skip to content", "back to top",
-    "accueil | contact", "home | about | contact", "print page",
-    "se connecter", "login",
-])
-
-
-def _is_boilerplate(text: str, meta: Dict) -> bool:
-    if len(text.strip()) < 30:
-        return True
-    low = text.lower()
-    if any(p in low for p in _BOILERPLATE):
-        return True
-    title = (meta.get("title", "") or "").lower()
-    if title and len(text.replace(title, "").strip()) < 40:
-        return True
-    return False
-
-
-# ══════════════════════════════════════════════════════════════
-# CONTEXT WINDOW RECONSTRUCTION  (unchanged)
-# ══════════════════════════════════════════════════════════════
-
-def _reconstruct_windows(
-    chunks: List[RetrievedChunk], meta_store: MetadataStore,
-    window: int = CONTEXT_WINDOW_SIZE
-) -> List[RetrievedChunk]:
-    if window == 0:
-        return chunks
-    selected_ids = {c.chunk_id for c in chunks}
-    for c in chunks:
-        meta      = c.metadata or {}
-        chunk_idx = meta.get("chunk_index")
-        doc_prefix = c.chunk_id.rsplit("_c", 1)[0] if "_c" in c.chunk_id else None
-        if chunk_idx is None or doc_prefix is None:
-            continue
-        prev_parts: List[str] = []
-        next_parts: List[str] = []
-        for delta in range(1, window + 1):
-            for sign in (-delta, +delta):
-                nid = f"{doc_prefix}_c{chunk_idx + sign}"
-                rec = meta_store.get(nid)
-                if rec and nid not in selected_ids:
-                    t = (rec.get("chunk", "") or rec.get("text", "")).strip()
-                    if t:
-                        if sign < 0:
-                            prev_parts.insert(0, t)
-                        else:
-                            next_parts.append(t)
-        parts  = prev_parts + [c.text.strip()] + next_parts
-        c.text = "\n\n".join(p for p in parts if p)
-    return chunks
-
-
-# ══════════════════════════════════════════════════════════════
-# LLM CONTEXT FORMATTER  (unchanged)
-# ══════════════════════════════════════════════════════════════
-
-def _format_llm_context(chunks: List[RetrievedChunk]) -> str:
-    if not chunks:
-        return "No relevant context available."
-    sep    = "\n" + "─" * 55 + "\n"
-    blocks: List[str] = []
-    for i, c in enumerate(chunks, 1):
-        meta    = c.metadata or {}
-        title   = meta.get("title", "Unknown")
-        lang    = meta.get("language", "")
-        url     = meta.get("page_url") or meta.get("url") or ""
-        pdf_url = meta.get("pdf_url") or ""
-        header  = f"[{i}] {title}"
-        if lang:
-            header += f"  [{lang.upper()}]"
-        lines = [header, c.text.strip()]
-        if pdf_url:
-            lines.append(f"PDF: {pdf_url}")
-        if url and url != pdf_url:
-            lines.append(f"Source: {url}")
-        blocks.append("\n".join(lines))
-    return sep.join(blocks)
-
-
-# ══════════════════════════════════════════════════════════════
-# MAIN RAG RETRIEVER  (unchanged from v13.1)
+# MAIN RAG RETRIEVER — orchestrates everything
 # ══════════════════════════════════════════════════════════════
 
 class RAGRetriever:
+
     def __init__(self):
-        log.info("Initializing RAGRetriever v13.2")
-        self._qu       = QueryUnderstanding()
-        self._expander = QueryExpander(OLLAMA_URL, OLLAMA_MODEL)
-        self._semantic = SemanticRetriever(EMBED_MODEL)
-        self._bm25     = BM25Retriever()
-        self._fuzzy    = FuzzyRetriever()
-        self._reranker = Reranker()
-        self._graph    = GraphExpander()
-        self._meta     = MetadataStore()
-        log.info("RAGRetriever v13.2 ready")
+        log.info("═" * 55)
+        log.info("Initializing RAGRetriever v16.0 — Graph-Aware Production")
+        log.info("═" * 55)
 
-    def retrieve(
-        self, query: str, top_k: int = TOP_K_FINAL,
-        source_type: Optional[str] = None
-    ) -> List[RetrievedChunk]:
+        self.analyzer  = QueryAnalyzer()
+        self.router    = QueryRouter()
+        self.graph     = AcademicGraph()
+        self.semantic  = SemanticRetriever()
+        self.bm25      = BM25Retriever()
+        self.reranker  = Reranker()
+        self.fallback  = FallbackManager(self.semantic, self.bm25, self.reranker, self.graph)
 
-        # Step 1: analyse original query
-        analysis      = self._qu.analyze(query)
-        intent        = analysis["intent"]
-        lang          = analysis["language"]
-        entity_tokens = analysis["entity_tokens"]
+        log.info("✅ RAGRetriever v16.0 ready")
 
-        # Step 1b: translate query to French for retrieval pivot
-        french_query    = self._qu.get_french_query(query)
-        french_analysis = self._qu.analyze(french_query)
-        keywords        = french_analysis["keywords"]
+    # ── Public entry point ────────────────────────────────────
 
-        log.info("Original lang=%s  French query=%s", lang, french_query[:80])
+    def retrieve(self, query: str, top_k: int = TOP_K_FINAL) -> List[RetrievedChunk]:
+        log.info(f"\n🔍 QUERY: {query[:120]}")
 
-        # Step 2: expand — translate all variants to French
-        variants        = self._expander.expand(analysis)
-        french_variants = []
-        for v in variants:
-            v_lang = self._qu.detect_language(v)
-            fv     = translate_to_french_with_fallback(v, v_lang)
-            if fv not in french_variants:
-                french_variants.append(fv)
+        # ── Step 1: Analyse query ─────────────────────────────
+        analysis = self.analyzer.analyze(query)
+        lang     = analysis["language"]
+        intent   = analysis["intent"]
+        keywords = analysis["keywords"]
+        log.info(f"   Language={lang}  Intent={intent}  Keywords={keywords[:6]}")
 
-        query_vec = self._semantic.encode([french_query])[0]
+        # ── Step 2: Route to strategy ─────────────────────────
+        strategy = self.router.route(analysis)
 
-        # Step 3: retrieve from all sources
-        where         = {"source_type": source_type} if source_type else None
-        semantic_hits = self._semantic.search(french_variants, TOP_K_VECTOR, where)
-        bm25_hits     = self._bm25.search(keywords, TOP_K_BM25)
-        fuzz_hits     = self._fuzzy.search(french_query, TOP_K_FUZZY)
-
-        log.info("Candidates — semantic:%d  BM25:%d  fuzzy:%d",
-                 len(semantic_hits), len(bm25_hits), len(fuzz_hits))
-
-        # Step 4: fusion
-        fused = fuse_scores(
-            semantic_hits, bm25_hits, fuzz_hits,
-            self._meta, self._bm25, self._fuzzy,
-            query_vec, self._semantic, lang, intent,
-        )
-        fused = [c for c in fused if not _is_boilerplate(c.text, c.metadata)]
-
-        if not fused:
-            log.warning("All candidates filtered — raw semantic fallback")
-            fused = sorted(semantic_hits.values(), key=lambda c: c.sem_score, reverse=True)
-            for c in fused:
-                c.fused_score = c.sem_score
-        if not fused:
+        # ── Step 3: graph_query → direct hierarchy, no vectors ─
+        if strategy.mode == "graph_only":
+            log.info("   📊 graph_only mode → direct Neo4j traversal")
+            result = self.graph.traverse_for_graph_query(query)
+            # Wrap into RetrievedChunk for uniform output
+            if result.get("graph_results"):
+                text = json.dumps(result, ensure_ascii=False, indent=2)
+                return [RetrievedChunk(
+                    chunk_id="graph_result",
+                    text=text,
+                    score=1.0,
+                    metadata={"source_type": "graph_traversal", "url": "", "title": "Graph Structure"},
+                    graph_boost=1.0,
+                    node_level=0,
+                )]
             return []
 
-        # Step 5: rerank
-        _rerank_floor = (
-            0.10 if (intent == "person_lookup" or len(query.strip().split()) <= 2)
+        # ── Step 4: Detect academic entities ─────────────────
+        matched_nodes = self.graph.detect_nodes_in_query(query, strategy)
+
+        # ── Step 5: Build SOFT boost map (no hard filter) ─────
+        boost_map = self.graph.build_boost_map(matched_nodes, strategy)
+
+        # ── Step 6: Retrieval ─────────────────────────────────
+        variants     = self._build_variants(query, analysis)
+        top_k_scaled = max(TOP_K_VECTOR, int(TOP_K_VECTOR * strategy.top_k_multiplier))
+
+        semantic_hits = self.semantic.search(variants, top_k_scaled)
+        bm25_hits     = self.bm25.search(keywords, max(TOP_K_BM25, int(TOP_K_BM25 * strategy.top_k_multiplier)))
+
+        log.info(f"   Semantic={len(semantic_hits)}  BM25={len(bm25_hits)}")
+
+        # ── Step 7: Fusion ────────────────────────────────────
+        fused = fuse_results(semantic_hits, bm25_hits, boost_map, lang, self.bm25)
+
+        if not fused:
+            log.warning("   ⚠️ Fusion empty → Fallback Stage 2 (GENERAL)")
+            fused = self.fallback.fallback_general(query, keywords, lang, top_k)
+
+        if not fused:
+            log.warning("   ⚠️ GENERAL fallback empty → Fallback Stage 3 (global)")
+            fused = self.fallback.fallback_global(query, keywords, lang, top_k)
+
+        if not fused:
+            log.warning("   ❌ All fallbacks exhausted — NO_ANSWER")
+            return []
+
+        # ── Step 8: Rerank ────────────────────────────────────
+        rerank_min = (
+            0.12
+            if intent in ("person_lookup", "node_query") or len(query.split()) <= 2
             else RERANK_MIN_CAL
         )
-        reranked = self._reranker.rerank(query, fused, top_k=TOP_K_RERANK, min_cal=_rerank_floor)
-        if not reranked:
-            log.warning("Reranker dropped all chunks")
-            return []
-
-        # Step 6: neighbour expansion
-        if intent != "translation":
-            w        = NEIGHBOR_WINDOW + (1 if intent == "course_query" else 0)
-            seed_ids = [
-                c.chunk_id for c in reranked[:NEIGHBOR_COUNT]
-                if c.score >= NEIGHBOR_SEED_MIN_SCORE
-            ]
-            nbr_map  = self._graph.get_neighbors(seed_ids, w)
-            expanded = list(reranked)
-            seen_ids = {c.chunk_id for c in expanded}
-            nbr_candidates: List[Tuple[str, str]] = []
-
-            for seed in reranked[:NEIGHBOR_COUNT]:
-                if seed.score < NEIGHBOR_SEED_MIN_SCORE:
-                    continue
-                prev_ids, next_ids = nbr_map.get(seed.chunk_id, ([], []))
-                for nid in (prev_ids[:w] + next_ids[:w]):
-                    if nid in seen_ids or not _same_doc_prefix(seed.chunk_id, nid):
-                        continue
-                    rec = self._meta.get(nid)
-                    if not rec:
-                        continue
-                    nbr_text = rec.get("chunk", "")
-                    if not nbr_text or len(nbr_text.strip()) < 30:
-                        continue
-                    nbr_candidates.append((nid, nbr_text))
-
-            if nbr_candidates:
-                accepted_ids = _filter_neighbours_by_relevance(
-                    nbr_candidates, query_vec, self._semantic, keywords
-                )
-                accepted_set = set(accepted_ids)
-                seed_score_map: Dict[str, float] = {}
-                for seed in reranked[:NEIGHBOR_COUNT]:
-                    if seed.score < NEIGHBOR_SEED_MIN_SCORE:
-                        continue
-                    prev_ids, next_ids = nbr_map.get(seed.chunk_id, ([], []))
-                    for nid in (prev_ids[:w] + next_ids[:w]):
-                        if nid in accepted_set and nid not in seed_score_map:
-                            seed_score_map[nid] = seed.fused_score
-                for nid, nbr_text in nbr_candidates:
-                    if nid not in accepted_set or nid in seen_ids:
-                        continue
-                    rec       = self._meta.get(nid)
-                    fused_nbr = seed_score_map.get(nid, 0.0) * NEIGHBOR_SCORE_INHERIT
-                    seen_ids.add(nid)
-                    expanded.append(RetrievedChunk(
-                        chunk_id=nid, text=nbr_text, score=fused_nbr,
-                        metadata=rec or {}, is_neighbor=True, fused_score=fused_nbr,
-                    ))
-        else:
-            expanded = list(reranked)
-
-        # Step 7: second rerank
-        final = self._reranker.rerank(query, expanded, top_k=top_k, min_cal=_rerank_floor)
-
-        # Steps 8–10: filters and windows
-        final = _entity_filter(final, entity_tokens, intent)
-        final = _apply_dynamic_topk(final)
-        final = _reconstruct_windows(final, self._meta, CONTEXT_WINDOW_SIZE)
-
-        # Step 11: answerability gate
-        _ans_threshold = (
-            0.20 if (intent == "person_lookup" or len(query.strip().split()) <= 2)
-            else ANSWER_THRESHOLD
+        reranked = self.reranker.rerank(
+            query, fused[:TOP_K_RERANK], top_k=TOP_K_RERANK,
+            min_cal=rerank_min, query_lang=lang,
         )
-        if not (final and final[0].score >= _ans_threshold):
-            log.warning(
-                "Answerability gate: best=%.3f < %.2f — NO_ANSWER",
-                final[0].score if final else 0.0, _ans_threshold,
+
+        if not reranked:
+            log.warning("   ⚠️ Reranker dropped everything → using top fused")
+            # Safe fallback: use fused pre-rerank with lower confidence
+            reranked = fused[:DYN_TOP_K_MAX]
+            for c in reranked:
+                c.rerank_cal = 0.0
+
+        # ── Step 9: Dynamic top-k selection ───────────────────
+        if reranked:
+            best  = reranked[0].score
+            floor = best - DYNAMIC_SCORE_MARGIN
+            final = [c for c in reranked if c.score >= floor][:DYN_TOP_K_MAX]
+            if len(final) < DYN_TOP_K_MIN:
+                final = reranked[:DYN_TOP_K_MIN]
+        else:
+            final = []
+
+        # ── Step 10: Answerability gate ───────────────────────
+        ans_threshold = (
+            strategy.min_score_override
+            if strategy.min_score_override is not None
+            else (
+                ANSWER_THRESHOLD_LOOSE
+                if intent in ("person_lookup", "node_query") or len(query.split()) <= 2
+                else ANSWER_THRESHOLD_STRICT
             )
+        )
+
+        if not final or final[0].score < ans_threshold:
+            best_score = final[0].score if final else 0.0
+            log.warning(f"   ❌ Answerability gate FAILED: best={best_score:.3f} < threshold={ans_threshold:.3f} → NO_ANSWER")
             return []
 
-        log.info("Final: %d chunks  scores=%s", len(final), [round(c.score, 3) for c in final])
+        log.info(
+            f"   ✅ Final: {len(final)} chunks  "
+            f"scores={[round(c.score, 3) for c in final]}"
+        )
         return final
 
-    def clear_caches(self):
-        self._semantic._cache.clear()
-        self._meta._cache.clear()
-        QueryExpander._cached_expand.cache_clear()
-        _translation_str_cache.clear()
-        log.info("All caches cleared")
+    # ── Helpers ───────────────────────────────────────────────
+
+    def _build_variants(self, query: str, analysis: Dict) -> List[str]:
+        """Build query variants for multi-vector search."""
+        variants = [query]
+        intent = analysis.get("intent", "")
+        lang   = analysis.get("language", "en")
+
+        # Add intent-aware variant
+        if intent == "course_query":
+            variants.append(f"cours module programme {query}")
+        elif intent == "node_query":
+            variants.append(f"département spécialité filière {query}")
+        elif intent == "admin_query":
+            variants.append(f"inscription administration {query}")
+
+        # Add language variant for Arabic queries (translate key terms)
+        if lang == "ar" and len(query.split()) <= 5:
+            ar_to_fr = {
+                "تخصص": "spécialité",
+                "قسم":  "département",
+                "كلية": "faculté",
+                "مقياس": "cours",
+                "ماستر": "master",
+                "ليسانس": "licence",
+            }
+            translated = query
+            for ar, fr in ar_to_fr.items():
+                translated = translated.replace(ar, fr)
+            if translated != query:
+                variants.append(translated)
+
+        return variants[:3]   # max 3 variants to keep latency low
+
+    def search_nodes(self, query: str, node_type: Optional[str] = None) -> List[Dict]:
+        nodes = self.graph.detect_nodes_in_query(query)
+        if node_type:
+            nodes = [n for n in nodes if n.label == node_type]
+        return [
+            {
+                "node_id":   n.node_id,
+                "name":      n.name,
+                "label":     n.label,
+                "parent_id": n.parent_id,
+            }
+            for n in nodes
+        ]
+
+    def get_node_info(self, node_id: str) -> Optional[Dict]:
+        return self.graph.get_node_info(node_id)
 
     def close(self):
         _close_driver()
 
 
 # ══════════════════════════════════════════════════════════════
-# SINGLETON + PUBLIC API  (unchanged)
+# SINGLETON + PUBLIC API
 # ══════════════════════════════════════════════════════════════
 
 _retriever: Optional[RAGRetriever] = None
-_retriever_lock = threading.Lock()
+_lock = threading.Lock()
 
 
 def _get_retriever() -> RAGRetriever:
     global _retriever
     if _retriever is None:
-        with _retriever_lock:
+        with _lock:
             if _retriever is None:
                 _retriever = RAGRetriever()
     return _retriever
 
 
-def retrieve_for_llm(
-    query:       str,
-    top_k:       int = TOP_K_FINAL,
-    source_type: Optional[str] = None,
-    faculty:     Optional[str] = None,
-    department:  Optional[str] = None,
-) -> List[Dict]:
-    chunks = _get_retriever().retrieve(query, top_k=top_k, source_type=source_type)
-    result = [
-        {
-            "chunk_id":        c.chunk_id,
-            "text":            c.text,
-            "score":           round(c.score, 4),
-            "is_neighbor":     c.is_neighbor,
-            "sem_score":       round(c.sem_score, 4),
-            "bm25_score":      round(c.bm25_score, 4),
-            "title_score":     round(c.title_score, 4),
-            "fused_score":     round(c.fused_score, 4),
-            "rerank_raw":      round(c.rerank_raw, 4),
-            "rerank_cal":      round(c.rerank_cal, 4),
-            "url":             c.metadata.get("url", ""),
-            "pdf_url":         c.metadata.get("pdf_url", ""),
-            "page_url":        c.metadata.get("page_url", ""),
-            "title":           c.metadata.get("title", ""),
-            "language":        c.metadata.get("language", ""),
-            "source_type":     c.metadata.get("source_type", ""),
-            "chunk_index":     c.metadata.get("chunk_index"),
-            # translation_available: True if chunk is French or was translated
-            "translation_available": (
-                c.metadata.get("is_french", False) or
-                bool(c.metadata.get("french_text", ""))
-            ),
-            "metadata":        c.metadata,
-        }
-        for c in chunks
-    ]
+def retrieve_for_llm(query: str, top_k: int = TOP_K_FINAL) -> List[Dict]:
+    """
+    Main public API.
+    Returns list of dicts with full source traceability on every chunk.
+    First element contains 'llm_context' key with formatted text block.
+    """
+    chunks = _get_retriever().retrieve(query, top_k)
+    if not chunks:
+        return []
+
+    result = []
+    for c in chunks:
+        meta = c.metadata or {}
+        # Prefer page_url (the HTML page) over raw URL (may be PDF internal)
+        source_url = meta.get("page_url") or meta.get("url") or ""
+        pdf_url    = meta.get("pdf_url") or ""
+
+        result.append({
+            "chunk_id":    c.chunk_id,
+            "text":        c.text,
+            "score":       round(c.score,       4),
+            "sem_score":   round(c.sem_score,   4),
+            "bm25_score":  round(c.bm25_score,  4),
+            "fused_score": round(c.fused_score, 4),
+            "rerank_cal":  round(c.rerank_cal,  4),
+            "graph_boost": round(c.graph_boost, 4),
+            "node_level":  c.node_level,
+            # ── Source traceability ───────────────────────────
+            "url":         source_url,
+            "pdf_url":     pdf_url,
+            "title":       meta.get("title",       ""),
+            "source_type": meta.get("source_type", ""),
+            "language":    meta.get("language",    ""),
+            "chunk_index": meta.get("chunk_index"),
+        })
+
     if result:
-        result[0]["llm_context"] = _format_llm_context(chunks)
+        result[0]["llm_context"] = _format_context(chunks)
+
     return result
 
 
-def warmup_retriever():
-    r = _get_retriever()
-    _ = r.retrieve("licence mathématiques")
-    log.info("RAG pipeline warmed up")
+def search_nodes(query: str, node_type: Optional[str] = None) -> List[Dict]:
+    return _get_retriever().search_nodes(query, node_type)
 
 
-# ── CLI ──────────────────────────────────────────────────────
+def get_node_info(node_id: str) -> Optional[Dict]:
+    return _get_retriever().get_node_info(node_id)
+
+
+def traverse_graph(query: str) -> Dict:
+    """Direct graph traversal — returns hierarchy tree (for graph_query intent)."""
+    return _get_retriever().graph.traverse_for_graph_query(query)
+
+
+def _format_context(chunks: List[RetrievedChunk]) -> str:
+    """
+    Format retrieved chunks into an LLM-ready context block.
+    Every chunk includes its source URL and file type clearly.
+    """
+    sep    = "\n" + "─" * 60 + "\n"
+    blocks = []
+
+    for i, c in enumerate(chunks, 1):
+        meta       = c.metadata or {}
+        title      = meta.get("title", "Unknown Source")
+        source_url = meta.get("page_url") or meta.get("url") or ""
+        pdf_url    = meta.get("pdf_url") or ""
+        stype      = meta.get("source_type", "")
+        level_tag  = f" [graph_depth={c.node_level}]" if c.node_level >= 0 else ""
+
+        lines = [f"[{i}] {title}{level_tag}"]
+
+        # Clear source identification
+        if stype == "pdf" and pdf_url:
+            lines.append(f"📄 Source PDF : {pdf_url}")
+            if source_url and source_url != pdf_url:
+                lines.append(f"🔗 Page web   : {source_url}")
+        elif source_url:
+            lines.append(f"🔗 Source     : {source_url}")
+
+        lines.append(c.text.strip())
+        blocks.append("\n".join(lines))
+
+    return sep.join(blocks)
+
+
+# ══════════════════════════════════════════════════════════════
+# CLI
+# ══════════════════════════════════════════════════════════════
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print('Usage: python rag.py "query" [--source-type pdf|page] [--top-k N] [--debug]')
+        print(
+            "Usage:\n"
+            "  python rag_pipeline.py \"query\" [--top-k N]\n"
+            "  python rag_pipeline.py --search-nodes \"term\" [--type Department]\n"
+            "  python rag_pipeline.py --node-info <node_id>\n"
+            "  python rag_pipeline.py --graph \"query\"\n"
+        )
         sys.exit(1)
 
-    query       = sys.argv[1]
-    source_type = None
-    top_k       = TOP_K_FINAL
-    i = 2
+    query            = None
+    top_k            = TOP_K_FINAL
+    search_nodes_q   = None
+    search_node_type = None
+    node_info_id     = None
+    graph_query      = None
+
+    i = 1
     while i < len(sys.argv):
         arg = sys.argv[i]
-        if arg == "--source-type" and i + 1 < len(sys.argv):
-            source_type = sys.argv[i + 1]; i += 2
-        elif arg == "--top-k" and i + 1 < len(sys.argv):
+        if arg == "--top-k" and i + 1 < len(sys.argv):
             top_k = int(sys.argv[i + 1]); i += 2
-        elif arg == "--debug":
-            logging.getLogger().setLevel(logging.DEBUG); i += 1
+        elif arg == "--search-nodes" and i + 1 < len(sys.argv):
+            search_nodes_q = sys.argv[i + 1]; i += 2
+        elif arg == "--type" and i + 1 < len(sys.argv):
+            search_node_type = sys.argv[i + 1]; i += 2
+        elif arg == "--node-info" and i + 1 < len(sys.argv):
+            node_info_id = sys.argv[i + 1]; i += 2
+        elif arg == "--graph" and i + 1 < len(sys.argv):
+            graph_query = sys.argv[i + 1]; i += 2
         else:
+            if query is None and not arg.startswith("--"):
+                query = arg
             i += 1
 
-    results = retrieve_for_llm(query, top_k=top_k, source_type=source_type)
-
-    print("\n" + "=" * 64)
-    print(f"QUERY  : {query}")
-    print(f"RESULTS: {len(results)}")
-    print("=" * 64)
-
-    if not results:
-        print(f"\nNO_ANSWER (best score < {ANSWER_THRESHOLD}).")
+    # ── Graph traversal ───────────────────────────────────────
+    if graph_query:
+        result = traverse_graph(graph_query)
+        print(json.dumps(result, indent=2, ensure_ascii=False))
         sys.exit(0)
 
-    for rank, r in enumerate(results, 1):
-        tag = " [NBR]" if r["is_neighbor"] else ""
-        print(f"\n{rank}. {r['chunk_id']}{tag}")
-        print(f"   Final  : {r['score']:.4f}  (fused={r['fused_score']:.3f}  rerank_cal={r['rerank_cal']:.3f})")
-        print(f"   Signals: sem={r['sem_score']:.3f}  bm25={r['bm25_score']:.3f}  title={r['title_score']:.3f}")
-        print(f"   Type   : {r['source_type']}")
-        print(f"   Title  : {(r['title'] or 'N/A')[:60]}")
-        print(f"   URL    : {r['url'] or 'N/A'}")
-        print(f"   PDF    : {r['pdf_url'] or 'N/A'}")
-        print(f"   Trans. : {r['translation_available']}")
-        print(f"   Text   : {r['text'][:280]}…")
+    # ── Node info ─────────────────────────────────────────────
+    if node_info_id:
+        info = get_node_info(node_info_id)
+        print(json.dumps(info, indent=2, ensure_ascii=False))
+        sys.exit(0)
 
-    if results and results[0].get("llm_context"):
-        print("\n" + "═" * 64)
-        print("LLM CONTEXT PREVIEW")
-        print("═" * 64)
-        print(results[0]["llm_context"][:1400])
+    # ── Node search ───────────────────────────────────────────
+    if search_nodes_q:
+        nodes = search_nodes(search_nodes_q, search_node_type)
+        for n in nodes:
+            print(f"  {n['name']:<40} [{n['label']:<18}] {n['node_id']}")
+        sys.exit(0)
+
+    # ── Full retrieval ────────────────────────────────────────
+    if query:
+        results = retrieve_for_llm(query, top_k)
+
+        print(f"\n{'=' * 65}")
+        print(f"QUERY  : {query}")
+        print(f"RESULTS: {len(results)}")
+        print(f"{'=' * 65}")
+
+        if not results:
+            print("\n⚠️  NO_ANSWER — no relevant chunks found above threshold.\n")
+            sys.exit(0)
+
+        for rank, r in enumerate(results, 1):
+            level_tag = f" [L{r['node_level']}]" if r.get("node_level", -1) >= 0 else ""
+            stype     = r.get("source_type", "")
+            src_icon  = "📄" if stype == "pdf" else "🔗"
+            print(f"\n{rank}.  {r['chunk_id']}{level_tag}")
+            print(f"   Score    : {r['score']:.4f}  "
+                  f"(sem={r['sem_score']:.3f}  bm25={r['bm25_score']:.3f}  "
+                  f"fused={r['fused_score']:.3f}  rerank={r['rerank_cal']:.3f}  "
+                  f"boost={r['graph_boost']:.3f})")
+            print(f"   Title    : {(r['title'] or 'N/A')[:80]}")
+            print(f"   {src_icon} Source : {r.get('url') or r.get('pdf_url') or 'N/A'}")
+            print(f"   Language : {r.get('language','?')}  |  Type: {stype or 'page'}")
+            print(f"   Preview  : {r['text'][:220]}…")
+
+        if results[0].get("llm_context"):
+            print(f"\n{'═' * 65}")
+            print("LLM CONTEXT PREVIEW (first 1200 chars)")
+            print(f"{'═' * 65}")
+            print(results[0]["llm_context"][:1200])
+    else:
+        print("No query provided.  Use --help for usage.")
+        sys.exit(1)

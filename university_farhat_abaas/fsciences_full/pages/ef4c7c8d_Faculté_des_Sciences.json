@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "page": {
+      "url": "http://fsciences.univ-setif.dz/sites_departements/sm",
+      "title": "Faculté des Sciences",
+      "id": "ef4c7c8d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:39:52",
+      "hash": "6507970545fcaf9a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Actualité\nPLANNING DES EXAMENS DE RATTRAPAGE -SEMESTRE 2 1ÈRE ANNÉE SCIENCES DE LA MATIÈRE\nSavoir plus\nAUX ÉTUDIANTS SM\nSavoir plus\nEmploi du temps\nCommités pédagogiques\nPlanning des examens"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "Savoir plus",
+        "url": "http://fsciences.univ-setif.dz/annonces/9167",
+        "type": "internal"
+      },
+      {
+        "text": "Savoir plus",
+        "url": "http://fsciences.univ-setif.dz/annonces/9124",
+        "type": "internal"
+      },
+      {
+        "text": "sm",
+        "url": "http://fsciences.univ-setif.dz/sites_departements/sm",
+        "type": "internal"
+      },
+      {
+        "text": "Emploi du temps",
+        "url": "http://fsciences.univ-setif.dz/uploads/article/fichier/3016/Emploi_du_temps_SM_24-25-S2_-_V4_04-02-25_.pdf",
+        "type": "internal"
+      },
+      {
+        "text": "Commités pédagogiques",
+        "url": "http://fsciences.univ-setif.dz/uploads/article/fichier/3038/Planning_CP2_S2_SM_%D9%8EAvril_2025.pdf",
+        "type": "internal"
+      },
+      {
+        "text": "Planning des examens",
+        "url": "http://fsciences.univ-setif.dz/uploads/article/fichier/3039/Planning_Examen_S2_Mai_2025__SM_.pdf",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Emploi du temps",
+        "url": "http://fsciences.univ-setif.dz/uploads/article/fichier/3016/Emploi_du_temps_SM_24-25-S2_-_V4_04-02-25_.pdf",
+        "local_file": "pdfs/ef4c7c8d_Emploi_du_temps.pdf"
+      },
+      {
+        "title": "Commités pédagogiques",
+        "url": "http://fsciences.univ-setif.dz/uploads/article/fichier/3038/Planning_CP2_S2_SM_%D9%8EAvril_2025.pdf",
+        "local_file": "pdfs/ef4c7c8d_Commités_pédagogiques.pdf"
+      },
+      {
+        "title": "Planning des examens",
+        "url": "http://fsciences.univ-setif.dz/uploads/article/fichier/3039/Planning_Examen_S2_Mai_2025__SM_.pdf",
+        "local_file": "pdfs/ef4c7c8d_Planning_des_examens.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

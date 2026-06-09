@@ -7,7 +7,7 @@ NEO4J_URI = "bolt://localhost:7687"
 NEO4J_USER = "neo4j"
 NEO4J_PASSWORD = "password"
 
-JSON_PATH = "university_structure.json"
+JSON_PATH = "structure_sciences.json"
 
 driver = GraphDatabase.driver(
     NEO4J_URI,
