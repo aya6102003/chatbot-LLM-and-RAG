@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""
-Smart Classifier v27 — Farhat Abbas University Sétif 1
-============================================================
-FIXES v27.1 (THIS VERSION):
-  1. Creates Neo4j VECTOR INDEX on initialization (768-dim LaBSE)
-  2. Ensures embeddings are properly stored as vector fields
-  3. Adds index verification and error handling
-  4. Compatible with RAG retriever pipeline
-"""
 
 from __future__ import annotations
 
@@ -35,7 +25,7 @@ except ImportError: _PYPDF_OK = False
 
 # ═══════════════════════════ CONFIG ═══════════════════════════
 
-ROOT_FOLDER    = "./university_farhat_abaas/clean_dataset"
+ROOT_FOLDER    = "./university_farhat_abaas"
 STRUCTURE_FILE = "./structure_sciences.json"
 ALIASES_FILE   = "./aliases.json"
 
@@ -43,7 +33,7 @@ NEO4J_URI      = os.getenv("NEO4J_URI",      "bolt://127.0.0.1:7687")
 NEO4J_USER     = os.getenv("NEO4J_USER",     "neo4j")
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "password")
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 GEMINI_MODEL   = "gemini-2.5-flash"
 EMBED_MODEL    = "sentence-transformers/LaBSE"
 EMBED_DIM      = 768
@@ -124,10 +114,6 @@ _ING_SEMESTER     = {"1":"ING1","2":"ING1","3":"ING2","4":"ING2","5":"ING3","6":
 # ═══════════════════════════ HELPERS ═══════════════════════════
 
 def norm(text: str) -> str:
-    """
-    توحيد النص للمقارنة: NFD لإزالة علامات التشكيل (é→e, è→e),
-    lowercase, استبدال الرموز بمسافات, إزالة مسافات زائدة.
-    """
     if not text: return ""
     t = unicodedata.normalize("NFD", text)
     t = "".join(c for c in t if unicodedata.category(c) != "Mn")
@@ -160,10 +146,6 @@ def resolve_semester_to_year(sem_num: str, level_context: str) -> Optional[str]:
         return _LICENCE_SEMESTER.get(sem_num)
 
 def fuzzy_match(phrase: str, text: str) -> bool:
-    """
-    تطابق phrase في text. النصوص المفردة والجمع (sciences/science)
-    متسامحة لأن كليهما خضع لـ norm() مسبقاً.
-    """
     if not phrase: return False
     idx = text.find(phrase)
     if idx >= 0:
@@ -370,12 +352,10 @@ class Neo4jClient:
 
     def _init(self):
         with self.driver.session() as s:
-            # Create uniqueness constraints
             for lbl in ("URL","Chunk"):
                 try: s.run(f"CREATE CONSTRAINT IF NOT EXISTS FOR (n:{lbl}) REQUIRE n.id IS UNIQUE")
-                except Exception as e: logger.warning(f"Constraint {lbl} error: {e}")
+                except Exception as e: logger.warning(f"Constraint {lbl}: {e}")
             
-            # Create vector index for semantic search
             try:
                 logger.info(f"Creating vector index {NEO4J_VECTOR_INDEX}...")
                 s.run(f"""
@@ -383,13 +363,9 @@ class Neo4jClient:
                     FOR (c:Chunk) ON (c.embedding)
                     OPTIONS {{indexConfig: {{`vector.dimensions`: {EMBED_DIM}, `vector.similarity_function`: 'cosine'}}}}
                 """)
-                logger.info(f"✓ Vector index {NEO4J_VECTOR_INDEX} created/verified")
+                logger.info(f"✓ Vector index created/verified")
             except Exception as e:
                 logger.error(f"Vector index creation failed: {e}")
-                logger.error(f"Ensure Neo4j 5.14+ is running. Manual creation:")
-                logger.error(f"  CREATE VECTOR INDEX {NEO4J_VECTOR_INDEX} IF NOT EXISTS")
-                logger.error(f"  FOR (c:Chunk) ON (c.embedding)")
-                logger.error(f"  OPTIONS {{indexConfig: {{`vector.dimensions`: {EMBED_DIM}, `vector.similarity_function`: 'cosine'}}}}")
 
     def get_node_id(self, label: str, name: str) -> Optional[str]:
         k = (label,name)
@@ -493,24 +469,40 @@ class Neo4jClient:
 
     def upsert_url(self, url_id, url, title, source_type, target_label, target_id,
                    hierarchy_path="", method="none", confidence=0.0, parent_url_id=None):
-        actual = _LABEL_MAP.get(target_label,target_label)
+        """
+        CRITICAL FIX: Uses CLASSIFIED_AS (not HAS_CONTENT) for RAG GraphTraversal compatibility.
+        The RAG pipeline's GraphTraversal class queries:
+          MATCH (u:URL)-[:CLASSIFIED_AS]->(n)
+        """
+        actual = _LABEL_MAP.get(target_label, target_label)
         with self.driver.session() as s:
             s.run("""MERGE (u:URL {id:$id}) SET u.url=$url, u.title=$title, u.source_type=$st,
                 u.hierarchy_path=$hp, u.classification_method=$cm, u.confidence=$conf""",
                 id=url_id, url=url, title=title, st=source_type, hp=hierarchy_path, cm=method, conf=confidence)
+            
             if parent_url_id is None:
-                s.run(f"MATCH (n:{actual} {{id:$nid}}) MATCH (u:URL {{id:$uid}}) MERGE (n)-[:HAS_CONTENT]->(u)",
-                    nid=target_id, uid=url_id)
+                # FIXED: CLASSIFIED_AS instead of HAS_CONTENT
+                s.run(f"""
+                    MATCH (n:{actual} {{id:$nid}})
+                    MATCH (u:URL {{id:$uid}})
+                    MERGE (u)-[:CLASSIFIED_AS]->(n)
+                """, nid=target_id, uid=url_id)
             else:
-                s.run("MATCH (p:URL {id:$pid}) MATCH (f:URL {id:$fid}) MERGE (p)-[:HAS_FILE]->(f)",
+                s.run("""MATCH (p:URL {id:$pid}) MATCH (f:URL {id:$fid}) MERGE (p)-[:HAS_FILE]->(f)""",
                     pid=parent_url_id, fid=url_id)
 
     def link_extra_targets(self, url_id, targets):
+        """
+        FIXED: CLASSIFIED_AS for extra targets too
+        """
         with self.driver.session() as s:
             for t in targets:
-                actual = _LABEL_MAP.get(t["label"],t["label"])
-                s.run(f"MATCH (n:{actual} {{id:$nid}}) MATCH (u:URL {{id:$uid}}) MERGE (n)-[:HAS_CONTENT]->(u)",
-                    nid=t["id"], uid=url_id)
+                actual = _LABEL_MAP.get(t["label"], t["label"])
+                s.run(f"""
+                    MATCH (n:{actual} {{id:$nid}})
+                    MATCH (u:URL {{id:$uid}})
+                    MERGE (u)-[:CLASSIFIED_AS]->(n)
+                """, nid=t["id"], uid=url_id)
 
     def create_chunks(self, url_id, chunks, classification):
         lbl = classification.get("label","General"); nid = classification.get("id","general")
@@ -688,7 +680,6 @@ class SmartClassifier:
         return matches
 
     def _filter_by_best_score(self, matches):
-        """فارق ≥2 في نفس القسم → احذف الأضعف."""
         if len(matches) <= 1: return matches
         by_dept = defaultdict(list)
         for nd, wc in matches:
@@ -952,17 +943,20 @@ def parse_json_doc(data: dict) -> dict:
 
 def collect_json_files(root: Path) -> List[Tuple[Path, str, str]]:
     results = []
-    for sub in ("pages","extracted","tables"):
-        sub_folder = root / sub
-        if not sub_folder.exists(): continue
-        for dirpath, _, filenames in os.walk(str(sub_folder)):
-            for fname in filenames:
-                if not fname.endswith(".json"): continue
-                jf = Path(dirpath)/fname
-                rem = str(jf)[len(str(sub_folder))+1:]
-                sp = rem.find(os.sep)
-                dept = (rem[:sp] if sp!=-1 else "General").replace("_"," ").replace("-"," ").title()
-                results.append((jf, dept))
+    for faculty_dir in sorted(root.iterdir()):
+        if not faculty_dir.is_dir(): continue
+        fl = FACULTY_LABELS.get(faculty_dir.name.lower(), faculty_dir.name.upper())
+        for sub in ("pages","extracted","tables"):
+            sfolder = faculty_dir / sub
+            if not sfolder.exists(): continue
+            for dirpath, _, filenames in os.walk(str(sfolder)):
+                for fname in filenames:
+                    if not fname.endswith(".json"): continue
+                    jf = Path(dirpath)/fname
+                    rem = str(jf)[len(str(sfolder))+1:]
+                    sp = rem.find(os.sep)
+                    dept = (rem[:sp] if sp!=-1 else "General").replace("_"," ").replace("-"," ").title()
+                    results.append((jf, fl, dept))
     return results
 
 # ═══════════════════════════ PIPELINE ═══════════════════════════
@@ -996,12 +990,12 @@ class IngestionPipeline:
     def run(self):
         root = Path(ROOT_FOLDER)
         all_files = collect_json_files(root)
-        page_files = [(jf,d) for jf,d in all_files if "/pages/" in str(jf)]
+        page_files = [(jf,f,d) for jf,f,d in all_files if "/pages/" in str(jf)]
         logger.info(f"📂 {len(page_files)} page files to process")
         ok = skip = fail = 0
-        for jf, department in page_files:
+        for jf, faculty, department in page_files:
             try:
-                doc = self._process_page(jf, department)
+                doc = self._process_page(jf, faculty, department)
                 if doc is None: skip += 1; continue
                 self._store(doc); ok += 1
                 n_tgt = len(doc["classification"].get("targets",[]))
@@ -1011,7 +1005,7 @@ class IngestionPipeline:
         self.neo4j.close()
         logger.info(f"\nCOMPLETE: ✅ {ok} ⏭ {skip} ❌ {fail}")
 
-    def _process_page(self, jf, department):
+    def _process_page(self, jf, faculty, department):
         with open(jf,"r",encoding="utf-8") as fh: raw = json.load(fh)
         parsed = parse_json_doc(raw)
         text = parsed.get("text","")

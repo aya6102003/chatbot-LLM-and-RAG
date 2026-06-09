@@ -643,41 +643,7 @@
         "type": "internal"
       }
     ],
-    "images": [
-      {
-        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
-        "alt": "",
-        "desc": ""
-      },
-      {
-        "url": "http://fsciences.univ-setif.dz/assets/static/sliders/transparent-9f4556d33d3e3098b1f6854f97a485841534f55dabf75467b6aad53492656fa1.png",
-        "alt": "",
-        "desc": ""
-      },
-      {
-        "url": "http://fsciences.univ-setif.dz/assets/avatar-fb736980bce6729b3688c068b17408f0164e8b2d5b9caacd1892d76b61e0cbd6.jpg",
-        "alt": "",
-        "desc": ""
-      },
-      {
-        "url": "http://fsciences.univ-setif.dz/uploads/page_professionnelle/image/392/thumb_Photo1.jpg",
-        "alt": "",
-        "desc": "",
-        "local_file": "images/adb15d74_thumb_Photo1.jpg"
-      },
-      {
-        "url": "http://fsciences.univ-setif.dz/uploads/page_professionnelle/image/396/thumb_HDZ.jpg",
-        "alt": "",
-        "desc": "",
-        "local_file": "images/adb15d74_thumb_HDZ.jpg"
-      },
-      {
-        "url": "http://fsciences.univ-setif.dz/uploads/page_professionnelle/image/526/thumb_Yacine.GIF",
-        "alt": "",
-        "desc": "",
-        "local_file": "images/adb15d74_thumb_Yacine.gif"
-      }
-    ],
+    "images": [],
     "documents": [
       {
         "title": "Exams timetables",

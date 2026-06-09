@@ -17,20 +17,8 @@
   },
   "resources": {
     "links": [],
-    "images": [
-      {
-        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
-        "alt": "",
-        "desc": ""
-      }
-    ],
-    "documents": [
-      {
-        "title": "responsables p%C3%A9dagogiques",
-        "url": "http://fsciences.univ-setif.dz/uploads/document/document/5586/responsables_p%C3%A9dagogiques.pdf",
-        "local_file": "pdfs/f5a03350_responsables_p%C3%A9dagogiques.pdf"
-      }
-    ],
+    "images": [],
+    "documents": [],
     "tables": []
   }
 }

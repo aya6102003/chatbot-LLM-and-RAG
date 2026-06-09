@@ -17,20 +17,8 @@
   },
   "resources": {
     "links": [],
-    "images": [
-      {
-        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
-        "alt": "",
-        "desc": ""
-      }
-    ],
-    "documents": [
-      {
-        "title": "manifestations scientifiques pr%C3%A9vues 2025",
-        "url": "https://fsciences.univ-setif.dz/uploads/document/document/5269/manifestations_scientifiques_pr%C3%A9vues_2025.pdf",
-        "local_file": "pdfs/c93eb17d_manifestations_scientifiques_pr%C3%A9vue.pdf"
-      }
-    ],
+    "images": [],
+    "documents": [],
     "tables": []
   }
 }

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://fsciences.univ-setif.dz/annonces/9177",
+      "title": "Faculté des Sciences",
+      "id": "c3572b9d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-04T14:25:14",
+      "hash": "047e10f7bf3f8d8b",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "Faculté des Sciences\nPLANNING DES EXAMENS DE RATTRAPAGE DU SEMESTRE 2(LICENCE)\nL2+L3+MIAGE2+MBD2"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Licence opt",
+        "url": "https://fsciences.univ-setif.dz/uploads/document/document/6562/Licence_opt.pdf",
+        "local_file": "pdfs/c3572b9d_Licence_opt.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

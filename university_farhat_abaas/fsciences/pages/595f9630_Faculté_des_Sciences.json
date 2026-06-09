@@ -17,20 +17,8 @@
   },
   "resources": {
     "links": [],
-    "images": [
-      {
-        "url": "https://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
-        "alt": "",
-        "desc": ""
-      }
-    ],
-    "documents": [
-      {
-        "title": "circulaire 1",
-        "url": "https://fsciences.univ-setif.dz/uploads/document/document/5741/circulaire_1.pdf",
-        "local_file": "pdfs/595f9630_circulaire_1.pdf"
-      }
-    ],
+    "images": [],
+    "documents": [],
     "tables": []
   }
 }

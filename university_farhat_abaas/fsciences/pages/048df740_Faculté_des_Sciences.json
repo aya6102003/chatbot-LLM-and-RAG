@@ -17,20 +17,8 @@
   },
   "resources": {
     "links": [],
-    "images": [
-      {
-        "url": "http://fsciences.univ-setif.dz/assets/logo-81a7d49ffa8b5951d78705e52e50f0b3778d870202ed2632e5b9a437bd4a5e08.png",
-        "alt": "",
-        "desc": ""
-      }
-    ],
-    "documents": [
-      {
-        "title": "eng",
-        "url": "http://fsciences.univ-setif.dz/uploads/document/document/5289/eng.pdf",
-        "local_file": "pdfs/048df740_eng.pdf"
-      }
-    ],
+    "images": [],
+    "documents": [],
     "tables": []
   }
 }
