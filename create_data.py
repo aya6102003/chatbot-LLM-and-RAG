@@ -36,16 +36,14 @@ NEO4J_PASSWORD = "password"
 driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 
 # ─── Embedding model ─────────────────────────────────────────────────────────
-EMBED_MODEL_NAME = "BAAI/bge-m3"   # or intfloat/multilingual-e5-large
+EMBED_MODEL_NAME = "sentence-transformers/LaBSE"
+DIMENSION = 768   # ⚠️ important: LaBSE uses 768
 logging.info("Loading embedding model: %s", EMBED_MODEL_NAME)
 _embedding_model = SentenceTransformer(EMBED_MODEL_NAME)
-PASSAGE_PREFIX = "passage: "
-DIMENSION = 1024
 
 def embed(text: str) -> list[float]:
-    prefixed = PASSAGE_PREFIX + text
     vec = _embedding_model.encode(
-        prefixed,
+        text,  # no prefix for LaBSE
         normalize_embeddings=True,
         convert_to_numpy=True,
         show_progress_bar=False,

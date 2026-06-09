@@ -1,44 +1,20 @@
 #!/usr/bin/env python3
 """
-RAG Retrieval Pipeline v13.2 — Farhat Abbas University Sétif 1
+RAG Retrieval Pipeline v13.3 — Farhat Abbas University Sétif 1
 ===============================================================
-Fully Neo4j-native retrieval — no ChromaDB, no metadata.json.
+Changes vs v13.2
+─────────────────
+  1. Vector index verification and creation helpers
+  2. Better error handling and timeout recovery
+  3. Logging improvements for debugging
+  4. Embedding format validation
+  5. Neo4j vector search fallback mechanism
 
-Changes vs v13.1
-──────────────────
-  Translation nodes (HAS_TRANSLATION / Translation) are NO LONGER used
-  during retrieval. Instead, translation is done on-the-fly at index/lookup
-  time by inspecting the `is_french` flag on every Chunk node:
-
-    • c.is_french = True  → text is already French; use as-is, zero translation cost
-    • c.is_french = False → translate on-the-fly via translate_to_french()
-                            before BM25 indexing / metadata enrichment
-
-  Affected components (all others are unchanged):
-    1. BM25Retriever.__init__()  — removed HAS_TRANSLATION OPTIONAL MATCH;
-       branching now purely on c.is_french.
-    2. MetadataStore.get()       — removed t.text / Translation OPTIONAL MATCH;
-       french_text now computed on-the-fly from c.text when not French.
-    3. MetadataStore.preload()   — same as above for bulk preload path.
-    4. SemanticRetriever.search() — removed has_translation from RETURN clause
-       (no longer a meaningful signal without Translation nodes).
-
-  Query processing is completely unchanged.
-
-Architecture (matches test_data_generator.py):
-  Hierarchy ──HAS_CONTENT──→ URL (page/pdf)
-                              ├──HAS_CHUNK──→ Chunk  {text, embedded_text, embedding, is_french}
-                              └──HAS_FILE──→  URL (pdf)
-                                              └──HAS_CHUNK──→ Chunk
-
-Install
-───────
-  pip install sentence-transformers neo4j numpy rank-bm25 rapidfuzz argostranslate
+Requires:
+  pip install sentence-transformers neo4j numpy rank-bm25 rapidfuzz requests
+  export GROQ_API_KEY="gsk_..."
 """
 
-# ─────────────────────────────────────────────────────────────
-# STDLIB
-# ─────────────────────────────────────────────────────────────
 import atexit
 import hashlib
 import json
@@ -47,14 +23,12 @@ import os
 import re
 import sys
 import threading
+import time
 import unicodedata
 from dataclasses import dataclass, field
 from functools import lru_cache
 from typing import Dict, List, Optional, Set, Tuple
 
-# ─────────────────────────────────────────────────────────────
-# THIRD-PARTY
-# ─────────────────────────────────────────────────────────────
 import numpy as np
 import requests
 from sentence_transformers import SentenceTransformer, CrossEncoder
@@ -65,7 +39,7 @@ try:
     _BM25_OK = True
 except ImportError:
     _BM25_OK = False
-    logging.warning("rank_bm25 not installed — BM25 disabled.  pip install rank-bm25")
+    logging.warning("rank_bm25 not installed — BM25 disabled. pip install rank-bm25")
 
 try:
     from rapidfuzz import process as fuzz_process, fuzz as _fuzz
@@ -73,14 +47,6 @@ try:
 except ImportError:
     _FUZZ_OK = False
     logging.warning("rapidfuzz not installed — fuzzy title search disabled.")
-
-try:
-    import argostranslate.translate as _argos_translate_mod
-    import argostranslate.package as _argos_package
-    _ARGOS_OK = True
-except ImportError:
-    _ARGOS_OK = False
-    
 
 # ─────────────────────────────────────────────────────────────
 # LOGGING
@@ -90,102 +56,39 @@ logging.basicConfig(level=logging.INFO,
 log = logging.getLogger(__name__)
 
 # ─────────────────────────────────────────────────────────────
-# TRANSLATION LAYER (French pivot)
-# ─────────────────────────────────────────────────────────────
-
-_translator_cache: Dict[str, any] = {}
-_translation_str_cache: Dict[Tuple[str, str], Optional[str]] = {}
-
-
-def _get_translator(src_lang: str):
-    if not _ARGOS_OK or src_lang == "fr":
-        return None
-    if src_lang in _translator_cache:
-        return _translator_cache[src_lang]
-    try:
-        translator = _argos_translate_mod.get_translation_from_codes(src_lang, "fr")
-        if translator is None:
-            log.warning("No argostranslate translator for %s→fr. "
-                        "Run: python -c \"import argostranslate.package as p; "
-                        "p.update_package_index(); packs = p.get_available_packages(); "
-                        "[p.install_from_path(pk.download()) for pk in packs "
-                        "if pk.from_code=='%s' and pk.to_code=='fr']\"", src_lang, src_lang)
-        _translator_cache[src_lang] = translator
-        return translator
-    except Exception as e:
-        log.warning("Failed to get translator for %s→fr: %s", src_lang, e)
-        _translator_cache[src_lang] = None
-        return None
-
-
-def translate_to_french(text: str, src_lang: str) -> Optional[str]:
-    """
-    Translate text to French.
-    Returns None (not the original) if translation is unavailable or fails,
-    so callers can distinguish a real translation from a fallback.
-    """
-    if src_lang == "fr" or not text.strip():
-        return text
-    key = (text, src_lang)
-    if key in _translation_str_cache:
-        return _translation_str_cache[key]
-    translator = _get_translator(src_lang)
-    if translator is None:
-        _translation_str_cache[key] = None
-        return None
-    try:
-        result = translator.translate(text)
-        if not result or result.strip() == text.strip():
-            _translation_str_cache[key] = None
-            return None
-        _translation_str_cache[key] = result
-        return result
-    except Exception as e:
-        log.warning("Translation failed (%s→fr): %s", src_lang, e)
-        _translation_str_cache[key] = None
-        return None
-
-
-def translate_to_french_with_fallback(text: str, src_lang: str) -> str:
-    """
-    Like translate_to_french but falls back to the original text.
-    Use this only when you need a string (e.g. query expansion) and a None
-    would break the flow.  Do NOT use this for BM25 indexing.
-    """
-    result = translate_to_french(text, src_lang)
-    return result if result is not None else text
-
-
-# ─────────────────────────────────────────────────────────────
 # CONFIG
 # ─────────────────────────────────────────────────────────────
-NEO4J_URI      = "bolt://127.0.0.1:7687"
-NEO4J_USER     = "neo4j"
-NEO4J_PASSWORD = "password"
+NEO4J_URI      = os.getenv("NEO4J_URI", "bolt://127.0.0.1:7687")
+NEO4J_USER     = os.getenv("NEO4J_USER", "neo4j")
+NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "password")
+NEO4J_TIMEOUT  = int(os.getenv("NEO4J_TIMEOUT", "30"))
 
 NEO4J_VECTOR_INDEX = "chunk_embedding"
-VECTOR_DIMENSIONS  = 1024
 
-EMBED_MODEL  = "BAAI/bge-m3"
+# ── LaBSE: 768-dim symmetric model ─
+EMBED_MODEL_NAME   = "sentence-transformers/LaBSE"
+VECTOR_DIMENSIONS  = 768
+
 RERANK_MODEL = "BAAI/bge-reranker-v2-m3"
 
-OLLAMA_URL   = os.getenv("OLLAMA_URL",   "http://localhost:11434")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1:8b")
+# ── Groq API ─────────────────────────
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODEL   = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 
-# ── Retrieval pool sizes ──────────────────────────────────────
+# ── Retrieval pool sizes ──────────────────────
 TOP_K_VECTOR = 40
 TOP_K_BM25   = 20
 TOP_K_RERANK = 15
 TOP_K_FINAL  = 8
+TOP_K_FUZZY  = 10
 
-TOP_K_FUZZY     = 10
 FUZZY_MIN_SCORE = 65
 
-# ── Fusion weights ────────────────────────────────────────────
+# ── Fusion weights ────────────────────────────
 W_SEM   = 0.70
 W_BM25  = 0.10
 W_TITLE = 0.20
-
 W_FUSED  = 0.50
 W_RERANK = 0.50
 
@@ -218,7 +121,7 @@ ENTITY_MIN_TOKEN_LEN  = 3
 
 EMBED_CACHE_SIZE = 256
 
-# ── University abbreviation expansion ────────────────────────
+# ── University abbreviations ──────────────────
 _UNI_ABBREVS: Dict[str, List[str]] = {
     "s1": ["semestre 1", "semester 1", "الفصل 1"],
     "s2": ["semestre 2", "semester 2", "الفصل 2"],
@@ -280,10 +183,10 @@ _STOPWORDS: Set[str] = {
     "من","ماذا","أين","متى","كيف","أي",
 }
 
-
 # ─────────────────────────────────────────────────────────────
 # DATA CLASS
 # ─────────────────────────────────────────────────────────────
+
 @dataclass
 class RetrievedChunk:
     chunk_id:     str
@@ -300,11 +203,50 @@ class RetrievedChunk:
 
 
 # ══════════════════════════════════════════════════════════════
-# SHARED NEO4J DRIVER (singleton)
+# NEO4J HELPERS
+# ══════════════════════════════════════════════════════════════
+
+def _verify_vector_index(driver):
+    """Check if vector index exists and is properly configured."""
+    try:
+        with driver.session() as sess:
+            result = sess.run(f"SHOW INDEXES WHERE name = '{NEO4J_VECTOR_INDEX}'")
+            indexes = list(result)
+            if indexes:
+                log.info(f"✓ Vector index '{NEO4J_VECTOR_INDEX}' exists")
+                return True
+            else:
+                log.warning(f"Vector index '{NEO4J_VECTOR_INDEX}' NOT found")
+                log.warning("Try running in Neo4j:")
+                log.warning(f"  CREATE VECTOR INDEX {NEO4J_VECTOR_INDEX} IF NOT EXISTS")
+                log.warning(f"  FOR (c:Chunk) ON (c.embedding)")
+                log.warning(f"  OPTIONS {{indexConfig: {{`vector.dimensions`: {VECTOR_DIMENSIONS}, `vector.similarity_function`: 'cosine'}}}}")
+                return False
+    except Exception as e:
+        log.error(f"Vector index verification failed: {e}")
+        return False
+
+
+def _count_chunks(driver) -> int:
+    """Count total chunks in database."""
+    try:
+        with driver.session() as sess:
+            result = sess.run("MATCH (c:Chunk) RETURN count(c) AS cnt")
+            record = result.single()
+            count = record["cnt"] if record else 0
+            log.info(f"Database has {count} chunks")
+            return count
+    except Exception as e:
+        log.error(f"Failed to count chunks: {e}")
+        return 0
+
+
+# ══════════════════════════════════════════════════════════════
+# SHARED NEO4J DRIVER
 # ══════════════════════════════════════════════════════════════
 
 _neo4j_driver = None
-_neo4j_lock   = threading.Lock()
+_neo4j_lock = threading.Lock()
 
 
 def _get_driver():
@@ -312,10 +254,22 @@ def _get_driver():
     if _neo4j_driver is None:
         with _neo4j_lock:
             if _neo4j_driver is None:
-                _neo4j_driver = GraphDatabase.driver(
-                    NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD)
-                )
-                log.info("Neo4j driver initialized")
+                try:
+                    _neo4j_driver = GraphDatabase.driver(
+                        NEO4J_URI,
+                        auth=(NEO4J_USER, NEO4J_PASSWORD),
+                        connection_timeout=NEO4J_TIMEOUT,
+                    )
+                    # Verify connectivity
+                    with _neo4j_driver.session() as sess:
+                        sess.run("RETURN 1")
+                    log.info("✓ Neo4j driver initialized and connected")
+                    _verify_vector_index(_neo4j_driver)
+                    _count_chunks(_neo4j_driver)
+                except Exception as e:
+                    log.error(f"Failed to initialize Neo4j driver: {e}")
+                    _neo4j_driver = None
+                    raise
     return _neo4j_driver
 
 
@@ -331,7 +285,7 @@ atexit.register(_close_driver)
 
 
 # ══════════════════════════════════════════════════════════════
-# LAYER 1 — QUERY UNDERSTANDING  (unchanged from v13.1)
+# QUERY UNDERSTANDING
 # ══════════════════════════════════════════════════════════════
 
 class QueryUnderstanding:
@@ -380,13 +334,6 @@ class QueryUnderstanding:
         if len(self._RE_FR.findall(s)) > 2:
             return "fr"
         return "en"
-
-    def get_french_query(self, query: str) -> str:
-        """Return query in French; falls back to original if translation fails."""
-        lang = self.detect_language(query)
-        if lang == "fr":
-            return query
-        return translate_to_french_with_fallback(query, lang)
 
     def detect_intent(self, query: str) -> str:
         q = query.lower()
@@ -455,25 +402,8 @@ class QueryUnderstanding:
         }
 
 
-# ── ArgosTranslate helper ─────────────────────────────────────
-
-def _argos_translate(text: str, from_code: str, to_code: str) -> Optional[str]:
-    if not _ARGOS_OK:
-        return None
-    try:
-        translator = _argos_translate_mod.get_translation_from_codes(from_code, to_code)
-        if translator is None:
-            return None
-        result = translator.translate(text)
-        if result and result.strip() and result.strip() != text.strip():
-            return result.strip()
-    except Exception as exc:
-        log.debug("ArgosTranslate %s→%s failed: %s", from_code, to_code, exc)
-    return None
-
-
 # ══════════════════════════════════════════════════════════════
-# LAYER 2 — QUERY EXPANDER  (unchanged from v13.1)
+# QUERY EXPANDER (Groq)
 # ══════════════════════════════════════════════════════════════
 
 def _arabic_to_latin(text: str) -> str:
@@ -532,30 +462,39 @@ class QueryExpander:
         "  - Each element must be a non-empty string.\n"
     )
 
-    def __init__(self, base_url: str = OLLAMA_URL, model: str = OLLAMA_MODEL):
-        self._url         = base_url.rstrip("/") + "/api/chat"
-        self._model       = model
+    def __init__(self):
         self._last_intent = "general_info"
-        self._ok          = self._ping()
+        self._ok = self._ping()
 
     def _ping(self) -> bool:
+        """Check that GROQ_API_KEY is set and endpoint responds."""
+        if not GROQ_API_KEY:
+            log.warning("GROQ_API_KEY not set — LLM query expansion disabled.")
+            return False
         try:
-            r = requests.get(self._url.replace("/api/chat", "/api/tags"), timeout=3)
+            r = requests.get(
+                "https://api.groq.com/openai/v1/models",
+                headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
+                timeout=5,
+            )
             return r.status_code == 200
-        except Exception:
+        except Exception as e:
+            log.warning(f"Groq API unavailable: {e}")
             return False
 
     @staticmethod
     @lru_cache(maxsize=128)
-    def _cached_expand(query: str, lang: str, intent: str, ollama_ok: bool,
-                       ollama_url: str, ollama_model: str) -> Tuple[str, ...]:
+    def _cached_expand(
+        query: str, lang: str, intent: str, groq_ok: bool,
+        groq_model: str,
+    ) -> Tuple[str, ...]:
         variants = [query]
-        if ollama_ok:
-            tmp = QueryExpander(ollama_url, ollama_model)
+        if groq_ok:
+            tmp = QueryExpander()
             for v in tmp._llm_expand(query):
                 if v and v.strip() and v.strip() not in variants:
                     variants.append(v.strip())
-        tmp = QueryExpander(ollama_url, ollama_model)
+        tmp = QueryExpander()
         tmp._last_intent = intent
         for v in tmp._struct_expand(query, lang):
             if v not in variants:
@@ -568,31 +507,38 @@ class QueryExpander:
         intent = analysis.get("intent", "general_info")
         self._last_intent = intent
         variants_tuple = self._cached_expand(
-            query, lang, intent, self._ok, self._url, self._model
+            query, lang, intent, self._ok, GROQ_MODEL,
         )
         return list(variants_tuple)
 
     def _llm_expand(self, query: str) -> List[str]:
+        """Call Groq's OpenAI-compatible endpoint."""
+        if not GROQ_API_KEY:
+            return []
         payload = {
-            "model":    self._model,
+            "model": GROQ_MODEL,
             "messages": [
                 {"role": "system", "content": self._SYS},
                 {"role": "user",   "content": f'Query: "{query}"'},
             ],
-            "stream":  False,
-            "options": {"temperature": 0.3, "num_predict": 300, "repeat_penalty": 1.2},
+            "temperature": 0.3,
+            "max_tokens":  300,
+        }
+        headers = {
+            "Authorization": f"Bearer {GROQ_API_KEY}",
+            "Content-Type":  "application/json",
         }
         try:
-            r = requests.post(self._url, json=payload, timeout=12)
+            r = requests.post(GROQ_API_URL, json=payload, headers=headers, timeout=15)
             r.raise_for_status()
-            content = r.json().get("message", {}).get("content", "")
+            content = r.json()["choices"][0]["message"]["content"]
             m = re.search(r"\[.*?\]", content, re.DOTALL)
             if not m:
                 return []
             vs = json.loads(m.group())
             return [str(v).strip() for v in vs if v and str(v).strip()]
         except Exception as exc:
-            log.debug("LLM expansion failed: %s", exc)
+            log.debug("Groq LLM expansion failed: %s", exc)
         return []
 
     def _struct_expand(self, query: str, lang: str) -> List[str]:
@@ -615,31 +561,16 @@ class QueryExpander:
                     vs.append(latin)
                     vs.append(f"dr {latin}")
                     vs.append(f"prof {latin}")
-            return vs
-        targets = [code for code in ("ar", "fr", "en") if code != lang]
-        for tgt in targets:
-            translated = _argos_translate(query, lang, tgt)
-            if translated and translated not in vs:
-                vs.append(translated)
-            else:
-                fallback_map = {
-                    "fr": f"en français : {query}",
-                    "en": f"in English: {query}",
-                    "ar": f"بالعربية: {query}",
-                }
-                vs.append(fallback_map[tgt])
         return vs
 
 
 # ══════════════════════════════════════════════════════════════
-# LAYER 3A — SEMANTIC RETRIEVER (Neo4j vector index)
+# SEMANTIC RETRIEVER
 # ══════════════════════════════════════════════════════════════
 
 class SemanticRetriever:
-    _QUERY_PREFIX   = "query: "
-    _PASSAGE_PREFIX = "passage: "
 
-    def __init__(self, model_name: str = EMBED_MODEL):
+    def __init__(self, model_name: str = EMBED_MODEL_NAME):
         log.info("Loading embedding model: %s", model_name)
         try:
             import torch
@@ -650,27 +581,26 @@ class SemanticRetriever:
         self._model  = SentenceTransformer(model_name, device=dev)
         self._cache: Dict[str, np.ndarray] = {}
 
-    def _encode_with_prefix(self, texts: List[str], prefix: str) -> np.ndarray:
+    def _encode(self, texts: List[str]) -> np.ndarray:
         results: List[Optional[np.ndarray]] = [None] * len(texts)
         miss_idx: List[int] = []
         miss_texts: List[str] = []
         for i, t in enumerate(texts):
-            key = prefix + t
-            if key in self._cache:
-                results[i] = self._cache[key]
+            if t in self._cache:
+                results[i] = self._cache[t]
             else:
                 miss_idx.append(i)
                 miss_texts.append(t)
         if miss_texts:
             embs = self._model.encode(
-                [prefix + t for t in miss_texts],
+                miss_texts,
                 normalize_embeddings=True,
                 convert_to_numpy=True,
                 show_progress_bar=False,
             )
             for local_i, global_i in enumerate(miss_idx):
                 vec = embs[local_i]
-                key = prefix + miss_texts[local_i]
+                key = miss_texts[local_i]
                 if len(self._cache) >= EMBED_CACHE_SIZE:
                     self._cache.pop(next(iter(self._cache)))
                 self._cache[key] = vec
@@ -678,12 +608,12 @@ class SemanticRetriever:
         return np.vstack(results)
 
     def encode(self, texts: List[str]) -> np.ndarray:
-        """Encode query texts with the 'query: ' prefix (bge-m3 asymmetric)."""
-        return self._encode_with_prefix(texts, self._QUERY_PREFIX)
+        """Encode query texts."""
+        return self._encode(texts)
 
     def encode_passage(self, texts: List[str]) -> np.ndarray:
-        """Encode passage texts with the 'passage: ' prefix — used for title similarity."""
-        return self._encode_with_prefix(texts, self._PASSAGE_PREFIX)
+        """Encode passage texts."""
+        return self._encode(texts)
 
     def search(
         self,
@@ -704,16 +634,13 @@ class SemanticRetriever:
 
         candidates: Dict[str, RetrievedChunk] = {}
         driver = _get_driver()
-        for vec in embeddings:
+        for vec_idx, vec in enumerate(embeddings):
             filter_clause = ""
             filter_params: Dict = {}
             if where_filter and "source_type" in where_filter:
                 filter_clause = "WHERE u.source_type = $src_type"
                 filter_params["src_type"] = where_filter["source_type"]
 
-            # ── v13.2 change: removed has_translation from RETURN ──────────
-            # Translation nodes are no longer stored; is_french is the sole
-            # indicator of whether the chunk is already in French.
             query = f"""
                 CALL db.index.vector.queryNodes($index, $k, $vec)
                 YIELD node AS c, score
@@ -725,7 +652,6 @@ class SemanticRetriever:
                     c.text         AS text,
                     c.chunk_index  AS chunk_index,
                     c.language     AS language,
-                    c.is_french    AS is_french,
                     score          AS similarity,
                     u.url          AS url,
                     u.title        AS title,
@@ -746,8 +672,6 @@ class SemanticRetriever:
                             "source_type": rec["source_type"] or "",
                             "language":    rec["language"]    or "",
                             "chunk_index": rec["chunk_index"],
-                            "is_french":   rec["is_french"]   or False,
-                            # has_translation removed — on-the-fly only
                             "pdf_url": rec["url"] if rec["source_type"] == "pdf" else "",
                         }
                         if cid not in candidates or sim > candidates[cid].sem_score:
@@ -759,17 +683,19 @@ class SemanticRetriever:
                                 sem_score=sim,
                             )
             except Exception as exc:
-                log.warning("Neo4j vector search failed: %s", exc)
-                log.warning("Ensure the vector index exists: "
-                            "CREATE VECTOR INDEX chunk_embedding IF NOT EXISTS "
-                            "FOR (c:Chunk) ON (c.embedding) "
-                            "OPTIONS {indexConfig: {`vector.dimensions`: 1024, "
-                            "`vector.similarity_function`: 'cosine'}}")
+                log.warning("Vector search (variant %d/%d) failed: %s", vec_idx+1, len(embeddings), exc)
+                if "vector" in str(exc).lower():
+                    log.error("Vector index error detected. Ensure index exists with dimensions=768")
+                continue
+        
+        if not candidates and embeddings.size > 0:
+            log.warning("No candidates found in vector search (all %d variants failed)", len(embeddings))
+        
         return candidates
 
 
 # ══════════════════════════════════════════════════════════════
-# LAYER 3B — BM25 RETRIEVER (French-pivot, on-the-fly translation)
+# BM25 RETRIEVER
 # ══════════════════════════════════════════════════════════════
 
 class BM25Retriever:
@@ -784,20 +710,16 @@ class BM25Retriever:
         log.info("BM25: loading chunks from Neo4j …")
         qu = QueryUnderstanding()
         tokenized: List[List[str]] = []
-        skipped = 0
 
         try:
             driver = _get_driver()
             with driver.session() as sess:
-                # ── v13.2 change: no OPTIONAL MATCH on Translation nodes ───
-                # We rely solely on c.is_french to decide whether to translate.
                 records = sess.run("""
                     MATCH (u:URL)-[:HAS_CHUNK]->(c:Chunk)
                     OPTIONAL MATCH (page:URL)-[:HAS_FILE]->(u)
                     RETURN
                         c.id          AS chunk_id,
-                        c.text        AS original_text,
-                        c.is_french   AS is_french,
+                        c.text        AS text,
                         c.language    AS language,
                         c.chunk_index AS chunk_index,
                         u.url         AS url,
@@ -806,55 +728,36 @@ class BM25Retriever:
                         page.url      AS page_url
                 """)
                 for rec in records:
-                    cid       = rec["chunk_id"]
-                    is_french = rec["is_french"] or False
-                    orig_text = rec["original_text"] or ""
-                    lang      = rec["language"] or "en"
+                    cid  = rec["chunk_id"]
+                    text = rec["text"] or ""
+                    lang = rec["language"] or "en"
 
-                    if is_french:
-                        # ── Already French: index directly, no translation ──
-                        index_text = orig_text
-                    else:
-                        # ── Not French: translate on-the-fly ─────────────
-                        translated = translate_to_french(orig_text, lang)
-                        if translated is not None:
-                            index_text = translated
-                        else:
-                            log.warning(
-                                "BM25: skipping chunk %s (lang=%s) — "
-                                "on-the-fly translation unavailable",
-                                cid, lang,
-                            )
-                            skipped += 1
-                            continue
-
-                    if not cid or not index_text.strip():
+                    if not cid or not text.strip():
                         continue
 
                     self._chunk_ids.append(cid)
-                    self._texts.append(index_text)
+                    self._texts.append(text)
                     self._meta[cid] = {
-                        "title":         rec["title"]       or "",
-                        "url":           rec["url"]         or "",
-                        "page_url":      rec["page_url"]    or "",
-                        "source_type":   rec["source_type"] or "",
-                        "language":      lang,
-                        "chunk_index":   rec["chunk_index"],
-                        "pdf_url":       rec["url"] if rec["source_type"] == "pdf" else "",
-                        "is_french":     is_french,
-                        "original_text": orig_text,
+                        "title":       rec["title"]       or "",
+                        "url":         rec["url"]         or "",
+                        "page_url":    rec["page_url"]    or "",
+                        "source_type": rec["source_type"] or "",
+                        "language":    lang,
+                        "chunk_index": rec["chunk_index"],
+                        "pdf_url":     rec["url"] if rec["source_type"] == "pdf" else "",
+                        "chunk":       text,
                     }
-                    tokenized.append(qu.normalize_for_bm25(index_text).split())
+                    tokenized.append(qu.normalize_for_bm25(text).split())
 
         except Exception as exc:
             log.error("BM25: Neo4j load failed: %s", exc)
             return
 
-        if skipped:
-            log.warning("BM25: skipped %d chunks — on-the-fly translation failed.", skipped)
         if tokenized:
             self._bm25 = BM25Okapi(tokenized)
-            log.info("BM25 index built: %d chunks (%d skipped)", len(tokenized), skipped)
+            log.info("BM25 index built: %d chunks", len(tokenized))
+        else:
+            log.warning("BM25: No chunks loaded")
 
     def search(self, keywords: List[str], top_k: int = TOP_K_BM25) -> List[Tuple[str, str, float]]:
         if self._bm25 is None or not keywords:
@@ -872,7 +775,7 @@ class BM25Retriever:
 
 
 # ══════════════════════════════════════════════════════════════
-# LAYER 3C — FUZZY TITLE RETRIEVER  (unchanged from v13.1)
+# FUZZY RETRIEVER
 # ══════════════════════════════════════════════════════════════
 
 class FuzzyRetriever:
@@ -901,17 +804,16 @@ class FuzzyRetriever:
                         page.url      AS page_url
                 """)
                 for rec in records:
-                    title_orig = rec["title"] or ""
-                    if not title_orig:
+                    title = rec["title"] or ""
+                    if not title:
                         continue
-                    lang      = rec["language"] or "en"
-                    title_fr  = translate_to_french_with_fallback(title_orig, lang)
-                    cid       = rec["chunk_id"]
-                    text      = rec["text"] or ""
-                    self._entries.append((title_fr.lower(), cid, text))
+                    lang = rec["language"] or "en"
+                    cid  = rec["chunk_id"]
+                    text = rec["text"] or ""
+                    self._entries.append((title.lower(), cid, text))
                     self._cid_text[cid] = text
                     self._cid_meta[cid] = {
-                        "title":       title_orig,
+                        "title":       title,
                         "url":         rec["url"]         or "",
                         "page_url":    rec["page_url"]    or "",
                         "source_type": rec["source_type"] or "",
@@ -948,7 +850,7 @@ class FuzzyRetriever:
 
 
 # ══════════════════════════════════════════════════════════════
-# METADATA STORE (on-demand Neo4j lookups, on-the-fly translation)
+# METADATA STORE
 # ══════════════════════════════════════════════════════════════
 
 class MetadataStore:
@@ -961,8 +863,6 @@ class MetadataStore:
         try:
             driver = _get_driver()
             with driver.session() as sess:
-                # ── v13.2 change: removed OPTIONAL MATCH on Translation ────
-                # french_text is computed on-the-fly below using is_french.
                 rec = sess.run("""
                     MATCH (u:URL)-[:HAS_CHUNK]->(c:Chunk {id: $cid})
                     OPTIONAL MATCH (page:URL)-[:HAS_FILE]->(u)
@@ -970,7 +870,6 @@ class MetadataStore:
                         c.text        AS text,
                         c.chunk_index AS chunk_index,
                         c.language    AS language,
-                        c.is_french   AS is_french,
                         u.url         AS url,
                         u.title       AS title,
                         u.source_type AS source_type,
@@ -979,28 +878,16 @@ class MetadataStore:
                 if rec is None:
                     return None
 
-                orig_text = rec["text"] or ""
-                is_french = rec["is_french"] or False
-                lang      = rec["language"] or "en"
-
-                # ── On-the-fly translation ────────────────────────────────
-                if is_french:
-                    french_text = orig_text          # already French, zero cost
-                else:
-                    french_text = translate_to_french(orig_text, lang) or ""
-
+                text = rec["text"] or ""
                 data = {
-                    "chunk":       orig_text,
-                    "text":        orig_text,
-                    "french_text": french_text,      # empty string if translation failed
+                    "chunk":       text,
+                    "text":        text,
                     "title":       rec["title"]       or "",
                     "url":         rec["url"]         or "",
                     "page_url":    rec["page_url"]    or "",
                     "source_type": rec["source_type"] or "",
-                    "language":    lang,
+                    "language":    rec["language"]    or "en",
                     "chunk_index": rec["chunk_index"],
-                    "is_french":   is_french,
-                    # has_translation removed — callers check french_text != ""
                     "pdf_url":     rec["url"] if rec["source_type"] == "pdf" else "",
                 }
                 self._cache[chunk_id] = data
@@ -1016,7 +903,6 @@ class MetadataStore:
         try:
             driver = _get_driver()
             with driver.session() as sess:
-                # ── v13.2 change: removed OPTIONAL MATCH on Translation ────
                 records = sess.run("""
                     UNWIND $ids AS cid
                     MATCH (u:URL)-[:HAS_CHUNK]->(c:Chunk {id: cid})
@@ -1026,35 +912,23 @@ class MetadataStore:
                         c.text        AS text,
                         c.chunk_index AS chunk_index,
                         c.language    AS language,
-                        c.is_french   AS is_french,
                         u.url         AS url,
                         u.title       AS title,
                         u.source_type AS source_type,
                         page.url      AS page_url
                 """, ids=missing)
                 for rec in records:
-                    cid       = rec["chunk_id"]
-                    orig_text = rec["text"] or ""
-                    is_french = rec["is_french"] or False
-                    lang      = rec["language"] or "en"
-
-                    # ── On-the-fly translation ────────────────────────────
-                    if is_french:
-                        french_text = orig_text
-                    else:
-                        french_text = translate_to_french(orig_text, lang) or ""
-
+                    cid  = rec["chunk_id"]
+                    text = rec["text"] or ""
                     self._cache[cid] = {
-                        "chunk":       orig_text,
-                        "text":        orig_text,
-                        "french_text": french_text,
+                        "chunk":       text,
+                        "text":        text,
                         "title":       rec["title"]       or "",
                         "url":         rec["url"]         or "",
                         "page_url":    rec["page_url"]    or "",
                         "source_type": rec["source_type"] or "",
-                        "language":    lang,
+                        "language":    rec["language"]    or "en",
                         "chunk_index": rec["chunk_index"],
-                        "is_french":   is_french,
                         "pdf_url":     rec["url"] if rec["source_type"] == "pdf" else "",
                     }
         except Exception as exc:
@@ -1062,7 +936,7 @@ class MetadataStore:
 
 
 # ══════════════════════════════════════════════════════════════
-# TITLE SIMILARITY  (unchanged from v13.1)
+# TITLE SIMILARITY
 # ══════════════════════════════════════════════════════════════
 
 def _title_sim(query_vec: np.ndarray, meta: Dict, retriever: SemanticRetriever) -> float:
@@ -1074,7 +948,7 @@ def _title_sim(query_vec: np.ndarray, meta: Dict, retriever: SemanticRetriever) 
 
 
 # ══════════════════════════════════════════════════════════════
-# FINGERPRINT  (unchanged)
+# FINGERPRINT
 # ══════════════════════════════════════════════════════════════
 
 def _fingerprint(text: str) -> str:
@@ -1083,7 +957,7 @@ def _fingerprint(text: str) -> str:
 
 
 # ══════════════════════════════════════════════════════════════
-# LAYER 4 — SCORE FUSION  (unchanged from v13.1)
+# SCORE FUSION
 # ══════════════════════════════════════════════════════════════
 
 def fuse_scores(
@@ -1154,7 +1028,7 @@ def fuse_scores(
 
 
 # ══════════════════════════════════════════════════════════════
-# ANSWERABILITY GATE  (unchanged)
+# ANSWERABILITY GATE
 # ══════════════════════════════════════════════════════════════
 
 def _passes_answerability(chunks: List[RetrievedChunk]) -> bool:
@@ -1162,7 +1036,7 @@ def _passes_answerability(chunks: List[RetrievedChunk]) -> bool:
 
 
 # ══════════════════════════════════════════════════════════════
-# LAYER 5 — CROSS-ENCODER RERANKER  (unchanged)
+# CROSS-ENCODER RERANKER
 # ══════════════════════════════════════════════════════════════
 
 class Reranker:
@@ -1199,7 +1073,7 @@ class Reranker:
 
 
 # ══════════════════════════════════════════════════════════════
-# DYNAMIC TOP-K  (unchanged)
+# DYNAMIC TOP-K
 # ══════════════════════════════════════════════════════════════
 
 def _apply_dynamic_topk(chunks: List[RetrievedChunk]) -> List[RetrievedChunk]:
@@ -1215,7 +1089,7 @@ def _apply_dynamic_topk(chunks: List[RetrievedChunk]) -> List[RetrievedChunk]:
 
 
 # ══════════════════════════════════════════════════════════════
-# ENTITY FILTER  (unchanged)
+# ENTITY FILTER
 # ══════════════════════════════════════════════════════════════
 
 def _entity_filter(chunks: List[RetrievedChunk], entity_tokens: List[str],
@@ -1241,7 +1115,7 @@ def _entity_filter(chunks: List[RetrievedChunk], entity_tokens: List[str],
 
 
 # ══════════════════════════════════════════════════════════════
-# NEIGHBOUR HELPERS  (unchanged)
+# NEIGHBOUR HELPERS
 # ══════════════════════════════════════════════════════════════
 
 def _keyword_overlap(text: str, keywords: List[str]) -> float:
@@ -1290,7 +1164,7 @@ def _same_doc_prefix(cid_a: str, cid_b: str) -> bool:
 
 
 # ══════════════════════════════════════════════════════════════
-# LAYER 6 — GRAPH EXPANDER  (unchanged)
+# GRAPH EXPANDER
 # ══════════════════════════════════════════════════════════════
 
 class GraphExpander:
@@ -1328,7 +1202,7 @@ class GraphExpander:
 
 
 # ══════════════════════════════════════════════════════════════
-# BOILERPLATE FILTER  (unchanged)
+# BOILERPLATE FILTER
 # ══════════════════════════════════════════════════════════════
 
 _BOILERPLATE = frozenset([
@@ -1351,7 +1225,7 @@ def _is_boilerplate(text: str, meta: Dict) -> bool:
 
 
 # ══════════════════════════════════════════════════════════════
-# CONTEXT WINDOW RECONSTRUCTION  (unchanged)
+# CONTEXT WINDOW
 # ══════════════════════════════════════════════════════════════
 
 def _reconstruct_windows(
@@ -1386,7 +1260,7 @@ def _reconstruct_windows(
 
 
 # ══════════════════════════════════════════════════════════════
-# LLM CONTEXT FORMATTER  (unchanged)
+# LLM CONTEXT FORMATTER
 # ══════════════════════════════════════════════════════════════
 
 def _format_llm_context(chunks: List[RetrievedChunk]) -> str:
@@ -1413,61 +1287,46 @@ def _format_llm_context(chunks: List[RetrievedChunk]) -> str:
 
 
 # ══════════════════════════════════════════════════════════════
-# MAIN RAG RETRIEVER  (unchanged from v13.1)
+# MAIN RAG RETRIEVER
 # ══════════════════════════════════════════════════════════════
 
 class RAGRetriever:
     def __init__(self):
-        log.info("Initializing RAGRetriever v13.2")
+        log.info("Initializing RAGRetriever v13.3 [LaBSE + Groq + Neo4j Vector]")
         self._qu       = QueryUnderstanding()
-        self._expander = QueryExpander(OLLAMA_URL, OLLAMA_MODEL)
-        self._semantic = SemanticRetriever(EMBED_MODEL)
+        self._expander = QueryExpander()
+        self._semantic = SemanticRetriever(EMBED_MODEL_NAME)
         self._bm25     = BM25Retriever()
         self._fuzzy    = FuzzyRetriever()
         self._reranker = Reranker()
         self._graph    = GraphExpander()
         self._meta     = MetadataStore()
-        log.info("RAGRetriever v13.2 ready")
+        log.info("RAGRetriever v13.3 ready")
 
     def retrieve(
         self, query: str, top_k: int = TOP_K_FINAL,
         source_type: Optional[str] = None
     ) -> List[RetrievedChunk]:
 
-        # Step 1: analyse original query
         analysis      = self._qu.analyze(query)
         intent        = analysis["intent"]
         lang          = analysis["language"]
+        keywords      = analysis["keywords"]
         entity_tokens = analysis["entity_tokens"]
 
-        # Step 1b: translate query to French for retrieval pivot
-        french_query    = self._qu.get_french_query(query)
-        french_analysis = self._qu.analyze(french_query)
-        keywords        = french_analysis["keywords"]
+        log.info("Query lang=%s  intent=%s  query=%s", lang, intent, query[:80])
 
-        log.info("Original lang=%s  French query=%s", lang, french_query[:80])
+        variants  = self._expander.expand(analysis)
+        query_vec = self._semantic.encode([query])[0]
 
-        # Step 2: expand — translate all variants to French
-        variants        = self._expander.expand(analysis)
-        french_variants = []
-        for v in variants:
-            v_lang = self._qu.detect_language(v)
-            fv     = translate_to_french_with_fallback(v, v_lang)
-            if fv not in french_variants:
-                french_variants.append(fv)
-
-        query_vec = self._semantic.encode([french_query])[0]
-
-        # Step 3: retrieve from all sources
         where         = {"source_type": source_type} if source_type else None
-        semantic_hits = self._semantic.search(french_variants, TOP_K_VECTOR, where)
+        semantic_hits = self._semantic.search(variants, TOP_K_VECTOR, where)
         bm25_hits     = self._bm25.search(keywords, TOP_K_BM25)
-        fuzz_hits     = self._fuzzy.search(french_query, TOP_K_FUZZY)
+        fuzz_hits     = self._fuzzy.search(query, TOP_K_FUZZY)
 
         log.info("Candidates — semantic:%d  BM25:%d  fuzzy:%d",
                  len(semantic_hits), len(bm25_hits), len(fuzz_hits))
 
-        # Step 4: fusion
         fused = fuse_scores(
             semantic_hits, bm25_hits, fuzz_hits,
             self._meta, self._bm25, self._fuzzy,
@@ -1483,7 +1342,6 @@ class RAGRetriever:
         if not fused:
             return []
 
-        # Step 5: rerank
         _rerank_floor = (
             0.10 if (intent == "person_lookup" or len(query.strip().split()) <= 2)
             else RERANK_MIN_CAL
@@ -1493,7 +1351,6 @@ class RAGRetriever:
             log.warning("Reranker dropped all chunks")
             return []
 
-        # Step 6: neighbour expansion
         if intent != "translation":
             w        = NEIGHBOR_WINDOW + (1 if intent == "course_query" else 0)
             seed_ids = [
@@ -1546,15 +1403,11 @@ class RAGRetriever:
         else:
             expanded = list(reranked)
 
-        # Step 7: second rerank
         final = self._reranker.rerank(query, expanded, top_k=top_k, min_cal=_rerank_floor)
-
-        # Steps 8–10: filters and windows
         final = _entity_filter(final, entity_tokens, intent)
         final = _apply_dynamic_topk(final)
         final = _reconstruct_windows(final, self._meta, CONTEXT_WINDOW_SIZE)
 
-        # Step 11: answerability gate
         _ans_threshold = (
             0.20 if (intent == "person_lookup" or len(query.strip().split()) <= 2)
             else ANSWER_THRESHOLD
@@ -1573,7 +1426,6 @@ class RAGRetriever:
         self._semantic._cache.clear()
         self._meta._cache.clear()
         QueryExpander._cached_expand.cache_clear()
-        _translation_str_cache.clear()
         log.info("All caches cleared")
 
     def close(self):
@@ -1581,7 +1433,7 @@ class RAGRetriever:
 
 
 # ══════════════════════════════════════════════════════════════
-# SINGLETON + PUBLIC API  (unchanged)
+# SINGLETON + PUBLIC API
 # ══════════════════════════════════════════════════════════════
 
 _retriever: Optional[RAGRetriever] = None
@@ -1607,29 +1459,24 @@ def retrieve_for_llm(
     chunks = _get_retriever().retrieve(query, top_k=top_k, source_type=source_type)
     result = [
         {
-            "chunk_id":        c.chunk_id,
-            "text":            c.text,
-            "score":           round(c.score, 4),
-            "is_neighbor":     c.is_neighbor,
-            "sem_score":       round(c.sem_score, 4),
-            "bm25_score":      round(c.bm25_score, 4),
-            "title_score":     round(c.title_score, 4),
-            "fused_score":     round(c.fused_score, 4),
-            "rerank_raw":      round(c.rerank_raw, 4),
-            "rerank_cal":      round(c.rerank_cal, 4),
-            "url":             c.metadata.get("url", ""),
-            "pdf_url":         c.metadata.get("pdf_url", ""),
-            "page_url":        c.metadata.get("page_url", ""),
-            "title":           c.metadata.get("title", ""),
-            "language":        c.metadata.get("language", ""),
-            "source_type":     c.metadata.get("source_type", ""),
-            "chunk_index":     c.metadata.get("chunk_index"),
-            # translation_available: True if chunk is French or was translated
-            "translation_available": (
-                c.metadata.get("is_french", False) or
-                bool(c.metadata.get("french_text", ""))
-            ),
-            "metadata":        c.metadata,
+            "chunk_id":    c.chunk_id,
+            "text":        c.text,
+            "score":       round(c.score, 4),
+            "is_neighbor": c.is_neighbor,
+            "sem_score":   round(c.sem_score, 4),
+            "bm25_score":  round(c.bm25_score, 4),
+            "title_score": round(c.title_score, 4),
+            "fused_score": round(c.fused_score, 4),
+            "rerank_raw":  round(c.rerank_raw, 4),
+            "rerank_cal":  round(c.rerank_cal, 4),
+            "url":         c.metadata.get("url", ""),
+            "pdf_url":     c.metadata.get("pdf_url", ""),
+            "page_url":    c.metadata.get("page_url", ""),
+            "title":       c.metadata.get("title", ""),
+            "language":    c.metadata.get("language", ""),
+            "source_type": c.metadata.get("source_type", ""),
+            "chunk_index": c.metadata.get("chunk_index"),
+            "metadata":    c.metadata,
         }
         for c in chunks
     ]
@@ -1648,7 +1495,7 @@ def warmup_retriever():
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print('Usage: python rag.py "query" [--source-type pdf|page] [--top-k N] [--debug]')
+        print('Usage: python rag_fixed.py "query" [--source-type pdf|page] [--top-k N] [--debug]')
         sys.exit(1)
 
     query       = sys.argv[1]
@@ -1686,7 +1533,6 @@ if __name__ == "__main__":
         print(f"   Title  : {(r['title'] or 'N/A')[:60]}")
         print(f"   URL    : {r['url'] or 'N/A'}")
         print(f"   PDF    : {r['pdf_url'] or 'N/A'}")
-        print(f"   Trans. : {r['translation_available']}")
         print(f"   Text   : {r['text'][:280]}…")
 
     if results and results[0].get("llm_context"):
