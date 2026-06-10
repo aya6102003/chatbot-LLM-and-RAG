@@ -1,4 +1,3 @@
-
 from __future__ import annotations
 
 import atexit
@@ -17,7 +16,7 @@ from typing import Any, Dict, List, Optional, Set, Tuple
 
 import numpy as np
 from neo4j import GraphDatabase
-from sentence_transformers import CrossEncoder, SentenceTransformer
+from sentence_transformers import CrossEncoder
 
 try:
     from rank_bm25 import BM25Okapi
@@ -51,8 +50,8 @@ NEO4J_PASSWORD      = os.getenv("NEO4J_PASSWORD", "password")
 NEO4J_TIMEOUT       = int(os.getenv("NEO4J_TIMEOUT", "30"))
 NEO4J_VECTOR_INDEX  = "chunk_embedding"
 
-EMBED_MODEL_NAME  = "sentence-transformers/LaBSE"
-VECTOR_DIMENSIONS = 768
+EMBED_MODEL_NAME  = "gemini-embedding-001"
+VECTOR_DIMENSIONS = 3072
 RERANK_MODEL      = "BAAI/bge-reranker-v2-m3"
 
 TOP_K_VECTOR  = 60     # wider net for soft-boost approach
@@ -330,9 +329,10 @@ class AcademicGraph:
                OR n:Specialization OR n:General OR n:Level
                OR n:Category OR n:Year
             RETURN
-                n.id     AS id,
-                n.name   AS name,
-                labels(n) AS lbls
+                n.id      AS id,
+                n.name    AS name,
+                labels(n) AS lbls,
+                n.aliases AS aliases
         """)
         for rec in result:
             nid  = rec["id"]
@@ -350,11 +350,22 @@ class AcademicGraph:
                     best_p = p
                     label = lbl
 
+            # توليد aliases الأساسية
+            generated_aliases = self._generate_aliases(name, label)
+            
+            # ✨ إضافة aliases من Neo4j
+            neo4j_aliases = rec.get("aliases")
+            if neo4j_aliases:
+                for a in neo4j_aliases:
+                    a_clean = a.lower().strip()
+                    if a_clean and a_clean not in generated_aliases:
+                        generated_aliases.append(a_clean)
+            
             node = AcademicNode(
                 node_id=nid,
                 name=name,
                 label=label,
-                aliases=self._generate_aliases(name, label),
+                aliases=generated_aliases,
             )
             self.nodes[nid]       = node
             self.children_map[nid] = []
@@ -364,7 +375,7 @@ class AcademicGraph:
 
             # Index by canonical name
             self._index_name(name.lower().strip(), nid)
-            # Index aliases
+            # Index ALL aliases
             for alias in node.aliases:
                 self._index_name(alias.lower().strip(), nid)
 
@@ -762,21 +773,21 @@ class AcademicGraph:
 
 class SemanticRetriever:
     def __init__(self):
-        log.info(f"Loading {EMBED_MODEL_NAME}...")
-        try:
-            import torch
-            dev = "cuda" if torch.cuda.is_available() else "cpu"
-        except ImportError:
-            dev = "cpu"
-        self._model  = SentenceTransformer(EMBED_MODEL_NAME, device=dev)
+        api_key = os.getenv("GEMINI_API_KEY")
+        if not api_key:
+            raise RuntimeError("GEMINI_API_KEY not set! Run: export GEMINI_API_KEY='...'")
+        
+        from google import genai
+        self._client = genai.Client(api_key=api_key)
+        self._model_name = "models/gemini-embedding-001"
         self._cache: Dict[str, np.ndarray] = {}
-        log.info("Embedder ready")
+        log.info("✓ Gemini embeddings ready (3072-dim)")
 
-    def encode(self, texts: List[str]) -> np.ndarray:
-        results: List[Optional[np.ndarray]] = []
-        miss_idx:   List[int] = []
-        miss_texts: List[str] = []
-
+    def _encode_gemini(self, texts: List[str]) -> np.ndarray:
+        """Encode texts using Gemini API with caching."""
+        results = []
+        miss_idx, miss_texts = [], []
+        
         for i, t in enumerate(texts):
             if t in self._cache:
                 results.append(self._cache[t])
@@ -784,33 +795,40 @@ class SemanticRetriever:
                 results.append(None)
                 miss_idx.append(i)
                 miss_texts.append(t)
-
+        
         if miss_texts:
-            embs = self._model.encode(
-                miss_texts,
-                normalize_embeddings=True,
-                convert_to_numpy=True,
-                show_progress_bar=False,
-            )
             for local_i, global_i in enumerate(miss_idx):
-                vec = embs[local_i]
-                if len(self._cache) >= EMBED_CACHE_SIZE:
-                    self._cache.pop(next(iter(self._cache)))
-                self._cache[miss_texts[local_i]] = vec
-                results[global_i] = vec
-
+                text = miss_texts[local_i]
+                try:
+                    response = self._client.models.embed_content(
+                        model=self._model_name,
+                        contents=text
+                    )
+                    vec = np.array(response.embeddings[0].values, dtype=np.float32)
+                    vec = vec / np.linalg.norm(vec)  # normalize
+                    
+                    if len(self._cache) >= EMBED_CACHE_SIZE:
+                        self._cache.pop(next(iter(self._cache)))
+                    self._cache[text] = vec
+                    results[global_i] = vec
+                except Exception as e:
+                    log.error(f"Gemini encoding failed: {e}")
+                    results[global_i] = np.zeros(VECTOR_DIMENSIONS, dtype=np.float32)
+        
         valid = [r for r in results if r is not None]
         return np.vstack(valid) if valid else np.empty((0, VECTOR_DIMENSIONS))
+
+    def encode(self, texts: List[str]) -> np.ndarray:
+        return self._encode_gemini(texts)
+
+    def encode_passage(self, texts: List[str]) -> np.ndarray:
+        return self._encode_gemini(texts)
 
     def search(
         self,
         variants: List[str],
         top_k: int,
     ) -> Dict[str, RetrievedChunk]:
-        """
-        Always searches the FULL corpus (no chunk_filter).
-        Graph boost is applied during fusion, not here.
-        """
         if not variants:
             return {}
 
@@ -841,7 +859,11 @@ class SemanticRetriever:
             """
             try:
                 with driver.session() as sess:
-                    for rec in sess.run(cypher, {"index": NEO4J_VECTOR_INDEX, "k": top_k, "vec": vec.tolist()}):
+                    for rec in sess.run(cypher, {
+                        "index": NEO4J_VECTOR_INDEX,
+                        "k": top_k,
+                        "vec": vec.tolist()
+                    }):
                         cid = rec["cid"]
                         sim = float(rec["sim"])
                         if cid and (cid not in candidates or sim > candidates[cid].sem_score):
@@ -865,7 +887,7 @@ class SemanticRetriever:
                 log.warning(f"Vector search error: {e}")
 
         return candidates
-
+    
 
 # ══════════════════════════════════════════════════════════════
 # BM25 RETRIEVER — global index, no hard filter
@@ -1009,15 +1031,11 @@ def fuse_results(
 
         score = W_SEM * sem + W_BM25 * bm
 
-        # Language-aware scoring (stronger than v15)
+        # Language-aware scoring: REWARD only, NO PENALTY
         meta = d["meta"] if isinstance(d["meta"], dict) else {}
         chunk_lang = meta.get("language", "")
         if chunk_lang and chunk_lang == query_lang:
             score += LANG_EXACT_BOOST
-        elif chunk_lang and chunk_lang != query_lang and query_lang in ("ar", "fr", "en"):
-            # Only penalise if chunk has a clear different language
-            if chunk_lang in ("ar", "fr", "en") and chunk_lang != query_lang:
-                score -= LANG_MISMATCH_PEN
 
         # Soft graph boost
         gb, level = boost_map.get(cid, (0.0, -1))
@@ -1071,12 +1089,11 @@ class Reranker:
             raw = 1.0 / (1.0 + float(np.exp(-float(logit))))
             cal = raw ** RERANK_POWER
 
-            # Language-aware reranker adjustment
+            # ⚠️ لا تعاقب عدم تطابق اللغة - LaBSE/Gemini يتعامل مع هذا
+            # فقط كافئ تطابق اللغة بشكل طفيف
             chunk_lang = chunk.metadata.get("language", "")
             if query_lang and chunk_lang == query_lang:
-                cal = min(1.0, cal + 0.05)   # reward language match
-            elif query_lang and chunk_lang and chunk_lang != query_lang:
-                cal = max(0.0, cal - 0.04)   # soft penalise mismatch
+                cal = min(1.0, cal + 0.03)   # مكافأة صغيرة فقط
 
             chunk.rerank_raw = raw
             chunk.rerank_cal = cal
@@ -1088,7 +1105,6 @@ class Reranker:
             reverse=True,
         )
         return kept[:top_k]
-
 
 # ══════════════════════════════════════════════════════════════
 # FALLBACK MANAGER — staged fallback strategy
@@ -1169,6 +1185,7 @@ class RAGRetriever:
         self.graph     = AcademicGraph()
         self.semantic  = SemanticRetriever()
         self.bm25      = BM25Retriever()
+        
         self.reranker  = Reranker()
         self.fallback  = FallbackManager(self.semantic, self.bm25, self.reranker, self.graph)
 
@@ -1242,10 +1259,21 @@ class RAGRetriever:
             if intent in ("person_lookup", "node_query") or len(query.split()) <= 2
             else RERANK_MIN_CAL
         )
+        
+        if lang == "ar":
+            rerank_weight = 0.35   # Arabic: trust embedding more than reranker
+        else:
+            rerank_weight = W_RERANK   # 0.55 for other languages
+        
         reranked = self.reranker.rerank(
             query, fused[:TOP_K_RERANK], top_k=TOP_K_RERANK,
             min_cal=rerank_min, query_lang=lang,
         )
+        
+        if lang == "ar":
+            for chunk in reranked:
+                chunk.score = W_FUSED * chunk.fused_score + rerank_weight * chunk.rerank_cal
+            reranked.sort(key=lambda c: c.score, reverse=True)
 
         if not reranked:
             log.warning("   ⚠️ Reranker dropped everything → using top fused")
@@ -1368,12 +1396,31 @@ def retrieve_for_llm(query: str, top_k: int = TOP_K_FINAL) -> List[Dict]:
     if not chunks:
         return []
 
+    # ✨ احسب أفضل score للـ chunks
+    best_score = chunks[0].score if chunks else 0.0
+    
+    # ✨ حد أدنى للـ score النسبي: 70% من أفضل score
+    MIN_RELATIVE_SCORE = 0.70
+    min_score_threshold = best_score * MIN_RELATIVE_SCORE
+
     result = []
+    seen_urls = set()
+    
     for c in chunks:
+        # ✨ تخطي الـ chunks الضعيفة جداً
+        if c.score < min_score_threshold:
+            continue
+            
         meta = c.metadata or {}
-        # Prefer page_url (the HTML page) over raw URL (may be PDF internal)
         source_url = meta.get("page_url") or meta.get("url") or ""
         pdf_url    = meta.get("pdf_url") or ""
+
+        # ✨ تجنب تكرار نفس المصدر
+        canonical_url = source_url or pdf_url
+        if canonical_url and canonical_url in seen_urls:
+            continue
+        if canonical_url:
+            seen_urls.add(canonical_url)
 
         result.append({
             "chunk_id":    c.chunk_id,
@@ -1395,10 +1442,11 @@ def retrieve_for_llm(query: str, top_k: int = TOP_K_FINAL) -> List[Dict]:
         })
 
     if result:
-        result[0]["llm_context"] = _format_context(chunks)
+        result[0]["llm_context"] = _format_context(
+            [c for c in chunks if c.score >= min_score_threshold][:len(result)]
+        )
 
     return result
-
 
 def search_nodes(query: str, node_type: Optional[str] = None) -> List[Dict]:
     return _get_retriever().search_nodes(query, node_type)
@@ -1428,8 +1476,11 @@ def _format_context(chunks: List[RetrievedChunk]) -> str:
         pdf_url    = meta.get("pdf_url") or ""
         stype      = meta.get("source_type", "")
         level_tag  = f" [graph_depth={c.node_level}]" if c.node_level >= 0 else ""
+        
+        # ✨ أضف درجة الثقة
+        score_tag  = f" [score={c.score:.2f}]"
 
-        lines = [f"[{i}] {title}{level_tag}"]
+        lines = [f"[{i}] {title}{level_tag}{score_tag}"]
 
         # Clear source identification
         if stype == "pdf" and pdf_url:
@@ -1443,7 +1494,6 @@ def _format_context(chunks: List[RetrievedChunk]) -> str:
         blocks.append("\n".join(lines))
 
     return sep.join(blocks)
-
 
 # ══════════════════════════════════════════════════════════════
 # CLI
