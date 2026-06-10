@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\b06ba934_URBA_Sétif_2016-2021.pdf",
+      "name": "b06ba934_URBA_Sétif_2016-2021.pdf",
+      "type": "pdf",
+      "size_bytes": 1346512,
+      "id": "cf433dd8"
+    },
+    "extracted_at": "2026-06-10T12:48:20.013954"
+  },
+  "content": {
+    "text": "\n\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      },
+      {
+        "page": 4,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

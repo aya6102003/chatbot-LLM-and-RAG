@@ -1,0 +1,576 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\9504d14f_Génie_électrochimique.pdf",
+      "name": "9504d14f_Génie_électrochimique.pdf",
+      "type": "pdf",
+      "size_bytes": 450184,
+      "id": "ac488d94"
+    },
+    "extracted_at": "2026-06-10T12:41:37.411213"
+  },
+  "content": {
+    "text": "Master Génie Electrochimique (PROFESSIONNALISANT) \n Semestre 1 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCrédits : 10 \nCoef : 05 \nBases de l’électrochimie organique \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nElectrodes modifiées et \nélectrocatalyse \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nCapteurs électrochimiques \n2 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Fondamentale \nCrédits : 08 \nCoef : 04 \nMéthodes physico-chimiques \nd’analyse 1 \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nPhénomènes de surfaces et catalyse \nhétérogène. \n4 \n2 \n1h30 \n1h30 \n \n22h30 \n40% \n60% \nUE Méthodologie \nCrédits : 09 \nCoef : 05 \nTPMéthodes physico-chimiques \nd’analyse 1 \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Bases de l’électrochimie \norganique \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \n2Méthodes électrochimiques \nd’analyse \n5 \n3 \n1h30 \n1h30 \n1h00 \n60h00 \n40% \n60% \nUE Transversale \nCrédits : 1 \nCoefficients : 1 \nAnglais 1 \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Découverte \nCrédits : 2 \nCoefficients : 2 \nInformatique 1 \n2 \n2 \n1h30 \n \n1h30 \n45h00 \n40% \n60% \nTotal semestre 1 \n30 \n17 \n12h00 \n7h30 \n5h30 \n375h00 \n \n \n \n \n \n\n Semestre 2 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCrédits : 10 \nCoef : 05 \nMéthodes d’élaboration des \nmatériaux \n6 \n3 \n3h00 \n1h30 \n \n45h00 \n34% \n66% \nModes de corrosion \n4 \n2 \n1h30 \n1h30 \n \n67h30 \n40% \n60% \nUE Fondamentale \nCrédits : 8 \nCoef : 4 \nMéthodes physico-chimiques \nd’analyse 2 \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nRéacteurs électrochimiques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologie \nCrédits : 9 \nCoef : 5 \nTP Méthodes d’élaboration des \nmatériaux \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Méthodes physico-chimiques \nd’analyse 2 \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nSpectroscopie des impédances \n5 \n3 \n1h30 \n1h30 \n1h00 \n60h00 \n40% \n60% \nUE Découverte \nCrédits : 2 \nCoefficients : 2 \nInformatique 2 \n2 \n2 \n1h30 \n \n1h30 \n45h00 \n40% \n60% \nUE Transversale \nCrédits : 1 \nCoefficients : 1 \nAnglais 2 \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 2 \n30 \n17 \n12h00 \n7h30 \n6h00 \n375h00 \n \n \n \n \n \n \n \n \n \n \n\n Semestre 3 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCrédits : 12 \nCoef : 6 \nElectrochimie des solides \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nSemi-coducteurs \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nProcessus aux Electrodes \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCrédits : 6 \nCoef : 3 \nSynthèse électrochimiques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nGénérateurs  électrochimiques \n2 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Méthodologie \nCrédits : 9 \nCoef : 5 \nMatière 1 : TP Synthèse \nélectrochimiques \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nMatière2: TP Semi-coducteurs \n1 \n1 \n \n \n1h00 \n15h00 \n100% \n \nMatière3: TP Processus aux \nElectrodes \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nMatière4 : TP Générateurs  \nélectrochimiques \n4 \n2 \n \n \n3h00 \n45h00 \n100% \n \nUE Transversale \nCrédits : 1 \nCoef : 1 \nAnglais3 \n1 \n1 \n1h30 \n \n \n22h30 \n100% \n \nUE Découverte \nCrédits : 2 \nCoef : 2 \nCommunication et management \ndans les entreprises \n2 \n2 \n1h30 \n \n \n22h30 \n100% \n \nTotal semestre 3 \n30 \n17 \n10h30 \n6h00 \n7h30 \n375h00 \n \n \n \n \n \n \n \n \n\n Semestre 4  \nStage en entreprise sanctionné par un mémoire et une soutenance. \n \n \nVHS \nCoeff \nCrédits \nTravail Personnel \n550 \n09 \n18 \nStage en entreprise \n100 \n04 \n06 \nSéminaires \n50 \n02 \n03 \nAutre (Encadrement) \n50 \n02 \n03 \nTotal Semestre 4 \n750 \n17 \n30 \n \nEvaluation du Projet de Fin de Cycle de Master \n \n -Valeur scientifique (Appréciation du jury)                                    /6 \n -Rédaction du Mémoire (Appréciation du jury)                             /4 \n -Présentation et réponse aux questions (Appréciation du jury)    /4 \n -Appréciation de l’encadreur                                                         /3 \n -Présentation du rapport de stage (Appréciation du jury)             /3 \n \n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Master Génie Electrochimique (PROFESSIONNALISANT) \n Semestre 1 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCrédits : 10 \nCoef : 05 \nBases de l’électrochimie organique \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nElectrodes modifiées et \nélectrocatalyse \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nCapteurs électrochimiques \n2 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Fondamentale \nCrédits : 08 \nCoef : 04 \nMéthodes physico-chimiques \nd’analyse 1 \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nPhénomènes de surfaces et catalyse \nhétérogène. \n4 \n2 \n1h30 \n1h30 \n \n22h30 \n40% \n60% \nUE Méthodologie \nCrédits : 09 \nCoef : 05 \nTPMéthodes physico-chimiques \nd’analyse 1 \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Bases de l’électrochimie \norganique \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \n2Méthodes électrochimiques \nd’analyse \n5 \n3 \n1h30 \n1h30 \n1h00 \n60h00 \n40% \n60% \nUE Transversale \nCrédits : 1 \nCoefficients : 1 \nAnglais 1 \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Découverte \nCrédits : 2 \nCoefficients : 2 \nInformatique 1 \n2 \n2 \n1h30 \n \n1h30 \n45h00 \n40% \n60% \nTotal semestre 1 \n30 \n17 \n12h00 \n7h30 \n5h30 \n375h00"
+      },
+      {
+        "page": 2,
+        "text": " Semestre 2 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCrédits : 10 \nCoef : 05 \nMéthodes d’élaboration des \nmatériaux \n6 \n3 \n3h00 \n1h30 \n \n45h00 \n34% \n66% \nModes de corrosion \n4 \n2 \n1h30 \n1h30 \n \n67h30 \n40% \n60% \nUE Fondamentale \nCrédits : 8 \nCoef : 4 \nMéthodes physico-chimiques \nd’analyse 2 \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nRéacteurs électrochimiques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologie \nCrédits : 9 \nCoef : 5 \nTP Méthodes d’élaboration des \nmatériaux \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Méthodes physico-chimiques \nd’analyse 2 \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nSpectroscopie des impédances \n5 \n3 \n1h30 \n1h30 \n1h00 \n60h00 \n40% \n60% \nUE Découverte \nCrédits : 2 \nCoefficients : 2 \nInformatique 2 \n2 \n2 \n1h30 \n \n1h30 \n45h00 \n40% \n60% \nUE Transversale \nCrédits : 1 \nCoefficients : 1 \nAnglais 2 \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 2 \n30 \n17 \n12h00 \n7h30 \n6h00 \n375h00"
+      },
+      {
+        "page": 3,
+        "text": " Semestre 3 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCrédits : 12 \nCoef : 6 \nElectrochimie des solides \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nSemi-coducteurs \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nProcessus aux Electrodes \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCrédits : 6 \nCoef : 3 \nSynthèse électrochimiques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nGénérateurs  électrochimiques \n2 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Méthodologie \nCrédits : 9 \nCoef : 5 \nMatière 1 : TP Synthèse \nélectrochimiques \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nMatière2: TP Semi-coducteurs \n1 \n1 \n \n \n1h00 \n15h00 \n100% \n \nMatière3: TP Processus aux \nElectrodes \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nMatière4 : TP Générateurs  \nélectrochimiques \n4 \n2 \n \n \n3h00 \n45h00 \n100% \n \nUE Transversale \nCrédits : 1 \nCoef : 1 \nAnglais3 \n1 \n1 \n1h30 \n \n \n22h30 \n100% \n \nUE Découverte \nCrédits : 2 \nCoef : 2 \nCommunication et management \ndans les entreprises \n2 \n2 \n1h30 \n \n \n22h30 \n100% \n \nTotal semestre 3 \n30 \n17 \n10h30 \n6h00 \n7h30 \n375h00"
+      },
+      {
+        "page": 4,
+        "text": " Semestre 4  \nStage en entreprise sanctionné par un mémoire et une soutenance. \n \n \nVHS \nCoeff \nCrédits \nTravail Personnel \n550 \n09 \n18 \nStage en entreprise \n100 \n04 \n06 \nSéminaires \n50 \n02 \n03 \nAutre (Encadrement) \n50 \n02 \n03 \nTotal Semestre 4 \n750 \n17 \n30 \n \nEvaluation du Projet de Fin de Cycle de Master \n \n -Valeur scientifique (Appréciation du jury)                                    /6 \n -Rédaction du Mémoire (Appréciation du jury)                             /4 \n -Présentation et réponse aux questions (Appréciation du jury)    /4 \n -Appréciation de l’encadreur                                                         /3 \n -Présentation du rapport de stage (Appréciation du jury)             /3"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire hebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire hebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCrédits : 10\nCoef : 05",
+            "Matières": "Bases de l’électrochimie organique",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCrédits : 10\nCoef : 05",
+            "Matières": "Electrodes modifiées et\nélectrocatalyse",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCrédits : 10\nCoef : 05",
+            "Matières": "Capteurs électrochimiques",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCrédits : 08\nCoef : 04",
+            "Matières": "Méthodes physico-chimiques\nd’analyse 1",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCrédits : 08\nCoef : 04",
+            "Matières": "Phénomènes de surfaces et catalyse\nhétérogène.",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologie\nCrédits : 09\nCoef : 05",
+            "Matières": "TPMéthodes physico-chimiques\nd’analyse 1",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologie\nCrédits : 09\nCoef : 05",
+            "Matières": "TP Bases de l’électrochimie\norganique",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologie\nCrédits : 09\nCoef : 05",
+            "Matières": "2Méthodes électrochimiques\nd’analyse",
+            "Crédits": "5",
+            "Coefficient": "3",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "60h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Anglais 1",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Informatique 1",
+            "Crédits": "2",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 1",
+            "Matières": "Total semestre 1",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire hebdomadaire": "12h00",
+            "column_5": "7h30",
+            "column_6": "5h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire hebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "Intitulé",
+            "Crédits": "Intitulé",
+            "Coefficient": "Intitulé",
+            "Volume horaire hebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCrédits : 10\nCoef : 05",
+            "Matières": "Méthodes d’élaboration des\nmatériaux",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire hebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "34%",
+            "column_9": "66%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCrédits : 10\nCoef : 05",
+            "Matières": "Modes de corrosion",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCrédits : 8\nCoef : 4",
+            "Matières": "Méthodes physico-chimiques\nd’analyse 2",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCrédits : 8\nCoef : 4",
+            "Matières": "Réacteurs électrochimiques",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologie\nCrédits : 9\nCoef : 5",
+            "Matières": "TP Méthodes d’élaboration des\nmatériaux",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologie\nCrédits : 9\nCoef : 5",
+            "Matières": "TP Méthodes physico-chimiques\nd’analyse 2",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologie\nCrédits : 9\nCoef : 5",
+            "Matières": "Spectroscopie des impédances",
+            "Crédits": "5",
+            "Coefficient": "3",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "60h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Informatique 2",
+            "Crédits": "2",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Anglais 2",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 2",
+            "Matières": "Total semestre 2",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire hebdomadaire": "12h00",
+            "column_5": "7h30",
+            "column_6": "6h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 3,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire hebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire hebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCrédits : 12\nCoef : 6",
+            "Matières": "Electrochimie des solides",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCrédits : 12\nCoef : 6",
+            "Matières": "Semi-coducteurs",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCrédits : 12\nCoef : 6",
+            "Matières": "Processus aux Electrodes",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCrédits : 6\nCoef : 3",
+            "Matières": "Synthèse électrochimiques",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCrédits : 6\nCoef : 3",
+            "Matières": "Générateurs électrochimiques",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologie\nCrédits : 9\nCoef : 5",
+            "Matières": "Matière 1 : TP Synthèse\nélectrochimiques",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologie\nCrédits : 9\nCoef : 5",
+            "Matières": "Matière2: TP Semi-coducteurs",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "15h00",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologie\nCrédits : 9\nCoef : 5",
+            "Matières": "Matière3: TP Processus aux\nElectrodes",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologie\nCrédits : 9\nCoef : 5",
+            "Matières": "Matière4 : TP Générateurs\nélectrochimiques",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "2",
+            "column_5": "2",
+            "column_6": "3h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCrédits : 1\nCoef : 1",
+            "Matières": "Anglais3",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCrédits : 2\nCoef : 2",
+            "Matières": "Communication et management\ndans les entreprises",
+            "Crédits": "2",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 3",
+            "Matières": "Total semestre 3",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire hebdomadaire": "10h30",
+            "column_5": "6h00",
+            "column_6": "7h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 4,
+        "table_index": 0,
+        "headers": [
+          "column_0",
+          "VHS",
+          "Coeff",
+          "Crédits"
+        ],
+        "rows": [
+          {
+            "column_0": "Travail Personnel",
+            "VHS": "550",
+            "Coeff": "09",
+            "Crédits": "18"
+          },
+          {
+            "column_0": "Stage en entreprise",
+            "VHS": "100",
+            "Coeff": "04",
+            "Crédits": "06"
+          },
+          {
+            "column_0": "Séminaires",
+            "VHS": "50",
+            "Coeff": "02",
+            "Crédits": "03"
+          },
+          {
+            "column_0": "Autre (Encadrement)",
+            "VHS": "50",
+            "Coeff": "02",
+            "Crédits": "03"
+          },
+          {
+            "column_0": "Total Semestre 4",
+            "VHS": "750",
+            "Coeff": "17",
+            "Crédits": "30"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

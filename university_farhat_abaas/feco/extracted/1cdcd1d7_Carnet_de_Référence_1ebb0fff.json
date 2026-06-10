@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\images\\1cdcd1d7_Carnet_de_Référence.jpg",
+      "name": "1cdcd1d7_Carnet_de_Référence.jpg",
+      "type": "image",
+      "size_bytes": 77249,
+      "id": "1ebb0fff"
+    },
+    "extracted_at": "2026-06-10T12:51:57.800124"
+  },
+  "content": {
+    "text": "CARNET DE\nREFERENCE\n‏‏لك‎ | ADEQUATION‏\n=>] FORMATION\nEMPLOI",
+    "pages": [],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

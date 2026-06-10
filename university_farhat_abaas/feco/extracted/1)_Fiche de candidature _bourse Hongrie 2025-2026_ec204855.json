@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\docs\\1)_Fiche de candidature _bourse Hongrie 2025-2026.docx",
+      "name": "1)_Fiche de candidature _bourse Hongrie 2025-2026.docx",
+      "type": "docx",
+      "size_bytes": 92325,
+      "id": "ec204855"
+    },
+    "extracted_at": "2026-06-10T12:50:23.445145"
+  },
+  "content": {
+    "text": "Fiche de candidature à une bourse d’études en Hongrie\nau titre de l’année universitaire 2025-2026\nInformations sur le candidat\nNOM (en lettres majuscules en français) : …………………….................\nPrénom (en français) : ……………………….…\nNOM de jeune fille (en lettres majuscules) : …………….………\nDate de naissance :  - - / - - / - - - -                \nLieu de naissance : …………...............................……..… Wilaya de naissance : ….......………………….\nSituation de famille: …………\nAdresse personnelle : ………………………………………………………………………………..……\nTél mobile :…………\nE-mail :…………\nNuméro du passeport : …………......................................\nDate de délivrance du passeport : - - / - - / - - - - \nDernier diplôme obtenu : ………….....................\nDate de l’obtention du dernier diplôme : - -/- -/- - - -\nLieu d’obtention du dernier diplôme : …………...............................\nNom de l’établissement d’origine en Algérie : ………………….................................\nDomaine : …………...............\nFilière : ……………………………….\nSpécialité : ………………………………………………………………\nRemarque : La fiche est à remplir en caractères typographiques.\nInformations sur les notes obtenues durant le cursus universitaire\nJoindre les relevés de notes et l’attestation de majors.\nVisa de l’établissement",
+    "pages": [],
+    "tables": [
+      {
+        "type": "table",
+        "table_index": 0,
+        "headers": [
+          "Année universitaire",
+          "Candidat au MASTER",
+          "Candidat au PHD"
+        ],
+        "rows": [
+          {
+            "Année universitaire": "Moyenne L1",
+            "Candidat au MASTER": "",
+            "Candidat au PHD": ""
+          },
+          {
+            "Année universitaire": "Moyenne L2",
+            "Candidat au MASTER": "",
+            "Candidat au PHD": ""
+          },
+          {
+            "Année universitaire": "Moyenne L3",
+            "Candidat au MASTER": "",
+            "Candidat au PHD": ""
+          },
+          {
+            "Année universitaire": "Moyenne M1",
+            "Candidat au MASTER": "",
+            "Candidat au PHD": ""
+          },
+          {
+            "Année universitaire": "Moyenne du cursus",
+            "Candidat au MASTER": "",
+            "Candidat au PHD": ""
+          }
+        ],
+        "extraction_method": "docx_direct"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

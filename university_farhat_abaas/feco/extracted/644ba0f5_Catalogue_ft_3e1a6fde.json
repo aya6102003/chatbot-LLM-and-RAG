@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\images\\644ba0f5_Catalogue_ft.png",
+      "name": "644ba0f5_Catalogue_ft.png",
+      "type": "image",
+      "size_bytes": 34321,
+      "id": "3e1a6fde"
+    },
+    "extracted_at": "2026-06-10T12:53:03.330626"
+  },
+  "content": {
+    "text": "Catalogue\n\nFaculte\n\nTechnologie",
+    "pages": [],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

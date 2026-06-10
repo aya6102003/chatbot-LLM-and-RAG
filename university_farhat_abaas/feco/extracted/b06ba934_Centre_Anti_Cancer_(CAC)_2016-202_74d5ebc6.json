@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\b06ba934_Centre_Anti_Cancer_(CAC)_2016-202.pdf",
+      "name": "b06ba934_Centre_Anti_Cancer_(CAC)_2016-202.pdf",
+      "type": "pdf",
+      "size_bytes": 1392753,
+      "id": "74d5ebc6"
+    },
+    "extracted_at": "2026-06-10T12:48:18.595274"
+  },
+  "content": {
+    "text": "\n\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      },
+      {
+        "page": 4,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

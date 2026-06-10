@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\PJ. Jordanie.pdf",
+      "name": "PJ. Jordanie.pdf",
+      "type": "pdf",
+      "size_bytes": 1629901,
+      "id": "efff656f"
+    },
+    "extracted_at": "2026-06-10T12:50:23.099658"
+  },
+  "content": {
+    "text": "\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

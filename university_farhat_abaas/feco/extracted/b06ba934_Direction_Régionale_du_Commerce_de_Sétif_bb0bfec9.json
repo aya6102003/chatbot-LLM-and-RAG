@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\b06ba934_Direction_Régionale_du_Commerce_de_Sétif.pdf",
+      "name": "b06ba934_Direction_Régionale_du_Commerce_de_Sétif.pdf",
+      "type": "pdf",
+      "size_bytes": 984108,
+      "id": "bb0bfec9"
+    },
+    "extracted_at": "2026-06-10T12:48:19.176285"
+  },
+  "content": {
+    "text": "\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\ab752668_صنع_أختام_الدولة.pdf",
+      "name": "ab752668_صنع_أختام_الدولة.pdf",
+      "type": "pdf",
+      "size_bytes": 538199,
+      "id": "18606e28"
+    },
+    "extracted_at": "2026-06-10T12:45:32.409681"
+  },
+  "content": {
+    "text": "\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

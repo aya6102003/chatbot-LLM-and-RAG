@@ -1,0 +1,612 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\9504d14f_Génie_chimique.pdf",
+      "name": "9504d14f_Génie_chimique.pdf",
+      "type": "pdf",
+      "size_bytes": 375245,
+      "id": "e4d9b363"
+    },
+    "extracted_at": "2026-06-10T12:41:20.444064"
+  },
+  "content": {
+    "text": "Master Génie Chimique (ACADEMIQUE) \n Semestre 1 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.1.1 \nCrédits : 10 \nCoefficients : 5 \nOpérations unitaires I   \n(Absorption-Strippage_ Extraction- \nmélangeage) \n \n6 \n \n \n3 \n \n \n3h00 \n \n1h30 \n \n67h30 \n40% \n60% \nGénie de la réaction I : réacteurs \nnon-idéaux et bioréacteurs \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.1.2 \nCrédits : 8 \nCoefficients : 4 \nThermodynamique appliquée \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nTransfert thermique et Echangeurs \nde chaleur  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.1 \nCrédits : 9 \nCoefficients : 5 \nTP Opérations unitaires I  \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Génie de la réaction I \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Transfert thermique et \nEchangeurs de chaleur \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nSimulateurs en Génie des procédés \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nUE Découverte \nCode : UED 1.1 \nCrédits : 2 \nCoefficients : 2 \nMéthodes Physico-Chimiques \nd’analyse \n1 \n1 \n1h30 \n \n \n22h30 \n \n \n \n100% \nEnergies renouvelables \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.1 \nCrédits : 1 \nCoefficients : 1 \nAnglais technique et terminologie \n1 \n1 \n1h30 \n \n \n22h30 \n \n \n \n100% \nTotal semestre 1 \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00 \n \n \n \n \n \n\n Semestre 2 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.2.1 \nCrédits : 10 \nCoefficients : 5 \nOpérations unitaires 2  \n(Humidification-Séchage-\nEvaporation-Cristallisation) \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nProcédés d’Adsorption et séparation \nMembranaire \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.2.2 \nCrédits : 8 \nCoefficients : 4 \nGénie de la réaction II : réacteurs \npoly-phasiques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nFours et Chaudières \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.2 \nCrédits : 9 \nCoefficients : 5 \nTP Opérations unitaires 2, Procédés \nd’adsorption et séparation \nMembranaire \n1 \n1 \n \n \n1h30 \n22h30 \n100% \n \nRégulation et commande des procédés \n4 \n2 \n1h30 \n1h00 \n \n37h30 \n40% \n60% \nAnalyse Numérique \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Découverte \nCode : UED 1.2 \nCrédits : 2 \nCoefficients : 2 \nCorrosion et protection des \néquipements \n1 \n1 \n1h30 \n \n \n22h30 \n \n \n \n100% \n \nBiomasse et Biocarburants \n \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.2 \nCrédits : 1 \nCoefficients : 1 \nEthique, déontologie et propriété \nintellectuelle \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 2 \n30 \n17 \n15h00 \n8h30 \n1h30 \n375h00 \n \n \n \n \n \n \n \n\n Semestre 3 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.1.1 \nCrédits : 12 \nCoefficients : 6 \nDistillation \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nRaffinage  et pétrochimie \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nMilieux poreux et dispersés \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 2.1.2 \nCrédits : 6 \nCoefficients : 3 \nOptimisation et Modélisation des \nprocédés \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nIntensification des procédés \n2 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Méthodologique \nCode : UEM 2.1 \nCrédits : 9 \nCoefficients : 5 \nTP Distillation  \n1 \n1 \n \n1h30 \n22h30 \n100% \nTP Raffinage  et pétrochimie \n2 \n1 \n \n1h30 \n22h30 \n100% \nTP Milieux poreux et dispersés \n2 \n1 \n \n1h30 \n22h30 \n100% \nPlan d’expériences \n4 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nUE Découverte \nCode : UED 2.1 \nCrédits : 2 \nCoefficients : 2 \nCapteurs chimiques et \nBiochimiques \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nBiopiles \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 2.1 \nCrédits : 1 \nCoefficients : 1 \nRecherche documentaire et \nconception de mémoire \n1 \n \n1 \n \n1h30 \n \n \n \n22h30 \n \n \n100% \n \nTotal semestre 3 \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00 \n \n \n \n \n \n \n \n \n\n Semestre 4 :  \nStage en entreprise sanctionné par un mémoire et une soutenance. \n \n \nVHS \nCoeff \nCrédits \nTravail Personnel \n550 \n09 \n18 \nStage en entreprise \n100 \n04 \n06 \nSéminaires \n50 \n02 \n03 \nAutre (Encadrement) \n50 \n02 \n03 \nTotal Semestre 4 \n750 \n17 \n30 \n \nEvaluation du Projet de Fin de Cycle de Master \n \n -Valeur scientifique (Appréciation du jury)                                    /6 \n -Rédaction du Mémoire (Appréciation du jury)                             /4 \n -Présentation et réponse aux questions (Appréciation du jury)    /4 \n -Appréciation de l’encadreur                                                         /3 \n -Présentation du rapport de stage (Appréciation du jury)             /3 \n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Master Génie Chimique (ACADEMIQUE) \n Semestre 1 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.1.1 \nCrédits : 10 \nCoefficients : 5 \nOpérations unitaires I   \n(Absorption-Strippage_ Extraction- \nmélangeage) \n \n6 \n \n \n3 \n \n \n3h00 \n \n1h30 \n \n67h30 \n40% \n60% \nGénie de la réaction I : réacteurs \nnon-idéaux et bioréacteurs \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.1.2 \nCrédits : 8 \nCoefficients : 4 \nThermodynamique appliquée \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nTransfert thermique et Echangeurs \nde chaleur  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.1 \nCrédits : 9 \nCoefficients : 5 \nTP Opérations unitaires I  \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Génie de la réaction I \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Transfert thermique et \nEchangeurs de chaleur \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nSimulateurs en Génie des procédés \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nUE Découverte \nCode : UED 1.1 \nCrédits : 2 \nCoefficients : 2 \nMéthodes Physico-Chimiques \nd’analyse \n1 \n1 \n1h30 \n \n \n22h30 \n \n \n \n100% \nEnergies renouvelables \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.1 \nCrédits : 1 \nCoefficients : 1 \nAnglais technique et terminologie \n1 \n1 \n1h30 \n \n \n22h30 \n \n \n \n100% \nTotal semestre 1 \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00"
+      },
+      {
+        "page": 2,
+        "text": " Semestre 2 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.2.1 \nCrédits : 10 \nCoefficients : 5 \nOpérations unitaires 2  \n(Humidification-Séchage-\nEvaporation-Cristallisation) \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nProcédés d’Adsorption et séparation \nMembranaire \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.2.2 \nCrédits : 8 \nCoefficients : 4 \nGénie de la réaction II : réacteurs \npoly-phasiques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nFours et Chaudières \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.2 \nCrédits : 9 \nCoefficients : 5 \nTP Opérations unitaires 2, Procédés \nd’adsorption et séparation \nMembranaire \n1 \n1 \n \n \n1h30 \n22h30 \n100% \n \nRégulation et commande des procédés \n4 \n2 \n1h30 \n1h00 \n \n37h30 \n40% \n60% \nAnalyse Numérique \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Découverte \nCode : UED 1.2 \nCrédits : 2 \nCoefficients : 2 \nCorrosion et protection des \néquipements \n1 \n1 \n1h30 \n \n \n22h30 \n \n \n \n100% \n \nBiomasse et Biocarburants \n \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.2 \nCrédits : 1 \nCoefficients : 1 \nEthique, déontologie et propriété \nintellectuelle \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 2 \n30 \n17 \n15h00 \n8h30 \n1h30 \n375h00"
+      },
+      {
+        "page": 3,
+        "text": " Semestre 3 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.1.1 \nCrédits : 12 \nCoefficients : 6 \nDistillation \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nRaffinage  et pétrochimie \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nMilieux poreux et dispersés \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 2.1.2 \nCrédits : 6 \nCoefficients : 3 \nOptimisation et Modélisation des \nprocédés \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nIntensification des procédés \n2 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Méthodologique \nCode : UEM 2.1 \nCrédits : 9 \nCoefficients : 5 \nTP Distillation  \n1 \n1 \n \n1h30 \n22h30 \n100% \nTP Raffinage  et pétrochimie \n2 \n1 \n \n1h30 \n22h30 \n100% \nTP Milieux poreux et dispersés \n2 \n1 \n \n1h30 \n22h30 \n100% \nPlan d’expériences \n4 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nUE Découverte \nCode : UED 2.1 \nCrédits : 2 \nCoefficients : 2 \nCapteurs chimiques et \nBiochimiques \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nBiopiles \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 2.1 \nCrédits : 1 \nCoefficients : 1 \nRecherche documentaire et \nconception de mémoire \n1 \n \n1 \n \n1h30 \n \n \n \n22h30 \n \n \n100% \n \nTotal semestre 3 \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00"
+      },
+      {
+        "page": 4,
+        "text": " Semestre 4 :  \nStage en entreprise sanctionné par un mémoire et une soutenance. \n \n \nVHS \nCoeff \nCrédits \nTravail Personnel \n550 \n09 \n18 \nStage en entreprise \n100 \n04 \n06 \nSéminaires \n50 \n02 \n03 \nAutre (Encadrement) \n50 \n02 \n03 \nTotal Semestre 4 \n750 \n17 \n30 \n \nEvaluation du Projet de Fin de Cycle de Master \n \n -Valeur scientifique (Appréciation du jury)                                    /6 \n -Rédaction du Mémoire (Appréciation du jury)                             /4 \n -Présentation et réponse aux questions (Appréciation du jury)    /4 \n -Appréciation de l’encadreur                                                         /3 \n -Présentation du rapport de stage (Appréciation du jury)             /3"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire hebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire hebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Opérations unitaires I\n(Absorption-Strippage_ Extraction-\nmélangeage)",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire hebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Génie de la réaction I : réacteurs\nnon-idéaux et bioréacteurs",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Thermodynamique appliquée",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Transfert thermique et Echangeurs\nde chaleur",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Opérations unitaires I",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Génie de la réaction I",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Transfert thermique et\nEchangeurs de chaleur",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Simulateurs en Génie des procédés",
+            "Crédits": "3",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "37h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Méthodes Physico-Chimiques\nd’analyse",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Energies renouvelables",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 1.1\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Anglais technique et terminologie",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 1",
+            "Matières": "Total semestre 1",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire hebdomadaire": "13h30",
+            "column_5": "6h00",
+            "column_6": "5h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire hebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire hebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Opérations unitaires 2\n(Humidification-Séchage-\nEvaporation-Cristallisation)",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire hebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Procédés d’Adsorption et séparation\nMembranaire",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Génie de la réaction II : réacteurs\npoly-phasiques",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Fours et Chaudières",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Opérations unitaires 2, Procédés\nd’adsorption et séparation\nMembranaire",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Régulation et commande des procédés",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h00",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "37h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Analyse Numérique",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Corrosion et protection des\néquipements",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Biomasse et Biocarburants",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 1.2\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Ethique, déontologie et propriété\nintellectuelle",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 2",
+            "Matières": "Total semestre 2",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire hebdomadaire": "15h00",
+            "column_5": "8h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 3,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire hebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire hebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.1\nCrédits : 12\nCoefficients : 6",
+            "Matières": "Distillation",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.1\nCrédits : 12\nCoefficients : 6",
+            "Matières": "Raffinage et pétrochimie",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.1\nCrédits : 12\nCoefficients : 6",
+            "Matières": "Milieux poreux et dispersés",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.2\nCrédits : 6\nCoefficients : 3",
+            "Matières": "Optimisation et Modélisation des\nprocédés",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.2\nCrédits : 6\nCoefficients : 3",
+            "Matières": "Intensification des procédés",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Distillation",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Raffinage et pétrochimie",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Milieux poreux et dispersés",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Plan d’expériences",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "37h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 2.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Capteurs chimiques et\nBiochimiques",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 2.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Biopiles",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 2.1\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Recherche documentaire et\nconception de mémoire",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 3",
+            "Matières": "Total semestre 3",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire hebdomadaire": "13h30",
+            "column_5": "6h00",
+            "column_6": "5h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 4,
+        "table_index": 0,
+        "headers": [
+          "column_0",
+          "VHS",
+          "Coeff",
+          "Crédits"
+        ],
+        "rows": [
+          {
+            "column_0": "Travail Personnel",
+            "VHS": "550",
+            "Coeff": "09",
+            "Crédits": "18"
+          },
+          {
+            "column_0": "Stage en entreprise",
+            "VHS": "100",
+            "Coeff": "04",
+            "Crédits": "06"
+          },
+          {
+            "column_0": "Séminaires",
+            "VHS": "50",
+            "Coeff": "02",
+            "Crédits": "03"
+          },
+          {
+            "column_0": "Autre (Encadrement)",
+            "VHS": "50",
+            "Coeff": "02",
+            "Crédits": "03"
+          },
+          {
+            "column_0": "Total Semestre 4",
+            "VHS": "750",
+            "Coeff": "17",
+            "Crédits": "30"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\images\\1489dee7_Catalogue_fmedecine.png",
+      "name": "1489dee7_Catalogue_fmedecine.png",
+      "type": "image",
+      "size_bytes": 25056,
+      "id": "d4e49020"
+    },
+    "extracted_at": "2026-06-10T12:51:00.039847"
+  },
+  "content": {
+    "text": "Catalogue\n\nFaculte\n\nMédecine",
+    "pages": [],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

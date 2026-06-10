@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\b06ba934_Institut_National_Algérien_de_la_Proprié.pdf",
+      "name": "b06ba934_Institut_National_Algérien_de_la_Proprié.pdf",
+      "type": "pdf",
+      "size_bytes": 1610286,
+      "id": "4fc9f041"
+    },
+    "extracted_at": "2026-06-10T12:48:19.508907"
+  },
+  "content": {
+    "text": "\n\n\n\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      },
+      {
+        "page": 4,
+        "text": ""
+      },
+      {
+        "page": 5,
+        "text": ""
+      },
+      {
+        "page": 6,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

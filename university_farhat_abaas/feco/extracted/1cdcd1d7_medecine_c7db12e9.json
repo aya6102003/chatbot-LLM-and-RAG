@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\images\\1cdcd1d7_medecine.jpg",
+      "name": "1cdcd1d7_medecine.jpg",
+      "type": "image",
+      "size_bytes": 91370,
+      "id": "c7db12e9"
+    },
+    "extracted_at": "2026-06-10T12:52:10.232166"
+  },
+  "content": {
+    "text": "MEDECINE\nUNIVERSITAIRE",
+    "pages": [],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\ab752668_ارساليةرقم_375_بتاريخ_19_فيفري_2019_بخصو.pdf",
+      "name": "ab752668_ارساليةرقم_375_بتاريخ_19_فيفري_2019_بخصو.pdf",
+      "type": "pdf",
+      "size_bytes": 30462,
+      "id": "b9e2e4ec"
+    },
+    "extracted_at": "2026-06-10T12:45:07.062823"
+  },
+  "content": {
+    "text": "",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

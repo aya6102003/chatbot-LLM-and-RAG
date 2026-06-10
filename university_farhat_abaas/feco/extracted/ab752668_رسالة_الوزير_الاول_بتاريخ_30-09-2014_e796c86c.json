@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\ab752668_رسالة_الوزير_الاول_بتاريخ_30-09-2014.pdf",
+      "name": "ab752668_رسالة_الوزير_الاول_بتاريخ_30-09-2014.pdf",
+      "type": "pdf",
+      "size_bytes": 126293,
+      "id": "e796c86c"
+    },
+    "extracted_at": "2026-06-10T12:45:32.350838"
+  },
+  "content": {
+    "text": "",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

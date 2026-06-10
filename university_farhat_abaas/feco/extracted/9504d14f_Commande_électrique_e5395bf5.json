@@ -1,0 +1,648 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\9504d14f_Commande_électrique.pdf",
+      "name": "9504d14f_Commande_électrique.pdf",
+      "type": "pdf",
+      "size_bytes": 612786,
+      "id": "e5395bf5"
+    },
+    "extracted_at": "2026-06-10T12:40:36.014337"
+  },
+  "content": {
+    "text": "Master Commande  Electrique (ACADEMIQUE) \n Semestre  1 \nUnité d'enseignement \nMatières \nCrédits Coefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.1.1 \nCrédits : 10 \nCoefficients : 5 \nRéseaux  de transport et de distribution d’énergie \nélectrique \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nElectronique de puissance avancée \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n \n \nµ-processeurs et µ-contrôleurs  \n2 \n1 \n1h30 \n \n \n22h30 \n100% \nUE Fondamentale \nCode : UEF 1.1.2 \nCrédits : 8 \nCoefficients : 4 \nMachines électriques approfondies \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nMéthodes numériques appliquées et optimisation  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.1 \nCrédits : 9 \nCoefficients : 5 \nTP : - µ-processeurs et µ-contrôleurs \n1 \n1 \n \n \n1h00 \n15h00 \n100% \nTP : - Réseaux  de transport et de distribution \nd’énergie électrique \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP : - Electronique de puissance avancée \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP : Méthodes numériques appliquées et \noptimisation \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP : - machines électriques approfondies \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nUE Découverte \nCode : UED 1.1 \nCrédits : 2 \nCoefficients : 2 \nEnergies renouvelables \n \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nQualité de l’énergie électrique \n \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.1 \nCrédits : 1 \nCoefficients : 1 \nAnglais technique et terminologie \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 1 \n \n30 \n17 \n12h00 \n6h00 \n7h00 \n375h00 \n \n \n \n \n \n\n Semestre  2 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.2.1 \nCrédits : 10 \nCoefficients : 5 \nModélisation et identification des \nsystèmes électriques \n \n \n4 \n \n \n2 \n \n \n1h30 \n \n \n1h30 \n \n \n \n \n \n45h00 \n \n \n40% \n \n \n60% \n \nTechniques de la commande \nélectrique \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.2.2 \nCrédits : 8 \nCoefficients : 4 \nAsservissements échantillonnés et \nRégulation numérique \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nDiagnostic des défaillances des \nsystèmes de commande   \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.2 \nCrédits : 9 \nCoefficients : 5 \nTP  Modélisation et identification \ndes systèmes électriques \n2 \n1 \n \n \n \n1h30 \n22h30 \n100% \n \nTP Techniques de la commande \nélectrique \n3 \n2 \n \n \n2h30 \n37h30 \n100% \n \nTP Asservissements échantillonnés \net Régulation numérique \n2 \n1 \n \n \n \n1h30 \n22h30 \n100% \n \nTP Diagnostic des défaillances des \nsystèmes de commande   \n2 \n1 \n \n \n \n1h30 \n22h30 \n100% \n \nUE Découverte \nCode : UED 1.2 \nCrédits : 2 \nCoefficients : 2 \nMachines spéciales \n \n1 \n1 \n1h30 \n \n \n \n \n22h30 \n \n100% \nMatériaux d’électrotechnique et \nleurs applications \n \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.2 \nCrédits : 1 \nCoefficients : 1 \n \nEthique, déontologie et propriété \nintellectuelle \n \n1 \n \n \n1 \n \n \n1h30 \n \n \n \n22h30 \n \n100% \nTotal semestre 2 \n \n30 \n17 \n12h00 \n6h00 \n7h00 \n375h00 \n \n \n \n \n \n \n\n Semestre 3    \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.3.1 \nCrédits : 10 \nCoefficients : 5 \nCommande non linéaire \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nCommandes  Avancées \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.3.2 \nCrédits : 8 \nCoefficients : 4 \nTechniques d'intelligence \nartificielle \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nCommande électrique des \nmécanismes industriels \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.3 \nCrédits : 9 \nCoefficients : 5 \nTP Commande non linéaire \n2 \n1 \n \n1h30 \n22h30 \n100% \nTP Commandes  Avancées \n2 \n1 \n \n1h30 \n22h30 \n100% \nTP Techniques d'intelligence \nartificielle /TP Implémentation \nd’une commande numérique en \ntemps réel \n \n2 \n \n1 \n \n \n \n \n1h30 \n22h30 \n100% \n \nTP Commande électrique des \nmécanismes industriels \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP programmation des API \n1 \n1 \n \n1h00 \n15h00 \n100% \nUE Découverte \nCode : UED 1.3 \nCrédits : 2 \nCoefficients : 2 \nImplémentation d’une commande \nnumérique en temps réel \n \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nMaintenance et Sûreté de \nfonctionnement \n \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.3 \nCrédits : 1 \nCoefficients : 1 \n \nRecherche documentaire et \nconception de mémoire \n \n1 \n \n \n1 \n \n \n1h30 \n \n \n \n22h30 \n \n100% \nTotal semestre 3 \n \n30 \n17 \n12h00 \n6h00 \n7h00 \n375h00 \n \n \n \n \n \n\n Semestre  4 \nStage en entreprise sanctionné par un mémoire et une soutenance \n \nVHS \nCoeff \nCrédits \nTravail Personnel \n550 \n09 \n18 \nStage en entreprise \n100 \n04 \n06 \nSéminaires \n50 \n02 \n03 \nAutre (Encadrement) \n50 \n02 \n03 \nTotal Semestre 4 \n750 \n17 \n30 \n \nEvaluation du Projet de Fin de Cycle de Master \n - Valeur scientifique (Appréciation du jury)                                            /6 \n - Rédaction du Mémoire (Appréciation du jury)                                     /4 \n - Présentation et réponse aux questions (Appréciation du jury)             /4 \n - Appréciation de l’encadreur                                                                 /3 \n - Présentation du rapport de stage (Appréciation du jury)                    /3 \n \n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Master Commande  Electrique (ACADEMIQUE) \n Semestre  1 \nUnité d'enseignement \nMatières \nCrédits Coefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.1.1 \nCrédits : 10 \nCoefficients : 5 \nRéseaux  de transport et de distribution d’énergie \nélectrique \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nElectronique de puissance avancée \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n \n \nµ-processeurs et µ-contrôleurs  \n2 \n1 \n1h30 \n \n \n22h30 \n100% \nUE Fondamentale \nCode : UEF 1.1.2 \nCrédits : 8 \nCoefficients : 4 \nMachines électriques approfondies \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nMéthodes numériques appliquées et optimisation  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.1 \nCrédits : 9 \nCoefficients : 5 \nTP : - µ-processeurs et µ-contrôleurs \n1 \n1 \n \n \n1h00 \n15h00 \n100% \nTP : - Réseaux  de transport et de distribution \nd’énergie électrique \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP : - Electronique de puissance avancée \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP : Méthodes numériques appliquées et \noptimisation \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP : - machines électriques approfondies \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nUE Découverte \nCode : UED 1.1 \nCrédits : 2 \nCoefficients : 2 \nEnergies renouvelables \n \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nQualité de l’énergie électrique \n \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.1 \nCrédits : 1 \nCoefficients : 1 \nAnglais technique et terminologie \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 1 \n \n30 \n17 \n12h00 \n6h00 \n7h00 \n375h00"
+      },
+      {
+        "page": 2,
+        "text": " Semestre  2 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.2.1 \nCrédits : 10 \nCoefficients : 5 \nModélisation et identification des \nsystèmes électriques \n \n \n4 \n \n \n2 \n \n \n1h30 \n \n \n1h30 \n \n \n \n \n \n45h00 \n \n \n40% \n \n \n60% \n \nTechniques de la commande \nélectrique \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.2.2 \nCrédits : 8 \nCoefficients : 4 \nAsservissements échantillonnés et \nRégulation numérique \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nDiagnostic des défaillances des \nsystèmes de commande   \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.2 \nCrédits : 9 \nCoefficients : 5 \nTP  Modélisation et identification \ndes systèmes électriques \n2 \n1 \n \n \n \n1h30 \n22h30 \n100% \n \nTP Techniques de la commande \nélectrique \n3 \n2 \n \n \n2h30 \n37h30 \n100% \n \nTP Asservissements échantillonnés \net Régulation numérique \n2 \n1 \n \n \n \n1h30 \n22h30 \n100% \n \nTP Diagnostic des défaillances des \nsystèmes de commande   \n2 \n1 \n \n \n \n1h30 \n22h30 \n100% \n \nUE Découverte \nCode : UED 1.2 \nCrédits : 2 \nCoefficients : 2 \nMachines spéciales \n \n1 \n1 \n1h30 \n \n \n \n \n22h30 \n \n100% \nMatériaux d’électrotechnique et \nleurs applications \n \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.2 \nCrédits : 1 \nCoefficients : 1 \n \nEthique, déontologie et propriété \nintellectuelle \n \n1 \n \n \n1 \n \n \n1h30 \n \n \n \n22h30 \n \n100% \nTotal semestre 2 \n \n30 \n17 \n12h00 \n6h00 \n7h00 \n375h00"
+      },
+      {
+        "page": 3,
+        "text": " Semestre 3    \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.3.1 \nCrédits : 10 \nCoefficients : 5 \nCommande non linéaire \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nCommandes  Avancées \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.3.2 \nCrédits : 8 \nCoefficients : 4 \nTechniques d'intelligence \nartificielle \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nCommande électrique des \nmécanismes industriels \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.3 \nCrédits : 9 \nCoefficients : 5 \nTP Commande non linéaire \n2 \n1 \n \n1h30 \n22h30 \n100% \nTP Commandes  Avancées \n2 \n1 \n \n1h30 \n22h30 \n100% \nTP Techniques d'intelligence \nartificielle /TP Implémentation \nd’une commande numérique en \ntemps réel \n \n2 \n \n1 \n \n \n \n \n1h30 \n22h30 \n100% \n \nTP Commande électrique des \nmécanismes industriels \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP programmation des API \n1 \n1 \n \n1h00 \n15h00 \n100% \nUE Découverte \nCode : UED 1.3 \nCrédits : 2 \nCoefficients : 2 \nImplémentation d’une commande \nnumérique en temps réel \n \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nMaintenance et Sûreté de \nfonctionnement \n \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.3 \nCrédits : 1 \nCoefficients : 1 \n \nRecherche documentaire et \nconception de mémoire \n \n1 \n \n \n1 \n \n \n1h30 \n \n \n \n22h30 \n \n100% \nTotal semestre 3 \n \n30 \n17 \n12h00 \n6h00 \n7h00 \n375h00"
+      },
+      {
+        "page": 4,
+        "text": " Semestre  4 \nStage en entreprise sanctionné par un mémoire et une soutenance \n \nVHS \nCoeff \nCrédits \nTravail Personnel \n550 \n09 \n18 \nStage en entreprise \n100 \n04 \n06 \nSéminaires \n50 \n02 \n03 \nAutre (Encadrement) \n50 \n02 \n03 \nTotal Semestre 4 \n750 \n17 \n30 \n \nEvaluation du Projet de Fin de Cycle de Master \n - Valeur scientifique (Appréciation du jury)                                            /6 \n - Rédaction du Mémoire (Appréciation du jury)                                     /4 \n - Présentation et réponse aux questions (Appréciation du jury)             /4 \n - Appréciation de l’encadreur                                                                 /3 \n - Présentation du rapport de stage (Appréciation du jury)                    /3"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Réseaux de transport et de distribution d’énergie\nélectrique",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Electronique de puissance avancée",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "45h00",
+            "column_9": "45h00"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "µ-processeurs et µ-contrôleurs",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Machines électriques approfondies",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Méthodes numériques appliquées et optimisation",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP : - µ-processeurs et µ-contrôleurs",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "15h00",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP : - Réseaux de transport et de distribution\nd’énergie électrique",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP : - Electronique de puissance avancée",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP : Méthodes numériques appliquées et\noptimisation",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP : - machines électriques approfondies",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Energies renouvelables",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Qualité de l’énergie électrique",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 1.1\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Anglais technique et terminologie",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 1",
+            "Matières": "Total semestre 1",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "12h00",
+            "column_5": "6h00",
+            "column_6": "7h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "Intitulé",
+            "Crédits": "Intitulé",
+            "Coefficient": "Intitulé",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Modélisation et identification des\nsystèmes électriques",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Techniques de la commande\nélectrique",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Asservissements échantillonnés et\nRégulation numérique",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Diagnostic des défaillances des\nsystèmes de commande",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Modélisation et identification\ndes systèmes électriques",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Techniques de la commande\nélectrique",
+            "Crédits": "3",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "2",
+            "column_5": "2",
+            "column_6": "2h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "37h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Asservissements échantillonnés\net Régulation numérique",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Diagnostic des défaillances des\nsystèmes de commande",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Machines spéciales",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Matériaux d’électrotechnique et\nleurs applications",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 1.2\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Ethique, déontologie et propriété\nintellectuelle",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 2",
+            "Matières": "Total semestre 2",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "12h00",
+            "column_5": "6h00",
+            "column_6": "7h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 3,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "Intitulé",
+            "Crédits": "Intitulé",
+            "Coefficient": "Intitulé",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.3.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Commande non linéaire",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.3.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Commandes Avancées",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.3.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Techniques d'intelligence\nartificielle",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.3.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Commande électrique des\nmécanismes industriels",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.3\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Commande non linéaire",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.3\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Commandes Avancées",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.3\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Techniques d'intelligence\nartificielle /TP Implémentation\nd’une commande numérique en\ntemps réel",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.3\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Commande électrique des\nmécanismes industriels",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.3\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP programmation des API",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "15h00",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.3\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Implémentation d’une commande\nnumérique en temps réel",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.3\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Maintenance et Sûreté de\nfonctionnement",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 1.3\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Recherche documentaire et\nconception de mémoire",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 3",
+            "Matières": "Total semestre 3",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "12h00",
+            "column_5": "6h00",
+            "column_6": "7h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 4,
+        "table_index": 0,
+        "headers": [
+          "column_0",
+          "VHS",
+          "Coeff",
+          "Crédits"
+        ],
+        "rows": [
+          {
+            "column_0": "Travail Personnel",
+            "VHS": "550",
+            "Coeff": "09",
+            "Crédits": "18"
+          },
+          {
+            "column_0": "Stage en entreprise",
+            "VHS": "100",
+            "Coeff": "04",
+            "Crédits": "06"
+          },
+          {
+            "column_0": "Séminaires",
+            "VHS": "50",
+            "Coeff": "02",
+            "Crédits": "03"
+          },
+          {
+            "column_0": "Autre (Encadrement)",
+            "VHS": "50",
+            "Coeff": "02",
+            "Crédits": "03"
+          },
+          {
+            "column_0": "Total Semestre 4",
+            "VHS": "750",
+            "Coeff": "17",
+            "Crédits": "30"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

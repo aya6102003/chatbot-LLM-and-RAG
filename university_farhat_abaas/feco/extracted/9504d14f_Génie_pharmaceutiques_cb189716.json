@@ -1,0 +1,636 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\9504d14f_Génie_pharmaceutiques.pdf",
+      "name": "9504d14f_Génie_pharmaceutiques.pdf",
+      "type": "pdf",
+      "size_bytes": 458914,
+      "id": "cb189716"
+    },
+    "extracted_at": "2026-06-10T12:41:35.929870"
+  },
+  "content": {
+    "text": "Master Génie Pharmaceutique (ACADEMIQUE) \n Semestre 1 \nUnité d'enseignement \nMatières \nCrédits \nCoefficients \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 sem.) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.1.1 \nCrédits : 8 \nCoefficients : 4 \nChimie pharmaceutique I : Structure \net Conception \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nPharmacologie générale \n2 \n1 \n1h30 \n \n22h30 \n \n100% \nPharmacognosie \n2 \n1 \n1h30 \n \n22h30 \n \n100% \nUE Fondamentale \nCode : UEF 1.1.2 \nCrédits : 10 \nCoefficients : 5 \nOpérations Unitaires Fluide-Fluide \n(extraction, distillation, absorption et \nstrippage) \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nTransfert thermique et Echangeurs de \nchaleur \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.1 \nCrédits : 9 \nCoefficients : 5 \nTP Chimie pharmaceutique, formes \ngaléniques et pharmacognosie \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Opérations Unitaires Fluide-\nFluide \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Transfert thermique et Echangeurs \nde Chaleur \n1 \n1 \n \n \n1h00 \n22h30 \n100% \n \nFormes galéniques \n4 \n2 \n1h30 \n1h30 \n45h00 \n40% \n60% \nUE Découverte \nCode : UED 1.1 \nCrédits : 2 \nCoefficients : 2 \nPropriétés et comportement des \nbiomatériaux implantaire, prothèses et \northèses \n1 \n1 \n1h30 \n \n \n22h30 \n40% \n60% \nRèglements pharmaceutiques \n1 \n1 \n1h30 \n \n \n22h30 \n40% \n \nUE Transversale \nCode : UET 1.1 \nCrédits : 1 \nCoefficients : 1 \nAnglais technique et terminologie \n1 \n1 \n1h30 \n \n \n22h30 \n40% \n60% \nTotal semestre 1 \n30 \n17 \n15h00 \n6h00 \n4h00 \n375h00 \n \n \n \n\n Semestre 2 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.2.1 \nCrédits : 10 \nCoefficients : 5 \nProduction industrielle de \nmédicaments de forme sèche \n4 \n2 \n3h00 \n \n \n45h00 \n40% \n60% \nChimie pharmaceutique II : Classes \nThérapeutiques \n2 \n1 \n1h30 \n \n \n22h30 \n \n100% \nAnalyse et contrôle des \nmédicaments \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.2.2 \nCrédits : 8 \nCoefficients : 4 \nOpérations Unitaires Fluide-Solide  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nRéacteurs Polyphasiques  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.2 \nCrédits : 9 \nCoefficients : 5 \nTP Opérations Unitaires fluide-\nsolide et réacteurs polyphasiques \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP production de médicaments de \nforme sèche \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Analyse et contrôle des \nmédicaments \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nSimulateurs en Génie des procédés \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n100% \nUE Découverte \nCode: UED 1.2 \nCrédits : 2 \nCoefficients : 2 \nBiosécurité \n1 \n1 \n1h30 \n \n \n \n22h30 \n \n100% \nGénie Microbio et Biochimique \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.2 \nCrédits : 1 \nCoefficients : 1 \nEthique, Déontologie et Propriété \nintellectuelle  \n \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 2 \n30 \n17 \n15h00 \n4h30 \n5h30 \n375h00 \n \n \n \n \n \n \n\n \n Semestre 3 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume \nHoraire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.1.1 \nCrédits : 10 \nCoefficients : 5 \nProduction de médicaments de formes \nliquide et pâteuse \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nBiopharmacie et pharmacocinétique \n4 \n2 \n3h00 \n \n45h00 \n40% \n60% \nStérilisation et lyophilisation \n2 \n1 \n1h30 \n \n22h30 \n40% \n60% \nUE Fondamentale \nCode : UEF 2.1.2 \nCrédits : 8 \nCoefficients : 4 \nBioréacteurs \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nProduction d’eau pour les industries \npharmaceutiques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 2.1 \nCrédits : 9 \nCoefficients : 5 \nNotions de régulation et commande des \nprocédés \n2 \n1 \n1h30 \n \n \n22h30 \n100% \n \nPlans d’expériences \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nOptimisation et Modélisation des \nprocédés \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Découverte \nCode : UED 2.1 \nCrédits : 2 \nCoefficients : 2 \nMatière au choix \n \n1 \n \n1 \n \n1h30 \n \n \n \n22h30 \n \n40% \n \n60% \nMatière au choix \n \n1 \n \n1 \n \n1h30 \n \n \n \n22h30 \n \n40% \n \n60% \nUE Transversale \nCode : UET 2.1 \nCrédits : 1 \nCoefficients : 1 \nRecherche documentaire et conception \nde mémoire \n1 \n1 \n1h30 \n \n \n22h30 \n \n \n \n100% \nTotal semestre 3 \n30 \n17 \n18h00 \n6h00 \n1h00 \n375h00 \n \n \n \n \n \n \n \n\n Semestre 4 \nStage en entreprise sanctionné par un mémoire et une soutenance. \n \n \nVHS \nCoeff \nCrédits \nTravail Personnel \n550 \n09 \n18 \nStage en entreprise \n100 \n04 \n06 \nSéminaires \n50 \n02 \n03 \nAutre (Encadrement) \n50 \n02 \n03 \nTotal Semestre 4 \n750 \n17 \n30 \n \nEvaluation du Projet de Fin de Cycle de Master \n \n -Valeur scientifique (Appréciation du jury)                                    /6 \n -Rédaction du Mémoire (Appréciation du jury)                             /4 \n -Présentation et réponse aux questions (Appréciation du jury)    /4 \n -Appréciation de l’encadreur                                                         /3 \n -Présentation du rapport de stage (Appréciation du jury)             /3 \n \n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Master Génie Pharmaceutique (ACADEMIQUE) \n Semestre 1 \nUnité d'enseignement \nMatières \nCrédits \nCoefficients \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 sem.) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.1.1 \nCrédits : 8 \nCoefficients : 4 \nChimie pharmaceutique I : Structure \net Conception \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nPharmacologie générale \n2 \n1 \n1h30 \n \n22h30 \n \n100% \nPharmacognosie \n2 \n1 \n1h30 \n \n22h30 \n \n100% \nUE Fondamentale \nCode : UEF 1.1.2 \nCrédits : 10 \nCoefficients : 5 \nOpérations Unitaires Fluide-Fluide \n(extraction, distillation, absorption et \nstrippage) \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nTransfert thermique et Echangeurs de \nchaleur \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.1 \nCrédits : 9 \nCoefficients : 5 \nTP Chimie pharmaceutique, formes \ngaléniques et pharmacognosie \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Opérations Unitaires Fluide-\nFluide \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Transfert thermique et Echangeurs \nde Chaleur \n1 \n1 \n \n \n1h00 \n22h30 \n100% \n \nFormes galéniques \n4 \n2 \n1h30 \n1h30 \n45h00 \n40% \n60% \nUE Découverte \nCode : UED 1.1 \nCrédits : 2 \nCoefficients : 2 \nPropriétés et comportement des \nbiomatériaux implantaire, prothèses et \northèses \n1 \n1 \n1h30 \n \n \n22h30 \n40% \n60% \nRèglements pharmaceutiques \n1 \n1 \n1h30 \n \n \n22h30 \n40% \n \nUE Transversale \nCode : UET 1.1 \nCrédits : 1 \nCoefficients : 1 \nAnglais technique et terminologie \n1 \n1 \n1h30 \n \n \n22h30 \n40% \n60% \nTotal semestre 1 \n30 \n17 \n15h00 \n6h00 \n4h00 \n375h00"
+      },
+      {
+        "page": 2,
+        "text": " Semestre 2 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.2.1 \nCrédits : 10 \nCoefficients : 5 \nProduction industrielle de \nmédicaments de forme sèche \n4 \n2 \n3h00 \n \n \n45h00 \n40% \n60% \nChimie pharmaceutique II : Classes \nThérapeutiques \n2 \n1 \n1h30 \n \n \n22h30 \n \n100% \nAnalyse et contrôle des \nmédicaments \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.2.2 \nCrédits : 8 \nCoefficients : 4 \nOpérations Unitaires Fluide-Solide  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nRéacteurs Polyphasiques  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.2 \nCrédits : 9 \nCoefficients : 5 \nTP Opérations Unitaires fluide-\nsolide et réacteurs polyphasiques \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP production de médicaments de \nforme sèche \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Analyse et contrôle des \nmédicaments \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nSimulateurs en Génie des procédés \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n100% \nUE Découverte \nCode: UED 1.2 \nCrédits : 2 \nCoefficients : 2 \nBiosécurité \n1 \n1 \n1h30 \n \n \n \n22h30 \n \n100% \nGénie Microbio et Biochimique \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.2 \nCrédits : 1 \nCoefficients : 1 \nEthique, Déontologie et Propriété \nintellectuelle  \n \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 2 \n30 \n17 \n15h00 \n4h30 \n5h30 \n375h00"
+      },
+      {
+        "page": 3,
+        "text": " Semestre 3 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume \nHoraire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.1.1 \nCrédits : 10 \nCoefficients : 5 \nProduction de médicaments de formes \nliquide et pâteuse \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nBiopharmacie et pharmacocinétique \n4 \n2 \n3h00 \n \n45h00 \n40% \n60% \nStérilisation et lyophilisation \n2 \n1 \n1h30 \n \n22h30 \n40% \n60% \nUE Fondamentale \nCode : UEF 2.1.2 \nCrédits : 8 \nCoefficients : 4 \nBioréacteurs \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nProduction d’eau pour les industries \npharmaceutiques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 2.1 \nCrédits : 9 \nCoefficients : 5 \nNotions de régulation et commande des \nprocédés \n2 \n1 \n1h30 \n \n \n22h30 \n100% \n \nPlans d’expériences \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nOptimisation et Modélisation des \nprocédés \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Découverte \nCode : UED 2.1 \nCrédits : 2 \nCoefficients : 2 \nMatière au choix \n \n1 \n \n1 \n \n1h30 \n \n \n \n22h30 \n \n40% \n \n60% \nMatière au choix \n \n1 \n \n1 \n \n1h30 \n \n \n \n22h30 \n \n40% \n \n60% \nUE Transversale \nCode : UET 2.1 \nCrédits : 1 \nCoefficients : 1 \nRecherche documentaire et conception \nde mémoire \n1 \n1 \n1h30 \n \n \n22h30 \n \n \n \n100% \nTotal semestre 3 \n30 \n17 \n18h00 \n6h00 \n1h00 \n375h00"
+      },
+      {
+        "page": 4,
+        "text": " Semestre 4 \nStage en entreprise sanctionné par un mémoire et une soutenance. \n \n \nVHS \nCoeff \nCrédits \nTravail Personnel \n550 \n09 \n18 \nStage en entreprise \n100 \n04 \n06 \nSéminaires \n50 \n02 \n03 \nAutre (Encadrement) \n50 \n02 \n03 \nTotal Semestre 4 \n750 \n17 \n30 \n \nEvaluation du Projet de Fin de Cycle de Master \n \n -Valeur scientifique (Appréciation du jury)                                    /6 \n -Rédaction du Mémoire (Appréciation du jury)                             /4 \n -Présentation et réponse aux questions (Appréciation du jury)    /4 \n -Appréciation de l’encadreur                                                         /3 \n -Présentation du rapport de stage (Appréciation du jury)             /3"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficients",
+          "Volume horaire hebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 sem.)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficients": "",
+            "Volume horaire hebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 sem.)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.1\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Chimie pharmaceutique I : Structure\net Conception",
+            "Crédits": "4",
+            "Coefficients": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 sem.)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.1\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Pharmacologie générale",
+            "Crédits": "2",
+            "Coefficients": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 sem.)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.1\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Pharmacognosie",
+            "Crédits": "2",
+            "Coefficients": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 sem.)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.2\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Opérations Unitaires Fluide-Fluide\n(extraction, distillation, absorption et\nstrippage)",
+            "Crédits": "6",
+            "Coefficients": "3",
+            "Volume horaire hebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 sem.)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.2\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Transfert thermique et Echangeurs de\nchaleur",
+            "Crédits": "4",
+            "Coefficients": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 sem.)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Chimie pharmaceutique, formes\ngaléniques et pharmacognosie",
+            "Crédits": "2",
+            "Coefficients": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 sem.)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Opérations Unitaires Fluide-\nFluide",
+            "Crédits": "2",
+            "Coefficients": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 sem.)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Transfert thermique et Echangeurs\nde Chaleur",
+            "Crédits": "1",
+            "Coefficients": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 sem.)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Formes galéniques",
+            "Crédits": "4",
+            "Coefficients": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 sem.)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Propriétés et comportement des\nbiomatériaux implantaire, prothèses et\northèses",
+            "Crédits": "1",
+            "Coefficients": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 sem.)": "22h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Règlements pharmaceutiques",
+            "Crédits": "1",
+            "Coefficients": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 sem.)": "22h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "40%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 1.1\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Anglais technique et terminologie",
+            "Crédits": "1",
+            "Coefficients": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 sem.)": "22h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 1",
+            "Matières": "Total semestre 1",
+            "Crédits": "30",
+            "Coefficients": "17",
+            "Volume horaire hebdomadaire": "15h00",
+            "column_5": "6h00",
+            "column_6": "4h00",
+            "Volume Horaire\nSemestriel\n(15 sem.)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire hebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire hebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Production industrielle de\nmédicaments de forme sèche",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "3h00",
+            "column_5": "3h00",
+            "column_6": "3h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Chimie pharmaceutique II : Classes\nThérapeutiques",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Analyse et contrôle des\nmédicaments",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Opérations Unitaires Fluide-Solide",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Réacteurs Polyphasiques",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Opérations Unitaires fluide-\nsolide et réacteurs polyphasiques",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP production de médicaments de\nforme sèche",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Analyse et contrôle des\nmédicaments",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Simulateurs en Génie des procédés",
+            "Crédits": "3",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "37h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode: UED 1.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Biosécurité",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode: UED 1.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Génie Microbio et Biochimique",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 1.2\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Ethique, Déontologie et Propriété\nintellectuelle",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 2",
+            "Matières": "Total semestre 2",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire hebdomadaire": "15h00",
+            "column_5": "4h30",
+            "column_6": "5h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 3,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire hebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume\nHoraire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire hebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Production de médicaments de formes\nliquide et pâteuse",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Biopharmacie et pharmacocinétique",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "3h00",
+            "column_5": "3h00",
+            "column_6": "3h00",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Stérilisation et lyophilisation",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Bioréacteurs",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Production d’eau pour les industries\npharmaceutiques",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Notions de régulation et commande des\nprocédés",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Plans d’expériences",
+            "Crédits": "3",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "37h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Optimisation et Modélisation des\nprocédés",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 2.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Matière au choix",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 2.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Matière au choix",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 2.1\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Recherche documentaire et conception\nde mémoire",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 3",
+            "Matières": "Total semestre 3",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire hebdomadaire": "18h00",
+            "column_5": "6h00",
+            "column_6": "1h00",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 4,
+        "table_index": 0,
+        "headers": [
+          "column_0",
+          "VHS",
+          "Coeff",
+          "Crédits"
+        ],
+        "rows": [
+          {
+            "column_0": "Travail Personnel",
+            "VHS": "550",
+            "Coeff": "09",
+            "Crédits": "18"
+          },
+          {
+            "column_0": "Stage en entreprise",
+            "VHS": "100",
+            "Coeff": "04",
+            "Crédits": "06"
+          },
+          {
+            "column_0": "Séminaires",
+            "VHS": "50",
+            "Coeff": "02",
+            "Crédits": "03"
+          },
+          {
+            "column_0": "Autre (Encadrement)",
+            "VHS": "50",
+            "Coeff": "02",
+            "Crédits": "03"
+          },
+          {
+            "column_0": "Total Semestre 4",
+            "VHS": "750",
+            "Coeff": "17",
+            "Crédits": "30"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

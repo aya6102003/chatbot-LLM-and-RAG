@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\Document.pdf",
+      "name": "Document.pdf",
+      "type": "pdf",
+      "size_bytes": 585543,
+      "id": "f5924169"
+    },
+    "extracted_at": "2026-06-10T12:49:20.859868"
+  },
+  "content": {
+    "text": "",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

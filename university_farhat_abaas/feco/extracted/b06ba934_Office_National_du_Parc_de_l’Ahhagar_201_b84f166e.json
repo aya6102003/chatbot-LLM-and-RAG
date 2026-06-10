@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\b06ba934_Office_National_du_Parc_de_l’Ahhagar_201.pdf",
+      "name": "b06ba934_Office_National_du_Parc_de_l’Ahhagar_201.pdf",
+      "type": "pdf",
+      "size_bytes": 1794137,
+      "id": "b84f166e"
+    },
+    "extracted_at": "2026-06-10T12:48:19.690656"
+  },
+  "content": {
+    "text": "\n\n\n\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      },
+      {
+        "page": 4,
+        "text": ""
+      },
+      {
+        "page": 5,
+        "text": ""
+      },
+      {
+        "page": 6,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

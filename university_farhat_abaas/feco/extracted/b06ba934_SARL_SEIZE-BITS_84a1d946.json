@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\b06ba934_SARL_SEIZE-BITS.pdf",
+      "name": "b06ba934_SARL_SEIZE-BITS.pdf",
+      "type": "pdf",
+      "size_bytes": 1265839,
+      "id": "84a1d946"
+    },
+    "extracted_at": "2026-06-10T12:48:19.725709"
+  },
+  "content": {
+    "text": "\n\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      },
+      {
+        "page": 4,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\b06ba934_Club_de_Génie_de_Construction_(CGC).pdf",
+      "name": "b06ba934_Club_de_Génie_de_Construction_(CGC).pdf",
+      "type": "pdf",
+      "size_bytes": 1285164,
+      "id": "4fd897f9"
+    },
+    "extracted_at": "2026-06-10T12:48:18.747203"
+  },
+  "content": {
+    "text": "\n\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      },
+      {
+        "page": 4,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\ef74d95d_تعليمة_رقم_06_مؤرخة_في_09_ديسمبر_2019_تع.pdf",
+      "name": "ef74d95d_تعليمة_رقم_06_مؤرخة_في_09_ديسمبر_2019_تع.pdf",
+      "type": "pdf",
+      "size_bytes": 1234181,
+      "id": "528e1779"
+    },
+    "extracted_at": "2026-06-10T12:49:29.285643"
+  },
+  "content": {
+    "text": "\n\n\n\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      },
+      {
+        "page": 4,
+        "text": ""
+      },
+      {
+        "page": 5,
+        "text": ""
+      },
+      {
+        "page": 6,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\ab752668_المرسوم_التنفيذي_رقم_04-180_المؤرخ_في_23.pdf",
+      "name": "ab752668_المرسوم_التنفيذي_رقم_04-180_المؤرخ_في_23.pdf",
+      "type": "pdf",
+      "size_bytes": 388796,
+      "id": "eb05879f"
+    },
+    "extracted_at": "2026-06-10T12:45:15.271116"
+  },
+  "content": {
+    "text": "\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\ab752668_قــائمة_المــؤسسات_العمــومية_للتكويــن.pdf",
+      "name": "ab752668_قــائمة_المــؤسسات_العمــومية_للتكويــن.pdf",
+      "type": "pdf",
+      "size_bytes": 1546418,
+      "id": "5253921a"
+    },
+    "extracted_at": "2026-06-10T12:45:58.223614"
+  },
+  "content": {
+    "text": "",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

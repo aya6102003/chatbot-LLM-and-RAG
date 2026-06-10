@@ -1,0 +1,612 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\9504d14f_Automatique_et_informatique_industrielle.pdf",
+      "name": "9504d14f_Automatique_et_informatique_industrielle.pdf",
+      "type": "pdf",
+      "size_bytes": 555976,
+      "id": "e33172f2"
+    },
+    "extracted_at": "2026-06-10T12:40:24.086225"
+  },
+  "content": {
+    "text": "Master Automatique et Informatique Industrielle (ACADEMIQUE) \n Semestre 1 \nUnité \nd’Enseignement\nModules\n \nCrédits\n \nCoefficien\nt \nVolume horaire hebdomadaire\n \nVolume horaire\n \nsemestrielle\n \n(15semaine)\n \nMode \nd'évaluation\n \nCours \nTD \nTP \ncontrôl\ne \ncontinu\nExamen\n \nFondamentale 1\nSystèmes Linéaires \nMultivariables\n6\n \n3\n \n3h00\n \n1h30\n \n \n67h30\n \n40%\n \n60%\n \nTraitement du signal\n4\n \n2\n \n1h30\n \n1h30\n \n \n45h00\n \n40%\n \n60%\n \nFondamentale2\nAssociation convertisseurs-\nmachines\n4\n \n2\n \n1h30\n \n1h30\n \n \n45h00\n \n40%\n \n60%\n \nOptimisation\n4\n \n2\n \n1h30\n \n1h30\n \n \n45h00\n \n40%\n \n60%\n \nMéthodologique\nRéseaux et protocoles de \ncommunication  industrielle\n3\n \n2\n \n1h30\n \n \n1h00\n \n37h30\n \n40%\n \n60%\n \nTP Systèmes Linéaires \nMultivariables\n2\n \n1\n \n \n \n1h30\n \n22h30\n \n100%\n \n \nTP Traitement du signal / TP \nOptimisation\n2\n \n1\n \n \n \n1h30\n \n22h30\n \n100%\n \n \nTP Association convertisseurs-\nmachines\n2\n \n1\n \n \n \n1h30\n \n22h30\n \n100%\n \n \nDécouverte\nPanier au choix\n1\n \n1\n \n1h30\n \n \n \n22h30\n \n \n100%\n \nPanier au choix\n1\n \n1\n \n1h30\n \n \n \n22h30\n \n \n100%\n \nTransversale\nAnglais technique et \nterminologie \n1\n \n1\n \n1h30\n \n \n \n22h30\n \n \n100%\n \nTotal semestre 1 \n \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00 \n \n \n \n \n\n Semestre 2 \nUnité d’\n \nEnseignement\n \nModules\n \nCrédits\n \nCoefficient\n \nVolume horaire \nhebdomadaire\n \nVolume horaire\n \nsemestrielle\n \n(15 semaine)\n \nMode \nd'évaluation\n \nCours \nTD \nTP \ncontrôl\ne \ncontinu\nExamen\n \nFondamentale1 \nSystèmes non linéaires \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nSystèmes Embarqués et systèmes \ntemps réels \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nFondamentale2 \nProgrammation avancée des API \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nElectronique Appliquée \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nMéthodologique \nConception orientée objet \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n \nTP Systèmes non linéaires \n2 \n1 \n \n \n1h30 \n22h30 \n40% \n \nTP Systèmes Embarqués et systèmes \ntemps réels \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Programmation avancée des \nAPI/TP Electronique Appliquée \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nDécouverte \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTransversale \nEthique, déontologie et propriété \nintellectuelle \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 2 \n \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00 \n \n \n \n \n\n Semestre 3 \nUnité d'enseignement \nMatières \nCrédits\n \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \ncontrôle \ncontinu\n \nExamen\n \nFondamentale1 \nCommande avancée  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nCommande de robots de manipulation \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nFondamentale2 \n Systèmes à évènement discrets \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nFPGA et programmation VHDL \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nMéthodologique \nSupervision industrielle \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nTP Commande avancée \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Commande de robots de manipulation \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP FPGA et programmation VHDL \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nDécouverte \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTransversale \nRecherche documentaire et conception de \nmémoire \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 3 \n \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00 \n \n \n \n \n \n\n Semestre  4 \nStage en entreprise sanctionné par un mémoire et une soutenance \n \nVHS \nCoeff \nCrédits \nTravail Personnel \n550 \n09 \n18 \nStage en entreprise \n100 \n04 \n06 \nSéminaires \n50 \n02 \n03 \nAutre (Encadrement) \n50 \n02 \n03 \nTotal Semestre 4 \n750 \n17 \n30 \n \n Evaluation du Projet de Fin de Cycle de Master \n - Valeur scientifique (Appréciation du jury)                                            /6 \n - Rédaction du Mémoire (Appréciation du jury)                                     /4 \n - Présentation et réponse aux questions (Appréciation du jury)             /4 \n - Appréciation de l’encadreur                                                                 /3 \n - Présentation du rapport de stage (Appréciation du jury)                     /3 \n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Master Automatique et Informatique Industrielle (ACADEMIQUE) \n Semestre 1 \nUnité \nd’Enseignement\nModules\n \nCrédits\n \nCoefficien\nt \nVolume horaire hebdomadaire\n \nVolume horaire\n \nsemestrielle\n \n(15semaine)\n \nMode \nd'évaluation\n \nCours \nTD \nTP \ncontrôl\ne \ncontinu\nExamen\n \nFondamentale 1\nSystèmes Linéaires \nMultivariables\n6\n \n3\n \n3h00\n \n1h30\n \n \n67h30\n \n40%\n \n60%\n \nTraitement du signal\n4\n \n2\n \n1h30\n \n1h30\n \n \n45h00\n \n40%\n \n60%\n \nFondamentale2\nAssociation convertisseurs-\nmachines\n4\n \n2\n \n1h30\n \n1h30\n \n \n45h00\n \n40%\n \n60%\n \nOptimisation\n4\n \n2\n \n1h30\n \n1h30\n \n \n45h00\n \n40%\n \n60%\n \nMéthodologique\nRéseaux et protocoles de \ncommunication  industrielle\n3\n \n2\n \n1h30\n \n \n1h00\n \n37h30\n \n40%\n \n60%\n \nTP Systèmes Linéaires \nMultivariables\n2\n \n1\n \n \n \n1h30\n \n22h30\n \n100%\n \n \nTP Traitement du signal / TP \nOptimisation\n2\n \n1\n \n \n \n1h30\n \n22h30\n \n100%\n \n \nTP Association convertisseurs-\nmachines\n2\n \n1\n \n \n \n1h30\n \n22h30\n \n100%\n \n \nDécouverte\nPanier au choix\n1\n \n1\n \n1h30\n \n \n \n22h30\n \n \n100%\n \nPanier au choix\n1\n \n1\n \n1h30\n \n \n \n22h30\n \n \n100%\n \nTransversale\nAnglais technique et \nterminologie \n1\n \n1\n \n1h30\n \n \n \n22h30\n \n \n100%\n \nTotal semestre 1 \n \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00"
+      },
+      {
+        "page": 2,
+        "text": " Semestre 2 \nUnité d’\n \nEnseignement\n \nModules\n \nCrédits\n \nCoefficient\n \nVolume horaire \nhebdomadaire\n \nVolume horaire\n \nsemestrielle\n \n(15 semaine)\n \nMode \nd'évaluation\n \nCours \nTD \nTP \ncontrôl\ne \ncontinu\nExamen\n \nFondamentale1 \nSystèmes non linéaires \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nSystèmes Embarqués et systèmes \ntemps réels \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nFondamentale2 \nProgrammation avancée des API \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nElectronique Appliquée \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nMéthodologique \nConception orientée objet \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n \nTP Systèmes non linéaires \n2 \n1 \n \n \n1h30 \n22h30 \n40% \n \nTP Systèmes Embarqués et systèmes \ntemps réels \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Programmation avancée des \nAPI/TP Electronique Appliquée \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nDécouverte \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTransversale \nEthique, déontologie et propriété \nintellectuelle \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 2 \n \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00"
+      },
+      {
+        "page": 3,
+        "text": " Semestre 3 \nUnité d'enseignement \nMatières \nCrédits\n \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \ncontrôle \ncontinu\n \nExamen\n \nFondamentale1 \nCommande avancée  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nCommande de robots de manipulation \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nFondamentale2 \n Systèmes à évènement discrets \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nFPGA et programmation VHDL \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nMéthodologique \nSupervision industrielle \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nTP Commande avancée \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Commande de robots de manipulation \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP FPGA et programmation VHDL \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nDécouverte \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTransversale \nRecherche documentaire et conception de \nmémoire \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 3 \n \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00"
+      },
+      {
+        "page": 4,
+        "text": " Semestre  4 \nStage en entreprise sanctionné par un mémoire et une soutenance \n \nVHS \nCoeff \nCrédits \nTravail Personnel \n550 \n09 \n18 \nStage en entreprise \n100 \n04 \n06 \nSéminaires \n50 \n02 \n03 \nAutre (Encadrement) \n50 \n02 \n03 \nTotal Semestre 4 \n750 \n17 \n30 \n \n Evaluation du Projet de Fin de Cycle de Master \n - Valeur scientifique (Appréciation du jury)                                            /6 \n - Rédaction du Mémoire (Appréciation du jury)                                     /4 \n - Présentation et réponse aux questions (Appréciation du jury)             /4 \n - Appréciation de l’encadreur                                                                 /3 \n - Présentation du rapport de stage (Appréciation du jury)                     /3"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Unité\nd’Enseignement",
+          "Modules",
+          "Crédits",
+          "Coefficien\nt",
+          "Volume horaire hebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume horaire\nsemestrielle\n(15semaine)",
+          "Mode\nd'évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité\nd’Enseignement": "",
+            "Modules": "",
+            "Crédits": "",
+            "Coefficien\nt": "",
+            "Volume horaire hebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume horaire\nsemestrielle\n(15semaine)": "TP",
+            "Mode\nd'évaluation": "contrôl\ne\ncontinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité\nd’Enseignement": "Fondamentale 1",
+            "Modules": "Systèmes Linéaires\nMultivariables",
+            "Crédits": "6",
+            "Coefficien\nt": "3",
+            "Volume horaire hebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15semaine)": "67h30",
+            "Mode\nd'évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd’Enseignement": "Fondamentale 1",
+            "Modules": "Traitement du signal",
+            "Crédits": "4",
+            "Coefficien\nt": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15semaine)": "45h00",
+            "Mode\nd'évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd’Enseignement": "Fondamentale2",
+            "Modules": "Association convertisseurs-\nmachines",
+            "Crédits": "4",
+            "Coefficien\nt": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15semaine)": "45h00",
+            "Mode\nd'évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd’Enseignement": "Fondamentale2",
+            "Modules": "Optimisation",
+            "Crédits": "4",
+            "Coefficien\nt": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15semaine)": "45h00",
+            "Mode\nd'évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd’Enseignement": "Méthodologique",
+            "Modules": "Réseaux et protocoles de\ncommunication industrielle",
+            "Crédits": "3",
+            "Coefficien\nt": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume horaire\nsemestrielle\n(15semaine)": "37h30",
+            "Mode\nd'évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd’Enseignement": "Méthodologique",
+            "Modules": "TP Systèmes Linéaires\nMultivariables",
+            "Crédits": "2",
+            "Coefficien\nt": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15semaine)": "22h30",
+            "Mode\nd'évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd’Enseignement": "Méthodologique",
+            "Modules": "TP Traitement du signal / TP\nOptimisation",
+            "Crédits": "2",
+            "Coefficien\nt": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15semaine)": "22h30",
+            "Mode\nd'évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd’Enseignement": "Méthodologique",
+            "Modules": "TP Association convertisseurs-\nmachines",
+            "Crédits": "2",
+            "Coefficien\nt": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15semaine)": "22h30",
+            "Mode\nd'évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd’Enseignement": "Découverte",
+            "Modules": "Panier au choix",
+            "Crédits": "1",
+            "Coefficien\nt": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15semaine)": "22h30",
+            "Mode\nd'évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd’Enseignement": "Découverte",
+            "Modules": "Panier au choix",
+            "Crédits": "1",
+            "Coefficien\nt": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15semaine)": "22h30",
+            "Mode\nd'évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd’Enseignement": "Transversale",
+            "Modules": "Anglais technique et\nterminologie",
+            "Crédits": "1",
+            "Coefficien\nt": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15semaine)": "22h30",
+            "Mode\nd'évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd’Enseignement": "Total semestre 1",
+            "Modules": "Total semestre 1",
+            "Crédits": "30",
+            "Coefficien\nt": "17",
+            "Volume horaire hebdomadaire": "13h30",
+            "column_5": "6h00",
+            "column_6": "5h30",
+            "Volume horaire\nsemestrielle\n(15semaine)": "375h00",
+            "Mode\nd'évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Unité d’\nEnseignement",
+          "Modules",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume horaire\nsemestrielle\n(15 semaine)",
+          "Mode\nd'évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d’\nEnseignement": "",
+            "Modules": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume horaire\nsemestrielle\n(15 semaine)": "TP",
+            "Mode\nd'évaluation": "contrôl\ne\ncontinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d’\nEnseignement": "Fondamentale1",
+            "Modules": "Systèmes non linéaires",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15 semaine)": "67h30",
+            "Mode\nd'évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d’\nEnseignement": "Fondamentale1",
+            "Modules": "Systèmes Embarqués et systèmes\ntemps réels",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15 semaine)": "45h00",
+            "Mode\nd'évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d’\nEnseignement": "Fondamentale2",
+            "Modules": "Programmation avancée des API",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15 semaine)": "45h00",
+            "Mode\nd'évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d’\nEnseignement": "Fondamentale2",
+            "Modules": "Electronique Appliquée",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15 semaine)": "45h00",
+            "Mode\nd'évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d’\nEnseignement": "Méthodologique",
+            "Modules": "Conception orientée objet",
+            "Crédits": "3",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume horaire\nsemestrielle\n(15 semaine)": "37h30",
+            "Mode\nd'évaluation": "40%",
+            "column_9": "40%"
+          },
+          {
+            "Unité d’\nEnseignement": "Méthodologique",
+            "Modules": "TP Systèmes non linéaires",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15 semaine)": "22h30",
+            "Mode\nd'évaluation": "40%",
+            "column_9": "40%"
+          },
+          {
+            "Unité d’\nEnseignement": "Méthodologique",
+            "Modules": "TP Systèmes Embarqués et systèmes\ntemps réels",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15 semaine)": "22h30",
+            "Mode\nd'évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d’\nEnseignement": "Méthodologique",
+            "Modules": "TP Programmation avancée des\nAPI/TP Electronique Appliquée",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15 semaine)": "22h30",
+            "Mode\nd'évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d’\nEnseignement": "Découverte",
+            "Modules": "Panier au choix",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15 semaine)": "22h30",
+            "Mode\nd'évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d’\nEnseignement": "Découverte",
+            "Modules": "Panier au choix",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15 semaine)": "22h30",
+            "Mode\nd'évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d’\nEnseignement": "Transversale",
+            "Modules": "Ethique, déontologie et propriété\nintellectuelle",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume horaire\nsemestrielle\n(15 semaine)": "22h30",
+            "Mode\nd'évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d’\nEnseignement": "Total semestre 2",
+            "Modules": "Total semestre 2",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "13h30",
+            "column_5": "6h00",
+            "column_6": "5h30",
+            "Volume horaire\nsemestrielle\n(15 semaine)": "375h00",
+            "Mode\nd'évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 3,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "contrôle\ncontinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "Fondamentale1",
+            "Matières": "Commande avancée",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "Fondamentale1",
+            "Matières": "Commande de robots de manipulation",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "Fondamentale2",
+            "Matières": "Systèmes à évènement discrets",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "Fondamentale2",
+            "Matières": "FPGA et programmation VHDL",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "Méthodologique",
+            "Matières": "Supervision industrielle",
+            "Crédits": "3",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "37h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "Méthodologique",
+            "Matières": "TP Commande avancée",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Méthodologique",
+            "Matières": "TP Commande de robots de manipulation",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Méthodologique",
+            "Matières": "TP FPGA et programmation VHDL",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Découverte",
+            "Matières": "Panier au choix",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Découverte",
+            "Matières": "Panier au choix",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Transversale",
+            "Matières": "Recherche documentaire et conception de\nmémoire",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 3",
+            "Matières": "Total semestre 3",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "13h30",
+            "column_5": "6h00",
+            "column_6": "5h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 4,
+        "table_index": 0,
+        "headers": [
+          "column_0",
+          "VHS",
+          "Coeff",
+          "Crédits"
+        ],
+        "rows": [
+          {
+            "column_0": "Travail Personnel",
+            "VHS": "550",
+            "Coeff": "09",
+            "Crédits": "18"
+          },
+          {
+            "column_0": "Stage en entreprise",
+            "VHS": "100",
+            "Coeff": "04",
+            "Crédits": "06"
+          },
+          {
+            "column_0": "Séminaires",
+            "VHS": "50",
+            "Coeff": "02",
+            "Crédits": "03"
+          },
+          {
+            "column_0": "Autre (Encadrement)",
+            "VHS": "50",
+            "Coeff": "02",
+            "Crédits": "03"
+          },
+          {
+            "column_0": "Total Semestre 4",
+            "VHS": "750",
+            "Coeff": "17",
+            "Crédits": "30"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

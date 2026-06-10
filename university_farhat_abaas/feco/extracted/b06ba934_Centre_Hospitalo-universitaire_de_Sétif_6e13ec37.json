@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\b06ba934_Centre_Hospitalo-universitaire_de_Sétif.pdf",
+      "name": "b06ba934_Centre_Hospitalo-universitaire_de_Sétif.pdf",
+      "type": "pdf",
+      "size_bytes": 1425800,
+      "id": "6e13ec37"
+    },
+    "extracted_at": "2026-06-10T12:48:18.659406"
+  },
+  "content": {
+    "text": "\n\n\n\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      },
+      {
+        "page": 4,
+        "text": ""
+      },
+      {
+        "page": 5,
+        "text": ""
+      },
+      {
+        "page": 6,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

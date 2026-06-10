@@ -1,0 +1,576 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\9504d14f_Géotechnique.pdf",
+      "name": "9504d14f_Géotechnique.pdf",
+      "type": "pdf",
+      "size_bytes": 686624,
+      "id": "de929501"
+    },
+    "extracted_at": "2026-06-10T12:41:38.887517"
+  },
+  "content": {
+    "text": "Master Géotechnique (ACADEMIQUE) \n Semestre 1 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume \nHoraire \nSemestriel \n(15 \nsemaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.1.1 \nCrédits : 10 \nCoefficients : 5 \nMécanique des milieux \ncontinus \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nMécanique des sols \navancée \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.1.2 \nCrédits : 8 \nCoefficients : 4 \nFondations \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nTalus et soutènements \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.1 \nCrédits : 9 \nCoefficients : 5 \nGéotechnique routière \n4 \n2 \n1h30 \n \n1h30 \n45h00 \n40% \n60% \nMéthode des \ndifférences finies \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nEssais géotechniques 1 \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nUE Découverte \nCode : UED 1.1 \nCrédits : 2 \nCoefficients : 2 \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.1 \nCrédits : 1 \nCoefficients : 1 \nAnglais technique et \nterminologie \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 1 \n \n30 \n17 \n15h00 \n6h00 \n4h00 \n375h00 \n \n \n \n \n \n \n\n \n \n Semestre 2 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.2.1 \nCrédits : 10 \nCoefficients : 5 \nMécanique des solides \ndéformables \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nRhéologie des sols \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.2.2 \nCrédits : 8 \nCoefficients : 4 \nDynamique des sols \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nMécanique des roches \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.2 \nCrédits : 9 \nCoefficients : 5 \nGéophysique appliquée \n4 \n2 \n1h30 \n \n1h30 \n45h00 \n40% \n60% \nMéthode des éléments \nfinis \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nEssais géotechniques 2 \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nUE Découverte \nCode : UED 1.2 \nCrédits : 2 \nCoefficients : 2 \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.2 \nCrédits : 1 \nCoefficients : 1 \nEthique, déontologie et \npropriété intellectuelle \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 2 \n \n30 \n17 \n15h00 \n6h00 \n4h00 \n375h00 \n \n \n \n \n \n \n\n \n Semestre 3 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.1.1 \nCrédits : 8 \nCoefficients : 4 \nGéostatistique \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nCalcul à la rupture et \nanalyse limite \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 2.1.2 \nCrédits : 10 \nCoefficients : 5 \nDynamique des ouvrages \ngéotechniques   \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nTunnels et ouvrages \nsouterrains \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nBarrages en terre \n2 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Méthodologique \nCode : UEM  2.1 \nCrédits : 9 \nCoefficients : 5 \nStabilisation des sols \nproblématiques   \n5 \n3 \n1h30 \n \n2h30 \n60h00 \n40% \n60% \nSystèmes d’information \ngéographique \n4 \n2 \n1h30 \n \n1h30 \n45h00 \n40% \n60% \nUE Découverte \nCode : UED 2.1 \nCrédits : 2 \nCoefficients : 2 \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 2.1 \nCrédits : 1 \nCoefficients : 1 \nRecherche documentaire \net conception de mémoire \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 3 \n \n30 \n17 \n15h00 \n6h00 \n4h00 \n375h00 \n \n \n \n \n \n \n\nSemestre 4 :  \nStage en entreprise sanctionné par un mémoire et une soutenance. \n \nVHS \nCoeff \nCrédit \nTravail Personnel \n550 \n09 \n18 \nStage en entreprise \n100 \n04 \n06 \nSéminaires \n50 \n02 \n03 \nAutre (Encadrement) \n50 \n02 \n03 \nTotal Semestre 4 \n750 \n17 \n30 \n \nEvaluation du Projet de Fin de Cycle de Master \n -Valeurs scientifique (Appréciation du jury)                                      /6 \n -Rédaction du Mémoire (Appréciation du jury)                                 /4 \n -Présentation et réponse aux questions (Appréciation du jury)       /4 \n -Appréciation de l’encadreur                                                            /3 \n -Présentation du rapport de stage (Appréciation du jury)                /3 \n  \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Master Géotechnique (ACADEMIQUE) \n Semestre 1 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume \nHoraire \nSemestriel \n(15 \nsemaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.1.1 \nCrédits : 10 \nCoefficients : 5 \nMécanique des milieux \ncontinus \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nMécanique des sols \navancée \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.1.2 \nCrédits : 8 \nCoefficients : 4 \nFondations \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nTalus et soutènements \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.1 \nCrédits : 9 \nCoefficients : 5 \nGéotechnique routière \n4 \n2 \n1h30 \n \n1h30 \n45h00 \n40% \n60% \nMéthode des \ndifférences finies \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nEssais géotechniques 1 \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nUE Découverte \nCode : UED 1.1 \nCrédits : 2 \nCoefficients : 2 \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.1 \nCrédits : 1 \nCoefficients : 1 \nAnglais technique et \nterminologie \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 1 \n \n30 \n17 \n15h00 \n6h00 \n4h00 \n375h00"
+      },
+      {
+        "page": 2,
+        "text": " Semestre 2 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.2.1 \nCrédits : 10 \nCoefficients : 5 \nMécanique des solides \ndéformables \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nRhéologie des sols \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.2.2 \nCrédits : 8 \nCoefficients : 4 \nDynamique des sols \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nMécanique des roches \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.2 \nCrédits : 9 \nCoefficients : 5 \nGéophysique appliquée \n4 \n2 \n1h30 \n \n1h30 \n45h00 \n40% \n60% \nMéthode des éléments \nfinis \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nEssais géotechniques 2 \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nUE Découverte \nCode : UED 1.2 \nCrédits : 2 \nCoefficients : 2 \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.2 \nCrédits : 1 \nCoefficients : 1 \nEthique, déontologie et \npropriété intellectuelle \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 2 \n \n30 \n17 \n15h00 \n6h00 \n4h00 \n375h00"
+      },
+      {
+        "page": 3,
+        "text": " Semestre 3 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire hebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.1.1 \nCrédits : 8 \nCoefficients : 4 \nGéostatistique \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nCalcul à la rupture et \nanalyse limite \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 2.1.2 \nCrédits : 10 \nCoefficients : 5 \nDynamique des ouvrages \ngéotechniques   \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nTunnels et ouvrages \nsouterrains \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nBarrages en terre \n2 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Méthodologique \nCode : UEM  2.1 \nCrédits : 9 \nCoefficients : 5 \nStabilisation des sols \nproblématiques   \n5 \n3 \n1h30 \n \n2h30 \n60h00 \n40% \n60% \nSystèmes d’information \ngéographique \n4 \n2 \n1h30 \n \n1h30 \n45h00 \n40% \n60% \nUE Découverte \nCode : UED 2.1 \nCrédits : 2 \nCoefficients : 2 \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nPanier au choix \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 2.1 \nCrédits : 1 \nCoefficients : 1 \nRecherche documentaire \net conception de mémoire \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 3 \n \n30 \n17 \n15h00 \n6h00 \n4h00 \n375h00"
+      },
+      {
+        "page": 4,
+        "text": "Semestre 4 :  \nStage en entreprise sanctionné par un mémoire et une soutenance. \n \nVHS \nCoeff \nCrédit \nTravail Personnel \n550 \n09 \n18 \nStage en entreprise \n100 \n04 \n06 \nSéminaires \n50 \n02 \n03 \nAutre (Encadrement) \n50 \n02 \n03 \nTotal Semestre 4 \n750 \n17 \n30 \n \nEvaluation du Projet de Fin de Cycle de Master \n -Valeurs scientifique (Appréciation du jury)                                      /6 \n -Rédaction du Mémoire (Appréciation du jury)                                 /4 \n -Présentation et réponse aux questions (Appréciation du jury)       /4 \n -Appréciation de l’encadreur                                                            /3 \n -Présentation du rapport de stage (Appréciation du jury)                /3 \n"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire hebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume\nHoraire\nSemestriel\n(15\nsemaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire hebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Mécanique des milieux\ncontinus",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire hebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Mécanique des sols\navancée",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Fondations",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Talus et soutènements",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Géotechnique routière",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Méthode des\ndifférences finies",
+            "Crédits": "3",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "37h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Essais géotechniques 1",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Panier au choix",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Panier au choix",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 1.1\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Anglais technique et\nterminologie",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 1",
+            "Matières": "Total semestre 1",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire hebdomadaire": "15h00",
+            "column_5": "6h00",
+            "column_6": "4h00",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire hebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "Intitulé",
+            "Crédits": "Intitulé",
+            "Coefficient": "Intitulé",
+            "Volume horaire hebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Mécanique des solides\ndéformables",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire hebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Rhéologie des sols",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Dynamique des sols",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Mécanique des roches",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Géophysique appliquée",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Méthode des éléments\nfinis",
+            "Crédits": "3",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "37h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Essais géotechniques 2",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Panier au choix",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Panier au choix",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 1.2\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Ethique, déontologie et\npropriété intellectuelle",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 2",
+            "Matières": "Total semestre 2",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire hebdomadaire": "15h00",
+            "column_5": "6h00",
+            "column_6": "4h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 3,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire hebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "Intitulé",
+            "Crédits": "Intitulé",
+            "Coefficient": "Intitulé",
+            "Volume horaire hebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.1\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Géostatistique",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.1\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Calcul à la rupture et\nanalyse limite",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.2\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Dynamique des ouvrages\ngéotechniques",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.2\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Tunnels et ouvrages\nsouterrains",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.2\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Barrages en terre",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Stabilisation des sols\nproblématiques",
+            "Crédits": "5",
+            "Coefficient": "3",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "2h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "60h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Systèmes d’information\ngéographique",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 2.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Panier au choix",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 2.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Panier au choix",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 2.1\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Recherche documentaire\net conception de mémoire",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire hebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 3",
+            "Matières": "Total semestre 3",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire hebdomadaire": "15h00",
+            "column_5": "6h00",
+            "column_6": "4h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 4,
+        "table_index": 0,
+        "headers": [
+          "column_0",
+          "VHS",
+          "Coeff",
+          "Crédit"
+        ],
+        "rows": [
+          {
+            "column_0": "Travail Personnel",
+            "VHS": "550",
+            "Coeff": "09",
+            "Crédit": "18"
+          },
+          {
+            "column_0": "Stage en entreprise",
+            "VHS": "100",
+            "Coeff": "04",
+            "Crédit": "06"
+          },
+          {
+            "column_0": "Séminaires",
+            "VHS": "50",
+            "Coeff": "02",
+            "Crédit": "03"
+          },
+          {
+            "column_0": "Autre (Encadrement)",
+            "VHS": "50",
+            "Coeff": "02",
+            "Crédit": "03"
+          },
+          {
+            "column_0": "Total Semestre 4",
+            "VHS": "750",
+            "Coeff": "17",
+            "Crédit": "30"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\images\\29db4342_sport.jpg",
+      "name": "29db4342_sport.jpg",
+      "type": "image",
+      "size_bytes": 349810,
+      "id": "67ae3632"
+    },
+    "extracted_at": "2026-06-10T12:52:26.476373"
+  },
+  "content": {
+    "text": "Ln\n1955 Cl 20 &\n\ne |\n\n‏| الإتحادية الجزائرية للرياضة الجامعية‏\n‏الألعاب الوطنية الجامعية‏",
+    "pages": [],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

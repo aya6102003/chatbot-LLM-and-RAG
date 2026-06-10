@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\b06ba934_Institut_de_Technologie_Moyen_Agricole_S.pdf",
+      "name": "b06ba934_Institut_de_Technologie_Moyen_Agricole_S.pdf",
+      "type": "pdf",
+      "size_bytes": 1425073,
+      "id": "13556f8d"
+    },
+    "extracted_at": "2026-06-10T12:48:19.475997"
+  },
+  "content": {
+    "text": "\n\n\n\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      },
+      {
+        "page": 4,
+        "text": ""
+      },
+      {
+        "page": 5,
+        "text": ""
+      },
+      {
+        "page": 6,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

@@ -1,0 +1,612 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\9504d14f_Réseaux_et_systèmes_de_télécommunication.pdf",
+      "name": "9504d14f_Réseaux_et_systèmes_de_télécommunication.pdf",
+      "type": "pdf",
+      "size_bytes": 510799,
+      "id": "ee705852"
+    },
+    "extracted_at": "2026-06-10T12:44:32.102706"
+  },
+  "content": {
+    "text": "Master - Réseaux et télécommunications (ACADEMIQUE) \n Semestre 1   \nUnité \nd'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.1.1 \nCrédits : 10 \nCoefficients : 5 \nCommunications numériques \navancées  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nRoutage IP  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.1.2 \nCrédits : 8 \nCoefficients : 4 \nPropagation et Antennes \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nTraitement  avancé  du signal \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.1 \nCrédits : 9 \nCoefficients : 5 \nTP Communications numériques \navancées  \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Routage IP \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Traitement  avancé  du signal \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nProgrammation orientée objets en \nC++   \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nUE Découverte \nCode : UED 1.1 \nCrédits : 2 \nCoefficients : 2 \nSystème Linux \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nNormes et Protocoles \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.1 \nCrédits : 1 \nCoefficients : 1 \nAnglais technique et terminologie \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 1 \n \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00 \n \n \n\n Semestre 2 \nUnité \nd'enseignement \nMatières \nCrédits \nCoefficien\nt \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.2.1 \nCrédits : 10 \nCoefficients : 5 \nAdministration des services réseaux \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nDSP et  FPGA \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.2.2 \nCrédits : 8 \nCoefficients : 4 \nCanaux de transmission et \nComposants optiques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nCodage et Compression  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.2 \nCrédits : 9 \nCoefficients : 5 \nTP administration des services \nréseaux  \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP DSP et FPGA  \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Codage et Compression \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nRéseaux Haut-débits \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nUE Découverte \nCode : UED 1.2 \nCrédits : 2 \nCoefficients : 2 \nRéseaux Satellitaires \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nApplication de traitement de Signal \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.2 \nCrédits : 1 \nCoefficients : 1 \nEthique, déontologie et \npropriété intellectuelle \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 2 \n \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00 \n \n \n \n \n \n\n Semestre 3   \nUnité \nd'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.3.1 \nCrédits : 10 \nCoefficients : 5 \nCryptographie et Sécurité Réseaux \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nRéseaux sans fils \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.3.2 \nCrédits : 8 \nCoefficients : 4 \nVidéo et Audio par IP \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nTechnologies du Web \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE \nMéthodologique \nCode : UEM 1.3 \nCrédits : 9 \nCoefficients : 5 \nTP Cryptographie et Sécurité \nRéseaux \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Réseaux sans fil \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Technologies du Web  et VoIP \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTélévision numérique \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nUE Découverte \nCode : UED 1.3 \nCrédits : 2 \nCoefficients : 2 \nTraitement de l'information \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nRéseaux de capteurs sans fil \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale  \nCode : UET 1.3 \nCrédits : 1 \nCoefficients : 1 \n  \nRecherche documentaire et \nconception de mémoire \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 3 \n \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00 \n \n \n \n \n \n\n \n Semestre  4 \nStage en entreprise sanctionné par un mémoire et une soutenance. \n \nVHS \nCoeff \nCrédits \nTravail Personnel \n550 \n09 \n18 \nStage en entreprise \n100 \n04 \n06 \nSéminaires \n50 \n02 \n03 \nAutre (Encadrement) \n50 \n02 \n03 \nTotal Semestre 4 \n750 \n17 \n30 \n \nEvaluation du Projet de Fin de Cycle de Master \n -Valeur scientifique (Appréciation du jury) /6 \n -Rédaction du Mémoire (Appréciation du jury)/4 \n -Présentation et réponse aux questions (Appréciation du jury)/4 \n -Appréciation de l’encadreur/3 \n -Présentation du rapport de stage (Appréciation du jury)/3 \n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Master - Réseaux et télécommunications (ACADEMIQUE) \n Semestre 1   \nUnité \nd'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.1.1 \nCrédits : 10 \nCoefficients : 5 \nCommunications numériques \navancées  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nRoutage IP  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.1.2 \nCrédits : 8 \nCoefficients : 4 \nPropagation et Antennes \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nTraitement  avancé  du signal \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.1 \nCrédits : 9 \nCoefficients : 5 \nTP Communications numériques \navancées  \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Routage IP \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Traitement  avancé  du signal \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nProgrammation orientée objets en \nC++   \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nUE Découverte \nCode : UED 1.1 \nCrédits : 2 \nCoefficients : 2 \nSystème Linux \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nNormes et Protocoles \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.1 \nCrédits : 1 \nCoefficients : 1 \nAnglais technique et terminologie \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 1 \n \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00"
+      },
+      {
+        "page": 2,
+        "text": " Semestre 2 \nUnité \nd'enseignement \nMatières \nCrédits \nCoefficien\nt \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.2.1 \nCrédits : 10 \nCoefficients : 5 \nAdministration des services réseaux \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nDSP et  FPGA \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.2.2 \nCrédits : 8 \nCoefficients : 4 \nCanaux de transmission et \nComposants optiques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nCodage et Compression  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.2 \nCrédits : 9 \nCoefficients : 5 \nTP administration des services \nréseaux  \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP DSP et FPGA  \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Codage et Compression \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nRéseaux Haut-débits \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nUE Découverte \nCode : UED 1.2 \nCrédits : 2 \nCoefficients : 2 \nRéseaux Satellitaires \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nApplication de traitement de Signal \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.2 \nCrédits : 1 \nCoefficients : 1 \nEthique, déontologie et \npropriété intellectuelle \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 2 \n \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00"
+      },
+      {
+        "page": 3,
+        "text": " Semestre 3   \nUnité \nd'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.3.1 \nCrédits : 10 \nCoefficients : 5 \nCryptographie et Sécurité Réseaux \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nRéseaux sans fils \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 1.3.2 \nCrédits : 8 \nCoefficients : 4 \nVidéo et Audio par IP \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nTechnologies du Web \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE \nMéthodologique \nCode : UEM 1.3 \nCrédits : 9 \nCoefficients : 5 \nTP Cryptographie et Sécurité \nRéseaux \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Réseaux sans fil \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Technologies du Web  et VoIP \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTélévision numérique \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nUE Découverte \nCode : UED 1.3 \nCrédits : 2 \nCoefficients : 2 \nTraitement de l'information \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nRéseaux de capteurs sans fil \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale  \nCode : UET 1.3 \nCrédits : 1 \nCoefficients : 1 \n  \nRecherche documentaire et \nconception de mémoire \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 3 \n \n30 \n17 \n13h30 \n6h00 \n5h30 \n375h00"
+      },
+      {
+        "page": 4,
+        "text": " Semestre  4 \nStage en entreprise sanctionné par un mémoire et une soutenance. \n \nVHS \nCoeff \nCrédits \nTravail Personnel \n550 \n09 \n18 \nStage en entreprise \n100 \n04 \n06 \nSéminaires \n50 \n02 \n03 \nAutre (Encadrement) \n50 \n02 \n03 \nTotal Semestre 4 \n750 \n17 \n30 \n \nEvaluation du Projet de Fin de Cycle de Master \n -Valeur scientifique (Appréciation du jury) /6 \n -Rédaction du Mémoire (Appréciation du jury)/4 \n -Présentation et réponse aux questions (Appréciation du jury)/4 \n -Appréciation de l’encadreur/3 \n -Présentation du rapport de stage (Appréciation du jury)/3"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Unité\nd'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité\nd'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 1.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Communications numériques\navancées",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 1.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Routage IP",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 1.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Propagation et Antennes",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 1.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Traitement avancé du signal",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Communications numériques\navancées",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Routage IP",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Traitement avancé du signal",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Programmation orientée objets en\nC++",
+            "Crédits": "3",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "37h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Découverte\nCode : UED 1.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Système Linux",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Découverte\nCode : UED 1.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Normes et Protocoles",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Transversale\nCode : UET 1.1\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Anglais technique et terminologie",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "Total semestre 1",
+            "Matières": "Total semestre 1",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "13h30",
+            "column_5": "6h00",
+            "column_6": "5h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Unité\nd'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficien\nt",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité\nd'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficien\nt": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 1.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Administration des services réseaux",
+            "Crédits": "6",
+            "Coefficien\nt": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 1.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "DSP et FPGA",
+            "Crédits": "4",
+            "Coefficien\nt": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 1.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Canaux de transmission et\nComposants optiques",
+            "Crédits": "4",
+            "Coefficien\nt": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 1.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Codage et Compression",
+            "Crédits": "4",
+            "Coefficien\nt": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP administration des services\nréseaux",
+            "Crédits": "2",
+            "Coefficien\nt": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP DSP et FPGA",
+            "Crédits": "2",
+            "Coefficien\nt": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Codage et Compression",
+            "Crédits": "2",
+            "Coefficien\nt": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Réseaux Haut-débits",
+            "Crédits": "3",
+            "Coefficien\nt": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "37h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Découverte\nCode : UED 1.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Réseaux Satellitaires",
+            "Crédits": "1",
+            "Coefficien\nt": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Découverte\nCode : UED 1.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Application de traitement de Signal",
+            "Crédits": "1",
+            "Coefficien\nt": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Transversale\nCode : UET 1.2\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Ethique, déontologie et\npropriété intellectuelle",
+            "Crédits": "1",
+            "Coefficien\nt": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "Total semestre 2",
+            "Matières": "Total semestre 2",
+            "Crédits": "30",
+            "Coefficien\nt": "17",
+            "Volume horaire\nhebdomadaire": "13h30",
+            "column_5": "6h00",
+            "column_6": "5h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 3,
+        "table_index": 0,
+        "headers": [
+          "Unité\nd'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité\nd'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 1.3.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Cryptographie et Sécurité Réseaux",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 1.3.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Réseaux sans fils",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 1.3.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Vidéo et Audio par IP",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 1.3.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Technologies du Web",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE\nMéthodologique\nCode : UEM 1.3\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Cryptographie et Sécurité\nRéseaux",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE\nMéthodologique\nCode : UEM 1.3\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Réseaux sans fil",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE\nMéthodologique\nCode : UEM 1.3\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Technologies du Web et VoIP",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE\nMéthodologique\nCode : UEM 1.3\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Télévision numérique",
+            "Crédits": "3",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "37h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Découverte\nCode : UED 1.3\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Traitement de l'information",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Découverte\nCode : UED 1.3\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Réseaux de capteurs sans fil",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Transversale\nCode : UET 1.3\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Recherche documentaire et\nconception de mémoire",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "Total semestre 3",
+            "Matières": "Total semestre 3",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "13h30",
+            "column_5": "6h00",
+            "column_6": "5h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 4,
+        "table_index": 0,
+        "headers": [
+          "column_0",
+          "VHS",
+          "Coeff",
+          "Crédits"
+        ],
+        "rows": [
+          {
+            "column_0": "Travail Personnel",
+            "VHS": "550",
+            "Coeff": "09",
+            "Crédits": "18"
+          },
+          {
+            "column_0": "Stage en entreprise",
+            "VHS": "100",
+            "Coeff": "04",
+            "Crédits": "06"
+          },
+          {
+            "column_0": "Séminaires",
+            "VHS": "50",
+            "Coeff": "02",
+            "Crédits": "03"
+          },
+          {
+            "column_0": "Autre (Encadrement)",
+            "VHS": "50",
+            "Coeff": "02",
+            "Crédits": "03"
+          },
+          {
+            "column_0": "Total Semestre 4",
+            "VHS": "750",
+            "Coeff": "17",
+            "Crédits": "30"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}
