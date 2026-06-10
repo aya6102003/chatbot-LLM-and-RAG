@@ -1,0 +1,48 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/deuxieme-cycle",
+  "title": "Institut d’Architecture et des Sciences de la Terre :",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé du Master",
+    "Type",
+    "Retenue en",
+    "Arrêté  N°"
+  ],
+  "rows": [
+    [
+      "AUMV (D14)",
+      "Architecture",
+      "Architecture",
+      "A",
+      "2018",
+      "752 du 26-08-2018"
+    ],
+    [
+      "STU (D051)",
+      "Géologie",
+      "Géologie de l’ingénieur et Géotechnique",
+      "2017",
+      "835 du 27-07-2017"
+    ],
+    [
+      "Ressources minérales, Géomatériaux et Environnement",
+      "2017",
+      "835 du 27-07-2017"
+    ],
+    [
+      "Hydrogéologie",
+      "2017",
+      "835 du 27-07-2017"
+    ],
+    [
+      "STU (D053)",
+      "Géographie et Aménagement du Territoire",
+      "Villes dynamique spatiale et gestion",
+      "2018",
+      "752 du 26-08-2018"
+    ]
+  ],
+  "row_count": 5,
+  "col_count": 6
+}

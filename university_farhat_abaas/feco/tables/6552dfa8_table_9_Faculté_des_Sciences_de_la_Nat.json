@@ -1,0 +1,30 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/premier-cycle",
+  "title": "Faculté des Sciences de la Nature et de la Vie",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé de la Licence",
+    "Type",
+    "Retenue en",
+    "Arrêté N°"
+  ],
+  "rows": [
+    [
+      "SNV (D04)\n(Socle commun)\nL1",
+      "Biotechnologies L2",
+      "Biotechnologie et santé",
+      "P",
+      "2019",
+      "1541 du 17-09-2019"
+    ],
+    [
+      "Hydrobiologie marine et continentale L2",
+      "Aquaculture et pisciculture",
+      "2018",
+      "752 du 26-08-2018"
+    ]
+  ],
+  "row_count": 2,
+  "col_count": 6
+}

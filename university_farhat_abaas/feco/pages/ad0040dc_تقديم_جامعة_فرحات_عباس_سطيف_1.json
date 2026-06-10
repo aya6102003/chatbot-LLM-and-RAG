@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://www.univ-setif.dz/universite-ufas/a-propos-ufas1",
+      "title": "تقديم جامعة فرحات عباس سطيف 1",
+      "id": "ad0040dc",
+      "type": "static"
+    },
+    "update": {
+      "fetched_at": "2026-06-10T11:14:42",
+      "hash": "ce3110a5ebafda7a",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "منذ إنشائها سنة\n1978\nو بروح من الابتكار و السعي الدائم نحو الامتياز، أصبحت\nجامعة فرحات عباس سطيف 1\nبمرور السنوات فاعلا هاما و محركا للتنمية لا غنى عنه بالنسبة للمنطقة.\nبانفتاح جامعة فرحات عباس سطيف 1 على محيطها الاجتماعي و الاقتصادي و بحكم طابعها كقطب للعلوم و التكنولوجيا، فهي دائما منخرطة في نهجها مستندة في ذلك إلى رؤية واضحة و شاملة تأخذ بعين الاعتبار الوزن الاستراتيجي للمنطقة في تنمية البلاد على كافة الأصعدة و كذلك إمكانيات الجامعة الهائلة و مقدراتها."
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "logo-ufas1-officiel.png",
+        "url": "https://www.univ-setif.dz/images/logo-ufas1-officiel.png",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.univ-setif.dz/images/banner-ar.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/templates/lt_news/images/presets/preset1/logo.svg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/logo-ufas1-officiel.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/ad0040dc_logo_ufas1_officiel.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/slide/dspace-blue-UFAS-2024.gif",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/iqraa.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/sndl.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/pnst.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/biblio-centrale-ufas.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-Biblio-Centrale.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-collectif.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/t.i.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/cms_vign.jpeg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-fsciences.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-fmedecine.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-fseg.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-fsnv.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-ft.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-iast.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-iomp.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/logo-officielle.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

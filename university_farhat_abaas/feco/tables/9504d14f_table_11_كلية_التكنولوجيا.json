@@ -1,0 +1,24 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/deuxieme-cycle",
+  "title": "كلية التكنولوجيا :",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé du Master",
+    "Type",
+    "Retenue en",
+    "Arrêté N°"
+  ],
+  "rows": [
+    [
+      "ST (H02)",
+      "Génie des Procédés (Master à Cursus Intégré de licence)",
+      "Génie des polymères",
+      "P",
+      "2015",
+      "1036 du 13-10-2015"
+    ]
+  ],
+  "row_count": 1,
+  "col_count": 6
+}

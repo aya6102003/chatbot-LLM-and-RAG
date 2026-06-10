@@ -1,0 +1,48 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/premier-cycle",
+  "title": "المعاهد",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé de la licence et du master",
+    "Type",
+    "Retenu en",
+    "Arrêter MESRS N°"
+  ],
+  "rows": [
+    [
+      "AUMV\n(D14)",
+      "الهندسة",
+      "Architecture",
+      "Académique",
+      "2017",
+      "835 du 27-07-2017"
+    ],
+    [
+      "STU\n(D051)",
+      "Géologie",
+      "Géologie appliquée : Géologie des ressources minérales",
+      "2016",
+      "1485 du 15-09-2016"
+    ],
+    [
+      "Géologie appliquée : Géotechnique",
+      "2016",
+      "1485 du 15-09-2016"
+    ],
+    [
+      "Géologie appliquée : Hydrogéologie",
+      "2016",
+      "1485 du 15-09-2016"
+    ],
+    [
+      "STU\n(D053)",
+      "Géographie et Aménagement du Territoire",
+      "Aménagement du Territoire",
+      "2016",
+      "1485 du 15-09-2016"
+    ]
+  ],
+  "row_count": 5,
+  "col_count": 6
+}

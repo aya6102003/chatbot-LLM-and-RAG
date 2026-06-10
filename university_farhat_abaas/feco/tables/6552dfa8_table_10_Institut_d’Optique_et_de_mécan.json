@@ -1,0 +1,29 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/premier-cycle",
+  "title": "Institut d’Optique et de mécanique de précision",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé de la Licence",
+    "Type",
+    "Retenue en",
+    "Arrêté N°"
+  ],
+  "rows": [
+    [
+      "ST (F11)\n(Socle commun) L1",
+      "Optique et mécanique de précision \n(Recrutement national) L2",
+      "Optométrie",
+      "P",
+      "2015",
+      "1057 du 13-10-2015"
+    ],
+    [
+      "Métrologie et contrôle industriel",
+      "2015",
+      "1057 du 13-10-2015"
+    ]
+  ],
+  "row_count": 2,
+  "col_count": 6
+}

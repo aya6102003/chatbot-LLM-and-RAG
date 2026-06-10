@@ -1,0 +1,43 @@
+{
+  "page_meta": {
+    "https://www.univ-setif.dz/vr-relations-exterieurs/cooperations-internationales/conventions-internationales": {
+      "id": "1a5e32e9",
+      "hash": "b08db91981be925a",
+      "type": "content",
+      "first_seen": "2026-06-10T11:32:01.791308",
+      "last_check": "2026-06-10T11:32:01.791308",
+      "last_change": "",
+      "etag": "",
+      "last_modified": "",
+      "check_count": 0,
+      "change_count": 0
+    },
+    "https://www.univ-setif.dz/liens-utiles-relex": {
+      "id": "495a831c",
+      "hash": "9c596657b93eab05",
+      "type": "content",
+      "first_seen": "2026-06-10T11:41:38.140211",
+      "last_check": "2026-06-10T11:41:38.140211",
+      "last_change": "",
+      "etag": "",
+      "last_modified": "",
+      "check_count": 0,
+      "change_count": 0
+    },
+    "https://www.univ-setif.dz/textes-reglementaires-relex": {
+      "id": "89eecb1c",
+      "hash": "9c596657b93eab05",
+      "type": "content",
+      "first_seen": "2026-06-10T11:41:42.971060",
+      "last_check": "2026-06-10T11:41:42.971060",
+      "last_change": "",
+      "etag": "",
+      "last_modified": "",
+      "check_count": 0,
+      "change_count": 0
+    }
+  },
+  "index_links": {},
+  "update_history": [],
+  "saved_at": "2026-06-10T11:41:43.119671"
+}

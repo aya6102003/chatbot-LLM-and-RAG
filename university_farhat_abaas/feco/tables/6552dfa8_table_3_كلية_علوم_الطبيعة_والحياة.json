@@ -1,0 +1,84 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/premier-cycle",
+  "title": "كلية علوم الطبيعة والحياة",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé de la Licence",
+    "Type",
+    "Retenue en",
+    "Arrêté N°"
+  ],
+  "rows": [
+    [
+      "SNV (D04)\n(Socle commun)\nL1",
+      "العلوم البيولوجية L2",
+      "- Biochimie",
+      "A",
+      "2015",
+      "774 du 05-08-2015"
+    ],
+    [
+      "- Biologie et Physiologie Végétale",
+      "A",
+      "2015",
+      "774 du 05-08-2015"
+    ],
+    [
+      "- Microbiologie",
+      "A",
+      "2015",
+      "774 du 05-08-2015"
+    ],
+    [
+      "- Biologie et Physiologie Animale",
+      "A",
+      "2015",
+      "774 du 05-08-2015"
+    ],
+    [
+      "- Parasitologie",
+      "A",
+      "2015",
+      "774 du 05-08-2015"
+    ],
+    [
+      "Ecologie et Environnement L2",
+      "-Biotechnologie végétale et amélioration",
+      "",
+      "2017",
+      "835 du 27-07-2017"
+    ],
+    [
+      "Biotechnologies L2",
+      "- Biotechnologie et santé",
+      "",
+      "2017",
+      "835 du 27-07-2017"
+    ],
+    [
+      "Sciences agronomiques L2\n(Recrutement national)",
+      "- Aquaculture et pisciculture",
+      "A",
+      "2015",
+      "774 du 05-08-2015"
+    ],
+    [
+      "- Production Animale",
+      "2015",
+      "774 du 05-08-2015"
+    ],
+    [
+      "- Protection des Végétaux",
+      "2015",
+      "774 du 05-08-2015"
+    ],
+    [
+      "- Sol et Eau",
+      "2016",
+      "993 du 09-08-2016"
+    ]
+  ],
+  "row_count": 11,
+  "col_count": 6
+}

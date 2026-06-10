@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://www.univ-setif.dz/charte-informatique",
+      "title": "ميثاق المعلوماتية",
+      "id": "da48816d",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-10T11:15:00",
+      "hash": "4a5b14f3417ff46d",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "هذا الخيار لن يعمل بشكل صحيح. للأسف ، متصفحك لا يدعم الإطارات المضمنة."
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://www.univ-setif.dz/images/banner-ar.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/templates/lt_news/images/presets/preset1/logo.svg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/slide/dspace-blue-UFAS-2024.gif",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/iqraa.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/sndl.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/pnst.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/biblio-centrale-ufas.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-Biblio-Centrale.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-collectif.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/t.i.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/cms_vign.jpeg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-fsciences.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-fmedecine.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-fseg.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-fsnv.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-ft.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-iast.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-iomp.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/logo-officielle.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "Charte Informatique UFAS1",
+        "url": "https://www.univ-setif.dz/docs/Charte-Informatique-UFAS1.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

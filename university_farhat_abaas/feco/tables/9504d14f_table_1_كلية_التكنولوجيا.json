@@ -1,0 +1,129 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/deuxieme-cycle",
+  "title": "كلية التكنولوجيا",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé du Master",
+    "Type",
+    "Retenue en",
+    "Arrêté N°"
+  ],
+  "rows": [
+    [
+      "ST (D011)",
+      "Automatique",
+      "Automatique et informatique industrielle",
+      "A",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Automatique et systèmes",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Electrotechnique",
+      "Réseaux électriques",
+      "A",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Machines électriques",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Commande électrique",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Electrotechnique industrielle",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Génie des procédés",
+      "Génie pharmaceutiques",
+      "A",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Génie chimique",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Génie civil",
+      "Structures",
+      "A",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Matériaux en génie civil",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Géotechnique",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Télécommunications",
+      "Réseaux et systèmes de télécommunications",
+      "A",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Electronique",
+      "Instrumentation",
+      "A",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Electronique des systèmes embarqués",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Microélectronique",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Energies renouvelables",
+      "Energies renouvelables en Electrotechnique",
+      "A",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Sciences et génie de l'environnement",
+      "Génie de l'environnement",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Travaux publics",
+      "Voies et Ouvrages d’Arts",
+      "2016",
+      "1376 du 09-08-2016"
+    ],
+    [
+      "Génie mécanique",
+      "Energétique",
+      "2019",
+      "1485 du 17-09-2019"
+    ]
+  ],
+  "row_count": 19,
+  "col_count": 6
+}

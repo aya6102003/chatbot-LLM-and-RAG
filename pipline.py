@@ -61,6 +61,7 @@ FACULTY_LABELS = {
     "fsnv": "Faculty of Nature and Life Sciences",
     "feco": "Faculty of Economics, Business and Management Sciences",
     "fmed": "Faculty of Medicine",
+    "fsciences": "Faculty of Sciences",
 }
 
 _LABEL_MAP = {

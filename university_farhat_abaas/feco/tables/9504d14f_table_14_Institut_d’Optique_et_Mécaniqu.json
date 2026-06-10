@@ -1,0 +1,50 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/deuxieme-cycle",
+  "title": "Institut d’Optique et Mécanique de Précision :",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé du Master",
+    "Type",
+    "Retenue en",
+    "Arrêté  N°"
+  ],
+  "rows": [
+    [
+      "ST (F10)",
+      "Optique et mécanique de précision (Recrutement national)",
+      "Optique et photonique appliquées",
+      "A",
+      "2015",
+      "1078 du 13-10-2015"
+    ],
+    [
+      "Mécanique fine",
+      "2015",
+      "1078 du 13-10-2015"
+    ],
+    [
+      "Mécanique des matériaux",
+      "2015",
+      "1078 du 13-10-2015"
+    ],
+    [
+      "Optomécanique",
+      "2015",
+      "1078 du 13-10-2015"
+    ],
+    [
+      "Métrologie",
+      "P",
+      "2015",
+      "1078 du 13-10-2015"
+    ],
+    [
+      "Optométrie",
+      "2019",
+      "1485 du 17-09-2019"
+    ]
+  ],
+  "row_count": 6,
+  "col_count": 6
+}
