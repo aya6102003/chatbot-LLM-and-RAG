@@ -1,0 +1,684 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\6552dfa8_Physique_appliquée.pdf",
+      "name": "6552dfa8_Physique_appliquée.pdf",
+      "type": "pdf",
+      "size_bytes": 45799,
+      "id": "865f0952"
+    },
+    "extracted_at": "2026-06-10T12:39:06.327592"
+  },
+  "content": {
+    "text": "Cours\nTD\nTP\nContinu\nExamen\nSéries et équations \ndifferentielles\n6\n3\n3h\n1h30\n67h30\n33%\n67%\nMécanique analytique\n6\n3\n3h\n1h30\n67h30\n33%\n67%\nVibrations & ondes\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nOptique géométrique & \nphysique\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nTP vibrations & ondes\n2\n1\n1h30\n22h30\n50%\n50%\nTP optique géométrique & \nphysique\n2\n1\n1h30\n22h30\n50%\n50%\nMéthodes Numériques et \nProgrammation\n3\n2\n1h30\n1h30\n45h\n50%\n50%\nUE Découverte\nCrédits : 2\nCoefficients : 2\nCristallographie physique\n2\n2\n1h30\n1h30\n45h\n100%\nUE Transversale\nCrédits : 1\nCoefficients : 1\nAnglais 3\n1\n1\n1h\n15h\n100%\nTotal Semestre 3\n30\n17\n13h\n7h30\n4h30\n375h\nLicence en Physique Fondamentale\nSEMESTRE 3\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Fondamentale \nCrédits : 20\nCoefficients : 10\nUE Méthodologie \nCrédits : 7\nCoefficients : 4\n\nCours\nTD\nTP\nContinu\nExamen\nThermodynamique\n6\n3\n3h\n1h30\n67h30\n33%\n67%\nFonction de la variable \ncomplexe\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nMécanique quantique\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nElectromagnétisme\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nTP Thermodynamique\n2\n1\n1h30\n22h30\n50%\n50%\nMécanique des fluides\n3\n2\n1h30\n1h30\n45h\n50%\n50%\nElectronique générale\n3\n2\n1h30\n1h30\n45h\n50%\n50%\nUE Découverte\nCrédits : 3\nCoefficients : 2\nSpectroscopie\n3\n2\n1h30\n1h30\n45h\n100%\nUE DTransversale\nCrédits : 1\nCoefficients : 1\nAnglais 4\n1\n1\n1h\n15h\n100%\nTotal Semestre 4\n30\n17\n13h\n7h30\n4h30\n375h\nLicence en Physique Fondamentale\nSEMESTRE 4\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Fondamentale \nCrédits : 18\nCoefficients : 9\nUE Méthodologie \nCrédits : 8\nCoefficients : 5\n\nCours\nTD\nTP\nContinu\nExamen\nMécanique quantique II\n6\n3\n3h\n1h30\n67h30\n33%\n67%\nPhysique statistique\n6\n3\n3h\n1h30\n67h30\n33%\n67%\nRelativité restreinte\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nMéthodes mathématiques \npour la physique\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nPhysique des semi-\nconducteurs\n4\n2\n1h30\n1h30\n45h\n50%\n50%\nPhysique Numérique\n4\n2\n1h30\n1h30\n45h\n50%\n50%\nUE Découverte\nCrédits : 1\nCoefficients : 1\nPhysique des Particules\n1\n1\n1h30\n22h30\n100%\nUE Transversale\nCrédits : 1\nCoefficients : 1\nAnglais Scientifique I\n1\n1\n1h\n15h\n100%\nTotal Semestre 5\n30\n16\n14h30\n6h\n3h\n352h30\nLicence en Physique Fondamentale\nSEMESTRE 5\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Fondamentale 1\nCrédits : 20\nCoefficients : 10\nUE Méthodologie \nCrédits : 8\nCoefficients : 4\n\nCours\nTD\nTP\nContinu\nExamen\nPhysique du solide\n6\n3\n3h\n1h30\n67h30\n33%\n67%\nPhysique nucléaire\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nTransfert de chaleur\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nPhysique atomique\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nTP Physique nucléaire   \n4\n2\n1h30\n22h30\n50%\n50%\nTP Spectroscopie/optique-\nphysique\n4\n2\n1h30\n22h30\n50%\n50%\nEthique et déontologie\n1\n1\n1h30\n22h30\n100%\nPhysique du plasma\n2\n2\n1h30\n22h30\n100%\nUE Transversale\nCrédits : 1\nCoefficients : 1\nAnglais scientifique 2\n1\n1\n1h\n15h\n100%\nTotal Semestre 6\n30\n17\n11h30\n6h\n3h\n307h30\nSEMESTRE 6\nLicence en Physique Fondamentale\nMode d’'évaluation\nUE Méthodologie \nCrédits : 8\nCoefficients : 4\nUE Fondamentale \nCrédits : 18\nCoefficients : 9\nUE Découverte \nCrédits : 3\nCoefficients : 3\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Cours\nTD\nTP\nContinu\nExamen\nSéries et équations \ndifferentielles\n6\n3\n3h\n1h30\n67h30\n33%\n67%\nMécanique analytique\n6\n3\n3h\n1h30\n67h30\n33%\n67%\nVibrations & ondes\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nOptique géométrique & \nphysique\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nTP vibrations & ondes\n2\n1\n1h30\n22h30\n50%\n50%\nTP optique géométrique & \nphysique\n2\n1\n1h30\n22h30\n50%\n50%\nMéthodes Numériques et \nProgrammation\n3\n2\n1h30\n1h30\n45h\n50%\n50%\nUE Découverte\nCrédits : 2\nCoefficients : 2\nCristallographie physique\n2\n2\n1h30\n1h30\n45h\n100%\nUE Transversale\nCrédits : 1\nCoefficients : 1\nAnglais 3\n1\n1\n1h\n15h\n100%\nTotal Semestre 3\n30\n17\n13h\n7h30\n4h30\n375h\nLicence en Physique Fondamentale\nSEMESTRE 3\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Fondamentale \nCrédits : 20\nCoefficients : 10\nUE Méthodologie \nCrédits : 7\nCoefficients : 4"
+      },
+      {
+        "page": 2,
+        "text": "Cours\nTD\nTP\nContinu\nExamen\nThermodynamique\n6\n3\n3h\n1h30\n67h30\n33%\n67%\nFonction de la variable \ncomplexe\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nMécanique quantique\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nElectromagnétisme\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nTP Thermodynamique\n2\n1\n1h30\n22h30\n50%\n50%\nMécanique des fluides\n3\n2\n1h30\n1h30\n45h\n50%\n50%\nElectronique générale\n3\n2\n1h30\n1h30\n45h\n50%\n50%\nUE Découverte\nCrédits : 3\nCoefficients : 2\nSpectroscopie\n3\n2\n1h30\n1h30\n45h\n100%\nUE DTransversale\nCrédits : 1\nCoefficients : 1\nAnglais 4\n1\n1\n1h\n15h\n100%\nTotal Semestre 4\n30\n17\n13h\n7h30\n4h30\n375h\nLicence en Physique Fondamentale\nSEMESTRE 4\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Fondamentale \nCrédits : 18\nCoefficients : 9\nUE Méthodologie \nCrédits : 8\nCoefficients : 5"
+      },
+      {
+        "page": 3,
+        "text": "Cours\nTD\nTP\nContinu\nExamen\nMécanique quantique II\n6\n3\n3h\n1h30\n67h30\n33%\n67%\nPhysique statistique\n6\n3\n3h\n1h30\n67h30\n33%\n67%\nRelativité restreinte\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nMéthodes mathématiques \npour la physique\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nPhysique des semi-\nconducteurs\n4\n2\n1h30\n1h30\n45h\n50%\n50%\nPhysique Numérique\n4\n2\n1h30\n1h30\n45h\n50%\n50%\nUE Découverte\nCrédits : 1\nCoefficients : 1\nPhysique des Particules\n1\n1\n1h30\n22h30\n100%\nUE Transversale\nCrédits : 1\nCoefficients : 1\nAnglais Scientifique I\n1\n1\n1h\n15h\n100%\nTotal Semestre 5\n30\n16\n14h30\n6h\n3h\n352h30\nLicence en Physique Fondamentale\nSEMESTRE 5\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Fondamentale 1\nCrédits : 20\nCoefficients : 10\nUE Méthodologie \nCrédits : 8\nCoefficients : 4"
+      },
+      {
+        "page": 4,
+        "text": "Cours\nTD\nTP\nContinu\nExamen\nPhysique du solide\n6\n3\n3h\n1h30\n67h30\n33%\n67%\nPhysique nucléaire\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nTransfert de chaleur\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nPhysique atomique\n4\n2\n1h30\n1h30\n45h\n33%\n67%\nTP Physique nucléaire   \n4\n2\n1h30\n22h30\n50%\n50%\nTP Spectroscopie/optique-\nphysique\n4\n2\n1h30\n22h30\n50%\n50%\nEthique et déontologie\n1\n1\n1h30\n22h30\n100%\nPhysique du plasma\n2\n2\n1h30\n22h30\n100%\nUE Transversale\nCrédits : 1\nCoefficients : 1\nAnglais scientifique 2\n1\n1\n1h\n15h\n100%\nTotal Semestre 6\n30\n17\n11h30\n6h\n3h\n307h30\nSEMESTRE 6\nLicence en Physique Fondamentale\nMode d’'évaluation\nUE Méthodologie \nCrédits : 8\nCoefficients : 4\nUE Fondamentale \nCrédits : 18\nCoefficients : 9\nUE Découverte \nCrédits : 3\nCoefficients : 3\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "SEMESTRE 3",
+          "column_1",
+          "column_2",
+          "column_3",
+          "column_4",
+          "column_5",
+          "column_6",
+          "column_7",
+          "column_8",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Volume horaire hebdomadaire",
+            "column_5": "Volume horaire hebdomadaire",
+            "column_6": "Volume horaire hebdomadaire",
+            "column_7": "VHS\n14\nSemaines",
+            "column_8": "Mode d’'évaluation",
+            "column_9": "Mode d’'évaluation"
+          },
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "column_7": "TP",
+            "column_8": "Continu",
+            "column_9": "Examen"
+          },
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Séries et équations\ndifferentielles",
+            "column_2": "6",
+            "column_3": "3",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "67h30",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Mécanique analytique",
+            "column_2": "6",
+            "column_3": "3",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "67h30",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Vibrations & ondes",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Optique géométrique &\nphysique",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 3": "UE Méthodologie\nCrédits : 7\nCoefficients : 4",
+            "column_1": "TP vibrations & ondes",
+            "column_2": "2",
+            "column_3": "1",
+            "column_4": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "column_7": "22h30",
+            "column_8": "50%",
+            "column_9": "50%"
+          },
+          {
+            "SEMESTRE 3": "UE Méthodologie\nCrédits : 7\nCoefficients : 4",
+            "column_1": "TP optique géométrique &\nphysique",
+            "column_2": "2",
+            "column_3": "1",
+            "column_4": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "column_7": "22h30",
+            "column_8": "50%",
+            "column_9": "50%"
+          },
+          {
+            "SEMESTRE 3": "UE Méthodologie\nCrédits : 7\nCoefficients : 4",
+            "column_1": "Méthodes Numériques et\nProgrammation",
+            "column_2": "3",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "50%",
+            "column_9": "50%"
+          },
+          {
+            "SEMESTRE 3": "UE Découverte\nCrédits : 2\nCoefficients : 2",
+            "column_1": "Cristallographie physique",
+            "column_2": "2",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "45h",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 3": "UE Transversale\nCrédits : 1\nCoefficients : 1",
+            "column_1": "Anglais 3",
+            "column_2": "1",
+            "column_3": "1",
+            "column_4": "1h",
+            "column_5": "1h",
+            "column_6": "1h",
+            "column_7": "15h",
+            "column_8": "15h",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 3": "Total Semestre 3",
+            "column_1": "Total Semestre 3",
+            "column_2": "Total Semestre 3",
+            "column_3": "Total Semestre 3",
+            "column_4": "Total Semestre 3",
+            "column_5": "Total Semestre 3",
+            "column_6": "Total Semestre 3",
+            "column_7": "Total Semestre 3",
+            "column_8": "Total Semestre 3",
+            "column_9": "Total Semestre 3"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "SEMESTRE 4",
+          "column_1",
+          "column_2",
+          "column_3",
+          "column_4",
+          "column_5",
+          "column_6",
+          "column_7",
+          "column_8",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Volume horaire hebdomadaire",
+            "column_5": "Volume horaire hebdomadaire",
+            "column_6": "Volume horaire hebdomadaire",
+            "column_7": "VHS\n14\nSemaines",
+            "column_8": "Mode d’'évaluation",
+            "column_9": "Mode d’'évaluation"
+          },
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "column_7": "TP",
+            "column_8": "Continu",
+            "column_9": "Examen"
+          },
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Thermodynamique",
+            "column_2": "6",
+            "column_3": "3",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "67h30",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Fonction de la variable\ncomplexe",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Mécanique quantique",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Electromagnétisme",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 4": "UE Méthodologie\nCrédits : 8\nCoefficients : 5",
+            "column_1": "TP Thermodynamique",
+            "column_2": "2",
+            "column_3": "1",
+            "column_4": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "column_7": "22h30",
+            "column_8": "50%",
+            "column_9": "50%"
+          },
+          {
+            "SEMESTRE 4": "UE Méthodologie\nCrédits : 8\nCoefficients : 5",
+            "column_1": "Mécanique des fluides",
+            "column_2": "3",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "50%",
+            "column_9": "50%"
+          },
+          {
+            "SEMESTRE 4": "UE Méthodologie\nCrédits : 8\nCoefficients : 5",
+            "column_1": "Electronique générale",
+            "column_2": "3",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "50%",
+            "column_9": "50%"
+          },
+          {
+            "SEMESTRE 4": "UE Découverte\nCrédits : 3\nCoefficients : 2",
+            "column_1": "Spectroscopie",
+            "column_2": "3",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "45h",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 4": "UE DTransversale\nCrédits : 1\nCoefficients : 1",
+            "column_1": "Anglais 4",
+            "column_2": "1",
+            "column_3": "1",
+            "column_4": "1h",
+            "column_5": "1h",
+            "column_6": "1h",
+            "column_7": "15h",
+            "column_8": "15h",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 4": "Total Semestre 4",
+            "column_1": "Total Semestre 4",
+            "column_2": "30",
+            "column_3": "17",
+            "column_4": "13h",
+            "column_5": "7h30",
+            "column_6": "4h30",
+            "column_7": "375h",
+            "column_8": "375h",
+            "column_9": "375h"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 3,
+        "table_index": 0,
+        "headers": [
+          "SEMESTRE 5",
+          "column_1",
+          "column_2",
+          "column_3",
+          "column_4",
+          "column_5",
+          "column_6",
+          "column_7",
+          "column_8",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Volume horaire hebdomadaire",
+            "column_5": "Volume horaire hebdomadaire",
+            "column_6": "Volume horaire hebdomadaire",
+            "column_7": "VHS\n14\nSemaines",
+            "column_8": "Mode d’'évaluation",
+            "column_9": "Mode d’'évaluation"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "column_7": "TP",
+            "column_8": "Continu",
+            "column_9": "Examen"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Mécanique quantique II",
+            "column_2": "6",
+            "column_3": "3",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "67h30",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Physique statistique",
+            "column_2": "6",
+            "column_3": "3",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "67h30",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Relativité restreinte",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Méthodes mathématiques\npour la physique",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Physique des semi-\nconducteurs",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "50%",
+            "column_9": "50%"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Physique Numérique",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "50%",
+            "column_9": "50%"
+          },
+          {
+            "SEMESTRE 5": "UE Découverte\nCrédits : 1\nCoefficients : 1",
+            "column_1": "Physique des Particules",
+            "column_2": "1",
+            "column_3": "1",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "22h30",
+            "column_8": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 5": "UE Transversale\nCrédits : 1\nCoefficients : 1",
+            "column_1": "Anglais Scientifique I",
+            "column_2": "1",
+            "column_3": "1",
+            "column_4": "1h",
+            "column_5": "1h",
+            "column_6": "1h",
+            "column_7": "15h",
+            "column_8": "15h",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 5": "Total Semestre 5",
+            "column_1": "Total Semestre 5",
+            "column_2": "30",
+            "column_3": "16",
+            "column_4": "14h30",
+            "column_5": "6h",
+            "column_6": "3h",
+            "column_7": "352h30",
+            "column_8": "352h30",
+            "column_9": "352h30"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 4,
+        "table_index": 0,
+        "headers": [
+          "SEMESTRE 6",
+          "column_1",
+          "column_2",
+          "column_3",
+          "column_4",
+          "column_5",
+          "column_6",
+          "column_7",
+          "column_8",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Volume horaire hebdomadaire",
+            "column_5": "Volume horaire hebdomadaire",
+            "column_6": "Volume horaire hebdomadaire",
+            "column_7": "VHS\n14\nSemaines",
+            "column_8": "Mode d’'évaluation",
+            "column_9": "Mode d’'évaluation"
+          },
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "column_7": "TP",
+            "column_8": "Continu",
+            "column_9": "Examen"
+          },
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Physique du solide",
+            "column_2": "6",
+            "column_3": "3",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "67h30",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Physique nucléaire",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Transfert de chaleur",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Physique atomique",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "45h",
+            "column_8": "33%",
+            "column_9": "67%"
+          },
+          {
+            "SEMESTRE 6": "UE Méthodologie\nCrédits : 8\nCoefficients : 4",
+            "column_1": "TP Physique nucléaire",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "2",
+            "column_5": "2",
+            "column_6": "1h30",
+            "column_7": "22h30",
+            "column_8": "50%",
+            "column_9": "50%"
+          },
+          {
+            "SEMESTRE 6": "UE Méthodologie\nCrédits : 8\nCoefficients : 4",
+            "column_1": "TP Spectroscopie/optique-\nphysique",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "2",
+            "column_5": "2",
+            "column_6": "1h30",
+            "column_7": "22h30",
+            "column_8": "50%",
+            "column_9": "50%"
+          },
+          {
+            "SEMESTRE 6": "UE Découverte\nCrédits : 3\nCoefficients : 3",
+            "column_1": "Ethique et déontologie",
+            "column_2": "1",
+            "column_3": "1",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "22h30",
+            "column_8": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 6": "UE Découverte\nCrédits : 3\nCoefficients : 3",
+            "column_1": "Physique du plasma",
+            "column_2": "2",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "22h30",
+            "column_8": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 6": "UE Transversale\nCrédits : 1\nCoefficients : 1",
+            "column_1": "Anglais scientifique 2",
+            "column_2": "1",
+            "column_3": "1",
+            "column_4": "1h",
+            "column_5": "1h",
+            "column_6": "1h",
+            "column_7": "15h",
+            "column_8": "15h",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 6": "Total Semestre 6",
+            "column_1": "Total Semestre 6",
+            "column_2": "30",
+            "column_3": "17",
+            "column_4": "11h30",
+            "column_5": "6h",
+            "column_6": "3h",
+            "column_7": "307h30",
+            "column_8": "307h30",
+            "column_9": "307h30"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

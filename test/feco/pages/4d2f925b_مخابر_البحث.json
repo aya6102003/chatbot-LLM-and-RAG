@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://eco.univ-setif.dz/albhth/almkhabr-wwhdat-albhth",
+      "title": "مخابر البحث",
+      "id": "4d2f925b",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-10T10:04:04",
+      "hash": "eaea0ffc248464df",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "1- مخبر الشراكة والاستثمار في المؤسسات الصغيرة والمتوسطة في الفضاء الأورو-مغاربي\n2- مخبر تقييم أسواق رؤوس الأموال الجزائرية في ظل العولمة\n3- مخبر الدراسات والبحوث التسويقية والاقتصادية"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "1- مخبر الشراكة والاستثمار في المؤسسات الصغيرة والمتوسطة في الفضاء الأورو-مغاربي",
+        "url": "https://eco.univ-setif.dz/Doc/labo1.pdf",
+        "type": "internal"
+      },
+      {
+        "text": "2- مخبر تقييم أسواق رؤوس الأموال الجزائرية في ظل العولمة",
+        "url": "https://eco.univ-setif.dz/Doc/labo2.pdf",
+        "type": "internal"
+      },
+      {
+        "text": "3- مخبر الدراسات والبحوث التسويقية والاقتصادية",
+        "url": "https://eco.univ-setif.dz/Doc/labo3.pdf",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://eco.univ-setif.dz/images/1/33.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/slide/dspace-blue-UFAS-2024.gif",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/iqraa.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/sndl.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/pnst.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/biblio.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/catalogue-biblio.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/catalogue-collectif.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/t.i.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fsciences.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fmedecine.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fseg.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fsnv.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-ft.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-iast.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-iomp.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/logo-officielle.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "1- مخبر الشراكة والاستثمار في المؤسسات الصغيرة والمتوسطة في الفضاء الأورو-مغاربي",
+        "url": "https://eco.univ-setif.dz/Doc/labo1.pdf",
+        "local_file": "pdfs/4d2f925b_1-_مخبر_الشراكة_والاستثمار_في_المؤسسات_ا.pdf"
+      },
+      {
+        "title": "2- مخبر تقييم أسواق رؤوس الأموال الجزائرية في ظل العولمة",
+        "url": "https://eco.univ-setif.dz/Doc/labo2.pdf",
+        "local_file": "pdfs/4d2f925b_2-_مخبر_تقييم_أسواق_رؤوس_الأموال_الجزائر.pdf"
+      },
+      {
+        "title": "3- مخبر الدراسات والبحوث التسويقية والاقتصادية",
+        "url": "https://eco.univ-setif.dz/Doc/labo3.pdf",
+        "local_file": "pdfs/4d2f925b_3-_مخبر_الدراسات_والبحوث_التسويقية_والاق.pdf"
+      }
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/deuxieme-cycle",
+  "title": "Faculté des Sciences de la Nature et de la Vie :",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé du Master",
+    "Type",
+    "Retenue en",
+    "Arrêté  N°"
+  ],
+  "rows": [
+    [
+      "SNV (M07)",
+      "Sciences agronomiques (Recrutement national)",
+      "Production animale",
+      "A",
+      "2016",
+      "1302 du 09-08-2016"
+    ],
+    [
+      "Production végétale",
+      "2016",
+      "1302 du 09-08-2016"
+    ],
+    [
+      "Protection des végétaux",
+      "2016",
+      "1302 du 09-08-2016"
+    ],
+    [
+      "Aménagement hydro-agricole",
+      "2016",
+      "958 du 09-08-2016"
+    ]
+  ],
+  "row_count": 4,
+  "col_count": 6
+}

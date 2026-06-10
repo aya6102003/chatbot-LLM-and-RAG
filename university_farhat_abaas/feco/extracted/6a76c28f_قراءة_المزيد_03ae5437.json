@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\6a76c28f_قراءة_المزيد.pdf",
+      "name": "6a76c28f_قراءة_المزيد.pdf",
+      "type": "pdf",
+      "size_bytes": 2486493,
+      "id": "03ae5437"
+    },
+    "extracted_at": "2026-06-10T12:39:13.308120"
+  },
+  "content": {
+    "text": "\n\n\n\n\n\n\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      },
+      {
+        "page": 4,
+        "text": ""
+      },
+      {
+        "page": 5,
+        "text": ""
+      },
+      {
+        "page": 6,
+        "text": ""
+      },
+      {
+        "page": 7,
+        "text": ""
+      },
+      {
+        "page": 8,
+        "text": ""
+      },
+      {
+        "page": 9,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

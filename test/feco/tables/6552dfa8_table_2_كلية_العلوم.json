@@ -1,0 +1,51 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/premier-cycle",
+  "title": "كلية العلوم",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé de la Licence",
+    "Fiches techniques",
+    "Type",
+    "Retenue en",
+    "Arrêté N°"
+  ],
+  "rows": [
+    [
+      "SM (D02)\n(Socle commun)\nL1",
+      "فيزياء",
+      "- Physique Fondamentale",
+      "",
+      "A",
+      "2015",
+      "818 du 05-08-2015"
+    ],
+    [
+      "كيمياء",
+      "- Chimie Fondamentale",
+      "-Chimie fondamentale",
+      "A",
+      "2015",
+      "818 du 05-08-2015"
+    ],
+    [
+      "MI (D03)\n(Socle commun) L1",
+      "رياضيات",
+      "- Mathématiques",
+      "",
+      "A",
+      "2015",
+      "583 du 05-08-2015"
+    ],
+    [
+      "إعلام آلي",
+      "- Systèmes Informatiques",
+      "",
+      "A",
+      "2015",
+      "1093 du 13-10-2015"
+    ]
+  ],
+  "row_count": 4,
+  "col_count": 7
+}

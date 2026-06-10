@@ -1,0 +1,576 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\6552dfa8_-Biotechnologie_végétale_et_amélioration.pdf",
+      "name": "6552dfa8_-Biotechnologie_végétale_et_amélioration.pdf",
+      "type": "pdf",
+      "size_bytes": 288079,
+      "id": "18de22ad"
+    },
+    "extracted_at": "2026-06-10T12:36:43.988896"
+  },
+  "content": {
+    "text": "Etablissement : UFAS 1 \nLICENCE BIOTECHNOLOGIE VEGETALE ET AMELIORATION                                  Page 23 \nAnnée universitaire : 2017-2018 \n \nSemestre 5 : \n \nUnité d’Enseignement \nVHS \nV.H hebdomadaire \nCoeff \nCrédits \nMode d'évaluation \n14-16 sem \nC \nTD \nTP \nAutres \nContinu (50%) \nExamen (50%) \nUE fondamentales \nUEF 3.1.1(O/P) : \nMatière 1 : Génétique des \npopulations \n67h00 \n3h00 \n1h30 \n- \n- \n3 \n6 \nx \nx \nMatière 2 : Evolution des \ngénomes et diversité des \nplantes cultivées \n45h00 \n1h30 \n1h30 \n- \n- \n2 \n4 \nx \nX \nUEF 3.1.2(O/P) : \nMatière 1 : Physiologie et biochimie \nvégétale \n67h30 \n3h00 \n1h30 \n82h30 \n3 \n7 \nx \nX \nMatière 2 : Taxonomie et \nsystématique des végétaux \ninferieurs \n67h30 \n1h30 \n1h30 \n1h30 \n32h30 \n2 \n4 \nx \nX \nUE méthodologie \nUEM1(O/P) \nMatière 2 : \nUE découverte \nUED1(O/P) \nMatière 1 : TIC \n37h30 \n1h00 \n1h30 \n12h30 \n2 \n1 \nx \nMatière 2 : Anglais \n22h30 \n1h30 \n2h30 \n1 \n1 \nx \nUE transversals \nUET1(O/P \nMatière 1 : Plantes à intérêts \nindustriels \n45h00 \n1h30 \n1H30 \n55h00 \n2 \n4 \nx \nX \nMatière 2 : Bio systématique \n22h30 \n1h30 \n52h30 \n2 \n3 \nx \nX \nTotal Semestre 5 \n375h00 \n375h00 \n17 \n30 \n\nEtablissement : UFAS 1 \nLICENCE BIOTECHNOLOGIE VEGETALE ET AMELIORATION                                  Page 24 \nAnnée universitaire : 2017-2018 \n \n \nSemestre 6 : \nUnité d’Enseignement \nVHS \nV.H hebdomadaire \nCoeff \nCrédits \nMode d'évaluation \n14-16 sem \nC \nTD \nTP \nAutres \nContinu (50%) \nExamen (50%) \nUE fondamentales \nUEF 3.2.1 (O/P) \nMatière 1 : Physiologie et biochimie \nvégétale \n67h30 \n1h30 \n1h30 \n1h30 \n82h30 \n3 \n7 \nX \nX \nMatière 2 : Génétique et \namélioration des plantes \n67h30 \n1h30 \n1h30 \n1h30 \n82h30 \n3 \n6 \nX \nX \nUEF 3.2.2 (O/P) : \nMatière 1 : Ecotoxicologie \nvégétale \n45h00 \n1h30 \n1h30 \n- \n55h00 \n2 \n4 \nX \nx \nMatière 2 : Taxonomie et \nsystématique des Spermaphytes \net applications biotechnologiques \n45h00 \n1h30 \n1h30 \n80h00 \n3 \n5 \nX \nX \nUE méthodologie \nUEM1(O/P) \nMatière 3 \nUE découverte \nUED1(O/P) \nMatière 1 : Initiation à la recherche \nscientifique \n37h30 \n1h00 \n1h30 \n12h00 \n1 \n1 \nx \nMatière 2 : Anglais \n22h30 \n1h30 \n3h00 \n1 \n1 \nx \nUE transversals \nUET1(O/P) \nMatière 1 : Edaphologie \n45h00 \n1h30 \n1h30 \n30h00 \n3 \n3 \nx \nx \nMatière 2 : Bioinformatique \n45h00 \n1h30 \n1h30 \n30h00 \n1 \n3 \nx \nx \nTotal Semestre 6 \n375h00 \n375h00 \n17 \n30 \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Etablissement : UFAS 1 \nLICENCE BIOTECHNOLOGIE VEGETALE ET AMELIORATION                                  Page 23 \nAnnée universitaire : 2017-2018 \n \nSemestre 5 : \n \nUnité d’Enseignement \nVHS \nV.H hebdomadaire \nCoeff \nCrédits \nMode d'évaluation \n14-16 sem \nC \nTD \nTP \nAutres \nContinu (50%) \nExamen (50%) \nUE fondamentales \nUEF 3.1.1(O/P) : \nMatière 1 : Génétique des \npopulations \n67h00 \n3h00 \n1h30 \n- \n- \n3 \n6 \nx \nx \nMatière 2 : Evolution des \ngénomes et diversité des \nplantes cultivées \n45h00 \n1h30 \n1h30 \n- \n- \n2 \n4 \nx \nX \nUEF 3.1.2(O/P) : \nMatière 1 : Physiologie et biochimie \nvégétale \n67h30 \n3h00 \n1h30 \n82h30 \n3 \n7 \nx \nX \nMatière 2 : Taxonomie et \nsystématique des végétaux \ninferieurs \n67h30 \n1h30 \n1h30 \n1h30 \n32h30 \n2 \n4 \nx \nX \nUE méthodologie \nUEM1(O/P) \nMatière 2 : \nUE découverte \nUED1(O/P) \nMatière 1 : TIC \n37h30 \n1h00 \n1h30 \n12h30 \n2 \n1 \nx \nMatière 2 : Anglais \n22h30 \n1h30 \n2h30 \n1 \n1 \nx \nUE transversals \nUET1(O/P \nMatière 1 : Plantes à intérêts \nindustriels \n45h00 \n1h30 \n1H30 \n55h00 \n2 \n4 \nx \nX \nMatière 2 : Bio systématique \n22h30 \n1h30 \n52h30 \n2 \n3 \nx \nX \nTotal Semestre 5 \n375h00 \n375h00 \n17 \n30"
+      },
+      {
+        "page": 2,
+        "text": "Etablissement : UFAS 1 \nLICENCE BIOTECHNOLOGIE VEGETALE ET AMELIORATION                                  Page 24 \nAnnée universitaire : 2017-2018 \n \n \nSemestre 6 : \nUnité d’Enseignement \nVHS \nV.H hebdomadaire \nCoeff \nCrédits \nMode d'évaluation \n14-16 sem \nC \nTD \nTP \nAutres \nContinu (50%) \nExamen (50%) \nUE fondamentales \nUEF 3.2.1 (O/P) \nMatière 1 : Physiologie et biochimie \nvégétale \n67h30 \n1h30 \n1h30 \n1h30 \n82h30 \n3 \n7 \nX \nX \nMatière 2 : Génétique et \namélioration des plantes \n67h30 \n1h30 \n1h30 \n1h30 \n82h30 \n3 \n6 \nX \nX \nUEF 3.2.2 (O/P) : \nMatière 1 : Ecotoxicologie \nvégétale \n45h00 \n1h30 \n1h30 \n- \n55h00 \n2 \n4 \nX \nx \nMatière 2 : Taxonomie et \nsystématique des Spermaphytes \net applications biotechnologiques \n45h00 \n1h30 \n1h30 \n80h00 \n3 \n5 \nX \nX \nUE méthodologie \nUEM1(O/P) \nMatière 3 \nUE découverte \nUED1(O/P) \nMatière 1 : Initiation à la recherche \nscientifique \n37h30 \n1h00 \n1h30 \n12h00 \n1 \n1 \nx \nMatière 2 : Anglais \n22h30 \n1h30 \n3h00 \n1 \n1 \nx \nUE transversals \nUET1(O/P) \nMatière 1 : Edaphologie \n45h00 \n1h30 \n1h30 \n30h00 \n3 \n3 \nx \nx \nMatière 2 : Bioinformatique \n45h00 \n1h30 \n1h30 \n30h00 \n1 \n3 \nx \nx \nTotal Semestre 6 \n375h00 \n375h00 \n17 \n30"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Unité d’Enseignement",
+          "VHS",
+          "V.H hebdomadaire",
+          "column_3",
+          "column_4",
+          "column_5",
+          "Coeff",
+          "Crédits",
+          "Mode d'évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d’Enseignement": "",
+            "VHS": "14-16 sem",
+            "V.H hebdomadaire": "C",
+            "column_3": "TD",
+            "column_4": "TP",
+            "column_5": "Autres",
+            "Coeff": "Autres",
+            "Crédits": "Autres",
+            "Mode d'évaluation": "Continu (50%)",
+            "column_9": "Examen (50%)"
+          },
+          {
+            "Unité d’Enseignement": "UE fondamentales",
+            "VHS": "UE fondamentales",
+            "V.H hebdomadaire": "UE fondamentales",
+            "column_3": "UE fondamentales",
+            "column_4": "UE fondamentales",
+            "column_5": "UE fondamentales",
+            "Coeff": "UE fondamentales",
+            "Crédits": "UE fondamentales",
+            "Mode d'évaluation": "UE fondamentales",
+            "column_9": "UE fondamentales"
+          },
+          {
+            "Unité d’Enseignement": "UEF 3.1.1(O/P) :",
+            "VHS": "UEF 3.1.1(O/P) :",
+            "V.H hebdomadaire": "UEF 3.1.1(O/P) :",
+            "column_3": "UEF 3.1.1(O/P) :",
+            "column_4": "UEF 3.1.1(O/P) :",
+            "column_5": "UEF 3.1.1(O/P) :",
+            "Coeff": "UEF 3.1.1(O/P) :",
+            "Crédits": "UEF 3.1.1(O/P) :",
+            "Mode d'évaluation": "UEF 3.1.1(O/P) :",
+            "column_9": "UEF 3.1.1(O/P) :"
+          },
+          {
+            "Unité d’Enseignement": "Matière 1 : Génétique des\npopulations",
+            "VHS": "67h00",
+            "V.H hebdomadaire": "3h00",
+            "column_3": "1h30",
+            "column_4": "-",
+            "column_5": "-",
+            "Coeff": "3",
+            "Crédits": "6",
+            "Mode d'évaluation": "x",
+            "column_9": "x"
+          },
+          {
+            "Unité d’Enseignement": "Matière 2 : Evolution des\ngénomes et diversité des\nplantes cultivées",
+            "VHS": "45h00",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "1h30",
+            "column_4": "-",
+            "column_5": "-",
+            "Coeff": "2",
+            "Crédits": "4",
+            "Mode d'évaluation": "x",
+            "column_9": "X"
+          },
+          {
+            "Unité d’Enseignement": "UEF 3.1.2(O/P) :",
+            "VHS": "UEF 3.1.2(O/P) :",
+            "V.H hebdomadaire": "UEF 3.1.2(O/P) :",
+            "column_3": "UEF 3.1.2(O/P) :",
+            "column_4": "UEF 3.1.2(O/P) :",
+            "column_5": "UEF 3.1.2(O/P) :",
+            "Coeff": "UEF 3.1.2(O/P) :",
+            "Crédits": "UEF 3.1.2(O/P) :",
+            "Mode d'évaluation": "UEF 3.1.2(O/P) :",
+            "column_9": "UEF 3.1.2(O/P) :"
+          },
+          {
+            "Unité d’Enseignement": "UEF 3.1.2(O/P) :",
+            "VHS": "UEF 3.1.2(O/P) :",
+            "V.H hebdomadaire": "UEF 3.1.2(O/P) :",
+            "column_3": "UEF 3.1.2(O/P) :",
+            "column_4": "UEF 3.1.2(O/P) :",
+            "column_5": "UEF 3.1.2(O/P) :",
+            "Coeff": "UEF 3.1.2(O/P) :",
+            "Crédits": "UEF 3.1.2(O/P) :",
+            "Mode d'évaluation": "UEF 3.1.2(O/P) :",
+            "column_9": "UEF 3.1.2(O/P) :"
+          },
+          {
+            "Unité d’Enseignement": "Matière 1 : Physiologie et biochimie\nvégétale",
+            "VHS": "67h30",
+            "V.H hebdomadaire": "3h00",
+            "column_3": "3h00",
+            "column_4": "1h30",
+            "column_5": "82h30",
+            "Coeff": "3",
+            "Crédits": "7",
+            "Mode d'évaluation": "x",
+            "column_9": "X"
+          },
+          {
+            "Unité d’Enseignement": "Matière 2 : Taxonomie et\nsystématique des végétaux\ninferieurs",
+            "VHS": "67h30",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "1h30",
+            "column_4": "1h30",
+            "column_5": "32h30",
+            "Coeff": "2",
+            "Crédits": "4",
+            "Mode d'évaluation": "x",
+            "column_9": "X"
+          },
+          {
+            "Unité d’Enseignement": "UE méthodologie",
+            "VHS": "UE méthodologie",
+            "V.H hebdomadaire": "UE méthodologie",
+            "column_3": "UE méthodologie",
+            "column_4": "UE méthodologie",
+            "column_5": "UE méthodologie",
+            "Coeff": "UE méthodologie",
+            "Crédits": "UE méthodologie",
+            "Mode d'évaluation": "UE méthodologie",
+            "column_9": "UE méthodologie"
+          },
+          {
+            "Unité d’Enseignement": "UEM1(O/P)",
+            "VHS": "UEM1(O/P)",
+            "V.H hebdomadaire": "UEM1(O/P)",
+            "column_3": "UEM1(O/P)",
+            "column_4": "UEM1(O/P)",
+            "column_5": "UEM1(O/P)",
+            "Coeff": "UEM1(O/P)",
+            "Crédits": "UEM1(O/P)",
+            "Mode d'évaluation": "UEM1(O/P)",
+            "column_9": "UEM1(O/P)"
+          },
+          {
+            "Unité d’Enseignement": "Matière 2 :",
+            "VHS": "Matière 2 :",
+            "V.H hebdomadaire": "Matière 2 :",
+            "column_3": "Matière 2 :",
+            "column_4": "Matière 2 :",
+            "column_5": "Matière 2 :",
+            "Coeff": "Matière 2 :",
+            "Crédits": "Matière 2 :",
+            "Mode d'évaluation": "Matière 2 :",
+            "column_9": "Matière 2 :"
+          },
+          {
+            "Unité d’Enseignement": "UE découverte",
+            "VHS": "UE découverte",
+            "V.H hebdomadaire": "UE découverte",
+            "column_3": "UE découverte",
+            "column_4": "UE découverte",
+            "column_5": "UE découverte",
+            "Coeff": "UE découverte",
+            "Crédits": "UE découverte",
+            "Mode d'évaluation": "UE découverte",
+            "column_9": "UE découverte"
+          },
+          {
+            "Unité d’Enseignement": "UED1(O/P)",
+            "VHS": "UED1(O/P)",
+            "V.H hebdomadaire": "UED1(O/P)",
+            "column_3": "UED1(O/P)",
+            "column_4": "UED1(O/P)",
+            "column_5": "UED1(O/P)",
+            "Coeff": "UED1(O/P)",
+            "Crédits": "UED1(O/P)",
+            "Mode d'évaluation": "UED1(O/P)",
+            "column_9": "UED1(O/P)"
+          },
+          {
+            "Unité d’Enseignement": "Matière 1 : TIC",
+            "VHS": "37h30",
+            "V.H hebdomadaire": "1h00",
+            "column_3": "1h30",
+            "column_4": "1h30",
+            "column_5": "12h30",
+            "Coeff": "2",
+            "Crédits": "1",
+            "Mode d'évaluation": "x",
+            "column_9": "x"
+          },
+          {
+            "Unité d’Enseignement": "Matière 2 : Anglais",
+            "VHS": "22h30",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "1h30",
+            "column_4": "1h30",
+            "column_5": "2h30",
+            "Coeff": "1",
+            "Crédits": "1",
+            "Mode d'évaluation": "x",
+            "column_9": "x"
+          },
+          {
+            "Unité d’Enseignement": "UE transversals",
+            "VHS": "UE transversals",
+            "V.H hebdomadaire": "UE transversals",
+            "column_3": "UE transversals",
+            "column_4": "UE transversals",
+            "column_5": "UE transversals",
+            "Coeff": "UE transversals",
+            "Crédits": "UE transversals",
+            "Mode d'évaluation": "UE transversals",
+            "column_9": "UE transversals"
+          },
+          {
+            "Unité d’Enseignement": "UET1(O/P",
+            "VHS": "UET1(O/P",
+            "V.H hebdomadaire": "UET1(O/P",
+            "column_3": "UET1(O/P",
+            "column_4": "UET1(O/P",
+            "column_5": "UET1(O/P",
+            "Coeff": "UET1(O/P",
+            "Crédits": "UET1(O/P",
+            "Mode d'évaluation": "UET1(O/P",
+            "column_9": "UET1(O/P"
+          },
+          {
+            "Unité d’Enseignement": "Matière 1 : Plantes à intérêts\nindustriels",
+            "VHS": "45h00",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "1H30",
+            "column_4": "1H30",
+            "column_5": "55h00",
+            "Coeff": "2",
+            "Crédits": "4",
+            "Mode d'évaluation": "x",
+            "column_9": "X"
+          },
+          {
+            "Unité d’Enseignement": "Matière 2 : Bio systématique",
+            "VHS": "22h30",
+            "V.H hebdomadaire": "22h30",
+            "column_3": "1h30",
+            "column_4": "1h30",
+            "column_5": "52h30",
+            "Coeff": "2",
+            "Crédits": "3",
+            "Mode d'évaluation": "x",
+            "column_9": "X"
+          },
+          {
+            "Unité d’Enseignement": "Total Semestre 5",
+            "VHS": "375h00",
+            "V.H hebdomadaire": "375h00",
+            "column_3": "375h00",
+            "column_4": "375h00",
+            "column_5": "375h00",
+            "Coeff": "17",
+            "Crédits": "30",
+            "Mode d'évaluation": "30",
+            "column_9": "30"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Unité d’Enseignement",
+          "VHS",
+          "V.H hebdomadaire",
+          "column_3",
+          "column_4",
+          "column_5",
+          "Coeff",
+          "Crédits",
+          "Mode d'évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d’Enseignement": "",
+            "VHS": "14-16 sem",
+            "V.H hebdomadaire": "C",
+            "column_3": "TD",
+            "column_4": "TP",
+            "column_5": "Autres",
+            "Coeff": "Autres",
+            "Crédits": "Autres",
+            "Mode d'évaluation": "Continu (50%)",
+            "column_9": "Examen (50%)"
+          },
+          {
+            "Unité d’Enseignement": "UE fondamentales",
+            "VHS": "UE fondamentales",
+            "V.H hebdomadaire": "UE fondamentales",
+            "column_3": "UE fondamentales",
+            "column_4": "UE fondamentales",
+            "column_5": "UE fondamentales",
+            "Coeff": "UE fondamentales",
+            "Crédits": "UE fondamentales",
+            "Mode d'évaluation": "UE fondamentales",
+            "column_9": "UE fondamentales"
+          },
+          {
+            "Unité d’Enseignement": "UEF 3.2.1 (O/P)",
+            "VHS": "UEF 3.2.1 (O/P)",
+            "V.H hebdomadaire": "UEF 3.2.1 (O/P)",
+            "column_3": "UEF 3.2.1 (O/P)",
+            "column_4": "UEF 3.2.1 (O/P)",
+            "column_5": "UEF 3.2.1 (O/P)",
+            "Coeff": "UEF 3.2.1 (O/P)",
+            "Crédits": "UEF 3.2.1 (O/P)",
+            "Mode d'évaluation": "UEF 3.2.1 (O/P)",
+            "column_9": "UEF 3.2.1 (O/P)"
+          },
+          {
+            "Unité d’Enseignement": "Matière 1 : Physiologie et biochimie\nvégétale",
+            "VHS": "67h30",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "1h30",
+            "column_4": "1h30",
+            "column_5": "82h30",
+            "Coeff": "3",
+            "Crédits": "7",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unité d’Enseignement": "Matière 2 : Génétique et\namélioration des plantes",
+            "VHS": "67h30",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "1h30",
+            "column_4": "1h30",
+            "column_5": "82h30",
+            "Coeff": "3",
+            "Crédits": "6",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unité d’Enseignement": "UEF 3.2.2 (O/P) :",
+            "VHS": "UEF 3.2.2 (O/P) :",
+            "V.H hebdomadaire": "UEF 3.2.2 (O/P) :",
+            "column_3": "UEF 3.2.2 (O/P) :",
+            "column_4": "UEF 3.2.2 (O/P) :",
+            "column_5": "UEF 3.2.2 (O/P) :",
+            "Coeff": "UEF 3.2.2 (O/P) :",
+            "Crédits": "UEF 3.2.2 (O/P) :",
+            "Mode d'évaluation": "UEF 3.2.2 (O/P) :",
+            "column_9": "UEF 3.2.2 (O/P) :"
+          },
+          {
+            "Unité d’Enseignement": "UEF 3.2.2 (O/P) :",
+            "VHS": "UEF 3.2.2 (O/P) :",
+            "V.H hebdomadaire": "UEF 3.2.2 (O/P) :",
+            "column_3": "UEF 3.2.2 (O/P) :",
+            "column_4": "UEF 3.2.2 (O/P) :",
+            "column_5": "UEF 3.2.2 (O/P) :",
+            "Coeff": "UEF 3.2.2 (O/P) :",
+            "Crédits": "UEF 3.2.2 (O/P) :",
+            "Mode d'évaluation": "UEF 3.2.2 (O/P) :",
+            "column_9": "UEF 3.2.2 (O/P) :"
+          },
+          {
+            "Unité d’Enseignement": "Matière 1 : Ecotoxicologie\nvégétale",
+            "VHS": "45h00",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "1h30",
+            "column_4": "-",
+            "column_5": "55h00",
+            "Coeff": "2",
+            "Crédits": "4",
+            "Mode d'évaluation": "X",
+            "column_9": "x"
+          },
+          {
+            "Unité d’Enseignement": "Matière 2 : Taxonomie et\nsystématique des Spermaphytes\net applications biotechnologiques",
+            "VHS": "45h00",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "1h30",
+            "column_4": "1h30",
+            "column_5": "80h00",
+            "Coeff": "3",
+            "Crédits": "5",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unité d’Enseignement": "UE méthodologie",
+            "VHS": "UE méthodologie",
+            "V.H hebdomadaire": "UE méthodologie",
+            "column_3": "UE méthodologie",
+            "column_4": "UE méthodologie",
+            "column_5": "UE méthodologie",
+            "Coeff": "UE méthodologie",
+            "Crédits": "UE méthodologie",
+            "Mode d'évaluation": "UE méthodologie",
+            "column_9": "UE méthodologie"
+          },
+          {
+            "Unité d’Enseignement": "UEM1(O/P)",
+            "VHS": "UEM1(O/P)",
+            "V.H hebdomadaire": "UEM1(O/P)",
+            "column_3": "UEM1(O/P)",
+            "column_4": "UEM1(O/P)",
+            "column_5": "UEM1(O/P)",
+            "Coeff": "UEM1(O/P)",
+            "Crédits": "UEM1(O/P)",
+            "Mode d'évaluation": "UEM1(O/P)",
+            "column_9": "UEM1(O/P)"
+          },
+          {
+            "Unité d’Enseignement": "Matière 3",
+            "VHS": "Matière 3",
+            "V.H hebdomadaire": "Matière 3",
+            "column_3": "Matière 3",
+            "column_4": "Matière 3",
+            "column_5": "Matière 3",
+            "Coeff": "Matière 3",
+            "Crédits": "Matière 3",
+            "Mode d'évaluation": "Matière 3",
+            "column_9": "Matière 3"
+          },
+          {
+            "Unité d’Enseignement": "UE découverte",
+            "VHS": "UE découverte",
+            "V.H hebdomadaire": "UE découverte",
+            "column_3": "UE découverte",
+            "column_4": "UE découverte",
+            "column_5": "UE découverte",
+            "Coeff": "UE découverte",
+            "Crédits": "UE découverte",
+            "Mode d'évaluation": "UE découverte",
+            "column_9": "UE découverte"
+          },
+          {
+            "Unité d’Enseignement": "UED1(O/P)",
+            "VHS": "UED1(O/P)",
+            "V.H hebdomadaire": "UED1(O/P)",
+            "column_3": "UED1(O/P)",
+            "column_4": "UED1(O/P)",
+            "column_5": "UED1(O/P)",
+            "Coeff": "UED1(O/P)",
+            "Crédits": "UED1(O/P)",
+            "Mode d'évaluation": "UED1(O/P)",
+            "column_9": "UED1(O/P)"
+          },
+          {
+            "Unité d’Enseignement": "Matière 1 : Initiation à la recherche\nscientifique",
+            "VHS": "37h30",
+            "V.H hebdomadaire": "1h00",
+            "column_3": "1h30",
+            "column_4": "1h30",
+            "column_5": "12h00",
+            "Coeff": "1",
+            "Crédits": "1",
+            "Mode d'évaluation": "x",
+            "column_9": "x"
+          },
+          {
+            "Unité d’Enseignement": "Matière 2 : Anglais",
+            "VHS": "22h30",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "1h30",
+            "column_4": "1h30",
+            "column_5": "3h00",
+            "Coeff": "1",
+            "Crédits": "1",
+            "Mode d'évaluation": "x",
+            "column_9": "x"
+          },
+          {
+            "Unité d’Enseignement": "UE transversals",
+            "VHS": "UE transversals",
+            "V.H hebdomadaire": "UE transversals",
+            "column_3": "UE transversals",
+            "column_4": "UE transversals",
+            "column_5": "UE transversals",
+            "Coeff": "UE transversals",
+            "Crédits": "UE transversals",
+            "Mode d'évaluation": "UE transversals",
+            "column_9": "UE transversals"
+          },
+          {
+            "Unité d’Enseignement": "UET1(O/P)",
+            "VHS": "UET1(O/P)",
+            "V.H hebdomadaire": "UET1(O/P)",
+            "column_3": "UET1(O/P)",
+            "column_4": "UET1(O/P)",
+            "column_5": "UET1(O/P)",
+            "Coeff": "UET1(O/P)",
+            "Crédits": "UET1(O/P)",
+            "Mode d'évaluation": "UET1(O/P)",
+            "column_9": "UET1(O/P)"
+          },
+          {
+            "Unité d’Enseignement": "Matière 1 : Edaphologie",
+            "VHS": "45h00",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "1h30",
+            "column_4": "1h30",
+            "column_5": "30h00",
+            "Coeff": "3",
+            "Crédits": "3",
+            "Mode d'évaluation": "x",
+            "column_9": "x"
+          },
+          {
+            "Unité d’Enseignement": "Matière 2 : Bioinformatique",
+            "VHS": "45h00",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "1h30",
+            "column_4": "1h30",
+            "column_5": "30h00",
+            "Coeff": "1",
+            "Crédits": "3",
+            "Mode d'évaluation": "x",
+            "column_9": "x"
+          },
+          {
+            "Unité d’Enseignement": "Total Semestre 6",
+            "VHS": "375h00",
+            "V.H hebdomadaire": "375h00",
+            "column_3": "375h00",
+            "column_4": "375h00",
+            "column_5": "375h00",
+            "Coeff": "17",
+            "Crédits": "30",
+            "Mode d'évaluation": "30",
+            "column_9": "30"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

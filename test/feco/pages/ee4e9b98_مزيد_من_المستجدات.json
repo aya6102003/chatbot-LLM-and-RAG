@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://eco.univ-setif.dz/mzyd-mn-almstjdat?start=10",
+      "title": "مزيد من المستجدات",
+      "id": "ee4e9b98",
+      "type": "index"
+    },
+    "update": {
+      "fetched_at": "2026-06-10T10:42:16",
+      "hash": "f24e68cb295f0443",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "منحة إيراسموس موندوس\nمنصة التعليم عن بعد MOODLE\nمنصة خريجي جامعة فرحات عباس سطيف\" Alumni Platform \"\n1\n2"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "الاسم",
+        "url": "https://eco.univ-setif.dz/mzyd-mn-almstjdat?start=10",
+        "type": "internal"
+      },
+      {
+        "text": "منحة إيراسموس موندوس",
+        "url": "https://eco.univ-setif.dz/actualites-principal/mnht-ayrasmws-mwndws",
+        "type": "internal"
+      },
+      {
+        "text": "منصة التعليم عن بعد MOODLE",
+        "url": "https://eco.univ-setif.dz/actualites-principal/mnst-alt-lym-n-b-d-moodle",
+        "type": "internal"
+      },
+      {
+        "text": "منصة خريجي جامعة فرحات عباس سطيف\" Alumni Platform \"",
+        "url": "https://eco.univ-setif.dz/actualites-principal/mnst-khryjy-jam-t-frhat-bas-styf-alumni-platform",
+        "type": "internal"
+      },
+      {
+        "text": "mzyd-mn-almstjdat",
+        "url": "https://eco.univ-setif.dz/mzyd-mn-almstjdat",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://eco.univ-setif.dz/images/1/33.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/slide/dspace-blue-UFAS-2024.gif",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/iqraa.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/sndl.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/pnst.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/biblio.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/catalogue-biblio.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/catalogue-collectif.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/t.i.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fsciences.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fmedecine.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fseg.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fsnv.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-ft.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-iast.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-iomp.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/logo-officielle.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": [
+      {
+        "file": "tables/ee4e9b98_table_1_المقالات.json",
+        "rows": 3
+      }
+    ]
+  }
+}

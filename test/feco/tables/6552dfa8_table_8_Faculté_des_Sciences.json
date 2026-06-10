@@ -1,0 +1,39 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/premier-cycle",
+  "title": "Faculté des Sciences",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé de la Licence",
+    "Type",
+    "Retenue en",
+    "Arrêté N°"
+  ],
+  "rows": [
+    [
+      "SM (D02)\n(Socle commun)\nL1",
+      "Physique   L2",
+      "Physique appliquée",
+      "P",
+      "2015",
+      "818 du 05-08-2015"
+    ],
+    [
+      "MI (D03)\n(Socle commun) L1",
+      "Mathématiques  L2",
+      "Modélisation et aide à la décision",
+      "P",
+      "2016",
+      "876 du 26-07-2016"
+    ],
+    [
+      "Informatique   L2",
+      "Gestion des systèmes d’information",
+      "P",
+      "2016",
+      "876 du 26-07-2016"
+    ]
+  ],
+  "row_count": 3,
+  "col_count": 6
+}

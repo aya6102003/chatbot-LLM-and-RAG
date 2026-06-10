@@ -1,0 +1,588 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\52310878_2020_2021.pdf",
+      "name": "52310878_2020_2021.pdf",
+      "type": "pdf",
+      "size_bytes": 526457,
+      "id": "ffb8a111"
+    },
+    "extracted_at": "2026-06-10T12:35:08.657605"
+  },
+  "content": {
+    "text": "Effectifs des inscrits et réinscrits  en Post-Graduation \nAnnée Universitaire 2020/2021 \n \nEtablissement : Université Ferhat Abbas – Sétif 1 \nDu 1er Septembre 2020 Au 30 Juin 2021. \n \nFaculté et Institut \n \nDisciplines \nNombre des inscrits et réinscrits en \n2ème Post-Graduation \n \nTotal des  \nréinscrits \nDoctorat 3eme Cycle \nInferieur à 6 ans \nDoctorat en Sciences\n \nInferieur à 7 ans\n \n \n \nFaculté de Technologie \nGénie civil \n17 \n00 \n17 \nElectronique \n31 \n21 \n52 \nElectrotechnique \n27 \n02 \n29 \nAutomatique \n21 \n02 \n23 \nTélécommunication \n22 \n00 \n22 \nGénie des Procédés \n73 \n31 \n104 \nInstitut d’Architecture et \nSciences de la terre  \nArchitecture \n07 \n07 \n14 \nGéologie \n12 \n00 \n12 \nInstitut d’Optique et \nMécanique  de Précision \nOptique et M. de Précision \n68 \n03 \n71 \n \n \nFaculté des Sciences \nMathématiques \n41 \n17 \n58 \nPhysique \n56 \n20 \n76 \nChimie  \n12 \n01 \n13 \nInformatique \n49 \n23 \n72 \nFaculté des Sciences de la \nNature et de la Vie \nBiologie \n47 \n20 \n67 \nAgronomie \n33 \n11 \n44 \nEcologie et Environnement \n12 \n00 \n12 \n \nFaculté des Sciences \nEconomiques \nSciences Economiques \n24 \n30 \n54 \nSciences de Gestion \n26 \n06 \n32 \nSciences Commerciales \n34 \n12 \n46 \nSciences Financières et comptabilité \n24 \n00 \n24 \nTotal \n636 \n206 \n842 \nTotal Général \n842 \n \n \n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Effectifs des inscrits et réinscrits  en Post-Graduation \nAnnée Universitaire 2020/2021 \n \nEtablissement : Université Ferhat Abbas – Sétif 1 \nDu 1er Septembre 2020 Au 30 Juin 2021. \n \nFaculté et Institut \n \nDisciplines \nNombre des inscrits et réinscrits en \n2ème Post-Graduation \n \nTotal des  \nréinscrits \nDoctorat 3eme Cycle \nInferieur à 6 ans \nDoctorat en Sciences\n \nInferieur à 7 ans\n \n \n \nFaculté de Technologie \nGénie civil \n17 \n00 \n17 \nElectronique \n31 \n21 \n52 \nElectrotechnique \n27 \n02 \n29 \nAutomatique \n21 \n02 \n23 \nTélécommunication \n22 \n00 \n22 \nGénie des Procédés \n73 \n31 \n104 \nInstitut d’Architecture et \nSciences de la terre  \nArchitecture \n07 \n07 \n14 \nGéologie \n12 \n00 \n12 \nInstitut d’Optique et \nMécanique  de Précision \nOptique et M. de Précision \n68 \n03 \n71 \n \n \nFaculté des Sciences \nMathématiques \n41 \n17 \n58 \nPhysique \n56 \n20 \n76 \nChimie  \n12 \n01 \n13 \nInformatique \n49 \n23 \n72 \nFaculté des Sciences de la \nNature et de la Vie \nBiologie \n47 \n20 \n67 \nAgronomie \n33 \n11 \n44 \nEcologie et Environnement \n12 \n00 \n12 \n \nFaculté des Sciences \nEconomiques \nSciences Economiques \n24 \n30 \n54 \nSciences de Gestion \n26 \n06 \n32 \nSciences Commerciales \n34 \n12 \n46 \nSciences Financières et comptabilité \n24 \n00 \n24 \nTotal \n636 \n206 \n842 \nTotal Général \n842"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Faculté et Institut",
+          "column_1",
+          "column_2",
+          "Disciplines",
+          "column_4",
+          "column_5",
+          "column_6",
+          "Nombre des inscrits et réinscrits en",
+          "column_8",
+          "column_9",
+          "column_10",
+          "column_11",
+          "Total des\nréinscrits",
+          "column_13",
+          "column_14"
+        ],
+        "rows": [
+          {
+            "Faculté et Institut": "",
+            "column_1": "",
+            "column_2": "",
+            "Disciplines": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "Nombre des inscrits et réinscrits en": "2ème Post-Graduation",
+            "column_8": "2ème Post-Graduation",
+            "column_9": "2ème Post-Graduation",
+            "column_10": "2ème Post-Graduation",
+            "column_11": "2ème Post-Graduation",
+            "Total des\nréinscrits": "2ème Post-Graduation",
+            "column_13": "2ème Post-Graduation",
+            "column_14": "2ème Post-Graduation"
+          },
+          {
+            "Faculté et Institut": "",
+            "column_1": "",
+            "column_2": "",
+            "Disciplines": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "Nombre des inscrits et réinscrits en": "Doctorat 3eme Cycle",
+            "column_8": "Doctorat 3eme Cycle",
+            "column_9": "Doctorat 3eme Cycle",
+            "column_10": "Doctorat en Sciences",
+            "column_11": "Doctorat en Sciences",
+            "Total des\nréinscrits": "Doctorat en Sciences",
+            "column_13": "Doctorat en Sciences",
+            "column_14": "Doctorat en Sciences"
+          },
+          {
+            "Faculté et Institut": "",
+            "column_1": "",
+            "column_2": "",
+            "Disciplines": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "Nombre des inscrits et réinscrits en": "Inferieur à 6 ans",
+            "column_8": "Inferieur à 6 ans",
+            "column_9": "Inferieur à 6 ans",
+            "column_10": "Inferieur à 7 ans",
+            "column_11": "Inferieur à 7 ans",
+            "Total des\nréinscrits": "Inferieur à 7 ans",
+            "column_13": "Inferieur à 7 ans",
+            "column_14": "Inferieur à 7 ans"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Faculté de Technologie",
+            "column_2": "Faculté de Technologie",
+            "Disciplines": "Faculté de Technologie",
+            "column_4": "Génie civil",
+            "column_5": "Génie civil",
+            "column_6": "Génie civil",
+            "Nombre des inscrits et réinscrits en": "17",
+            "column_8": "17",
+            "column_9": "17",
+            "column_10": "00",
+            "column_11": "00",
+            "Total des\nréinscrits": "00",
+            "column_13": "17",
+            "column_14": "17"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Faculté de Technologie",
+            "column_2": "Faculté de Technologie",
+            "Disciplines": "Faculté de Technologie",
+            "column_4": "Electronique",
+            "column_5": "Electronique",
+            "column_6": "Electronique",
+            "Nombre des inscrits et réinscrits en": "31",
+            "column_8": "31",
+            "column_9": "31",
+            "column_10": "21",
+            "column_11": "21",
+            "Total des\nréinscrits": "21",
+            "column_13": "52",
+            "column_14": "52"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Faculté de Technologie",
+            "column_2": "Faculté de Technologie",
+            "Disciplines": "Faculté de Technologie",
+            "column_4": "Electrotechnique",
+            "column_5": "Electrotechnique",
+            "column_6": "Electrotechnique",
+            "Nombre des inscrits et réinscrits en": "27",
+            "column_8": "27",
+            "column_9": "27",
+            "column_10": "02",
+            "column_11": "02",
+            "Total des\nréinscrits": "02",
+            "column_13": "29",
+            "column_14": "29"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Faculté de Technologie",
+            "column_2": "Faculté de Technologie",
+            "Disciplines": "Faculté de Technologie",
+            "column_4": "Automatique",
+            "column_5": "Automatique",
+            "column_6": "Automatique",
+            "Nombre des inscrits et réinscrits en": "21",
+            "column_8": "21",
+            "column_9": "21",
+            "column_10": "02",
+            "column_11": "02",
+            "Total des\nréinscrits": "02",
+            "column_13": "23",
+            "column_14": "23"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Faculté de Technologie",
+            "column_2": "Faculté de Technologie",
+            "Disciplines": "Faculté de Technologie",
+            "column_4": "Télécommunication",
+            "column_5": "Télécommunication",
+            "column_6": "Télécommunication",
+            "Nombre des inscrits et réinscrits en": "22",
+            "column_8": "22",
+            "column_9": "22",
+            "column_10": "00",
+            "column_11": "00",
+            "Total des\nréinscrits": "00",
+            "column_13": "22",
+            "column_14": "22"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Faculté de Technologie",
+            "column_2": "Faculté de Technologie",
+            "Disciplines": "Faculté de Technologie",
+            "column_4": "Génie des Procédés",
+            "column_5": "Génie des Procédés",
+            "column_6": "Génie des Procédés",
+            "Nombre des inscrits et réinscrits en": "73",
+            "column_8": "73",
+            "column_9": "73",
+            "column_10": "31",
+            "column_11": "31",
+            "Total des\nréinscrits": "31",
+            "column_13": "104",
+            "column_14": "104"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Institut d’Architecture et",
+            "column_2": "Institut d’Architecture et",
+            "Disciplines": "Institut d’Architecture et",
+            "column_4": "Architecture",
+            "column_5": "Architecture",
+            "column_6": "Architecture",
+            "Nombre des inscrits et réinscrits en": "07",
+            "column_8": "07",
+            "column_9": "07",
+            "column_10": "07",
+            "column_11": "07",
+            "Total des\nréinscrits": "07",
+            "column_13": "14",
+            "column_14": "14"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Sciences de la terre",
+            "column_2": "Sciences de la terre",
+            "Disciplines": "Sciences de la terre",
+            "column_4": "Géologie",
+            "column_5": "Géologie",
+            "column_6": "Géologie",
+            "Nombre des inscrits et réinscrits en": "12",
+            "column_8": "12",
+            "column_9": "12",
+            "column_10": "00",
+            "column_11": "00",
+            "Total des\nréinscrits": "00",
+            "column_13": "12",
+            "column_14": "12"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Institut d’Optique et",
+            "column_2": "Institut d’Optique et",
+            "Disciplines": "Optique et M. de Précision",
+            "column_4": "Optique et M. de Précision",
+            "column_5": "Optique et M. de Précision",
+            "column_6": "68",
+            "Nombre des inscrits et réinscrits en": "68",
+            "column_8": "68",
+            "column_9": "03",
+            "column_10": "03",
+            "column_11": "03",
+            "Total des\nréinscrits": "71",
+            "column_13": "71",
+            "column_14": "71"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Mécanique de Précision",
+            "column_2": "Mécanique de Précision",
+            "Disciplines": "Mécanique de Précision",
+            "column_4": "Mécanique de Précision",
+            "column_5": "Mécanique de Précision",
+            "column_6": "Mécanique de Précision",
+            "Nombre des inscrits et réinscrits en": "Mécanique de Précision",
+            "column_8": "Mécanique de Précision",
+            "column_9": "Mécanique de Précision",
+            "column_10": "Mécanique de Précision",
+            "column_11": "Mécanique de Précision",
+            "Total des\nréinscrits": "Mécanique de Précision",
+            "column_13": "Mécanique de Précision",
+            "column_14": "Mécanique de Précision"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences",
+            "column_1": "Faculté des Sciences",
+            "column_2": "Faculté des Sciences",
+            "Disciplines": "Faculté des Sciences",
+            "column_4": "Mathématiques",
+            "column_5": "Mathématiques",
+            "column_6": "Mathématiques",
+            "Nombre des inscrits et réinscrits en": "41",
+            "column_8": "41",
+            "column_9": "41",
+            "column_10": "17",
+            "column_11": "17",
+            "Total des\nréinscrits": "17",
+            "column_13": "58",
+            "column_14": "58"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences",
+            "column_1": "Faculté des Sciences",
+            "column_2": "Faculté des Sciences",
+            "Disciplines": "Faculté des Sciences",
+            "column_4": "Physique",
+            "column_5": "Physique",
+            "column_6": "Physique",
+            "Nombre des inscrits et réinscrits en": "56",
+            "column_8": "56",
+            "column_9": "56",
+            "column_10": "20",
+            "column_11": "20",
+            "Total des\nréinscrits": "20",
+            "column_13": "76",
+            "column_14": "76"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences",
+            "column_1": "Faculté des Sciences",
+            "column_2": "Faculté des Sciences",
+            "Disciplines": "Faculté des Sciences",
+            "column_4": "Faculté des Sciences",
+            "column_5": "Faculté des Sciences",
+            "column_6": "Faculté des Sciences",
+            "Nombre des inscrits et réinscrits en": "Faculté des Sciences",
+            "column_8": "Faculté des Sciences",
+            "column_9": "Faculté des Sciences",
+            "column_10": "Faculté des Sciences",
+            "column_11": "Faculté des Sciences",
+            "Total des\nréinscrits": "Faculté des Sciences",
+            "column_13": "Faculté des Sciences",
+            "column_14": "Faculté des Sciences"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences",
+            "column_1": "Faculté des Sciences",
+            "column_2": "Faculté des Sciences",
+            "Disciplines": "Faculté des Sciences",
+            "column_4": "Chimie",
+            "column_5": "Chimie",
+            "column_6": "Chimie",
+            "Nombre des inscrits et réinscrits en": "12",
+            "column_8": "12",
+            "column_9": "12",
+            "column_10": "01",
+            "column_11": "01",
+            "Total des\nréinscrits": "01",
+            "column_13": "13",
+            "column_14": "13"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences",
+            "column_1": "Faculté des Sciences",
+            "column_2": "Faculté des Sciences",
+            "Disciplines": "Faculté des Sciences",
+            "column_4": "Informatique",
+            "column_5": "Informatique",
+            "column_6": "Informatique",
+            "Nombre des inscrits et réinscrits en": "49",
+            "column_8": "49",
+            "column_9": "49",
+            "column_10": "23",
+            "column_11": "23",
+            "Total des\nréinscrits": "23",
+            "column_13": "72",
+            "column_14": "72"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences de la\nNature et de la Vie",
+            "column_1": "Faculté des Sciences de la\nNature et de la Vie",
+            "column_2": "Faculté des Sciences de la\nNature et de la Vie",
+            "Disciplines": "Faculté des Sciences de la\nNature et de la Vie",
+            "column_4": "Biologie",
+            "column_5": "Biologie",
+            "column_6": "Biologie",
+            "Nombre des inscrits et réinscrits en": "47",
+            "column_8": "47",
+            "column_9": "47",
+            "column_10": "20",
+            "column_11": "20",
+            "Total des\nréinscrits": "20",
+            "column_13": "67",
+            "column_14": "67"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences de la\nNature et de la Vie",
+            "column_1": "Faculté des Sciences de la\nNature et de la Vie",
+            "column_2": "Faculté des Sciences de la\nNature et de la Vie",
+            "Disciplines": "Faculté des Sciences de la\nNature et de la Vie",
+            "column_4": "Agronomie",
+            "column_5": "Agronomie",
+            "column_6": "Agronomie",
+            "Nombre des inscrits et réinscrits en": "33",
+            "column_8": "33",
+            "column_9": "33",
+            "column_10": "11",
+            "column_11": "11",
+            "Total des\nréinscrits": "11",
+            "column_13": "44",
+            "column_14": "44"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences de la\nNature et de la Vie",
+            "column_1": "Faculté des Sciences de la\nNature et de la Vie",
+            "column_2": "Faculté des Sciences de la\nNature et de la Vie",
+            "Disciplines": "Faculté des Sciences de la\nNature et de la Vie",
+            "column_4": "Ecologie et Environnement",
+            "column_5": "Ecologie et Environnement",
+            "column_6": "Ecologie et Environnement",
+            "Nombre des inscrits et réinscrits en": "12",
+            "column_8": "12",
+            "column_9": "12",
+            "column_10": "00",
+            "column_11": "00",
+            "Total des\nréinscrits": "00",
+            "column_13": "12",
+            "column_14": "12"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences\nEconomiques",
+            "column_1": "Faculté des Sciences\nEconomiques",
+            "column_2": "Faculté des Sciences\nEconomiques",
+            "Disciplines": "Faculté des Sciences\nEconomiques",
+            "column_4": "Sciences Economiques",
+            "column_5": "Sciences Economiques",
+            "column_6": "Sciences Economiques",
+            "Nombre des inscrits et réinscrits en": "24",
+            "column_8": "24",
+            "column_9": "24",
+            "column_10": "30",
+            "column_11": "30",
+            "Total des\nréinscrits": "30",
+            "column_13": "54",
+            "column_14": "54"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences\nEconomiques",
+            "column_1": "Faculté des Sciences\nEconomiques",
+            "column_2": "Faculté des Sciences\nEconomiques",
+            "Disciplines": "Faculté des Sciences\nEconomiques",
+            "column_4": "Sciences de Gestion",
+            "column_5": "Sciences de Gestion",
+            "column_6": "Sciences de Gestion",
+            "Nombre des inscrits et réinscrits en": "26",
+            "column_8": "26",
+            "column_9": "26",
+            "column_10": "06",
+            "column_11": "06",
+            "Total des\nréinscrits": "06",
+            "column_13": "32",
+            "column_14": "32"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences\nEconomiques",
+            "column_1": "Faculté des Sciences\nEconomiques",
+            "column_2": "Faculté des Sciences\nEconomiques",
+            "Disciplines": "Faculté des Sciences\nEconomiques",
+            "column_4": "Sciences Commerciales",
+            "column_5": "Sciences Commerciales",
+            "column_6": "Sciences Commerciales",
+            "Nombre des inscrits et réinscrits en": "34",
+            "column_8": "34",
+            "column_9": "34",
+            "column_10": "12",
+            "column_11": "12",
+            "Total des\nréinscrits": "12",
+            "column_13": "46",
+            "column_14": "46"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences\nEconomiques",
+            "column_1": "Faculté des Sciences\nEconomiques",
+            "column_2": "Faculté des Sciences\nEconomiques",
+            "Disciplines": "Faculté des Sciences\nEconomiques",
+            "column_4": "Sciences Financières et comptabilité",
+            "column_5": "Sciences Financières et comptabilité",
+            "column_6": "Sciences Financières et comptabilité",
+            "Nombre des inscrits et réinscrits en": "24",
+            "column_8": "24",
+            "column_9": "24",
+            "column_10": "00",
+            "column_11": "00",
+            "Total des\nréinscrits": "00",
+            "column_13": "24",
+            "column_14": "24"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences\nEconomiques",
+            "column_1": "Total",
+            "column_2": "Total",
+            "Disciplines": "Total",
+            "column_4": "Total",
+            "column_5": "Total",
+            "column_6": "Total",
+            "Nombre des inscrits et réinscrits en": "636",
+            "column_8": "636",
+            "column_9": "636",
+            "column_10": "206",
+            "column_11": "206",
+            "Total des\nréinscrits": "842",
+            "column_13": "842",
+            "column_14": "842"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences\nEconomiques",
+            "column_1": "Total Général",
+            "column_2": "Total Général",
+            "Disciplines": "Total Général",
+            "column_4": "Total Général",
+            "column_5": "Total Général",
+            "column_6": "Total Général",
+            "Nombre des inscrits et réinscrits en": "842",
+            "column_8": "842",
+            "column_9": "842",
+            "column_10": "842",
+            "column_11": "842",
+            "Total des\nréinscrits": "842",
+            "column_13": "842",
+            "column_14": "842"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 1,
+        "headers": [
+          "column_0"
+        ],
+        "rows": [
+          {
+            "column_0": "Faculté et Institut"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 2,
+        "headers": [
+          "column_0"
+        ],
+        "rows": [
+          {
+            "column_0": "Disciplines"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 3,
+        "headers": [
+          "column_0"
+        ],
+        "rows": [
+          {
+            "column_0": "Total des"
+          },
+          {
+            "column_0": "réinscrits"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 4,
+        "headers": [
+          "column_0"
+        ],
+        "rows": [
+          {
+            "column_0": "Faculté de Technologie"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 5,
+        "headers": [
+          "column_0"
+        ],
+        "rows": [
+          {
+            "column_0": "Faculté des Sciences"
+          },
+          {
+            "column_0": "Economiques"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

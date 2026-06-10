@@ -1,0 +1,564 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\6552dfa8_Mathématiques.pdf",
+      "name": "6552dfa8_Mathématiques.pdf",
+      "type": "pdf",
+      "size_bytes": 39587,
+      "id": "9a34a7fc"
+    },
+    "extracted_at": "2026-06-10T12:38:57.213738"
+  },
+  "content": {
+    "text": "Cours\nTD\nTP\nContinu\nExamen\nAlgèbre 3\n5\n3\n1h30\n1h30\n42h\n0,4\n60%\nAnalyse 3\n7\n4\n3h\n1h30\n63h\n0,4\n60%\nIntroduction à la topologie\n6\n3\n3h\n1h30\n63h\n0,4\n60%\nAnalyse numérique 1\n4\n3\n1h30\n1h30\n1h30\n63h\n0,4\n60%\nLogique mathématique\n3\n2\n1h30\n1h30\n42h\n0,4\n60%\nOutils de programmation 2\n3\n1\n1h30\n1h30\n42h\n0,4\n60%\nUE Découverte\nCrédits : 2\nCoefficients : 1\nHistoire des mathématiques\n2\n1\n1h30\n21h\n100%\nTotal Semestre 3\n30\n17\n13h30\n7h30\n3h\n336h\nLicence en Mathématiques\nSEMESTRE 3\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Fondamentale \nCrédits : 18\nCoefficients : 10\nUE Méthodologie \nCrédits : 10\nCoefficients : 6\n\nCours\nTD\nTP\nContinu\nExamen\nAlgèbre 4\n7\n4\n3h\n3h\n84h\n40%\n60%\nAnalyse 4\n5\n3\n3h\n1h30\n42h\n40%\n60%\nAnalyse complexe\n6\n3\n3h\n1h30\n63h\n40%\n60%\nAnalyse numérique 2\n4\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nProbabilités\n3\n2\n1h30\n1h30\n42h\n40%\n60%\nGéométrie\n3\n2\n1h30\n42h\n40%\n60%\nUE Découverte\nCrédits : 2\nCoefficients : 1\nApplication des \nmathématiques aux autres \nsciences\n2\n1\n1h30\n21h\n100%\nTotal Semestre 4\n30\n17\n13h30\n10h30\n1h30\n357h\nLicence en Mathématiques\nSEMESTRE 4\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Fondamentale \nCrédits : 18\nCoefficients : 10\nUE Méthodologie \nCrédits : 10\nCoefficients : 6\n\nCours\nTD\nTP\nContinu\nExamen\nMesure et intégration\n6\n4\n3h\n1h30\n63h\n40%\n60%\nEspaces vectoriels normés\n5\n3\n1h30\n1h30\n42h\n40%\n60%\nEquations differentielles\n6\n4\n3h\n1h30\n63h\n40%\n60%\nEquations de la physique \nmathématique\n5\n2\n1h30\n1h30\n42h\n40%\n60%\nUE Méthodologie \nCrédits : 6\nCoefficients : 4\nOptimisation sans \ncontraintes\n5\n2\n1h30\n1h30\n1h30\n63h\n40%\n60%\nUE Découverte\nCrédits : 2\nCoefficients : 1\nInitiation à la didactique \ndes mathématiques\n3\n1\n1h30\n21h\n100%\nTotal Semestre 5\n30\n16\n12h\n7h30\n1h30\n294h\nLicence en Mathématiques\nSEMESTRE 5\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Fondamentale 1\nCrédits : 11\nCoefficients : 7\nUE Fondamentale 2 \nCrédits : 11\nCoefficients : 7\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\n\nCours\nTD\nTP\nContinu\nExamen\nMatière X (*)\n9\n5\n3h\n3h\n84h\n40%\n60%\nMatière Y (*)\n9\n5\n3h\n3h\n84h\n40%\n60%\nTransformations intégrales \ndans les espaces Lp\n5\n2\n3h\n1h30\n63h\n40%\n60%\nGéométrie différentielle\n5\n2\n3h\n1h30\n63h\n40%\n60%\nUE Transversale\nCrédits : 2\nCoefficients : 2\nEthique et déontologie de \nl'enseignement et de la \nrecherche\n2\n2\n1h30\n21h\n100%\nTotal Semestre 6\n30\n16\n13h30\n9h\n315h\nLicence en Mathématiques\nUE Fondamentale 1\nCrédits : 18\nCoefficients : 10\nUE Méthodologie \nCrédits : 10\nCoefficients : 4\nSEMESTRE 6\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Cours\nTD\nTP\nContinu\nExamen\nAlgèbre 3\n5\n3\n1h30\n1h30\n42h\n0,4\n60%\nAnalyse 3\n7\n4\n3h\n1h30\n63h\n0,4\n60%\nIntroduction à la topologie\n6\n3\n3h\n1h30\n63h\n0,4\n60%\nAnalyse numérique 1\n4\n3\n1h30\n1h30\n1h30\n63h\n0,4\n60%\nLogique mathématique\n3\n2\n1h30\n1h30\n42h\n0,4\n60%\nOutils de programmation 2\n3\n1\n1h30\n1h30\n42h\n0,4\n60%\nUE Découverte\nCrédits : 2\nCoefficients : 1\nHistoire des mathématiques\n2\n1\n1h30\n21h\n100%\nTotal Semestre 3\n30\n17\n13h30\n7h30\n3h\n336h\nLicence en Mathématiques\nSEMESTRE 3\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Fondamentale \nCrédits : 18\nCoefficients : 10\nUE Méthodologie \nCrédits : 10\nCoefficients : 6"
+      },
+      {
+        "page": 2,
+        "text": "Cours\nTD\nTP\nContinu\nExamen\nAlgèbre 4\n7\n4\n3h\n3h\n84h\n40%\n60%\nAnalyse 4\n5\n3\n3h\n1h30\n42h\n40%\n60%\nAnalyse complexe\n6\n3\n3h\n1h30\n63h\n40%\n60%\nAnalyse numérique 2\n4\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nProbabilités\n3\n2\n1h30\n1h30\n42h\n40%\n60%\nGéométrie\n3\n2\n1h30\n42h\n40%\n60%\nUE Découverte\nCrédits : 2\nCoefficients : 1\nApplication des \nmathématiques aux autres \nsciences\n2\n1\n1h30\n21h\n100%\nTotal Semestre 4\n30\n17\n13h30\n10h30\n1h30\n357h\nLicence en Mathématiques\nSEMESTRE 4\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Fondamentale \nCrédits : 18\nCoefficients : 10\nUE Méthodologie \nCrédits : 10\nCoefficients : 6"
+      },
+      {
+        "page": 3,
+        "text": "Cours\nTD\nTP\nContinu\nExamen\nMesure et intégration\n6\n4\n3h\n1h30\n63h\n40%\n60%\nEspaces vectoriels normés\n5\n3\n1h30\n1h30\n42h\n40%\n60%\nEquations differentielles\n6\n4\n3h\n1h30\n63h\n40%\n60%\nEquations de la physique \nmathématique\n5\n2\n1h30\n1h30\n42h\n40%\n60%\nUE Méthodologie \nCrédits : 6\nCoefficients : 4\nOptimisation sans \ncontraintes\n5\n2\n1h30\n1h30\n1h30\n63h\n40%\n60%\nUE Découverte\nCrédits : 2\nCoefficients : 1\nInitiation à la didactique \ndes mathématiques\n3\n1\n1h30\n21h\n100%\nTotal Semestre 5\n30\n16\n12h\n7h30\n1h30\n294h\nLicence en Mathématiques\nSEMESTRE 5\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Fondamentale 1\nCrédits : 11\nCoefficients : 7\nUE Fondamentale 2 \nCrédits : 11\nCoefficients : 7\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire"
+      },
+      {
+        "page": 4,
+        "text": "Cours\nTD\nTP\nContinu\nExamen\nMatière X (*)\n9\n5\n3h\n3h\n84h\n40%\n60%\nMatière Y (*)\n9\n5\n3h\n3h\n84h\n40%\n60%\nTransformations intégrales \ndans les espaces Lp\n5\n2\n3h\n1h30\n63h\n40%\n60%\nGéométrie différentielle\n5\n2\n3h\n1h30\n63h\n40%\n60%\nUE Transversale\nCrédits : 2\nCoefficients : 2\nEthique et déontologie de \nl'enseignement et de la \nrecherche\n2\n2\n1h30\n21h\n100%\nTotal Semestre 6\n30\n16\n13h30\n9h\n315h\nLicence en Mathématiques\nUE Fondamentale 1\nCrédits : 18\nCoefficients : 10\nUE Méthodologie \nCrédits : 10\nCoefficients : 4\nSEMESTRE 6\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "SEMESTRE 3",
+          "column_1",
+          "column_2",
+          "column_3",
+          "column_4",
+          "column_5",
+          "column_6",
+          "column_7",
+          "column_8",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Volume horaire hebdomadaire",
+            "column_5": "Volume horaire hebdomadaire",
+            "column_6": "Volume horaire hebdomadaire",
+            "column_7": "VHS\n14\nSemaines",
+            "column_8": "Mode d’'évaluation",
+            "column_9": "Mode d’'évaluation"
+          },
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "column_7": "TP",
+            "column_8": "Continu",
+            "column_9": "Examen"
+          },
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Algèbre 3",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "0,4",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Analyse 3",
+            "column_2": "7",
+            "column_3": "4",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "0,4",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Introduction à la topologie",
+            "column_2": "6",
+            "column_3": "3",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "0,4",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 3": "UE Méthodologie\nCrédits : 10\nCoefficients : 6",
+            "column_1": "Analyse numérique 1",
+            "column_2": "4",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "0,4",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 3": "UE Méthodologie\nCrédits : 10\nCoefficients : 6",
+            "column_1": "Logique mathématique",
+            "column_2": "3",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "0,4",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 3": "UE Méthodologie\nCrédits : 10\nCoefficients : 6",
+            "column_1": "Outils de programmation 2",
+            "column_2": "3",
+            "column_3": "1",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "0,4",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 3": "UE Découverte\nCrédits : 2\nCoefficients : 1\nTotal Semestre 3",
+            "column_1": "Histoire des mathématiques",
+            "column_2": "2",
+            "column_3": "1",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "21h",
+            "column_8": "21h",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 3": "UE Découverte\nCrédits : 2\nCoefficients : 1\nTotal Semestre 3",
+            "column_1": "Histoire des mathématiques",
+            "column_2": "30",
+            "column_3": "17",
+            "column_4": "13h30",
+            "column_5": "7h30",
+            "column_6": "3h",
+            "column_7": "336h",
+            "column_8": "336h",
+            "column_9": "336h"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "SEMESTRE 4",
+          "column_1",
+          "column_2",
+          "column_3",
+          "column_4",
+          "column_5",
+          "column_6",
+          "column_7",
+          "column_8",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Volume horaire hebdomadaire",
+            "column_5": "Volume horaire hebdomadaire",
+            "column_6": "Volume horaire hebdomadaire",
+            "column_7": "VHS\n14\nSemaines",
+            "column_8": "Mode d’'évaluation",
+            "column_9": "Mode d’'évaluation"
+          },
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "column_7": "TP",
+            "column_8": "Continu",
+            "column_9": "Examen"
+          },
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Algèbre 4",
+            "column_2": "7",
+            "column_3": "4",
+            "column_4": "3h",
+            "column_5": "3h",
+            "column_6": "3h",
+            "column_7": "84h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Analyse 4",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Analyse complexe",
+            "column_2": "6",
+            "column_3": "3",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 4": "UE Méthodologie\nCrédits : 10\nCoefficients : 6",
+            "column_1": "Analyse numérique 2",
+            "column_2": "4",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 4": "UE Méthodologie\nCrédits : 10\nCoefficients : 6",
+            "column_1": "Probabilités",
+            "column_2": "3",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 4": "UE Méthodologie\nCrédits : 10\nCoefficients : 6",
+            "column_1": "Géométrie",
+            "column_2": "3",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 4": "UE Découverte\nCrédits : 2\nCoefficients : 1\nTotal Semestre 4",
+            "column_1": "Application des\nmathématiques aux autres\nsciences",
+            "column_2": "2",
+            "column_3": "1",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "21h",
+            "column_8": "21h",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 4": "UE Découverte\nCrédits : 2\nCoefficients : 1\nTotal Semestre 4",
+            "column_1": "Application des\nmathématiques aux autres\nsciences",
+            "column_2": "30",
+            "column_3": "17",
+            "column_4": "13h30",
+            "column_5": "10h30",
+            "column_6": "1h30",
+            "column_7": "357h",
+            "column_8": "357h",
+            "column_9": "357h"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 3,
+        "table_index": 0,
+        "headers": [
+          "SEMESTRE 5",
+          "column_1",
+          "column_2",
+          "column_3",
+          "column_4",
+          "column_5",
+          "column_6",
+          "column_7",
+          "column_8",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Volume horaire hebdomadaire",
+            "column_5": "Volume horaire hebdomadaire",
+            "column_6": "Volume horaire hebdomadaire",
+            "column_7": "VHS\n14\nSemaines",
+            "column_8": "Mode d’'évaluation",
+            "column_9": "Mode d’'évaluation"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "column_7": "TP",
+            "column_8": "Continu",
+            "column_9": "Examen"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Mesure et intégration",
+            "column_2": "6",
+            "column_3": "4",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Espaces vectoriels normés",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Equations differentielles",
+            "column_2": "6",
+            "column_3": "4",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Equations de la physique\nmathématique",
+            "column_2": "5",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 5": "UE Méthodologie\nCrédits : 6\nCoefficients : 4",
+            "column_1": "Optimisation sans\ncontraintes",
+            "column_2": "5",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 5": "UE Découverte\nCrédits : 2\nCoefficients : 1\nTotal Semestre 5",
+            "column_1": "Initiation à la didactique\ndes mathématiques",
+            "column_2": "3",
+            "column_3": "1",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "21h",
+            "column_8": "21h",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 5": "UE Découverte\nCrédits : 2\nCoefficients : 1\nTotal Semestre 5",
+            "column_1": "Initiation à la didactique\ndes mathématiques",
+            "column_2": "30",
+            "column_3": "16",
+            "column_4": "12h",
+            "column_5": "7h30",
+            "column_6": "1h30",
+            "column_7": "294h",
+            "column_8": "294h",
+            "column_9": "294h"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 4,
+        "table_index": 0,
+        "headers": [
+          "SEMESTRE 6",
+          "column_1",
+          "column_2",
+          "column_3",
+          "column_4",
+          "column_5",
+          "column_6",
+          "column_7",
+          "column_8",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Volume horaire hebdomadaire",
+            "column_5": "Volume horaire hebdomadaire",
+            "column_6": "Volume horaire hebdomadaire",
+            "column_7": "VHS\n14\nSemaines",
+            "column_8": "Mode d’'évaluation",
+            "column_9": "Mode d’'évaluation"
+          },
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "column_7": "TP",
+            "column_8": "Continu",
+            "column_9": "Examen"
+          },
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Matière X (*)",
+            "column_2": "9",
+            "column_3": "5",
+            "column_4": "3h",
+            "column_5": "3h",
+            "column_6": "3h",
+            "column_7": "84h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Matière Y (*)",
+            "column_2": "9",
+            "column_3": "5",
+            "column_4": "3h",
+            "column_5": "3h",
+            "column_6": "3h",
+            "column_7": "84h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 6": "UE Méthodologie\nCrédits : 10\nCoefficients : 4",
+            "column_1": "Transformations intégrales\ndans les espaces Lp",
+            "column_2": "5",
+            "column_3": "2",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 6": "UE Méthodologie\nCrédits : 10\nCoefficients : 4",
+            "column_1": "Géométrie différentielle",
+            "column_2": "5",
+            "column_3": "2",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 6": "UE Transversale\nCrédits : 2\nCoefficients : 2",
+            "column_1": "Ethique et déontologie de\nl'enseignement et de la\nrecherche",
+            "column_2": "2",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "21h",
+            "column_8": "21h",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 6": "Total Semestre 6",
+            "column_1": "Total Semestre 6",
+            "column_2": "30",
+            "column_3": "16",
+            "column_4": "13h30",
+            "column_5": "9h",
+            "column_6": "9h",
+            "column_7": "315h",
+            "column_8": "315h",
+            "column_9": "315h"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

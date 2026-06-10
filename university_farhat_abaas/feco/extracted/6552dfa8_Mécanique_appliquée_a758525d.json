@@ -1,0 +1,1687 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\6552dfa8_Mécanique_appliquée.pdf",
+      "name": "6552dfa8_Mécanique_appliquée.pdf",
+      "type": "pdf",
+      "size_bytes": 940746,
+      "id": "a758525d"
+    },
+    "extracted_at": "2026-06-10T12:39:00.895760"
+  },
+  "content": {
+    "text": "‏الجــــــمهورية الجـــــــــــزائرية الديــــــــــــمقراطية الشـــــــــــــــــــــــــــــــعبية ‏\n‏وزارة التــــــــــــــــعليم العــــــــــــــالي و البــــــــــحث العـــــــــــــــــــلمي ‏\nUniversité Ferhat Abbas  \nSétif 1 \nInstitut d’Optique et Mécanique de \nPrécision \n \n \n‏جامعة فرحات عباس ‏\n‏ سطيف 1‏\n \n‏معهد البصريات و ميكانيك الدقة ‏\n \n \n \n \n \n \nPRGRAMME \n \nLicence \nMECANIQUE APPLIQUEE \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\nSemestre 1: \n \nUnités \nd'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVHS \n(14-16 \nsemaines) \nAutre* \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.1 \nCrédits :  \nCoefficients :  \nMathématique 1 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n82h30 \n40% \n60% \nPhysique 1 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n82h30 \n40% \n60% \nStructure de la matière  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n82h30 \n40% \n60% \nUE \nMéthodologique \nCode : UEM  1.1 \nCrédits :  \nCoefficients :  \nTP physique 1 \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n100% \n \nTP Chimie 1  \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n100% \n \nInformatique 1 \n4 \n2 \n1h30 \n \n1h30 \n45h00 \n55h00 \n40% \n60% \nMéthodologie de la rédaction  \n1 \n1 \n1h00 \n \n \n15h00 \n10h00 \n \n100% \nUE Découverte \nCode : UED 1.1 \nCrédits :  \nCoefficients :  \nLes métiers en sciences et technologies \n1 \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nUE Transversale \nCode : UET 1.1 \nCrédits :  \nCoefficients :  \nLangue française 1 \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nLangue anglaise 1 \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nTotal semestre 1 \n30 \n17 16h00 4h30 \n4h30 \n375h00 \n375h00 \n \n \n \n*Autres travaux supplémentaires      \n \n \n \n\nReconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \nSemestre 2: \nUnités \nd'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVHS \n(14-16 \nsemaines) \nAutre* \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.2 \nCrédits :  \nCoefficients :  \nMathématique 2 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n82h30 \n40% \n60% \nPhysique 2 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n82h30 \n40% \n60% \nThermodynamique  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n82h30 \n40% \n60% \nUE \nMéthodologique \nCode : UEM  1.2 \nCrédits :  \nCoefficients :  \nTP physique 2 \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n100% \n \nTP Chimie 2  \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n100% \n \nInformatique 2 \n4 \n2 \n1h30 \n \n1h30 \n45h00 \n55h00 \n40% \n60% \nMéthodologie de la présentation  \n1 \n1 \n1h00 \n \n \n15h00 \n10h00 \n \n100% \nUE Découverte \nCode : UED 1.1 \nCrédits :  \nCoefficients :  \nLes métiers en sciences et technologies \n2 \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nUE Transversale \nCode : UET 1.1 \nCrédits :  \nCoefficients :  \nLangue française 1 \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nLangue anglaise 1 \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nTotal semestre 2 \n30 \n17 16h00 4h30 \n4h30 \n375h00 \n375h00 \n \n \n \n \n*Autres travaux supplémentaires    \n \n \n   \n \n\nReconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \nSemestre 3: \n \nUnités \nd'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVHS \n(14-16 \nsemaines) \nAutre* \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.1 \nCrédits :  \nCoefficients :  \nMathématiques 3 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n82h30 \n40% \n60% \nOndes et Vibrations \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n55h00 \n40% \n60% \nMécanique des fluides  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n55h00 \n40% \n60% \nMécanique Rationnelle \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n55h00 \n40% \n60% \nUE \nMéthodologique \nCode : UEM  2.1 \nCrédits :  \nCoefficients :  \nProbabilités et Statistique \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n55h00 \n40% \n60% \nInformatique 3  \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n100% \n \nDessin technique  \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n100% \n \nTP Ondes et Vibrations \n1 \n1 \n \n \n1h00 \n15h00 \n10h00 \n100% \n \nUE Découverte \nCode : UED 2.1 \nCrédits :  \nCoefficients :  \nTechnologie de base \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nMétrologie \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nUE Transversale \nCode : UET 2.1 \nCrédits :  \nCoefficients :  \nAnglais technique \n1 \n1 \n \n1h30 \n \n22h30 \n2h30 \n \n100% \nTotal semestre 3 \n30 \n17 13h30 7h30 \n4h00 \n375h00 \n375h00 \n \n \n \n*Autres travaux supplémentaires      \n \n \n\nReconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \nSemestre 4 : \nUnités \nd'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVHS \n(14-16 \nsemaines) \nAutre* \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.2 \nCrédits :  \nCoefficients :  \nNotions d’Optique \n4 \n3 \n1h30 \n1h30 \n \n45h00 \n55h00 \n40% \n60% \nSciences des Matériaux \n2 \n2 \n1h30 \n \n \n22h30 \n27h30 \n \n100% \nUE Fondamentale \nCode : UEF 2.2 \nCrédits :  \nCoefficients :  \nMathématique 04 \n4 \n2 \n1h30 \n1h30 \n45h00 \n55h00 \n40% \n60% \nMéthodes numériques \n4 \n2 \n1h30 \n1h30 \n45h00 \n55h00 \n40% \n60% \nRésistance des Matériaux \n4 \n2 \n1h30 \n1h30 \n45h00 \n55h00 \n40% \n60% \nUE \nMéthodologique \nCode : UEM  2.2 \nCrédits :  \nCoefficients :  \nTP Optique \n2 \n1 \n1h30 \n22h30 \n27h30 \n100% \nTP Sciences des Matériaux \n2 \n1 \n1h30 \n22h30 \n27h30 \n100% \nDessin assisté par ordinateur  \n2 \n1 \n1h30 \n22h30 \n27h30 \n100% \nTP Méthodes Numériques \n2 \n1 \n \n  1h30 \n22h30 \n27h30 \n100% \nTP Résistance des Matériaux \n1 \n1 \n \n  1h00 \n15h00 \n10h00 \n100% \nUE Découverte \nCode : UED 2.2 \nCrédits :  \nCoefficients :  \nOpto-Mécanique \n1 \n1 \n \n \n3h00 \n45h00 \n5h00 \n \n100% \nUE Transversale \nCode : UET 2.2 \nCrédits :  \nCoefficients :  \nTechnique d'expression et de \ncommunication \n2 \n2 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nTotal semestre 4 \n \n \n \n \n \n \n \n \n \n \n*Autres travaux supplémentaires      \n \n \n \n \n\nReconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \nSemestre 5 \nUnité \nd'enseignement \nIntitulé \nCrédit\ns \nCoefficients \nVolume horaire \nhebdomadaire \nVolume \nHoraire \nSemestriel \n(15 \nsemaines) \nTravail \nComplémentair\ne \nen \nConsultation   \n(15 semaines) \nMode \nd’évaluation \nCours \nTD \nTP \nContrôl\ne \nContinu \nExamen \nUE Fondamentale \nCode : UEF 5.1.1 \nCrédits : 12 \nCoefficients : 6 \nEléments de machines I \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nConstruction des systèmes \nde précision \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nMécanismes de précision \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nUE Fondamentale  \nCode : UEF 5.1.2 \nCrédits : 6 \nCoefficients : 3 \nConception \nassisté \npar \nordinaire (CAO) \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nProcédés d’usinage \n2 \n1 \n1h30 \n \n \n22h30 \n27h30 \n \n100% \nUE \nMéthodologique \nCode : UEM 5.1 \nCrédits : 9 \nCoefficients : 5 \nTP procédés d’usinage et \nde mise en forme \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n100% \n \nTP \nMatériaux \net \nélectrotechnique \n1 \n1 \n \n \n1h00 \n15h00 \n10h00 \n100% \n \nProcédés de mise en forme \n2 \n1 \n1h30 \n \n \n22h30 \n27h30 \n100% \n \nAjustage de précision  \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nUE Découverte \nCode : UED 5.1 \nCrédits : 2 \nCoefficients : 2 \nMatériaux \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nMesures électriques \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nUE Transversale \nCode : UET 5.1      \nCrédits : 1 \nCoefficients : 1 \nAnglais  \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nTotal semestre 5 \n \n30 \n17 \n25h00 \n375h00 \n375h00 \n \n \n \n\nReconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \nSemestre 6 \nUnité \nd'enseignement \nIntitulé \nCrédit\ns \nCoefficients \nVolume horaire \nhebdomadaire \nVolume \nHoraire \nSemestriel \n(15 \nsemaines) \nTravail \nComplémentair\ne \nen \nConsultation   \n(15 semaines) \nMode \nd’évaluation \nCour\ns \nTD \nTP \nContrôle \nContinu Examen \nUE Fondamentale \nCode : UEF 6.1.1 \nCrédits : 12 \nCoefficients : 5 \nEléments de machines II \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nTransmissions  et guidages \nde précision \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nConception \ndes \nsystèmes \nopto-mécaniques \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nUE Fondamentale  \nCode : UEF 6.1.2 \nCrédits : 8 \nCoefficients : 4 \nUsinage de précision \n2 \n1 \n1h30 \n \n \n22h30 \n27h30 \n100% \nComportement \nmécanique \ndes matériaux \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nUE \nMéthodologique \nCode : UEM 6.1 \nCrédits : 9 \nCoefficients : 5 \nMini-projet \n4 \n2 \n \n3h00 \n45h00 \n55h00 \n100% \nInformatique appliquée à la \nmécanique \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n \n100% \nProgrammation des machines \noutils \nà \ncommande \nnumériques \n2 \n1 \n1h30 \n \n \n22h30 \n27h30 \n \n100% \nTP FAO et métrologie  \n1 \n1 \n \n \n1h00 \n15h00 \n10h00 \n100% \n \nUE Découverte \nCode : UED 6.1 \nCrédits : 2 \nCoefficients : 2 \nMatériaux innovants \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nMesures \net \ncontrôle \nnon \ndestructif \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nUE Transversale \nCode : UET 6.1      \nCrédits : 1 \nCoefficients : 1 \nEconomie d’entreprise \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nTotal semestre 6  \n30 \n17 \n25h00 \n375h00 \n375h00 \n \n \n\nRécapitulatif global de la formation : (indiquer le VH global séparé en cours, \nTD, pour les 06 semestres d’enseignement, pour les différents types d’UE) \n \n \n                                          \nUE \n   VH \nUEF \nUEM \nUED \nUET \nTotal \nCours \n720 \n-- \n157.5 \n180 \n1057.5 \nTD \n720 \n-- \n-- \n-- \n720 \nTP \n \n337.5 \n45 \n-- \n382.5 \nTravail personnel \n-- \n-- \n-- \n-- \n-- \nAutre (préciser) \n-- \n--- \n-- \n-- \n-- \nTotal \n1440 \n337.5 \n202.5 \n180 \n2160 \nCrédits \n108 \n54 \n10 \n8 \n180 \n% \nen \ncrédits \npour \nchaque UE \n60% \n30% \n5.55% \n4.45% \n100% \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\nReconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nL.2 - Fiches d’organisation des unités d’enseignement \n(Etablir une fiche par UE) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\nReconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \nSemestre: 5 \n \nUE: \nFondamentale  \n \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 7h30 \nTD : 6 h00 \nTP:      // \nTravail personnel : // \n \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 18 crédits \nComposante 1 : 12crédits, Coefficient : 6 \nComposante 2 : 6 crédits,   Coefficient :3 \nDescription \ndes \ncomposantes \n(matières) \n \n Composante 1 : Eléments de machines I, \nConstruction des systèmes de précision, \nMécanismes de précision \nComposante 2 : Conception assisté par \nordinaire, Procédés d’usinage \n \nUE: \nMéthodologique   \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 1 h30 \nTD : // \nTP:      2h30 \nTravail personnel : // \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 9 crédits, coefficient : 5 \nComposante 1 : 9crédits, Coefficient : 5 \nDescription \ndes \ncomposantes \n(matières) \n \n Composante 1 : TP procédés d’usinage et \nde mise en forme, TP Matériaux et \nélectrotechnique, Procédés de mise en \nforme , Ajustage de précision \n \nUE: \nDécouverte \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 3 h00 \nTD : // \nTP:      // \nTravail personnel : // \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 2 crédits, coefficient :2 \nComposante 1 : 2crédits, Coefficient : 2 \nDescription \ndes \ncomposantes \n(matières) \n Composante 1 : Matériaux, \nMesures électriques \n \nUE: \nTransversale \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 1h 30 \nTD : // \nTP:      // \nTravail personnel : // \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 1 crédit, coefficient :1 \nComposante 1 : 1 crédit, Coefficient : 1 \nDescription \ndes \ncomposantes \n(matières) \n Composante 1 : Anglais  \n \n\nReconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \nSemestre: 6 \n \nUE: \nFondamentale  \n \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 7h30 \nTD : 6 h00 \nTP:      // \nTravail personnel : // \n \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 18 crédits \nComposante 1 : 12crédits, Coefficient : 6 \nComposante 2 : 6 crédits,   Coefficient :3 \nDescription \ndes \ncomposantes \n(matières) \n \n Composante 1 : Eléments de machines II, \nTransmissions et guidages de précision, \nConception des systèmes opto-mécaniques \nComposante 2 : Usinage de précision \nComportement, méca des matériaux \n \nUE: \nMéthodologique   \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 1 h30 \nTD : // \nTP:      5h30 \nTravail personnel : // \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 9 crédits, coefficient : 5 \nComposante 1 : 9crédits, Coefficient : 5 \nDescription \ndes \ncomposantes \n(matières) \n \n Composante 1 : Mini-projet \nInformatique appliquée en mécanique \nProgrammation des machines outils à \ncommande numériques \nTP FAO et métrologie  \nUE: \nDécouverte \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 3 h00 \nTD : // \nTP:      // \nTravail personnel : // \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 2 crédits, coefficient :2 \nComposante 1 : 2crédits, Coefficient : 2 \nDescription \ndes \ncomposantes \n(matières) \n Composante 1 : Matériaux innovants \nMesures et contrôle non destructif \nUE: \nTransversale \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 1h 30 \nTD : // \nTP:      // \nTravail personnel : // \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 1 crédit, coefficient :1 \nComposante 1 : 1 crédit, Coefficient : 1 \nDescription \ndes \ncomposantes \n(matières) \n Composante 1 : Economie d’entreprise \n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "الجــــــمهورية الجـــــــــــزائرية الديــــــــــــمقراطية الشـــــــــــــــــــــــــــــــعبية \nوزارة التــــــــــــــــعليم العــــــــــــــالي و البــــــــــحث العـــــــــــــــــــلمي \nUniversité Ferhat Abbas  \nSétif 1 \nInstitut d’Optique et Mécanique de \nPrécision \n \n \nجامعة فرحات عباس \n سطيف 1\n \nمعهد البصريات و ميكانيك الدقة \n \n \n \n \n \n \nPRGRAMME \n \nLicence \nMECANIQUE APPLIQUEE"
+      },
+      {
+        "page": 2,
+        "text": "Semestre 1: \n \nUnités \nd'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVHS \n(14-16 \nsemaines) \nAutre* \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.1 \nCrédits :  \nCoefficients :  \nMathématique 1 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n82h30 \n40% \n60% \nPhysique 1 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n82h30 \n40% \n60% \nStructure de la matière  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n82h30 \n40% \n60% \nUE \nMéthodologique \nCode : UEM  1.1 \nCrédits :  \nCoefficients :  \nTP physique 1 \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n100% \n \nTP Chimie 1  \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n100% \n \nInformatique 1 \n4 \n2 \n1h30 \n \n1h30 \n45h00 \n55h00 \n40% \n60% \nMéthodologie de la rédaction  \n1 \n1 \n1h00 \n \n \n15h00 \n10h00 \n \n100% \nUE Découverte \nCode : UED 1.1 \nCrédits :  \nCoefficients :  \nLes métiers en sciences et technologies \n1 \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nUE Transversale \nCode : UET 1.1 \nCrédits :  \nCoefficients :  \nLangue française 1 \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nLangue anglaise 1 \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nTotal semestre 1 \n30 \n17 16h00 4h30 \n4h30 \n375h00 \n375h00 \n \n \n \n*Autres travaux supplémentaires"
+      },
+      {
+        "page": 3,
+        "text": "Reconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \nSemestre 2: \nUnités \nd'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVHS \n(14-16 \nsemaines) \nAutre* \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.2 \nCrédits :  \nCoefficients :  \nMathématique 2 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n82h30 \n40% \n60% \nPhysique 2 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n82h30 \n40% \n60% \nThermodynamique  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n82h30 \n40% \n60% \nUE \nMéthodologique \nCode : UEM  1.2 \nCrédits :  \nCoefficients :  \nTP physique 2 \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n100% \n \nTP Chimie 2  \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n100% \n \nInformatique 2 \n4 \n2 \n1h30 \n \n1h30 \n45h00 \n55h00 \n40% \n60% \nMéthodologie de la présentation  \n1 \n1 \n1h00 \n \n \n15h00 \n10h00 \n \n100% \nUE Découverte \nCode : UED 1.1 \nCrédits :  \nCoefficients :  \nLes métiers en sciences et technologies \n2 \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nUE Transversale \nCode : UET 1.1 \nCrédits :  \nCoefficients :  \nLangue française 1 \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nLangue anglaise 1 \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nTotal semestre 2 \n30 \n17 16h00 4h30 \n4h30 \n375h00 \n375h00 \n \n \n \n \n*Autres travaux supplémentaires"
+      },
+      {
+        "page": 4,
+        "text": "Reconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \nSemestre 3: \n \nUnités \nd'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVHS \n(14-16 \nsemaines) \nAutre* \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.1 \nCrédits :  \nCoefficients :  \nMathématiques 3 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n82h30 \n40% \n60% \nOndes et Vibrations \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n55h00 \n40% \n60% \nMécanique des fluides  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n55h00 \n40% \n60% \nMécanique Rationnelle \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n55h00 \n40% \n60% \nUE \nMéthodologique \nCode : UEM  2.1 \nCrédits :  \nCoefficients :  \nProbabilités et Statistique \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n55h00 \n40% \n60% \nInformatique 3  \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n100% \n \nDessin technique  \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n100% \n \nTP Ondes et Vibrations \n1 \n1 \n \n \n1h00 \n15h00 \n10h00 \n100% \n \nUE Découverte \nCode : UED 2.1 \nCrédits :  \nCoefficients :  \nTechnologie de base \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nMétrologie \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nUE Transversale \nCode : UET 2.1 \nCrédits :  \nCoefficients :  \nAnglais technique \n1 \n1 \n \n1h30 \n \n22h30 \n2h30 \n \n100% \nTotal semestre 3 \n30 \n17 13h30 7h30 \n4h00 \n375h00 \n375h00 \n \n \n \n*Autres travaux supplémentaires"
+      },
+      {
+        "page": 5,
+        "text": "Reconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \nSemestre 4 : \nUnités \nd'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVHS \n(14-16 \nsemaines) \nAutre* \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.2 \nCrédits :  \nCoefficients :  \nNotions d’Optique \n4 \n3 \n1h30 \n1h30 \n \n45h00 \n55h00 \n40% \n60% \nSciences des Matériaux \n2 \n2 \n1h30 \n \n \n22h30 \n27h30 \n \n100% \nUE Fondamentale \nCode : UEF 2.2 \nCrédits :  \nCoefficients :  \nMathématique 04 \n4 \n2 \n1h30 \n1h30 \n45h00 \n55h00 \n40% \n60% \nMéthodes numériques \n4 \n2 \n1h30 \n1h30 \n45h00 \n55h00 \n40% \n60% \nRésistance des Matériaux \n4 \n2 \n1h30 \n1h30 \n45h00 \n55h00 \n40% \n60% \nUE \nMéthodologique \nCode : UEM  2.2 \nCrédits :  \nCoefficients :  \nTP Optique \n2 \n1 \n1h30 \n22h30 \n27h30 \n100% \nTP Sciences des Matériaux \n2 \n1 \n1h30 \n22h30 \n27h30 \n100% \nDessin assisté par ordinateur  \n2 \n1 \n1h30 \n22h30 \n27h30 \n100% \nTP Méthodes Numériques \n2 \n1 \n \n  1h30 \n22h30 \n27h30 \n100% \nTP Résistance des Matériaux \n1 \n1 \n \n  1h00 \n15h00 \n10h00 \n100% \nUE Découverte \nCode : UED 2.2 \nCrédits :  \nCoefficients :  \nOpto-Mécanique \n1 \n1 \n \n \n3h00 \n45h00 \n5h00 \n \n100% \nUE Transversale \nCode : UET 2.2 \nCrédits :  \nCoefficients :  \nTechnique d'expression et de \ncommunication \n2 \n2 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nTotal semestre 4 \n \n \n \n \n \n \n \n \n \n \n*Autres travaux supplémentaires"
+      },
+      {
+        "page": 6,
+        "text": "Reconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \nSemestre 5 \nUnité \nd'enseignement \nIntitulé \nCrédit\ns \nCoefficients \nVolume horaire \nhebdomadaire \nVolume \nHoraire \nSemestriel \n(15 \nsemaines) \nTravail \nComplémentair\ne \nen \nConsultation   \n(15 semaines) \nMode \nd’évaluation \nCours \nTD \nTP \nContrôl\ne \nContinu \nExamen \nUE Fondamentale \nCode : UEF 5.1.1 \nCrédits : 12 \nCoefficients : 6 \nEléments de machines I \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nConstruction des systèmes \nde précision \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nMécanismes de précision \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nUE Fondamentale  \nCode : UEF 5.1.2 \nCrédits : 6 \nCoefficients : 3 \nConception \nassisté \npar \nordinaire (CAO) \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nProcédés d’usinage \n2 \n1 \n1h30 \n \n \n22h30 \n27h30 \n \n100% \nUE \nMéthodologique \nCode : UEM 5.1 \nCrédits : 9 \nCoefficients : 5 \nTP procédés d’usinage et \nde mise en forme \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n100% \n \nTP \nMatériaux \net \nélectrotechnique \n1 \n1 \n \n \n1h00 \n15h00 \n10h00 \n100% \n \nProcédés de mise en forme \n2 \n1 \n1h30 \n \n \n22h30 \n27h30 \n100% \n \nAjustage de précision  \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nUE Découverte \nCode : UED 5.1 \nCrédits : 2 \nCoefficients : 2 \nMatériaux \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nMesures électriques \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nUE Transversale \nCode : UET 5.1      \nCrédits : 1 \nCoefficients : 1 \nAnglais  \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nTotal semestre 5 \n \n30 \n17 \n25h00 \n375h00 \n375h00"
+      },
+      {
+        "page": 7,
+        "text": "Reconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \nSemestre 6 \nUnité \nd'enseignement \nIntitulé \nCrédit\ns \nCoefficients \nVolume horaire \nhebdomadaire \nVolume \nHoraire \nSemestriel \n(15 \nsemaines) \nTravail \nComplémentair\ne \nen \nConsultation   \n(15 semaines) \nMode \nd’évaluation \nCour\ns \nTD \nTP \nContrôle \nContinu Examen \nUE Fondamentale \nCode : UEF 6.1.1 \nCrédits : 12 \nCoefficients : 5 \nEléments de machines II \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nTransmissions  et guidages \nde précision \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nConception \ndes \nsystèmes \nopto-mécaniques \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nUE Fondamentale  \nCode : UEF 6.1.2 \nCrédits : 8 \nCoefficients : 4 \nUsinage de précision \n2 \n1 \n1h30 \n \n \n22h30 \n27h30 \n100% \nComportement \nmécanique \ndes matériaux \n4 \n2 \n1h30 1h30 \n \n45h00 \n55h00 \n40% \n60% \nUE \nMéthodologique \nCode : UEM 6.1 \nCrédits : 9 \nCoefficients : 5 \nMini-projet \n4 \n2 \n \n3h00 \n45h00 \n55h00 \n100% \nInformatique appliquée à la \nmécanique \n2 \n1 \n \n \n1h30 \n22h30 \n27h30 \n \n100% \nProgrammation des machines \noutils \nà \ncommande \nnumériques \n2 \n1 \n1h30 \n \n \n22h30 \n27h30 \n \n100% \nTP FAO et métrologie  \n1 \n1 \n \n \n1h00 \n15h00 \n10h00 \n100% \n \nUE Découverte \nCode : UED 6.1 \nCrédits : 2 \nCoefficients : 2 \nMatériaux innovants \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nMesures \net \ncontrôle \nnon \ndestructif \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nUE Transversale \nCode : UET 6.1      \nCrédits : 1 \nCoefficients : 1 \nEconomie d’entreprise \n1 \n1 \n1h30 \n \n \n22h30 \n2h30 \n \n100% \nTotal semestre 6  \n30 \n17 \n25h00 \n375h00 \n375h00"
+      },
+      {
+        "page": 8,
+        "text": "Récapitulatif global de la formation : (indiquer le VH global séparé en cours, \nTD, pour les 06 semestres d’enseignement, pour les différents types d’UE) \n \n \n                                          \nUE \n   VH \nUEF \nUEM \nUED \nUET \nTotal \nCours \n720 \n-- \n157.5 \n180 \n1057.5 \nTD \n720 \n-- \n-- \n-- \n720 \nTP \n \n337.5 \n45 \n-- \n382.5 \nTravail personnel \n-- \n-- \n-- \n-- \n-- \nAutre (préciser) \n-- \n--- \n-- \n-- \n-- \nTotal \n1440 \n337.5 \n202.5 \n180 \n2160 \nCrédits \n108 \n54 \n10 \n8 \n180 \n% \nen \ncrédits \npour \nchaque UE \n60% \n30% \n5.55% \n4.45% \n100%"
+      },
+      {
+        "page": 9,
+        "text": "Reconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nL.2 - Fiches d’organisation des unités d’enseignement \n(Etablir une fiche par UE)"
+      },
+      {
+        "page": 10,
+        "text": "Reconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \nSemestre: 5 \n \nUE: \nFondamentale  \n \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 7h30 \nTD : 6 h00 \nTP:      // \nTravail personnel : // \n \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 18 crédits \nComposante 1 : 12crédits, Coefficient : 6 \nComposante 2 : 6 crédits,   Coefficient :3 \nDescription \ndes \ncomposantes \n(matières) \n \n Composante 1 : Eléments de machines I, \nConstruction des systèmes de précision, \nMécanismes de précision \nComposante 2 : Conception assisté par \nordinaire, Procédés d’usinage \n \nUE: \nMéthodologique   \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 1 h30 \nTD : // \nTP:      2h30 \nTravail personnel : // \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 9 crédits, coefficient : 5 \nComposante 1 : 9crédits, Coefficient : 5 \nDescription \ndes \ncomposantes \n(matières) \n \n Composante 1 : TP procédés d’usinage et \nde mise en forme, TP Matériaux et \nélectrotechnique, Procédés de mise en \nforme , Ajustage de précision \n \nUE: \nDécouverte \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 3 h00 \nTD : // \nTP:      // \nTravail personnel : // \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 2 crédits, coefficient :2 \nComposante 1 : 2crédits, Coefficient : 2 \nDescription \ndes \ncomposantes \n(matières) \n Composante 1 : Matériaux, \nMesures électriques \n \nUE: \nTransversale \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 1h 30 \nTD : // \nTP:      // \nTravail personnel : // \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 1 crédit, coefficient :1 \nComposante 1 : 1 crédit, Coefficient : 1 \nDescription \ndes \ncomposantes \n(matières) \n Composante 1 : Anglais"
+      },
+      {
+        "page": 11,
+        "text": "Reconduction Formation à recrutement National                                                       Année Universitaire 2015-2016 \nSemestre: 6 \n \nUE: \nFondamentale  \n \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 7h30 \nTD : 6 h00 \nTP:      // \nTravail personnel : // \n \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 18 crédits \nComposante 1 : 12crédits, Coefficient : 6 \nComposante 2 : 6 crédits,   Coefficient :3 \nDescription \ndes \ncomposantes \n(matières) \n \n Composante 1 : Eléments de machines II, \nTransmissions et guidages de précision, \nConception des systèmes opto-mécaniques \nComposante 2 : Usinage de précision \nComportement, méca des matériaux \n \nUE: \nMéthodologique   \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 1 h30 \nTD : // \nTP:      5h30 \nTravail personnel : // \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 9 crédits, coefficient : 5 \nComposante 1 : 9crédits, Coefficient : 5 \nDescription \ndes \ncomposantes \n(matières) \n \n Composante 1 : Mini-projet \nInformatique appliquée en mécanique \nProgrammation des machines outils à \ncommande numériques \nTP FAO et métrologie  \nUE: \nDécouverte \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 3 h00 \nTD : // \nTP:      // \nTravail personnel : // \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 2 crédits, coefficient :2 \nComposante 1 : 2crédits, Coefficient : 2 \nDescription \ndes \ncomposantes \n(matières) \n Composante 1 : Matériaux innovants \nMesures et contrôle non destructif \nUE: \nTransversale \nRépartition du volume horaire de l’UE et \nde ses composantes (matières) \n \nCours : 1h 30 \nTD : // \nTP:      // \nTravail personnel : // \nCrédits et coefficients affectés à l’UE (et \nà ses composantes) \nUE : 1 crédit, coefficient :1 \nComposante 1 : 1 crédit, Coefficient : 1 \nDescription \ndes \ncomposantes \n(matières) \n Composante 1 : Economie d’entreprise"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Unités\nd'enseignement",
+          "Matières",
+          "s\nt\ni\nd\né\nr\nC",
+          "t\nn\ne\nci\ni\nf\nf\ne\no\nC",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "VHS\n(14-16\nsemaines)",
+          "Autre*",
+          "Mode d’évaluation",
+          "column_10"
+        ],
+        "rows": [
+          {
+            "Unités\nd'enseignement": "",
+            "Matières": "Intitulé",
+            "s\nt\ni\nd\né\nr\nC": "Intitulé",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "Intitulé",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "VHS\n(14-16\nsemaines)": "TP",
+            "Autre*": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_10": "Examen"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 1.1\nCrédits :\nCoefficients :",
+            "Matières": "Mathématique 1",
+            "s\nt\ni\nd\né\nr\nC": "6",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "67h30",
+            "Autre*": "82h30",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 1.1\nCrédits :\nCoefficients :",
+            "Matières": "Physique 1",
+            "s\nt\ni\nd\né\nr\nC": "6",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "67h30",
+            "Autre*": "82h30",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 1.1\nCrédits :\nCoefficients :",
+            "Matières": "Structure de la matière",
+            "s\nt\ni\nd\né\nr\nC": "6",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "67h30",
+            "Autre*": "82h30",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 1.1\nCrédits :\nCoefficients :",
+            "Matières": "TP physique 1",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 1.1\nCrédits :\nCoefficients :",
+            "Matières": "TP Chimie 1",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 1.1\nCrédits :\nCoefficients :",
+            "Matières": "Informatique 1",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 1.1\nCrédits :\nCoefficients :",
+            "Matières": "Méthodologie de la rédaction",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h00",
+            "column_5": "1h00",
+            "column_6": "1h00",
+            "VHS\n(14-16\nsemaines)": "15h00",
+            "Autre*": "10h00",
+            "Mode d’évaluation": "10h00",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Découverte\nCode : UED 1.1\nCrédits :\nCoefficients :",
+            "Matières": "Les métiers en sciences et technologies\n1",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "2h30",
+            "Mode d’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Transversale\nCode : UET 1.1\nCrédits :\nCoefficients :",
+            "Matières": "Langue française 1",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "2h30",
+            "Mode d’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Transversale\nCode : UET 1.1\nCrédits :\nCoefficients :",
+            "Matières": "Langue anglaise 1",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "2h30",
+            "Mode d’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "Total semestre 1",
+            "Matières": "Total semestre 1",
+            "s\nt\ni\nd\né\nr\nC": "30",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "17",
+            "Volume horaire\nhebdomadaire": "16h00",
+            "column_5": "4h30",
+            "column_6": "4h30",
+            "VHS\n(14-16\nsemaines)": "375h00",
+            "Autre*": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_10": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 3,
+        "table_index": 0,
+        "headers": [
+          "Unités\nd'enseignement",
+          "Matières",
+          "s\nt\ni\nd\né\nr\nC",
+          "t\nn\ne\nci\ni\nf\nf\ne\no\nC",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "VHS\n(14-16\nsemaines)",
+          "Autre*",
+          "Mode d’évaluation",
+          "column_10"
+        ],
+        "rows": [
+          {
+            "Unités\nd'enseignement": "",
+            "Matières": "Intitulé",
+            "s\nt\ni\nd\né\nr\nC": "Intitulé",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "Intitulé",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "VHS\n(14-16\nsemaines)": "TP",
+            "Autre*": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_10": "Examen"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 1.2\nCrédits :\nCoefficients :",
+            "Matières": "Mathématique 2",
+            "s\nt\ni\nd\né\nr\nC": "6",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "67h30",
+            "Autre*": "82h30",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 1.2\nCrédits :\nCoefficients :",
+            "Matières": "Physique 2",
+            "s\nt\ni\nd\né\nr\nC": "6",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "67h30",
+            "Autre*": "82h30",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 1.2\nCrédits :\nCoefficients :",
+            "Matières": "Thermodynamique",
+            "s\nt\ni\nd\né\nr\nC": "6",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "67h30",
+            "Autre*": "82h30",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 1.2\nCrédits :\nCoefficients :",
+            "Matières": "TP physique 2",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 1.2\nCrédits :\nCoefficients :",
+            "Matières": "TP Chimie 2",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 1.2\nCrédits :\nCoefficients :",
+            "Matières": "Informatique 2",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 1.2\nCrédits :\nCoefficients :",
+            "Matières": "Méthodologie de la présentation",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h00",
+            "column_5": "1h00",
+            "column_6": "1h00",
+            "VHS\n(14-16\nsemaines)": "15h00",
+            "Autre*": "10h00",
+            "Mode d’évaluation": "10h00",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Découverte\nCode : UED 1.1\nCrédits :\nCoefficients :",
+            "Matières": "Les métiers en sciences et technologies\n2",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "2h30",
+            "Mode d’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Transversale\nCode : UET 1.1\nCrédits :\nCoefficients :",
+            "Matières": "Langue française 1",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "2h30",
+            "Mode d’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Transversale\nCode : UET 1.1\nCrédits :\nCoefficients :",
+            "Matières": "Langue anglaise 1",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "2h30",
+            "Mode d’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "Total semestre 2",
+            "Matières": "Total semestre 2",
+            "s\nt\ni\nd\né\nr\nC": "30",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "17",
+            "Volume horaire\nhebdomadaire": "16h00",
+            "column_5": "4h30",
+            "column_6": "4h30",
+            "VHS\n(14-16\nsemaines)": "375h00",
+            "Autre*": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_10": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 4,
+        "table_index": 0,
+        "headers": [
+          "Unités\nd'enseignement",
+          "Matières",
+          "s\nt\ni\nd\né\nr\nC",
+          "t\nn\ne\nci\ni\nf\nf\ne\no\nC",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "VHS\n(14-16\nsemaines)",
+          "Autre*",
+          "Mode d’évaluation",
+          "column_10"
+        ],
+        "rows": [
+          {
+            "Unités\nd'enseignement": "",
+            "Matières": "Intitulé",
+            "s\nt\ni\nd\né\nr\nC": "Intitulé",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "Intitulé",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "VHS\n(14-16\nsemaines)": "TP",
+            "Autre*": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_10": "Examen"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Mathématiques 3",
+            "s\nt\ni\nd\né\nr\nC": "6",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "67h30",
+            "Autre*": "82h30",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Mathématiques 3",
+            "s\nt\ni\nd\né\nr\nC": "6",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "67h30",
+            "Autre*": "82h30",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Ondes et Vibrations",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Ondes et Vibrations",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Mécanique des fluides",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Mécanique des fluides",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Mécanique Rationnelle",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Mécanique Rationnelle",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Probabilités et Statistique",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Probabilités et Statistique",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Informatique 3",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Informatique 3",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Dessin technique",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Dessin technique",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 2.1\nCrédits :\nCoefficients :",
+            "Matières": "TP Ondes et Vibrations",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h00",
+            "VHS\n(14-16\nsemaines)": "15h00",
+            "Autre*": "10h00",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 2.1\nCrédits :\nCoefficients :",
+            "Matières": "TP Ondes et Vibrations",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h00",
+            "VHS\n(14-16\nsemaines)": "15h00",
+            "Autre*": "10h00",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Découverte\nCode : UED 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Technologie de base",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "2h30",
+            "Mode d’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Découverte\nCode : UED 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Technologie de base",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "2h30",
+            "Mode d’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Découverte\nCode : UED 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Métrologie",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "2h30",
+            "Mode d’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Découverte\nCode : UED 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Métrologie",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "2h30",
+            "Mode d’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Transversale\nCode : UET 2.1\nCrédits :\nCoefficients :",
+            "Matières": "Anglais technique",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "2h30",
+            "Mode d’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "Total semestre 3",
+            "Matières": "Total semestre 3",
+            "s\nt\ni\nd\né\nr\nC": "30",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "17",
+            "Volume horaire\nhebdomadaire": "13h30",
+            "column_5": "7h30",
+            "column_6": "4h00",
+            "VHS\n(14-16\nsemaines)": "375h00",
+            "Autre*": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_10": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 5,
+        "table_index": 0,
+        "headers": [
+          "Unités\nd'enseignement",
+          "Matières",
+          "s\nt\ni\nd\né\nr\nC",
+          "t\nn\ne\nci\ni\nf\nf\ne\no\nC",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "VHS\n(14-16\nsemaines)",
+          "Autre*",
+          "Mode d’évaluation",
+          "column_10"
+        ],
+        "rows": [
+          {
+            "Unités\nd'enseignement": "",
+            "Matières": "Intitulé",
+            "s\nt\ni\nd\né\nr\nC": "Intitulé",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "Intitulé",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "VHS\n(14-16\nsemaines)": "TP",
+            "Autre*": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_10": "Examen"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.2\nCrédits :\nCoefficients :",
+            "Matières": "Notions d’Optique",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "3",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.2\nCrédits :\nCoefficients :",
+            "Matières": "Notions d’Optique",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "3",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.2\nCrédits :\nCoefficients :",
+            "Matières": "Sciences des Matériaux",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "27h30",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.2\nCrédits :\nCoefficients :",
+            "Matières": "Sciences des Matériaux",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "27h30",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.2\nCrédits :\nCoefficients :",
+            "Matières": "Mathématique 04",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.2\nCrédits :\nCoefficients :",
+            "Matières": "Mathématique 04",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.2\nCrédits :\nCoefficients :",
+            "Matières": "Méthodes numériques",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.2\nCrédits :\nCoefficients :",
+            "Matières": "Méthodes numériques",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.2\nCrédits :\nCoefficients :",
+            "Matières": "Résistance des Matériaux",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Fondamentale\nCode : UEF 2.2\nCrédits :\nCoefficients :",
+            "Matières": "Résistance des Matériaux",
+            "s\nt\ni\nd\né\nr\nC": "4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "55h00",
+            "Mode d’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 2.2\nCrédits :\nCoefficients :",
+            "Matières": "TP Optique",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 2.2\nCrédits :\nCoefficients :",
+            "Matières": "TP Sciences des Matériaux",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 2.2\nCrédits :\nCoefficients :",
+            "Matières": "Dessin assisté par ordinateur",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 2.2\nCrédits :\nCoefficients :",
+            "Matières": "Dessin assisté par ordinateur",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 2.2\nCrédits :\nCoefficients :",
+            "Matières": "TP Méthodes Numériques",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "27h30",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE\nMéthodologique\nCode : UEM 2.2\nCrédits :\nCoefficients :",
+            "Matières": "TP Résistance des Matériaux",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h00",
+            "VHS\n(14-16\nsemaines)": "15h00",
+            "Autre*": "10h00",
+            "Mode d’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Découverte\nCode : UED 2.2\nCrédits :\nCoefficients :",
+            "Matières": "Opto-Mécanique",
+            "s\nt\ni\nd\né\nr\nC": "1",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "3h00",
+            "VHS\n(14-16\nsemaines)": "45h00",
+            "Autre*": "5h00",
+            "Mode d’évaluation": "5h00",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "UE Transversale\nCode : UET 2.2\nCrédits :\nCoefficients :",
+            "Matières": "Technique d'expression et de\ncommunication",
+            "s\nt\ni\nd\né\nr\nC": "2",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "VHS\n(14-16\nsemaines)": "22h30",
+            "Autre*": "2h30",
+            "Mode d’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unités\nd'enseignement": "Total semestre 4",
+            "Matières": "Total semestre 4",
+            "s\nt\ni\nd\né\nr\nC": "Total semestre 4",
+            "t\nn\ne\nci\ni\nf\nf\ne\no\nC": "Total semestre 4",
+            "Volume horaire\nhebdomadaire": "Total semestre 4",
+            "column_5": "Total semestre 4",
+            "column_6": "Total semestre 4",
+            "VHS\n(14-16\nsemaines)": "Total semestre 4",
+            "Autre*": "Total semestre 4",
+            "Mode d’évaluation": "Total semestre 4",
+            "column_10": "Total semestre 4"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 6,
+        "table_index": 0,
+        "headers": [
+          "Unité\nd'enseignement",
+          "Intitulé",
+          "Crédit\ns",
+          "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume\nHoraire\nSemestriel\n(15\nsemaines)",
+          "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)",
+          "Mode\nd’évaluation",
+          "column_10"
+        ],
+        "rows": [
+          {
+            "Unité\nd'enseignement": "",
+            "Intitulé": "",
+            "Crédit\ns": "",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "TP",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "TP",
+            "Mode\nd’évaluation": "Contrôl\ne\nContinu",
+            "column_10": "Examen"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 5.1.1\nCrédits : 12\nCoefficients : 6",
+            "Intitulé": "Eléments de machines I",
+            "Crédit\ns": "4",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "45h00",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "55h00",
+            "Mode\nd’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 5.1.1\nCrédits : 12\nCoefficients : 6",
+            "Intitulé": "Construction des systèmes\nde précision",
+            "Crédit\ns": "4",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "45h00",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "55h00",
+            "Mode\nd’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 5.1.1\nCrédits : 12\nCoefficients : 6",
+            "Intitulé": "Mécanismes de précision",
+            "Crédit\ns": "4",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "45h00",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "55h00",
+            "Mode\nd’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 5.1.2\nCrédits : 6\nCoefficients : 3",
+            "Intitulé": "Conception assisté par\nordinaire (CAO)",
+            "Crédit\ns": "4",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "45h00",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "55h00",
+            "Mode\nd’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 5.1.2\nCrédits : 6\nCoefficients : 3",
+            "Intitulé": "Procédés d’usinage",
+            "Crédit\ns": "2",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "27h30",
+            "Mode\nd’évaluation": "27h30",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE\nMéthodologique\nCode : UEM 5.1\nCrédits : 9\nCoefficients : 5",
+            "Intitulé": "TP procédés d’usinage et\nde mise en forme",
+            "Crédit\ns": "2",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "27h30",
+            "Mode\nd’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE\nMéthodologique\nCode : UEM 5.1\nCrédits : 9\nCoefficients : 5",
+            "Intitulé": "TP Matériaux et\nélectrotechnique",
+            "Crédit\ns": "1",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h00",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "15h00",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "10h00",
+            "Mode\nd’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE\nMéthodologique\nCode : UEM 5.1\nCrédits : 9\nCoefficients : 5",
+            "Intitulé": "Procédés de mise en forme",
+            "Crédit\ns": "2",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "27h30",
+            "Mode\nd’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE\nMéthodologique\nCode : UEM 5.1\nCrédits : 9\nCoefficients : 5",
+            "Intitulé": "Ajustage de précision",
+            "Crédit\ns": "4",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "45h00",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "55h00",
+            "Mode\nd’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Découverte\nCode : UED 5.1\nCrédits : 2\nCoefficients : 2",
+            "Intitulé": "Matériaux",
+            "Crédit\ns": "1",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "2h30",
+            "Mode\nd’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Découverte\nCode : UED 5.1\nCrédits : 2\nCoefficients : 2",
+            "Intitulé": "Mesures électriques",
+            "Crédit\ns": "1",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "2h30",
+            "Mode\nd’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Transversale\nCode : UET 5.1\nCrédits : 1\nCoefficients : 1",
+            "Intitulé": "Anglais",
+            "Crédit\ns": "1",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "2h30",
+            "Mode\nd’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "Total semestre 5",
+            "Intitulé": "Total semestre 5",
+            "Crédit\ns": "30",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "17",
+            "Volume horaire\nhebdomadaire": "25h00",
+            "column_5": "25h00",
+            "column_6": "25h00",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "375h00",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "375h00",
+            "Mode\nd’évaluation": "375h00",
+            "column_10": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 7,
+        "table_index": 0,
+        "headers": [
+          "Unité\nd'enseignement",
+          "Intitulé",
+          "Crédit\ns",
+          "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume\nHoraire\nSemestriel\n(15\nsemaines)",
+          "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)",
+          "Mode\nd’évaluation",
+          "column_10"
+        ],
+        "rows": [
+          {
+            "Unité\nd'enseignement": "",
+            "Intitulé": "",
+            "Crédit\ns": "",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "",
+            "Volume horaire\nhebdomadaire": "Cour\ns",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "TP",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "TP",
+            "Mode\nd’évaluation": "Contrôle\nC o n tinu",
+            "column_10": "Examen"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 6.1.1\nCrédits : 12\nCoefficients : 5",
+            "Intitulé": "Eléments de machines II",
+            "Crédit\ns": "4",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "45h00",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "55h00",
+            "Mode\nd’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 6.1.1\nCrédits : 12\nCoefficients : 5",
+            "Intitulé": "Transmissions et guidages\nde précision",
+            "Crédit\ns": "4",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "45h00",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "55h00",
+            "Mode\nd’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 6.1.1\nCrédits : 12\nCoefficients : 5",
+            "Intitulé": "Conception des systèmes\nopto-mécaniques",
+            "Crédit\ns": "4",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "45h00",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "55h00",
+            "Mode\nd’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 6.1.2\nCrédits : 8\nCoefficients : 4",
+            "Intitulé": "Usinage de précision",
+            "Crédit\ns": "2",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "27h30",
+            "Mode\nd’évaluation": "27h30",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 6.1.2\nCrédits : 8\nCoefficients : 4",
+            "Intitulé": "Comportement mécanique\ndes matériaux",
+            "Crédit\ns": "4",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "45h00",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "55h00",
+            "Mode\nd’évaluation": "40%",
+            "column_10": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE\nMéthodologique\nCode : UEM 6.1\nCrédits : 9\nCoefficients : 5",
+            "Intitulé": "Mini-projet",
+            "Crédit\ns": "4",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "2",
+            "Volume horaire\nhebdomadaire": "2",
+            "column_5": "2",
+            "column_6": "3h00",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "45h00",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "55h00",
+            "Mode\nd’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE\nMéthodologique\nCode : UEM 6.1\nCrédits : 9\nCoefficients : 5",
+            "Intitulé": "Informatique appliquée à la\nmécanique",
+            "Crédit\ns": "2",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "27h30",
+            "Mode\nd’évaluation": "27h30",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE\nMéthodologique\nCode : UEM 6.1\nCrédits : 9\nCoefficients : 5",
+            "Intitulé": "Programmation des machines\noutils à commande\nnumériques",
+            "Crédit\ns": "2",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "27h30",
+            "Mode\nd’évaluation": "27h30",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE\nMéthodologique\nCode : UEM 6.1\nCrédits : 9\nCoefficients : 5",
+            "Intitulé": "TP FAO et métrologie",
+            "Crédit\ns": "1",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h00",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "15h00",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "10h00",
+            "Mode\nd’évaluation": "100%",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Découverte\nCode : UED 6.1\nCrédits : 2\nCoefficients : 2",
+            "Intitulé": "Matériaux innovants",
+            "Crédit\ns": "1",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "2h30",
+            "Mode\nd’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Découverte\nCode : UED 6.1\nCrédits : 2\nCoefficients : 2",
+            "Intitulé": "Mesures et contrôle non\ndestructif",
+            "Crédit\ns": "1",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "2h30",
+            "Mode\nd’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Transversale\nCode : UET 6.1\nCrédits : 1\nCoefficients : 1",
+            "Intitulé": "Economie d’entreprise",
+            "Crédit\ns": "1",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "22h30",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "2h30",
+            "Mode\nd’évaluation": "2h30",
+            "column_10": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "Total semestre 6",
+            "Intitulé": "Total semestre 6",
+            "Crédit\ns": "30",
+            "s\nt\nn\ne\ni\nc\ni\nf\nf\ne\no\nC": "17",
+            "Volume horaire\nhebdomadaire": "25h00",
+            "column_5": "25h00",
+            "column_6": "25h00",
+            "Volume\nHoraire\nSemestriel\n(15\nsemaines)": "375h00",
+            "Travail\nComplémentair\ne\nen\nConsultation\n(15 semaines)": "375h00",
+            "Mode\nd’évaluation": "375h00",
+            "column_10": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 8,
+        "table_index": 0,
+        "headers": [
+          "UE\nVH",
+          "UEF",
+          "UEM",
+          "UED",
+          "UET",
+          "Total",
+          "column_6",
+          "column_7"
+        ],
+        "rows": [
+          {
+            "UE\nVH": "Cours",
+            "UEF": "720",
+            "UEM": "--",
+            "UED": "157.5",
+            "UET": "180",
+            "Total": "1057.5",
+            "column_6": "1057.5",
+            "column_7": "1057.5"
+          },
+          {
+            "UE\nVH": "TD",
+            "UEF": "720",
+            "UEM": "--",
+            "UED": "--",
+            "UET": "--",
+            "Total": "720",
+            "column_6": "720",
+            "column_7": "720"
+          },
+          {
+            "UE\nVH": "TP",
+            "UEF": "TP",
+            "UEM": "337.5",
+            "UED": "45",
+            "UET": "--",
+            "Total": "382.5",
+            "column_6": "382.5",
+            "column_7": "382.5"
+          },
+          {
+            "UE\nVH": "Travail personnel",
+            "UEF": "--",
+            "UEM": "--",
+            "UED": "--",
+            "UET": "--",
+            "Total": "--",
+            "column_6": "--",
+            "column_7": "--"
+          },
+          {
+            "UE\nVH": "Autre (préciser)",
+            "UEF": "--",
+            "UEM": "---",
+            "UED": "--",
+            "UET": "--",
+            "Total": "--",
+            "column_6": "--",
+            "column_7": "--"
+          },
+          {
+            "UE\nVH": "Total",
+            "UEF": "1440",
+            "UEM": "337.5",
+            "UED": "202.5",
+            "UET": "180",
+            "Total": "2160",
+            "column_6": "2160",
+            "column_7": "2160"
+          },
+          {
+            "UE\nVH": "Crédits",
+            "UEF": "108",
+            "UEM": "54",
+            "UED": "10",
+            "UET": "8",
+            "Total": "8",
+            "column_6": "180",
+            "column_7": "180"
+          },
+          {
+            "UE\nVH": "% en crédits pour\nchaque UE",
+            "UEF": "60%",
+            "UEM": "30%",
+            "UED": "5.55%",
+            "UET": "4.45%",
+            "Total": "100%",
+            "column_6": "100%",
+            "column_7": "100%"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 10,
+        "table_index": 0,
+        "headers": [
+          "Répartition du volume horaire de l’UE et\nde ses composantes (matières)",
+          "Cours : 7h30\nTD : 6 h00\nTP: //\nTravail personnel : //"
+        ],
+        "rows": [
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Crédits et coefficients affectés à l’UE (et\nà ses composantes)",
+            "Cours : 7h30\nTD : 6 h00\nTP: //\nTravail personnel : //": "UE : 18 crédits\nComposante 1 : 12crédits, Coefficient : 6\nComposante 2 : 6 crédits, Coefficient :3"
+          },
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Description des composantes\n(matières)",
+            "Cours : 7h30\nTD : 6 h00\nTP: //\nTravail personnel : //": "Composante 1 : Eléments de machines I,\nConstruction des systèmes de précision,\nMécanismes de précision\nComposante 2 : Conception assisté par\nordinaire, Procédés d’usinage"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 10,
+        "table_index": 1,
+        "headers": [
+          "Répartition du volume horaire de l’UE et\nde ses composantes (matières)",
+          "Cours : 1 h30\nTD : //\nTP: 2h30\nTravail personnel : //"
+        ],
+        "rows": [
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Crédits et coefficients affectés à l’UE (et\nà ses composantes)",
+            "Cours : 1 h30\nTD : //\nTP: 2h30\nTravail personnel : //": "UE : 9 crédits, coefficient : 5\nComposante 1 : 9crédits, Coefficient : 5"
+          },
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Description des composantes\n(matières)",
+            "Cours : 1 h30\nTD : //\nTP: 2h30\nTravail personnel : //": "Composante 1 : TP procédés d’usinage et\nde mise en forme, TP Matériaux et\nélectrotechnique, Procédés de mise en\nforme , Ajustage de précision"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 10,
+        "table_index": 2,
+        "headers": [
+          "Répartition du volume horaire de l’UE et\nde ses composantes (matières)",
+          "Cours : 3 h00\nTD : //\nTP: //\nTravail personnel : //"
+        ],
+        "rows": [
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Crédits et coefficients affectés à l’UE (et\nà ses composantes)",
+            "Cours : 3 h00\nTD : //\nTP: //\nTravail personnel : //": "UE : 2 crédits, coefficient :2\nComposante 1 : 2crédits, Coefficient : 2"
+          },
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Description des composantes\n(matières)",
+            "Cours : 3 h00\nTD : //\nTP: //\nTravail personnel : //": "Composante 1 : Matériaux,\nMesures électriques"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 10,
+        "table_index": 3,
+        "headers": [
+          "Répartition du volume horaire de l’UE et\nde ses composantes (matières)",
+          "Cours : 1h 30\nTD : //\nTP: //\nTravail personnel : //"
+        ],
+        "rows": [
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Crédits et coefficients affectés à l’UE (et\nà ses composantes)",
+            "Cours : 1h 30\nTD : //\nTP: //\nTravail personnel : //": "UE : 1 crédit, coefficient :1\nComposante 1 : 1 crédit, Coefficient : 1"
+          },
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Description des composantes\n(matières)",
+            "Cours : 1h 30\nTD : //\nTP: //\nTravail personnel : //": "Composante 1 : Anglais"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 11,
+        "table_index": 0,
+        "headers": [
+          "Répartition du volume horaire de l’UE et\nde ses composantes (matières)",
+          "Cours : 7h30\nTD : 6 h00\nTP: //\nTravail personnel : //"
+        ],
+        "rows": [
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Crédits et coefficients affectés à l’UE (et\nà ses composantes)",
+            "Cours : 7h30\nTD : 6 h00\nTP: //\nTravail personnel : //": "UE : 18 crédits\nComposante 1 : 12crédits, Coefficient : 6\nComposante 2 : 6 crédits, Coefficient :3"
+          },
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Description des composantes\n(matières)",
+            "Cours : 7h30\nTD : 6 h00\nTP: //\nTravail personnel : //": "Composante 1 : Eléments de machines II,\nTransmissions et guidages de précision,\nConception des systèmes opto-mécaniques\nComposante 2 : Usinage de précision\nComportement, méca des matériaux"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 11,
+        "table_index": 1,
+        "headers": [
+          "Répartition du volume horaire de l’UE et\nde ses composantes (matières)",
+          "Cours : 1 h30\nTD : //\nTP: 5h30\nTravail personnel : //"
+        ],
+        "rows": [
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Crédits et coefficients affectés à l’UE (et\nà ses composantes)",
+            "Cours : 1 h30\nTD : //\nTP: 5h30\nTravail personnel : //": "UE : 9 crédits, coefficient : 5\nComposante 1 : 9crédits, Coefficient : 5"
+          },
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Description des composantes\n(matières)",
+            "Cours : 1 h30\nTD : //\nTP: 5h30\nTravail personnel : //": "Composante 1 : Mini-projet\nInformatique appliquée en mécanique\nProgrammation des machines outils à\ncommande numériques\nTP FAO et métrologie"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 11,
+        "table_index": 2,
+        "headers": [
+          "Répartition du volume horaire de l’UE et\nde ses composantes (matières)",
+          "Cours : 3 h00\nTD : //\nTP: //\nTravail personnel : //"
+        ],
+        "rows": [
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Crédits et coefficients affectés à l’UE (et\nà ses composantes)",
+            "Cours : 3 h00\nTD : //\nTP: //\nTravail personnel : //": "UE : 2 crédits, coefficient :2\nComposante 1 : 2crédits, Coefficient : 2"
+          },
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Description des composantes\n(matières)",
+            "Cours : 3 h00\nTD : //\nTP: //\nTravail personnel : //": "Composante 1 : Matériaux innovants\nMesures et contrôle non destructif"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 11,
+        "table_index": 3,
+        "headers": [
+          "Répartition du volume horaire de l’UE et\nde ses composantes (matières)",
+          "Cours : 1h 30\nTD : //\nTP: //\nTravail personnel : //"
+        ],
+        "rows": [
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Crédits et coefficients affectés à l’UE (et\nà ses composantes)",
+            "Cours : 1h 30\nTD : //\nTP: //\nTravail personnel : //": "UE : 1 crédit, coefficient :1\nComposante 1 : 1 crédit, Coefficient : 1"
+          },
+          {
+            "Répartition du volume horaire de l’UE et\nde ses composantes (matières)": "Description des composantes\n(matières)",
+            "Cours : 1h 30\nTD : //\nTP: //\nTravail personnel : //": "Composante 1 : Economie d’entreprise"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

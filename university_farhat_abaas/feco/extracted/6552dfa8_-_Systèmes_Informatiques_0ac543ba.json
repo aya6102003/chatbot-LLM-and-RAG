@@ -1,0 +1,600 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\6552dfa8_-_Systèmes_Informatiques.pdf",
+      "name": "6552dfa8_-_Systèmes_Informatiques.pdf",
+      "type": "pdf",
+      "size_bytes": 42314,
+      "id": "0ac543ba"
+    },
+    "extracted_at": "2026-06-10T12:36:42.992837"
+  },
+  "content": {
+    "text": "Cours\nTD\nTP\nContinu\nExamen\nArchitecture des \nordinateurs\n5\n3\n1h30\n1h30\n1h30\n63h\n0,4\n60%\nAlgorithmique et structure \nde données 3\n6\n3\n3h\n1h30\n1h30\n84h\n0,4\n60%\nSystèmes d'information\n5\n3\n1h30\n1h30\n1h30\n63h\n0,4\n60%\nThéorie des graphes\n4\n2\n1h30\n1h30\n42h\n0,4\n60%\nMéthodes numériques\n4\n2\n1h30\n1h30\n42h\n0,4\n60%\nLogique mathématique\n4\n2\n1h30\n1h30\n42h\n0,4\n60%\nUE Transversale\nCrédits : 2\nCoefficients : 1\nLangue étrangère 3\n2\n1\n1h30\n21h\n100%\nTotal Semestre 3\n30\n18\n12h\n7h30\n6h\n357h\nLicence en Informatique\nSEMESTRE 3\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Méthodologie \nCrédits : 8\nCoefficients : 4\nUE Fondamentale 1 \nCrédits : 11\nCoefficients : 6\nUE Fondamentale 2 \nCrédits : 9\nCoefficients : 5\n\nCours\nTD\nTP\nContinu\nExamen\nThéories des langages\n5\n2\n1h30\n1h30\n1h30\n63h\n40%\n60%\nSystème d'exploitation 1\n5\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nBase de données\n5\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nRéseaux\n5\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nProgrammation orienté \nobjet\n4\n2\n1h30\n1h30\n42h\n40%\n60%\nDéveloppement \nd'applications web\n4\n2\n1h30\n1h30\n42h\n40%\n60%\nUE Transversale\nCrédits : 1\nCoefficients : 1\nLangue étrangère 3\n2\n1\n1h30\n21h\n100%\nTotal Semestre 4\n30\n16\n10h30\n6h\n9h\n357h\nLicence en Informatique\nSEMESTRE 4\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Méthodologie \nCrédits : 7\nCoefficients : 4\nUE Fondamentale 1 \nCrédits : 10\nCoefficients : 5\nUE Fondamentale 2\nCrédits : 10\nCoefficients : 6\n\nCours\nTD\nTP\nContinu\nExamen\nSystème d'exploitation 2\n5\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nCompilation\n5\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nGénie logiciel\n5\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nInterface homme machine\n5\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nProgrammation linéaire\n4\n2\n1h30\n1h30\n42h\n0,4\n60%\nProbabilités et statistique\n4\n2\n1h30\n1h30\n42h\n0,4\n60%\nUE Transversale\nCrédits : 2\nCoefficients : 1\nEconomie numérique et \nveille stratégique\n2\n1\n1h30\n21h\n1\nTotal Semestre 5\n30\n17\n9h\n10h30\n6h\n357h\nUE Fondamentale 2 \nCrédits : 10\nCoefficients : 6\nUE Méthodologie \nCrédits : 8\nCoefficients : 4\nLicence en Informatique\nSEMESTRE 5\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nMode d’'évaluation\nVHS\n14 \nSemaines\nUE Fondamentale 1\nCrédits : 10\nCoefficients : 6\n\nCours\nTD\nTP\nContinu\nExamen\nApplications mobiles\n5\n3\n1h30\n1h30\n63h\n40%\n60%\nSécurité informatique\n5\n3\n1h30\n1h30\n63h\n40%\n60%\nIntelligence artificielle\n5\n3\n1h30\n1h30\n63h\n40%\n60%\nDonnées semi-structurées\n5\n3\n1h30\n1h30\n63h\n40%\n60%\nProjet\n6\n3\n100%\nRédaction scientifique\n2\n1\n1h30\n21h\n100%\nUE Transversale\nCrédits : 2\nCoefficients : 1\nCréer et développer une \nstartup\n2\n1\n1h30\n21h\n100%\nTotal Semestre 6\n30\n17\n7h30\n3h\n4h30\n310h\nLicence en Informatique\nUE Fondamentale 1\nCrédits : 10\nCoefficients : 6\nUE Fondamentale 2 \nCrédits : 10\nCoefficients : 6\nUE Méthodologie \nCrédits : 8\nCoefficients : 4\nSEMESTRE 6\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Cours\nTD\nTP\nContinu\nExamen\nArchitecture des \nordinateurs\n5\n3\n1h30\n1h30\n1h30\n63h\n0,4\n60%\nAlgorithmique et structure \nde données 3\n6\n3\n3h\n1h30\n1h30\n84h\n0,4\n60%\nSystèmes d'information\n5\n3\n1h30\n1h30\n1h30\n63h\n0,4\n60%\nThéorie des graphes\n4\n2\n1h30\n1h30\n42h\n0,4\n60%\nMéthodes numériques\n4\n2\n1h30\n1h30\n42h\n0,4\n60%\nLogique mathématique\n4\n2\n1h30\n1h30\n42h\n0,4\n60%\nUE Transversale\nCrédits : 2\nCoefficients : 1\nLangue étrangère 3\n2\n1\n1h30\n21h\n100%\nTotal Semestre 3\n30\n18\n12h\n7h30\n6h\n357h\nLicence en Informatique\nSEMESTRE 3\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Méthodologie \nCrédits : 8\nCoefficients : 4\nUE Fondamentale 1 \nCrédits : 11\nCoefficients : 6\nUE Fondamentale 2 \nCrédits : 9\nCoefficients : 5"
+      },
+      {
+        "page": 2,
+        "text": "Cours\nTD\nTP\nContinu\nExamen\nThéories des langages\n5\n2\n1h30\n1h30\n1h30\n63h\n40%\n60%\nSystème d'exploitation 1\n5\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nBase de données\n5\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nRéseaux\n5\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nProgrammation orienté \nobjet\n4\n2\n1h30\n1h30\n42h\n40%\n60%\nDéveloppement \nd'applications web\n4\n2\n1h30\n1h30\n42h\n40%\n60%\nUE Transversale\nCrédits : 1\nCoefficients : 1\nLangue étrangère 3\n2\n1\n1h30\n21h\n100%\nTotal Semestre 4\n30\n16\n10h30\n6h\n9h\n357h\nLicence en Informatique\nSEMESTRE 4\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation\nUE Méthodologie \nCrédits : 7\nCoefficients : 4\nUE Fondamentale 1 \nCrédits : 10\nCoefficients : 5\nUE Fondamentale 2\nCrédits : 10\nCoefficients : 6"
+      },
+      {
+        "page": 3,
+        "text": "Cours\nTD\nTP\nContinu\nExamen\nSystème d'exploitation 2\n5\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nCompilation\n5\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nGénie logiciel\n5\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nInterface homme machine\n5\n3\n1h30\n1h30\n1h30\n63h\n40%\n60%\nProgrammation linéaire\n4\n2\n1h30\n1h30\n42h\n0,4\n60%\nProbabilités et statistique\n4\n2\n1h30\n1h30\n42h\n0,4\n60%\nUE Transversale\nCrédits : 2\nCoefficients : 1\nEconomie numérique et \nveille stratégique\n2\n1\n1h30\n21h\n1\nTotal Semestre 5\n30\n17\n9h\n10h30\n6h\n357h\nUE Fondamentale 2 \nCrédits : 10\nCoefficients : 6\nUE Méthodologie \nCrédits : 8\nCoefficients : 4\nLicence en Informatique\nSEMESTRE 5\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nMode d’'évaluation\nVHS\n14 \nSemaines\nUE Fondamentale 1\nCrédits : 10\nCoefficients : 6"
+      },
+      {
+        "page": 4,
+        "text": "Cours\nTD\nTP\nContinu\nExamen\nApplications mobiles\n5\n3\n1h30\n1h30\n63h\n40%\n60%\nSécurité informatique\n5\n3\n1h30\n1h30\n63h\n40%\n60%\nIntelligence artificielle\n5\n3\n1h30\n1h30\n63h\n40%\n60%\nDonnées semi-structurées\n5\n3\n1h30\n1h30\n63h\n40%\n60%\nProjet\n6\n3\n100%\nRédaction scientifique\n2\n1\n1h30\n21h\n100%\nUE Transversale\nCrédits : 2\nCoefficients : 1\nCréer et développer une \nstartup\n2\n1\n1h30\n21h\n100%\nTotal Semestre 6\n30\n17\n7h30\n3h\n4h30\n310h\nLicence en Informatique\nUE Fondamentale 1\nCrédits : 10\nCoefficients : 6\nUE Fondamentale 2 \nCrédits : 10\nCoefficients : 6\nUE Méthodologie \nCrédits : 8\nCoefficients : 4\nSEMESTRE 6\nUnité \nd'Enseignement\nMatière\nCrédits Coefficient\nVolume horaire hebdomadaire\nVHS\n14 \nSemaines\nMode d’'évaluation"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "SEMESTRE 3",
+          "column_1",
+          "column_2",
+          "column_3",
+          "column_4",
+          "column_5",
+          "column_6",
+          "column_7",
+          "column_8",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Volume horaire hebdomadaire",
+            "column_5": "Volume horaire hebdomadaire",
+            "column_6": "Volume horaire hebdomadaire",
+            "column_7": "VHS\n14\nSemaines",
+            "column_8": "Mode d’'évaluation",
+            "column_9": "Mode d’'évaluation"
+          },
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "column_7": "TP",
+            "column_8": "Continu",
+            "column_9": "Examen"
+          },
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Architecture des\nordinateurs",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "0,4",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Algorithmique et structure\nde données 3",
+            "column_2": "6",
+            "column_3": "3",
+            "column_4": "3h",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "84h",
+            "column_8": "0,4",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Systèmes d'information",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "0,4",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 3": "Unité\nd'Enseignement",
+            "column_1": "Théorie des graphes",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "0,4",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 3": "UE Méthodologie\nCrédits : 8\nCoefficients : 4",
+            "column_1": "Méthodes numériques",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "0,4",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 3": "UE Méthodologie\nCrédits : 8\nCoefficients : 4",
+            "column_1": "Logique mathématique",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "0,4",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 3": "UE Transversale\nCrédits : 2\nCoefficients : 1",
+            "column_1": "Langue étrangère 3",
+            "column_2": "2",
+            "column_3": "1",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "21h",
+            "column_8": "21h",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 3": "Total Semestre 3",
+            "column_1": "Total Semestre 3",
+            "column_2": "30",
+            "column_3": "18",
+            "column_4": "12h",
+            "column_5": "7h30",
+            "column_6": "6h",
+            "column_7": "357h",
+            "column_8": "357h",
+            "column_9": "357h"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "SEMESTRE 4",
+          "column_1",
+          "column_2",
+          "column_3",
+          "column_4",
+          "column_5",
+          "column_6",
+          "column_7",
+          "column_8",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Volume horaire hebdomadaire",
+            "column_5": "Volume horaire hebdomadaire",
+            "column_6": "Volume horaire hebdomadaire",
+            "column_7": "VHS\n14\nSemaines",
+            "column_8": "Mode d’'évaluation",
+            "column_9": "Mode d’'évaluation"
+          },
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "column_7": "TP",
+            "column_8": "Continu",
+            "column_9": "Examen"
+          },
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Théories des langages",
+            "column_2": "5",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Système d'exploitation 1",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Base de données",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 4": "Unité\nd'Enseignement",
+            "column_1": "Réseaux",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 4": "UE Méthodologie\nCrédits : 7\nCoefficients : 4",
+            "column_1": "Programmation orienté\nobjet",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 4": "UE Méthodologie\nCrédits : 7\nCoefficients : 4",
+            "column_1": "Développement\nd'applications web",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 4": "UE Transversale\nCrédits : 1\nCoefficients : 1",
+            "column_1": "Langue étrangère 3",
+            "column_2": "2",
+            "column_3": "1",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "21h",
+            "column_8": "21h",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 4": "Total Semestre 4",
+            "column_1": "Total Semestre 4",
+            "column_2": "30",
+            "column_3": "16",
+            "column_4": "10h30",
+            "column_5": "6h",
+            "column_6": "9h",
+            "column_7": "357h",
+            "column_8": "357h",
+            "column_9": "357h"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 3,
+        "table_index": 0,
+        "headers": [
+          "SEMESTRE 5",
+          "column_1",
+          "column_2",
+          "column_3",
+          "column_4",
+          "column_5",
+          "column_6",
+          "column_7",
+          "column_8",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Volume horaire hebdomadaire",
+            "column_5": "Volume horaire hebdomadaire",
+            "column_6": "Volume horaire hebdomadaire",
+            "column_7": "VHS\n14\nSemaines",
+            "column_8": "Mode d’'évaluation",
+            "column_9": "Mode d’'évaluation"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "column_7": "TP",
+            "column_8": "Continu",
+            "column_9": "Examen"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Système d'exploitation 2",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Compilation",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Génie logiciel",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 5": "Unité\nd'Enseignement",
+            "column_1": "Interface homme machine",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 5": "UE Méthodologie\nCrédits : 8\nCoefficients : 4",
+            "column_1": "Programmation linéaire",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "0,4",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 5": "UE Méthodologie\nCrédits : 8\nCoefficients : 4",
+            "column_1": "Probabilités et statistique",
+            "column_2": "4",
+            "column_3": "2",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "42h",
+            "column_8": "0,4",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 5": "UE Transversale\nCrédits : 2\nCoefficients : 1",
+            "column_1": "Economie numérique et\nveille stratégique",
+            "column_2": "2",
+            "column_3": "1",
+            "column_4": "1",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "21h",
+            "column_8": "1",
+            "column_9": "1"
+          },
+          {
+            "SEMESTRE 5": "Total Semestre 5",
+            "column_1": "Total Semestre 5",
+            "column_2": "Total Semestre 5",
+            "column_3": "Total Semestre 5",
+            "column_4": "Total Semestre 5",
+            "column_5": "Total Semestre 5",
+            "column_6": "Total Semestre 5",
+            "column_7": "Total Semestre 5",
+            "column_8": "Total Semestre 5",
+            "column_9": "Total Semestre 5"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 4,
+        "table_index": 0,
+        "headers": [
+          "SEMESTRE 6",
+          "column_1",
+          "column_2",
+          "column_3",
+          "column_4",
+          "column_5",
+          "column_6",
+          "column_7",
+          "column_8",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Volume horaire hebdomadaire",
+            "column_5": "Volume horaire hebdomadaire",
+            "column_6": "Volume horaire hebdomadaire",
+            "column_7": "VHS\n14\nSemaines",
+            "column_8": "Mode d’'évaluation",
+            "column_9": "Mode d’'évaluation"
+          },
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Matière",
+            "column_2": "Crédits",
+            "column_3": "Coefficient",
+            "column_4": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "column_7": "TP",
+            "column_8": "Continu",
+            "column_9": "Examen"
+          },
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Applications mobiles",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Sécurité informatique",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Intelligence artificielle",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 6": "Unité\nd'Enseignement",
+            "column_1": "Données semi-structurées",
+            "column_2": "5",
+            "column_3": "3",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "63h",
+            "column_8": "40%",
+            "column_9": "60%"
+          },
+          {
+            "SEMESTRE 6": "UE Méthodologie\nCrédits : 8\nCoefficients : 4",
+            "column_1": "Projet",
+            "column_2": "6",
+            "column_3": "3",
+            "column_4": "3",
+            "column_5": "3",
+            "column_6": "3",
+            "column_7": "3",
+            "column_8": "3",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 6": "UE Méthodologie\nCrédits : 8\nCoefficients : 4",
+            "column_1": "Rédaction scientifique",
+            "column_2": "2",
+            "column_3": "1",
+            "column_4": "1",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "21h",
+            "column_8": "100%",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 6": "UE Transversale\nCrédits : 2\nCoefficients : 1",
+            "column_1": "Créer et développer une\nstartup",
+            "column_2": "2",
+            "column_3": "1",
+            "column_4": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "column_7": "21h",
+            "column_8": "21h",
+            "column_9": "100%"
+          },
+          {
+            "SEMESTRE 6": "Total Semestre 6",
+            "column_1": "Total Semestre 6",
+            "column_2": "30",
+            "column_3": "17",
+            "column_4": "7h30",
+            "column_5": "3h",
+            "column_6": "4h30",
+            "column_7": "310h",
+            "column_8": "310h",
+            "column_9": "310h"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

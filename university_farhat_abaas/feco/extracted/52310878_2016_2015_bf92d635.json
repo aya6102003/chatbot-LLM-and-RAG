@@ -1,0 +1,428 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\52310878_2016_2015.pdf",
+      "name": "52310878_2016_2015.pdf",
+      "type": "pdf",
+      "size_bytes": 126186,
+      "id": "bf92d635"
+    },
+    "extracted_at": "2026-06-10T12:35:05.889871"
+  },
+  "content": {
+    "text": "Etat des Soutenances  en Post-Graduation \nAnnée Universitaire 2015/2016 \nEtablissement : Université Ferhat Abbas – Sétif  \nDu 1er Septembre 2015 Au 30 Juin 2016. \nFaculté \nDisciplines \nNombre des soutenus  en 1ère \nPost-Graduation \nNombre des soutenus en 2ème Post-Graduation \nTotal des \nSoutenus \nMagister \nEcole Doctorale \nDoctorat 3eme Cycle \nDoctorat en Sciences \nFaculté de Technologie \nElectronique \n00 \n00 \n01 \n03 \n04 \nElectrotechnique \n00 \n00 \n00 \n07 \n07 \nGénie des Procédés \n07 \n00 \n06 \n11 \n24 \nAutomatique \n00 \n00 \n01 \n00 \n01 \nInstitut d’Architecture et des \nSciences de la terre  \nArchitecture \n00 \n00 \n00 \n01 \n01 \nGéologie \n00 \n00 \n00 \n00 \n00 \nInstitut d’Optique et Mécanique \nde Précision \nOptique et M. de Précision \n00 \n00 \n00 \n08 \n08 \nFaculté des Sciences \nMathématiques \n00 \n00 \n02 \n10 \n12 \nPhysique \n00 \n00 \n01 \n09 \n10 \nChimie Appliquées \n00 \n00 \n00 \n03 \n03 \nInformatique \n00 \n00 \n00 \n04 \n04 \nFaculté des Sciences de la Nature \net de Vie \nBiologie \n01 \n00 \n02 \n19 \n22 \nAgronomie \n07 \n00 \n00 \n03 \n10 \nFaculté des Sciences Economiques \nSciences Economiques \n09 \n02 \n04 \n15 \n30 \nTotal \n24 \n02 \n17 \n93 \n136 \n26 \n110 \n136 \nTotal Général \n\nEtat des Soutenances  en Post-Graduation \nAnnée Civile  2015\nEtablissement : Université Ferhat Abbas – Sétif 1 \nDu 1er Janvier Au 31Decembre 2015.  \nFaculté \nDisciplines \nNombre des soutenus  en 1ère \nPost-Graduation \nNombre des soutenus en 2ème Post-Graduation \nTotal des \nSoutenus \nMagister \nEcole Doctorale \nDoctorat 3eme Cycle \nDoctorat en Sciences \nFaculté de Technologie \nElectronique \n00 \n00 \n00 \n06 \n06 \nElectrotechnique \n00 \n00 \n02 \n07 \n09 \nGénie des Procédés \n11 \n00 \n03 \n18 \n32 \nAutomatique \n00 \n00 \n01 \n00 \n01 \nInstitut d’Architecture et des \nSciences de la terre  \nArchitecture \n00 \n00 \n00 \n00 \n00 \nGéologie \n00 \n00 \n00 \n00 \n00 \nInstitut d’Optique et Mécanique \nde Précision \nOptique et M. de Précision \n00 \n00 \n00 \n11 \n11 \nFaculté des Sciences \nMathématiques \n00 \n00 \n01 \n09 \n10 \nPhysique \n00 \n00 \n00 \n05 \n05 \nChimie Appliquées \n00 \n00 \n00 \n02 \n02 \nInformatique \n00 \n00 \n00 \n04 \n04 \nFaculté des Sciences de la Nature \net de Vie \nBiologie \n05 \n00 \n00 \n14 \n19 \nAgronomie \n08 \n00 \n00 \n03 \n11 \nFaculté des Sciences Economiques \nSciences Economiques \n11 \n11 \n01 \n11 \n34 \nTotal \n35 \n11 \n08 \n90 \n144 \n46 \n98 \n144 \nTotal Général \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Etat des Soutenances  en Post-Graduation \nAnnée Universitaire 2015/2016 \nEtablissement : Université Ferhat Abbas – Sétif  \nDu 1er Septembre 2015 Au 30 Juin 2016. \nFaculté \nDisciplines \nNombre des soutenus  en 1ère \nPost-Graduation \nNombre des soutenus en 2ème Post-Graduation \nTotal des \nSoutenus \nMagister \nEcole Doctorale \nDoctorat 3eme Cycle \nDoctorat en Sciences \nFaculté de Technologie \nElectronique \n00 \n00 \n01 \n03 \n04 \nElectrotechnique \n00 \n00 \n00 \n07 \n07 \nGénie des Procédés \n07 \n00 \n06 \n11 \n24 \nAutomatique \n00 \n00 \n01 \n00 \n01 \nInstitut d’Architecture et des \nSciences de la terre  \nArchitecture \n00 \n00 \n00 \n01 \n01 \nGéologie \n00 \n00 \n00 \n00 \n00 \nInstitut d’Optique et Mécanique \nde Précision \nOptique et M. de Précision \n00 \n00 \n00 \n08 \n08 \nFaculté des Sciences \nMathématiques \n00 \n00 \n02 \n10 \n12 \nPhysique \n00 \n00 \n01 \n09 \n10 \nChimie Appliquées \n00 \n00 \n00 \n03 \n03 \nInformatique \n00 \n00 \n00 \n04 \n04 \nFaculté des Sciences de la Nature \net de Vie \nBiologie \n01 \n00 \n02 \n19 \n22 \nAgronomie \n07 \n00 \n00 \n03 \n10 \nFaculté des Sciences Economiques \nSciences Economiques \n09 \n02 \n04 \n15 \n30 \nTotal \n24 \n02 \n17 \n93 \n136 \n26 \n110 \n136 \nTotal Général"
+      },
+      {
+        "page": 2,
+        "text": "Etat des Soutenances  en Post-Graduation \nAnnée Civile  2015\nEtablissement : Université Ferhat Abbas – Sétif 1 \nDu 1er Janvier Au 31Decembre 2015.  \nFaculté \nDisciplines \nNombre des soutenus  en 1ère \nPost-Graduation \nNombre des soutenus en 2ème Post-Graduation \nTotal des \nSoutenus \nMagister \nEcole Doctorale \nDoctorat 3eme Cycle \nDoctorat en Sciences \nFaculté de Technologie \nElectronique \n00 \n00 \n00 \n06 \n06 \nElectrotechnique \n00 \n00 \n02 \n07 \n09 \nGénie des Procédés \n11 \n00 \n03 \n18 \n32 \nAutomatique \n00 \n00 \n01 \n00 \n01 \nInstitut d’Architecture et des \nSciences de la terre  \nArchitecture \n00 \n00 \n00 \n00 \n00 \nGéologie \n00 \n00 \n00 \n00 \n00 \nInstitut d’Optique et Mécanique \nde Précision \nOptique et M. de Précision \n00 \n00 \n00 \n11 \n11 \nFaculté des Sciences \nMathématiques \n00 \n00 \n01 \n09 \n10 \nPhysique \n00 \n00 \n00 \n05 \n05 \nChimie Appliquées \n00 \n00 \n00 \n02 \n02 \nInformatique \n00 \n00 \n00 \n04 \n04 \nFaculté des Sciences de la Nature \net de Vie \nBiologie \n05 \n00 \n00 \n14 \n19 \nAgronomie \n08 \n00 \n00 \n03 \n11 \nFaculté des Sciences Economiques \nSciences Economiques \n11 \n11 \n01 \n11 \n34 \nTotal \n35 \n11 \n08 \n90 \n144 \n46 \n98 \n144 \nTotal Général"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Faculté",
+          "Disciplines",
+          "Nombre des soutenus en 1ère\nPost-Graduation",
+          "column_3",
+          "Nombre des soutenus en 2ème Post-Graduation",
+          "column_5",
+          "Total des\nSoutenus"
+        ],
+        "rows": [
+          {
+            "Faculté": "",
+            "Disciplines": "",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "Magister",
+            "column_3": "Ecole Doctorale",
+            "Nombre des soutenus en 2ème Post-Graduation": "Doctorat 3eme Cycle",
+            "column_5": "Doctorat en Sciences",
+            "Total des\nSoutenus": "Doctorat en Sciences"
+          },
+          {
+            "Faculté": "Faculté de Technologie",
+            "Disciplines": "Electronique",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "01",
+            "column_5": "03",
+            "Total des\nSoutenus": "04"
+          },
+          {
+            "Faculté": "Faculté de Technologie",
+            "Disciplines": "Electrotechnique",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "07",
+            "Total des\nSoutenus": "07"
+          },
+          {
+            "Faculté": "Faculté de Technologie",
+            "Disciplines": "Génie des Procédés",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "07",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "06",
+            "column_5": "11",
+            "Total des\nSoutenus": "24"
+          },
+          {
+            "Faculté": "Faculté de Technologie",
+            "Disciplines": "Automatique",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "01",
+            "column_5": "00",
+            "Total des\nSoutenus": "01"
+          },
+          {
+            "Faculté": "Institut d’Architecture et des\nSciences de la terre",
+            "Disciplines": "Architecture",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "01",
+            "Total des\nSoutenus": "01"
+          },
+          {
+            "Faculté": "Institut d’Architecture et des\nSciences de la terre",
+            "Disciplines": "Géologie",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "00",
+            "Total des\nSoutenus": "00"
+          },
+          {
+            "Faculté": "Institut d’Optique et Mécanique\nde Précision",
+            "Disciplines": "Optique et M. de Précision",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "08",
+            "Total des\nSoutenus": "08"
+          },
+          {
+            "Faculté": "Faculté des Sciences",
+            "Disciplines": "Mathématiques",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "02",
+            "column_5": "10",
+            "Total des\nSoutenus": "12"
+          },
+          {
+            "Faculté": "Faculté des Sciences",
+            "Disciplines": "Physique",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "01",
+            "column_5": "09",
+            "Total des\nSoutenus": "10"
+          },
+          {
+            "Faculté": "Faculté des Sciences",
+            "Disciplines": "Chimie Appliquées",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "03",
+            "Total des\nSoutenus": "03"
+          },
+          {
+            "Faculté": "Faculté des Sciences",
+            "Disciplines": "Informatique",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "04",
+            "Total des\nSoutenus": "04"
+          },
+          {
+            "Faculté": "Faculté des Sciences de la Nature\net de Vie",
+            "Disciplines": "Biologie",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "01",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "02",
+            "column_5": "19",
+            "Total des\nSoutenus": "22"
+          },
+          {
+            "Faculté": "Faculté des Sciences de la Nature\net de Vie",
+            "Disciplines": "Agronomie",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "07",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "03",
+            "Total des\nSoutenus": "10"
+          },
+          {
+            "Faculté": "Faculté des Sciences Economiques",
+            "Disciplines": "Sciences Economiques",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "09",
+            "column_3": "02",
+            "Nombre des soutenus en 2ème Post-Graduation": "04",
+            "column_5": "15",
+            "Total des\nSoutenus": "30"
+          },
+          {
+            "Faculté": "Total 24 02 17 93 136\n26 110\n136\nTotal Général",
+            "Disciplines": "Total 24 02 17 93 136\n26 110\n136\nTotal Général",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "24",
+            "column_3": "02",
+            "Nombre des soutenus en 2ème Post-Graduation": "17",
+            "column_5": "17",
+            "Total des\nSoutenus": "17"
+          },
+          {
+            "Faculté": "Total 24 02 17 93 136\n26 110\n136\nTotal Général",
+            "Disciplines": "Total 24 02 17 93 136\n26 110\n136\nTotal Général",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "26",
+            "column_3": "26",
+            "Nombre des soutenus en 2ème Post-Graduation": "26",
+            "column_5": "26",
+            "Total des\nSoutenus": "26"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 1,
+        "headers": [
+          "Nombre des soutenus en 1ère"
+        ],
+        "rows": [
+          {
+            "Nombre des soutenus en 1ère": "Post-Graduation"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 2,
+        "headers": [
+          "Total des"
+        ],
+        "rows": [
+          {
+            "Total des": "Soutenus"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Faculté",
+          "Disciplines",
+          "Nombre des soutenus en 1ère\nPost-Graduation",
+          "column_3",
+          "Nombre des soutenus en 2ème Post-Graduation",
+          "column_5",
+          "Total des\nSoutenus"
+        ],
+        "rows": [
+          {
+            "Faculté": "",
+            "Disciplines": "",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "Magister",
+            "column_3": "Ecole Doctorale",
+            "Nombre des soutenus en 2ème Post-Graduation": "Doctorat 3eme Cycle",
+            "column_5": "Doctorat en Sciences",
+            "Total des\nSoutenus": "Doctorat en Sciences"
+          },
+          {
+            "Faculté": "Faculté de Technologie",
+            "Disciplines": "Electronique",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "06",
+            "Total des\nSoutenus": "06"
+          },
+          {
+            "Faculté": "Faculté de Technologie",
+            "Disciplines": "Electrotechnique",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "02",
+            "column_5": "07",
+            "Total des\nSoutenus": "09"
+          },
+          {
+            "Faculté": "Faculté de Technologie",
+            "Disciplines": "Génie des Procédés",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "11",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "03",
+            "column_5": "18",
+            "Total des\nSoutenus": "32"
+          },
+          {
+            "Faculté": "Faculté de Technologie",
+            "Disciplines": "Automatique",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "01",
+            "column_5": "00",
+            "Total des\nSoutenus": "01"
+          },
+          {
+            "Faculté": "Institut d’Architecture et des\nSciences de la terre",
+            "Disciplines": "Architecture",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "00",
+            "Total des\nSoutenus": "00"
+          },
+          {
+            "Faculté": "Institut d’Architecture et des\nSciences de la terre",
+            "Disciplines": "Géologie",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "00",
+            "Total des\nSoutenus": "00"
+          },
+          {
+            "Faculté": "Institut d’Optique et Mécanique\nde Précision",
+            "Disciplines": "Optique et M. de Précision",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "11",
+            "Total des\nSoutenus": "11"
+          },
+          {
+            "Faculté": "Faculté des Sciences",
+            "Disciplines": "Mathématiques",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "01",
+            "column_5": "09",
+            "Total des\nSoutenus": "10"
+          },
+          {
+            "Faculté": "Faculté des Sciences",
+            "Disciplines": "Physique",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "05",
+            "Total des\nSoutenus": "05"
+          },
+          {
+            "Faculté": "Faculté des Sciences",
+            "Disciplines": "Chimie Appliquées",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "02",
+            "Total des\nSoutenus": "02"
+          },
+          {
+            "Faculté": "Faculté des Sciences",
+            "Disciplines": "Informatique",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "00",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "04",
+            "Total des\nSoutenus": "04"
+          },
+          {
+            "Faculté": "Faculté des Sciences de la Nature\net de Vie",
+            "Disciplines": "Biologie",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "05",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "14",
+            "Total des\nSoutenus": "19"
+          },
+          {
+            "Faculté": "Faculté des Sciences de la Nature\net de Vie",
+            "Disciplines": "Agronomie",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "08",
+            "column_3": "00",
+            "Nombre des soutenus en 2ème Post-Graduation": "00",
+            "column_5": "03",
+            "Total des\nSoutenus": "11"
+          },
+          {
+            "Faculté": "Faculté des Sciences Economiques",
+            "Disciplines": "Sciences Economiques",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "11",
+            "column_3": "11",
+            "Nombre des soutenus en 2ème Post-Graduation": "01",
+            "column_5": "11",
+            "Total des\nSoutenus": "34"
+          },
+          {
+            "Faculté": "Total 35 11 08 90 144\n46 98\n144\nTotal Général",
+            "Disciplines": "Total 35 11 08 90 144\n46 98\n144\nTotal Général",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "35",
+            "column_3": "11",
+            "Nombre des soutenus en 2ème Post-Graduation": "08",
+            "column_5": "08",
+            "Total des\nSoutenus": "08"
+          },
+          {
+            "Faculté": "Total 35 11 08 90 144\n46 98\n144\nTotal Général",
+            "Disciplines": "Total 35 11 08 90 144\n46 98\n144\nTotal Général",
+            "Nombre des soutenus en 1ère\nPost-Graduation": "46",
+            "column_3": "46",
+            "Nombre des soutenus en 2ème Post-Graduation": "46",
+            "column_5": "46",
+            "Total des\nSoutenus": "46"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 1,
+        "headers": [
+          "Nombre des soutenus en 1ère"
+        ],
+        "rows": [
+          {
+            "Nombre des soutenus en 1ère": "Post-Graduation"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 2,
+        "headers": [
+          "Total des"
+        ],
+        "rows": [
+          {
+            "Total des": "Soutenus"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

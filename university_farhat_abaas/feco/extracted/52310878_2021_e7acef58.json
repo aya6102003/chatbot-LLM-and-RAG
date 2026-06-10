@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\52310878_2021.pdf",
+      "name": "52310878_2021.pdf",
+      "type": "pdf",
+      "size_bytes": 103383,
+      "id": "e7acef58"
+    },
+    "extracted_at": "2026-06-10T12:35:08.963758"
+  },
+  "content": {
+    "text": "Etat des Soutenances en Post-Graduation\nAnnée Civile 2021\nEtablissement : Université Ferhat Abbas – Sétif 1\nDu 1er Janvier 2021 Au 31 Décembre 2021.\nFaculté et Instituts\nDisciplines\nNombre des Soutenus en\n2ème Post-Graduation\nTotal des\nSoutenances\nDoctorat 3eme Cycle\nDoctorat en Sciences\nFaculté de Technologie\nGénie civil\n02\n/\n02\nElectronique\n05\n06\n11\nElectrotechnique\n02\n08\n10\nAutomatique\n00\n02\n02\nGénie des Procédés\n12\n12\n24\nInstitut d’Architecture et Sciences\nde la terre\nArchitecture\n02\n01\n03\nGéologie\n00\n/\n00\nInstitut d’Optique et Mécanique\nde Précision\nOptique et M. de Précision\n09\n05\n14\nFaculté des Sciences\nMathématiques\n08\n06\n14\nPhysique\n06\n03\n09\nChimie\n00\n03\n03\nInformatique\n05\n10\n15\nFaculté des Sciences de la Nature et\nde la Vie\nBiologie\n07\n13\n20\nAgronomie\n02\n07\n09\nEcologie et Environnement\n00\n/\n00\nFaculté des Sciences Economiques\nSciences Economiques\n09\n17\n26\nSciences de Gestion\n05\n00\n05\nSciences Commerciales\n07\n00\n07\nSciences Financières et comptabilité\n03\n/\n03\nTotal\n84\n93\n177\nTotal Général\n177\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Etat des Soutenances en Post-Graduation\nAnnée Civile 2021\nEtablissement : Université Ferhat Abbas – Sétif 1\nDu 1er Janvier 2021 Au 31 Décembre 2021.\nFaculté et Instituts\nDisciplines\nNombre des Soutenus en\n2ème Post-Graduation\nTotal des\nSoutenances\nDoctorat 3eme Cycle\nDoctorat en Sciences\nFaculté de Technologie\nGénie civil\n02\n/\n02\nElectronique\n05\n06\n11\nElectrotechnique\n02\n08\n10\nAutomatique\n00\n02\n02\nGénie des Procédés\n12\n12\n24\nInstitut d’Architecture et Sciences\nde la terre\nArchitecture\n02\n01\n03\nGéologie\n00\n/\n00\nInstitut d’Optique et Mécanique\nde Précision\nOptique et M. de Précision\n09\n05\n14\nFaculté des Sciences\nMathématiques\n08\n06\n14\nPhysique\n06\n03\n09\nChimie\n00\n03\n03\nInformatique\n05\n10\n15\nFaculté des Sciences de la Nature et\nde la Vie\nBiologie\n07\n13\n20\nAgronomie\n02\n07\n09\nEcologie et Environnement\n00\n/\n00\nFaculté des Sciences Economiques\nSciences Economiques\n09\n17\n26\nSciences de Gestion\n05\n00\n05\nSciences Commerciales\n07\n00\n07\nSciences Financières et comptabilité\n03\n/\n03\nTotal\n84\n93\n177\nTotal Général\n177"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "FacultéetInstituts",
+          "Disciplines",
+          "NombredesSoutenusen\n2èmePost-Graduation",
+          "column_3",
+          "Totaldes\nSoutenances"
+        ],
+        "rows": [
+          {
+            "FacultéetInstituts": "",
+            "Disciplines": "",
+            "NombredesSoutenusen\n2èmePost-Graduation": "Doctorat3emeCycle",
+            "column_3": "DoctoratenSciences",
+            "Totaldes\nSoutenances": "DoctoratenSciences"
+          },
+          {
+            "FacultéetInstituts": "FacultédeTechnologie",
+            "Disciplines": "Géniecivil",
+            "NombredesSoutenusen\n2èmePost-Graduation": "02",
+            "column_3": "/",
+            "Totaldes\nSoutenances": "02"
+          },
+          {
+            "FacultéetInstituts": "FacultédeTechnologie",
+            "Disciplines": "Electronique",
+            "NombredesSoutenusen\n2èmePost-Graduation": "05",
+            "column_3": "06",
+            "Totaldes\nSoutenances": "11"
+          },
+          {
+            "FacultéetInstituts": "FacultédeTechnologie",
+            "Disciplines": "Electrotechnique",
+            "NombredesSoutenusen\n2èmePost-Graduation": "02",
+            "column_3": "08",
+            "Totaldes\nSoutenances": "10"
+          },
+          {
+            "FacultéetInstituts": "FacultédeTechnologie",
+            "Disciplines": "Automatique",
+            "NombredesSoutenusen\n2èmePost-Graduation": "00",
+            "column_3": "02",
+            "Totaldes\nSoutenances": "02"
+          },
+          {
+            "FacultéetInstituts": "FacultédeTechnologie",
+            "Disciplines": "GéniedesProcédés",
+            "NombredesSoutenusen\n2èmePost-Graduation": "12",
+            "column_3": "12",
+            "Totaldes\nSoutenances": "24"
+          },
+          {
+            "FacultéetInstituts": "Institutd’ArchitectureetSciences\ndelaterre",
+            "Disciplines": "Architecture",
+            "NombredesSoutenusen\n2èmePost-Graduation": "02",
+            "column_3": "01",
+            "Totaldes\nSoutenances": "03"
+          },
+          {
+            "FacultéetInstituts": "Institutd’ArchitectureetSciences\ndelaterre",
+            "Disciplines": "Géologie",
+            "NombredesSoutenusen\n2èmePost-Graduation": "00",
+            "column_3": "/",
+            "Totaldes\nSoutenances": "00"
+          },
+          {
+            "FacultéetInstituts": "Institutd’OptiqueetMécanique\ndePrécision",
+            "Disciplines": "OptiqueetM.dePrécision",
+            "NombredesSoutenusen\n2èmePost-Graduation": "09",
+            "column_3": "05",
+            "Totaldes\nSoutenances": "14"
+          },
+          {
+            "FacultéetInstituts": "FacultédesSciences",
+            "Disciplines": "Mathématiques",
+            "NombredesSoutenusen\n2èmePost-Graduation": "08",
+            "column_3": "06",
+            "Totaldes\nSoutenances": "14"
+          },
+          {
+            "FacultéetInstituts": "FacultédesSciences",
+            "Disciplines": "Physique",
+            "NombredesSoutenusen\n2èmePost-Graduation": "06",
+            "column_3": "03",
+            "Totaldes\nSoutenances": "09"
+          },
+          {
+            "FacultéetInstituts": "FacultédesSciences",
+            "Disciplines": "Chimie",
+            "NombredesSoutenusen\n2èmePost-Graduation": "00",
+            "column_3": "03",
+            "Totaldes\nSoutenances": "03"
+          },
+          {
+            "FacultéetInstituts": "FacultédesSciences",
+            "Disciplines": "Informatique",
+            "NombredesSoutenusen\n2èmePost-Graduation": "05",
+            "column_3": "10",
+            "Totaldes\nSoutenances": "15"
+          },
+          {
+            "FacultéetInstituts": "FacultédesSciencesdelaNatureet\ndelaVie",
+            "Disciplines": "Biologie",
+            "NombredesSoutenusen\n2èmePost-Graduation": "07",
+            "column_3": "13",
+            "Totaldes\nSoutenances": "20"
+          },
+          {
+            "FacultéetInstituts": "FacultédesSciencesdelaNatureet\ndelaVie",
+            "Disciplines": "Agronomie",
+            "NombredesSoutenusen\n2èmePost-Graduation": "02",
+            "column_3": "07",
+            "Totaldes\nSoutenances": "09"
+          },
+          {
+            "FacultéetInstituts": "FacultédesSciencesdelaNatureet\ndelaVie",
+            "Disciplines": "EcologieetEnvironnement",
+            "NombredesSoutenusen\n2èmePost-Graduation": "00",
+            "column_3": "/",
+            "Totaldes\nSoutenances": "00"
+          },
+          {
+            "FacultéetInstituts": "FacultédesSciencesEconomiques",
+            "Disciplines": "SciencesEconomiques",
+            "NombredesSoutenusen\n2èmePost-Graduation": "09",
+            "column_3": "17",
+            "Totaldes\nSoutenances": "26"
+          },
+          {
+            "FacultéetInstituts": "FacultédesSciencesEconomiques",
+            "Disciplines": "SciencesdeGestion",
+            "NombredesSoutenusen\n2èmePost-Graduation": "05",
+            "column_3": "00",
+            "Totaldes\nSoutenances": "05"
+          },
+          {
+            "FacultéetInstituts": "FacultédesSciencesEconomiques",
+            "Disciplines": "SciencesCommerciales",
+            "NombredesSoutenusen\n2èmePost-Graduation": "07",
+            "column_3": "00",
+            "Totaldes\nSoutenances": "07"
+          },
+          {
+            "FacultéetInstituts": "FacultédesSciencesEconomiques",
+            "Disciplines": "SciencesFinancièresetcomptabilité",
+            "NombredesSoutenusen\n2èmePost-Graduation": "03",
+            "column_3": "/",
+            "Totaldes\nSoutenances": "03"
+          },
+          {
+            "FacultéetInstituts": "Total",
+            "Disciplines": "Total",
+            "NombredesSoutenusen\n2èmePost-Graduation": "84",
+            "column_3": "93",
+            "Totaldes\nSoutenances": "177"
+          },
+          {
+            "FacultéetInstituts": "TotalGénéral",
+            "Disciplines": "TotalGénéral",
+            "NombredesSoutenusen\n2èmePost-Graduation": "177",
+            "column_3": "177",
+            "Totaldes\nSoutenances": "177"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

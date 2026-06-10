@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\52310878_2020_2019.pdf",
+      "name": "52310878_2020_2019.pdf",
+      "type": "pdf",
+      "size_bytes": 78284,
+      "id": "24722ae6"
+    },
+    "extracted_at": "2026-06-10T12:35:08.165082"
+  },
+  "content": {
+    "text": "Effectifs des Inscrits et Réinscrits en Post-Graduation\nAnnée Universitaire 2019/2020\nEtablissement : Université Ferhat Abbas – Sétif 1\nDu 1er Septembre 2019 Au 30 Juin 2020.\nFaculté et Institut\nDisciplines\nNombre des inscrits et réinscrits en\n2ème Post-Graduation\nTotal des\nréinscrits\nDoctorat 3eme Cycle\nInferieur à 6 ans\nDoctorat en Sciences\nInferieur à 7 ans\nFaculté de Technologie\nGénie civil\n14\n00\n14\nElectronique\n24\n26\n50\nElectrotechnique\n24\n6\n30\nAutomatique\n16\n6\n22\nTélécommunication\n16\n00\n16\nGénie des Procédés\n86\n36\n122\nInstitut d’Architecture et\nSciences de la terre\nArchitecture\n07\n14\n21\nGéologie\n12\n00\n12\nInstitut d’Optique et\nMécanique de Précision\nOptique et M. de Précision\n73\n6\n79\nFaculté des Sciences\nMathématiques\n35\n18\n53\nPhysique\n53\n20\n73\nChimie\n09\n01\n10\nInformatique\n50\n23\n73\nFaculté des Sciences de la\nNature et de la Vie\nBiologie\n48\n32\n80\nAgronomie\n24\n13\n37\nEcologie et Environnement\n12\n00\n12\nFaculté des Sciences\nEconomiques\nSciences Economiques\n24\n35\n59\nSciences de Gestion\n27\n09\n36\nSciences Commerciales\n26\n12\n38\nSciences Financières et comptabilité\n24\n00\n24\nTotal\n604\n257\n861\nTotal Général\n861\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Effectifs des Inscrits et Réinscrits en Post-Graduation\nAnnée Universitaire 2019/2020\nEtablissement : Université Ferhat Abbas – Sétif 1\nDu 1er Septembre 2019 Au 30 Juin 2020.\nFaculté et Institut\nDisciplines\nNombre des inscrits et réinscrits en\n2ème Post-Graduation\nTotal des\nréinscrits\nDoctorat 3eme Cycle\nInferieur à 6 ans\nDoctorat en Sciences\nInferieur à 7 ans\nFaculté de Technologie\nGénie civil\n14\n00\n14\nElectronique\n24\n26\n50\nElectrotechnique\n24\n6\n30\nAutomatique\n16\n6\n22\nTélécommunication\n16\n00\n16\nGénie des Procédés\n86\n36\n122\nInstitut d’Architecture et\nSciences de la terre\nArchitecture\n07\n14\n21\nGéologie\n12\n00\n12\nInstitut d’Optique et\nMécanique de Précision\nOptique et M. de Précision\n73\n6\n79\nFaculté des Sciences\nMathématiques\n35\n18\n53\nPhysique\n53\n20\n73\nChimie\n09\n01\n10\nInformatique\n50\n23\n73\nFaculté des Sciences de la\nNature et de la Vie\nBiologie\n48\n32\n80\nAgronomie\n24\n13\n37\nEcologie et Environnement\n12\n00\n12\nFaculté des Sciences\nEconomiques\nSciences Economiques\n24\n35\n59\nSciences de Gestion\n27\n09\n36\nSciences Commerciales\n26\n12\n38\nSciences Financières et comptabilité\n24\n00\n24\nTotal\n604\n257\n861\nTotal Général\n861"
+      },
+      {
+        "page": 2,
+        "text": ""
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "FacultéetInstitut",
+          "Disciplines",
+          "Nombredesinscritsetréinscritsen\n2èmePost-Graduation",
+          "column_3",
+          "Totaldes\nréinscrits"
+        ],
+        "rows": [
+          {
+            "FacultéetInstitut": "",
+            "Disciplines": "",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "Doctorat3emeCycle\nInferieurà6ans",
+            "column_3": "DoctoratenSciences\nInferieurà7ans",
+            "Totaldes\nréinscrits": "DoctoratenSciences\nInferieurà7ans"
+          },
+          {
+            "FacultéetInstitut": "FacultédeTechnologie",
+            "Disciplines": "Géniecivil",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "14",
+            "column_3": "00",
+            "Totaldes\nréinscrits": "14"
+          },
+          {
+            "FacultéetInstitut": "FacultédeTechnologie",
+            "Disciplines": "Electronique",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "24",
+            "column_3": "26",
+            "Totaldes\nréinscrits": "50"
+          },
+          {
+            "FacultéetInstitut": "FacultédeTechnologie",
+            "Disciplines": "Electrotechnique",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "24",
+            "column_3": "6",
+            "Totaldes\nréinscrits": "30"
+          },
+          {
+            "FacultéetInstitut": "FacultédeTechnologie",
+            "Disciplines": "Automatique",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "16",
+            "column_3": "6",
+            "Totaldes\nréinscrits": "22"
+          },
+          {
+            "FacultéetInstitut": "FacultédeTechnologie",
+            "Disciplines": "Télécommunication",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "16",
+            "column_3": "00",
+            "Totaldes\nréinscrits": "16"
+          },
+          {
+            "FacultéetInstitut": "FacultédeTechnologie",
+            "Disciplines": "GéniedesProcédés",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "86",
+            "column_3": "36",
+            "Totaldes\nréinscrits": "122"
+          },
+          {
+            "FacultéetInstitut": "Institutd’Architectureet\nSciencesdelaterre",
+            "Disciplines": "Architecture",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "07",
+            "column_3": "14",
+            "Totaldes\nréinscrits": "21"
+          },
+          {
+            "FacultéetInstitut": "Institutd’Architectureet\nSciencesdelaterre",
+            "Disciplines": "Géologie",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "12",
+            "column_3": "00",
+            "Totaldes\nréinscrits": "12"
+          },
+          {
+            "FacultéetInstitut": "Institutd’Optiqueet\nMécaniquedePrécision",
+            "Disciplines": "OptiqueetM.dePrécision",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "73",
+            "column_3": "6",
+            "Totaldes\nréinscrits": "79"
+          },
+          {
+            "FacultéetInstitut": "FacultédesSciences",
+            "Disciplines": "Mathématiques",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "35",
+            "column_3": "18",
+            "Totaldes\nréinscrits": "53"
+          },
+          {
+            "FacultéetInstitut": "FacultédesSciences",
+            "Disciplines": "Physique",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "53",
+            "column_3": "20",
+            "Totaldes\nréinscrits": "73"
+          },
+          {
+            "FacultéetInstitut": "FacultédesSciences",
+            "Disciplines": "Chimie",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "09",
+            "column_3": "01",
+            "Totaldes\nréinscrits": "10"
+          },
+          {
+            "FacultéetInstitut": "FacultédesSciences",
+            "Disciplines": "Informatique",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "50",
+            "column_3": "23",
+            "Totaldes\nréinscrits": "73"
+          },
+          {
+            "FacultéetInstitut": "FacultédesSciencesdela\nNatureetdelaVie",
+            "Disciplines": "Biologie",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "48",
+            "column_3": "32",
+            "Totaldes\nréinscrits": "80"
+          },
+          {
+            "FacultéetInstitut": "FacultédesSciencesdela\nNatureetdelaVie",
+            "Disciplines": "Agronomie",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "24",
+            "column_3": "13",
+            "Totaldes\nréinscrits": "37"
+          },
+          {
+            "FacultéetInstitut": "FacultédesSciencesdela\nNatureetdelaVie",
+            "Disciplines": "EcologieetEnvironnement",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "12",
+            "column_3": "00",
+            "Totaldes\nréinscrits": "12"
+          },
+          {
+            "FacultéetInstitut": "FacultédesSciences\nEconomiques",
+            "Disciplines": "SciencesEconomiques",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "24",
+            "column_3": "35",
+            "Totaldes\nréinscrits": "59"
+          },
+          {
+            "FacultéetInstitut": "FacultédesSciences\nEconomiques",
+            "Disciplines": "SciencesdeGestion",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "27",
+            "column_3": "09",
+            "Totaldes\nréinscrits": "36"
+          },
+          {
+            "FacultéetInstitut": "FacultédesSciences\nEconomiques",
+            "Disciplines": "SciencesCommerciales",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "26",
+            "column_3": "12",
+            "Totaldes\nréinscrits": "38"
+          },
+          {
+            "FacultéetInstitut": "FacultédesSciences\nEconomiques",
+            "Disciplines": "SciencesFinancièresetcomptabilité",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "24",
+            "column_3": "00",
+            "Totaldes\nréinscrits": "24"
+          },
+          {
+            "FacultéetInstitut": "Total",
+            "Disciplines": "Total",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "604",
+            "column_3": "257",
+            "Totaldes\nréinscrits": "861"
+          },
+          {
+            "FacultéetInstitut": "TotalGénéral",
+            "Disciplines": "TotalGénéral",
+            "Nombredesinscritsetréinscritsen\n2èmePost-Graduation": "861",
+            "column_3": "861",
+            "Totaldes\nréinscrits": "861"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

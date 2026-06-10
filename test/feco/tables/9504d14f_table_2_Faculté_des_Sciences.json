@@ -1,0 +1,116 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/deuxieme-cycle",
+  "title": "Faculté des Sciences :",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé du Master",
+    "Type",
+    "Retenue en",
+    "Arrêté  N°"
+  ],
+  "rows": [
+    [
+      "SM (D02)",
+      "Physique",
+      "Physique des matériaux",
+      "A",
+      "2016",
+      "1281 du 09-08-2016"
+    ],
+    [
+      "Physique des Rayonnements",
+      "2016",
+      "1281 du 09-08-2016"
+    ],
+    [
+      "Physique Médicale",
+      "2016",
+      "1281 du 09-08-2016"
+    ],
+    [
+      "Physique Spatiale",
+      "2016",
+      "1281 du 09-08-2016"
+    ],
+    [
+      "Physique Théorique",
+      "2016",
+      "1281 du 09-08-2016"
+    ],
+    [
+      "Physique du globe",
+      "2016",
+      "958 du 09-08-2016"
+    ],
+    [
+      "Chimie",
+      "Chimie physique",
+      "A",
+      "2016",
+      "1281 du 09-08-2016"
+    ],
+    [
+      "Chimie de l’environnement",
+      "2016",
+      "1281 du 09-08-2016"
+    ],
+    [
+      "Chimie Pharmaceutique",
+      "2016",
+      "958 du 09-08-2016"
+    ],
+    [
+      "MI (D03)",
+      "Mathématiques",
+      "Mathématiques appliquées",
+      "A",
+      "2016",
+      "1172 du 09-08-2016"
+    ],
+    [
+      "Analyse non linéaire et équation aux dérivées partielles",
+      "2016",
+      "1172 du 09-08-2016"
+    ],
+    [
+      "Algèbre et géométrie",
+      "2016",
+      "1172 du 09-08-2016"
+    ],
+    [
+      "Optimisation et contrôle",
+      "2016",
+      "1172 du 09-08-2016"
+    ],
+    [
+      "Informatique",
+      "Fondements et ingénierie de l’information et de l’image",
+      "A",
+      "2016",
+      "1172 du 09-08-2016"
+    ],
+    [
+      "Réseaux et systèmes distribués",
+      "2016",
+      "1172 du 09-08-2016"
+    ],
+    [
+      "Génie logiciel",
+      "2016",
+      "1172 du 09-08-2016"
+    ],
+    [
+      "Informatique fondamentale et intelligence artificielle",
+      "2016",
+      "1172 du 09-08-2016"
+    ],
+    [
+      "Ingénierie des données et technologie Web",
+      "2016",
+      "1172 du 09-08-2016"
+    ]
+  ],
+  "row_count": 18,
+  "col_count": 6
+}

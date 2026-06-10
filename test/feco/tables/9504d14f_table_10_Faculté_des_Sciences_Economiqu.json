@@ -1,0 +1,75 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/deuxieme-cycle",
+  "title": "Faculté des Sciences Economiques Commerciales de de Gestion :",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé du Master",
+    "Type",
+    "Retenue en",
+    "Arrêté  N°"
+  ],
+  "rows": [
+    [
+      "SEGC (D061)",
+      "Sciences économiques",
+      "Finance et Banques Islamiques",
+      "P",
+      "2016",
+      "1217 du 09-08-2016"
+    ],
+    [
+      "Assurance et Takaful",
+      "2016",
+      "1217 du 09-08-2016"
+    ],
+    [
+      "Economie des télécommunications et des technologies de l'information",
+      "2016",
+      "1217 du 09-08-2016"
+    ],
+    [
+      "Economie Douanière",
+      "2016",
+      "1217 du 09-08-2016"
+    ],
+    [
+      "Sciences de gestion",
+      "Mangement Territorial et développement Local",
+      "P",
+      "2016",
+      "1217 du 09-08-2016"
+    ],
+    [
+      "Economie de sante et management hospitalier",
+      "2017",
+      "835 du 27-07-2017"
+    ],
+    [
+      "Sciences commerciales",
+      "Marketing Hôtelier et touristique",
+      "P",
+      "2017",
+      "835 du 27-07-2017"
+    ],
+    [
+      "Commerce international",
+      "2017",
+      "835 du 27-07-2017"
+    ],
+    [
+      "Economie et gestion du transport",
+      "2018",
+      "752 du 26-08-2018"
+    ],
+    [
+      "Sciences financières et  comptabilité",
+      "Comptabilité et fiscalité",
+      "P",
+      "2016",
+      "1217 du 09-08-2016"
+    ]
+  ],
+  "row_count": 10,
+  "col_count": 6
+}

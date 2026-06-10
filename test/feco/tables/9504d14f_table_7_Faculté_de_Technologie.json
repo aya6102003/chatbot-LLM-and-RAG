@@ -1,0 +1,31 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/deuxieme-cycle",
+  "title": "Faculté de Technologie :",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé du Master",
+    "Type",
+    "Retenue en",
+    "Arrêté N°"
+  ],
+  "rows": [
+    [
+      "ST (D011)",
+      "Automatique",
+      "Automatisation industrielle et process",
+      "P",
+      "2018",
+      "752 du 26-08-2018"
+    ],
+    [
+      "Génie des procédés",
+      "Génie électrochimique",
+      "P",
+      "2018",
+      "752 du 26-08-2018"
+    ]
+  ],
+  "row_count": 2,
+  "col_count": 6
+}

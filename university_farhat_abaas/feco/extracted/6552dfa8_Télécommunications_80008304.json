@@ -1,0 +1,744 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\6552dfa8_Télécommunications.pdf",
+      "name": "6552dfa8_Télécommunications.pdf",
+      "type": "pdf",
+      "size_bytes": 348759,
+      "id": "80008304"
+    },
+    "extracted_at": "2026-06-10T12:39:12.960569"
+  },
+  "content": {
+    "text": "Licence Télécommunications \n Semestre 3 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.1.1 \nCrédits : 10 \nCoefficients : 5 \nMathématiques 3 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nOndes et vibrations \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 2.1.2 \nCrédits : 8 \nCoefficients : 4 \nElectronique \nfondamentale 1 \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nElectrotechnique \nfondamentale 1 \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 2.1 \nCrédits : 9 \nCoefficients : 5 \nProbabilités et \nstatistiques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nInformatique 3 \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP d’Electronique et \nd’électrotechnique \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Ondes et vibrations \n1 \n1 \n \n \n1h00 \n15h00 \n100% \n \nUE Découverte \nCode : UED 2.1 \nCrédits : 2 \nCoefficients : 2 \n Etat de l'art duGénie \nélectrique \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nEnergies et environnement \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 2.1 \nCrédits : 1 \nCoefficients : 1 \nAnglais technique \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 3 \n \n30 \n17 \n13h30 7h30 4h00 \n375h00 \n \n \n\n Semestre 4 \n \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu Examen \nUE Fondamentale \nCode : UEF 2.2.1 \nCrédits : 10 \nCoefficients : 5 \nTélécommunications \nfondamentale \n6 \n3 \n3h00 1h30 \n \n67h30 \n40% \n60% \nLogique combinatoire  \net séquentielle \n4 \n2 \n1h30 1h30 \n \n45h00 \n40% \n100% \nUE Fondamentale \nCode : UEF 2.2.2 \nCrédits : 8 \nCoefficients : 4 \nMéthodes numériques \n4 \n2 \n1h30 1h30 \n \n45h00 \n40% \n60% \nThéorie du signal \n4 \n2 \n1h30 1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 2.2 \nCrédits : 9 \nCoefficients : 5 \nMesures électriques  \net électroniques \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nTP  Télécommunications \nfondamentale \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Logique combinatoire  \net séquentielle \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Méthodes numériques \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \n \nUE Découverte \nCode : UED 2.2 \nCrédits : 2 \nCoefficients : 2 \nTélécommunications  \net applications \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nDroit des \nTélécommunications \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 2.2 \nCrédits : 1 \nCoefficients : 1 \nTechniques d'expression \net de communication \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 4 \n \n30 \n17 \n13h30 6h00 5h30 \n375h00 \n \n \n\n Semestre 5 \n \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 3.1.1 \nCrédits : 10 \nCoefficients : 5 \nCommunications \nanalogiques \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nTraitement du signal \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 3.1.2 \nCrédits : 8 \nCoefficients : 4 \nOndes et Propagation \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nSystèmes et réseaux de \ntélécommunication \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 3.1 \nCrédits : 9 \nCoefficients : 5 \nCalculateurs et interfaçage \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nTP Ondes et Propagation \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Traitement du signal \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Communications \nanalogiques \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nUE Découverte \nCode : UED 3.1 \nCrédits : 2 \nCoefficients : 2 \nTéléphonie \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nSupports de transmission \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 3.1 \nCrédits : 1 \nCoefficients : 1 \nCapteurs et mesures en \ntélécommunications \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 5 \n \n30 \n17 \n13h30 \n6h00 5h30 \n375h00 \n \n \n \n \n \n\n Semestre 6 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 3.2.1 \nCrédits : 10 \nCoefficients : 5 \nCommunications \nnumériques \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nAntennes et Lignes de \ntransmissions \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 3.2.2 \nCrédits : 8 \nCoefficients : 4 \nRéseaux  informatiques \nlocaux \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nCodage et Théorie de \nl’information \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 3.2 \nCrédits : 9 \nCoefficients : 5 \nProjet de Fin de Cycle \n4 \n2 \n \n \n3h00 \n45h00 \n100% \n \nTP Communications \nnumériques \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Antennes Lignes de \ntransmissions \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP  Réseaux informatiques \nlocaux \n1 \n1 \n \n \n1h00 \n15h00 \n100% \n \nUE Découverte \nCode : UED 3.2 \nCrédits : 2 \nCoefficients : 2 \nOptoélectronique \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nSécurité de l’information \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 3.2 \nCrédits : 1 \nCoefficients : 1 \nProjet professionnel et \ngestion d'entreprise \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 6 \n \n30 \n17 \n12h00 6h00 7h00 \n375h00 \n \n \n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Licence Télécommunications \n Semestre 3 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.1.1 \nCrédits : 10 \nCoefficients : 5 \nMathématiques 3 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nOndes et vibrations \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 2.1.2 \nCrédits : 8 \nCoefficients : 4 \nElectronique \nfondamentale 1 \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nElectrotechnique \nfondamentale 1 \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 2.1 \nCrédits : 9 \nCoefficients : 5 \nProbabilités et \nstatistiques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nInformatique 3 \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP d’Electronique et \nd’électrotechnique \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Ondes et vibrations \n1 \n1 \n \n \n1h00 \n15h00 \n100% \n \nUE Découverte \nCode : UED 2.1 \nCrédits : 2 \nCoefficients : 2 \n Etat de l'art duGénie \nélectrique \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nEnergies et environnement \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 2.1 \nCrédits : 1 \nCoefficients : 1 \nAnglais technique \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 3 \n \n30 \n17 \n13h30 7h30 4h00 \n375h00"
+      },
+      {
+        "page": 2,
+        "text": " Semestre 4 \n \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu Examen \nUE Fondamentale \nCode : UEF 2.2.1 \nCrédits : 10 \nCoefficients : 5 \nTélécommunications \nfondamentale \n6 \n3 \n3h00 1h30 \n \n67h30 \n40% \n60% \nLogique combinatoire  \net séquentielle \n4 \n2 \n1h30 1h30 \n \n45h00 \n40% \n100% \nUE Fondamentale \nCode : UEF 2.2.2 \nCrédits : 8 \nCoefficients : 4 \nMéthodes numériques \n4 \n2 \n1h30 1h30 \n \n45h00 \n40% \n60% \nThéorie du signal \n4 \n2 \n1h30 1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 2.2 \nCrédits : 9 \nCoefficients : 5 \nMesures électriques  \net électroniques \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nTP  Télécommunications \nfondamentale \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Logique combinatoire  \net séquentielle \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Méthodes numériques \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \n \nUE Découverte \nCode : UED 2.2 \nCrédits : 2 \nCoefficients : 2 \nTélécommunications  \net applications \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nDroit des \nTélécommunications \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 2.2 \nCrédits : 1 \nCoefficients : 1 \nTechniques d'expression \net de communication \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 4 \n \n30 \n17 \n13h30 6h00 5h30 \n375h00"
+      },
+      {
+        "page": 3,
+        "text": " Semestre 5 \n \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 3.1.1 \nCrédits : 10 \nCoefficients : 5 \nCommunications \nanalogiques \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nTraitement du signal \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 3.1.2 \nCrédits : 8 \nCoefficients : 4 \nOndes et Propagation \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nSystèmes et réseaux de \ntélécommunication \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 3.1 \nCrédits : 9 \nCoefficients : 5 \nCalculateurs et interfaçage \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nTP Ondes et Propagation \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Traitement du signal \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Communications \nanalogiques \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nUE Découverte \nCode : UED 3.1 \nCrédits : 2 \nCoefficients : 2 \nTéléphonie \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nSupports de transmission \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 3.1 \nCrédits : 1 \nCoefficients : 1 \nCapteurs et mesures en \ntélécommunications \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 5 \n \n30 \n17 \n13h30 \n6h00 5h30 \n375h00"
+      },
+      {
+        "page": 4,
+        "text": " Semestre 6 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 3.2.1 \nCrédits : 10 \nCoefficients : 5 \nCommunications \nnumériques \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nAntennes et Lignes de \ntransmissions \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 3.2.2 \nCrédits : 8 \nCoefficients : 4 \nRéseaux  informatiques \nlocaux \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nCodage et Théorie de \nl’information \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 3.2 \nCrédits : 9 \nCoefficients : 5 \nProjet de Fin de Cycle \n4 \n2 \n \n \n3h00 \n45h00 \n100% \n \nTP Communications \nnumériques \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Antennes Lignes de \ntransmissions \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP  Réseaux informatiques \nlocaux \n1 \n1 \n \n \n1h00 \n15h00 \n100% \n \nUE Découverte \nCode : UED 3.2 \nCrédits : 2 \nCoefficients : 2 \nOptoélectronique \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nSécurité de l’information \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 3.2 \nCrédits : 1 \nCoefficients : 1 \nProjet professionnel et \ngestion d'entreprise \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 6 \n \n30 \n17 \n12h00 6h00 7h00 \n375h00"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Mathématiques 3",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Ondes et vibrations",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Electronique\nfondamentale 1",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Electrotechnique\nfondamentale 1",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Probabilités et\nstatistiques",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Informatique 3",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP d’Electronique et\nd’électrotechnique",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Ondes et vibrations",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "15h00",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 2.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Etat de l'art duGénie\nélectrique",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 2.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Energies et environnement",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 2.1\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Anglais technique",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 3",
+            "Matières": "Total semestre 3",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "13h30",
+            "column_5": "7h30",
+            "column_6": "4h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Télécommunications\nfondamentale",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Logique combinatoire\net séquentielle",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Méthodes numériques",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Théorie du signal",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Mesures électriques\net électroniques",
+            "Crédits": "3",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "37h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Télécommunications\nfondamentale",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Logique combinatoire\net séquentielle",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Méthodes numériques",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 2.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Télécommunications\net applications",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 2.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Droit des\nTélécommunications",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 2.2\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Techniques d'expression\net de communication",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 4",
+            "Matières": "Total semestre 4",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "13h30",
+            "column_5": "6h00",
+            "column_6": "5h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 3,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Communications\nanalogiques",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Traitement du signal",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Ondes et Propagation",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Systèmes et réseaux de\ntélécommunication",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Calculateurs et interfaçage",
+            "Crédits": "3",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "37h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Ondes et Propagation",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Traitement du signal",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Communications\nanalogiques",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 3.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Téléphonie",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 3.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Supports de transmission",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 3.1\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Capteurs et mesures en\ntélécommunications",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 5",
+            "Matières": "Total semestre 5",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "13h30",
+            "column_5": "6h00",
+            "column_6": "5h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 4,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Communications\nnumériques",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Antennes et Lignes de\ntransmissions",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Réseaux informatiques\nlocaux",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Codage et Théorie de\nl’information",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Projet de Fin de Cycle",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "2",
+            "column_5": "2",
+            "column_6": "3h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Communications\nnumériques",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Antennes Lignes de\ntransmissions",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Réseaux informatiques\nlocaux",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "15h00",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 3.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Optoélectronique",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 3.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Sécurité de l’information",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 3.2\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Projet professionnel et\ngestion d'entreprise",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 6",
+            "Matières": "Total semestre 6",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "12h00",
+            "column_5": "6h00",
+            "column_6": "7h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

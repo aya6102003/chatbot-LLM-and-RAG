@@ -1,0 +1,528 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\6552dfa8_Biotechnologie_et_santé.pdf",
+      "name": "6552dfa8_Biotechnologie_et_santé.pdf",
+      "type": "pdf",
+      "size_bytes": 326900,
+      "id": "e45bb953"
+    },
+    "extracted_at": "2026-06-10T12:36:59.166023"
+  },
+  "content": {
+    "text": "Etablissement:UFAS 1 \nLICENCE BIOTECHNOLOGIE ET SANTE \nPage23 \nAnnée universitaire : 2019-2020 \n \n \n \nSemestre5 : \n \nUnité d’Enseignement \nVHS \nV.H hebdomadaire \nCoeff \nCrédits \nMode d'évaluation \n14-16 sem \nC \nTD \nTP \nAutres \nContinu \nExamen \nUE fondamentales \nUEF1(O/P)Génie cellulaire \nMatière 1 : Génie Biochimique \n90h \n3h00 \n1h30 \n2h00 \n90h \n4 \n6 \nX \nX \nMatière 2 : Génie enzymatique \n60h \n3h00 \n1h30 \n2h00 \n60h \n4 \n6 \nUEF2(O/P) \nMatière 1 : Biologie moléculaire et \nGénie génétique \n90h \n3h00 \n1h30 \n2h00 \n90h \n4 \n6 \nX \nX \nUE méthodologie \nUEM1 (O/P) Méthodologies \nMatière 1:Techniques d’analyse \nBiologiques  et physico-chimique \n45h00 \n1h30 \n1h30 \n2h00 \n45h00 \n2 \n4 \nMatière 2 : Méthodes de culture \ncellulaire et applications \n45h00 \n3h00 \n1h30 \n2h00 \n45h00 \n2 \n6 \nX \nX \nUE découverte \nUED1(O/P) : Anglais Scientifique \n20h00 \n/ \n/ \n/ \n20h00 \n1 \n1 \nX \nX \nMatière2 : Hygiène et sécurité \n20h00 \n/ \n/ \n/ \n20h00 \n1 \n1 \nX \nX \nUE transversales \nUET1(O/P) \nMatière 1 \nMatière2 \nTotal Semestre 5 \n375h \n13h30 \n7h30 \n10 \n375 h \n18 \n30 \n\nEtablissement:UFAS 1 \nLICENCE BIOTECHNOLOGIE ET SANTE \nPage24 \nAnnée universitaire : 2019-2020 \n \n \nSemestre6 : \n \n \nUnitéd’Enseignement \nVHS \nV.H hebdomadaire \nCoeff \nCrédits \nMode d'évaluation \n14-16 sem \nC \nTD \nTP \nAutres \nContinu \nExamen \nUE fondamentales \nUEF3(O/P) : pharmaco-toxicologie \nMatière 1 : Relation Structure \n/fonctionnement des \nmacromoléclues \n60h \n3h00 \n1h30 \n2h00 \n60h \n3 \n6 \nX \nX \nMatière 2 : Pharmaco-toxicologie \n60h \n3h00 \n1h30 \n2h00 \n60h \n3 \n6 \nX \nX \nUEF2(O/P) \nMatière 1 : Immunologieappliquée \n60h \n3h00 \n1h30 \n2h00 \n60h \n3 \n4 \nX \nX \nMatière 2 : MicrobiologieAppliquée \n60h \n1h30 \n/ \n2h00 \n60h \n3 \n2 \nX \nX \nMatière 3 : Parasitologie \n60h \n1h30 \n/ \n2h00 \n60h \n2 \n2 \nX \nX \nUE méthodologie \nUEM1 (O/P) Méthodologies \nMatière 1: Bioinformatique et \nBiostatistique \n45h \n1h30 \n1h30 \n3h00 \n45h \n3 \n6 \nX \nX \nUE découverte \nMatière 2 : Industrie \nPharmaceutique et \nImmunotechnologie (IPI) \n20 \n1h30 \n/ \n/ \n20 \n1 \n1 \nX \nX \nUE transversales \nUET1(O/P) \nMatière 1 \nMatière2 \nTotal Semestre 6 \n365h \n13h30 \n7h30 \n10 \n365h \n18 \n30 \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Etablissement:UFAS 1 \nLICENCE BIOTECHNOLOGIE ET SANTE \nPage23 \nAnnée universitaire : 2019-2020 \n \n \n \nSemestre5 : \n \nUnité d’Enseignement \nVHS \nV.H hebdomadaire \nCoeff \nCrédits \nMode d'évaluation \n14-16 sem \nC \nTD \nTP \nAutres \nContinu \nExamen \nUE fondamentales \nUEF1(O/P)Génie cellulaire \nMatière 1 : Génie Biochimique \n90h \n3h00 \n1h30 \n2h00 \n90h \n4 \n6 \nX \nX \nMatière 2 : Génie enzymatique \n60h \n3h00 \n1h30 \n2h00 \n60h \n4 \n6 \nUEF2(O/P) \nMatière 1 : Biologie moléculaire et \nGénie génétique \n90h \n3h00 \n1h30 \n2h00 \n90h \n4 \n6 \nX \nX \nUE méthodologie \nUEM1 (O/P) Méthodologies \nMatière 1:Techniques d’analyse \nBiologiques  et physico-chimique \n45h00 \n1h30 \n1h30 \n2h00 \n45h00 \n2 \n4 \nMatière 2 : Méthodes de culture \ncellulaire et applications \n45h00 \n3h00 \n1h30 \n2h00 \n45h00 \n2 \n6 \nX \nX \nUE découverte \nUED1(O/P) : Anglais Scientifique \n20h00 \n/ \n/ \n/ \n20h00 \n1 \n1 \nX \nX \nMatière2 : Hygiène et sécurité \n20h00 \n/ \n/ \n/ \n20h00 \n1 \n1 \nX \nX \nUE transversales \nUET1(O/P) \nMatière 1 \nMatière2 \nTotal Semestre 5 \n375h \n13h30 \n7h30 \n10 \n375 h \n18 \n30"
+      },
+      {
+        "page": 2,
+        "text": "Etablissement:UFAS 1 \nLICENCE BIOTECHNOLOGIE ET SANTE \nPage24 \nAnnée universitaire : 2019-2020 \n \n \nSemestre6 : \n \n \nUnitéd’Enseignement \nVHS \nV.H hebdomadaire \nCoeff \nCrédits \nMode d'évaluation \n14-16 sem \nC \nTD \nTP \nAutres \nContinu \nExamen \nUE fondamentales \nUEF3(O/P) : pharmaco-toxicologie \nMatière 1 : Relation Structure \n/fonctionnement des \nmacromoléclues \n60h \n3h00 \n1h30 \n2h00 \n60h \n3 \n6 \nX \nX \nMatière 2 : Pharmaco-toxicologie \n60h \n3h00 \n1h30 \n2h00 \n60h \n3 \n6 \nX \nX \nUEF2(O/P) \nMatière 1 : Immunologieappliquée \n60h \n3h00 \n1h30 \n2h00 \n60h \n3 \n4 \nX \nX \nMatière 2 : MicrobiologieAppliquée \n60h \n1h30 \n/ \n2h00 \n60h \n3 \n2 \nX \nX \nMatière 3 : Parasitologie \n60h \n1h30 \n/ \n2h00 \n60h \n2 \n2 \nX \nX \nUE méthodologie \nUEM1 (O/P) Méthodologies \nMatière 1: Bioinformatique et \nBiostatistique \n45h \n1h30 \n1h30 \n3h00 \n45h \n3 \n6 \nX \nX \nUE découverte \nMatière 2 : Industrie \nPharmaceutique et \nImmunotechnologie (IPI) \n20 \n1h30 \n/ \n/ \n20 \n1 \n1 \nX \nX \nUE transversales \nUET1(O/P) \nMatière 1 \nMatière2 \nTotal Semestre 6 \n365h \n13h30 \n7h30 \n10 \n365h \n18 \n30"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Unité d’Enseignement",
+          "VHS",
+          "V.H hebdomadaire",
+          "column_3",
+          "column_4",
+          "column_5",
+          "Coeff",
+          "Crédits",
+          "Mode d'évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d’Enseignement": "",
+            "VHS": "14-16 sem",
+            "V.H hebdomadaire": "C",
+            "column_3": "TD",
+            "column_4": "TP",
+            "column_5": "Autres",
+            "Coeff": "Autres",
+            "Crédits": "Autres",
+            "Mode d'évaluation": "Continu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d’Enseignement": "UE fondamentales",
+            "VHS": "UE fondamentales",
+            "V.H hebdomadaire": "UE fondamentales",
+            "column_3": "UE fondamentales",
+            "column_4": "UE fondamentales",
+            "column_5": "UE fondamentales",
+            "Coeff": "UE fondamentales",
+            "Crédits": "UE fondamentales",
+            "Mode d'évaluation": "UE fondamentales",
+            "column_9": "UE fondamentales"
+          },
+          {
+            "Unité d’Enseignement": "UEF1(O/P)Génie cellulaire",
+            "VHS": "UEF1(O/P)Génie cellulaire",
+            "V.H hebdomadaire": "UEF1(O/P)Génie cellulaire",
+            "column_3": "UEF1(O/P)Génie cellulaire",
+            "column_4": "UEF1(O/P)Génie cellulaire",
+            "column_5": "UEF1(O/P)Génie cellulaire",
+            "Coeff": "UEF1(O/P)Génie cellulaire",
+            "Crédits": "UEF1(O/P)Génie cellulaire",
+            "Mode d'évaluation": "UEF1(O/P)Génie cellulaire",
+            "column_9": "UEF1(O/P)Génie cellulaire"
+          },
+          {
+            "Unité d’Enseignement": "Matière 1 : Génie Biochimique",
+            "VHS": "90h",
+            "V.H hebdomadaire": "3h00",
+            "column_3": "1h30",
+            "column_4": "2h00",
+            "column_5": "90h",
+            "Coeff": "4",
+            "Crédits": "6",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unité d’Enseignement": "Matière 2 : Génie enzymatique",
+            "VHS": "60h",
+            "V.H hebdomadaire": "3h00",
+            "column_3": "1h30",
+            "column_4": "2h00",
+            "column_5": "60h",
+            "Coeff": "4",
+            "Crédits": "6",
+            "Mode d'évaluation": "6",
+            "column_9": "6"
+          },
+          {
+            "Unité d’Enseignement": "UEF2(O/P)",
+            "VHS": "UEF2(O/P)",
+            "V.H hebdomadaire": "UEF2(O/P)",
+            "column_3": "UEF2(O/P)",
+            "column_4": "UEF2(O/P)",
+            "column_5": "UEF2(O/P)",
+            "Coeff": "UEF2(O/P)",
+            "Crédits": "UEF2(O/P)",
+            "Mode d'évaluation": "UEF2(O/P)",
+            "column_9": "UEF2(O/P)"
+          },
+          {
+            "Unité d’Enseignement": "Matière 1 : Biologie moléculaire et\nGénie génétique",
+            "VHS": "90h",
+            "V.H hebdomadaire": "3h00",
+            "column_3": "1h30",
+            "column_4": "2h00",
+            "column_5": "90h",
+            "Coeff": "4",
+            "Crédits": "6",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unité d’Enseignement": "UE méthodologie",
+            "VHS": "UE méthodologie",
+            "V.H hebdomadaire": "UE méthodologie",
+            "column_3": "UE méthodologie",
+            "column_4": "UE méthodologie",
+            "column_5": "UE méthodologie",
+            "Coeff": "UE méthodologie",
+            "Crédits": "UE méthodologie",
+            "Mode d'évaluation": "UE méthodologie",
+            "column_9": "UE méthodologie"
+          },
+          {
+            "Unité d’Enseignement": "UEM1 (O/P) Méthodologies",
+            "VHS": "UEM1 (O/P) Méthodologies",
+            "V.H hebdomadaire": "UEM1 (O/P) Méthodologies",
+            "column_3": "UEM1 (O/P) Méthodologies",
+            "column_4": "UEM1 (O/P) Méthodologies",
+            "column_5": "UEM1 (O/P) Méthodologies",
+            "Coeff": "UEM1 (O/P) Méthodologies",
+            "Crédits": "UEM1 (O/P) Méthodologies",
+            "Mode d'évaluation": "UEM1 (O/P) Méthodologies",
+            "column_9": "UEM1 (O/P) Méthodologies"
+          },
+          {
+            "Unité d’Enseignement": "Matière 1:Techniques d’analyse\nBiologiques et physico-chimique",
+            "VHS": "45h00",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "1h30",
+            "column_4": "2h00",
+            "column_5": "45h00",
+            "Coeff": "2",
+            "Crédits": "4",
+            "Mode d'évaluation": "4",
+            "column_9": "4"
+          },
+          {
+            "Unité d’Enseignement": "Matière 2 : Méthodes de culture\ncellulaire et applications",
+            "VHS": "45h00",
+            "V.H hebdomadaire": "3h00",
+            "column_3": "1h30",
+            "column_4": "2h00",
+            "column_5": "45h00",
+            "Coeff": "2",
+            "Crédits": "6",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unité d’Enseignement": "UE découverte",
+            "VHS": "UE découverte",
+            "V.H hebdomadaire": "UE découverte",
+            "column_3": "UE découverte",
+            "column_4": "UE découverte",
+            "column_5": "UE découverte",
+            "Coeff": "UE découverte",
+            "Crédits": "UE découverte",
+            "Mode d'évaluation": "UE découverte",
+            "column_9": "UE découverte"
+          },
+          {
+            "Unité d’Enseignement": "UED1(O/P) : Anglais Scientifique",
+            "VHS": "20h00",
+            "V.H hebdomadaire": "/",
+            "column_3": "/",
+            "column_4": "/",
+            "column_5": "20h00",
+            "Coeff": "1",
+            "Crédits": "1",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unité d’Enseignement": "Matière2 : Hygiène et sécurité",
+            "VHS": "20h00",
+            "V.H hebdomadaire": "/",
+            "column_3": "/",
+            "column_4": "/",
+            "column_5": "20h00",
+            "Coeff": "1",
+            "Crédits": "1",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unité d’Enseignement": "UE transversales",
+            "VHS": "UE transversales",
+            "V.H hebdomadaire": "UE transversales",
+            "column_3": "UE transversales",
+            "column_4": "UE transversales",
+            "column_5": "UE transversales",
+            "Coeff": "UE transversales",
+            "Crédits": "UE transversales",
+            "Mode d'évaluation": "UE transversales",
+            "column_9": "UE transversales"
+          },
+          {
+            "Unité d’Enseignement": "UET1(O/P)",
+            "VHS": "UET1(O/P)",
+            "V.H hebdomadaire": "UET1(O/P)",
+            "column_3": "UET1(O/P)",
+            "column_4": "UET1(O/P)",
+            "column_5": "UET1(O/P)",
+            "Coeff": "UET1(O/P)",
+            "Crédits": "UET1(O/P)",
+            "Mode d'évaluation": "UET1(O/P)",
+            "column_9": "UET1(O/P)"
+          },
+          {
+            "Unité d’Enseignement": "Matière 1",
+            "VHS": "Matière 1",
+            "V.H hebdomadaire": "Matière 1",
+            "column_3": "Matière 1",
+            "column_4": "Matière 1",
+            "column_5": "Matière 1",
+            "Coeff": "Matière 1",
+            "Crédits": "Matière 1",
+            "Mode d'évaluation": "Matière 1",
+            "column_9": "Matière 1"
+          },
+          {
+            "Unité d’Enseignement": "Matière2",
+            "VHS": "Matière2",
+            "V.H hebdomadaire": "Matière2",
+            "column_3": "Matière2",
+            "column_4": "Matière2",
+            "column_5": "Matière2",
+            "Coeff": "Matière2",
+            "Crédits": "Matière2",
+            "Mode d'évaluation": "Matière2",
+            "column_9": "Matière2"
+          },
+          {
+            "Unité d’Enseignement": "Total Semestre 5",
+            "VHS": "375h",
+            "V.H hebdomadaire": "13h30",
+            "column_3": "7h30",
+            "column_4": "10",
+            "column_5": "375 h",
+            "Coeff": "18",
+            "Crédits": "30",
+            "Mode d'évaluation": "30",
+            "column_9": "30"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Unitéd’Enseignement",
+          "VHS",
+          "V.H hebdomadaire",
+          "column_3",
+          "column_4",
+          "column_5",
+          "Coeff",
+          "Crédits",
+          "Mode d'évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unitéd’Enseignement": "",
+            "VHS": "14-16 sem",
+            "V.H hebdomadaire": "C",
+            "column_3": "TD",
+            "column_4": "TP",
+            "column_5": "Autres",
+            "Coeff": "Autres",
+            "Crédits": "Autres",
+            "Mode d'évaluation": "Continu",
+            "column_9": "Examen"
+          },
+          {
+            "Unitéd’Enseignement": "UE fondamentales",
+            "VHS": "UE fondamentales",
+            "V.H hebdomadaire": "UE fondamentales",
+            "column_3": "UE fondamentales",
+            "column_4": "UE fondamentales",
+            "column_5": "UE fondamentales",
+            "Coeff": "UE fondamentales",
+            "Crédits": "UE fondamentales",
+            "Mode d'évaluation": "UE fondamentales",
+            "column_9": "UE fondamentales"
+          },
+          {
+            "Unitéd’Enseignement": "UEF3(O/P) : pharmaco-toxicologie",
+            "VHS": "UEF3(O/P) : pharmaco-toxicologie",
+            "V.H hebdomadaire": "UEF3(O/P) : pharmaco-toxicologie",
+            "column_3": "UEF3(O/P) : pharmaco-toxicologie",
+            "column_4": "UEF3(O/P) : pharmaco-toxicologie",
+            "column_5": "UEF3(O/P) : pharmaco-toxicologie",
+            "Coeff": "UEF3(O/P) : pharmaco-toxicologie",
+            "Crédits": "UEF3(O/P) : pharmaco-toxicologie",
+            "Mode d'évaluation": "UEF3(O/P) : pharmaco-toxicologie",
+            "column_9": "UEF3(O/P) : pharmaco-toxicologie"
+          },
+          {
+            "Unitéd’Enseignement": "Matière 1 : Relation Structure\n/fonctionnement des\nmacromoléclues",
+            "VHS": "60h",
+            "V.H hebdomadaire": "3h00",
+            "column_3": "1h30",
+            "column_4": "2h00",
+            "column_5": "60h",
+            "Coeff": "3",
+            "Crédits": "6",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unitéd’Enseignement": "Matière 2 : Pharmaco-toxicologie",
+            "VHS": "60h",
+            "V.H hebdomadaire": "3h00",
+            "column_3": "1h30",
+            "column_4": "2h00",
+            "column_5": "60h",
+            "Coeff": "3",
+            "Crédits": "6",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unitéd’Enseignement": "UEF2(O/P)",
+            "VHS": "UEF2(O/P)",
+            "V.H hebdomadaire": "UEF2(O/P)",
+            "column_3": "UEF2(O/P)",
+            "column_4": "UEF2(O/P)",
+            "column_5": "UEF2(O/P)",
+            "Coeff": "UEF2(O/P)",
+            "Crédits": "UEF2(O/P)",
+            "Mode d'évaluation": "UEF2(O/P)",
+            "column_9": "UEF2(O/P)"
+          },
+          {
+            "Unitéd’Enseignement": "Matière 1 : Immunologieappliquée",
+            "VHS": "60h",
+            "V.H hebdomadaire": "3h00",
+            "column_3": "1h30",
+            "column_4": "2h00",
+            "column_5": "60h",
+            "Coeff": "3",
+            "Crédits": "4",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unitéd’Enseignement": "Matière 2 : MicrobiologieAppliquée",
+            "VHS": "60h",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "/",
+            "column_4": "2h00",
+            "column_5": "60h",
+            "Coeff": "3",
+            "Crédits": "2",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unitéd’Enseignement": "Matière 3 : Parasitologie",
+            "VHS": "60h",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "/",
+            "column_4": "2h00",
+            "column_5": "60h",
+            "Coeff": "2",
+            "Crédits": "2",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unitéd’Enseignement": "UE méthodologie",
+            "VHS": "UE méthodologie",
+            "V.H hebdomadaire": "UE méthodologie",
+            "column_3": "UE méthodologie",
+            "column_4": "UE méthodologie",
+            "column_5": "UE méthodologie",
+            "Coeff": "UE méthodologie",
+            "Crédits": "UE méthodologie",
+            "Mode d'évaluation": "UE méthodologie",
+            "column_9": "UE méthodologie"
+          },
+          {
+            "Unitéd’Enseignement": "UEM1 (O/P) Méthodologies",
+            "VHS": "UEM1 (O/P) Méthodologies",
+            "V.H hebdomadaire": "UEM1 (O/P) Méthodologies",
+            "column_3": "UEM1 (O/P) Méthodologies",
+            "column_4": "UEM1 (O/P) Méthodologies",
+            "column_5": "UEM1 (O/P) Méthodologies",
+            "Coeff": "UEM1 (O/P) Méthodologies",
+            "Crédits": "UEM1 (O/P) Méthodologies",
+            "Mode d'évaluation": "UEM1 (O/P) Méthodologies",
+            "column_9": "UEM1 (O/P) Méthodologies"
+          },
+          {
+            "Unitéd’Enseignement": "Matière 1: Bioinformatique et\nBiostatistique",
+            "VHS": "45h",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "1h30",
+            "column_4": "3h00",
+            "column_5": "45h",
+            "Coeff": "3",
+            "Crédits": "6",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unitéd’Enseignement": "UE découverte",
+            "VHS": "UE découverte",
+            "V.H hebdomadaire": "UE découverte",
+            "column_3": "UE découverte",
+            "column_4": "UE découverte",
+            "column_5": "UE découverte",
+            "Coeff": "UE découverte",
+            "Crédits": "UE découverte",
+            "Mode d'évaluation": "UE découverte",
+            "column_9": "UE découverte"
+          },
+          {
+            "Unitéd’Enseignement": "Matière 2 : Industrie\nPharmaceutique et\nImmunotechnologie (IPI)",
+            "VHS": "20",
+            "V.H hebdomadaire": "1h30",
+            "column_3": "/",
+            "column_4": "/",
+            "column_5": "20",
+            "Coeff": "1",
+            "Crédits": "1",
+            "Mode d'évaluation": "X",
+            "column_9": "X"
+          },
+          {
+            "Unitéd’Enseignement": "UE transversales",
+            "VHS": "UE transversales",
+            "V.H hebdomadaire": "UE transversales",
+            "column_3": "UE transversales",
+            "column_4": "UE transversales",
+            "column_5": "UE transversales",
+            "Coeff": "UE transversales",
+            "Crédits": "UE transversales",
+            "Mode d'évaluation": "UE transversales",
+            "column_9": "UE transversales"
+          },
+          {
+            "Unitéd’Enseignement": "UET1(O/P)",
+            "VHS": "UET1(O/P)",
+            "V.H hebdomadaire": "UET1(O/P)",
+            "column_3": "UET1(O/P)",
+            "column_4": "UET1(O/P)",
+            "column_5": "UET1(O/P)",
+            "Coeff": "UET1(O/P)",
+            "Crédits": "UET1(O/P)",
+            "Mode d'évaluation": "UET1(O/P)",
+            "column_9": "UET1(O/P)"
+          },
+          {
+            "Unitéd’Enseignement": "Matière 1",
+            "VHS": "Matière 1",
+            "V.H hebdomadaire": "Matière 1",
+            "column_3": "Matière 1",
+            "column_4": "Matière 1",
+            "column_5": "Matière 1",
+            "Coeff": "Matière 1",
+            "Crédits": "Matière 1",
+            "Mode d'évaluation": "Matière 1",
+            "column_9": "Matière 1"
+          },
+          {
+            "Unitéd’Enseignement": "Matière2",
+            "VHS": "Matière2",
+            "V.H hebdomadaire": "Matière2",
+            "column_3": "Matière2",
+            "column_4": "Matière2",
+            "column_5": "Matière2",
+            "Coeff": "Matière2",
+            "Crédits": "Matière2",
+            "Mode d'évaluation": "Matière2",
+            "column_9": "Matière2"
+          },
+          {
+            "Unitéd’Enseignement": "Total Semestre 6",
+            "VHS": "365h",
+            "V.H hebdomadaire": "13h30",
+            "column_3": "7h30",
+            "column_4": "10",
+            "column_5": "365h",
+            "Coeff": "18",
+            "Crédits": "30",
+            "Mode d'évaluation": "30",
+            "column_9": "30"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

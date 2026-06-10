@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://eco.univ-setif.dz/component/finder/search",
+      "title": "جامعة فرحات عباس سطيف",
+      "id": "310a0d4e",
+      "type": "index"
+    },
+    "update": {
+      "fetched_at": "2026-06-10T10:04:25",
+      "hash": "03ab5e4a49811295",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "مصطلحات البحث:\nالبحث\nالبحث المتقدم\nفيما يلي بعض الأمثلة على كيفية استخدام ميزة البحث:\nإدخال\nهذا وذاك\nفي نموذج البحث سيؤدي إلى إرجاع نتائج تحتوي على كل من \"هذا\" و\"ذلك\".\nإدخال\nهذا وليس ذلك\nفي نموذج البحث سيؤدي إلى إرجاع النتائج التي تحتوي على \"هذا\" وليس \"ذلك\".\nإدخال\nهذا أو ذاك\nفي نموذج البحث سيؤدي إلى إرجاع النتائج التي تحتوي على \"هذا\" أو \"ذلك\".\nيمكن أيضا تصفية نتائج البحث باستخدام مجموعة متنوعة من المعايير. حدد واحد أو أكثر من الفلاتر أدناه للبدء.\nالبحث حسب النوع\nالبحث عن الكل\nالمقالات\nالمجموعات\nالبحث حسب الكاتب\nالبحث عن الكل\nSamiha\nالبحث حسب المجموعات\nالبحث عن الكل\nUncategorised\nالبحث\nالتظاهرات العلمية\nالتعاون\nالتكوين في التدرج\nالتنمية والإستشراف\nالجامعة\nالدراسة في سطيف\nالمنح والبرامج\nمستجدات\nالبحث حسب اللغة\nالبحث عن الكل\nالكل\nالبحث حسب النوع\nالبحث عن الكل\nالمقالات\nالمجموعات\nالبحث حسب الكاتب\nالبحث عن الكل\ndepges\nFsECsgAdmIN\nPost-graduation\nSamiha\nالبحث حسب المجموعات\nالبحث عن الكل\n.التظاهرات العلمية\n1111\nUncategorised\nاستشارات و صفقات\nالتظاهرات العلمية\nالتكوين في التدرج\nالدخول الجامعي\nفضاء الطالب\n-Uncategorised\nقسم علوم المالية والمحاسبة\nمحاضر الاجتماع\nمستجدات\n-مستجدات2\nمستجدات التعليم القاعدي\nمستجدات قسم العلوم الاقتصادية\nمستجدات قسم العلوم التجارية\nمستجدات قسم العلوم المالية والمحاسبة\nمستجدات قسم علوم التسيير\nمستجدات2\nالبحث حسب اللغة\nالبحث عن الكل\nالكل"
+  },
+  "resources": {
+    "links": [],
+    "images": [
+      {
+        "url": "https://eco.univ-setif.dz/images/1/33.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/templates/lt_news/images/presets/preset1/logo.svg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/slide/dspace-blue-UFAS-2024.gif",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/iqraa.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/sndl.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/pnst.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/biblio.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/catalogue-biblio.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/catalogue-collectif.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/t.i.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fsciences.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fmedecine.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fseg.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fsnv.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-ft.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-iast.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-iomp.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/logo-officielle.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

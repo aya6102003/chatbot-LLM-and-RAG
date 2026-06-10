@@ -1,0 +1,606 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://www.univ-setif.dz/plus-plateformes-numeriques",
+      "title": "الأرضيات الرقمية",
+      "id": "1cdcd1d7",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-10T11:15:39",
+      "hash": "6fd1dd9b2acbc0cb",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "منصات وزارة التعليم العالي والبحث العلمي\nمنصات جامعة فرحات عباس سطيف 1\nBourse\nCarnet de Référence Adequation Formation Emploi\nEquivalences des diplômes\nGestion des Projets de Recherche Formation-Universitaire\nGestion des soutenances 3ème cycle\nGestion du personnel\nGestion et de suivi des formations\nHébergement\nInscription des étudiants étrangers\nNouveaux étudiants\nPlatefomre de publications ASJP\nPortail National de Signalement de Thèses\nQuitus\nScolarité étudiant\nTransport\nStudy in Algeria\nAlumni\nAssurance qualité\nCEIL\nDemande de diplôme\nDoléances\nDspace\nEvénements scientifiques\nGestion de courrier administratif\nMaster 20%\nMobilité\nMoodle\nPages personnelles\nPlan des campus\nPlateforme d’évaluation des productions pédagogiques\nSondage\nStages\nVisite virtuelle\nWebTV\nDemande de congé académique\nMédecine universitaire\nEtudiants internationaux\nConventions\nEDX\nFormation continue\nStudy in Algeria\nCloud\nمنشئ النماذج الديناميكي\nمنصة الدعم النفسي الأولي\nالمنصة الرقمية للتقييم الأكاديمي"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "منصات وزارة التعليم العالي والبحث العلمي",
+        "url": "https://www.univ-setif.dz/plus-plateformes-numeriques",
+        "type": "internal"
+      },
+      {
+        "text": "Bourse",
+        "url": "https://progres.mesrs.dz/eminha/login.xhtml",
+        "type": "external"
+      },
+      {
+        "text": "Carnet de Référence Adequation Formation Emploi",
+        "url": "https://www.mesrs.dz/crafe",
+        "type": "external"
+      },
+      {
+        "text": "Equivalences des diplômes",
+        "url": "https://progres.mesrs.dz/webequivalence",
+        "type": "external"
+      },
+      {
+        "text": "Gestion des Projets de Recherche Formation-Universitaire",
+        "url": "https://www.prfu-mesrs.dz/index.php?lng=fr",
+        "type": "external"
+      },
+      {
+        "text": "Gestion des soutenances 3ème cycle",
+        "url": "https://progres.mesrs.dz/webfve/login.xhtml",
+        "type": "external"
+      },
+      {
+        "text": "Gestion du personnel",
+        "url": "https://progres.mesrs.dz/webgrh/login.xhtml",
+        "type": "external"
+      },
+      {
+        "text": "Gestion et de suivi des formations",
+        "url": "https://services.mesrs.dz/DCEU",
+        "type": "external"
+      },
+      {
+        "text": "Hébergement",
+        "url": "https://ask.mesrs.dz/",
+        "type": "external"
+      },
+      {
+        "text": "Inscription des étudiants étrangers",
+        "url": "https://progres.mesrs.dz/international-students/pages/procedure/procedures.xhtml",
+        "type": "external"
+      },
+      {
+        "text": "Platefomre de publications ASJP",
+        "url": "https://www.asjp.cerist.dz/",
+        "type": "external"
+      },
+      {
+        "text": "Portail National de Signalement de Thèses",
+        "url": "https://www.pnst.cerist.dz/",
+        "type": "external"
+      },
+      {
+        "text": "Quitus",
+        "url": "https://quittance.mesrs.dz/login",
+        "type": "external"
+      },
+      {
+        "text": "Scolarité étudiant",
+        "url": "https://progres.mesrs.dz/webetu/login.xhtml",
+        "type": "external"
+      },
+      {
+        "text": "Transport",
+        "url": "https://mybus.onou.dz/MyBus",
+        "type": "external"
+      },
+      {
+        "text": "Study in Algeria",
+        "url": "https://studyinalgeria.mesrs.dz/",
+        "type": "external"
+      },
+      {
+        "text": "Alumni",
+        "url": "https://alumni.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Assurance qualité",
+        "url": "https://caq.univ-setif.dz/distribution/login.php",
+        "type": "internal"
+      },
+      {
+        "text": "CEIL",
+        "url": "https://plateforme-ceil.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Demande de diplôme",
+        "url": "https://demdip.univ-setif.dz/diplome",
+        "type": "internal"
+      },
+      {
+        "text": "Doléances",
+        "url": "https://doleances.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Dspace",
+        "url": "http://dspace.univ-setif.dz:8888/jspui",
+        "type": "external"
+      },
+      {
+        "text": "Evénements scientifiques",
+        "url": "https://events.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Gestion de courrier administratif",
+        "url": "https://archcour.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Master 20%",
+        "url": "https://inscriptions.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Mobilité",
+        "url": "https://mobilite.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Moodle",
+        "url": "https://elearning.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Pages personnelles",
+        "url": "https://pageperso.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Plan des campus",
+        "url": "https://planscampus.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Plateforme d’évaluation des productions pédagogiques",
+        "url": "http://digiweek.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Sondage",
+        "url": "https://sondages.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Visite virtuelle",
+        "url": "https://visitevirtuelle.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "WebTV",
+        "url": "https://video.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Demande de congé académique",
+        "url": "https://forms.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Médecine universitaire",
+        "url": "https://ump.univ-setif.dz/med-univ",
+        "type": "internal"
+      },
+      {
+        "text": "Etudiants internationaux",
+        "url": "https://relex.univ-setif.dz/inscription",
+        "type": "internal"
+      },
+      {
+        "text": "Conventions",
+        "url": "https://relex.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "EDX",
+        "url": "http://edx.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Formation continue",
+        "url": "https://formationcontinue.univ-setif.dz/",
+        "type": "internal"
+      },
+      {
+        "text": "Study in Algeria",
+        "url": "https://studyinalgeria.univ-setif.dz/project",
+        "type": "internal"
+      },
+      {
+        "text": "Cloud",
+        "url": "https://cloud.univ-setif.dz/index.php/login",
+        "type": "internal"
+      },
+      {
+        "text": "منصة الدعم النفسي الأولي",
+        "url": "https://psychology.univ-setif.dz/index.php",
+        "type": "internal"
+      },
+      {
+        "text": "المنصة الرقمية للتقييم الأكاديمي",
+        "url": "https://www.univ-setif.dz/simulateur",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.univ-setif.dz/images/banner-ar.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/templates/lt_news/images/presets/preset1/logo.svg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/bourse.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Bourse.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/carnet.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Carnet_de_Référence.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/equivalance.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Carnet_de_Référence.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/gestion-projets-recherche.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Projets_de_Recherche.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/gestion-soutenance.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Gestion_des_soutenances_3ème_cycle.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/personnel.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Gestion_du_personnel.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/gestion-suivi-formations.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Suivi_des_formations.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/hebrgement.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Hébergement.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/inscription-etudiants.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Inscription_étudiants_étrangers.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/ask-msers.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Nouveaux_étudiants.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/asjp.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Publications_ASJP.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/portail.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Publications_ASJP.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/quitus.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Scolarité_étudiant.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/scolarite.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Scolarité_étudiant.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/transport.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Transport.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/mesrs/study.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Scolarité_étudiant.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/allumni.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Alumni.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/assurance.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Assurance_qualité.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/ceil-centre.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_CEIL.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/demande.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Demande_de_diplôme.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/CAHIER-DE-DOLEANCE.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Doléances.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/dspace.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Dspace.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/evenements.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Evénements_scientifiques.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/gestion-courrier.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Gestion_de_courrier_administratif.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/master.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Master_20%.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/mobilite.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Mobilité.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/moodle.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Moodle.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/pages-pers.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Pages_personnelles.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/campus.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Master_20%.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/plateforme-evaluation-prod.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Mobilité.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/sondage-ufas.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Moodle.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/stages.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Pages_personnelles.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/visites.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Master_20%.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/webtv.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Mobilité.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/conge-academique.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_Demande_de_congé_académique.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/medecine.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_medecine.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/inscription-etudiants.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_inscription_etudiants.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/conventions.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_conventions.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/edx.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_edx.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/formations-continue.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_formations_continue.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/study.jpg",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_study.jpg"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/cloud-service.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_cloud_service.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/forms-univ-setif1.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_forms_univ_setif1.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/psyco-univ.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_psyco_univ.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/plateformes-numerique/ufas/similateur-UFAS1.png",
+        "alt": "",
+        "desc": "",
+        "local_file": "images/1cdcd1d7_similateur_UFAS1.png"
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/slide/dspace-blue-UFAS-2024.gif",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/iqraa.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/sndl.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/pnst.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/biblio-centrale-ufas.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-Biblio-Centrale.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-collectif.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/t.i.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/cms_vign.jpeg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-fsciences.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-fmedecine.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-fseg.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-fsnv.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-ft.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-iast.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/ressources-documentaire/Catalogue-iomp.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://www.univ-setif.dz/images/logo-officielle.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [],
+    "tables": []
+  }
+}

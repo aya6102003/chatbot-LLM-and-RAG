@@ -1,0 +1,349 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\52310878_2018_2017.pdf",
+      "name": "52310878_2018_2017.pdf",
+      "type": "pdf",
+      "size_bytes": 75746,
+      "id": "2288e266"
+    },
+    "extracted_at": "2026-06-10T12:35:07.843665"
+  },
+  "content": {
+    "text": " \nEffectifs des inscrits et réinscrits en Post-Graduation \nAnnée Universitaire 2017/2018 \n \nEtablissement : Université Ferhat Abbas – Sétif 1 \nDu 1er Septembre 2017 Au 30 Juin 2018. \n \n \nFaculté et Institut \n \nDisciplines \nNombre des inscrits et réinscrits en \n2ème Post-Graduation \n \nTotal des  \nréinscrits \nDoctorat 3eme Cycle \nInferieur 5ans \nDoctorat en Sciences\n \nInferieur 6 ans\n \n \n \nFaculté de Technologie  \nGénie civil \n08 \n00 \n08 \nElectronique \n21 \n41 \n62 \nElectrotechnique \n12 \n38 \n50 \nAutomatique \n04 \n00 \n04 \nGénie des Procédés \n87 \n55 \n142 \nInstitut d’Architecture et \nSciences de la terre  \nArchitecture \n07 \n31 \n38 \nGéologie \n05 \n00 \n05 \nInstitut d’Optique et \nMécanique  de Précision \nOptique et M. de Précision \n65 \n16 \n81 \n \n \nFaculté des Sciences \nMathématiques \n19 \n28 \n47 \nPhysique \n44 \n21 \n65 \nChimie  \n04 \n02 \n37 \nInformatique \n35 \n23 \n27 \nFaculté des Sciences de la \nNature et de la Vie \nBiologie \n37 \n68 \n105 \nAgronomie \n12 \n25 \n37 \n \nFaculté des Sciences \nEconomiques de Gestion et \ndes Sciences Commerciales \nSciences Economiques \n30 \n125 \n155 \nSciences de Gestion \n13 \n04 \n17 \nSciences Commerciales \n28 \n02 \n30 \nSciences Financières et comptabilité \n06 \n00 \n06 \nTotal \n437 \n479 \n916 \nTotal Général \n916 \n \n \n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Effectifs des inscrits et réinscrits en Post-Graduation \nAnnée Universitaire 2017/2018 \n \nEtablissement : Université Ferhat Abbas – Sétif 1 \nDu 1er Septembre 2017 Au 30 Juin 2018. \n \n \nFaculté et Institut \n \nDisciplines \nNombre des inscrits et réinscrits en \n2ème Post-Graduation \n \nTotal des  \nréinscrits \nDoctorat 3eme Cycle \nInferieur 5ans \nDoctorat en Sciences\n \nInferieur 6 ans\n \n \n \nFaculté de Technologie  \nGénie civil \n08 \n00 \n08 \nElectronique \n21 \n41 \n62 \nElectrotechnique \n12 \n38 \n50 \nAutomatique \n04 \n00 \n04 \nGénie des Procédés \n87 \n55 \n142 \nInstitut d’Architecture et \nSciences de la terre  \nArchitecture \n07 \n31 \n38 \nGéologie \n05 \n00 \n05 \nInstitut d’Optique et \nMécanique  de Précision \nOptique et M. de Précision \n65 \n16 \n81 \n \n \nFaculté des Sciences \nMathématiques \n19 \n28 \n47 \nPhysique \n44 \n21 \n65 \nChimie  \n04 \n02 \n37 \nInformatique \n35 \n23 \n27 \nFaculté des Sciences de la \nNature et de la Vie \nBiologie \n37 \n68 \n105 \nAgronomie \n12 \n25 \n37 \n \nFaculté des Sciences \nEconomiques de Gestion et \ndes Sciences Commerciales \nSciences Economiques \n30 \n125 \n155 \nSciences de Gestion \n13 \n04 \n17 \nSciences Commerciales \n28 \n02 \n30 \nSciences Financières et comptabilité \n06 \n00 \n06 \nTotal \n437 \n479 \n916 \nTotal Général \n916"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Faculté et Institut",
+          "column_1",
+          "column_2",
+          "Disciplines",
+          "column_4",
+          "Nombre des inscrits et réinscrits en\n2ème Post-Graduation",
+          "column_6",
+          "column_7",
+          "column_8",
+          "Total des",
+          "column_10"
+        ],
+        "rows": [
+          {
+            "Faculté et Institut": "",
+            "column_1": "",
+            "column_2": "",
+            "Disciplines": "",
+            "column_4": "",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "Doctorat 3eme Cycle\nInferieur 5ans",
+            "column_6": "Doctorat 3eme Cycle\nInferieur 5ans",
+            "column_7": "Doctorat en Sciences\nInferieur 6 ans",
+            "column_8": "Doctorat en Sciences\nInferieur 6 ans",
+            "Total des": "Doctorat en Sciences\nInferieur 6 ans",
+            "column_10": "Doctorat en Sciences\nInferieur 6 ans"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Faculté de Technologie",
+            "column_2": "Faculté de Technologie",
+            "Disciplines": "Génie civil",
+            "column_4": "Génie civil",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "08",
+            "column_6": "08",
+            "column_7": "00",
+            "column_8": "00",
+            "Total des": "08",
+            "column_10": "08"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Faculté de Technologie",
+            "column_2": "Faculté de Technologie",
+            "Disciplines": "Electronique",
+            "column_4": "Electronique",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "21",
+            "column_6": "21",
+            "column_7": "41",
+            "column_8": "41",
+            "Total des": "62",
+            "column_10": "62"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Faculté de Technologie",
+            "column_2": "Faculté de Technologie",
+            "Disciplines": "Electrotechnique",
+            "column_4": "Electrotechnique",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "12",
+            "column_6": "12",
+            "column_7": "38",
+            "column_8": "38",
+            "Total des": "50",
+            "column_10": "50"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Faculté de Technologie",
+            "column_2": "Faculté de Technologie",
+            "Disciplines": "Automatique",
+            "column_4": "Automatique",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "04",
+            "column_6": "04",
+            "column_7": "00",
+            "column_8": "00",
+            "Total des": "04",
+            "column_10": "04"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Faculté de Technologie",
+            "column_2": "Faculté de Technologie",
+            "Disciplines": "Génie des Procédés",
+            "column_4": "Génie des Procédés",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "87",
+            "column_6": "87",
+            "column_7": "55",
+            "column_8": "55",
+            "Total des": "142",
+            "column_10": "142"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Institut d’Architecture et",
+            "column_2": "Institut d’Architecture et",
+            "Disciplines": "Architecture",
+            "column_4": "Architecture",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "07",
+            "column_6": "07",
+            "column_7": "31",
+            "column_8": "31",
+            "Total des": "38",
+            "column_10": "38"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Sciences de la terre",
+            "column_2": "Sciences de la terre",
+            "Disciplines": "Géologie",
+            "column_4": "Géologie",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "05",
+            "column_6": "05",
+            "column_7": "00",
+            "column_8": "00",
+            "Total des": "05",
+            "column_10": "05"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Institut d’Optique et",
+            "column_2": "Institut d’Optique et",
+            "Disciplines": "Optique et M. de Précision",
+            "column_4": "Optique et M. de Précision",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "65",
+            "column_6": "65",
+            "column_7": "16",
+            "column_8": "16",
+            "Total des": "81",
+            "column_10": "81"
+          },
+          {
+            "Faculté et Institut": "Faculté de Technologie",
+            "column_1": "Mécanique de Précision",
+            "column_2": "Mécanique de Précision",
+            "Disciplines": "Mécanique de Précision",
+            "column_4": "Mécanique de Précision",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "Mécanique de Précision",
+            "column_6": "Mécanique de Précision",
+            "column_7": "Mécanique de Précision",
+            "column_8": "Mécanique de Précision",
+            "Total des": "Mécanique de Précision",
+            "column_10": "Mécanique de Précision"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences",
+            "column_1": "Faculté des Sciences",
+            "column_2": "Faculté des Sciences",
+            "Disciplines": "Mathématiques",
+            "column_4": "Mathématiques",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "19",
+            "column_6": "19",
+            "column_7": "28",
+            "column_8": "28",
+            "Total des": "47",
+            "column_10": "47"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences",
+            "column_1": "Faculté des Sciences",
+            "column_2": "Faculté des Sciences",
+            "Disciplines": "Physique",
+            "column_4": "Physique",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "44",
+            "column_6": "44",
+            "column_7": "21",
+            "column_8": "21",
+            "Total des": "65",
+            "column_10": "65"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences",
+            "column_1": "Faculté des Sciences",
+            "column_2": "Faculté des Sciences",
+            "Disciplines": "Chimie",
+            "column_4": "Chimie",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "04",
+            "column_6": "04",
+            "column_7": "02",
+            "column_8": "02",
+            "Total des": "37",
+            "column_10": "37"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences",
+            "column_1": "Faculté des Sciences",
+            "column_2": "Faculté des Sciences",
+            "Disciplines": "Informatique",
+            "column_4": "Informatique",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "35",
+            "column_6": "35",
+            "column_7": "23",
+            "column_8": "23",
+            "Total des": "27",
+            "column_10": "27"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences",
+            "column_1": "Faculté des Sciences de la",
+            "column_2": "Faculté des Sciences de la",
+            "Disciplines": "Biologie",
+            "column_4": "Biologie",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "37",
+            "column_6": "37",
+            "column_7": "68",
+            "column_8": "68",
+            "Total des": "105",
+            "column_10": "105"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences",
+            "column_1": "Nature et de la Vie",
+            "column_2": "Nature et de la Vie",
+            "Disciplines": "Agronomie",
+            "column_4": "Agronomie",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "12",
+            "column_6": "12",
+            "column_7": "25",
+            "column_8": "25",
+            "Total des": "37",
+            "column_10": "37"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences\nEconomiques de Gestion et\ndes Sciences Commerciales",
+            "column_1": "Faculté des Sciences\nEconomiques de Gestion et\ndes Sciences Commerciales",
+            "column_2": "Faculté des Sciences\nEconomiques de Gestion et\ndes Sciences Commerciales",
+            "Disciplines": "Sciences Economiques",
+            "column_4": "Sciences Economiques",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "30",
+            "column_6": "30",
+            "column_7": "125",
+            "column_8": "125",
+            "Total des": "155",
+            "column_10": "155"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences\nEconomiques de Gestion et\ndes Sciences Commerciales",
+            "column_1": "Faculté des Sciences",
+            "column_2": "Faculté des Sciences",
+            "Disciplines": "Sciences de Gestion",
+            "column_4": "Sciences de Gestion",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "13",
+            "column_6": "13",
+            "column_7": "04",
+            "column_8": "04",
+            "Total des": "17",
+            "column_10": "17"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences\nEconomiques de Gestion et\ndes Sciences Commerciales",
+            "column_1": "Economiques de Gestion et",
+            "column_2": "Economiques de Gestion et",
+            "Disciplines": "Sciences Commerciales",
+            "column_4": "Sciences Commerciales",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "28",
+            "column_6": "28",
+            "column_7": "02",
+            "column_8": "02",
+            "Total des": "30",
+            "column_10": "30"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences\nEconomiques de Gestion et\ndes Sciences Commerciales",
+            "column_1": "des Sciences Commerciales",
+            "column_2": "des Sciences Commerciales",
+            "Disciplines": "Sciences Financières et comptabilité",
+            "column_4": "Sciences Financières et comptabilité",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "06",
+            "column_6": "06",
+            "column_7": "00",
+            "column_8": "00",
+            "Total des": "06",
+            "column_10": "06"
+          },
+          {
+            "Faculté et Institut": "Faculté des Sciences\nEconomiques de Gestion et\ndes Sciences Commerciales",
+            "column_1": "Total",
+            "column_2": "Total",
+            "Disciplines": "Total",
+            "column_4": "Total",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "437",
+            "column_6": "437",
+            "column_7": "479",
+            "column_8": "479",
+            "Total des": "916",
+            "column_10": "916"
+          },
+          {
+            "Faculté et Institut": "Total Général",
+            "column_1": "Total Général",
+            "column_2": "Total Général",
+            "Disciplines": "Total Général",
+            "column_4": "Total Général",
+            "Nombre des inscrits et réinscrits en\n2ème Post-Graduation": "916",
+            "column_6": "916",
+            "column_7": "916",
+            "column_8": "916",
+            "Total des": "916",
+            "column_10": "916"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 1,
+        "headers": [
+          "column_0"
+        ],
+        "rows": [
+          {
+            "column_0": "Faculté et Institut"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

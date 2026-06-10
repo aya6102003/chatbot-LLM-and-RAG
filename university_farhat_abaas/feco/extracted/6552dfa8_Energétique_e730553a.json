@@ -1,0 +1,768 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\6552dfa8_Energétique.pdf",
+      "name": "6552dfa8_Energétique.pdf",
+      "type": "pdf",
+      "size_bytes": 349084,
+      "id": "e730553a"
+    },
+    "extracted_at": "2026-06-10T12:38:21.559075"
+  },
+  "content": {
+    "text": "Licence Energétique \n Semestre 3 \nUnité \nd'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.1.1 \nCrédits : 10 \nCoefficients : 5 \nMathématiques 3 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nOndes et vibrations \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 2.1.2 \nCrédits : 8 \nCoefficients : 4 \nMécanique des fluides \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nMécanique rationnelle \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 2.1 \nCrédits : 9 \nCoefficients : 5 \nProbabilités et \nstatistiques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nInformatique 3 \n2 \n1 \n \n1h30 \n22h30 \n100% \nDessin technique \n2 \n1 \n \n1h30 \n22h30 \n100% \nTP Ondes et vibrations \n1 \n1 \n \n1h00 \n15h00 \n100% \nUE Découverte \nCode : UED 2.1 \nCrédits : 2 \nCoefficients : 2 \nTechnologie de base \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nMétrologie \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 2.1 \nCrédits : 1 \nCoefficients : 1 \nAnglais technique \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 3  \n30 \n17 \n13h30 \n7h30 4h00 \n375h00 \n \n \n \n \n\n Semestre 4 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.2.1 \nCrédits : 6 \nCoefficients : 3 \nThermodynamique 2 \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nFabrication Mécanique  \n2 \n1 \n1h30 \n22h30 \n100% \nUE Fondamentale \nCode : UEF 2.2.2 \nCrédits : 8 \nCoefficients : 4 \nMathématiques 4 \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nMéthodes numériques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 2.2.3 \nCrédits : 4 \nCoefficients : 2 \nRésistance des matériaux \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 2.2 \nCrédits : 9 \nCoefficients : 5 \nDessin Assisté par \nOrdinateur \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Mécanique des fluides \n2 \n1 \n1h30 \n22h30 \n100% \nTP Méthodes numériques \n2 \n1 \n1h30 \n22h30 \n100% \nTP Résistance des matériaux \n1 \n1 \n1h00 \n15h00 \n100% \nTP Fabrication  Mécanique  \n2 \n1 \n1h30 \n22h30 \n100% \nUE Découverte \nCode : UED 2.2 \nCrédits : 2 \nCoefficients : 2 \nElectricité industrielle \n1 \n1 \n1h30 \n22h30 \n100% \nSciences des Matériaux \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 2.2 \nCrédits : 1 \nCoefficients : 1 \nTechniques d'expression et \nde communication \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 4 \n \n30 \n17 \n12h00 6h00 7h00 \n375h00 \n \n \n\n Semestre 5 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 3.1.1 \nCrédits : 10 \nCoefficients : 5 \nMécanique des fluides 2  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nTransfert de chaleur 1 \n4 \n2 \n1h30 1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 3.1.2 \nCrédits : 8 \nCoefficients : 4 \nTurbomachines 1 \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nConversion d'énergie \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 3.1 \nCrédits : 9 \nCoefficients : 5 \nTP Transfert de chaleur \n2 \n1 \n \n1h30 \n22h30 \n100% \nTP Turbomachines 1 \n2 \n1 \n \n1h30 \n22h30 \n100% \nTP Conversion d'énergie \n2 \n1 \n \n1h30 \n22h30 \n100% \nMesure et \ninstrumentation \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nUE Découverte \nCode : UED 3.1 \nCrédits : 2 \nCoefficients : 2 \nNotion d’éléments de \nmachines \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nRégulation et \nasservissement \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 3.1 \nCrédits : 1 \nCoefficients : 1 \nEnvironnement et \ndéveloppement durable  \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 5 \n \n30 \n17 \n13h30 6h00 5h30 \n375h00 \n \n \n \n\n Semestre 6 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 3.2.1 \nCrédits : 10 \nCoefficients : 5 \nTurbomachines 2  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n100% \nMoteurs à combustion \ninterne \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n100% \nUE Fondamentale \nCode : UEF 3.2.2 \nCrédits : 8 \nCoefficients : 4 \nMachines Frigorifiques et \npompes à chaleur \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n100% \nTransfert de chaleur 2  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n100% \nUE Méthodologique \nCode : UEM 3.2 \nCrédits : 9 \nCoefficients : 5 \nProjet de Fin de Cycle  \n4 \n2 \n \n3h00 \n45h00 \n100% \nTP Machines Frigorifiques \net pompes à chaleur \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Moteurs à combustion \ninterne \n1 \n1 \n \n \n1h00 \n15h00 \n100% \n \nTP régulation et \nasservissement \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nUE Découverte \nCode : UED 3.2 \nCrédits : 2 \nCoefficients : 2 \nEnergies renouvelables \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nCryogénie \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 3.2 \nCrédits : 1 \nCoefficients : 1 \nProjet Professionnel et \ngestion d’entreprise \n1 \n1 \n1h30 \n \n \n22h30 \n100% \n \nTotal semestre 6 \n \n30 \n17 \n12h00 \n6h00 \n7h00 \n375h00 \n \n \n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Licence Energétique \n Semestre 3 \nUnité \nd'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nIntitulé \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.1.1 \nCrédits : 10 \nCoefficients : 5 \nMathématiques 3 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nOndes et vibrations \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 2.1.2 \nCrédits : 8 \nCoefficients : 4 \nMécanique des fluides \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nMécanique rationnelle \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 2.1 \nCrédits : 9 \nCoefficients : 5 \nProbabilités et \nstatistiques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nInformatique 3 \n2 \n1 \n \n1h30 \n22h30 \n100% \nDessin technique \n2 \n1 \n \n1h30 \n22h30 \n100% \nTP Ondes et vibrations \n1 \n1 \n \n1h00 \n15h00 \n100% \nUE Découverte \nCode : UED 2.1 \nCrédits : 2 \nCoefficients : 2 \nTechnologie de base \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nMétrologie \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 2.1 \nCrédits : 1 \nCoefficients : 1 \nAnglais technique \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 3  \n30 \n17 \n13h30 \n7h30 4h00 \n375h00"
+      },
+      {
+        "page": 2,
+        "text": " Semestre 4 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 2.2.1 \nCrédits : 6 \nCoefficients : 3 \nThermodynamique 2 \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nFabrication Mécanique  \n2 \n1 \n1h30 \n22h30 \n100% \nUE Fondamentale \nCode : UEF 2.2.2 \nCrédits : 8 \nCoefficients : 4 \nMathématiques 4 \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nMéthodes numériques \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 2.2.3 \nCrédits : 4 \nCoefficients : 2 \nRésistance des matériaux \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 2.2 \nCrédits : 9 \nCoefficients : 5 \nDessin Assisté par \nOrdinateur \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Mécanique des fluides \n2 \n1 \n1h30 \n22h30 \n100% \nTP Méthodes numériques \n2 \n1 \n1h30 \n22h30 \n100% \nTP Résistance des matériaux \n1 \n1 \n1h00 \n15h00 \n100% \nTP Fabrication  Mécanique  \n2 \n1 \n1h30 \n22h30 \n100% \nUE Découverte \nCode : UED 2.2 \nCrédits : 2 \nCoefficients : 2 \nElectricité industrielle \n1 \n1 \n1h30 \n22h30 \n100% \nSciences des Matériaux \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 2.2 \nCrédits : 1 \nCoefficients : 1 \nTechniques d'expression et \nde communication \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 4 \n \n30 \n17 \n12h00 6h00 7h00 \n375h00"
+      },
+      {
+        "page": 3,
+        "text": " Semestre 5 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 3.1.1 \nCrédits : 10 \nCoefficients : 5 \nMécanique des fluides 2  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nTransfert de chaleur 1 \n4 \n2 \n1h30 1h30 \n \n45h00 \n40% \n60% \nUE Fondamentale \nCode : UEF 3.1.2 \nCrédits : 8 \nCoefficients : 4 \nTurbomachines 1 \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nConversion d'énergie \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n60% \nUE Méthodologique \nCode : UEM 3.1 \nCrédits : 9 \nCoefficients : 5 \nTP Transfert de chaleur \n2 \n1 \n \n1h30 \n22h30 \n100% \nTP Turbomachines 1 \n2 \n1 \n \n1h30 \n22h30 \n100% \nTP Conversion d'énergie \n2 \n1 \n \n1h30 \n22h30 \n100% \nMesure et \ninstrumentation \n3 \n2 \n1h30 \n \n1h00 \n37h30 \n40% \n60% \nUE Découverte \nCode : UED 3.1 \nCrédits : 2 \nCoefficients : 2 \nNotion d’éléments de \nmachines \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nRégulation et \nasservissement \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 3.1 \nCrédits : 1 \nCoefficients : 1 \nEnvironnement et \ndéveloppement durable  \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nTotal semestre 5 \n \n30 \n17 \n13h30 6h00 5h30 \n375h00"
+      },
+      {
+        "page": 4,
+        "text": " Semestre 6 \nUnité d'enseignement \nMatières \nCrédits \nCoefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 3.2.1 \nCrédits : 10 \nCoefficients : 5 \nTurbomachines 2  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n100% \nMoteurs à combustion \ninterne \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n100% \nUE Fondamentale \nCode : UEF 3.2.2 \nCrédits : 8 \nCoefficients : 4 \nMachines Frigorifiques et \npompes à chaleur \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n100% \nTransfert de chaleur 2  \n4 \n2 \n1h30 \n1h30 \n \n45h00 \n40% \n100% \nUE Méthodologique \nCode : UEM 3.2 \nCrédits : 9 \nCoefficients : 5 \nProjet de Fin de Cycle  \n4 \n2 \n \n3h00 \n45h00 \n100% \nTP Machines Frigorifiques \net pompes à chaleur \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Moteurs à combustion \ninterne \n1 \n1 \n \n \n1h00 \n15h00 \n100% \n \nTP régulation et \nasservissement \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nUE Découverte \nCode : UED 3.2 \nCrédits : 2 \nCoefficients : 2 \nEnergies renouvelables \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nCryogénie \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 3.2 \nCrédits : 1 \nCoefficients : 1 \nProjet Professionnel et \ngestion d’entreprise \n1 \n1 \n1h30 \n \n \n22h30 \n100% \n \nTotal semestre 6 \n \n30 \n17 \n12h00 \n6h00 \n7h00 \n375h00"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Unité\nd'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité\nd'enseignement": "",
+            "Matières": "Intitulé",
+            "Crédits": "Intitulé",
+            "Coefficient": "Intitulé",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 2.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Mathématiques 3",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 2.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Ondes et vibrations",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 2.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Mécanique des fluides",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Fondamentale\nCode : UEF 2.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Mécanique rationnelle",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Probabilités et\nstatistiques",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Informatique 3",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Dessin technique",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Méthodologique\nCode : UEM 2.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Ondes et vibrations",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "15h00",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Découverte\nCode : UED 2.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Technologie de base",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Découverte\nCode : UED 2.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Métrologie",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "UE Transversale\nCode : UET 2.1\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Anglais technique",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité\nd'enseignement": "Total semestre 3",
+            "Matières": "Total semestre 3",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "13h30",
+            "column_5": "7h30",
+            "column_6": "4h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.2.1\nCrédits : 6\nCoefficients : 3",
+            "Matières": "Thermodynamique 2",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.2.1\nCrédits : 6\nCoefficients : 3",
+            "Matières": "Fabrication Mécanique",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Mathématiques 4",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Méthodes numériques",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 2.2.3\nCrédits : 4\nCoefficients : 2",
+            "Matières": "Résistance des matériaux",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Dessin Assisté par\nOrdinateur",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Mécanique des fluides",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Méthodes numériques",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Résistance des matériaux",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "15h00",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 2.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Fabrication Mécanique",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 2.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Electricité industrielle",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 2.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Sciences des Matériaux",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 2.2\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Techniques d'expression et\nde communication",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 4",
+            "Matières": "Total semestre 4",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "12h00",
+            "column_5": "6h00",
+            "column_6": "7h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 3,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Mécanique des fluides 2",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.1.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Transfert de chaleur 1",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Turbomachines 1",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.1.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Conversion d'énergie",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Transfert de chaleur",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Turbomachines 1",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Conversion d'énergie",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Mesure et\ninstrumentation",
+            "Crédits": "3",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "37h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 3.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Notion d’éléments de\nmachines",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 3.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Régulation et\nasservissement",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 3.1\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Environnement et\ndéveloppement durable",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 5",
+            "Matières": "Total semestre 5",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "13h30",
+            "column_5": "6h00",
+            "column_6": "5h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 4,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Turbomachines 2",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.2.1\nCrédits : 10\nCoefficients : 5",
+            "Matières": "Moteurs à combustion\ninterne",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Machines Frigorifiques et\npompes à chaleur",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 3.2.2\nCrédits : 8\nCoefficients : 4",
+            "Matières": "Transfert de chaleur 2",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Projet de Fin de Cycle",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "2",
+            "column_5": "2",
+            "column_6": "3h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Machines Frigorifiques\net pompes à chaleur",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Moteurs à combustion\ninterne",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "15h00",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 3.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP régulation et\nasservissement",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 3.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Energies renouvelables",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 3.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Cryogénie",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 3.2\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Projet Professionnel et\ngestion d’entreprise",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 6",
+            "Matières": "Total semestre 6",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "12h00",
+            "column_5": "6h00",
+            "column_6": "7h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

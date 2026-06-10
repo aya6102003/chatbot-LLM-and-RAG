@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\34e2a9cb_برنامج_التعليم_ماستر_مالية_البنوك_والتام.pdf",
+      "name": "34e2a9cb_برنامج_التعليم_ماستر_مالية_البنوك_والتام.pdf",
+      "type": "pdf",
+      "size_bytes": 3654589,
+      "id": "3e4327ca"
+    },
+    "extracted_at": "2026-06-10T12:25:06.080789"
+  },
+  "content": {
+    "text": "\n\n\n\n\n\n\n\n\n",
+    "pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      },
+      {
+        "page": 4,
+        "text": ""
+      },
+      {
+        "page": 5,
+        "text": ""
+      },
+      {
+        "page": 6,
+        "text": ""
+      },
+      {
+        "page": 7,
+        "text": ""
+      },
+      {
+        "page": 8,
+        "text": ""
+      },
+      {
+        "page": 9,
+        "text": ""
+      },
+      {
+        "page": 10,
+        "text": ""
+      }
+    ],
+    "tables": []
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

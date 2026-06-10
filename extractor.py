@@ -712,7 +712,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Extract content from documents of a single faculty (no deletion)."
     )
-    parser.add_argument("--input",     "-i", default="./university_farhat_abaas/clean_dataset")
+    parser.add_argument("--input",     "-i", default="./university_farhat_abaas/feco")
     parser.add_argument("--output",    "-o", default="extracted")
     parser.add_argument("--min-chars", type=int, default=MIN_TEXT_CHARS)
     args = parser.parse_args()

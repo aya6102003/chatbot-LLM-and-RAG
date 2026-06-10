@@ -1,0 +1,66 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/premier-cycle",
+  "title": "كلية التكنولوجيا",
+  "headers": [
+    "الميدان",
+    "التخصص",
+    "Intitulé de la licence et du master",
+    "Type",
+    "Retenu en",
+    "Arrêter MESRS N°"
+  ],
+  "rows": [
+    [
+      "ST (D01) L1",
+      "Automatique",
+      "- Automatique",
+      "A",
+      "2015",
+      "729 du 05-08-2015"
+    ],
+    [
+      "الكتروتقني",
+      "- Electrotechnique",
+      "2015",
+      "729 du 05-08-2015"
+    ],
+    [
+      "Génie des procédés",
+      "- Génie des procédés",
+      "2015",
+      "729 du 05-08-2015"
+    ],
+    [
+      "هندسة مدنية",
+      "- Génie civil",
+      "2015",
+      "729 du 05-08-2015"
+    ],
+    [
+      "الكترونيك",
+      "- Electronique",
+      "2015",
+      "729 du 05-08-2015"
+    ],
+    [
+      "Génie mécanique",
+      "- Energétique",
+      "2016",
+      "1088 du 09-08-2016"
+    ],
+    [
+      "Télécommunications",
+      "-Télécommunications",
+      "2016",
+      "1088 du 09-08-2016"
+    ],
+    [
+      "Travaux publics",
+      "Travaux publics",
+      "2016",
+      "1088 du 09-08-2016"
+    ]
+  ],
+  "row_count": 8,
+  "col_count": 6
+}

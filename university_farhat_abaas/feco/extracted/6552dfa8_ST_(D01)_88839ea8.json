@@ -1,0 +1,336 @@
+{
+  "metadata": {
+    "file": {
+      "path": "D:\\pfe\\chatbot-LLM-and-RAG\\university_farhat_abaas\\feco\\pdfs\\6552dfa8_ST_(D01).pdf",
+      "name": "6552dfa8_ST_(D01).pdf",
+      "type": "pdf",
+      "size_bytes": 373117,
+      "id": "88839ea8"
+    },
+    "extracted_at": "2026-06-10T12:39:07.094956"
+  },
+  "content": {
+    "text": " \n‏L1 ST/السنة االولى علوم وتكنولوجيا ‏\n Semestre 1 \n \nUnité d'enseignement \nMatières \nCrédits Coefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.1 \nCrédits : 18 \nCoefficients : 9 \nMathématiques 1 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nPhysique 1 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nStructure de la matière  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.1 \nCrédits : 9 \nCoefficients : 5 \nTP Physique 1 \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Chimie 1 \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nInformatique 1 \n4 \n2 \n1h30 \n \n1h30 \n45h00 \n40% \n60% \nMéthodologie de la \nrédaction  \n1 \n1 \n1h00 \n \n \n15h00 \n \n100% \nUE Découverte \nCode : UED 1.1 \nCrédits : 1 \nCoefficients : 1 \nLes métiers en Sciences  \net Technologies 1 \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.1 \nCrédits : 2 \nCoefficients : 2 \nLangue étrangère 1 \n(Français et/ou anglais) \n2 \n2 \n3h00 \n \n \n45h00 \n \n100 % \nTotal semestre 1 \n \n30 \n17 \n16h00 4h30 4h30 \n375h00 \n \n \n \n\n Semestre 2 \n \nUnité d'enseignement \nMatières \nCrédits Coefficient \nVolume horaire \nhebdomadaire \nVolume \nHoraire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.2 \nCrédits : 18 \nCoefficients : 9 \nMathématiques 2 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nPhysique 2 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nThermodynamique  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.2 \nCrédits : 9 \nCoefficients : 5 \nTP Physique 2 \n2 \n1 \n \n1h30 \n22h30 \n100% \nTP Chimie 2 \n2 \n1 \n \n1h30 \n22h30 \n100% \nInformatique 2 \n4 \n2 \n1h30 \n \n1h30 \n45h00 \n40% \n60% \nMéthodologie de la \nprésentation  \n1 \n1 \n1h00 \n \n \n15h00 \n \n100% \nUE Découverte \nCode : UED 1.2 \nCrédits : 1 \nCoefficients : 1 \nLes métiers en Sciences  \net Technologies 2 \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.2 \nCrédits : 2 \nCoefficients : 2 \nLangue étrangère 2 \n(Français et/ou anglais) \n2 \n2 \n3h00 \n \n \n45h00 \n \n100 % \nTotal semestre 2 \n \n30 \n17 \n16h00 4h30 4h30 \n375h00 \n \n \n \n",
+    "pages": [
+      {
+        "page": 1,
+        "text": "L1 ST/السنة االولى علوم وتكنولوجيا \n Semestre 1 \n \nUnité d'enseignement \nMatières \nCrédits Coefficient \nVolume horaire \nhebdomadaire \nVolume Horaire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.1 \nCrédits : 18 \nCoefficients : 9 \nMathématiques 1 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nPhysique 1 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nStructure de la matière  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.1 \nCrédits : 9 \nCoefficients : 5 \nTP Physique 1 \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nTP Chimie 1 \n2 \n1 \n \n \n1h30 \n22h30 \n100% \n \nInformatique 1 \n4 \n2 \n1h30 \n \n1h30 \n45h00 \n40% \n60% \nMéthodologie de la \nrédaction  \n1 \n1 \n1h00 \n \n \n15h00 \n \n100% \nUE Découverte \nCode : UED 1.1 \nCrédits : 1 \nCoefficients : 1 \nLes métiers en Sciences  \net Technologies 1 \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.1 \nCrédits : 2 \nCoefficients : 2 \nLangue étrangère 1 \n(Français et/ou anglais) \n2 \n2 \n3h00 \n \n \n45h00 \n \n100 % \nTotal semestre 1 \n \n30 \n17 \n16h00 4h30 4h30 \n375h00"
+      },
+      {
+        "page": 2,
+        "text": " Semestre 2 \n \nUnité d'enseignement \nMatières \nCrédits Coefficient \nVolume horaire \nhebdomadaire \nVolume \nHoraire \nSemestriel \n(15 semaines) \nMode d’évaluation \nCours \nTD \nTP \nContrôle \nContinu \nExamen \nUE Fondamentale \nCode : UEF 1.2 \nCrédits : 18 \nCoefficients : 9 \nMathématiques 2 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nPhysique 2 \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nThermodynamique  \n6 \n3 \n3h00 \n1h30 \n \n67h30 \n40% \n60% \nUE Méthodologique \nCode : UEM 1.2 \nCrédits : 9 \nCoefficients : 5 \nTP Physique 2 \n2 \n1 \n \n1h30 \n22h30 \n100% \nTP Chimie 2 \n2 \n1 \n \n1h30 \n22h30 \n100% \nInformatique 2 \n4 \n2 \n1h30 \n \n1h30 \n45h00 \n40% \n60% \nMéthodologie de la \nprésentation  \n1 \n1 \n1h00 \n \n \n15h00 \n \n100% \nUE Découverte \nCode : UED 1.2 \nCrédits : 1 \nCoefficients : 1 \nLes métiers en Sciences  \net Technologies 2 \n1 \n1 \n1h30 \n \n \n22h30 \n \n100% \nUE Transversale \nCode : UET 1.2 \nCrédits : 2 \nCoefficients : 2 \nLangue étrangère 2 \n(Français et/ou anglais) \n2 \n2 \n3h00 \n \n \n45h00 \n \n100 % \nTotal semestre 2 \n \n30 \n17 \n16h00 4h30 4h30 \n375h00"
+      }
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "page": 1,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume Horaire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1\nCrédits : 18\nCoefficients : 9",
+            "Matières": "Mathématiques 1",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1\nCrédits : 18\nCoefficients : 9",
+            "Matières": "Physique 1",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.1\nCrédits : 18\nCoefficients : 9",
+            "Matières": "Structure de la matière",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Physique 1",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Chimie 1",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Informatique 1",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.1\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Méthodologie de la\nrédaction",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h00",
+            "column_5": "1h00",
+            "column_6": "1h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "15h00",
+            "Mode d’évaluation": "15h00",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.1\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Les métiers en Sciences\net Technologies 1",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 1.1\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Langue étrangère 1\n(Français et/ou anglais)",
+            "Crédits": "2",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "3h00",
+            "column_6": "3h00",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "45h00",
+            "column_9": "100 %"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 1",
+            "Matières": "Total semestre 1",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "16h00",
+            "column_5": "4h30",
+            "column_6": "4h30",
+            "Volume Horaire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      },
+      {
+        "type": "table",
+        "page": 2,
+        "table_index": 0,
+        "headers": [
+          "Unité d'enseignement",
+          "Matières",
+          "Crédits",
+          "Coefficient",
+          "Volume horaire\nhebdomadaire",
+          "column_5",
+          "column_6",
+          "Volume\nHoraire\nSemestriel\n(15 semaines)",
+          "Mode d’évaluation",
+          "column_9"
+        ],
+        "rows": [
+          {
+            "Unité d'enseignement": "",
+            "Matières": "",
+            "Crédits": "",
+            "Coefficient": "",
+            "Volume horaire\nhebdomadaire": "Cours",
+            "column_5": "TD",
+            "column_6": "TP",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "TP",
+            "Mode d’évaluation": "Contrôle\nContinu",
+            "column_9": "Examen"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2\nCrédits : 18\nCoefficients : 9",
+            "Matières": "Mathématiques 2",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2\nCrédits : 18\nCoefficients : 9",
+            "Matières": "Physique 2",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Fondamentale\nCode : UEF 1.2\nCrédits : 18\nCoefficients : 9",
+            "Matières": "Thermodynamique",
+            "Crédits": "6",
+            "Coefficient": "3",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "67h30",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Physique 2",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "TP Chimie 2",
+            "Crédits": "2",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1",
+            "column_5": "1",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "100%",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Informatique 2",
+            "Crédits": "4",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "40%",
+            "column_9": "60%"
+          },
+          {
+            "Unité d'enseignement": "UE Méthodologique\nCode : UEM 1.2\nCrédits : 9\nCoefficients : 5",
+            "Matières": "Méthodologie de la\nprésentation",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h00",
+            "column_5": "1h00",
+            "column_6": "1h00",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "15h00",
+            "Mode d’évaluation": "15h00",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Découverte\nCode : UED 1.2\nCrédits : 1\nCoefficients : 1",
+            "Matières": "Les métiers en Sciences\net Technologies 2",
+            "Crédits": "1",
+            "Coefficient": "1",
+            "Volume horaire\nhebdomadaire": "1h30",
+            "column_5": "1h30",
+            "column_6": "1h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "22h30",
+            "Mode d’évaluation": "22h30",
+            "column_9": "100%"
+          },
+          {
+            "Unité d'enseignement": "UE Transversale\nCode : UET 1.2\nCrédits : 2\nCoefficients : 2",
+            "Matières": "Langue étrangère 2\n(Français et/ou anglais)",
+            "Crédits": "2",
+            "Coefficient": "2",
+            "Volume horaire\nhebdomadaire": "3h00",
+            "column_5": "3h00",
+            "column_6": "3h00",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "45h00",
+            "Mode d’évaluation": "45h00",
+            "column_9": "100 %"
+          },
+          {
+            "Unité d'enseignement": "Total semestre 2",
+            "Matières": "Total semestre 2",
+            "Crédits": "30",
+            "Coefficient": "17",
+            "Volume horaire\nhebdomadaire": "16h00",
+            "column_5": "4h30",
+            "column_6": "4h30",
+            "Volume\nHoraire\nSemestriel\n(15 semaines)": "375h00",
+            "Mode d’évaluation": "375h00",
+            "column_9": "375h00"
+          }
+        ],
+        "extraction_method": "pdfplumber"
+      }
+    ]
+  },
+  "resources": {
+    "links": [],
+    "images": [],
+    "documents": []
+  }
+}

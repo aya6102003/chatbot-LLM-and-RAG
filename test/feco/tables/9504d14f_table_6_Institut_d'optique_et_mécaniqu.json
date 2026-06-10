@@ -1,0 +1,39 @@
+{
+  "source_url": "https://www.univ-setif.dz/altkwyn/deuxieme-cycle",
+  "title": "Institut d'optique et mécanique de précision :",
+  "headers": [
+    "Domaine",
+    "Filière",
+    "Intitulé de la licence et du master",
+    "Type",
+    "Retenu en",
+    "Arrêter MESRS N°"
+  ],
+  "rows": [
+    [
+      "ST\n(F12)",
+      "Optique et mécanique de précision",
+      "Optique et photonique Appliquées",
+      "Académique",
+      "2015",
+      "1078 du 13-10-2015"
+    ],
+    [
+      "Mécanique Fine",
+      "2015",
+      "1078 du 13-10-2015"
+    ],
+    [
+      "Mécanique des matériaux",
+      "2015",
+      "1078 du 13-10-2015"
+    ],
+    [
+      "Optomécanique",
+      "2015",
+      "1078 du 13-10-2015"
+    ]
+  ],
+  "row_count": 4,
+  "col_count": 6
+}

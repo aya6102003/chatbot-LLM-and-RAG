@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "page": {
+      "url": "https://eco.univ-setif.dz/alhyat-fy-alklyt/les-clubs-scientifiques",
+      "title": "النوادي العلمية",
+      "id": "37e91abe",
+      "type": "content"
+    },
+    "update": {
+      "fetched_at": "2026-06-10T10:04:31",
+      "hash": "937da1fedd42f535",
+      "update_num": 1
+    }
+  },
+  "content": {
+    "text": "النادي العلمي لقسم علوم التسيير ZENITH CLUB\nالنادي العلمي للتسويق\nالنادي العلمي للاقتصاد\nنادي القدوة العلمي"
+  },
+  "resources": {
+    "links": [
+      {
+        "text": "النادي العلمي لقسم علوم التسيير ZENITH CLUB",
+        "url": "https://eco.univ-setif.dz/Doc/clubs/zenith.pdf",
+        "type": "internal"
+      },
+      {
+        "text": "النادي العلمي للتسويق",
+        "url": "https://eco.univ-setif.dz/Doc/clubs/mrc.pdf",
+        "type": "internal"
+      },
+      {
+        "text": "النادي العلمي للاقتصاد",
+        "url": "https://eco.univ-setif.dz/Doc/clubs/economica.pdf",
+        "type": "internal"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://eco.univ-setif.dz/images/1/33.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/templates/lt_news/images/presets/preset1/logo.svg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/slide/dspace-blue-UFAS-2024.gif",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/iqraa.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/sndl.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/pnst.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/biblio.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/catalogue-biblio.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/catalogue-collectif.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/t.i.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fsciences.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fmedecine.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fseg.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-fsnv.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-ft.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-iast.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/ressources-documentaire/Catalogue-iomp.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "url": "https://eco.univ-setif.dz/images/logo-officielle.png",
+        "alt": "",
+        "desc": ""
+      }
+    ],
+    "documents": [
+      {
+        "title": "النادي العلمي لقسم علوم التسيير ZENITH CLUB",
+        "url": "https://eco.univ-setif.dz/Doc/clubs/zenith.pdf",
+        "local_file": "pdfs/37e91abe_النادي_العلمي_لقسم_علوم_التسيير_ZENITH_C.pdf"
+      },
+      {
+        "title": "النادي العلمي للتسويق",
+        "url": "https://eco.univ-setif.dz/Doc/clubs/mrc.pdf",
+        "local_file": "pdfs/37e91abe_النادي_العلمي_للتسويق.pdf"
+      },
+      {
+        "title": "النادي العلمي للاقتصاد",
+        "url": "https://eco.univ-setif.dz/Doc/clubs/economica.pdf",
+        "local_file": "pdfs/37e91abe_النادي_العلمي_للاقتصاد.pdf"
+      }
+    ],
+    "tables": []
+  }
+}
