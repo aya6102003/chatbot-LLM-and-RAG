@@ -1,46 +1,50 @@
+#!/usr/bin/env python3
+"""
+LLM Generation Layer v10.0 — Farhat Abbas University Sétif 1
+============================================================
+Compatible with RAG v16.5 (rag.py) — Stable + Bidirectional + Soft Temporal.
 
-from __future__ import annotations
+Changes vs v9.0
+───────────────
+  • Compatible with RAG v16.5 (no clarification, no context API changes)
+  • Temporal hints passed to LLM prompt for time-aware answers
+  • Only shows sources that were actually USED (score > 0.50)
+  • PDF file awareness with clear messaging
+  • StreamSession with multi-turn conversation + context tracking
+  • Cleaner source extraction — no sources from unused chunks
+"""
 
-import json
-import logging
 import os
 import re
 import sys
 import time
-from copy import deepcopy
+import logging
+from typing import Dict, Generator, List, Optional, Tuple
 from dataclasses import dataclass, field
-from typing import Dict, Generator, List, Optional, Set, Tuple
 
 from groq import Groq
 
-# ── RAG v16 public API ────────────────────────────────────────
-import rag as rag
-from rag import (
-    QueryAnalyzer,
-    retrieve_for_llm,
-    traverse_graph,
-)
+import rag
+from rag import QueryAnalyzer
 
 # ─────────────────────────────────────────────────────────────
 # LOGGING
 # ─────────────────────────────────────────────────────────────
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-)
+logging.basicConfig(level=logging.INFO,
+                    format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
 
 # ─────────────────────────────────────────────────────────────
 # CONFIG
 # ─────────────────────────────────────────────────────────────
-GROQ_API_KEY       = os.getenv("GROQ_API_KEY")
-GROQ_MODEL         = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
-MAX_CONTEXT_CHARS  = 8_000
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_MODEL   = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+MAX_CONTEXT_CHARS  = 10000  # Increased for expanded chunks
 GENERATION_TIMEOUT = 60
-TOP_K_RETRIEVE     = 5
+TOP_K_RETRIEVE = 5
 
 if not GROQ_API_KEY:
-    log.warning("GROQ_API_KEY is not set — generation will fail.")
+    log.warning("GROQ_API_KEY is not set. Generation will fail.")
 
 # ─────────────────────────────────────────────────────────────
 # DATA MODELS
@@ -50,9 +54,10 @@ if not GROQ_API_KEY:
 class Source:
     title:       str
     url:         str
-    pdf_url:     str   = ""
-    source_type: str   = "page"
+    pdf_url:     str = ""
+    source_type: str = "page"
     chunk_score: float = 0.0
+    is_pdf_only: bool = False
 
 
 @dataclass
@@ -74,18 +79,21 @@ LANG_CONFIG: Dict[str, Dict[str, str]] = {
         "instruction": "أجب باللغة العربية فقط.",
         "no_data":     "عذراً، لا توجد معلومات موثوقة حول هذا الموضوع في قاعدة البيانات المتاحة.",
         "graph_intro": "فيما يلي هيكل الكلية / القسم المطلوب:",
+        "pdf_notice":  "📄 هذه المعلومات من ملف PDF. يمكنك تحميله من:",
     },
     "fr": {
         "name":        "French",
         "instruction": "Répondez UNIQUEMENT en français.",
         "no_data":     "Désolé, aucune information fiable sur ce sujet n'a été trouvée dans les données disponibles.",
         "graph_intro": "Voici la structure de la faculté / département demandé :",
+        "pdf_notice":  "📄 Ces informations proviennent d'un fichier PDF. Téléchargez-le depuis :",
     },
     "en": {
         "name":        "English",
         "instruction": "Respond ONLY in English.",
         "no_data":     "Sorry, no reliable information about this topic was found in the available data.",
         "graph_intro": "Here is the requested faculty / department structure:",
+        "pdf_notice":  "📄 This information is from a PDF file. Download it from:",
     },
 }
 
@@ -94,7 +102,6 @@ _RE_FR = re.compile(
     r"\b(le|la|les|de|du|des|et|en|un|une|pour|avec|dans|sur|est)\b",
     re.IGNORECASE,
 )
-
 
 def detect_language(text: str) -> str:
     s = text[:200]
@@ -127,9 +134,7 @@ def truncate_context(llm_context: str, max_chars: int = MAX_CONTEXT_CHARS) -> st
 
 
 def _format_graph_result(graph_data: Dict, lang: str) -> str:
-    """
-    Convert the dict returned by rag.traverse_graph() into readable Markdown.
-    """
+    """Convert the dict returned by rag.traverse_graph() into readable Markdown."""
     intro  = LANG_CONFIG.get(lang, LANG_CONFIG["en"])["graph_intro"]
     lines  = [intro, ""]
     nodes  = graph_data.get("graph_results", [])
@@ -150,27 +155,27 @@ def _format_graph_result(graph_data: Dict, lang: str) -> str:
 
 
 # ─────────────────────────────────────────────────────────────
-# SOURCE EXTRACTION — updated for RAG v16 flat chunk format
+# SOURCE EXTRACTION — only from used chunks (score > 0.45)
 # ─────────────────────────────────────────────────────────────
 
 def _extract_sources(results: List[Dict]) -> List[Source]:
     """
-    RAG v16 returns flat dicts.  All fields are top-level:
-      chunk["url"], chunk["pdf_url"], chunk["title"], chunk["source_type"], …
+    Extract sources ONLY from chunks with score > 0.45.
+    Slightly lower threshold to include borderline relevant sources.
     """
     sources:   List[Source] = []
-    seen_urls: Set[str]     = set()
+    seen_urls: set          = set()
 
     for r in results:
-        # RAG v16: fields are top-level (no nested metadata)
-        source_type = r.get("source_type", "page")
-        pdf_url     = r.get("pdf_url",  "")
-        url         = r.get("url",      "")
-        title       = r.get("title",    "Document")
-
-        # Skip graph_result synthetic chunks
-        if r.get("chunk_id") == "graph_result":
+        score = r.get("score", 0.0)
+        if score < 0.45:
             continue
+        
+        source_type = r.get("source_type", "page")
+        pdf_url     = r.get("pdf_url", "")
+        url         = r.get("url", "")
+        title       = r.get("title", "Document")
+        is_pdf_only = r.get("is_pdf_only", False)
 
         canonical = url or pdf_url
         if not canonical or canonical in seen_urls:
@@ -182,7 +187,8 @@ def _extract_sources(results: List[Dict]) -> List[Source]:
             url         = url,
             pdf_url     = pdf_url,
             source_type = source_type,
-            chunk_score = r.get("score", 0.0),
+            chunk_score = score,
+            is_pdf_only = is_pdf_only,
         ))
 
     return sources
@@ -196,7 +202,7 @@ def _is_document_only(results: List[Dict]) -> Tuple[bool, str, str]:
     source_type = top.get("source_type", "")
     text        = top.get("text", "").strip()
     pdf_url     = top.get("pdf_url", "")
-    url         = top.get("url",     "")
+    url         = top.get("url", "")
 
     if source_type == "pdf" and len(text) < 200 and pdf_url:
         return True, url, pdf_url
@@ -204,11 +210,18 @@ def _is_document_only(results: List[Dict]) -> Tuple[bool, str, str]:
 
 
 def _format_sources_md(sources: List[Source], lang: str) -> str:
+    """Return a Markdown sources block. Only includes sources that were actually used."""
     if not sources:
         return ""
+    
+    usable_sources = [s for s in sources if s.chunk_score > 0.45]
+    if not usable_sources:
+        return ""
+    
     labels = {"ar": "📚 المصادر", "fr": "📚 Sources", "en": "📚 Sources"}
     lines  = [f"\n\n{labels.get(lang, '📚 Sources')}"]
-    for s in sources:
+    
+    for s in usable_sources:
         if s.source_type == "pdf" and s.pdf_url:
             if s.url and s.url != s.pdf_url:
                 lines.append(f"- [{s.title}]({s.url})  ·  [⬇ PDF]({s.pdf_url})")
@@ -220,247 +233,8 @@ def _format_sources_md(sources: List[Source], lang: str) -> str:
                 lines.append(f"- [{s.title}]({display_url})")
             else:
                 lines.append(f"- {s.title}")
+    
     return "\n".join(lines)
-
-
-# ─────────────────────────────────────────────────────────────
-# CLARIFICATION ENGINE
-# ─────────────────────────────────────────────────────────────
-
-_SLOT_DEFS: Dict[str, Dict] = {
-    "person_name": {
-        "label": {
-            "en": "the person's full name (or partial name / role)",
-            "fr": "le nom complet de la personne (ou nom partiel / fonction)",
-            "ar": "الاسم الكامل للشخص (أو اسم جزئي / وظيفة)",
-        },
-        "patterns": [
-            r"(?:name(?:\s+is)?|called|named|prof(?:esseur)?\.?\s+|dr\.?\s+|docteur\s+)"
-            r"([A-ZÀ-Öa-zà-ö][A-ZÀ-Öa-zà-ö\s\-\.]{2,})",
-        ],
-        "intents": {"person_lookup"},
-    },
-    "faculty": {
-        "label": {
-            "en": "the faculty (e.g. Faculty of Science, Faculty of Technology…)",
-            "fr": "la faculté (ex. Faculté des Sciences, Faculté de Technologie…)",
-            "ar": "الكلية (مثل كلية العلوم، كلية التكنولوجيا…)",
-        },
-        "patterns": [
-            r"(?:faculty\s+of|faculté\s+(?:de|des?|d')|كلية\s+)"
-            r"([A-ZÀ-Öa-zà-öء-ي][A-ZÀ-Öa-zà-öء-ي\s\-\.]{2,})",
-        ],
-        "intents": {"planning", "course_material", "course_query"},
-    },
-    "department": {
-        "label": {
-            "en": "the department (e.g. Computer Science, Physics…)",
-            "fr": "le département (ex. Informatique, Physique…)",
-            "ar": "القسم (مثل الإعلام الآلي، الفيزياء…)",
-        },
-        "patterns": [
-            r"(?:department\s+of|dept\.?\s+of|département\s+(?:de|d')|قسم\s+)"
-            r"([A-ZÀ-Öa-zà-öء-ي][A-ZÀ-Öa-zà-öء-ي\s\-\.]{2,})",
-        ],
-        "intents": {"planning", "course_material", "course_query"},
-    },
-    "level": {
-        "label": {
-            "en": "the academic level (e.g. L1, L2, L3, M1, M2, Doctorate…)",
-            "fr": "le niveau académique (ex. L1, L2, L3, M1, M2, Doctorat…)",
-            "ar": "المستوى الدراسي (مثل س1، س2، س3، م1، م2، دكتوراه…)",
-        },
-        "patterns": [
-            r"\b(L[123]|M[12]|Doctorate|PhD|Licence\s+[123]|Master\s+[12]"
-            r"|ليسانس\s*[١-٣123]|ماستر\s*[١-٢12]|دكتوراه)\b",
-        ],
-        "intents": {"planning", "course_material", "course_query"},
-    },
-    "program": {
-        "label": {
-            "en": "the program / specialty (e.g. Software Engineering, Networks…)",
-            "fr": "la spécialité / filière (ex. Génie Logiciel, Réseaux…)",
-            "ar": "التخصص / الشعبة (مثل هندسة البرمجيات، الشبكات…)",
-        },
-        "patterns": [],
-        "intents": {"planning", "course_material", "course_query"},
-    },
-    "year": {
-        "label": {
-            "en": "the academic year (e.g. 2024-2025)",
-            "fr": "l'année universitaire (ex. 2024-2025)",
-            "ar": "السنة الجامعية (مثل 2024-2025)",
-        },
-        "patterns": [
-            r"\b(20\d{2}[-/]20\d{2})\b",
-            r"\b(20\d{2}[-/]\d{2})\b",
-        ],
-        "intents": {"planning", "course_material", "course_query"},
-    },
-    "course_name": {
-        "label": {
-            "en": "the full course name (e.g. Advanced Algorithms)",
-            "fr": "l'intitulé complet du cours (ex. Algorithmes Avancés)",
-            "ar": "الاسم الكامل للمقياس (مثل الخوارزميات المتقدمة)",
-        },
-        "patterns": [
-            r"(?:course(?:\s+(?:called|named|is))?|module|مقياس|cours(?:\s+de)?)\s*[:\-]?\s*"
-            r"([A-ZÀ-Öa-zà-öء-ي][A-ZÀ-Öa-zà-öء-ي\s\-\(\)]{3,})",
-        ],
-        "intents": {"course_material"},
-    },
-    "course_code": {
-        "label": {
-            "en": "the course code (e.g. INF301, MATH202…)",
-            "fr": "le code du cours (ex. INF301, MATH202…)",
-            "ar": "رمز المقياس (مثل INF301، MATH202…)",
-        },
-        "patterns": [
-            r"\b([A-Z]{2,5}\s*[-_]?\s*\d{2,4}[A-Z]?)\b",
-        ],
-        "intents": {"course_material"},
-    },
-}
-
-REQUIRED_SLOTS: Dict[str, List[str]] = {
-    "person_lookup":   ["person_name"],
-    "planning":        ["faculty", "department", "level", "program", "year"],
-    "course_material": ["faculty", "department", "level", "program", "year",
-                        "course_name", "course_code"],
-}
-
-_QUESTIONS: Dict[str, Dict[str, str]] = {
-    "en": {
-        "person_name":  "👤 Who are you looking for? Please provide their full name, partial name, or role (e.g. \"Prof. Benali\" or \"head of the CS department\").",
-        "faculty":      "🏛️ Which **faculty** does this relate to? (e.g. *Faculty of Science*, *Faculty of Technology*)",
-        "department":   "📂 Which **department**? (e.g. *Computer Science*, *Mathematics*, *Physics*)",
-        "level":        "🎓 What **academic level**? (e.g. L1, L2, L3, M1, M2, Doctorate)",
-        "program":      "📘 What **program / specialty**? (e.g. *Software Engineering*, *Networks & Telecom*)",
-        "year":         "📅 Which **academic year**? (e.g. *2024-2025*)",
-        "course_name":  "📖 What is the **full name of the course**? (e.g. *Advanced Algorithms*, *Digital Signal Processing*)",
-        "course_code":  "🔢 What is the **course code**? (e.g. *INF301*, *MATH202*) — type `skip` if unknown.",
-    },
-    "fr": {
-        "person_name":  "👤 Qui recherchez-vous ? Donnez le nom complet, partiel ou la fonction (ex. « Prof. Benali » ou « chef du département informatique »).",
-        "faculty":      "🏛️ Quelle **faculté** est concernée ? (ex. *Faculté des Sciences*, *Faculté de Technologie*)",
-        "department":   "📂 Quel **département** ? (ex. *Informatique*, *Mathématiques*, *Physique*)",
-        "level":        "🎓 Quel **niveau académique** ? (ex. L1, L2, L3, M1, M2, Doctorat)",
-        "program":      "📘 Quelle **spécialité / filière** ? (ex. *Génie Logiciel*, *Réseaux & Télécoms*)",
-        "year":         "📅 Quelle **année universitaire** ? (ex. *2024-2025*)",
-        "course_name":  "📖 Quel est l'**intitulé complet du cours** ? (ex. *Algorithmes Avancés*, *Traitement du Signal*)",
-        "course_code":  "🔢 Quel est le **code du cours** ? (ex. *INF301*, *MATH202*) — tapez `skip` si inconnu.",
-    },
-    "ar": {
-        "person_name":  "👤 من تبحث عنه؟ يُرجى تقديم الاسم الكامل أو الجزئي أو المنصب (مثل «الأستاذ بن علي» أو «رئيس قسم الإعلام الآلي»).",
-        "faculty":      "🏛️ ما **الكلية** المعنية؟ (مثل *كلية العلوم*، *كلية التكنولوجيا*)",
-        "department":   "📂 ما **القسم**؟ (مثل *الإعلام الآلي*، *الرياضيات*، *الفيزياء*)",
-        "level":        "🎓 ما **المستوى الدراسي**؟ (مثل ل1، ل2، ل3، م1، م2، دكتوراه)",
-        "program":      "📘 ما **التخصص / الشعبة**؟ (مثل *هندسة البرمجيات*، *الشبكات والاتصالات*)",
-        "year":         "📅 ما **السنة الجامعية**؟ (مثل *2024-2025*)",
-        "course_name":  "📖 ما **الاسم الكامل للمقياس**؟ (مثل *الخوارزميات المتقدمة*، *معالجة الإشارات*)",
-        "course_code":  "🔢 ما **رمز المقياس**؟ (مثل *INF301*، *MATH202*) — اكتب `skip` إذا كنت لا تعرفه.",
-    },
-}
-
-
-@dataclass
-class ClarificationState:
-    intent:         str
-    language:       str
-    original_query: str
-    slots:          Dict[str, str] = field(default_factory=dict)
-    pending:        List[str]      = field(default_factory=list)
-    awaiting:       Optional[str]  = None
-    done:           bool           = False
-
-
-class ClarificationEngine:
-
-    @staticmethod
-    def init(query: str, intent: str, lang: str) -> ClarificationState:
-        required = REQUIRED_SLOTS.get(intent, [])
-        state    = ClarificationState(
-            intent         = intent,
-            language       = lang,
-            original_query = query,
-            pending        = list(required),
-        )
-        ClarificationEngine._extract_slots(state, query)
-        return state
-
-    @staticmethod
-    def needs_clarification(state: ClarificationState) -> bool:
-        return bool(state.pending) and not state.done
-
-    @staticmethod
-    def next_question(state: ClarificationState) -> str:
-        if not state.pending:
-            state.done = True
-            return ""
-        slot           = state.pending[0]
-        state.awaiting = slot
-        lang           = state.language
-        questions      = _QUESTIONS.get(lang, _QUESTIONS["en"])
-        return questions.get(slot, f"Please provide: {slot}")
-
-    @staticmethod
-    def ingest_reply(state: ClarificationState, reply: str) -> None:
-        slot    = state.awaiting
-        if slot is None:
-            ClarificationEngine._extract_slots(state, reply)
-            return
-        stripped = reply.strip()
-        if stripped.lower() in {"skip", "passer", "تخطي", "تجاوز", "-", "n/a"}:
-            state.slots[slot] = ""
-        else:
-            extracted         = ClarificationEngine._try_extract(slot, stripped)
-            state.slots[slot] = extracted or stripped
-        if slot in state.pending:
-            state.pending.remove(slot)
-        state.awaiting = None
-        if not state.pending:
-            state.done = True
-
-    @staticmethod
-    def build_enriched_query(state: ClarificationState) -> str:
-        parts  = [state.original_query]
-        labels = {
-            "person_name": "person",
-            "faculty":     "faculty",
-            "department":  "department",
-            "level":       "level",
-            "program":     "program / specialty",
-            "year":        "academic year",
-            "course_name": "course",
-            "course_code": "course code",
-        }
-        for slot, value in state.slots.items():
-            if value:
-                parts.append(f"{labels.get(slot, slot)}: {value}")
-        return " | ".join(parts)
-
-    @staticmethod
-    def _extract_slots(state: ClarificationState, text: str) -> None:
-        for slot_key, slot_def in _SLOT_DEFS.items():
-            if slot_key not in state.pending:
-                continue
-            if slot_key in state.slots:
-                continue
-            if state.intent not in slot_def.get("intents", set()):
-                continue
-            extracted = ClarificationEngine._try_extract(slot_key, text)
-            if extracted:
-                state.slots[slot_key] = extracted
-                state.pending.remove(slot_key)
-
-    @staticmethod
-    def _try_extract(slot_key: str, text: str) -> Optional[str]:
-        slot_def = _SLOT_DEFS.get(slot_key, {})
-        for pattern in slot_def.get("patterns", []):
-            m = re.search(pattern, text, re.IGNORECASE)
-            if m:
-                return m.group(1).strip()
-        return None
 
 
 # ─────────────────────────────────────────────────────────────
@@ -473,10 +247,10 @@ class PromptBuilder:
         self.lang   = lang
         self.cfg    = LANG_CONFIG.get(lang, LANG_CONFIG["en"])
 
-    def build(self, query: str, context: str) -> Tuple[str, str]:
-        return self._system(), self._user(query, context)
+    def build(self, query: str, context: str, has_time_ref: bool = False) -> Tuple[str, str]:
+        return self._system(has_time_ref), self._user(query, context)
 
-    def _system(self) -> str:
+    def _system(self, has_time_ref: bool = False) -> str:
         base = (
             "You are an expert university assistant for Farhat Abbas University Sétif 1.\n"
             "CRITICAL RULES:\n"
@@ -485,44 +259,65 @@ class PromptBuilder:
             "Do not hallucinate or use outside knowledge.\n"
             "3. FORMAT: Use Markdown (bold, lists, tables where useful).\n"
             "4. LINKS: If a chunk contains 'Source:' or 'PDF:' followed by a URL, "
-            "include that link naturally in your answer as a clickable Markdown link."
+            "include that link naturally in your answer as a clickable Markdown link.\n"
+            "5. QUALITY: Each chunk has a [score=X.XX]. "
+            "ONLY use chunks with score > 0.45. "
+            "If multiple chunks contradict, prefer the one with HIGHER score.\n"
+            "6. PDF FILES: If a chunk says '📄 Source PDF' or '📄 This information is from a PDF file', "
+            "mention this clearly in your answer and provide the download link.\n"
+            "7. EXPANDED CHUNKS: The chunks may contain EXPANDED content (previous and next sections "
+            "merged together). Read the FULL text of each chunk carefully - names may appear "
+            "earlier in the merged text while titles/positions appear later.\n"
         )
+        
+        # ✨ Temporal hint
+        if has_time_ref:
+            base += (
+                "8. TIME AWARENESS: The query contains time-related words (current, latest, maintenant, حالي, etc.). "
+                "Look for the MOST RECENT dates in the context (2024, 2025, 2026). "
+                "The chunks are already sorted with recent content prioritized. "
+                "Mention dates clearly when available.\n"
+            )
+            base += "9. If NO chunk has score > 0.45, respond with the no_data message."
+        else:
+            base += "8. If NO chunk has score > 0.45, respond with the no_data message."
+        
         extras: Dict[str, str] = {
             "person_lookup": (
-                "\n5. Extract: Full Name, Title (Prof/Dr), Department, Faculty, "
-                "Email, Office/Bureau, Phone. Format as a profile card. "
-                "Omit fields that are missing — do not guess."
+                "\n\nADDITIONAL INSTRUCTIONS:\n"
+                "• Extract: Full Name, Title (Prof/Dr), Department, Faculty, "
+                "Email, Office/Bureau, Phone. Format as a profile card.\n"
+                "• Omit fields that are missing — do not guess.\n"
+                "• IMPORTANT: Names may be in a different part of the merged chunk "
+                "than the position/title. Read the ENTIRE chunk text to find all details.\n"
+                "• If the query asks about 'current' or 'حالي' or 'maintenant', "
+                "look for the MOST RECENT information (latest dates like 2024, 2025, 2026)."
             ),
             "course_query": (
-                "\n5. Extract: Course Name, Department, Credits, Teacher(s), "
+                "\n\nADDITIONAL INSTRUCTIONS:\n"
+                "• Extract: Course Name, Department, Credits, Teacher(s), "
                 "Syllabus/Description if available."
             ),
-            "course_material": (
-                "\n5. Extract: Course Name, Code, Credits, Teacher(s), "
-                "Syllabus, required textbooks, and any downloadable resources. "
-                "Format clearly with headings."
-            ),
             "admin_query": (
-                "\n5. Extract precise steps, deadlines, required documents, "
-                "and relevant office contacts. Use bullet points for procedures."
+                "\n\nADDITIONAL INSTRUCTIONS:\n"
+                "• Extract precise steps, deadlines, required documents, "
+                "and relevant office contacts. Use bullet points for procedures.\n"
+                "• Pay attention to DATES in the context — deadlines are important!"
             ),
-            "planning": (
-                "\n5. Present the schedule / planning as a structured table "
-                "with columns: Date, Time, Subject/Module, Room, Examiner (if available). "
-                "Group by faculty/department/level as requested."
-            ),
-            "translation": (
-                f"\n5. Translate the provided text into {self.cfg['name']}. "
-                "Maintain original meaning, tone, and structure."
+            "node_query": (
+                "\n\nADDITIONAL INSTRUCTIONS:\n"
+                "• List the relevant specializations, programs, or departments clearly.\n"
+                "• Include any years/levels mentioned (L1, L2, L3, M1, M2)."
             ),
             "table_query": (
-                "\n5. Format the requested list or table strictly as "
+                "\n\nADDITIONAL INSTRUCTIONS:\n"
+                "• Format the requested list or table strictly as "
                 "a Markdown table or bulleted list."
             ),
             "graph_query": (
-                "\n5. The context contains a JSON hierarchy tree. "
-                "Format it as a clean Markdown outline: use headings for faculties, "
-                "bullet points for departments, sub-bullets for programs/specializations."
+                "\n\nADDITIONAL INSTRUCTIONS:\n"
+                "• The context contains a JSON hierarchy tree. "
+                "Format it as a clean Markdown outline."
             ),
         }
         return base + extras.get(self.intent, "")
@@ -591,36 +386,30 @@ class GroqClient:
 class LLMGenerator:
     """
     Orchestrates RAG retrieval → LLM generation.
-    Compatible with RAG v16 (rag_pipeline.py).
+    Compatible with RAG v16.5 (rag.py).
     """
 
     def __init__(self):
-        self._analyzer      = QueryAnalyzer()   # from rag_pipeline
+        self._analyzer      = QueryAnalyzer()
         self._groq          = GroqClient()
         self._last_sources: List[Source] = []
-
-    # ── Public streaming API ──────────────────────────────────
 
     def stream(
         self,
         query:       str,
-        source_type: Optional[str] = None,   # kept for API compat; not forwarded to RAG v16
+        source_type: Optional[str] = None,
         faculty:     Optional[str] = None,
         department:  Optional[str] = None,
     ) -> Generator[str, None, None]:
-        """
-        Single-turn streaming.
-        Does NOT do clarification — use StreamSession for that.
-        """
+        """Single-turn streaming."""
         self._last_sources = []
         clean_q  = preprocess_query(query)
         analysis = self._analyzer.analyze(clean_q)
         lang     = analysis["language"]
         intent   = analysis["intent"]
+        has_time = analysis.get("has_time_ref", False)
 
-        yield from self._generate_from_enriched(clean_q, intent, lang)
-
-    # ── Public synchronous API ────────────────────────────────
+        yield from self._generate_from_enriched(clean_q, intent, lang, has_time)
 
     def generate(self, query: str, source_type: Optional[str] = None) -> GenerationResult:
         """Collect all streamed chunks into one GenerationResult."""
@@ -646,27 +435,25 @@ class LLMGenerator:
             fallback_used = False,
         )
 
-    # ── Core: retrieve → generate ─────────────────────────────
-
     def _generate_from_enriched(
         self,
         enriched_query: str,
         intent:         str,
         lang:           str,
+        has_time:       bool = False,
     ) -> Generator[str, None, None]:
         """
         Full pipeline:
-          1. Handle graph_query without vector retrieval
-          2. Retrieve via RAG v16
-          3. Handle bare-PDF-only result
-          4. Build prompt and stream through Groq
-          5. Append source footnotes
+          1. Handle graph_query
+          2. Retrieve via RAG v16.5
+          3. Build prompt and stream through Groq
+          4. Append source footnotes
         """
 
-        # ── graph_query: direct Neo4j hierarchy, no vectors ───
+        # ── graph_query: direct Neo4j hierarchy ───
         if intent == "graph_query":
             try:
-                graph_data = traverse_graph(enriched_query)
+                graph_data = rag.traverse_graph(enriched_query)
                 context    = _format_graph_result(graph_data, lang)
             except Exception as exc:
                 log.error("Graph traversal failed: %s", exc)
@@ -676,18 +463,22 @@ class LLMGenerator:
                 yield LANG_CONFIG[lang]["no_data"]
                 return
 
-            system_p, user_p = PromptBuilder(intent, lang).build(enriched_query, context)
+            system_p, user_p = PromptBuilder(intent, lang).build(enriched_query, context, has_time)
             yield from self._groq.stream(system_p, user_p, lang)
             return
 
         # ── Standard RAG retrieval ────────────────────────────
         try:
-            results = retrieve_for_llm(query=enriched_query, top_k=TOP_K_RETRIEVE)
+            results = rag.retrieve_for_llm(
+                query=enriched_query,
+                top_k=TOP_K_RETRIEVE,
+            )
         except Exception as exc:
             log.error("Retrieval failed: %s", exc)
             yield LANG_CONFIG[lang]["no_data"]
             return
 
+        # ✨ Extract sources ONLY from used chunks
         self._last_sources = _extract_sources(results)
 
         # ── No results → NO_ANSWER ────────────────────────────
@@ -699,126 +490,53 @@ class LLMGenerator:
         is_doc, page_url, pdf_url = _is_document_only(results)
         if is_doc:
             title = results[0].get("title", "Document")
-            link_map = {
-                "ar": (
-                    f"يمكنك الاطلاع على الصفحة: [{title}]({page_url})\n"
-                    f"أو تحميل الملف مباشرة: [⬇ PDF]({pdf_url})"
-                    if page_url and page_url != pdf_url
-                    else f"يمكنك تحميل الملف مباشرة: [⬇ {title}]({pdf_url})"
-                ),
-                "fr": (
-                    f"Consultez la page : [{title}]({page_url})\n"
-                    f"Ou téléchargez directement : [⬇ PDF]({pdf_url})"
-                    if page_url and page_url != pdf_url
-                    else f"Vous pouvez télécharger le document directement : [⬇ {title}]({pdf_url})"
-                ),
-                "en": (
-                    f"View the page: [{title}]({page_url})\n"
-                    f"Or download directly: [⬇ PDF]({pdf_url})"
-                    if page_url and page_url != pdf_url
-                    else f"You can download the document directly: [⬇ {title}]({pdf_url})"
-                ),
-            }
-            yield link_map.get(lang, link_map["en"])
+            cfg = LANG_CONFIG.get(lang, LANG_CONFIG["en"])
+            if page_url and page_url != pdf_url:
+                yield f"{cfg['pdf_notice']} [{title}]({pdf_url})\n\n🔗 Page web: [{title}]({page_url})"
+            else:
+                yield f"{cfg['pdf_notice']} [{title}]({pdf_url})"
             return
 
         # ── Normal generation ─────────────────────────────────
         llm_context = results[0].get("llm_context", "")
         if not llm_context:
-            # Fallback: build context from individual chunk texts
             llm_context = "\n─────\n".join(
-                r.get("text", "") for r in results if r.get("text")
+                r.get("text", "") for r in results if r.get("text") and r.get("score", 0) > 0.45
             )
 
         context_str  = truncate_context(llm_context)
-        system_p, user_p = PromptBuilder(intent, lang).build(enriched_query, context_str)
+        system_p, user_p = PromptBuilder(intent, lang).build(enriched_query, context_str, has_time)
 
         yield from self._groq.stream(system_p, user_p, lang)
 
+        # ✨ Append sources (only from used chunks)
         sources_md = _format_sources_md(self._last_sources, lang)
         if sources_md:
             yield sources_md
 
 
 # ─────────────────────────────────────────────────────────────
-# STREAM SESSION — multi-turn with pre-flight clarification
+# STREAM SESSION — multi-turn with context
 # ─────────────────────────────────────────────────────────────
 
 class StreamSession:
     """
-    Drives a multi-turn conversation with optional slot-filling.
-
-    Usage
-    ─────
-        session = StreamSession()
-
-        for chunk in session.chat("emploi du temps L2 informatique"):
-            print(chunk, end="", flush=True)
-
-        # If clarification was needed, the next call feeds the reply:
-        for chunk in session.chat("Faculté des Sciences"):
-            print(chunk, end="", flush=True)
-
-        # Once session.finished is True, call session.reset() to reuse.
+    Drives a multi-turn conversation with context tracking.
     """
 
     def __init__(self, source_type: Optional[str] = None):
         self._generator  = LLMGenerator()
         self._analyzer   = QueryAnalyzer()
-        self.source_type = source_type   # kept for API compat
-        self._state:  Optional[ClarificationState] = None
-        self._intent: str  = "general_info"
-        self._lang:   str  = "en"
+        self.source_type = source_type
         self.finished: bool = False
-
-    # ── Public entry point ────────────────────────────────────
 
     def chat(self, user_input: str) -> Generator[str, None, None]:
         clean = preprocess_query(user_input)
-
-        # ── First turn ────────────────────────────────────────
-        if self._state is None:
-            analysis     = self._analyzer.analyze(clean)
-            self._lang   = analysis["language"]
-            self._intent = analysis["intent"]
-
-            self._state = ClarificationEngine.init(clean, self._intent, self._lang)
-
-            if ClarificationEngine.needs_clarification(self._state):
-                yield ClarificationEngine.next_question(self._state)
-                return
-
-            yield from self._run_generation()
-            return
-
-        # ── Reply to clarification question ───────────────────
-        ClarificationEngine.ingest_reply(self._state, clean)
-
-        if ClarificationEngine.needs_clarification(self._state):
-            yield ClarificationEngine.next_question(self._state)
-            return
-
-        yield from self._run_generation()
-
-    # ── Internal generation trigger ───────────────────────────
-
-    def _run_generation(self) -> Generator[str, None, None]:
-        enriched = ClarificationEngine.build_enriched_query(self._state)
-        log.info("Enriched query: %s", enriched)
-
-        yield from self._generator._generate_from_enriched(
-            enriched_query = enriched,
-            intent         = self._intent,
-            lang           = self._lang,
-        )
+        yield from self._generator.stream(clean)
         self.finished = True
 
-    # ── Reset for next question ───────────────────────────────
-
     def reset(self) -> None:
-        self._state   = None
-        self._intent  = "general_info"
-        self._lang    = "en"
+        rag.reset_context() if hasattr(rag, 'reset_context') else None
         self.finished = False
 
 
@@ -841,11 +559,12 @@ if __name__ == "__main__":
     initial_query = " ".join(q_parts) if q_parts else None
 
     print(f"Model : {GROQ_MODEL}")
-    print("Type 'exit' or 'quit' to stop.\n" + "=" * 60)
+    print("Type 'exit' or 'quit' to stop.")
+    print("=" * 60)
 
     session = StreamSession(source_type=src_type)
 
-    user_msg = initial_query if initial_query else input("You: ").strip()
+    user_msg = initial_query if initial_query else input("\nYou: ").strip()
 
     while True:
         if user_msg.lower() in {"exit", "quit", "خروج", "quitter"}:

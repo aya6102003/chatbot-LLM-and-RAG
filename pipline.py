@@ -1,4 +1,3 @@
-
 from __future__ import annotations
 
 import hashlib, json, os, re, time, unicodedata, warnings
@@ -35,8 +34,8 @@ NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "password")
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 GEMINI_MODEL   = "gemini-2.5-flash"
-EMBED_MODEL    = "sentence-transformers/LaBSE"
-EMBED_DIM      = 768
+EMBED_MODEL    = "gemini-embedding-001"
+EMBED_DIM      = 3072
 
 NEO4J_BATCH    = 50
 NEO4J_VECTOR_INDEX = "chunk_embedding"
@@ -829,32 +828,104 @@ class GeminiClassifier:
         except: return None
 
 # ═══════════════════════════ EMBEDDING ═══════════════════════════
+# ═══════════════════════════ EMBEDDING ═══════════════════════════
 
 class EmbeddingClassifier:
-    def __init__(self, model): self.model = model; self._index = None
+    def __init__(self, model_name=None):
+        """Initialize Gemini embeddings client."""
+        api_key = os.getenv("GEMINI_API_KEY", GEMINI_API_KEY)
+        if not api_key:
+            raise RuntimeError("GEMINI_API_KEY not set!")
+        
+        from google import genai
+        self._client = genai.Client(api_key=api_key)
+        self._model_name = "models/gemini-embedding-001"
+        self._index = None
+        self._cache: Dict[str, np.ndarray] = {}
+        logger.info("✓ Gemini embeddings client ready")
+    
+    def _encode_gemini(self, texts: List[str]) -> np.ndarray:
+        """Encode texts using Gemini API."""
+        embeddings = []
+        for text in texts:
+            if text in self._cache:
+                embeddings.append(self._cache[text])
+                continue
+            
+            try:
+                response = self._client.models.embed_content(
+                    model=self._model_name,
+                    contents=text
+                )
+                vec = np.array(response.embeddings[0].values, dtype=np.float32)
+                vec = vec / np.linalg.norm(vec)  # normalize
+                
+                # Cache (limit size)
+                if len(self._cache) > 10000:
+                    self._cache.pop(next(iter(self._cache)))
+                self._cache[text] = vec
+                embeddings.append(vec)
+                
+            except Exception as e:
+                logger.error(f"Gemini encoding failed: {e}")
+                # Fallback: zero vector
+                embeddings.append(np.zeros(EMBED_DIM, dtype=np.float32))
+        
+        return np.array(embeddings, dtype=np.float32)
+    
     def build_index(self, tree):
+        """Build embedding index for academic tree nodes."""
         nodes, sigs = [], []
         for n in tree.all_nodes:
             if n.label in ("Year","Specialization","Program","Category","Department"):
                 sig = n.name
-                if n.parent: sig += f" | {n.path_str}"
-                nodes.append(n); sigs.append(sig)
-        if not nodes: self._index=([],np.array([])); return
-        self._index=(nodes, np.array(self.model.encode(sigs, normalize_embeddings=True, show_progress_bar=False, batch_size=64)))
-        logger.info(f"Embedding index: {len(nodes)} nodes")
+                if n.parent:
+                    sig += f" | {n.path_str}"
+                nodes.append(n)
+                sigs.append(sig)
+        
+        if not nodes:
+            self._index = ([], np.array([], dtype=np.float32))
+            return
+        
+        # Encode with Gemini
+        embeddings = self._encode_gemini(sigs)
+        self._index = (nodes, embeddings)
+        logger.info(f"Embedding index: {len(nodes)} nodes (Gemini 3072-dim)")
+    
     def encode_chunks(self, texts):
-        if not texts: return []
-        return self.model.encode(texts, normalize_embeddings=True, show_progress_bar=False, batch_size=32).tolist()
+        """Encode chunk texts for storage."""
+        if not texts:
+            return []
+        embeddings = self._encode_gemini(texts)
+        return embeddings.tolist()
+    
     def classify(self, text):
-        if not self._index: return None
+        """Classify text using embedding similarity."""
+        if not self._index:
+            return None
+        
         nodes, vecs = self._index
-        if len(nodes)==0: return None
-        dv = self.model.encode([text], normalize_embeddings=True, show_progress_bar=False)[0]
-        sims=np.dot(vecs,dv); bi=int(np.argmax(sims)); bs=float(sims[bi])
-        if bs<EMBED_MIN_CONFIDENCE: return None
-        n=nodes[bi]
-        return {"targets":[{"label":n.label,"name":n.name,"path":n.path_str,"id":""}],"method":"embedding","confidence":bs}
-
+        if len(nodes) == 0:
+            return None
+        
+        # Encode query
+        dv = self._encode_gemini([text])[0]
+        
+        # Cosine similarity
+        sims = np.dot(vecs, dv)
+        bi = int(np.argmax(sims))
+        bs = float(sims[bi])
+        
+        if bs < EMBED_MIN_CONFIDENCE:
+            return None
+        
+        n = nodes[bi]
+        return {
+            "targets": [{"label": n.label, "name": n.name, "path": n.path_str, "id": ""}],
+            "method": "embedding",
+            "confidence": bs
+        }
 # ═══════════════════════════ CHUNKER ═══════════════════════════
 
 class HierarchicalChunker:
@@ -960,22 +1031,21 @@ def collect_json_files(root: Path) -> List[Tuple[Path, str, str]]:
     return results
 
 # ═══════════════════════════ PIPELINE ═══════════════════════════
-
 class IngestionPipeline:
     def __init__(self):
-        logger.info("Loading LaBSE...")
-        self.embed_model = SentenceTransformer(EMBED_MODEL)
-        logger.info("LaBSE ready")
+        logger.info("Initializing Gemini Embeddings...")
+        self.embed_model = None  # لم نعد نحتاج SentenceTransformer
         self.tree = AcademicTree(STRUCTURE_FILE)
         self.neo4j = Neo4jClient()
         self.classifier = SmartClassifier(self.tree, self.neo4j)
         self.gemini = GeminiClassifier()
-        self.embed_clf = EmbeddingClassifier(self.embed_model)
+        self.embed_clf = EmbeddingClassifier()  # يستخدم Gemini API
         self.embed_clf.build_index(self.tree)
         self.chunker = HierarchicalChunker()
         self._candidates_text = self._build_candidates_text()
         self._general_id = self.neo4j.get_general_id()
-
+        logger.info("✅ Pipeline ready (Gemini embeddings)")
+        
     def _build_candidates_text(self):
         lines = ["## Specializations"]
         for n in self.tree.all_nodes:
